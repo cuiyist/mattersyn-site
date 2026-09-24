@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T09:00:18Z",
+  "updated_at": "2026-09-24T09:04:52Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,8 +74,8 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "500 complete, source-checked paper contributions/day is the target. Chen et al. (2018) metadata closeout has passed a separate bounded audit and its 50-file public projection matches the frozen hashes; it is prepared for publication, but remains pending until the deployment is live-checked. ACS Nano and Rusch/Manna audits are active and have identified correction items.",
-      "summary": "Current dataset: 698 records, 140 route variants, 52 material hubs and 37 formal source readers; verified exact structure–recipe pairs remain 0. The measured historical cohort closed 9 sources in 12.87 hours (0.70/hour; 16.8/day by arithmetic only), about 29.8 times below the target. Local-model drafts are not audited contributions. Chen et al. (2018) is one deployed contribution pending final status-metadata publication/live check. ACS Nano source corrections and Rusch/Manna provenance corrections are under separate review.",
+      "stage": "Chen et al. (2018) public audit-status correction is live and browser-verified; because that source was already represented on the site, it is not a new-paper contribution today. ACS Nano and Rusch/Manna remain in independent correction/re-audit lanes.",
+      "summary": "The public dataset remains 698 records, 140 routes, 52 material hubs and 37 formal source readers; verified exact structure–recipe pairs remain 0. Chen et al. (2018) status correction passed an exact-hash delta audit and live-page validation, but is not counted as a new paper because the paper was already represented on the site. ACS Nano corrections and Rusch/Manna provenance corrections are active. Historical throughput remains 0.70 closures/hour in one selected overlapping cohort, about 29.8× below the target by arithmetic.",
       "stages": [
         {
           "label": "Initial source screen",
@@ -94,13 +94,13 @@
         },
         {
           "label": "Reader and dataset integration",
-          "status": "in_progress",
-          "detail": "Chen et al. (2018): metadata correction passed a separate exact-hash delta audit; 50 public projection files match frozen hashes and the local source-review page shows the corrected audit status. Publication and live browser validation remain pending."
+          "status": "complete",
+          "detail": "Chen et al. (2018): the corrected audit status is visible on the public source-review page; route and review-page browser checks pass. No source-paper addition is counted from this metadata-only closeout."
         },
         {
           "label": "500/day capacity requirement",
           "status": "in_progress",
-          "detail": "Target remains 500 fully audited, integrated and browser-validated contributions/day. The measured cohort is 0.70/hour; local model drafts do not count. No paid API/cloud capacity is active."
+          "detail": "Target remains 500 new, fully audited, integrated and browser-validated contributions/day. The measured cohort is 0.70/hour; local model drafts do not count. No paid API/cloud capacity is active."
         }
       ]
     },
@@ -291,8 +291,8 @@
     {
       "short_label": "Chen et al. (2018)",
       "title": "Cs₄PbBr₆/CsPbBr₃ composites: synthesis, luminescence and formation mechanism",
-      "stage": "Separate metadata-delta audit passed; 50-file public projection and local review-page check pass. Ready for publication and live deployment validation.",
-      "summary": "The scoped source audit, 83-check canonical/Reader mapping audit, 476-check molecular/solution binding audit and recorded browser/route checks passed. I independently replayed all 76 allowed metadata changes across 24 JSON files against the frozen before snapshots. This correction changes review labels only: training eligibility remains false, no unique physical batches are asserted, unresolved numerical-cell and batch-linkage gaps remain, and exact structure–recipe pairs remain zero. Public deployment/live check is still pending.",
+      "stage": "Metadata-only correction independently audited and now verified on the live website. The source paper was already present, so this correction is not counted as a new paper contribution.",
+      "summary": "The scoped source audit, 83-check reader mapping audit, 476-check molecular/solution binding audit and 76-field/24-file independent metadata-delta audit passed. The corrected labels are visible on the live source-review page and its 23 recipe/control entries and 46 evidence items load. Training eligibility remains false; no unique physical batches are asserted; structure-cell and specimen-linkage gaps remain; exact structure–recipe pairs remain zero. This is a verified closeout correction, not a newly added source paper.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -311,13 +311,13 @@
         },
         {
           "label": "Reader and dataset integration",
-          "status": "in_progress",
-          "detail": "All 50 prepared site files match the correction receipt hashes; local reader and source-review browser checks pass. Public push and live deployment check pending."
+          "status": "complete",
+          "detail": "The corrected public status labels and source-review route were live-checked in the browser. Dataset scientific counts were unchanged."
         },
         {
           "label": "Publication",
-          "status": "in_progress",
-          "detail": "Metadata-only correction independently audited. Ready for public release; count remains pending until the deployment is live-checked."
+          "status": "complete",
+          "detail": "Metadata-only correction is deployed and live-browser verified. It is excluded from the new-paper count because the paper was already on the site."
         }
       ]
     },
@@ -379,6 +379,10 @@
     }
   ],
   "recent_milestones": [
+    {
+      "at": "2026-09-24T09:04:52Z",
+      "text": "Chen et al. (2018) metadata-only correction is deployed and verified on the public source-review page; all 23 recipe/control entries and 46 evidence items render. The source was already present, so this closeout does not count as a new paper. ACS Nano correction re-audit and Rusch/Manna provenance repair continue in separate lanes."
+    },
     {
       "at": "2026-09-24T09:00:18Z",
       "text": "Chen et al. (2018) status-only correction passed a separate exact-hash delta audit (76 fields/24 files) and local source-review browser check; public deployment remains pending, so it is not yet counted closed. Independent Rusch/Manna review found unresolved recipe-origin pointers and material/page mapping defects; ACS Nano review found a table-page locator and duplicate CSV-header defect."
@@ -465,7 +469,7 @@
   "estimate": {
     "status": "throughput_benchmark_in_progress",
     "summary": "Target: 500 fully audited, integrated, browser-validated source-paper contributions/day (20.83/hour continuously). The selected historical end-to-end cohort was 9 closures in 12.87 hours (0.70/hour; 16.8/day by arithmetic only, not a forecast), about 29.8 times below target. Current concurrency and local draft models do not demonstrate the target; no credible full-corpus finish date is available.",
-    "current_batch": "Chen et al. (2018) status-only correction passed independent delta audit and local browser checks; public deployment/live check is pending. ACS Nano A1–A10 independent audit found two correction items. Rusch/Manna 2026 audit confirmed source quantities/tables checked so far but found 22/23 origin-pointer gaps plus material/page mapping defects. Tirosh, Wu and phosphinate-CdSe reader pilot remain tracked separately.",
+    "current_batch": "Chen et al. (2018) metadata-only correction passed independent exact-delta audit and is now live-verified; the paper was already on the site, so no new paper is counted from this closeout. ACS Nano r2 has two locator/header defects corrected and is awaiting independent re-audit. Rusch/Manna failed its initial audit and is being corrected before a separate re-audit; no records are promoted.",
     "scenarios": [],
     "notes": [
       "Frozen pass set: 5,539 distinct source contents in 5,587 copied files (48 duplicates); main articles and SI are separate screen units, not unique-paper or recipe counts.",
@@ -483,7 +487,7 @@
   "daily_throughput": {
     "target_papers_per_day": 500,
     "completed_papers_today": 0,
-    "deployed_pending_closeout": 1,
+    "deployed_pending_closeout": 0,
     "counting_rule": "Count one source paper only after its scoped source reading, independent scientific audit, recipe/sample/figure checks, material-page integration and browser validation pass. Multiple recipe rows from one paper count once. Drafts and screening skips do not count as website papers built.",
     "observed_pipeline": {
       "papers": 9,
@@ -494,6 +498,6 @@
       "scope_note": "One selected 2026-09-20 concurrent cohort with overlapping work and pipeline fill/drain; this is an observed small-cohort rate, not a forecast."
     },
     "machine_stage_note": "The local RTX 5090/Qwen3.5 runs produce drafts quickly, but the 27B cross-check missed a known source conflict. Machine drafts and model agreement are not independent scientific audit or completed website contributions.",
-    "capacity_note": "The 500/day target requires 20.83 completed papers/hour continuously, one every 2.88 minutes. The current four-lane ceiling and measured end-to-end cohort do not demonstrate this. No paid API or external compute run is active."
+    "capacity_note": "The 500/day target requires 20.83 completed papers/hour continuously, one every 2.88 minutes. The measured end-to-end cohort and current review capacity do not demonstrate this. No paid API or external compute run is active. A status-only correction to the already-published Chen et al. (2018) source page was audited and live-checked today; it is not counted as a new paper contribution."
   }
 }
