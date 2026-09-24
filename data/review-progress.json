@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T06:54:14.084290+00:00",
+  "updated_at": "2026-09-24T06:59:45.959132+00:00",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,7 +74,7 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "The 3-paper reader pilot remains 0/3 published; two complete rechecks, one Tirosh mapping recheck pending, and two additional source packages are ready for audit.",
+      "stage": "Three-source reader pilot: 0/3 contributions integrated. Wu and phosphinate-CdSe scoped audits cleared; Tirosh revision-4 option identity recheck pending. Cu-Sb-S repair passed a bounded recheck; InP targeted audit is pending. Local model tests improve draft speed but have not passed the source-audit gate.",
       "summary": "The 3-paper reader pilot remains 0/3 site-integrated. Two complete source packages cleared scoped audits and correction rechecks; Tirosh’s revision-4 option identity awaits independent recheck. Cu–Sb–S passed a bounded route-metadata correction recheck; its site contribution is pending. InP SI locators were repaired and targeted re-audit is pending. Local Qwen3.5 benchmarks show 108–137 short-document drafts/hour, but both 9B tests missed explicit source conflicts/sample assignments; no model draft is publishable without a separate source audit. The complete-contribution rate is not yet measured.",
       "stages": [
         {
@@ -397,7 +397,7 @@
       "Build and publish academic material readers only after the selected paper’s source, data, figure and independent audit gates pass."
     ],
     "capacity": "User target: 500 complete source-checked website contributions/day. Local Qwen3.5:9B measured 108–137 short-source first-pass drafts/hour; a separate 27B cross-check of the Tirosh draft took 32.09 s but still missed a known 300 K / 230–300 °C conflict and had no rendered figures. This does not establish audited publication throughput. The measured complete-contribution rate remains 0 in the three-source reader pilot; no honest end-to-end daily rate or finish date is established. Continue local batching, evidence quotes/locators, independent source and figure checks, reusable page generation, and batched QA; count only audited, integrated, QA-passed contributions. Meeting 500/day at full standard requires validated review automation and/or additional independent reviewer capacity.",
-    "paid_processing": "No paid API or cloud document processing is active; the user deferred the budget decision. A local RTX 5090 runs Qwen3.5:9B and 27B through Ollama with cloud disabled. The measured pilot supports fast draft generation only. Improve a structured quote-and-locator pipeline and test a distinct audit pass before promoting any model-assisted record; source PDFs stay local.",
+    "paid_processing": "No paid API or cloud document processing is active; the user deferred the budget decision. Local RTX 5090/Qwen3.5 extraction and cross-model audit tests have run with cloud disabled. The distinct 27B check caught some omissions but missed a known source conflict, so no model is accepted as an auditor. Next acceleration step is evidence-quote and locator capture with deterministic validation plus visual review of figures; source PDFs stay local.",
     "screened_at": "2026-09-22T18:34:17.771504-05:00",
     "fixed_pending_provisional_scopes": 9500,
     "manual_file_dispositions": 238,
