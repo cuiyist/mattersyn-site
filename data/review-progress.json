@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T06:59:45.959132+00:00",
+  "updated_at": "2026-09-24T07:04:48.986566+00:00",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,8 +74,8 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "Three-source reader pilot: 0/3 contributions integrated. Wu and phosphinate-CdSe scoped audits cleared; Tirosh revision-4 option identity recheck pending. Cu-Sb-S repair passed a bounded recheck; InP targeted audit is pending. Local model tests improve draft speed but have not passed the source-audit gate.",
-      "summary": "The 3-paper reader pilot remains 0/3 site-integrated. Two complete source packages cleared scoped audits and correction rechecks; Tirosh’s revision-4 option identity awaits independent recheck. Cu–Sb–S passed a bounded route-metadata correction recheck; its site contribution is pending. InP SI locators were repaired and targeted re-audit is pending. Local Qwen3.5 benchmarks show 108–137 short-document drafts/hour, but both 9B tests missed explicit source conflicts/sample assignments; no model draft is publishable without a separate source audit. The complete-contribution rate is not yet measured.",
+      "stage": "Three-source reader pilot: 0/3 contributions integrated; Tirosh recheck active. A separate Chen reader build is in progress, with one precursor-stock identity issue found by independent review and awaiting correction. The 500/day rate remains unproven.",
+      "summary": "The original 3-paper reader pilot remains 0/3 site-integrated. Wu and phosphinate-CdSe scoped audits cleared; Tirosh revision-4 option identity is under independent recheck. Cu-Sb-S route repair passed a bounded recheck; InP targeted audit is pending. A separate Chen et al. (2018) reader integration is underway; its changed-scope audit caught a cesium-oleate stock incorrectly associated with downstream CsPbBr3/Pb-Br identity, and correction/re-audit are pending. Local model tests improve draft speed but not yet audited throughput.",
       "stages": [
         {
           "label": "Initial source screen",
@@ -95,12 +95,12 @@
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Original three-paper pilot remains 0/3 integrated. Cu-Sb-S and InP reader integrations remain pending; Tirosh revision-4 molecule-option links still need independent recheck, full site build and browser QA."
+          "detail": "Original pilot remains 0/3 integrated. Chen et al. 2018 local reader integration is active; its changed-scope audit found a cesium-oleate precursor stock labeled as the downstream CsPbBr3 product family. The builder is correcting the precursor/product identity split; independent audit and browser QA remain required. Cu-Sb-S and InP integrations remain pending."
         },
         {
           "label": "500/day capacity target",
           "status": "in_progress",
-          "detail": "Local Qwen3.5:9B drafted short examples at roughly 108–137 requests/hour. A separate 27B audit pass took 32 s, caught a missing reagent and challenged an unsupported figure assignment, but still missed a known printed temperature conflict and lacked figure images. Neither model pass is a sufficient audit; source and visual checks remain necessary. Complete source-audited, integrated contribution throughput is unmeasured; zero of this three-source pilot is site-integrated. No paid API/cloud processing is active."
+          "detail": "Local Qwen3.5:9B drafted short examples at roughly 108–137 requests/hour. A separate 27B audit pass caught some omissions but still missed a known printed temperature conflict. A page-wise quote validator matched 14/16 candidate quotes on one Tirosh page in a 13.75 s extraction trial; two claims remain rejected for manual inspection. This is a useful filter, not an audit. Complete source-audited, integrated contribution throughput remains unmeasured; zero of the three-source pilot is site-integrated."
         }
       ]
     },
@@ -229,8 +229,8 @@
     {
       "short_label": "Chen et al. (2018)",
       "title": "Cs₄PbBr₆/CsPbBr₃ composites: synthesis, luminescence and formation mechanism",
-      "stage": "Queued for recipe–sample review after the active pilot; source audit passed, website integration pending.",
-      "summary": "The source audit passed, but this paper is retained for pair-level priority review and is not occupying one of the current extraction lanes. No website contribution is counted from it.",
+      "stage": "Local reader integration in progress from the previously audited source package; independent changed-scope audit found a cesium-oleate precursor stock identity mismatch, correction and re-audit pending. Not published.",
+      "summary": "The source-level audit passed, but the frozen reader proposal changes scope and needs its own audit. Independent review found the cesium-oleate stock itself presented as CsPbBr3/Pb-Br product identity. The builder is separating the precursor-stock identity from its downstream product association; exact-locator review, correction audit and site QA remain pending.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -249,8 +249,8 @@
         },
         {
           "label": "Reader and dataset integration",
-          "status": "pending",
-          "detail": "Queued after the current pilot; no canonical website contribution is counted."
+          "status": "in_progress",
+          "detail": "Reader integration is being corrected after the changed-scope audit found a precursor-stock/product-family identity mismatch. No publication until corrected proposal passes independent audit and site/browser QA."
         },
         {
           "label": "Publication",
@@ -317,6 +317,14 @@
     }
   ],
   "recent_milestones": [
+    {
+      "at": "2026-09-24T07:04:48Z",
+      "text": "Parallel reader build/audit lane active: Chen et al. (2018) local integration began from an audited source package. The independent changed-scope audit caught the cesium-oleate stock page mislabeled with downstream CsPbBr3/Pb-Br product identity; correction and re-audit are required. Tirosh revision-4 option-identity recheck is also running. No contribution is counted until both evidence and site QA pass."
+    },
+    {
+      "at": "2026-09-24T07:04:02Z",
+      "text": "Page-wise quote-first trial: local Qwen3.5:9B drafted 16 candidate facts from one Tirosh PDF page in 13.75 s; the quote validator matched 14 and rejected 2 for manual inspection. Helpful filter, not a paper audit. No new website contribution is counted and 500/day remains unproven."
+    },
     {
       "at": "2026-09-24T06:54:13Z",
       "text": "A separate Qwen3.5:27B audit of the 9B Tirosh draft took 32.09 s and flagged the missing hexadecanediol detail and an unsupported Figure 6 temperature claim, but missed the known 300 K / 230–300 °C conflict and lacked figures. Cross-model checking is triage only; no new website contribution is counted and 500/day remains unproven."
@@ -397,7 +405,7 @@
       "Build and publish academic material readers only after the selected paper’s source, data, figure and independent audit gates pass."
     ],
     "capacity": "User target: 500 complete source-checked website contributions/day. Local Qwen3.5:9B measured 108–137 short-source first-pass drafts/hour; a separate 27B cross-check of the Tirosh draft took 32.09 s but still missed a known 300 K / 230–300 °C conflict and had no rendered figures. This does not establish audited publication throughput. The measured complete-contribution rate remains 0 in the three-source reader pilot; no honest end-to-end daily rate or finish date is established. Continue local batching, evidence quotes/locators, independent source and figure checks, reusable page generation, and batched QA; count only audited, integrated, QA-passed contributions. Meeting 500/day at full standard requires validated review automation and/or additional independent reviewer capacity.",
-    "paid_processing": "No paid API or cloud document processing is active; the user deferred the budget decision. Local RTX 5090/Qwen3.5 extraction and cross-model audit tests have run with cloud disabled. The distinct 27B check caught some omissions but missed a known source conflict, so no model is accepted as an auditor. Next acceleration step is evidence-quote and locator capture with deterministic validation plus visual review of figures; source PDFs stay local.",
+    "paid_processing": "No paid API or cloud document processing is active; the user deferred the budget decision. Local RTX 5090/Qwen3.5 extraction and cross-model audit tests have run with cloud disabled; the distinct 27B audit still missed a known conflict. A page-wise quote-presence validator is now tested (14/16 quotes matched on one page) as a rejection filter, not a scientific audit. Source PDFs remain local; visual/source review and integration are still required.",
     "screened_at": "2026-09-22T18:34:17.771504-05:00",
     "fixed_pending_provisional_scopes": 9500,
     "manual_file_dispositions": 238,
@@ -422,7 +430,7 @@
   },
   "estimate": {
     "status": "throughput_benchmark_in_progress",
-    "summary": "Target: 500 fully reviewed paper contributions/day. No end-to-end rate has been demonstrated. Local Qwen3.5:9B produced about 108–137 first-pass drafts/hour on two short sources; a distinct 27B cross-check took 32.09 s on one draft but missed a known temperature conflict and had no figure images. These are draft/triage rates, before source and visual audit, corrections, reader assembly or browser QA. Neither model output is promoted; the three-source reader pilot remains 0/3 integrated. The two-source benchmark is not representative of longer papers/SI, and whole-collection finish time remains unforecastable.",
+    "summary": "Target: 500 fully reviewed paper contributions/day. No end-to-end rate has been demonstrated. Local Qwen3.5:9B produced about 108–137 short-source drafts/hour; a distinct 27B cross-check missed a known conflict. A page-wise evidence trial generated 16 claims in 13.75 s from one page, with 14 quotes matching after conservative normalization. These are draft/filter measurements before scientific interpretation, complete-source and figure audit, reader assembly or browser QA. The three-source reader pilot remains 0/3 integrated; whole-collection finish time remains unforecastable.",
     "current_batch": "Original reader pilot remains 0/3 integrated; Tirosh revision-4 option identity recheck is pending, while Wu and CdSe rechecks are clear. Cu-Sb-S route repair passed a bounded recheck but its site contribution is pending; InP locator correction awaits targeted audit.",
     "scenarios": [],
     "notes": [
@@ -433,7 +441,8 @@
       "Local extraction drafts are not counted as reviewed website contributions. The Qwen3.5:27B benchmark exposed a conflict-normalization error and missing work-up/statistical details; every candidate still requires an independent source check.",
       "The local model runs offline with cloud features disabled. No paid API or external document upload is authorized.",
       "The local site renderer previously processed 680 records in 11.5 s; source reading, independent review, conflict handling and reader QA—not HTML generation—control end-to-end throughput.",
-      "A distinct 27B cross-check caught an omitted reagent but missed the Tirosh 300 K / 230–300 °C conflict and did not inspect figures; model-to-model agreement is not an audit."
+      "A distinct 27B cross-check caught an omitted reagent but missed the Tirosh 300 K / 230–300 °C conflict and did not inspect figures; model-to-model agreement is not an audit.",
+      "Page-wise quote matching rejected two of 16 candidate spans from one Tirosh page; this is a filter test, not a completed paper or audited contribution."
     ]
   }
 }
