@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T09:19:21Z",
+  "updated_at": "2026-09-24T14:28:52Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,41 +74,41 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "Chen et al. (2018) status correction is live and browser-verified, but it is not a new-paper contribution. ACS Nano site integration and Rusch/Manna reader integration are now active in parallel after their latest correction audits passed.",
-      "summary": "The public dataset remains 698 records, 140 routes, 52 material hubs and 37 formal source readers; verified exact structure–recipe pairs remain 0. Chen was already represented and is not counted today. The ACS Nano correction package passed a separate 450-check re-audit, and its isolated material-page candidate is underway. Rusch/Manna's frozen correction package passed a separate delta audit (533 preservation checks, 23 schema/graph checks and 197 supplemental hash/field/origin checks); its reader candidate is underway, with Figure 4 C12 still on hold and source conflicts retained. Neither candidate is integrated or counted yet. The selected historical cohort remains 0.70 closures/hour by arithmetic only, about 29.8× below target; this is not a forecast.",
+      "stage": "Overnight candidates and audits saved; no new source paper published. Three bounded review/correction tasks were restarted this morning.",
+      "summary": "Public scientific totals remain 698 records, 140 routes, 52 material hubs and 37 formal source readers; exact coordinate-recipe pairs remain 0. The ACS Nano R2 reader passed author browser checks and is now under independent acceptance review. Wu Cu2S requires illustration, asset and molecular-binding fixes after its independent site audit. Dhaene CdSe has an SI page-locator correction undergoing independent recheck. Existing Chen/Banerjee page corrections are excluded from the new-paper count. These are saved work states, not proof of continuous overnight execution.",
       "stages": [
         {
           "label": "Initial source screen",
           "status": "in_progress",
-          "detail": "10,702/10,802 distinct contents screened (99.074%); 100 remain access-blocked and unreviewed."
+          "detail": "10,702/10,802 distinct contents screened; 100 remain access-blocked and unreviewed. No new screening credited in this checkpoint."
         },
         {
-          "label": "Structured extraction",
+          "label": "Independent reader acceptance",
           "status": "in_progress",
-          "detail": "ACS Nano 10.1021/acsnano.1c00502: 12 main and 26 matched SI pages were read; corrected extraction passed its separate 450-check re-audit. An isolated CoNi2S4 reader contribution is being built."
+          "detail": "ACS Nano CoNi2S4 R2: source claims, original figures, molecular drawings and browser behavior are being independently checked."
         },
         {
-          "label": "Independent scientific audit",
+          "label": "Reader corrections",
           "status": "in_progress",
-          "detail": "ACS Nano's corrected package passed 450/450 re-audit checks, including all 71 numeric transcriptions and preservation of 16 source conflicts. Rusch/Manna's correction delta passed 533 preservation checks, 23 schema/graph checks and 197 supplemental hash/field/origin checks. The Figure 4 C12 sample assignment remains explicitly unresolved; the candidate is not yet site-integrated."
+          "detail": "Wu Cu2S: prepare a separate R2 with substrate-specific device-heating scenes, the missing product-context endpoint and correct download wording; complete molecular/solution bindings."
         },
         {
-          "label": "Reader and dataset integration",
-          "status": "complete",
-          "detail": "Chen et al. (2018): the corrected audit status is visible on the public source-review page; route and review-page browser checks pass. No source-paper addition is counted from this metadata-only closeout."
-        },
-        {
-          "label": "500/day capacity requirement",
+          "label": "Source-locator correction",
           "status": "in_progress",
-          "detail": "Target remains 500 new, fully audited, integrated and browser-validated contributions/day. The measured cohort is 0.70/hour; local model drafts do not count. No paid API/cloud capacity is active."
+          "detail": "Dhaene CdSe: independent recheck of all 24 SI page labels and the Figure S15 location; preserve the 1 h/30 min source disagreement."
+        },
+        {
+          "label": "500/day requirement",
+          "status": "in_progress",
+          "detail": "No newly completed paper contributions today. The target remains unachieved; drafts, corrections and unpublished candidates are excluded."
         }
       ]
     },
     {
       "short_label": "ACS Nano · 10.1021/acsnano.1c00502",
       "title": "Statistical Multiobjective Optimization of Thiospinel CoNi₂S₄ Nanocrystal Synthesis via Design of Experiments",
-      "stage": "R2 extraction and metadata/schema corrections passed independent re-audit (450/450 checks); isolated site-integration candidate is now being built. No canonical data or public pages are changed yet.",
-      "summary": "The 12-page main article and 26-page matched SI (38 pages total) were read and visually reviewed. Independent r1 audit found two bounded metadata/schema defects; r2 corrects the SI printed-page map (including Table S1 at p4–5/S4–S5) and unique CSV headers after duplicate-value equality was confirmed. The independent r2 re-audit passed 450/450 checks: all 71 new numeric transcriptions are correct, all 16 source conflicts remain, and nine scientific output files are unchanged. An isolated CoNi2S4 site candidate is being assembled to the CdSe standard; it is not yet integrated, deployed or training-approved.",
+      "stage": "R2 reader candidate frozen; author mechanical/browser checks passed. Independent reader acceptance is now active.",
+      "summary": "The source extraction correction previously passed its separate 450-check re-audit. The R2 site candidate contains 14 source figure crops, 8 molecular SVGs and 15 downloads. All 16 issue records remain; 13 disagreements have separately cited claim pairs. Author checks passed at 1440/768/390 px with all images/downloads loading. Those checks do not replace independent scientific/visual acceptance. The candidate remains isolated and unpublished; no training admission.",
       "stages": [
         {
           "label": "Main/SI identity and page coverage",
@@ -126,16 +126,26 @@
           "detail": "Independent r2 audit passed 450/450 checks. All 71 numeric values verified; 16 source conflicts and scientific output files preserved."
         },
         {
-          "label": "Reader and dataset integration",
+          "label": "Reader candidate and author QA",
+          "status": "complete",
+          "detail": "Isolated R2 frozen; author reports 24/24 mechanical checks and three-width browser QA passed."
+        },
+        {
+          "label": "Independent reader acceptance",
           "status": "in_progress",
-          "detail": "Build an isolated CoNi2S4 material-hub contribution from the audited source map; canonical data, public pages and training exports remain unchanged until review."
+          "detail": "Recheck prior blockers and new figure/molecular/source bindings against the frozen candidate and original evidence."
+        },
+        {
+          "label": "Canonical integration and publication",
+          "status": "pending",
+          "detail": "Requires independent acceptance, integration and live verification; no paper completion credited."
         }
       ]
     },
     {
       "short_label": "Rusch/Manna · Chem. Mater. 2026",
       "title": "Source audit · DOI 10.1021/acs.chemmater.5c02845",
-      "stage": "The correction package passed its separate delta audit: 533 preservation checks, 23 schema/graph checks and 197 supplemental hash/field/origin checks. Reader integration is underway; Figure 4 C12 remains on hold.",
+      "stage": "Isolated reader candidate prepared; remaining molecular/solution graphics and independent integration/browser acceptance are queued. Figure 4 C12 remains on hold.",
       "summary": "The full source review covered all 34 supplied pages and 23 candidate records. Its correction package updates 17 comparison files across 13 records; 10 record snapshots are byte-identical. The separate correction delta audit passed 533 preservation assertions, 23 schema/graph checks and 197 supplemental hash/field/origin checks. The original audit history is retained; this is a correction-delta pass, not a new full-source audit. Figure 4 C12 assignment remains explicitly unresolved and source conflicts remain preserved. A reader integration candidate is now being prepared; no records are yet promoted.",
       "stages": [
         {
@@ -169,7 +179,7 @@
     {
       "short_label": "Tirosh et al. (2006)",
       "title": "Cobalt ferrite nanocrystal synthesis and characterization",
-      "stage": "Expanded six-page main-source audit found three metadata/locator defects; corrections applied and targeted independent recheck is pending. SI remains unverified.",
+      "stage": "The source corrections and Fe-alkoxide option-identity targeted recheck passed; final reader/browser integration is queued. The printed 300 K statement remains unresolved.",
       "summary": "The full audit checked all six main pages, Figures 1–7, Table 1 and five records (93/96 checks passed before targeted corrections). The 63-character digest was replaced with the verified 64-character digest; the control is now labelled “Cobalt Oxide” with phase unassigned; comparator-B XRD interpretation locators were added. The failed audit remains in history while independent recheck is pending. No same-paper SI was located or verified.",
       "stages": [
         {
@@ -197,69 +207,69 @@
     {
       "short_label": "Wu et al. (2008)",
       "title": "Synthesis and photovoltaic application of copper(I) sulfide nanocrystals",
-      "stage": "Five-page extraction and independent source audit passed after targeted correction recheck; reader integration pending.",
-      "summary": "All five main-article pages and Figures 1–4 were visually checked. Footnote 24 synthesis, work-up and downstream device-stock branches remain distinct; Figure 1b is a 2DFT orientation, not SAED. The audit correction recheck passes. No same-paper SI was located/verified in the checked source inventory. This is not a canonical/site audit or training-ready pair.",
+      "stage": "Independent R1 site audit preserved source claims but requested corrections. R2 fixes are active.",
+      "summary": "The five-page source extraction and independent source audit were already complete. The R1 reader audit checked four uncertainty groups with eight located claims, 11 routes and 51 operations. Source-value checks passed, but site acceptance failed: device-heating artwork showed vials instead of the appropriate substrates; product-contexts.json was missing; the README overstated exact byte preservation. Molecular/solution bindings remain a separate gate. The next revision retains the source claims and corrects these presentation problems.",
       "stages": [
         {
-          "label": "Source identity and visual coverage",
+          "label": "Source reading and extraction",
           "status": "complete",
-          "detail": "DOI 10.1021/nl801817d verified; recipe footnote and figure/table evidence inspected."
+          "detail": "Five-page source and supplied figures read; scoped extraction frozen."
         },
         {
-          "label": "Structured extraction",
+          "label": "Independent scientific audit",
           "status": "complete",
-          "detail": "Source-linked Markdown/JSON extraction frozen; source hash, page locators and sample references validated."
+          "detail": "Source audit and targeted corrections passed; ambiguity remains explicitly qualified."
         },
         {
-          "label": "Independent audit",
+          "label": "Independent R1 site audit",
           "status": "complete",
-          "detail": "Full independent audit and a targeted recheck of the zone-axis notation and room-temperature precision passed. Site integration remains pending."
+          "detail": "Audit finished with changes requested: 654/658 browser/mechanical checks and 5/5 schema checks; this is not acceptance."
         },
         {
-          "label": "Material reader and website",
+          "label": "Reader R2 and molecular/solution bindings",
+          "status": "in_progress",
+          "detail": "Correct the identified art/asset/documentation issues and finish source-appropriate molecular contexts."
+        },
+        {
+          "label": "Recheck and publication",
           "status": "pending",
-          "detail": "Build only after recipe-to-sample assignments and source locators pass audit."
+          "detail": "No canonical/public promotion or training admission."
         }
       ]
     },
     {
       "short_label": "Phosphinate-ligated CdSe",
       "title": "Ligand-enabled CdSe nanocrystal synthesis and characterization",
-      "stage": "Main and matched 24-page SI extracted; independent audit and targeted correction rechecks passed. Reader integration pending.",
-      "summary": "Title/authors and main/SI relationship were checked; all 12 main pages and 24 SI pages, figures and relevant captions were visually reviewed. Ten protocols, sixteen source-defined sample contexts and twelve observations keep QD, anisotropic, rod/tetrapod and CdS-rod families distinct. Independent audit and two correction rechecks passed. The 1 h/30 min source disagreement remains unresolved and sample time is not selected. No website record is integrated yet.",
+      "stage": "Dhaene et al. (2022): SI page-locator correction proposal frozen; independent targeted recheck is active before integration.",
+      "summary": "The distinct source DOI 10.1021/acsnano.1c08966 is not already represented in the current canonical records. Prior extraction and rechecks covered the supplied 12 main and 24 SI pages. Integration preflight found a wrong universal +1 SI page-offset rule: printed S10/Figure S15 is PDF page 10, not 11. A bounded correction proposal preserves the original evidence and the unresolved 1 h/30 min statements. All 24 page-label mappings are now being independently checked; the source is not yet ready for publication.",
       "stages": [
         {
-          "label": "Main/SI identity",
+          "label": "Source reading and extraction",
           "status": "complete",
-          "detail": "DOI 10.1021/acsnano.1c08966 main article and 24-page matching supplement confirmed."
+          "detail": "Supplied main and 24-page SI extraction frozen with separate variants and evidence."
         },
         {
-          "label": "Full source and figure review",
+          "label": "Prior source audits",
           "status": "complete",
-          "detail": "Full main/SI extraction frozen after visual review of 36 total pages, with 10 protocols, 16 samples, 12 observations and 11 explicit gaps/conflicts. QD/rod/tetrapod/CdS branches retain distinct source/sample IDs."
+          "detail": "Prior receipts retained; the later-discovered locator defect remains explicitly open."
         },
         {
-          "label": "Structured extraction",
-          "status": "complete",
-          "detail": "Revision 3 is frozen with source-located conditions, variants and corrected sample links."
+          "label": "Targeted locator recheck",
+          "status": "in_progress",
+          "detail": "Check SI page numbering and Figure S15 against original rendered pages and exact frozen hashes."
         },
         {
-          "label": "Independent audit",
-          "status": "complete",
-          "detail": "Full independent audit and two bounded targeted correction rechecks passed for all three correction items. Conflicts remain unresolved."
-        },
-        {
-          "label": "CdSe hub contribution",
+          "label": "Reader integration and publication",
           "status": "pending",
-          "detail": "Integrate after source audit; preserve each reported variant and show the 1 h / 30 min claims side by side with exact locators."
+          "detail": "Apply accepted locator corrections in a versioned candidate before reader acceptance."
         }
       ]
     },
     {
       "short_label": "Saini et al. (2023)",
       "title": "Natural amine-targeted carbon quantum dots and nanoaminocatalysis",
-      "stage": "Queued for recipe–sample review after the active pilot; not occupying a current review lane.",
-      "summary": "Main article and supplement extraction coverage is frozen. The independent audit remains pending; this source is retained in the queue and is not yet a verified website contribution.",
+      "stage": "A previous complete independent audit requested DLS/NMR corrections. Author corrections are queued; no active worker is rereading the 119 unchanged pages.",
+      "summary": "The complete 119-page independent audit was found and reconciled with the current frozen inputs. Integrity checks passed 287/287. DLS weighting qualification and three NMR text/plot conflicts still require an author addendum, followed by a targeted independent recheck. The source is not published. The earlier pending-first-audit label was stale.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -273,13 +283,18 @@
         },
         {
           "label": "Independent audit",
+          "status": "complete",
+          "detail": "Prior 119-page audit completed with changes requested; current input bindings checked. Audit completion does not mean acceptance."
+        },
+        {
+          "label": "Author corrections and targeted recheck",
           "status": "pending",
-          "detail": "Waiting for a source-audit slot after the current pilot."
+          "detail": "DLS weighting qualification and three NMR text/plot conflicts; preserve original audit history."
         },
         {
           "label": "Reader and dataset integration",
           "status": "pending",
-          "detail": "No canonical or website promotion; queued after audit."
+          "detail": "Queued after DLS/NMR corrections and targeted acceptance; no promotion."
         },
         {
           "label": "Publication",
@@ -379,6 +394,10 @@
     }
   ],
   "recent_milestones": [
+    {
+      "at": "2026-09-24T14:28:52Z",
+      "text": "Morning reconciliation: ACS R2 author QA completed; Wu independent site audit requests corrections; Dhaene SI page-offset correction awaits recheck. Three next tasks resumed. No new published paper or exact coordinate-recipe pair."
+    },
     {
       "at": "2026-09-24T09:19:21Z",
       "text": "Rusch/Manna correction delta passed its separate audit (533 preservation, 23 schema/graph and 197 supplemental hash/field/origin checks); reader integration candidate is underway, with Figure 4 C12 on hold. ACS Nano r2 passed 450/450 re-audit checks and its CoNi2S4 reader candidate is underway. Neither paper is integrated or counted yet."
@@ -506,6 +525,8 @@
       "scope_note": "One selected 2026-09-20 concurrent cohort with overlapping work and pipeline fill/drain; this is an observed small-cohort rate, not a forecast."
     },
     "machine_stage_note": "The local RTX 5090/Qwen3.5 runs produce drafts quickly, but the 27B cross-check missed a known source conflict. Machine drafts and model agreement are not independent scientific audit or completed website contributions.",
-    "capacity_note": "The 500/day target requires 20.83 completed papers/hour continuously, one every 2.88 minutes. The measured end-to-end cohort and current review capacity do not demonstrate this. No paid API or external compute run is active. A status-only correction to the already-published Chen et al. (2018) source page was audited and live-checked today; it is not counted as a new paper contribution."
+    "capacity_note": "The 500/day target remains unachieved. Three bounded tasks resumed this morning after the previous assignments finished: ACS Nano reader audit, Wu reader corrections, and Dhaene SI locator recheck. No paid API/cloud run is active. Corrections to existing Chen and Banerjee pages are not new papers.",
+    "as_of_date": "2026-09-24",
+    "date_timezone": "America/Chicago"
   }
 }
