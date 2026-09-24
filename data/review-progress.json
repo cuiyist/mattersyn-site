@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T14:28:52Z",
+  "updated_at": "2026-09-24T14:39:15Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,8 +74,8 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "Overnight candidates and audits saved; no new source paper published. Three bounded review/correction tasks were restarted this morning.",
-      "summary": "Public scientific totals remain 698 records, 140 routes, 52 material hubs and 37 formal source readers; exact coordinate-recipe pairs remain 0. The ACS Nano R2 reader passed author browser checks and is now under independent acceptance review. Wu Cu2S requires illustration, asset and molecular-binding fixes after its independent site audit. Dhaene CdSe has an SI page-locator correction undergoing independent recheck. Existing Chen/Banerjee page corrections are excluded from the new-paper count. These are saved work states, not proof of continuous overnight execution.",
+      "stage": "One Reader contribution first published overnight (Chen2018); its closeout state is being reconciled while ACS and Wu reader corrections proceed.",
+      "summary": "Chen first publication increased the dataset from675 to698records,123 to140routes and50 to52material/component hubs. Count the publication once. Its final scoped numerical-review/gate metadata is being reconciled before incrementing the fully closed counter. Current work: ACS R3 molecular/locator/document corrections, Wu R2 art/asset/molecular fixes, and Chen closeout reconciliation. Dhaene CdSe SI-locator correction passed independent targeted recheck and awaits application/integration. Exact coordinate-recipe pairs remain0.",
       "stages": [
         {
           "label": "Initial source screen",
@@ -83,9 +83,9 @@
           "detail": "10,702/10,802 distinct contents screened; 100 remain access-blocked and unreviewed. No new screening credited in this checkpoint."
         },
         {
-          "label": "Independent reader acceptance",
+          "label": "Reader correction after independent audit",
           "status": "in_progress",
-          "detail": "ACS Nano CoNi2S4 R2: source claims, original figures, molecular drawings and browser behavior are being independently checked."
+          "detail": "ACS R2 audit requested four molecular-graph repairs, a prediction locator correction, and restoration of model qualifications. R3 author correction is active."
         },
         {
           "label": "Reader corrections",
@@ -94,21 +94,21 @@
         },
         {
           "label": "Source-locator correction",
-          "status": "in_progress",
-          "detail": "Dhaene CdSe: independent recheck of all 24 SI page labels and the Figure S15 location; preserve the 1 h/30 min source disagreement."
+          "status": "complete",
+          "detail": "Dhaene CdSe: all24SI page mappings and FigureS15 PDF10 independently verified; targeted audit19/19passed. Applying the correction and reader building remain pending."
         },
         {
           "label": "500/day requirement",
           "status": "in_progress",
-          "detail": "No newly completed paper contributions today. The target remains unachieved; drafts, corrections and unpublished candidates are excluded."
+          "detail": "One first-published Reader contribution; zero counted as fully closed pending Chen closeout reconciliation. Drafts and later corrections excluded."
         }
       ]
     },
     {
       "short_label": "ACS Nano · 10.1021/acsnano.1c00502",
       "title": "Statistical Multiobjective Optimization of Thiospinel CoNi₂S₄ Nanocrystal Synthesis via Design of Experiments",
-      "stage": "R2 reader candidate frozen; author mechanical/browser checks passed. Independent reader acceptance is now active.",
-      "summary": "The source extraction correction previously passed its separate 450-check re-audit. The R2 site candidate contains 14 source figure crops, 8 molecular SVGs and 15 downloads. All 16 issue records remain; 13 disagreements have separately cited claim pairs. Author checks passed at 1440/768/390 px with all images/downloads loading. Those checks do not replace independent scientific/visual acceptance. The candidate remains isolated and unpublished; no training admission.",
+      "stage": "R2 independent reader audit completed with three correction requests; an isolated R3 repair is assigned.",
+      "summary": "Independent R2 review passed all 353 mechanical/browser checks and reproduced all 14 source crops exactly. Reader acceptance still requires correcting four molecular graphs/stereochemistry, moving the model-prediction locator to main p8, and restoring previously audited response-model qualifications. All 16 source issues, numeric CSVs and training exclusions remain. The author is assigned a bounded R3 correction; the paper remains unpublished.",
       "stages": [
         {
           "label": "Main/SI identity and page coverage",
@@ -132,8 +132,13 @@
         },
         {
           "label": "Independent reader acceptance",
+          "status": "complete",
+          "detail": "Independent R2 audit completed with changes requested. Mechanical/browser checks353/353 and source crops14/14 passed; three scientific/visual correction items remain."
+        },
+        {
+          "label": "R3 author corrections",
           "status": "in_progress",
-          "detail": "Recheck prior blockers and new figure/molecular/source bindings against the frozen candidate and original evidence."
+          "detail": "Assigned: repair four molecular drawings, model-prediction page locator and response-model cautions, then obtain a focused independent recheck."
         },
         {
           "label": "Canonical integration and publication",
@@ -240,7 +245,7 @@
     {
       "short_label": "Phosphinate-ligated CdSe",
       "title": "Ligand-enabled CdSe nanocrystal synthesis and characterization",
-      "stage": "Dhaene et al. (2022): SI page-locator correction proposal frozen; independent targeted recheck is active before integration.",
+      "stage": "Dhaene2022 SI-locator correction passed independent targeted recheck19/19; application and reader integration are queued.",
       "summary": "The distinct source DOI 10.1021/acsnano.1c08966 is not already represented in the current canonical records. Prior extraction and rechecks covered the supplied 12 main and 24 SI pages. Integration preflight found a wrong universal +1 SI page-offset rule: printed S10/Figure S15 is PDF page 10, not 11. A bounded correction proposal preserves the original evidence and the unresolved 1 h/30 min statements. All 24 page-label mappings are now being independently checked; the source is not yet ready for publication.",
       "stages": [
         {
@@ -255,8 +260,8 @@
         },
         {
           "label": "Targeted locator recheck",
-          "status": "in_progress",
-          "detail": "Check SI page numbering and Figure S15 against original rendered pages and exact frozen hashes."
+          "status": "complete",
+          "detail": "All24SI pages map directly toS1–S24; FigureS15 isPDF10. Fresh renders/source hashes verified;1h/30min disagreement preserved. Correction not yet applied."
         },
         {
           "label": "Reader integration and publication",
@@ -306,8 +311,8 @@
     {
       "short_label": "Chen et al. (2018)",
       "title": "Cs₄PbBr₆/CsPbBr₃ composites: synthesis, luminescence and formation mechanism",
-      "stage": "Metadata-only correction independently audited and now verified on the live website. The source paper was already present, so this correction is not counted as a new paper contribution.",
-      "summary": "The scoped source audit, 83-check reader mapping audit, 476-check molecular/solution binding audit and 76-field/24-file independent metadata-delta audit passed. The corrected labels are visible on the live source-review page and its 23 recipe/control entries and 46 evidence items load. Training eligibility remains false; no unique physical batches are asserted; structure-cell and specimen-linkage gaps remain; exact structure–recipe pairs remain zero. This is a verified closeout correction, not a newly added source paper.",
+      "stage": "First published at03:32 Chicago time onSeptember24; one new Reader contribution. Final completion-status reconciliation is active.",
+      "summary": "Git history confirms23records/17routes were first added overnight. Source, reader-mapping, molecular/solution and browser receipts passed within their stated scopes; current public metadata still contains pending structural numerical-table and browser/apparatus flags. A bounded reconciliation is checking which flags are stale and which source scope remains unfinished. Count1first publication and0extra for later corrections; hold the fully closed counter pending that decision. No training or exact-coordinate approval is implied.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -317,22 +322,27 @@
         {
           "label": "Structured extraction",
           "status": "complete",
-          "detail": "Hash-bound source extraction package saved; no canonical or website promotion."
+          "detail": "23 source-bound records published in the initial overnight contribution; distinct procedures/controls retain their scope."
         },
         {
           "label": "Independent audit",
           "status": "complete",
-          "detail": "Separate complete source audit passed; downstream gates remain pending."
+          "detail": "Source audit, changed-scope reader mapping and molecular/solution binding audits passed; local browser acceptance passed with resolved/nonblocking diagnostics."
         },
         {
           "label": "Reader and dataset integration",
           "status": "complete",
-          "detail": "The corrected public status labels and source-review route were live-checked in the browser. Dataset scientific counts were unchanged."
+          "detail": "First publication added 23 records and 17 routes; later corrected status labels were checked live."
         },
         {
           "label": "Publication",
           "status": "complete",
-          "detail": "Metadata-only correction is deployed and live-browser verified. It is excluded from the new-paper count because the paper was already on the site."
+          "detail": "First publication counts once for September 24 Chicago time; subsequent metadata corrections count zero additional papers."
+        },
+        {
+          "label": "Completion-status reconciliation",
+          "status": "in_progress",
+          "detail": "Check pending numerical-table/source/browser flags against exact prior receipts; retain any real source-review gap."
         }
       ]
     },
@@ -395,8 +405,12 @@
   ],
   "recent_milestones": [
     {
-      "at": "2026-09-24T14:28:52Z",
-      "text": "Morning reconciliation: ACS R2 author QA completed; Wu independent site audit requests corrections; Dhaene SI page-offset correction awaits recheck. Three next tasks resumed. No new published paper or exact coordinate-recipe pair."
+      "at": "2026-09-24T14:39:15Z",
+      "text": "Publication and completion counters separated: Chen is1first-published Reader contribution, with final closeout reconciliation pending; later corrections add0. ACS R2 independent audit requested3bounded fixes; Dhaene SI-locator recheck passed19/19."
+    },
+    {
+      "at": "2026-09-24T14:35:39Z",
+      "text": "Corrected overnight paper count to 1: git history proves Chen2018 was first added at 03:32 Chicago time, increasing records675→698 and routes123→140. Earlier zero used an after-publication baseline. Subsequent corrections are not counted again."
     },
     {
       "at": "2026-09-24T09:19:21Z",
@@ -514,7 +528,7 @@
   "daily_throughput": {
     "target_papers_per_day": 500,
     "completed_papers_today": 0,
-    "deployed_pending_closeout": 0,
+    "deployed_pending_closeout": 1,
     "counting_rule": "Count one source paper only after its scoped source reading, independent scientific audit, recipe/sample/figure checks, material-page integration and browser validation pass. Multiple recipe rows from one paper count once. Drafts and screening skips do not count as website papers built.",
     "observed_pipeline": {
       "papers": 9,
@@ -525,8 +539,19 @@
       "scope_note": "One selected 2026-09-20 concurrent cohort with overlapping work and pipeline fill/drain; this is an observed small-cohort rate, not a forecast."
     },
     "machine_stage_note": "The local RTX 5090/Qwen3.5 runs produce drafts quickly, but the 27B cross-check missed a known source conflict. Machine drafts and model agreement are not independent scientific audit or completed website contributions.",
-    "capacity_note": "The 500/day target remains unachieved. Three bounded tasks resumed this morning after the previous assignments finished: ACS Nano reader audit, Wu reader corrections, and Dhaene SI locator recheck. No paid API/cloud run is active. Corrections to existing Chen and Banerjee pages are not new papers.",
+    "capacity_note": "One distinct Reader contribution was first published overnight: Chen et al. (2018), adding 23 records and 17 routes. Later corrections add zero papers. Final completion-status reconciliation is pending for its numerical-table scope and stale source/browser flags, so the fully closed counter is held at0 and deployed-pending-closeout is1. Training admission and exact coordinates are separate from website acceptance. The earlier claim of zero newly published sources used an incorrect after-publication baseline. The 500/day completion target remains unmet.",
     "as_of_date": "2026-09-24",
-    "date_timezone": "America/Chicago"
+    "date_timezone": "America/Chicago",
+    "completed_paper_ledger": [
+      {
+        "doi": "10.1021/acsami.8b04556",
+        "source_id": "chen2018ami",
+        "first_publication_commit": "a30be07c5881f86e48ffde9fae94a704a556ebb4",
+        "commit_at": "2026-09-24T03:32:02-05:00",
+        "added_records": 23,
+        "added_routes": 17
+      }
+    ],
+    "published_sources_today": 1
   }
 }
