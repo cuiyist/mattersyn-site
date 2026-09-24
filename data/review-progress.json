@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T08:05:34.942461+00:00",
+  "updated_at": "2026-09-24T08:45:46Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
-    "record_count": 675,
-    "synthesis_route_count": 123,
-    "material_hub_count": 50,
-    "direct_material_hub_count": 39,
-    "component_material_hub_count": 11,
-    "public_source_group_count": 41,
-    "formal_source_reader_count": 36,
+    "record_count": 698,
+    "synthesis_route_count": 140,
+    "material_hub_count": 52,
+    "direct_material_hub_count": 40,
+    "component_material_hub_count": 12,
+    "public_source_group_count": 42,
+    "formal_source_reader_count": 37,
     "exact_structure_recipe_count": 0,
-    "published_at": "2026-09-23T00:37:17.481184+00:00"
+    "published_at": "2026-09-24T08:32:02Z"
   },
   "corpus": {
     "present_files": 17700,
@@ -74,8 +74,8 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "The original three-source pilot remains 0/3 integrated. Three parallel lanes are active: Chen 2018 site QA, Tirosh 2006 correction recheck, and independent audit of the completed ACS Nano 10.1021/acsnano.1c00502 extraction. Chen’s earlier 83-check mapping and 476-check molecular-context audits remain passed. No new paper contribution from these lanes is published yet. The 500-complete-papers/day requirement remains unproven with current capacity.",
-      "summary": "The original Tirosh/Wu/phosphinate-CdSe reader pilot remains 0/3 integrated. Tirosh revision-4 option identity passed an independent recheck; Wu and phosphinate-CdSe audits passed their scoped correction rechecks. Cu-Sb-S route repair passed a bounded recheck; InP targeted audit remains pending. A separate Chen et al. (2018) reader build contains 23 records across 17 routes; its 83-check mapping audit and 476-check supplemental binding/solution-context audit passed after corrections. Local browser inspection confirmed DMSO and HBr/acetic-acid molecular-reference dialogs contain source-scoped notes. Broader site QA and publication remain pending. The RTX 5090 model-stage arithmetic for 500 short drafts plus 500 serial cross-checks is 8.3–9.1 GPU-hours before source/figure review, corrections, integration or QA; the cross-check missed a known conflict, so the user’s 500-complete-contributions/day requirement is not demonstrated.",
+      "stage": "500 complete paper contributions/day is the production target; current capacity is not close to that rate. Chen et al. (2018) is deployed publicly (23 records across 17 routes) but held out of the completed count while a stale audit-status label is corrected. ACS Nano correction/audit and Rusch/Manna extraction with separate audit are active in parallel.",
+      "summary": "The public dataset has 698 records, 140 route variants, 52 material hubs and 37 formal source readers. Chen et al. (2018) contributes 23 records across 17 routes but is not yet credited as a fully closed contribution pending corrected status metadata. The latest measured complete-pipeline cohort closed 9 source papers in 12.87 elapsed hours (0.70/hour; 16.8/day by arithmetic, not a forecast). The 500/day target needs 20.83/hour, about 29.8 times that observed cadence. Local-model drafts are not passed audits; the independent 27B checker missed a known conflict.",
       "stages": [
         {
           "label": "Initial source screen",
@@ -346,6 +346,10 @@
   ],
   "recent_milestones": [
     {
+      "at": "2026-09-24T08:45:46Z",
+      "text": "The user set a minimum target of 500 complete website paper contributions/day. The public site now contains the Chen et al. (2018) contribution (23 records, 17 routes), but it is held out of the completed count while a stale status label is corrected. The latest measured full-pipeline cohort was 9 closures in 12.87 hours (0.70/hour); local model drafts do not pass the independent audit gate. ACS Nano correction/audit and Rusch/Manna extraction plus separate audit are in parallel."
+    },
+    {
       "at": "2026-09-24T07:32:44Z",
       "text": "The user reaffirmed a requirement of at least 500 complete paper contributions built into MatterSyn per day. The current local model-stage benchmark does not demonstrate that end-to-end rate, so only independently source/figure-audited, integrated and QA-passed contributions count. Chen et al. (2018) molecular-binding correction passed an independent 476-check exact-hash recheck, and local DMSO/HBr-in-acetic-acid reference dialogs were checked. Chen still needs broader site QA/publication. A separate extraction lane has begun for high-ranked source group 10.1021/acsnano.1c00502; no new paper is counted yet."
     },
@@ -388,46 +392,6 @@
     {
       "at": "2026-09-24T04:54:49Z",
       "text": "Phosphinate-ligated CdSe main/SI extraction is frozen after all 36 pages and relevant figures/captions were visually reviewed. Ten protocols, sixteen sample contexts and twelve observations keep QD, anisotropic, rod/tetrapod and CdS-rod condition families distinct. Independent audit is underway; no website contribution is published yet."
-    },
-    {
-      "at": "2026-09-24T04:48:45Z",
-      "text": "Pass-screen definition clarified: the 5,587 folder files represent 5,539 distinct contents (48 duplicate copies), and pass means useful synthesis/preparation plus reported structural, phase or morphology evidence—not a verified recipe–structure pair. Two short-paper extraction/audit/recheck cycles pass; matched phosphinate-CdSe main/SI extraction continues. Full-batch finish date remains provisional pending identity grouping and an end-to-end page cycle."
-    },
-    {
-      "at": "2026-09-23T23:35:08.4161951-05:00",
-      "text": "Wu et al. 2008 Cu2S main-article extraction is frozen after complete five-page visual review; independent audit is queued separately after Tirosh 2006. It preserves the growth/wash recipe, exchange/device-stock branch, glass/plastic device workflows, structural/optical outcomes and photovoltaic results. No matching SI candidate was found in the checked screening record, so SI remains unverified. The phosphinate-CdSe main/SI extraction continues."
-    },
-    {
-      "at": "2026-09-23T23:31:40.6907802-05:00",
-      "text": "Tirosh et al. 2006 cobalt ferrite extraction is frozen and hash-validated; its separate source audit has started. The main article coverage includes all six pages, Figures 1–7 and Table 1; SI is not located/verified. Wu et al. 2008 Cu2S and phosphinate-ligated CdSe extraction remain in progress. No new paper from this resumed batch has passed audit or been integrated into the website."
-    },
-    {
-      "at": "2026-09-23T23:30:08.3980535-05:00",
-      "text": "The fixed-folder screen reached 10,702/10,802 distinct document contents (99.074%). Decisions: 5,539 distinct pass contents, 1,666 held, 3,497 no-target and 100 blocked/unreviewed. User-directed deep curation resumed on three source candidates in parallel: Tirosh 2006 cobalt ferrite, Wu 2008 Cu2S, and phosphinate-ligated CdSe. Extraction is in progress; independent audits and website integration are pending. Later arrivals remain separate."
-    },
-    {
-      "at": "2026-09-23T09:18:05.154903-05:00",
-      "text": "User-directed document-first screening activated: each main article and SI can proceed without prior pairing.13,831fixed copies mapped to12,136distinct content tasks;1,695duplicate copies retained. Existing source reading is reused, not reset. Daily schedule preserved and successive batches requested. No scientific records or screening completions added by this queue change."
-    },
-    {
-      "at": "2026-09-23T08:34:39.358633-05:00",
-      "text": "Parallel Methods-first screening added 76 provisional scope checks (69 with usable preparation information; 7 deferred or held), plus reuse of one already-closed news scope. 97 provisional scopes now have tracked source-screen receipts, including aliases. Separate bounded checks passed for both mixed batches and the prior second atomic shortlist; selected phase candidates were spot-checked. No new scientific records or exact training pairs were published."
-    },
-    {
-      "at": "2026-09-22T19:33:08.231631-05:00",
-      "text": "Daily review schedule preserved. First eight shortlisted articles passed a separate bounded synthesis/structure screening audit. A second eight-study batch identified two studies with printed product-coordinate candidates; independent audit and training admission remain pending."
-    },
-    {
-      "at": "2026-09-22T19:30:05.531942-05:00",
-      "text": "Workflow simplified at user request: Methods/relevant SI first, structure evidence second. Unreadable files are deferred without blocking readable candidates. Full per-paper audits remain required for published data; no new training pairs claimed."
-    },
-    {
-      "at": "2026-09-22T18:34:17.771504-05:00",
-      "text": "Corrected automated screen audited: 9,532 provisional groups, 13,831 copies and three nested identity holds. Nominations: 52 atomic-evidence, 655 phase-link and 433 morphology-link groups. All 238 manual format/text cases are retained for further screening. No scientific records or training pairs were added."
-    },
-    {
-      "at": "2026-09-24T03:02:00-05:00",
-      "text": "The user set a minimum target of 500 complete paper contributions/day. Work was parallelized across the Chen browser/site QA, Tirosh correction recheck and ACS Nano main/SI independent audit lanes. Chen’s 1,995 static/delivery assertions, 232 local-resource checks and 52 module syntax checks passed; headless Edge smoke tests caught and locally corrected a standalone composite-hub selection bug and scene/caption overlap. The Tirosh full audit corrections are applied but awaiting independent recheck. ACS Nano extraction is frozen but audit is in progress. No new complete contribution is published; drafts, extracted ledgers and audit checks are not counted as website papers. The target remains unproven with current resources."
     }
   ],
   "workflow": {
@@ -466,8 +430,8 @@
   },
   "estimate": {
     "status": "throughput_benchmark_in_progress",
-    "summary": "Target: 500 fully audited, integrated, browser-QA-passed paper contributions/day. No end-to-end rate has been demonstrated, and no new contribution from the active lanes is published. Local model speeds measure drafts/filters only; full source reading, figure/sample audit, correction, reader integration and QA dominate. The active pipeline has three parallel lanes, but this is far below the independently verified staffing capacity needed for 500/day. Whole-collection finish time remains unforecastable.",
-    "current_batch": "Original Tirosh/Wu/phosphinate-CdSe reader pilot remains 0/3 integrated; Tirosh revision-4 option identity, Wu source audit and CdSe correction rechecks are complete. Tirosh still needs browser/public integration, with its printed temperature conflict preserved. Chen et al. (2018) local candidate passed 83 mapping and 476 molecular-binding checks but needs broader browser/site QA. A separate extraction lane has begun for high-ranked source group 10.1021/acsnano.1c00502. Cu-Sb-S site integration and InP locator re-audit remain pending.",
+    "summary": "Target: 500 fully audited, integrated, browser-validated paper contributions/day (20.83/hour continuously). The selected historical end-to-end cohort was 9 paper closures in 12.87 elapsed hours (0.70/hour; 16.8/day only as arithmetic, not a forecast), about 29.8 times below target. Current four-lane capacity and local draft models do not demonstrate the target; no credible full-corpus finish date is available.",
+    "current_batch": "Public site commit a30be07 contains the Chen et al. (2018) contribution (23 records across 17 routes); its mapping, molecular-binding and browser checks passed, but a stale status sentence is being corrected before it is counted complete. ACS Nano source correction/audit and Rusch/Manna 34-page extraction/independent audit are active. The original Tirosh/Wu/phosphinate-CdSe reader pilot remains tracked separately.",
     "scenarios": [],
     "notes": [
       "Frozen pass set: 5,539 distinct source contents in 5,587 copied files (48 duplicates); main articles and SI are separate screen units, not unique-paper or recipe counts.",
@@ -478,7 +442,24 @@
       "The local model runs offline with cloud features disabled. No paid API or external document upload is authorized.",
       "The local site renderer previously processed 680 records in 11.5 s; source reading, independent review, conflict handling and reader QA—not HTML generation—control end-to-end throughput.",
       "A distinct 27B cross-check caught an omitted reagent but missed the Tirosh 300 K / 230–300 °C conflict and did not inspect figures; model-to-model agreement is not an audit.",
-      "Page-wise quote matching rejected two of 16 candidate spans from one Tirosh page; this is a filter test, not a completed paper or audited contribution."
+      "Page-wise quote matching rejected two of 16 candidate spans from one Tirosh page; this is a filter test, not a completed paper or audited contribution.",
+      "500/day arithmetic: 20.83 completed papers/hour around the clock, or one every 2.88 minutes. Under the earlier 30–60 min per-paper review planning assumption this would require 250–500 reviewer-hours/day (31–63 eight-hour reviewers), before integration overhead; this is a planning bound, not measured labor."
     ]
+  },
+  "daily_throughput": {
+    "target_papers_per_day": 500,
+    "completed_papers_today": 0,
+    "deployed_pending_closeout": 1,
+    "counting_rule": "Count one source paper only after its scoped source reading, independent scientific audit, recipe/sample/figure checks, material-page integration and browser validation pass. Multiple recipe rows from one paper count once. Drafts and screening skips do not count as website papers built.",
+    "observed_pipeline": {
+      "papers": 9,
+      "elapsed_hours": 12.8685,
+      "papers_per_hour": 0.69938,
+      "arithmetic_per_24h": 16.78512,
+      "target_gap_factor": 29.79,
+      "scope_note": "One selected 2026-09-20 concurrent cohort with overlapping work and pipeline fill/drain; this is an observed small-cohort rate, not a forecast."
+    },
+    "machine_stage_note": "The local RTX 5090/Qwen3.5 runs produce drafts quickly, but the 27B cross-check missed a known source conflict. Machine drafts and model agreement are not independent scientific audit or completed website contributions.",
+    "capacity_note": "The 500/day target requires 20.83 completed papers/hour continuously, one every 2.88 minutes. The current four-lane ceiling and measured end-to-end cohort do not demonstrate this. No paid API or external compute run is active."
   }
 }
