@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "dataset_version": "0.34.0",
+  "dataset_version": "0.35.0",
   "records": 698,
   "recipe_records": 254,
   "shared_procedures": 279,
@@ -26,7 +26,7 @@
     "Allowlisted training inputs"
   ],
   "warnings": [
-    "Sample-coordinate availability, explicit source links and exact-task readiness are reported separately in structure_recipe_coverage; none is an independent-experiment count.",
+    "Source-checked synthesis–structure rows, measured-product coordinate assets and exact-coordinate task readiness are separate metrics; row counts are not independent experimental batches.",
     "Literature seed is too small for cross-study performance estimates.",
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
@@ -35,19 +35,20 @@
   "contextual_observation_records": 165,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
-    "schema_version": "1.0",
-    "scope": "Canonical measured-sample coordinate links only. Reachability is a local file check, not a new structural validation. External reference/illustrative viewers and unregistered source structures are outside this inventory. Assets, documentary links and task-ready records are different units; none counts independent experimental batches.",
+    "schema_version": "1.1",
+    "scope": "Canonical measured-product coordinate links only. Experimental periodic/finite-sample structures are counted separately from molecular models. Reachability is a local file check, not a new structural validation. External reference/illustrative viewers and unregistered source structures are outside this inventory. Assets, documentary links and task-ready records are different units; none counts independent experimental batches.",
     "availability_assessed": true,
     "counts": {
-      "sample_coordinate_assets": 1,
-      "records_with_sample_coordinates": 2,
-      "source_verified_explicit_links": 1,
+      "sample_coordinate_assets": 0,
+      "records_with_sample_coordinates": 0,
+      "source_verified_explicit_coordinate_links": 0,
+      "molecular_structure_assets": 1,
+      "molecular_structure_recipe_links": 1,
       "exact_task_ready_records": 0
     },
-    "asset_representation_counts": {
-      "molecular_structure": 1
-    },
-    "explicit_link_representation_counts": {
+    "asset_representation_counts": {},
+    "explicit_link_representation_counts": {},
+    "molecular_asset_representation_counts": {
       "molecular_structure": 1
     },
     "ready_record_ids": [],
@@ -59,6 +60,17 @@
       "source_review_required": 100,
       "task_not_requested": 677
     }
+  },
+  "structure_outcome_coverage": {
+    "schema_version": "1.0",
+    "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
+    "counts": {
+      "recipe_structure_rows": 84,
+      "source_groups": 26,
+      "records": 71,
+      "physical_samples_deduplicated": null
+    },
+    "measurement_property_policy": "data/structure-outcome-policy.json"
   },
   "queue_count": 37,
   "queue_families": 14
