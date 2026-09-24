@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T08:51:27Z",
+  "updated_at": "2026-09-24T09:00:18Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,8 +74,8 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "500 complete paper contributions/day is the production target; current capacity is not close to that rate. Chen et al. (2018) is deployed publicly (23 records across 17 routes) but held out of the completed count while a stale audit-status label is corrected. ACS Nano correction/audit and Rusch/Manna extraction with separate audit are active in parallel.",
-      "summary": "The public dataset has 698 records, 140 route variants, 52 material hubs and 37 formal source readers. Chen et al. (2018) contributes 23 records across 17 routes but is not yet credited as a fully closed contribution pending corrected status metadata. The latest measured complete-pipeline cohort closed 9 source papers in 12.87 elapsed hours (0.70/hour; 16.8/day by arithmetic, not a forecast). The 500/day target needs 20.83/hour, about 29.8 times that observed cadence. Local-model drafts are not passed audits; the independent 27B checker missed a known conflict.",
+      "stage": "500 complete, source-checked paper contributions/day is the target. Chen et al. (2018) metadata closeout has passed a separate bounded audit and its 50-file public projection matches the frozen hashes; it is prepared for publication, but remains pending until the deployment is live-checked. ACS Nano and Rusch/Manna audits are active and have identified correction items.",
+      "summary": "Current dataset: 698 records, 140 route variants, 52 material hubs and 37 formal source readers; verified exact structure–recipe pairs remain 0. The measured historical cohort closed 9 sources in 12.87 hours (0.70/hour; 16.8/day by arithmetic only), about 29.8 times below the target. Local-model drafts are not audited contributions. Chen et al. (2018) is one deployed contribution pending final status-metadata publication/live check. ACS Nano source corrections and Rusch/Manna provenance corrections are under separate review.",
       "stages": [
         {
           "label": "Initial source screen",
@@ -85,30 +85,30 @@
         {
           "label": "Structured extraction",
           "status": "in_progress",
-          "detail": "ACS Nano 10.1021/acsnano.1c00502 main article and matched SI (38 pages total) have a frozen, source-hash-bound extraction ledger; independent audit is now checking it. Extraction is not a completed contribution."
+          "detail": "ACS Nano 10.1021/acsnano.1c00502: main/SI extraction ledger is frozen; independent audit of correction package is in progress. Extraction alone is not a completed contribution."
         },
         {
           "label": "Independent scientific audit",
           "status": "in_progress",
-          "detail": "Tirosh 2006 expanded main-source audit found three metadata/locator defects; corrected review and extraction v2 are awaiting a targeted independent recheck. ACS Nano audit is in progress; its source conflicts remain explicit."
+          "detail": "ACS Nano audit found a wrong table-page locator and duplicate CSV header requiring correction. Rusch/Manna candidate audit found 22/23 source-origin pointers unresolved, several result claims located to Methods pages, and a material-family mapping defect; correction and re-audit are required."
         },
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Chen et al. (2018) is publicly deployed as 23 records across 17 routes. Source extraction, mapping/binding audits and the recorded browser matrix passed; a stale audit-status sentence is under correction and separate delta verification. It remains outside the fully-closed daily count until that correction is verified."
+          "detail": "Chen et al. (2018): metadata correction passed a separate exact-hash delta audit; 50 public projection files match frozen hashes and the local source-review page shows the corrected audit status. Publication and live browser validation remain pending."
         },
         {
           "label": "500/day capacity requirement",
           "status": "in_progress",
-          "detail": "The user requires at least 500 complete source-checked paper contributions/day. The measured local rate does not meet or demonstrate it. Local model benchmarks produce drafts, not audited papers; a 27B cross-check missed a known source conflict. Three independent work lanes are now running, but no 500/day end-to-end rate or paid API/cloud capacity is authorized."
+          "detail": "Target remains 500 fully audited, integrated and browser-validated contributions/day. The measured cohort is 0.70/hour; local model drafts do not count. No paid API/cloud capacity is active."
         }
       ]
     },
     {
       "short_label": "ACS Nano · 10.1021/acsnano.1c00502",
       "title": "Statistical Multiobjective Optimization of Thiospinel CoNi₂S₄ Nanocrystal Synthesis via Design of Experiments",
-      "stage": "All 12 main-article and 26 SI pages were read and visually reviewed; the extraction ledger is frozen and independent audit is in progress.",
-      "summary": "The source-bound extraction covers recipe/DOE runs, sample groups, characterization, tables and figures. The main article and SI have unresolved mass/mole, Co:Ni-ratio, heating-rate, phase-boundary and sample-row mapping conflicts. These remain explicit; no canonical website record or training pair is integrated.",
+      "stage": "38-page extraction is frozen; independent audit is underway and has identified correction items before any site promotion.",
+      "summary": "The 12-page main article and 26-page SI were read and visually reviewed. The independent audit confirmed the printed conflict values and table data checked so far, but found an incorrect printed-page field in the table disposition map and a duplicated additional_evidence_locator column header in the protocol CSV. Correct the page mapping/header and re-audit before integration; retain scientific conflicts explicitly.",
       "stages": [
         {
           "label": "Main/SI identity and page coverage",
@@ -130,6 +130,40 @@
           "status": "pending",
           "detail": "Wait for the independent audit and retain conflicting source values side by side."
         }
+      ]
+    },
+    {
+      "short_label": "Rusch/Manna · Chem. Mater. 2026",
+      "title": "Source audit · DOI 10.1021/acs.chemmater.5c02845",
+      "stage": "34 supplied pages were read and visually checked; 23 candidate records were reviewed. Provenance and sample/material mappings have blocking defects; reader integration is on hold.",
+      "summary": "Quantities and the checked main/SI table entries match the source so far. The independent audit found 22 of 23 recipe-origin pointers do not resolve to extraction sections, several rapid-product phase/morphology claims point to Methods instead of the reported-results pages, a Bi stock has an unsupported layered-halide material-family label, and Figure 4 caption/inset scope needs clarification. The auditor is freezing a source-linked correction report; no contribution is promoted.",
+      "stages": [
+        {
+          "label": "Main/SI source reading and visual coverage",
+          "status": "complete",
+          "detail": "All 10 main-paper and 24 SI pages were text-read and visually inspected."
+        },
+        {
+          "label": "Structured candidate extraction",
+          "status": "complete",
+          "detail": "23 candidate records were checked against their source claims; table and crop comparisons are logged."
+        },
+        {
+          "label": "Independent scientific audit",
+          "status": "in_progress",
+          "detail": "Recipe-origin references and material/sample mappings have blocking defects; correction and a separate recheck are required."
+        },
+        {
+          "label": "Reader and dataset integration",
+          "status": "pending",
+          "detail": "Do not integrate until all provenance, figure-scope and material-family findings are corrected and re-audited."
+        }
+      ],
+      "gaps": [
+        "22/23 recipe-origin pointers are unresolved",
+        "Some rapid-product phase/morphology fields cite Methods rather than Results pages",
+        "Bi stock material-family mapping is unsupported",
+        "Figure 4 caption versus visible inset scope requires clarification"
       ]
     },
     {
@@ -257,8 +291,8 @@
     {
       "short_label": "Chen et al. (2018)",
       "title": "Cs₄PbBr₆/CsPbBr₃ composites: synthesis, luminescence and formation mechanism",
-      "stage": "Publicly deployed as 23 records across 17 routes; final status-metadata correction and independent delta check are in progress.",
-      "summary": "The scoped source extraction, source audit, 83-check source-to-Reader mapping audit, 476-check molecular/solution binding audit and recorded browser/route checks passed. The public release still displays one stale pending-audit sentence, so this contribution is temporarily excluded from the fully-closed daily target count. No unique physical batches are asserted; the exact structure–recipe count remains zero and training eligibility remains false.",
+      "stage": "Separate metadata-delta audit passed; 50-file public projection and local review-page check pass. Ready for publication and live deployment validation.",
+      "summary": "The scoped source audit, 83-check canonical/Reader mapping audit, 476-check molecular/solution binding audit and recorded browser/route checks passed. I independently replayed all 76 allowed metadata changes across 24 JSON files against the frozen before snapshots. This correction changes review labels only: training eligibility remains false, no unique physical batches are asserted, unresolved numerical-cell and batch-linkage gaps remain, and exact structure–recipe pairs remain zero. Public deployment/live check is still pending.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -278,12 +312,12 @@
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "The 23-record/17-route Reader contribution is live at commit a30be07. Browser checks passed; a stale review-status label is being corrected and rechecked before this is credited as a fully closed paper."
+          "detail": "All 50 prepared site files match the correction receipt hashes; local reader and source-review browser checks pass. Public push and live deployment check pending."
         },
         {
           "label": "Publication",
           "status": "in_progress",
-          "detail": "Published, but the follow-up status-label correction must pass before final closeout."
+          "detail": "Metadata-only correction independently audited. Ready for public release; count remains pending until the deployment is live-checked."
         }
       ]
     },
@@ -346,6 +380,10 @@
   ],
   "recent_milestones": [
     {
+      "at": "2026-09-24T09:00:18Z",
+      "text": "Chen et al. (2018) status-only correction passed a separate exact-hash delta audit (76 fields/24 files) and local source-review browser check; public deployment remains pending, so it is not yet counted closed. Independent Rusch/Manna review found unresolved recipe-origin pointers and material/page mapping defects; ACS Nano review found a table-page locator and duplicate CSV-header defect."
+    },
+    {
       "at": "2026-09-24T08:51:27Z",
       "text": "The user set a minimum target of 500 complete website paper contributions/day. The public site now contains the Chen et al. (2018) contribution (23 records, 17 routes), but it is held out of the completed count while a stale status label is corrected. The latest measured full-pipeline cohort was 9 closures in 12.87 hours (0.70/hour); local model drafts do not pass the independent audit gate. ACS Nano correction/audit and Rusch/Manna extraction plus separate audit are in parallel."
     },
@@ -388,10 +426,6 @@
     {
       "at": "2026-09-24T05:04:30Z",
       "text": "Pilot update: all 3/3 extraction packages are frozen and all 3/3 scoped source audits/correction rechecks passed. Tirosh CoFe2O4, Wu Cu2S and phosphinate-ligated CdSe/CdS are ready for canonical reader integration; website integration remains 0/3. CdSe source conflicts remain unresolved and will be shown side by side with locators."
-    },
-    {
-      "at": "2026-09-24T04:54:49Z",
-      "text": "Phosphinate-ligated CdSe main/SI extraction is frozen after all 36 pages and relevant figures/captions were visually reviewed. Ten protocols, sixteen sample contexts and twelve observations keep QD, anisotropic, rod/tetrapod and CdS-rod condition families distinct. Independent audit is underway; no website contribution is published yet."
     }
   ],
   "workflow": {
@@ -430,8 +464,8 @@
   },
   "estimate": {
     "status": "throughput_benchmark_in_progress",
-    "summary": "Target: 500 fully audited, integrated, browser-validated paper contributions/day (20.83/hour continuously). The selected historical end-to-end cohort was 9 paper closures in 12.87 elapsed hours (0.70/hour; 16.8/day only as arithmetic, not a forecast), about 29.8 times below target. Current four-lane capacity and local draft models do not demonstrate the target; no credible full-corpus finish date is available.",
-    "current_batch": "Public site commit a30be07 contains the Chen et al. (2018) contribution (23 records across 17 routes); its mapping, molecular-binding and browser checks passed, but a stale status sentence is being corrected before it is counted complete. ACS Nano source correction/audit and Rusch/Manna 34-page extraction/independent audit are active. The original Tirosh/Wu/phosphinate-CdSe reader pilot remains tracked separately.",
+    "summary": "Target: 500 fully audited, integrated, browser-validated source-paper contributions/day (20.83/hour continuously). The selected historical end-to-end cohort was 9 closures in 12.87 hours (0.70/hour; 16.8/day by arithmetic only, not a forecast), about 29.8 times below target. Current concurrency and local draft models do not demonstrate the target; no credible full-corpus finish date is available.",
+    "current_batch": "Chen et al. (2018) status-only correction passed independent delta audit and local browser checks; public deployment/live check is pending. ACS Nano A1–A10 independent audit found two correction items. Rusch/Manna 2026 audit confirmed source quantities/tables checked so far but found 22/23 origin-pointer gaps plus material/page mapping defects. Tirosh, Wu and phosphinate-CdSe reader pilot remain tracked separately.",
     "scenarios": [],
     "notes": [
       "Frozen pass set: 5,539 distinct source contents in 5,587 copied files (48 duplicates); main articles and SI are separate screen units, not unique-paper or recipe counts.",
