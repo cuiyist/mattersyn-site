@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T08:45:46Z",
+  "updated_at": "2026-09-24T08:51:27Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -95,7 +95,7 @@
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Chen 2018 candidate has 23 records across 17 routes. 1,995 static/delivery assertions, 232 exact local-resource checks and 52 JS syntax checks passed. Headless Edge smoke tests confirmed correct composite-hub selection, molecule dialog, next-step control, art sizing and 390 px layout after two shared-reader fixes; broader route QA remains in progress. No new contribution is published."
+          "detail": "Chen et al. (2018) is publicly deployed as 23 records across 17 routes. Source extraction, mapping/binding audits and the recorded browser matrix passed; a stale audit-status sentence is under correction and separate delta verification. It remains outside the fully-closed daily count until that correction is verified."
         },
         {
           "label": "500/day capacity requirement",
@@ -257,8 +257,8 @@
     {
       "short_label": "Chen et al. (2018)",
       "title": "Cs₄PbBr₆/CsPbBr₃ composites: synthesis, luminescence and formation mechanism",
-      "stage": "Browser QA in progress after correcting standalone composite-hub selection and scene-caption overlap in the local reader.",
-      "summary": "23 records/17 routes. Earlier 83-check mapping and 476-check molecule/solution audits passed; 1,995 static/delivery assertions, 232 local-resource checks and 52 module syntax checks passed. Headless Edge smoke tests now pass for the standalone S4 route, composite method route, native structure dialog, protocol Next control, SVG frame sizing and 390 px layout. Broader route/control matrix and publication remain pending.",
+      "stage": "Publicly deployed as 23 records across 17 routes; final status-metadata correction and independent delta check are in progress.",
+      "summary": "The scoped source extraction, source audit, 83-check source-to-Reader mapping audit, 476-check molecular/solution binding audit and recorded browser/route checks passed. The public release still displays one stale pending-audit sentence, so this contribution is temporarily excluded from the fully-closed daily target count. No unique physical batches are asserted; the exact structure–recipe count remains zero and training eligibility remains false.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -278,12 +278,12 @@
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Two shared-reader presentation bugs were corrected locally; broad browser QA is rerunning across routes. Not yet published."
+          "detail": "The 23-record/17-route Reader contribution is live at commit a30be07. Browser checks passed; a stale review-status label is being corrected and rechecked before this is credited as a fully closed paper."
         },
         {
           "label": "Publication",
-          "status": "pending",
-          "detail": "Publish only after required scientific and website checks pass."
+          "status": "in_progress",
+          "detail": "Published, but the follow-up status-label correction must pass before final closeout."
         }
       ]
     },
@@ -346,7 +346,7 @@
   ],
   "recent_milestones": [
     {
-      "at": "2026-09-24T08:45:46Z",
+      "at": "2026-09-24T08:51:27Z",
       "text": "The user set a minimum target of 500 complete website paper contributions/day. The public site now contains the Chen et al. (2018) contribution (23 records, 17 routes), but it is held out of the completed count while a stale status label is corrected. The latest measured full-pipeline cohort was 9 closures in 12.87 hours (0.70/hour); local model drafts do not pass the independent audit gate. ACS Nano correction/audit and Rusch/Manna extraction plus separate audit are in parallel."
     },
     {
