@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T09:14:00Z",
+  "updated_at": "2026-09-24T09:18:00Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -107,8 +107,8 @@
     {
       "short_label": "ACS Nano · 10.1021/acsnano.1c00502",
       "title": "Statistical Multiobjective Optimization of Thiospinel CoNi₂S₄ Nanocrystal Synthesis via Design of Experiments",
-      "stage": "R2 correction package is frozen with nine source/schema checks passing; independent targeted re-audit is now in progress. No values have been promoted.",
-      "summary": "The 12-page main article and 26-page matched SI (38 pages total) were read and visually reviewed. The independent r1 audit found two metadata/schema defects: 22 SI table-page fields, including the Table S1 start, and duplicated CSV headers. R2 corrects the printed-page map, starts Table S1 at SI p4 across p4–5/S4–S5, and makes headers unique after checking duplicate cells match. All 71 newly transcribed numeric cells remain unchanged; source conflicts remain explicit. R2 has nine package-level checks and awaits separate targeted scientific re-audit before integration.",
+      "stage": "R2 extraction and metadata/schema corrections passed independent re-audit (450/450 checks); isolated site-integration candidate is now being built. No canonical data or public pages are changed yet.",
+      "summary": "The 12-page main article and 26-page matched SI (38 pages total) were read and visually reviewed. Independent r1 audit found two bounded metadata/schema defects; r2 corrects the SI printed-page map (including Table S1 at p4–5/S4–S5) and unique CSV headers after duplicate-value equality was confirmed. The independent r2 re-audit passed 450/450 checks: all 71 new numeric transcriptions are correct, all 16 source conflicts remain, and nine scientific output files are unchanged. An isolated CoNi2S4 site candidate is being assembled to the CdSe standard; it is not yet integrated, deployed or training-approved.",
       "stages": [
         {
           "label": "Main/SI identity and page coverage",
@@ -122,21 +122,21 @@
         },
         {
           "label": "Independent scientific audit",
-          "status": "in_progress",
-          "detail": "R2 self-checks pass (exact page map, S1 p4–5, unique headers/uniform CSV widths, duplicate-cell equality, unchanged values/provenance). Separate independent re-audit is active; no result promoted."
+          "status": "complete",
+          "detail": "Independent r2 audit passed 450/450 checks. All 71 numeric values verified; 16 source conflicts and scientific output files preserved."
         },
         {
           "label": "Reader and dataset integration",
-          "status": "pending",
-          "detail": "Wait for independent re-audit; preserve all source conflicts."
+          "status": "in_progress",
+          "detail": "Build an isolated CoNi2S4 material-hub contribution from the audited source map; canonical data, public pages and training exports remain unchanged until review."
         }
       ]
     },
     {
       "short_label": "Rusch/Manna · Chem. Mater. 2026",
       "title": "Source audit · DOI 10.1021/acs.chemmater.5c02845",
-      "stage": "Initial independent audit failed on four correction groups; a source-backed correction package is being prepared. Figure 4 inset identity remains unresolved where the source is ambiguous; no records are promoted.",
-      "summary": "All 34 supplied pages and 23 candidate records were checked. The audit found 22/23 recipe-origin pointers missing, several result claims located to Methods pages, a Bi-stock material-family error and Figure 4 caption/inset ambiguity. Numerical transcriptions checked so far match; eight source conflicts remain. Corrections must remain tied to source locators; the auditor has directed that the unsupported C12 inset claim stay on hold if the figure cannot resolve it. No material-page integration until a separate delta audit passes.",
+      "stage": "Source-backed correction package is frozen with 533 preservation/delta checks and 23 schema/graph validations passing; separate independent correction audit is now in progress. Figure 4 C12 identity remains on hold.",
+      "summary": "The independent source audit covered all 34 supplied pages and 23 candidates, finding 22/23 missing origin pointers, several results locators pointing to Methods, an unsupported Bi-stock material-family label, and Figure 4 caption/inset ambiguity. The correction candidate updates 17 comparison files across 13 records; 10 record snapshots are byte-identical. All 533 preservation/delta checks and 23 schema/graph validations pass. The C12 Figure 4C assignment remains explicitly held unresolved. A separate auditor is rechecking every changed field against frozen evidence; no records are promoted.",
       "stages": [
         {
           "label": "Main/SI source reading and visual coverage",
@@ -151,12 +151,12 @@
         {
           "label": "Independent scientific audit",
           "status": "in_progress",
-          "detail": "Frozen audit found four correction groups; source-backed candidate corrections are in progress. Preserve ambiguous Figure 4 inset identity and all source conflicts. Require separate re-audit."
+          "detail": "Correction candidate is frozen; independent delta audit is active. The Figure 4 C12 assignment remains on hold."
         },
         {
           "label": "Reader and dataset integration",
           "status": "pending",
-          "detail": "Do not integrate until all provenance, figure-scope and material-family findings are corrected and re-audited."
+          "detail": "Wait for independent correction acceptance before integrating any Rusch/Manna record."
         }
       ],
       "gaps": [
@@ -380,6 +380,10 @@
   ],
   "recent_milestones": [
     {
+      "at": "2026-09-24T09:18:00Z",
+      "text": "ACS Nano r2 passed independent re-audit (450/450 checks), including all 71 new numeric values; isolated CoNi2S4 site integration candidate started. Rusch/Manna correction package passes 533 preservation checks and 23 graph/schema checks; independent delta re-audit is active and Figure 4 C12 remains on hold."
+    },
+    {
       "at": "2026-09-24T09:14:00Z",
       "text": "ACS Nano r2 correction package is frozen (manifest c89d1378…); nine page-map, CSV-header, provenance and value-preservation checks pass, with independent re-audit active. Rusch/Manna source-backed corrections are underway; Figure 4 inset identity will remain unresolved if the source cannot establish it."
     },
@@ -473,7 +477,7 @@
   "estimate": {
     "status": "throughput_benchmark_in_progress",
     "summary": "Target: 500 fully audited, integrated, browser-validated source-paper contributions/day (20.83/hour continuously). The selected historical end-to-end cohort was 9 closures in 12.87 hours (0.70/hour; 16.8/day by arithmetic only, not a forecast), about 29.8 times below target. Current concurrency and local draft models do not demonstrate the target; no credible full-corpus finish date is available.",
-    "current_batch": "Chen et al. (2018) metadata-only correction is live-verified, but the paper was already on the site and is not counted as a new paper today. ACS Nano r2 is frozen with nine package checks passed and awaits independent re-audit. Rusch/Manna correction candidate is underway; no record may be promoted before separate delta re-audit.",
+    "current_batch": "Chen et al. (2018) metadata-only correction is live-verified but does not count as new content. ACS Nano r2 passed independent re-audit (450/450); isolated site integration is in progress. Rusch/Manna correction package passes its internal preservation/schema checks and is under independent delta audit; Figure 4 C12 remains held. No new paper has cleared integration/publication today.",
     "scenarios": [],
     "notes": [
       "Frozen pass set: 5,539 distinct source contents in 5,587 copied files (48 duplicates); main articles and SI are separate screen units, not unique-paper or recipe counts.",
