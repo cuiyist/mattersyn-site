@@ -1,4 +1,5 @@
 import {initializeCharacterization} from './characterization.mjs';
+import {installReaderHashNavigation,applyReaderFragment} from './reader-navigation.mjs';
 import {renderApparatus,sceneRecords} from './apparatus-scenes.mjs';
 import {protocols,stocks,inventory,auxiliaryInventory,feedback} from './material-data.mjs';
 import {buildCrystal} from './shape-data.mjs';
@@ -111,4 +112,7 @@ async function initializeCrystals(){
   drawCell();$('unit-cell-status').hidden=true;$('unit-neighbors').addEventListener('change',drawCell);$('reset-unit-cell').addEventListener('click',resetUnit);registerViewer($('unit-cell-viewer'),unit,resetUnit);
  }catch(error){for(const id of ['crystal-status','unit-cell-status']){$(id).textContent=error.message+'. Structure files and source information remain available.';$(id).hidden=false;}console.error(error);}
 }
-initializeProtocols();initializeMolecules();initializeCrystals();if(document.querySelector('[data-gallery]'))initializeCharacterization();
+initializeProtocols();installReaderHashNavigation();
+await Promise.all([initializeMolecules(),initializeCrystals(),document.querySelector('[data-gallery]')?initializeCharacterization():undefined]);
+const readyMain=document.querySelector('main');
+if(readyMain){readyMain.dataset.readerReady='legacy-'+(method||'evidence');await applyReaderFragment(readyMain);}

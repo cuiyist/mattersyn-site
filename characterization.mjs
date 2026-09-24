@@ -7,7 +7,12 @@ export const figureRecords={
  pl:{figure:5,page:8710,pdfPage:5,group:'properties',file:'figure-05-absorption-photoluminescence.png',type:'Absorption + photoluminescence · experimental',title:'Band-edge photoluminescence',alt:'Original Figure 5: absorption and fluorescence spectra of a 3.5 nm CdSe optical sample at room temperature.',caption:'Absorption and photoluminescence of a 3.5 nm CdSe sample at room temperature; numerical optical results are discussed on page 8709.',question:'How efficiently does this sample emit light?',explanation:'Photoluminescence (PL) measures light emitted after excitation. This sample emits close to its lowest-energy absorption peak, with no deep-trap luminescence detected in the reported spectrum.',metrics:[['PL quantum yield','≈9.6%'],['Reference standard','Rhodamine 640'],['Emission peak shift','4 nm to the red']],reading:'The absorption and fluorescence arrows identify the two spectra. The emission maximum lies 4 nm beyond the absorption maximum; their linewidths are reported as equal. A quantum yield of 9.6% means about 9.6 emitted photons per 100 absorbed photons under the measurement conditions.',limit:'The Figure 5 optical sample is 3.5 nm in nominal diameter. The paper does not establish that it is the Figure 6 TEM specimen. No numerical linewidth or exact emission peak wavelength is inferred here from the printed plot.'}
 };
 
-export function initializeCharacterization(){
+export async function initializeCharacterization(){
+ // Use the exact reviewed public display projection. A constructed filename
+ // must never bypass a held original-image decision.
+ let figureDisplays=new Map();
+ try{const response=await fetch('data/paper-evidence/murray1993.json');if(!response.ok)throw Error('Evidence display metadata unavailable');const evidence=await response.json();figureDisplays=new Map(evidence.figures.map(f=>[f.figure,f.display_asset||(f.original_figure_asset?.file?{file:f.original_figure_asset.file,kind:'original'}:null)]));}catch(error){console.warn(error.message);}
+ const displayFor=record=>figureDisplays.get(record.figure)||{kind:'source_link',source_url:'https://doi.org/10.1021/ja00072a025',display_note:'Original figure not reproduced; consult the cited publication.'};
  const dialog=document.getElementById('figure-dialog');
  const largeImage=document.getElementById('figure-dialog-image');
  const viewport=document.getElementById('figure-viewport');
@@ -23,9 +28,18 @@ export function initializeCharacterization(){
  }
  function openFigure(record,trigger){
   activeFigure=record;returnFocus=trigger;zoom=1;
+  const display=displayFor(record),sourceOnly=display.kind==='source_link';
+  viewport.hidden=sourceOnly;
+  for(const id of ['figure-zoom-in','figure-zoom-out','figure-zoom-reset'])document.getElementById(id).hidden=sourceOnly;
+  zoomLabel.hidden=sourceOnly;
+  if(sourceOnly){
+   document.getElementById('figure-dialog-title').textContent='Figure '+record.figure+' · source reference';
+   largeImage.removeAttribute('src');
+   const caption=document.getElementById('figure-dialog-caption'),a=document.createElement('a');a.href=display.source_url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Read the source figure ↗';caption.replaceChildren(document.createTextNode((display.display_note||'Original figure not reproduced.')+' '+record.caption+' '),a);dialog.showModal();return;
+  }
   document.getElementById('figure-dialog-title').textContent='Figure '+record.figure+' · '+record.type;
   document.getElementById('figure-dialog-caption').textContent=record.caption+' Murray, Norris & Bawendi, JACS 1993, p. '+record.page+'.';
-  largeImage.alt=record.alt;largeImage.style.width='';largeImage.src='assets/murray1993-figures/'+record.file;
+  largeImage.alt=record.alt;largeImage.style.width='';largeImage.src=display.file;
   dialog.showModal();if(largeImage.complete)applyZoom();
   viewport.scrollTop=0;viewport.scrollLeft=0;
  }
@@ -43,10 +57,16 @@ export function initializeCharacterization(){
    gallery.dataset.selectedFigure=key;
    gallery.querySelectorAll('[data-figure]').forEach(button=>{const active=button.dataset.figure===key;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});
    for(const field of ['type','title','caption','question','explanation','reading','limit'])gallery.querySelector('[data-field="'+field+'"]').textContent=record[field];
-   const image=gallery.querySelector('[data-field="image"]');image.src='assets/murray1993-figures/'+record.file;image.alt=record.alt;
+   const display=displayFor(record),image=gallery.querySelector('[data-field="image"]'),sourceOnly=display.kind==='source_link';
+   if(display.file){image.src=display.file;image.hidden=false;}else{image.removeAttribute('src');image.hidden=true;}
+   image.alt=sourceOnly?'Source-link card; original figure not reproduced':record.alt;
+   if(sourceOnly)gallery.querySelector('[data-field="caption"]').textContent='Source-caption summary; original figure not reproduced. '+record.caption;
    const source=gallery.querySelector('[data-field="source"]');source.textContent='Figure '+record.figure+' · p. '+record.page+' ↗';source.href=paperPdf+'#page='+record.pdfPage;
    gallery.querySelector('[data-field="metrics"]').replaceChildren(...record.metrics.map(([name,value])=>{const row=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=name;dd.textContent=value;row.append(dt,dd);return row;}));
-   gallery.querySelector('[data-enlarge]').setAttribute('aria-label','Enlarge original Figure '+record.figure);
+   gallery.querySelector('[data-enlarge]').setAttribute('aria-label',(sourceOnly?'Open source reference for ':'Enlarge original ')+'Figure '+record.figure);
+   // The enlarge button owns the image; replacing its text would remove the
+   // thumbnail and break subsequent tab selections.
+   gallery.querySelector('.figure-topline > span').textContent=sourceOnly?'Source reference · original figure not reproduced':'Original published figure';
   };
   gallery.querySelectorAll('[data-figure]').forEach(button=>button.addEventListener('click',()=>select(button.dataset.figure)));
   gallery.querySelector('[data-enlarge]').addEventListener('click',event=>openFigure(figureRecords[gallery.dataset.selectedFigure],event.currentTarget));
