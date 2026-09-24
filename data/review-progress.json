@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T07:38:02.495544+00:00",
+  "updated_at": "2026-09-24T08:05:34.942461+00:00",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,7 +74,7 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "Original three-source pilot remains 0/3 integrated. Tirosh’s revision-4 identity correction passed independent recheck. The separate Chen reader build passed the 83-check changed-scope mapping audit and the 476-check molecule-binding correction recheck. Local browser inspection confirmed source-scoped DMSO and HBr/acetic-acid reference notes. Broader browser QA and publication remain pending. The user has reaffirmed 500 complete contributions/day as a requirement; this rate is not demonstrated.",
+      "stage": "The original three-source pilot remains 0/3 integrated. Three parallel lanes are active: Chen 2018 site QA, Tirosh 2006 correction recheck, and independent audit of the completed ACS Nano 10.1021/acsnano.1c00502 extraction. Chen’s earlier 83-check mapping and 476-check molecular-context audits remain passed. No new paper contribution from these lanes is published yet. The 500-complete-papers/day requirement remains unproven with current capacity.",
       "summary": "The original Tirosh/Wu/phosphinate-CdSe reader pilot remains 0/3 integrated. Tirosh revision-4 option identity passed an independent recheck; Wu and phosphinate-CdSe audits passed their scoped correction rechecks. Cu-Sb-S route repair passed a bounded recheck; InP targeted audit remains pending. A separate Chen et al. (2018) reader build contains 23 records across 17 routes; its 83-check mapping audit and 476-check supplemental binding/solution-context audit passed after corrections. Local browser inspection confirmed DMSO and HBr/acetic-acid molecular-reference dialogs contain source-scoped notes. Broader site QA and publication remain pending. The RTX 5090 model-stage arithmetic for 500 short drafts plus 500 serial cross-checks is 8.3–9.1 GPU-hours before source/figure review, corrections, integration or QA; the cross-check missed a known conflict, so the user’s 500-complete-contributions/day requirement is not demonstrated.",
       "stages": [
         {
@@ -85,30 +85,58 @@
         {
           "label": "Structured extraction",
           "status": "in_progress",
-          "detail": "Original pilot extractions are frozen. Cu-Sb-S has 16 distinct condition-map candidates; InP has 20 protocol/branch candidates, 11 precursor preparations, 14 sample candidates and 10 observations. Both package extractions are frozen; no reader contributions have been published from them."
+          "detail": "ACS Nano 10.1021/acsnano.1c00502 main article and matched SI (38 pages total) have a frozen, source-hash-bound extraction ledger; independent audit is now checking it. Extraction is not a completed contribution."
         },
         {
           "label": "Independent scientific audit",
           "status": "in_progress",
-          "detail": "Wu and phosphinate-ligated CdSe cleared scoped source audits and correction rechecks. Tirosh revision-4 mutually exclusive Fe-alkoxide identity display passed independent recheck; the paper’s literal 300 K / 230–300 °C inconsistency remains unresolved. Cu-Sb-S route-metadata correction passed bounded recheck; InP targeted audit remains pending."
+          "detail": "Tirosh 2006 expanded main-source audit found three metadata/locator defects; corrected review and extraction v2 are awaiting a targeted independent recheck. ACS Nano audit is in progress; its source conflicts remain explicit."
         },
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Original three-source pilot remains 0/3 integrated. Separate Chen et al. 2018 candidate has 23 records across 17 routes; its mapping audit passed 83 checks and molecular-binding correction audit passed 476 checks. Initial protocol and molecular-dialog browser interactions pass; broader QA and publication remain pending. Cu-Sb-S and InP integrations are also pending."
+          "detail": "Chen 2018 candidate has 23 records across 17 routes. 1,995 static/delivery assertions, 232 exact local-resource checks and 52 JS syntax checks passed. Headless Edge smoke tests confirmed correct composite-hub selection, molecule dialog, next-step control, art sizing and 390 px layout after two shared-reader fixes; broader route QA remains in progress. No new contribution is published."
         },
         {
           "label": "500/day capacity requirement",
           "status": "in_progress",
-          "detail": "The user requires at least 500 complete source-checked website contributions/day; the measured local rate does not meet or demonstrate it. Qwen3.5:9B produced about 108–137 short-paper drafts/hour; 500 similar drafts imply 3.8–4.6 GPU-hours. A separate 27B cross-check took 32.09 s on one example, adding about 4.46 hours for 500 if run serially. This is model-stage arithmetic only: that cross-check missed a known temperature conflict, and source/figure/sample checks, correction, integration and browser QA remain extra. Count only independently audited, integrated and QA-passed contributions."
+          "detail": "The user requires at least 500 complete source-checked paper contributions/day. The measured local rate does not meet or demonstrate it. Local model benchmarks produce drafts, not audited papers; a 27B cross-check missed a known source conflict. Three independent work lanes are now running, but no 500/day end-to-end rate or paid API/cloud capacity is authorized."
+        }
+      ]
+    },
+    {
+      "short_label": "ACS Nano · 10.1021/acsnano.1c00502",
+      "title": "Statistical Multiobjective Optimization of Thiospinel CoNi₂S₄ Nanocrystal Synthesis via Design of Experiments",
+      "stage": "All 12 main-article and 26 SI pages were read and visually reviewed; the extraction ledger is frozen and independent audit is in progress.",
+      "summary": "The source-bound extraction covers recipe/DOE runs, sample groups, characterization, tables and figures. The main article and SI have unresolved mass/mole, Co:Ni-ratio, heating-rate, phase-boundary and sample-row mapping conflicts. These remain explicit; no canonical website record or training pair is integrated.",
+      "stages": [
+        {
+          "label": "Main/SI identity and page coverage",
+          "status": "complete",
+          "detail": "Title, authors, DOI and matched SI verified; all 38 pages read and visually reviewed."
+        },
+        {
+          "label": "Structured extraction",
+          "status": "complete",
+          "detail": "Source-hash-bound ledger frozen with recipes, DOE runs, sample groups, characterization and an audit checklist."
+        },
+        {
+          "label": "Independent scientific audit",
+          "status": "in_progress",
+          "detail": "Independent review is checking source claims, figures, tables and all recorded conflicts. No results promoted yet."
+        },
+        {
+          "label": "Reader and dataset integration",
+          "status": "pending",
+          "detail": "Wait for the independent audit and retain conflicting source values side by side."
         }
       ]
     },
     {
       "short_label": "Tirosh et al. (2006)",
       "title": "Cobalt ferrite nanocrystal synthesis and characterization",
-      "stage": "Revision-4 option-identity recheck passed; reader integration, browser QA and publication remain pending.",
-      "summary": "All six main-article pages, Figures 1–7 and Table 1 were visually inspected. The revision-4 display of the mutually exclusive 0.5 mmol Fe-ethoxide / Fe-isopropoxide choices passed independent targeted review; Sample A’s selected option remains unknown and the shared recipe does not charge both. The source’s literal “up to 300 K” statement remains unresolved against the 230–300 °C conditions. No matching SI was located/verified. The schema does not encode formal one-of cardinality, so this is not training-ready. No route is published.",
+      "stage": "Expanded six-page main-source audit found three metadata/locator defects; corrections applied and targeted independent recheck is pending. SI remains unverified.",
+      "summary": "The full audit checked all six main pages, Figures 1–7, Table 1 and five records (93/96 checks passed before targeted corrections). The 63-character digest was replaced with the verified 64-character digest; the control is now labelled “Cobalt Oxide” with phase unassigned; comparator-B XRD interpretation locators were added. The failed audit remains in history while independent recheck is pending. No same-paper SI was located or verified.",
       "stages": [
         {
           "label": "Source identity and visual coverage",
@@ -122,8 +150,8 @@
         },
         {
           "label": "Independent audit",
-          "status": "complete",
-          "detail": "Revision-4 option identity passed independent targeted review. Preserve the 300 K / 230–300 °C source conflict; no matching SI was located/verified."
+          "status": "in_progress",
+          "detail": "Full main-source audit failed on three metadata/locator corrections; corrections are applied and targeted independent recheck is pending. SI unverified."
         },
         {
           "label": "Material reader and website",
@@ -229,8 +257,8 @@
     {
       "short_label": "Chen et al. (2018)",
       "title": "Cs₄PbBr₆/CsPbBr₃ composites: synthesis, luminescence and formation mechanism",
-      "stage": "23 records/17 routes built locally; 83-check mapping and 476-check molecule/solution correction audits passed. Local molecular-reference dialogs checked; broader site QA and publication remain pending.",
-      "summary": "The changed-scope reader candidate has 23 records across 17 routes. Independent source-to-reader mapping passed 83 checks after corrections; a second independent exact-hash audit passed 476 checks over all 113 canonical bindings and 42 solution contexts. All eight HBr/acetic-acid contexts and 32 DMSO bindings/16 contexts now point to source-scoped references; original shared assets and the 23 canonical record hashes are unchanged. Local browser inspection confirmed source-scoped interpretation notes in both molecular dialogs. Broader browser/site QA and publication remain pending. No new published contribution or training admission is counted.",
+      "stage": "Browser QA in progress after correcting standalone composite-hub selection and scene-caption overlap in the local reader.",
+      "summary": "23 records/17 routes. Earlier 83-check mapping and 476-check molecule/solution audits passed; 1,995 static/delivery assertions, 232 local-resource checks and 52 module syntax checks passed. Headless Edge smoke tests now pass for the standalone S4 route, composite method route, native structure dialog, protocol Next control, SVG frame sizing and 390 px layout. Broader route/control matrix and publication remain pending.",
       "stages": [
         {
           "label": "Source reading and pairing",
@@ -250,7 +278,7 @@
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Corrected local build has 23 records/17 routes. Independent mapping audit passed 83 checks; molecular binding/solution-context audit passed 476 checks. Local checks confirmed source-scoped DMSO and HBr/acetic-acid reference notes. Broader browser/site QA and publication remain pending."
+          "detail": "Two shared-reader presentation bugs were corrected locally; broad browser QA is rerunning across routes. Not yet published."
         },
         {
           "label": "Publication",
@@ -396,6 +424,10 @@
     {
       "at": "2026-09-22T18:34:17.771504-05:00",
       "text": "Corrected automated screen audited: 9,532 provisional groups, 13,831 copies and three nested identity holds. Nominations: 52 atomic-evidence, 655 phase-link and 433 morphology-link groups. All 238 manual format/text cases are retained for further screening. No scientific records or training pairs were added."
+    },
+    {
+      "at": "2026-09-24T03:02:00-05:00",
+      "text": "The user set a minimum target of 500 complete paper contributions/day. Work was parallelized across the Chen browser/site QA, Tirosh correction recheck and ACS Nano main/SI independent audit lanes. Chen’s 1,995 static/delivery assertions, 232 local-resource checks and 52 module syntax checks passed; headless Edge smoke tests caught and locally corrected a standalone composite-hub selection bug and scene/caption overlap. The Tirosh full audit corrections are applied but awaiting independent recheck. ACS Nano extraction is frozen but audit is in progress. No new complete contribution is published; drafts, extracted ledgers and audit checks are not counted as website papers. The target remains unproven with current resources."
     }
   ],
   "workflow": {
@@ -434,7 +466,7 @@
   },
   "estimate": {
     "status": "throughput_benchmark_in_progress",
-    "summary": "Target: 500 fully reviewed paper contributions/day. No end-to-end rate has been demonstrated. Local Qwen3.5:9B produced about 108–137 short-source drafts/hour; a distinct 27B cross-check missed a known conflict. A page-wise evidence trial generated 16 claims in 13.75 s from one page, with 14 quotes matching after conservative normalization. These are draft/filter measurements before scientific interpretation, complete-source and figure audit, reader assembly or browser QA. The three-source reader pilot remains 0/3 integrated; whole-collection finish time remains unforecastable.",
+    "summary": "Target: 500 fully audited, integrated, browser-QA-passed paper contributions/day. No end-to-end rate has been demonstrated, and no new contribution from the active lanes is published. Local model speeds measure drafts/filters only; full source reading, figure/sample audit, correction, reader integration and QA dominate. The active pipeline has three parallel lanes, but this is far below the independently verified staffing capacity needed for 500/day. Whole-collection finish time remains unforecastable.",
     "current_batch": "Original Tirosh/Wu/phosphinate-CdSe reader pilot remains 0/3 integrated; Tirosh revision-4 option identity, Wu source audit and CdSe correction rechecks are complete. Tirosh still needs browser/public integration, with its printed temperature conflict preserved. Chen et al. (2018) local candidate passed 83 mapping and 476 molecular-binding checks but needs broader browser/site QA. A separate extraction lane has begun for high-ranked source group 10.1021/acsnano.1c00502. Cu-Sb-S site integration and InP locator re-audit remain pending.",
     "scenarios": [],
     "notes": [
