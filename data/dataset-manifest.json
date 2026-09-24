@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "dataset_version": "0.34.0",
-  "record_count": 675,
-  "group_count": 41,
+  "record_count": 698,
+  "group_count": 42,
   "families": [
     "Cadmium dithiocarbamate precursor and CdSe/CdS quantum belts",
     "Cassiterite tin dioxide colloids",
@@ -43,6 +43,8 @@
     "Zero-dimensional organic antimony halides",
     "ZnAl2O4 spinel hydrothermal synthesis",
     "ZnO and separately Co2+- or Ni2+-doped ZnO quantum dots",
+    "lead-halide perovskite composites",
+    "lead-halide perovskite nanocrystals",
     "magnetic oxide nanocrystals"
   ],
   "split_policy": "Connected source/recipe/parent/batch/duplicate components. Development-only below ten groups. Split thresholds are deterministic group hash 80/10/10, not a claim of balanced class coverage.",
@@ -2494,6 +2496,1613 @@
       "components": [
         "CdS",
         "HgS"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-cs-oleate",
+      "title": "Chen et al. (2018) · Cesium-oleate stock preparation",
+      "formula": "Cs–C–H–O",
+      "family": "cesium-oleate precursor solution",
+      "method": "Cesium-oleate stock preparation",
+      "record_type": "procedure",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "b3ec339125eb218dbedeae85e06a6c8294db79d9300bfc5abf74e354bbd607d7",
+      "recipe_signature": "ba017ac68449a2744f7cadc116b4fa3e12ba89411b059609c89c07fd473cd10e",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-cs-oleate.json",
+      "page_url": "records/chen2018ami-cs-oleate.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "cesium oleate solution"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-cspbbr3-film",
+      "title": "Chen et al. (2018) · cspbbr3 film",
+      "formula": "CsPbBr3",
+      "family": "lead-halide perovskite nanocrystals",
+      "method": "Supporting preparation",
+      "record_type": "procedure",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "ed18bb5fbb0039f2a3d726ff044554baafc45a16941c2270184afff8bb78bb86",
+      "recipe_signature": "2bc5cfe02026e5caa2d8070d90ea05b59bd9e4663048fa93d8b7f51bd8acd213",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-cspbbr3-film.json",
+      "page_url": "records/chen2018ami-cspbbr3-film.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-cspbbr3-nc",
+      "title": "Chen et al. (2018) · CsPbBr3 colloidal comparator",
+      "formula": "CsPbBr3",
+      "family": "lead-halide perovskite nanocrystals",
+      "method": "Hot injection",
+      "record_type": "literature_protocol",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "8d8fca68effbcdcf17be5475264eae7bc2daf7a58e6e7ea15a7ba3c2ce91dcaf",
+      "recipe_signature": "1f59bf09c7a2eef894f2de2678a1862b118709fdac62bb58369ddf2900a4de84",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-cspbbr3-nc.json",
+      "page_url": "records/chen2018ami-cspbbr3-nc.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso350-water77",
+      "title": "Chen et al. (2018) · table2-DMSO350-H2O77 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "d2b76f20172cfce6ab1b756849c6dbfbaef04c2fd622fbf6d5b3346f6cb2377e",
+      "recipe_signature": "8c0a3eb5171c31532af1090b780be86aa261da36757c7bedd932ff386efc7c11",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso350-water77.json",
+      "page_url": "records/chen2018ami-dmso350-water77.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso450-water77",
+      "title": "Chen et al. (2018) · table2-DMSO450-H2O77 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "3d61c26dbacc5be46c58bbcc641202cb8e411d4a20e784ccf76c785d8fa7e080",
+      "recipe_signature": "da67af5c54b87b74cd9ccf9c20f06dee6e30b6d897fcda2100f14ae57fdd4587",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso450-water77.json",
+      "page_url": "records/chen2018ami-dmso450-water77.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso500-water57",
+      "title": "Chen et al. (2018) · table2-DMSO500-H2O57 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "8ca1c3a117b85f185cbe6448506209b0fb67a5f95be50aa0625f4367b718a48b",
+      "recipe_signature": "b1f1779f3e1871fc9a3bb2870aa02cd7d16e00486079792b256012eab83521d8",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso500-water57.json",
+      "page_url": "records/chen2018ami-dmso500-water57.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso500-water72",
+      "title": "Chen et al. (2018) · table2-DMSO500-H2O72 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "a6c5146d197c350479a246fc35a5bf4988d9fef14e8f91fdb12891c7f3a7a1cb",
+      "recipe_signature": "f0ee50459eaee43e93a87249d6221fe05884fd12a14738f111cda816d3754e96",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso500-water72.json",
+      "page_url": "records/chen2018ami-dmso500-water72.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso500-water82",
+      "title": "Chen et al. (2018) · table2-DMSO500-H2O82 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "b1e7c005a31383b233bd893d5115d4769fd7a0bf50d304355579fc553bc3b2f3",
+      "recipe_signature": "dfb0084705b8e8d99729aefdcdfee5cfd3ba91e3a3308168f0ca5361ea152210",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso500-water82.json",
+      "page_url": "records/chen2018ami-dmso500-water82.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso500-water97",
+      "title": "Chen et al. (2018) · table2-DMSO500-H2O97 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "f43f7ce8b45c2d33132309db53df0a109e33806529467a688f4dceaac6149b6d",
+      "recipe_signature": "119a452704cee7d3f78da3e46083cda9762bda7837f8268d3a522ff883f3a7b0",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso500-water97.json",
+      "page_url": "records/chen2018ami-dmso500-water97.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso550-water77",
+      "title": "Chen et al. (2018) · table2-DMSO550-H2O77 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "96c9dc110dca4cccda36b82e4f440bba86b6e2102a0b735f9b18f89fbe55c606",
+      "recipe_signature": "a0af54b19fe52cc2272055c230217875901f9339907c497f1426c5a2b072976d",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso550-water77.json",
+      "page_url": "records/chen2018ami-dmso550-water77.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-dmso650-water77",
+      "title": "Chen et al. (2018) · table2-DMSO650-H2O77 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature solvent-balance control",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "4c42d5a8bcf80f4ada32dc7845abb0aa4c329d6b3cb4ecfdff2a3ca0abcbe1ff",
+      "recipe_signature": "58a392d34c05decac3f314e44daa4d8d409f0988a2702251aebbed74c5005f03",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-dmso650-water77.json",
+      "page_url": "records/chen2018ami-dmso650-water77.html",
+      "missing_field_count": 13,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-homogenization",
+      "title": "Chen et al. (2018) · homogenization",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Supporting preparation",
+      "record_type": "procedure",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "ff5e914978cc66bf8e23b4669d67401edb845f9f3d3d76995711a91a4624758b",
+      "recipe_signature": "6bc3c8718cae2b88c28261cc5ec13dd973b73bef4b20a0e67a51cf0b41b4fd15",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-homogenization.json",
+      "page_url": "records/chen2018ami-homogenization.html",
+      "missing_field_count": 0,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s1-1",
+      "title": "Chen et al. (2018) · S1-1 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "818102431deb6f9dccccfd0536f7046590096176977d26750de8ab6ce3d36a50",
+      "recipe_signature": "dd43d39bcc55fe12c119adaa40a32a1d5b1f74674b9057c3687352dd865d32a8",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s1-1.json",
+      "page_url": "records/chen2018ami-s1-1.html",
+      "missing_field_count": 17,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s1",
+      "title": "Chen et al. (2018) · S1 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "90fdf82850150af9f6364c1fad273676dfbfb87173526305e58788c53937ab98",
+      "recipe_signature": "5a624cc44c568e2613b34dce7e7be9ed958c78a5be1eac594f6a7877599c69d1",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s1.json",
+      "page_url": "records/chen2018ami-s1.html",
+      "missing_field_count": 16,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s2p5-1",
+      "title": "Chen et al. (2018) · S2.5-1 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "26d804da9069df7a4ce183b5e746a6d329342280f172abc3c82d1786be78b724",
+      "recipe_signature": "8c0213eb0ff38ea94fe5f6a771aeda70a52e96daf89d4061379f21ee7bcc0dba",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s2p5-1.json",
+      "page_url": "records/chen2018ami-s2p5-1.html",
+      "missing_field_count": 17,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s2p5",
+      "title": "Chen et al. (2018) · S2.5 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "96f5cf20eb8ffeba464dc407ddce6d2173bd05b1df2fb10a11bc273dc874dca1",
+      "recipe_signature": "7ce26773c35d30624730468e6ac59cb2f2621f387fdc94279b08d01dcf6866b2",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s2p5.json",
+      "page_url": "records/chen2018ami-s2p5.html",
+      "missing_field_count": 16,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s4-1",
+      "title": "Chen et al. (2018) · S4-1 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "30716a2519d6eae3135f058b5f3513019a19e8adcee39f55f530872f16697367",
+      "recipe_signature": "c65e40f94046f0c55de6b54866305f131b0f8783524244eb3c3f7099dafafda1",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s4-1.json",
+      "page_url": "records/chen2018ami-s4-1.html",
+      "missing_field_count": 17,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s4-scale50",
+      "title": "Chen et al. (2018) · S4-50x composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "50x room-temperature scale-up",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "22e54194b8acc0618bdc7d21adc21a047bedaa235913f7bda1300a4a595fc052",
+      "recipe_signature": "07253ac9be7848e708f773e8a7b2de3d9a230695967ebdeb40d70a0b77280ac3",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s4-scale50.json",
+      "page_url": "records/chen2018ami-s4-scale50.html",
+      "missing_field_count": 11,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s4",
+      "title": "Chen et al. (2018) · S4 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "020905c435caeee1f0e196b2a64986d5050f999b41780d0a996947dc1c16f672",
+      "recipe_signature": "3b2955634517163d0fbe0c2f3bb118dad200d51794be9c38e868410c55c779ee",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s4.json",
+      "page_url": "records/chen2018ami-s4.html",
+      "missing_field_count": 16,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-s5",
+      "title": "Chen et al. (2018) · S5 composite preparation",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Room-temperature precipitation and dissolution-crystallization",
+      "record_type": "protocol_variant",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "05f081ebc74f375e73617482acf5cf410703f74ddbd94d42b82305cd1f99f417",
+      "recipe_signature": "f17ef4ece7e56ad66ef1505346f96936916552bbfb5a91649494c37f628ac38d",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-s5.json",
+      "page_url": "records/chen2018ami-s5.html",
+      "missing_field_count": 16,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-study-evidence",
+      "title": "Chen et al. (2018) · Specimen-scoped characterization and source discussion",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Source evidence",
+      "record_type": "observation",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "2e99cb2eab56eedb9eb1b5e3cf7b20cc4a4114b39aa781eeb255b86eb5dcb831",
+      "recipe_signature": "c10dcd059138189aa858be96b6ec2f15b2397bd36cd66c215e6ff54f89bd39a2",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-study-evidence.json",
+      "page_url": "records/chen2018ami-study-evidence.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-surface-scrape",
+      "title": "Chen et al. (2018) · surface scrape",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Supporting preparation",
+      "record_type": "procedure",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "b4e3175d1415c2e6ef0a234259a6f89b736f4a54d36ebf867ffbdfb38d26ce23",
+      "recipe_signature": "6bc3c8718cae2b88c28261cc5ec13dd973b73bef4b20a0e67a51cf0b41b4fd15",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-surface-scrape.json",
+      "page_url": "records/chen2018ami-surface-scrape.html",
+      "missing_field_count": 3,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
+      ]
+    },
+    {
+      "record_id": "chen2018ami-wled",
+      "title": "Chen et al. (2018) · wled",
+      "formula": "Cs4PbBr6/CsPbBr3",
+      "family": "lead-halide perovskite composites",
+      "method": "Supporting preparation",
+      "record_type": "procedure",
+      "source_year": 2018,
+      "source_doi": "10.1021/acsami.8b04556",
+      "revision": 1,
+      "record_sha256": "70ff1729c5b452743ea6a09a9570fb676eb1b8fc03c4c301aca67da52295492d",
+      "recipe_signature": "bad7dac468830643f77b628f6aed357adc434883511e5cf6cfd39c0a04543eb3",
+      "group_id": "group-c5573ec89e6f",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chen2018ami-wled.json",
+      "page_url": "records/chen2018ami-wled.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "Cs4PbBr6",
+        "CsPbBr3"
       ]
     },
     {

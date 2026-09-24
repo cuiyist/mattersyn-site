@@ -56,7 +56,14 @@ export async function mountReader(main,{materialId,recordId}={}){
  installStyle();main.className='reader-main';main.replaceChildren(el('div','Loading reviewed material…','reader-loading'));
  const [index,presentations]=await Promise.all([json('data/materials-index.json'),json('data/reader-presentation.json')]);
  let material=materialId?index.materials.find(m=>m.id===materialId):null;
- if(recordId&&!material){for(const m of index.materials){if((presentations.materials?.[m.id]?.record_ids||[]).includes(recordId)){material=m;if(!m.component_only)break;}}}
+ if(recordId&&!material){
+  const candidates=index.materials.filter(m=>(presentations.materials?.[m.id]?.record_ids||[]).includes(recordId));
+  if(candidates.length){
+   const routeRecord=candidates.length>1?await json('data/records/'+recordId+'.json'):null;
+   const targetFormula=normal(routeRecord?.material?.formula);
+   material=(targetFormula&&candidates.find(m=>normal(m.formula)===targetFormula))||candidates.find(m=>!m.component_only)||candidates[0];
+  }
+ }
  if(!material&&materialId)throw Error('This material does not have a reviewed synthesis page.');
  let data=material?await json('data/materials/'+material.id+'.json'):null;
  const records=(data?.records||[]).filter(r=>r.is_synthesis_route&&r.collection==='reviewed_literature');

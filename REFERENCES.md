@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Generated from dataset **0.34.0**, containing **41 primary source groups**. The reference list follows published records, not all indexed documents. A paper can contribute several records; records are not independent experiments.
+Generated from dataset **0.34.0**, containing **42 primary source groups**. The reference list follows published records, not all indexed documents. A paper can contribute several records; records are not independent experiments.
 
 - K. A. Littau; P. J. Szajowski; A. J. Muller; A. R. Kortan; L. E. Brus (1993). A Luminescent Silicon Nanocrystal Colloid via a High-Temperature Aerosol Reaction. *The Journal of Physical Chemistry*, 97, 1224–1230. [10.1021/j100108a019](https://doi.org/10.1021/j100108a019). [Main paper reviewed; SI unverified](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=littau1993).
 
@@ -67,6 +67,8 @@ Generated from dataset **0.34.0**, containing **41 primary source groups**. The 
 - Calynn E. Morrison; Fudong Wang; Nigam P. Rath; Brian M. Wieliczka; Richard A. Loomis; William E. Buhro (2017). Cadmium Bis(phenyldithiocarbamate) as a Nanocrystal Shell-Growth Precursor. *Inorganic Chemistry*, 56, 12920–12929. [10.1021/acs.inorgchem.7b01711](https://doi.org/10.1021/acs.inorgchem.7b01711). [Supplied main paper and matched SI reviewed](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=morrison2017).
 
 - Igor Nakonechnyi; Michael Sluydts; Yolanda Justo; Jacek Jasieniak; Zeger Hens (2017). Mechanistic Insights in Seeded Growth Synthesis of Colloidal Core/Shell Quantum Dots. *Chemistry of Materials*, 29, 4719-4727. [10.1021/acs.chemmater.7b00354](https://doi.org/10.1021/acs.chemmater.7b00354). [Supplied main paper and matched SI reviewed](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=nakonechnyi2017).
+
+- Ya-Meng Chen; Yang Zhou; Qing Zhao; Jun-Ying Zhang; Ju-Ping Ma; Tong-Tong Xuan; Shao-Qiang Guo; Zi-Jun Yong; Jing Wang; Yoshihiro Kuroiwa; Chikako Moriyoshi; Hong-Tao Sun (2018). Cs4PbBr6/CsPbBr3 Perovskite Composites with Near-Unity Luminescence Quantum Yield: Large-Scale Synthesis, Luminescence and Formation Mechanism, and White Light-Emitting Diode Application. *ACS Applied Materials & Interfaces*, 10, 15905-15912. [10.1021/acsami.8b04556](https://doi.org/10.1021/acsami.8b04556). [Supplied main paper and matched SI reviewed](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=chen2018ami).
 
 - Baowei Zhang, Luca Goldoni, Juliette Zito, Zhiya Dang, Guilherme Almeida, Francesco Zaccaria, Jur de Wit, Ivan Infante, Luca De Trizio, Liberato Manna (2019). Alkyl Phosphonic Acids Deliver CsPbBr3 Nanocrystals with High Photoluminescence Quantum Yield and Truncated Octahedron Shape. [10.1021/acs.chemmater.9b03529](https://doi.org/10.1021/acs.chemmater.9b03529). Review scope is stated in the linked website records; this citation does not imply full main/SI review.
 

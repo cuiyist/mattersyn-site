@@ -10,7 +10,25 @@ function render(data){
  if($('review-progress-brief')){$('review-progress-brief').textContent=paused?'Active papers are published. Work is paused for joint review; no new papers will start.':data.current_work.length?`${data.current_work[0].short_label}: ${data.current_work[0].stage}.`:'No paper is currently under review.';$('review-progress-time').textContent=`Snapshot generated ${date(data.updated_at)} · checked for updates every minute`;}
  if(!$('published-metrics'))return;
  $('progress-updated').textContent=`Snapshot generated ${date(data.updated_at)} · automatic update check every minute`;
- const s=data.fixed_scope_screening;if(s&&$('screening-metrics')){metrics($('screening-metrics'),[[s.checked_contents,'Distinct source contents screened'],[s.distinct_contents,'Distinct contents in frozen collection'],[s.unreviewed_contents,'Blocked and still unreviewed']]);$('screening-detail').textContent=`${s.percent_checked}% checked as of ${date(s.updated_at)}. Decisions: ${number(s.decisions.pass)} distinct contents pass, ${number(s.decisions.hold)} are held and ${number(s.decisions.no_target_recipe)} have no target recipe. The pass folder contains ${number(s.folder_files.screened_papers)} source files representing ${number(s.decisions.pass)} contents (${number(s.folder_files.screened_papers-s.decisions.pass)} duplicate copies); the hold folder contains ${number(s.folder_files.screened_papers_on_hold)} source files representing ${number(s.decisions.hold)} contents (${number(s.folder_files.screened_papers_on_hold-s.decisions.hold)} duplicate copies). These source-file totals exclude each folder's manifest/readme metadata. The ${number(s.unreviewed_contents)} blocked items receive no screening credit. This is initial screening only; it does not establish complete recipe extraction, independent scientific audit, sample linkage or training readiness.`;}
+ const overall=data.whole_corpus_progress;
+ if($('stage-progress')){
+  const host=$('stage-progress');host.replaceChildren();
+  if(overall){
+   $('stage-denominator').textContent=`Entire fixed existing collection: ${number(overall.denominator)} distinct main-article/SI document contents, from ${number(overall.original_file_copies)} file copies. New arrivals are separate. Exact duplicates count once. Percentages below use this same collection-wide denominator.`;
+   for(const stage of overall.stages){
+    const card=el('article',undefined,'stage-card');
+    card.append(el('h3',stage.label),el('strong',`${stage.count_is_lower_bound?'At least ':''}${stage.percent.toFixed(2)}%`,'stage-percent'),el('p',`${number(stage.completed)} / ${number(stage.total)} documents`));
+    const bar=el('progress');bar.max=stage.total;bar.value=stage.completed;bar.setAttribute('aria-label',stage.label+' across the fixed collection');card.append(bar,el('p',stage.definition,'progress-note'));
+    const elapsed=stage.elapsed_active_hours===null?'Not recorded for earlier work':`${stage.elapsed_active_hours.toFixed(2)} hours in latest measured window`;
+    const remaining=stage.remaining_active_hours===null?'Not yet calibrated':`About ${Math.round(stage.remaining_active_hours)} active hours (provisional)`;
+    const timing=el('dl',undefined,'stage-timing');timing.append(el('dt','Measured elapsed'),el('dd',elapsed),el('dt','Estimated remaining'),el('dd',remaining));card.append(timing);
+    if(stage.latest_window)card.append(el('p',stage.latest_window,'progress-note'));
+    host.append(card);
+   }
+   $('stage-time-note').textContent=overall.count_basis+' '+overall.time_note;
+   $('stage-remaining-note').textContent=overall.remaining_note;
+  }else host.append(el('p','Whole-collection counts are being reconciled.'));
+ }
  const p=data.published;metrics($('published-metrics'),[[p.record_count,'Structured records'],[p.synthesis_route_count,'Synthesis routes / variants'],[p.material_hub_count,'Material / component collections'],[p.formal_source_reader_count,'Formal source readers']]);
  $('published-detail').textContent=`Dataset ${p.dataset_version} · ${p.direct_material_hub_count} direct material systems and ${p.component_material_hub_count} component collections. Records include procedures, observations and benchmark rows; they are not independent experiments. Exact structure–recipe pairs: ${p.exact_structure_recipe_count}.`;
  $('batch-count').textContent=`${data.batch.published} / ${data.batch.total} papers published`;
