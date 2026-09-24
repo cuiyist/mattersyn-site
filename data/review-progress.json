@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T05:40:33.001491+00:00",
+  "updated_at": "2026-09-24T06:38:17.652880+00:00",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.34.0",
@@ -74,8 +74,8 @@
     {
       "short_label": "Pass-set curation",
       "title": "From document screening to audited material records",
-      "stage": "Three source packages are independently source-audited; reader integration is underway. Two additional high-evidence papers are in extraction.",
-      "summary": "The original three-source pilot (Tirosh CoFe2O4, Wu Cu2S and phosphinate-ligated CdSe/CdS) has 3/3 independent source audits and correction rechecks complete, but 0/3 reader contributions published. Tirosh now has five canonical draft records that pass the project schema, with mapping audit and molecular identity assets pending. Two further papers are being read and extracted in separate lanes: InP (main+SI) and Cu-Sb-S (main+SI). Conflicting source statements stay side by side with their locators; incomplete drafts are not counted as website contributions.",
+      "stage": "The 3-paper reader pilot remains 0/3 published; two complete rechecks, one Tirosh mapping recheck pending, and two additional source packages are ready for audit.",
+      "summary": "The original three-source pilot (Tirosh CoFe2O4, Wu Cu2S, phosphinate-ligated CdSe/CdS) is still 0/3 site-integrated. Wu and CdSe have cleared their scoped audits and correction rechecks. Tirosh’s new revision-4 molecule links for the exclusive Fe-alkoxide choices are implemented, but an independent recheck is still required. Ramasamy et al. Cu-Sb-S now has 16 source-linked Figure 1 condition-map candidates plus a time-series observation; its route-metadata correction passed a bounded recheck, while reader integration is pending. The InP main/SI extraction now has page/caption-specific SI locators and is awaiting a separate re-audit. Conflicts remain explicit; incomplete records are not counted as built.",
       "stages": [
         {
           "label": "Initial source screen",
@@ -85,30 +85,30 @@
         {
           "label": "Structured extraction",
           "status": "in_progress",
-          "detail": "Three source packages are frozen; InP and Cu-Sb-S extraction are underway in separate source lanes."
+          "detail": "Original pilot extractions are frozen. Cu-Sb-S has 16 distinct condition-map candidates; InP has 20 protocol/branch candidates, 11 precursor preparations, 14 sample candidates and 10 observations. Both package extractions are frozen; no reader contributions have been published from them."
         },
         {
           "label": "Independent scientific audit",
           "status": "in_progress",
-          "detail": "3/3 original pilot source audits and targeted rechecks passed. Two new paper audits are pending their extraction drafts; Tirosh canonical mapping audit is underway."
+          "detail": "Wu and phosphinate-ligated CdSe have cleared scoped source audits and correction rechecks. Tirosh’s option-identity implementation is awaiting independent recheck. Cu-Sb-S route-metadata correction passed a bounded recheck; InP’s updated SI locators await targeted re-audit."
         },
         {
           "label": "Reader and dataset integration",
           "status": "in_progress",
-          "detail": "Tirosh CoFe2O4 has five schema-valid draft records. Molecular assets, independent mapping audit, full site build and publication remain pending; original 3-paper pilot is still 0/3 integrated."
+          "detail": "Original three-paper pilot remains 0/3 integrated. Cu-Sb-S and InP reader integrations remain pending; Tirosh revision-4 molecule-option links still need independent recheck, full site build and browser QA."
         },
         {
           "label": "500/day capacity target",
           "status": "in_progress",
-          "detail": "This target has not been achieved or measured. Current workflows have no installed local inference runtime/model; paid API processing remains deferred. Do not count draft pages as completed contributions."
+          "detail": "A local-only Qwen3.5:27B first pass took 104 s on one six-page paper. The draft misread a source conflict and omitted details; it is not publishable without independent review. A smaller local-model speed comparison is underway. No paid API or cloud document processing is used."
         }
       ]
     },
     {
       "short_label": "Tirosh et al. (2006)",
       "title": "Cobalt ferrite nanocrystal synthesis and characterization",
-      "stage": "Six-page extraction and independent source audit passed after targeted correction recheck; reader integration pending.",
-      "summary": "All six main-article pages, Figures 1–7 and Table 1 were visually inspected. Method A and comparator routes B–D remain distinct; the cited comparator recipes are not invented. The audit correction recheck passes after preserving the literal p. 468 “300 K” statement, which remains internally inconsistent and unresolved. No matching SI was located/verified. This is not a canonical/site audit or training-ready pair.",
+      "stage": "Full six-page source extraction and initial audit passed; revision-4 option-identity correction awaits independent recheck. Reader integration pending.",
+      "summary": "All six main-article pages, Figures 1–7 and Table 1 were visually inspected. Method A and comparator routes B–D remain distinct; cited comparator recipes are not invented. The earlier audit recheck found the literal p. 468 “300 K” statement unresolved against the 230–300 °C method range. Revision 4 now links the mutually exclusive Fe-alkoxide choices to their molecular assets, without treating them as co-charged ingredients; this code/data correction still needs an independent source recheck. No matching SI was located/verified. Not a canonical/site contribution or training-ready pair.",
       "stages": [
         {
           "label": "Source identity and visual coverage",
@@ -122,13 +122,13 @@
         },
         {
           "label": "Independent audit",
-          "status": "complete",
-          "detail": "Full independent audit and targeted correction recheck passed; the 300 K intent remains unresolved. Canonical page integration still needs its own checks."
+          "status": "in_progress",
+          "detail": "The initial full source audit passed; a later correction recheck found the option-level chemical identity incomplete. Revision 4 adds links for both exclusive alkoxide choices; independent recheck is still pending. Keep the 300 K / 230–300 °C conflict unresolved."
         },
         {
           "label": "Material reader and website",
           "status": "pending",
-          "detail": "Integrate after audit, with the CdSe-level precursor, protocol and characterization detail."
+          "detail": "No route page is integrated. Continue only after the revision-4 option links pass independent review; build the CdSe-level precursor, protocol and characterization detail and run browser QA."
         }
       ]
     },
@@ -262,8 +262,8 @@
     {
       "short_label": "InP triaryl-silyl-phosphine synthesis",
       "title": "InP quantum-dot recipes, precursor preparation and sample evidence",
-      "stage": "Full 11-page main article and 16-page SI read; structured extraction draft ready, independent audit pending.",
-      "summary": "The extraction package contains 20 protocol/branch candidates, 11 upstream precursor preparations, 14 sample candidates and 10 observations. It is a private draft only; the audit will check recipe variants, sample links, figure assignments and unresolved source conflicts.",
+      "stage": "Full 11-page main article and 16-page SI extraction frozen; 37 SI claim locators now include page and local caption/section/panel/sample heading. Targeted independent audit pending.",
+      "summary": "A private source-linked extraction contains 20 protocol/branch candidates, 11 upstream precursor preparations, 14 sample candidates and 10 observations. The 37 SI claim locators have been made page- and caption-specific and structural link checks pass. An independent targeted re-audit is still required for all recipe variants, sample links, figures and source conflicts. No records are promoted.",
       "stages": [
         {
           "label": "Main/SI pairing and visual coverage",
@@ -278,7 +278,7 @@
         {
           "label": "Independent audit",
           "status": "in_progress",
-          "detail": "Queued for a reviewer who did not produce the extraction; no records promoted yet."
+          "detail": "Awaiting separate targeted re-audit of the frozen extraction and all 37 corrected SI locators; no canonical record or reader page is accepted yet."
         },
         {
           "label": "Reader and dataset integration",
@@ -290,8 +290,8 @@
     {
       "short_label": "Cu-Sb-S phase-map synthesis",
       "title": "Copper-antimony-sulfide phase-controlled nanocrystal synthesis",
-      "stage": "All 9 main pages and 6 SI pages visually reviewed; source-linked extraction and candidate records are being drafted.",
-      "summary": "The extraction retains four target-phase routes and the SI time series as separate source-defined conditions. Ratio and phase-label conflicts remain unresolved for the independent audit; no provisional value is selected.",
+      "stage": "Full main/SI extraction and first audit complete; 16 Figure 1 condition-map candidates plus one SI time-series observation. Route correction passed; reader integration pending.",
+      "summary": "The matched 9-page main article and 6-page SI were visually reviewed. The full audit found that eight S/OLA routes carried thiol branch metadata and inactive alternative ingredients; those were corrected and passed a bounded recheck (8 S/OLA and 8 mixed-thiol variants now have selected-only reagent inputs). Ratio and Cu3SbS4 heading/body conflicts remain unresolved. These are condition-map entries, not named synthesis batches; phase-to-characterization links are limited. No site contribution or training-ready exact pair is counted.",
       "stages": [
         {
           "label": "Main/SI pairing and visual coverage",
@@ -301,22 +301,26 @@
         {
           "label": "Structured extraction",
           "status": "in_progress",
-          "detail": "Route records and per-condition evidence locators are being written."
+          "detail": "All 17 candidate records pass the exported schema. Sixteen protocol records join one-to-one to Figure 1 condition-map cells; the additional record captures the SI time series. Route-specific lineages, branches, stocks and active source materials passed a bounded correction recheck."
         },
         {
           "label": "Independent audit",
-          "status": "pending",
-          "detail": "A separate reviewer will check the phase labels, ratio wording, time series and sample assignments."
+          "status": "in_progress",
+          "detail": "The full source audit identified and documented the original route-metadata defect; a separate bounded recheck confirms that repair. Source conflicts and limited phase-to-sample links remain in the frozen audit; no training admission."
         },
         {
           "label": "Reader and dataset integration",
           "status": "pending",
-          "detail": "No reader records or training examples are published from this source yet."
+          "detail": "No material reader or dataset contribution has been published. Integrate the condition map and phase-level TEM/XRD/EDX/absorption evidence with separate locators, unresolved conflicts, and explicit cautions that no named batches link several characterization panels."
         }
       ]
     }
   ],
   "recent_milestones": [
+    {
+      "at": "2026-09-24T06:36:26Z",
+      "text": "Throughput pilot: Qwen3.5:27B on the RTX 5090 drafted one six-page, visually rendered and fully text-extracted paper in 103.84 s including first model load. It correctly drafted the main recipe and Table 1 values, but inferred a correction to “300 K,” left the conflict list empty, omitted the three-repeat wash, and missed the undefined ± statistic. Draft output is not counted as an audited website contribution. Cu-Sb-S route metadata correction now passes bounded recheck; InP SI locator correction is frozen and awaiting separate re-audit; Tirosh revision-4 option identity is also pending independent recheck."
+    },
     {
       "at": "2026-09-24T05:39:43.277057Z",
       "text": "Capacity update: the 500-contribution/day target remains unmet. The original three-source pilot is 3/3 independently source-audited and 0/3 site-integrated. Tirosh’s five record drafts pass the canonical schema; its mapping audit and molecule assets are pending. InP and Cu-Sb-S source extraction are active in separate lanes."
@@ -405,19 +409,18 @@
     "update_policy": "Progress is published at meaningful review milestones. Drafts and source-audit passes are not counted as website contributions; each published record must retain evidence locators and clear source/sample distinctions."
   },
   "estimate": {
-    "status": "first_audited_batch_in_progress",
-    "summary": "Target: at least 500 quality-reviewed paper contributions/day. The current three-source pilot has completed extraction and independent audit (3/3) but reader integration is 0/3; provisional time to finish this pilot is 1–3 working days. At the earlier 30–60 min per verified source group, the 500/day target needs about 250–500 reviewer-hours/day before integration, so it is not achievable by merely accelerating the current local manual workflow. A high-throughput batch pipeline and measured pilot are needed; full-collection finish time is not yet a forecast.",
-    "current_batch": "Current pilot: Tirosh CoFe2O4, Wu Cu2S and phosphinate-ligated CdSe/CdS (main + matched 24-page SI) have frozen extraction and passed scoped independent audit/correction checks. Reader integration: 0/3 contributions so far. None of these records is training-ready merely because its source audit passes.",
+    "status": "throughput_benchmark_in_progress",
+    "summary": "Target: 500 fully reviewed paper contributions per day. No end-to-end rate has been demonstrated. On one six-page Tirosh main article, Qwen3.5:27B produced a draft in 103.84 s including initial model load (about 73.8 s for prompt evaluation and generation after load). At that example-only rate, one GPU could draft roughly 390 same-size sources in an 8-hour continuous inference window after warm-up, before PDF preprocessing, independent audit, correction, page integration or browser QA. The draft mishandled an explicit source conflict and omitted details, so it cannot count as a completed contribution. Smaller local-model comparison is underway. Whole-collection finish time remains unforecastable.",
+    "current_batch": "Original reader pilot: 0/3 integrated; Wu and CdSe rechecks are clear; Tirosh revision-4 option identity recheck pending. Cu-Sb-S route repair passed its bounded recheck but its site contribution is pending; InP locator correction awaits targeted audit.",
     "scenarios": [],
     "notes": [
-      "Frozen pass-set: 5,539 distinct source contents in 5,587 copied files (48 duplicate copies); main articles and SI are separate screen units, not unique-paper or recipe counts.",
-      "A pass means useful synthesis/preparation evidence plus reported structural, phase or morphology evidence. It does not establish a complete procedure, exact recipe-to-specimen linkage, independent audit or training admission.",
-      "Distinct source-reported conditions or recipe/sample variants stay separate training records. Papers may add separately attributed evidence to a shared material/method page without merging experiments.",
-      "For unresolved source conflicts, retain both claims and show them in parallel with exact main/SI locators and an unresolved label. Do not choose a value or count alternative wording as a separate experiment without evidence of a distinct run.",
-      "Pilot pace is not yet a representative or continuous rate. The 1–3-working-day reader-cycle estimate is provisional and excludes papers outside this three-source pilot.",
-      "Illustrative backlog arithmetic only: 4,971 provisional identity buckets at 30–60 minutes/group with three eight-hour review lanes imply about 103–207 working days before site integration or identity-resolution overhead. This is not a completion forecast.",
-      "Original PDFs and SI remain local. No paid API or cloud processing run has started.",
-      "At 500 contributions/day, 4,971 provisional source-group buckets would take about 10 active days by arithmetic alone; 5,539 passing distinct document contents would take about 11 days if they were processed one-for-one. These are lower-bound throughput calculations after the pipeline reaches its target, not a completion forecast; main/SI identity, review depth, conflicts, integration and QA add time."
+      "Frozen pass set: 5,539 distinct source contents in 5,587 copied files (48 duplicates); main articles and SI are separate screen units, not unique-paper or recipe counts.",
+      "Screening pass indicates useful synthesis/preparation evidence plus structural, phase or morphology evidence; it is not an exact sample-pair, source audit or training admission.",
+      "Keep every source-reported condition, sample and recipe variant separate. Several papers can contribute independently cited details to one material page.",
+      "When sources conflict, show both claims with their separate locators and unresolved status; do not silently normalize the wording.",
+      "Local extraction drafts are not counted as reviewed website contributions. The Qwen3.5:27B benchmark exposed a conflict-normalization error and missing work-up/statistical details; every candidate still requires an independent source check.",
+      "The local model runs offline with cloud features disabled. No paid API or external document upload is authorized.",
+      "The local site renderer previously processed 680 records in 11.5 s; source reading, independent review, conflict handling and reader QA—not HTML generation—control end-to-end throughput."
     ]
   }
 }
