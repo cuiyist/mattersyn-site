@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 125,
-    "source_groups": 33,
-    "records": 106,
+    "recipe_structure_rows": 143,
+    "source_groups": 34,
+    "records": 124,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -16720,6 +16720,3199 @@
                 "field": "crystal_structure.phase_lattice"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-hi-c10::rusch2026-hi-c10-product",
+      "record_id": "rusch2026-hi-c10",
+      "record_page_path": "records/rusch2026-hi-c10.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C10 aqueous-HI comparison",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Hot dissolution and slow cooling",
+      "recipe_label": "Rusch et al. (2026) · C10 aqueous-HI comparison",
+      "sample_id": "rusch2026-hi-c10-product",
+      "source_sample_label": "C10HI-route product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C10H21NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 20, FigureS22 comparative HI synthesis"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 20, FigureS22 comparative HI synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Main layered double-perovskite phase with additional impurity reflections",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 20, FigureS22 comparative HI synthesis"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C10H21NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 20, FigureS22 comparative HI synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-hi-c10-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hi-cool-state",
+          "composition": {
+            "value": "(C10H21NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 20, FigureS22 comparative HI synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Main layered double-perovskite phase with additional impurity reflections",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 20, FigureS22 comparative HI synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 20, FigureS22 comparative HI synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c10::rusch2026-rapid-c10-product",
+      "record_id": "rusch2026-rapid-c10",
+      "record_page_path": "records/rusch2026-rapid-c10.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C10 iodide precipitation",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C10 iodide precipitation",
+      "sample_id": "rusch2026-rapid-c10-product",
+      "source_sample_label": "C10 iodide precipitation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C10H21NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 3 (printed 902), Figure2, powder diffraction compared with separately resolved crystal models"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: long-chain amine powder phase and SEM morphology"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Polydisperse microcrystals, a few micrometers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: polydisperse microcrystals a few micrometers in size"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 4, FigureS1, C10/C12/C14 powder SEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C10H21NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c10-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C10H21NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 3 (printed 902), Figure2, powder diffraction compared with separately resolved crystal models"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: long-chain amine powder phase and SEM morphology"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Polydisperse microcrystals, a few micrometers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: polydisperse microcrystals a few micrometers in size"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 4, FigureS1, C10/C12/C14 powder SEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c12::rusch2026-rapid-c12-product",
+      "record_id": "rusch2026-rapid-c12",
+      "record_page_path": "records/rusch2026-rapid-c12.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 iodide precipitation",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 iodide precipitation",
+      "sample_id": "rusch2026-rapid-c12-product",
+      "source_sample_label": "C12 iodide precipitation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 3 (printed 902), Figure2, powder diffraction compared with separately resolved crystal models"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: long-chain amine powder phase and SEM morphology"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Polydisperse microcrystals, a few micrometers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: polydisperse microcrystals a few micrometers in size"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 4, FigureS1, C10/C12/C14 powder SEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c12-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 3 (printed 902), Figure2, powder diffraction compared with separately resolved crystal models"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: long-chain amine powder phase and SEM morphology"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Polydisperse microcrystals, a few micrometers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: polydisperse microcrystals a few micrometers in size"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 4, FigureS1, C10/C12/C14 powder SEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c12-br::rusch2026-rapid-c12-br-product",
+      "record_id": "rusch2026-rapid-c12-br",
+      "record_page_path": "records/rusch2026-rapid-c12-br.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 Br analogue",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 Br analogue",
+      "sample_id": "rusch2026-rapid-c12-br-product",
+      "source_sample_label": "C12 Br analogue",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "C12-amine silver bismuth bromide",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 8 (printed 907), Halide extension"
+          },
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 23, FigureS26"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Results: bromide/chloride extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 23, FigureS26, C12 chloride/bromide/iodide powder diffraction"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "C12-amine silver bismuth bromide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Halide extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 23, FigureS26"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c12-br-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "C12-amine silver bismuth bromide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Halide extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 23, FigureS26"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 8 (printed 907), Results: bromide/chloride extension"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 23, FigureS26, C12 chloride/bromide/iodide powder diffraction"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c12-cl::rusch2026-rapid-c12-cl-product",
+      "record_id": "rusch2026-rapid-c12-cl",
+      "record_page_path": "records/rusch2026-rapid-c12-cl.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 Cl analogue",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 Cl analogue",
+      "sample_id": "rusch2026-rapid-c12-cl-product",
+      "source_sample_label": "C12 Cl analogue",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "C12-amine silver bismuth chloride",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 8 (printed 907), Halide extension"
+          },
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 23, FigureS26"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Results: bromide/chloride extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 23, FigureS26, C12 chloride/bromide/iodide powder diffraction"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "C12-amine silver bismuth chloride",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Halide extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 23, FigureS26"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c12-cl-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "C12-amine silver bismuth chloride",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Halide extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 23, FigureS26"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 8 (printed 907), Results: bromide/chloride extension"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 23, FigureS26, C12 chloride/bromide/iodide powder diffraction"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c14::rusch2026-rapid-c14-product",
+      "record_id": "rusch2026-rapid-c14",
+      "record_page_path": "records/rusch2026-rapid-c14.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C14 iodide precipitation",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C14 iodide precipitation",
+      "sample_id": "rusch2026-rapid-c14-product",
+      "source_sample_label": "C14 iodide precipitation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C14H29NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 3 (printed 902), Figure2, powder diffraction compared with separately resolved crystal models"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: long-chain amine powder phase and SEM morphology"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Polydisperse microcrystals, a few micrometers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: polydisperse microcrystals a few micrometers in size"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 4, FigureS1, C10/C12/C14 powder SEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C14H29NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c14-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C14H29NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 3 (printed 902), Figure2, powder diffraction compared with separately resolved crystal models"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: long-chain amine powder phase and SEM morphology"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Polydisperse microcrystals, a few micrometers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: polydisperse microcrystals a few micrometers in size"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 4, FigureS1, C10/C12/C14 powder SEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c4::rusch2026-rapid-c4-product",
+      "record_id": "rusch2026-rapid-c4",
+      "record_page_path": "records/rusch2026-rapid-c4.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C4 iodide precipitation",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C4 iodide precipitation",
+      "sample_id": "rusch2026-rapid-c4-product",
+      "source_sample_label": "C4 iodide precipitation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mixed bismuth/silver iodide products; stoichiometry unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 4 (printed 903), Short-amine outcomes"
+          },
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 5, FigureS2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Mixture of bismuth and silver iodides; no layered phase identified",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: short-amine controls and mixed bismuth/silver iodides"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 5, FigureS2, amine-series powder diffraction"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 6, FigureS3, short-amine SEM/EDX"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Layered silver bismuth iodide usingbutylamine",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": "Target of the amine comparison; hypothetical target stoichiometry is not an observed product."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Mixed bismuth/silver iodide products; stoichiometry unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Short-amine outcomes"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 5, FigureS2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Mixture of bismuth and silver iodides; no layered phase identified",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: short-amine controls and mixed bismuth/silver iodides"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 5, FigureS2, amine-series powder diffraction"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 6, FigureS3, short-amine SEM/EDX"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-c6::rusch2026-rapid-c6-product",
+      "record_id": "rusch2026-rapid-c6",
+      "record_page_path": "records/rusch2026-rapid-c6.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C6 iodide precipitation",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C6 iodide precipitation",
+      "sample_id": "rusch2026-rapid-c6-product",
+      "source_sample_label": "C6 iodide precipitation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mixed bismuth/silver iodide products; stoichiometry unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 4 (printed 903), Short-amine outcomes"
+          },
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 5, FigureS2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Mixture of bismuth and silver iodides; no layered phase identified",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Results: short-amine controls and mixed bismuth/silver iodides"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 5, FigureS2, amine-series powder diffraction"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 6, FigureS4, short-amine SEM/EDX"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Layered silver bismuth iodide usinghexylamine",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              }
+            ],
+            "note": "Target of the amine comparison; hypothetical target stoichiometry is not an observed product."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-c6-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Mixed bismuth/silver iodide products; stoichiometry unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Short-amine outcomes"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 5, FigureS2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Mixture of bismuth and silver iodides; no layered phase identified",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Results: short-amine controls and mixed bismuth/silver iodides"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 5, FigureS2, amine-series powder diffraction"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 6, FigureS4, short-amine SEM/EDX"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rapid-fpea::rusch2026-rapid-fpea-product",
+      "record_id": "rusch2026-rapid-fpea",
+      "record_page_path": "records/rusch2026-rapid-fpea.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · FPEA iodide precipitation",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · FPEA iodide precipitation",
+      "sample_id": "rusch2026-rapid-fpea-product",
+      "source_sample_label": "FPEA iodide precipitation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(4-FPEA)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+          },
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 8 (printed 907), Results: 4-fluorophenethylamine extension"
+          },
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 22, FiguresS24/S25; product diffraction against literature CCDC2151233 and SEM/EDX"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Results: 4-fluorophenethylamine extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 22, FiguresS24/S25; product diffraction against literature CCDC2151233 and SEM/EDX"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(4-FPEA)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Results: 4-fluorophenethylamine extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 22, FiguresS24/S25; product diffraction against literature CCDC2151233 and SEM/EDX"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rapid-fpea-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(4-FPEA)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 8 (printed 907), Results: 4-fluorophenethylamine extension"
+              },
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 22, FiguresS24/S25; product diffraction against literature CCDC2151233 and SEM/EDX"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 8 (printed 907), Results: 4-fluorophenethylamine extension"
+                },
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 22, FiguresS24/S25; product diffraction against literature CCDC2151233 and SEM/EDX"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Experimental Section / preparation of silver bismuth iodide LDPs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rate-5min::rusch2026-rate-5min-product",
+      "record_id": "rusch2026-rate-5min",
+      "record_page_path": "records/rusch2026-rate-5min.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 addition-rate comparator 5min",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Controlled precursor addition",
+      "recipe_label": "Rusch et al. (2026) · C12 addition-rate comparator 5min",
+      "sample_id": "rusch2026-rate-5min-product",
+      "source_sample_label": "C12 addition-rate comparator 5min",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rate-5min-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rate-60min::rusch2026-rate-60min-product",
+      "record_id": "rusch2026-rate-60min",
+      "record_page_path": "records/rusch2026-rate-60min.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 addition-rate comparator 60min",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Controlled precursor addition",
+      "recipe_label": "Rusch et al. (2026) · C12 addition-rate comparator 60min",
+      "sample_id": "rusch2026-rate-60min-product",
+      "source_sample_label": "C12 addition-rate comparator 60min",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rate-60min-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-rate-rapid::rusch2026-rate-rapid-product",
+      "record_id": "rusch2026-rate-rapid",
+      "record_page_path": "records/rusch2026-rate-rapid.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 addition-rate comparator <1s",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 addition-rate comparator <1s",
+      "sample_id": "rusch2026-rate-rapid-product",
+      "source_sample_label": "C12 addition-rate comparator <1s",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-rate-rapid-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 18, FigureS20; two synthesis traces for each rate"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-recrystallized-c10::rusch2026-recrystallized-c10-product",
+      "record_id": "rusch2026-recrystallized-c10",
+      "record_page_path": "records/rusch2026-recrystallized-c10.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C10 recrystallization",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Solvent evaporation recrystallization",
+      "recipe_label": "Rusch et al. (2026) · C10 recrystallization",
+      "sample_id": "rusch2026-recrystallized-c10-product",
+      "source_sample_label": "C10 recrystallized crystal",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C10H21NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+          },
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic C2/c(No.15);Z=4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Translucent intense-red plate-like crystals; selected SCXRD specimens have Table1 dimensions",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C10H21NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-recrystallized-c10-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "evaporate-state",
+          "composition": {
+            "value": "(C10H21NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic C2/c(No.15);Z=4",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Translucent intense-red plate-like crystals; selected SCXRD specimens have Table1 dimensions",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-recrystallized-c12::rusch2026-recrystallized-c12-product",
+      "record_id": "rusch2026-recrystallized-c12",
+      "record_page_path": "records/rusch2026-recrystallized-c12.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 recrystallization",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Solvent evaporation recrystallization",
+      "recipe_label": "Rusch et al. (2026) · C12 recrystallization",
+      "sample_id": "rusch2026-recrystallized-c12-product",
+      "source_sample_label": "C12 recrystallized crystal",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+          },
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic C2/c(No.15);Z=4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Translucent intense-red plate-like crystals; selected SCXRD specimens have Table1 dimensions",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-recrystallized-c12-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "evaporate-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic C2/c(No.15);Z=4",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Translucent intense-red plate-like crystals; selected SCXRD specimens have Table1 dimensions",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-recrystallized-c14::rusch2026-recrystallized-c14-product",
+      "record_id": "rusch2026-recrystallized-c14",
+      "record_page_path": "records/rusch2026-recrystallized-c14.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C14 recrystallization",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Solvent evaporation recrystallization",
+      "recipe_label": "Rusch et al. (2026) · C14 recrystallization",
+      "sample_id": "rusch2026-recrystallized-c14-product",
+      "source_sample_label": "C14 recrystallized crystal",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C14H29NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+          },
+          {
+            "source_id": "rusch2026",
+            "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "rusch2026",
+          "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic C2/c(No.15);Z=4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Translucent intense-red plate-like crystals; selected SCXRD specimens have Table1 dimensions",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C14H29NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-recrystallized-c14-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "evaporate-state",
+          "composition": {
+            "value": "(C14H29NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+              },
+              {
+                "source_id": "rusch2026",
+                "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic C2/c(No.15);Z=4",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Translucent intense-red plate-like crystals; selected SCXRD specimens have Table1 dimensions",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 2 (printed 901), Recrystallization paragraph"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 4 (printed 903), Figure3; single crystal structure"
+                },
+                {
+                  "source_id": "rusch2026",
+                  "locator": "main PDF p. 5 (printed 904), Table1, crystal system/space group/Z and selected-crystal dimensions/morphology"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-temperature-0::rusch2026-temperature-0-product",
+      "record_id": "rusch2026-temperature-0",
+      "record_page_path": "records/rusch2026-temperature-0.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 injection at0°C",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 injection at0°C",
+      "sample_id": "rusch2026-temperature-0-product",
+      "source_sample_label": "C12 injection at0°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 19, FigureS21 labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 19, FigureS21 labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-temperature-0-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 19, FigureS21 labels"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 19, FigureS21 labels"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-temperature-21::rusch2026-temperature-21-product",
+      "record_id": "rusch2026-temperature-21",
+      "record_page_path": "records/rusch2026-temperature-21.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 injection at21°C",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 injection at21°C",
+      "sample_id": "rusch2026-temperature-21-product",
+      "source_sample_label": "C12 injection at21°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 19, FigureS21 labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 19, FigureS21 labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-temperature-21-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 19, FigureS21 labels"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 19, FigureS21 labels"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "rusch2026-temperature-50::rusch2026-temperature-50-product",
+      "record_id": "rusch2026-temperature-50",
+      "record_page_path": "records/rusch2026-temperature-50.html",
+      "source_group": "rusch2026",
+      "title": "Rusch et al. (2026) · C12 injection at50°C",
+      "doi": "10.1021/acs.chemmater.5c02845",
+      "year": 2026,
+      "method": "Rapid precipitation",
+      "recipe_label": "Rusch et al. (2026) · C12 injection at50°C",
+      "sample_id": "rusch2026-temperature-50-product",
+      "source_sample_label": "C12 injection at50°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(C12H25NH3)4AgBiI8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rusch2026-si",
+            "locator": "si PDF p. 19, FigureS21 labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rusch2026-si",
+          "locator": "si PDF p. 19, FigureS21 labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered double perovskite reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026",
+                "locator": "Source-defined preparation; see operation-specific main/SI locators."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rusch2026-temperature-50-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "(C12H25NH3)4AgBiI8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rusch2026-si",
+                "locator": "si PDF p. 19, FigureS21 labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered double perovskite reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 19, FigureS21 labels"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rusch2026-si",
+                  "locator": "si PDF p. 19, FigureS21 labels"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
