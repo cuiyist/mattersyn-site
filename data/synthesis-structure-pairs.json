@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 87,
-    "source_groups": 28,
-    "records": 73,
+    "recipe_structure_rows": 88,
+    "source_groups": 29,
+    "records": 74,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -9492,6 +9492,166 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li2000-cu2sns3-ethylenediamine-solvothermal::high-temp-grain-context",
+      "record_id": "li2000-cu2sns3-ethylenediamine-solvothermal",
+      "record_page_path": "records/li2000-cu2sns3-ethylenediamine-solvothermal.html",
+      "source_group": "li2000cu2sns3",
+      "title": "Cu2SnS3 nanocrystals · Li et al. (2000)",
+      "doi": "10.1006/jssc.2000.8772",
+      "year": 2000,
+      "method": "Solvothermal synthesis in ethylenediamine",
+      "recipe_label": "Cu2SnS3 nanocrystals · Li et al. (2000)",
+      "sample_id": "high-temp-grain-context",
+      "source_sample_label": "Separate 180°C/15 h grain observation; grains up to 50 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2SnS3 product context",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2000cu2sns3",
+            "locator": "main PDF p. 4 (printed 173), opening continuation of Results and discussion, before the Conclusion heading, high-temperature grain-size statement"
+          }
+        ],
+        "note": "No unique phase determination or Figure 1–5 specimen link."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2000cu2sns3",
+          "locator": "main PDF p. 4 (printed 173), opening continuation of Results and discussion, before the Conclusion heading, high-temperature grain-size statement",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "grain size up to 50 nm at 180°C for 15 h",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2000cu2sns3",
+                "locator": "main PDF p. 4 (printed 173), opening continuation of Results and discussion, before the Conclusion heading, high-temperature grain-size statement"
+              }
+            ],
+            "note": "Upper extent is source wording; no mean/count/statistics reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "nanocrystalline Cu2SnS3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2000cu2sns3",
+                "locator": "main PDF p. 1 (printed 170), Abstract and Experimental section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "triclinic Cu2SnS3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2000cu2sns3",
+                "locator": "main PDF p. 2 (printed 171), Results and discussion; XRD paragraph and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "ca.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "li2000cu2sns3",
+                "locator": "main PDF p. 2 (printed 171), Figure 2 and TEM discussion"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "ca. 8 nm particles; aggregation into secondary crystals.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2000cu2sns3",
+                "locator": "main PDF p. 2 (printed 171), Results and discussion; TEM paragraph and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "high-temp-grain-context",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "high-temp-grain-state",
+          "composition": {
+            "value": "Cu2SnS3 product context",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2000cu2sns3",
+                "locator": "main PDF p. 4 (printed 173), opening continuation of Results and discussion, before the Conclusion heading, high-temperature grain-size statement"
+              }
+            ],
+            "note": "No unique phase determination or Figure 1–5 specimen link."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "grain size up to 50 nm at 180°C for 15 h",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2000cu2sns3",
+                  "locator": "main PDF p. 4 (printed 173), opening continuation of Results and discussion, before the Conclusion heading, high-temperature grain-size statement"
+                }
+              ],
+              "note": "Upper extent is source wording; no mean/count/statistics reported."
+            },
+            "measurement_refs": []
           }
         }
       },
