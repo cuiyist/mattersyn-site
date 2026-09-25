@@ -1,12 +1,12 @@
 {
   "status": "passed",
   "dataset_version": "0.35.0",
-  "records": 698,
-  "recipe_records": 254,
+  "records": 703,
+  "recipe_records": 257,
   "shared_procedures": 279,
   "independent_experiment_count": null,
-  "source_groups": 42,
-  "families": 42,
+  "source_groups": 43,
+  "families": 45,
   "eligible_by_task": {
     "precursor_selection": 95,
     "partial_protocol": 120,
@@ -31,8 +31,8 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 154,
-  "contextual_observation_records": 165,
+  "curated_recipes": 157,
+  "contextual_observation_records": 167,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
     "schema_version": "1.1",
@@ -53,21 +53,21 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 698,
+      "audited_task_profile_missing": 703,
       "explicit_sample_recipe_link_missing": 1,
       "measured_label_not_approved": 2,
-      "no_sample_coordinate_asset": 696,
+      "no_sample_coordinate_asset": 701,
       "source_review_required": 100,
-      "task_not_requested": 677
+      "task_not_requested": 682
     }
   },
   "structure_outcome_coverage": {
     "schema_version": "1.0",
     "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
     "counts": {
-      "recipe_structure_rows": 84,
-      "source_groups": 26,
-      "records": 71,
+      "recipe_structure_rows": 85,
+      "source_groups": 27,
+      "records": 72,
       "physical_samples_deduplicated": null
     },
     "measurement_property_policy": "data/structure-outcome-policy.json"

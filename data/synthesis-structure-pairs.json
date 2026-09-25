@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 84,
-    "source_groups": 26,
-    "records": 71,
+    "recipe_structure_rows": 85,
+    "source_groups": 27,
+    "records": 72,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -16619,6 +16619,253 @@
                 "measurement_id": "inp-protocol-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tirosh-2006-cofe2o4-method-a-270c::tirosh06-sample-a-270c",
+      "record_id": "tirosh-2006-cofe2o4-method-a-270c",
+      "record_page_path": "records/tirosh-2006-cofe2o4-method-a-270c.html",
+      "source_group": "tirosh2006",
+      "title": "Tirosh 2006 Method A: CoFe2O4 at 270 °C",
+      "doi": "10.1021/cm052401p",
+      "year": 2006,
+      "method": "Mixed-precursor thermal synthesis; Method-A 270 °C variant",
+      "recipe_label": "Tirosh 2006 Method A: CoFe2O4 at 270 °C",
+      "sample_id": "tirosh06-sample-a-270c",
+      "source_sample_label": "Sample A (270 °C)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CoFe2O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tirosh2006",
+            "locator": "main p. 3 / printed p. 467, Figure 1 and caption; main p. 3 / printed p. 467, Table 1"
+          }
+        ],
+        "note": "Table 1 sample A and Figure 1 are tied to Method A at 270 °C."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tirosh2006",
+          "locator": "main p. 3 / printed p. 467, Figure 1 and caption; main p. 3 / printed p. 467, Table 1; main p. 2 / printed p. 466, Experimental Section, Method A",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cobalt ferrite; XRD described as typical ferrite structure for A-D",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 4 / printed p. 468, Figure 3 and XRD discussion"
+              }
+            ],
+            "note": "Phase-family assignment does not provide atomic coordinates or quantitative site occupancy."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size-a",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 8.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "± 1.5 nm; statistic undefined.",
+            "basis": "",
+            "raw_text": "8.2 ± 1.5 nm",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 3 / printed p. 467, Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Table 1 sample A; particle count/statistic not specified.",
+          "evidence": [
+            {
+              "source_id": "tirosh2006",
+              "locator": "main p. 3 / printed p. 467, Table 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "xrd-lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 8.381,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "± 0.002 Å.",
+            "basis": "",
+            "raw_text": "8.381 ± 0.002 Å",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 3 / printed p. 467, Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "Cu Kα; nanocrystalline precipitate; exact batch linkage across techniques is not stated.",
+          "evidence": [
+            {
+              "source_id": "tirosh2006",
+              "locator": "main p. 3 / printed p. 467, Table 1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CoFe2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 2 / printed p. 466, Experimental Section, Method A"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 2 / printed p. 466, Experimental Section, Method A"
+              }
+            ],
+            "note": "No prospective polymorph/coordinate target is specified."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No requested target size reported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 2 / printed p. 466, Experimental Section, Method A"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 2 / printed p. 466, Experimental Section, Method A"
+              }
+            ],
+            "note": "No prospective target morphology reported."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 2 / printed p. 466, Experimental Section, Method A"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 2 / printed p. 466, Experimental Section, Method A"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tirosh06-sample-a-270c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "method-a-size-selected-product",
+          "composition": {
+            "value": "CoFe2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tirosh2006",
+                "locator": "main p. 3 / printed p. 467, Figure 1 and caption; main p. 3 / printed p. 467, Table 1"
+              }
+            ],
+            "note": "Table 1 sample A and Figure 1 are tied to Method A at 270 °C."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cobalt ferrite; XRD described as typical ferrite structure for A-D",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tirosh2006",
+                  "locator": "main p. 4 / printed p. 468, Figure 3 and XRD discussion"
+                }
+              ],
+              "note": "Phase-family assignment does not provide atomic coordinates or quantitative site occupancy."
+            },
+            "morphology": {
+              "value": "Roughly rounded with some faceting",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "tirosh2006",
+                  "locator": "main p. 3 / printed p. 467, Figure 1 and caption"
+                }
+              ],
+              "note": "Visual inference from Figure 1; not a formal author-provided shape label or quantified morphology."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size-a",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "xrd-lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
               }
             ]
           }
