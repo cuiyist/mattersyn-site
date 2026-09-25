@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.35.0** · **43 primary source groups** · release `20260924-tirosh2006-cofe2o4-review`. Records are not independent experiments.
+Dataset **0.35.0** · **43 primary source groups** · release `20260925-chen2018ami-s4-sem-display-v2`. Records are not independent experiments.
 
 - K. A. Littau; P. J. Szajowski; A. J. Muller; A. R. Kortan; L. E. Brus (1993). A Luminescent Silicon Nanocrystal Colloid via a High-Temperature Aerosol Reaction. *The Journal of Physical Chemistry*, 97, 1224–1230. [10.1021/j100108a019](https://doi.org/10.1021/j100108a019). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=littau1993).
 
