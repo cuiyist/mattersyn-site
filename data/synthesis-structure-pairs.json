@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 143,
-    "source_groups": 34,
-    "records": 124,
+    "recipe_structure_rows": 148,
+    "source_groups": 35,
+    "records": 126,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -11714,6 +11714,750 @@
                 }
               ],
               "note": "Upper extent is source wording; no mean/count/statistics reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-2020-cs3cu2cl5-hot-injection::hotinjection-cl",
+      "record_id": "li-2020-cs3cu2cl5-hot-injection",
+      "record_page_path": "records/li-2020-cs3cu2cl5-hot-injection.html",
+      "source_group": "li2020cs3cu2x5",
+      "title": "Hot-injection synthesis of Cs3Cu2Cl5 nanocrystals",
+      "doi": "10.1021/acs.chemmater.0c00280",
+      "year": 2020,
+      "method": "Prepare Cs-oleate in ODE, prepare CuCl/ligand mixture under vacuum/N2, inject at 160 °C and cool after 5 s.",
+      "recipe_label": "Hot-injection synthesis of Cs3Cu2Cl5 nanocrystals",
+      "sample_id": "hotinjection-cl",
+      "source_sample_label": "Hot-injection Cs3Cu2Cl5 NC XRD purity context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cs3Cu2Cl5",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2020cs3cu2x5",
+            "locator": "main PDF p. 3 / printed p. 5517, Results and Discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2020cs3cu2x5",
+          "locator": "main PDF p. 3 / printed p. 5517, Results and Discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cs3Cu2Cl5 crystal phase; XRD crystal purity reported as 95.7%",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 3 / printed p. 5517, Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cs3Cu2Cl5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 2 / printed p. 5516"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective size target; source size values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "hotinjection-cl",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hot-purified",
+          "composition": {
+            "value": "Cs3Cu2Cl5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 3 / printed p. 5517, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cs3Cu2Cl5 crystal phase; XRD crystal purity reported as 95.7%",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2020cs3cu2x5",
+                  "locator": "main PDF p. 3 / printed p. 5517, Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-2020-cs3cu2x5-antisolvent::br-optical",
+      "record_id": "li-2020-cs3cu2x5-antisolvent",
+      "record_page_path": "records/li-2020-cs3cu2x5-antisolvent.html",
+      "source_group": "li2020cs3cu2x5",
+      "title": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "doi": "10.1021/acs.chemmater.0c00280",
+      "year": 2020,
+      "method": "Room-temperature antisolvent recrystallization. Exact salt charges are supplied for the Cs3Cu2Cl5 example; other compositions are stated to use the same or similar method without complete charges.",
+      "recipe_label": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "sample_id": "br-optical",
+      "source_sample_label": "Cs3Cu2Br5 room-temperature optical row",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cs3Cu2Br5",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2020cs3cu2x5",
+            "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2020cs3cu2x5",
+          "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cs3Cu2Br5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cs3Cu2X5 (X = Cl, Cl/Br, Br, Br/I, I) and CsCu2I3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 2 / printed p. 5516"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective size target; source size values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "br-optical",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "br-optical-state",
+          "composition": {
+            "value": "Cs3Cu2Br5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cs3Cu2Br5",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2020cs3cu2x5",
+                  "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-2020-cs3cu2x5-antisolvent::cl-optical",
+      "record_id": "li-2020-cs3cu2x5-antisolvent",
+      "record_page_path": "records/li-2020-cs3cu2x5-antisolvent.html",
+      "source_group": "li2020cs3cu2x5",
+      "title": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "doi": "10.1021/acs.chemmater.0c00280",
+      "year": 2020,
+      "method": "Room-temperature antisolvent recrystallization. Exact salt charges are supplied for the Cs3Cu2Cl5 example; other compositions are stated to use the same or similar method without complete charges.",
+      "recipe_label": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "sample_id": "cl-optical",
+      "source_sample_label": "Cs3Cu2Cl5 room-temperature Table 1/Figure 3 optical row",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cs3Cu2Cl5",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2020cs3cu2x5",
+            "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2020cs3cu2x5",
+          "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cs3Cu2Cl5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cs3Cu2X5 (X = Cl, Cl/Br, Br, Br/I, I) and CsCu2I3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 2 / printed p. 5516"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective size target; source size values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cl-optical",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cl-optical-state",
+          "composition": {
+            "value": "Cs3Cu2Cl5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cs3Cu2Cl5",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2020cs3cu2x5",
+                  "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Spherical NCs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2020cs3cu2x5",
+                  "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-2020-cs3cu2x5-antisolvent::cui-optical",
+      "record_id": "li-2020-cs3cu2x5-antisolvent",
+      "record_page_path": "records/li-2020-cs3cu2x5-antisolvent.html",
+      "source_group": "li2020cs3cu2x5",
+      "title": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "doi": "10.1021/acs.chemmater.0c00280",
+      "year": 2020,
+      "method": "Room-temperature antisolvent recrystallization. Exact salt charges are supplied for the Cs3Cu2Cl5 example; other compositions are stated to use the same or similar method without complete charges.",
+      "recipe_label": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "sample_id": "cui-optical",
+      "source_sample_label": "CsCu2I3 room-temperature optical row",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CsCu2I3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2020cs3cu2x5",
+            "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2020cs3cu2x5",
+          "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "CsCu2I3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cs3Cu2X5 (X = Cl, Cl/Br, Br, Br/I, I) and CsCu2I3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 2 / printed p. 5516"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective size target; source size values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cui-optical",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cui-optical-state",
+          "composition": {
+            "value": "CsCu2I3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "CsCu2I3",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2020cs3cu2x5",
+                  "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-2020-cs3cu2x5-antisolvent::i-optical",
+      "record_id": "li-2020-cs3cu2x5-antisolvent",
+      "record_page_path": "records/li-2020-cs3cu2x5-antisolvent.html",
+      "source_group": "li2020cs3cu2x5",
+      "title": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "doi": "10.1021/acs.chemmater.0c00280",
+      "year": 2020,
+      "method": "Room-temperature antisolvent recrystallization. Exact salt charges are supplied for the Cs3Cu2Cl5 example; other compositions are stated to use the same or similar method without complete charges.",
+      "recipe_label": "Room-temperature antisolvent synthesis of cesium copper halide nanocrystals",
+      "sample_id": "i-optical",
+      "source_sample_label": "Cs3Cu2I5 room-temperature optical row",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cs3Cu2I5",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2020cs3cu2x5",
+            "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2020cs3cu2x5",
+          "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cs3Cu2I5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cs3Cu2X5 (X = Cl, Cl/Br, Br, Br/I, I) and CsCu2I3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 2 / printed p. 5516"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective size target; source size values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "i-optical",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "i-optical-state",
+          "composition": {
+            "value": "Cs3Cu2I5",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2020cs3cu2x5",
+                "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cs3Cu2I5",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2020cs3cu2x5",
+                  "locator": "main PDF p. 4 / printed p. 5518, Table 1; Figure 3a caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
             },
             "measurement_refs": []
           }
