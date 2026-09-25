@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 85,
-    "source_groups": 27,
-    "records": 72,
+    "recipe_structure_rows": 87,
+    "source_groups": 28,
+    "records": 73,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -9053,6 +9053,443 @@
                 "measurement_id": "template-depth",
                 "property": "well_depth",
                 "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-1998-znga2o4-hydrothermal-150c::tem-context",
+      "record_id": "li-1998-znga2o4-hydrothermal-150c",
+      "record_page_path": "records/li-1998-znga2o4-hydrothermal-150c.html",
+      "source_group": "li1998znga2o4",
+      "title": "Li et al. (1998): ZnGa2O4 hydrothermal synthesis at 150 °C",
+      "doi": "10.1021/cm970557m",
+      "year": 1998,
+      "method": "Hydrothermal synthesis with metallic zinc regulation",
+      "recipe_label": "Li et al. (1998): ZnGa2O4 hydrothermal synthesis at 150 °C",
+      "sample_id": "tem-context",
+      "source_sample_label": "As-prepared product, TEM context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnGa2O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li1998znga2o4",
+            "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li1998znga2o4",
+          "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Authors report nonagglomerative spherical particles with average size about 10 nm.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Reported mean; particle count and distribution are not given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Hitachi H-800; Figure 2 original scale bar 100 nm. Source embedded raster has low native resolution. No accelerating voltage specified.",
+          "evidence": [
+            {
+              "source_id": "li1998znga2o4",
+              "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnGa2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "normal spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective numeric target size; reported 10 nm values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective shape specification; spherical morphology is reported as an outcome."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tem-context",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "oven-dry-state",
+          "composition": {
+            "value": "ZnGa2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Authors report nonagglomerative spherical particles with average size about 10 nm.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1998znga2o4",
+                  "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, TEM paragraph; main PDF p. 2 / printed p. 18, Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li-1998-znga2o4-hydrothermal-150c::typical-xrd",
+      "record_id": "li-1998-znga2o4-hydrothermal-150c",
+      "record_page_path": "records/li-1998-znga2o4-hydrothermal-150c.html",
+      "source_group": "li1998znga2o4",
+      "title": "Li et al. (1998): ZnGa2O4 hydrothermal synthesis at 150 °C",
+      "doi": "10.1021/cm970557m",
+      "year": 1998,
+      "method": "Hydrothermal synthesis with metallic zinc regulation",
+      "recipe_label": "Li et al. (1998): ZnGa2O4 hydrothermal synthesis at 150 °C",
+      "sample_id": "typical-xrd",
+      "source_sample_label": "Typical hydrothermal product, XRD context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnGa2O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li1998znga2o4",
+            "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li1998znga2o4",
+          "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic normal-spinel ZnGa2O4, JCPDS 38-1240",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "spinel-phase",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "cubic normal spinel ZnGa2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD",
+          "conditions": "Rigaku D/max-rA rotating-anode instrument; Ni-filtered Cu Kα; 2θ 10–70°; scan rate 0.05°/s. No Zn, Ga2O3 or ZnO impurity peaks were detected by the authors; detection limits are unreported.",
+          "evidence": [
+            {
+              "source_id": "li1998znga2o4",
+              "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "refined-cell",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 0.8334,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Powder XRD refinement",
+          "conditions": "Reported refined value; method details, uncertainty, residuals and atomic coordinates are not given. The introductory 0.8335 nm value is a separate reference value.",
+          "evidence": [
+            {
+              "source_id": "li1998znga2o4",
+              "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": true,
+            "qualifier": "Author estimate using the Scherrer equation; not a TEM size distribution.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Scherrer analysis of XRD",
+          "conditions": "No Scherrer shape factor, selected reflection or instrumental-broadening correction specified.",
+          "evidence": [
+            {
+              "source_id": "li1998znga2o4",
+              "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnGa2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "normal spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No prospective numeric target size; reported 10 nm values are outcomes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective shape specification; spherical morphology is reported as an outcome."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "typical-xrd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "oven-dry-state",
+          "composition": {
+            "value": "ZnGa2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1998znga2o4",
+                "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic normal-spinel ZnGa2O4, JCPDS 38-1240",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1998znga2o4",
+                  "locator": "main PDF p. 1 / printed p. 17, Results and Discussion, Figure 1 XRD paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "spinel-phase",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "refined-cell",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
               }
             ]
           }
