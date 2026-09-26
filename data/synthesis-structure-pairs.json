@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 156,
-    "source_groups": 39,
-    "records": 133,
+    "recipe_structure_rows": 160,
+    "source_groups": 40,
+    "records": 137,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -26756,6 +26756,882 @@
                 "measurement_id": "crystalline-core",
                 "property": "crystallinity",
                 "field": "crystal_structure.crystalline_character"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "song-2024-znssete-msc-349::msc-349-condition-context",
+      "record_id": "song-2024-znssete-msc-349",
+      "record_page_path": "records/song-2024-znssete-msc-349.html",
+      "source_group": "song2024inorgchem4c02738",
+      "title": "Quaternary ZnSSeTe MSC-349 condition context",
+      "doi": "10.1021/acs.inorgchem.4c02738",
+      "year": 2024,
+      "method": "Source says the other quaternary compositions follow the MSC procedure with changed added chalcogen ratio; absolute variant-specific stock charges are not stated.",
+      "recipe_label": "Quaternary ZnSSeTe MSC-349 condition context",
+      "sample_id": "msc-349-condition-context",
+      "source_sample_label": "MSC-349 selected Figure 2 absorption/mass-spectrometry context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn15S1Se4Te6",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "song2024inorgchem4c02738",
+            "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "song2024inorgchem4c02738",
+          "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion.",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic zinc-blende is stated in the main text; detailed XRD is cited as SI Figure S1 and not reviewed.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Main-text attribution only; underlying SI pattern not reviewed."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dot-shaped clusters; reported diameter 1.8 nm.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "The TEM panels/histograms are cited in SI and were not reviewed."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "msc-349-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 1.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "1.8 nm",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "TEM",
+          "conditions": "Main text cites TEM figure/histogram in SI; SI not reviewed.",
+          "evidence": [
+            {
+              "source_id": "song2024inorgchem4c02738",
+              "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSSeTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Family label; sample-specific assignments are recorded per source context."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No family-wide phase assignment."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "No family-wide size target.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No family-wide morphology target."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No surface target."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No substrate/host."
+          }
+        },
+        "observed_product": {
+          "sample_id": "msc-349-condition-context",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "variant-product",
+          "composition": {
+            "value": "Zn15S1Se4Te6",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic zinc-blende is stated in the main text; detailed XRD is cited as SI Figure S1 and not reviewed.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+                }
+              ],
+              "note": "Main-text attribution only; underlying SI pattern not reviewed."
+            },
+            "morphology": {
+              "value": "Dot-shaped clusters; reported diameter 1.8 nm.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+                }
+              ],
+              "note": "The TEM panels/histograms are cited in SI and were not reviewed."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "msc-349-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "song-2024-znssete-msc-350::msc-350-condition-context",
+      "record_id": "song-2024-znssete-msc-350",
+      "record_page_path": "records/song-2024-znssete-msc-350.html",
+      "source_group": "song2024inorgchem4c02738",
+      "title": "Quaternary ZnSSeTe MSC-350 condition context",
+      "doi": "10.1021/acs.inorgchem.4c02738",
+      "year": 2024,
+      "method": "Source says the other quaternary compositions follow the MSC procedure with changed added chalcogen ratio; absolute variant-specific stock charges are not stated.",
+      "recipe_label": "Quaternary ZnSSeTe MSC-350 condition context",
+      "sample_id": "msc-350-condition-context",
+      "source_sample_label": "MSC-350 selected Figure 2 absorption/mass-spectrometry context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn14S4Se4Te7",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "song2024inorgchem4c02738",
+            "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "song2024inorgchem4c02738",
+          "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion.",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic zinc-blende is stated in the main text; detailed XRD is cited as SI Figure S1 and not reviewed.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Main-text attribution only; underlying SI pattern not reviewed."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dot-shaped clusters; reported diameter 1.9 nm.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "The TEM panels/histograms are cited in SI and were not reviewed."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "msc-350-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 1.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "1.9 nm",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "TEM",
+          "conditions": "Main text cites TEM figure/histogram in SI; SI not reviewed.",
+          "evidence": [
+            {
+              "source_id": "song2024inorgchem4c02738",
+              "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSSeTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Family label; sample-specific assignments are recorded per source context."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No family-wide phase assignment."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "No family-wide size target.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No family-wide morphology target."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No surface target."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No substrate/host."
+          }
+        },
+        "observed_product": {
+          "sample_id": "msc-350-condition-context",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "variant-product",
+          "composition": {
+            "value": "Zn14S4Se4Te7",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic zinc-blende is stated in the main text; detailed XRD is cited as SI Figure S1 and not reviewed.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+                }
+              ],
+              "note": "Main-text attribution only; underlying SI pattern not reviewed."
+            },
+            "morphology": {
+              "value": "Dot-shaped clusters; reported diameter 1.9 nm.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+                }
+              ],
+              "note": "The TEM panels/histograms are cited in SI and were not reviewed."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "msc-350-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "song-2024-znssete-msc-355::msc-355-condition-context",
+      "record_id": "song-2024-znssete-msc-355",
+      "record_page_path": "records/song-2024-znssete-msc-355.html",
+      "source_group": "song2024inorgchem4c02738",
+      "title": "Quaternary ZnSSeTe MSC-355 condition context",
+      "doi": "10.1021/acs.inorgchem.4c02738",
+      "year": 2024,
+      "method": "Source says the other quaternary compositions follow the MSC procedure with changed added chalcogen ratio; absolute variant-specific stock charges are not stated.",
+      "recipe_label": "Quaternary ZnSSeTe MSC-355 condition context",
+      "sample_id": "msc-355-condition-context",
+      "source_sample_label": "MSC-355 selected Figure 2 absorption/mass-spectrometry context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn17S2Se2Te7",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "song2024inorgchem4c02738",
+            "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "song2024inorgchem4c02738",
+          "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion.",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic zinc-blende is stated in the main text; detailed XRD is cited as SI Figure S1 and not reviewed.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Main-text attribution only; underlying SI pattern not reviewed."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Authors say MSC-355 is larger and speculate that this may be induced by a two-dimensional structure; numerical diameter and supporting SI images are not reviewed.",
+            "status": "author_derived",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Speculative attribution; not a measured two-dimensional structure."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSSeTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "Family label; sample-specific assignments are recorded per source context."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No family-wide phase assignment."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "No family-wide size target.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No family-wide morphology target."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No surface target."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": "No substrate/host."
+          }
+        },
+        "observed_product": {
+          "sample_id": "msc-355-condition-context",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "variant-product",
+          "composition": {
+            "value": "Zn17S2Se2Te7",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic zinc-blende is stated in the main text; detailed XRD is cited as SI Figure S1 and not reviewed.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+                }
+              ],
+              "note": "Main-text attribution only; underlying SI pattern not reviewed."
+            },
+            "morphology": {
+              "value": "Authors say MSC-355 is larger and speculate that this may be induced by a two-dimensional structure; numerical diameter and supporting SI images are not reviewed.",
+              "status": "author_derived",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 3 / printed p. 17102, Results, quaternary composition discussion."
+                }
+              ],
+              "note": "Speculative attribution; not a measured two-dimensional structure."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "song-2024-znssete-qd-conversion-from-msc-348::msc-348-derived-znssete-qds",
+      "record_id": "song-2024-znssete-qd-conversion-from-msc-348",
+      "record_page_path": "records/song-2024-znssete-qd-conversion-from-msc-348.html",
+      "source_group": "song2024inorgchem4c02738",
+      "title": "Quaternary ZnSSeTe QD conversion from selected MSC-348",
+      "doi": "10.1021/acs.inorgchem.4c02738",
+      "year": 2024,
+      "method": "Heat selected Zn21S4Se3Te4 MSC-348 at 300 °C without purification; preserve the Results/Experimental hold-time discrepancy.",
+      "recipe_label": "Quaternary ZnSSeTe QD conversion from selected MSC-348",
+      "sample_id": "msc-348-derived-znssete-qds",
+      "source_sample_label": "Quaternary ZnSSeTe QDs from the MSC-348 conversion example",
+      "batch_id": null,
+      "parent_sample_id": "msc-348-input-context",
+      "composition": {
+        "value": "ZnS0.5Se0.25Te0.25",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "song2024inorgchem4c02738",
+            "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "song2024inorgchem4c02738",
+          "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion.",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic zinc-blende (ZB) structure is stated in the main text; detailed XRD plot is cited in SI and not reviewed.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": "Main-text assertion; SI data not reviewed."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dot-shaped QDs with reported diameter 3.4 nm.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "qd-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "3.4 nm",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "TEM",
+          "conditions": "Figure 5c; main text reports a uniform size distribution; SI histogram not reviewed.",
+          "evidence": [
+            {
+              "source_id": "song2024inorgchem4c02738",
+              "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSSeTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": "Family label; sample-specific assignments are recorded per source context."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": "No family-wide phase assignment."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "No family-wide size target.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": "No family-wide morphology target."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": "No surface target."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": "No substrate/host."
+          }
+        },
+        "observed_product": {
+          "sample_id": "msc-348-derived-znssete-qds",
+          "parent_sample_id": "msc-348-input-context",
+          "batch_id": null,
+          "material_state_id": "qd-product-state",
+          "composition": {
+            "value": "ZnS0.5Se0.25Te0.25",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2024inorgchem4c02738",
+                "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic zinc-blende (ZB) structure is stated in the main text; detailed XRD plot is cited in SI and not reviewed.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+                }
+              ],
+              "note": "Main-text assertion; SI data not reviewed."
+            },
+            "morphology": {
+              "value": "Dot-shaped QDs with reported diameter 3.4 nm.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "song2024inorgchem4c02738",
+                  "locator": "Main PDF p. 6 / printed p. 17105, Results, quaternary MSC-to-QD discussion."
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "qd-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
               }
             ]
           }
