@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 154,
-    "source_groups": 38,
-    "records": 131,
+    "recipe_structure_rows": 156,
+    "source_groups": 39,
+    "records": 133,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -30947,6 +30947,417 @@
                 "field": "crystal_structure.phase_lattice"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhan1999-jaipurite-hydrazine-hydrothermal::jaipurite-product",
+      "record_id": "zhan1999-jaipurite-hydrazine-hydrothermal",
+      "record_page_path": "records/zhan1999-jaipurite-hydrazine-hydrothermal.html",
+      "source_group": "zhan1999jaipurite",
+      "title": "Zhan et al. (1999) · Hydrazine-assisted hydrothermal Jaipurite at 120 °C",
+      "doi": "10.1006/jssc.1999.8299",
+      "year": 1999,
+      "method": "Hydrothermal crystallization of freshly precipitated amorphous cobalt sulfide in aqueous hydrazine monohydrate.",
+      "recipe_label": "Zhan et al. (1999) · Hydrazine-assisted hydrothermal Jaipurite at 120 °C",
+      "sample_id": "jaipurite-product",
+      "source_sample_label": "As-formed Jaipurite product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CoS (cobalt monosulfide)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhan1999jaipurite",
+            "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental"
+          },
+          {
+            "source_id": "zhan1999jaipurite",
+            "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhan1999jaipurite",
+          "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental",
+          "claim": null
+        },
+        {
+          "source_id": "zhan1999jaipurite",
+          "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal β-CoS (Jaipurite), NiAs-type; no CoO or other cobalt sulfide detected in XRD.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mainly laminar/lamellar; some particles stack to form larger particles.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-cell-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 3.352,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "Powder X-ray diffraction",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zhan1999jaipurite",
+              "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CoS (cobalt monosulfide / Jaipurite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental"
+              },
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Hexagonal β-CoS (Jaipurite), NiAs-type structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "about",
+            "basis": "Average particle size estimated from XRD by Scherrer equation.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Mainly laminar/lamellar particles; some stack to form larger particles.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "jaipurite-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "jaipurite-product-state",
+          "composition": {
+            "value": "CoS (cobalt monosulfide)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental"
+              },
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal β-CoS (Jaipurite), NiAs-type; no CoO or other cobalt sulfide detected in XRD.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1999jaipurite",
+                  "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mainly laminar/lamellar; some particles stack to form larger particles.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1999jaipurite",
+                  "locator": "Main PDF p. 2 (printed p. 37), Figure 1, Table 1 and Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-cell-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhan1999-jaipurite-no-hydrazine-control::amorphous-control-product",
+      "record_id": "zhan1999-jaipurite-no-hydrazine-control",
+      "record_page_path": "records/zhan1999-jaipurite-no-hydrazine-control.html",
+      "source_group": "zhan1999jaipurite",
+      "title": "Zhan et al. (1999) · Hydrazine-free hydrothermal control",
+      "doi": "10.1006/jssc.1999.8299",
+      "year": 1999,
+      "method": "Hydrothermal treatment of amorphous CoS without hydrazine; text says other conditions unchanged.",
+      "recipe_label": "Zhan et al. (1999) · Hydrazine-free hydrothermal control",
+      "sample_id": "amorphous-control-product",
+      "source_sample_label": "Hydrazine-free amorphous cobalt sulfide control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Amorphous cobalt sulfide / CoS feed.",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhan1999jaipurite",
+            "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental"
+          },
+          {
+            "source_id": "zhan1999jaipurite",
+            "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhan1999jaipurite",
+          "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Amorphous; no crystalline Jaipurite by XRD.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Amorphous cobalt sulfide / CoS feed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental"
+              },
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Amorphous; no crystalline Jaipurite.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "amorphous-control-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nh-free-product",
+          "composition": {
+            "value": "Amorphous cobalt sulfide / CoS feed.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 1 (printed p. 36), Abstract and Experimental"
+              },
+              {
+                "source_id": "zhan1999jaipurite",
+                "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Amorphous; no crystalline Jaipurite by XRD.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1999jaipurite",
+                  "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1999jaipurite",
+                  "locator": "Main PDF p. 3 (printed p. 38), Figure 3 and Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
