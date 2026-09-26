@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-26T10:31:33Z",
+  "updated_at": "2026-09-26T11:10:37Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.40.3",
@@ -12,7 +12,7 @@
     "public_source_group_count": 58,
     "formal_source_reader_count": 53,
     "exact_structure_recipe_count": 0,
-    "last_verified_site_commit": "562a3ec4ec4337533d558edc11b6317f57d22338",
+    "last_verified_site_commit": "b9fac2f702a2fb64294c44ce3872fc86f9f7d36e",
     "count_basis": "Current artifact records, material index, review index and task eligibility; historical review events are preserved separately."
   },
   "corpus": {
@@ -75,8 +75,8 @@
     {
       "short_label": "Wagner et al. (1999) · SSZ-48",
       "title": "SSZ-48 synthesis, characterization, and source-linked morphology",
-      "stage": "The three-record Wagner contribution is integrated; the exact 885-record clean build and public-boundary gate passed. Site deployment and anonymous verification remain.",
-      "summary": "Candidate08-complete passed independent source and integration review. The clean committed-source artifact contains 885 records, preserves all 882 prior records and the three audited Wagner record hashes, and passed 129 tests, all site/atlas/quality validators, and a 9,197-file public-boundary scan with zero failures. The seven selected source figures and 21 authored assets are delivered with their reviewed provenance; source-figure permission remains unverified. Main-article scope only; SI unreviewed. This source contribution remains uncredited until the site is deployed and anonymously verified.",
+      "stage": "Published and anonymously verified at 2026-09-26T11:10:37Z; three main-article records are live.",
+      "summary": "Deployed and anonymously verified at 2026-09-26T11:10:37Z on site commit b9fac2f702a2fb64294c44ce3872fc86f9f7d36e. Three separately scoped main-article records add one synthesis route and one broad structure-evidence row. The release has 885 records, 58 primary source groups, 53 formal Readers, 238 routes, 83 material/component hubs, 154 broad structure-evidence rows, and zero exact coordinate pairs. Browser review confirmed the academic material Reader and synthesis protocol; the method-specific sample morphology and unit-cell joins remain explicitly unverified. Supporting Information is unreviewed; publisher permission for the seven displayed source figures remains unverified.",
       "stages": [
         {
           "label": "Main-article extraction and source audit",
@@ -90,8 +90,8 @@
         },
         {
           "label": "Batched publication",
-          "status": "pending",
-          "detail": "Shared integration, reproducible build and public-boundary gate passed. GitHub Pages deployment and anonymous verification remain; publication credit is still zero."
+          "status": "complete",
+          "detail": "Published through the validated GitHub Pages workflow and verified using unauthenticated HTTP GETs for the Reader, record data, Table 5 coordinate evidence/CIF, all seven source figures, and progress JSON."
         }
       ]
     },
@@ -572,6 +572,10 @@
   ],
   "recent_milestones": [
     {
+      "at": "2026-09-26T11:10:37Z",
+      "text": "Wagner et al. (1999), DOI 10.1021/jp991389j, is live and anonymously verified at site commit b9fac2f702a2fb64294c44ce3872fc86f9f7d36e. Three main-only records, one route and one broad structure-evidence row were added. The public Reader, data, Table 5 CIF/evidence, all seven source figures and progress JSON returned HTTP 200 without authentication. SI remains unreviewed and source-figure permission unverified."
+    },
+    {
       "at": "2026-09-26T10:13:36Z",
       "text": "Wagner et al. (1999) SSZ-48: the committed 885-record release candidate passed 129 tests, site/atlas/quality checks, and the exact 9,197-file public-boundary scan (zero failures). The seven source figures remain displayed under the user direction with publisher permission unverified. Website deployment and anonymous verification remain; no new paper is credited yet."
     },
@@ -714,12 +718,12 @@
   "estimate": {
     "status": "active_capacity_measurement",
     "summary": "Curation is active on the frozen screened-pass collection. No whole-collection finish date is asserted; publish credit requires source review, independent audit, recipe/sample/figure checks, website validation, and anonymous deployment.",
-    "current_batch": "The last anonymously verified scientific release contains 882 records from 57 source groups. Wagner is integrated in an 885-record committed candidate that passed all local and public-boundary checks; Pages deployment and anonymous verification remain. Song R6 and Zhan R5 audits passed; their aggregate integration remains pending.",
+    "current_batch": "Wagner et al. (1999) has been published and anonymously verified: 885 records, 58 source groups, 53 formal Readers, 238 routes, 83 material/component hubs, 154 broad structure-evidence rows and 0 exact coordinate pairs are live. The separate twelve-hour measurement remains active; Song and Zhan integration work remains pending.",
     "scenarios": [],
     "notes": [
       "The historical ten-hour local-only trial remains frozen at 8 newly published source contributions; it is not a forecast.",
-      "Latest measured two-hour publication interval: 0 new distinct papers in 2.1678 hours (2026-09-26T07:15:24Z–09:25:28Z); the 20/hour (500/day) target remains unachieved.",
-      "Three active source contributions are private and do not count as website papers until independently accepted, integrated, and anonymously verified.",
+      "Latest measured two-hour checkpoint at 09:25 UTC was zero papers; one paper was verified live afterward and will be counted at the 11:25 check.",
+      "Two active source contributions (Song and Zhan) remain private and do not count until independently accepted, integrated and anonymously verified.",
       "No paid API/cloud processing, external document transfer, or new paper downloads."
     ],
     "previous_notes": [
@@ -737,8 +741,8 @@
   },
   "daily_throughput": {
     "target_papers_per_day": 500,
-    "completed_papers_today": 0,
-    "deployed_pending_closeout": 1,
+    "completed_papers_today": 1,
+    "deployed_pending_closeout": 0,
     "counting_rule": "Count one source paper only after its scoped source reading, independent scientific audit, recipe/sample/figure checks, material-page integration and browser validation pass. Multiple recipe rows from one paper count once. Drafts and screening skips do not count as website papers built.",
     "observed_pipeline": {
       "papers": 8,
@@ -749,7 +753,7 @@
       "scope_note": "Fixed ten-hour local-only trial, including four contributions with pre-trial work. Counts only distinct new source papers deployed and anonymously verified. This arithmetic rate is not a capacity forecast or a claim of continuous unattended work."
     },
     "machine_stage_note": "The local RTX 5090/Qwen3.5 runs produce drafts quickly, but the 27B cross-check missed a known source conflict. Machine drafts and model agreement are not independent scientific audit or completed website contributions.",
-    "capacity_note": "The ten-hour local-only trial remains frozen at 8 new source papers. A separate revised-workflow twelve-hour measurement remains active. One additional audited paper (Wagner et al., 1999) has passed the committed local build and public-boundary gate and is queued for Pages deployment; it receives zero paper credit until anonymous verification.",
+    "capacity_note": "The fixed ten-hour local-only trial remains frozen at 8 new source papers. The separate twelve-hour measurement is active through 2026-09-26T14:03:41Z. Wagner et al. (1999) is newly live and anonymously verified with 3 records; the 09:25 two-hour checkpoint preceded this deployment, so its one-paper delta will be reported at the next check. The 20 papers/hour (500/day) target remains unachieved.",
     "as_of_date": "2026-09-26",
     "date_timezone": "America/Chicago",
     "completed_paper_ledger": [
@@ -825,9 +829,18 @@
         "new_records": 1,
         "status": "published_anonymously_verified",
         "inherited_source_work": true
+      },
+      {
+        "doi": "10.1021/jp991389j",
+        "source_id": "wagner1999ssz48",
+        "site_commit": "b9fac2f702a2fb64294c44ce3872fc86f9f7d36e",
+        "verified_at": "2026-09-26T11:10:37Z",
+        "new_records": 3,
+        "status": "published_anonymously_verified",
+        "carried_over_into_twelve_hour_window": true
       }
     ],
-    "published_sources_today": 0,
+    "published_sources_today": 1,
     "previous_observations": [
       {
         "papers": 9,
