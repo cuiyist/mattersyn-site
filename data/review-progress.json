@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-26T09:25:28Z",
+  "updated_at": "2026-09-26T09:34:12Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
     "dataset_version": "0.40.2",
@@ -75,28 +75,28 @@
     {
       "short_label": "Wagner et al. (1999) · SSZ-48",
       "title": "SSZ-48 synthesis, characterization, and source-linked morphology",
-      "stage": "Private candidate08-complete passed 129 tests and all three generated-site validators; final independent candidate audit and release checks remain.",
-      "summary": "Three main-only records have passed scoped source review. The exact private candidate contains 885 records, including three Wagner records; authored apparatus-asset references and the progress-data build dependency were repaired in the private overlay. The final candidate still needs a fresh independent manifest-bound audit, shared integration, browser checks, and publication. SI is unreviewed and publisher permission for source figures remains unverified.",
+      "stage": "Candidate08-complete passed its final independent integration audit; root shared integration, browser checks and public release remain.",
+      "summary": "Three main-only records passed bounded source review and final candidate review. The 885-record candidate exactly matches its frozen input snapshot and generated manifest; the prior 882 records and all three Wagner record digests are preserved. 129 unit tests, all 13 candidate build commands, and the generated-site/atlas/quality validators passed. The three authored-flask references and progress-data build dependency are fixed. SI is unreviewed and source-figure publisher permission remains unverified.",
       "stages": [
         {
           "label": "Main-article extraction and source audit",
           "status": "complete",
-          "detail": "Three records passed bounded independent source/Reader review with scope limits; SI was not reviewed."
+          "detail": "Three records passed bounded independent source/Reader review with stated scope limits; SI was not reviewed."
         },
         {
           "label": "Private candidate and generated-site validation",
           "status": "complete",
-          "detail": "Candidate08-complete passed 129 unit tests plus check_site.py, check_atlas.py, and check_quality.py; no publication credit is claimed."
+          "detail": "Candidate08-complete passed 129 unit tests, 13 build commands, 48,140 quality checks, and generated-site, atlas, and quality validators."
         },
         {
           "label": "Independent final candidate audit",
-          "status": "in_progress",
-          "detail": "The auditor is checking the exact final candidate manifest, snapshot binding, and generated asset delivery after the private path fixes."
+          "status": "complete",
+          "detail": "A separate reviewer verified the exact candidate snapshot, 4,077 inputs, all 885 record digests, 9,197 generated files, and 56 declared asset delivery paths."
         },
         {
-          "label": "Batched publication",
+          "label": "Root integration and batched publication",
           "status": "pending",
-          "detail": "Shared integration, final browser/release checks, deployment, and anonymous verification remain."
+          "detail": "Shared canonical/site integration, final browser and release checks, deployment, and anonymous verification remain; this candidate is not yet published."
         }
       ]
     },
@@ -587,6 +587,10 @@
   ],
   "recent_milestones": [
     {
+      "at": "2026-09-26T09:34:12Z",
+      "text": "Wagner candidate08-complete passed its final independent integration audit. The exact candidate snapshot and 4,077 inputs matched; all 885 record digests and 9,197 generated files matched; 129 tests and 48,140 quality checks passed; all 56 declared figure/authored-asset delivery paths matched. The three-record source contribution remains unpublished pending root integration and public release checks. Publisher permission for the seven source figures remains unverified."
+    },
+    {
       "at": "2026-09-26T09:25:28Z",
       "text": "Two-hour checkpoint 2026-09-26T07:15:24Z–2026-09-26T09:25:28Z: 0 new distinct source papers, records, or broad evidence rows published (0.00 papers/hour over 2.1678 elapsed hours). Live inventory carried forward from anonymously verified site commit 562a3ec4ec4337533d558edc11b6317f57d22338: 882 records, 57 source groups, 52 Readers, 237 routes, 82 hubs, 153 broad evidence rows, and 0 exact coordinate pairs. Song R6 and Zhan R5 integration audits passed. Wagner's 885-record private candidate (three new records) passed 129 tests and site, atlas, and quality validators; final independent candidate audit and release remain pending. No new paper went live."
     },
@@ -729,7 +733,7 @@
   "estimate": {
     "status": "active_capacity_measurement",
     "summary": "Curation is active on the frozen screened-pass collection. No whole-collection finish date is asserted; publish credit requires source review, independent audit, recipe/sample/figure checks, website validation, and anonymous deployment.",
-    "current_batch": "The last anonymously verified release contains 882 records from 57 source groups. Wagner candidate08-complete passed 129 tests and three generated-site validators; final manifest-bound audit, shared integration and release checks remain. Song R6 and Zhan R5 independent audits passed; their packages await root aggregate integration and release checks. All three contributions remain unpublished.",
+    "current_batch": "The last anonymously verified release contains 882 records from 57 source groups. Wagner candidate08-complete passed its final independent audit and all candidate validators; root integration, browser checks and release remain. Song R6 and Zhan R5 independent audits passed; their packages await root aggregate integration and release checks. All three contributions remain unpublished.",
     "scenarios": [],
     "notes": [
       "The historical ten-hour local-only trial remains frozen at 8 newly published source contributions; it is not a forecast.",
