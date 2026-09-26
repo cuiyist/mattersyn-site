@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 148,
-    "source_groups": 35,
-    "records": 126,
+    "recipe_structure_rows": 153,
+    "source_groups": 37,
+    "records": 130,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -9461,6 +9461,749 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "ghezelbash-2005-cu1p8s-variant::cu1p8s-reagent-adjusted",
+      "record_id": "ghezelbash-2005-cu1p8s-variant",
+      "record_page_path": "records/ghezelbash-2005-cu1p8s-variant.html",
+      "source_group": "ghezelbash2005-main",
+      "title": "Ghezelbash & Korgel (2005) · Cu1.8S digenite feed adjustment",
+      "doi": "10.1021/la051196p",
+      "year": 2005,
+      "method": "Cu:S feed adjustment in the DCB/OLA/OA copper sulfide route",
+      "recipe_label": "Ghezelbash & Korgel (2005) · Cu1.8S digenite feed adjustment",
+      "sample_id": "cu1p8s-reagent-adjusted",
+      "source_sample_label": "Cu1.8S amount-adjusted variant",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu1.8S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ghezelbash2005-main",
+            "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ghezelbash2005-main",
+          "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Rhombohedral Cu1.8S (digenite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph"
+              }
+            ],
+            "note": "Source states the amount adjustment produces Cu1.8S; no per-batch figure panel is specified in the synthesis sentence."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Disklike morphology is reported generally for Cu1.8S and CuS; no individual size/morphology measurement is attached to this variant sentence.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph"
+              }
+            ],
+            "note": "General article-level description only."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu1.8S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 2, printed p. 9452"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Rhombohedral Cu1.8S (digenite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 2, printed p. 9452"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target size stated in the recipe section.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Disklike morphology is reported generally for CuS and Cu1.8S nanocrystals; this variant has no individual size assignment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "note": "Single-material nanocrystal."
+          }
+        },
+        "observed_product": {
+          "sample_id": "cu1p8s-reagent-adjusted",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cu1p8s-cus-purified-dispersion",
+          "composition": {
+            "value": "Cu1.8S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Rhombohedral Cu1.8S (digenite)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph"
+                }
+              ],
+              "note": "Source states the amount adjustment produces Cu1.8S; no per-batch figure panel is specified in the synthesis sentence."
+            },
+            "morphology": {
+              "value": "Disklike morphology is reported generally for Cu1.8S and CuS; no individual size/morphology measurement is attached to this variant sentence.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 2, printed p. 9452, CuS and Cu1.8S Nanocrystal Synthesis paragraph"
+                }
+              ],
+              "note": "General article-level description only."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ghezelbash-2005-ni3s4-ola-top-octenoic-acid::ni-metal-byproduct-direct",
+      "record_id": "ghezelbash-2005-ni3s4-ola-top-octenoic-acid",
+      "record_page_path": "records/ghezelbash-2005-ni3s4-ola-top-octenoic-acid.html",
+      "source_group": "ghezelbash2005-main",
+      "title": "Ghezelbash & Korgel (2005) · Direct arrested-precipitation Ni3S4",
+      "doi": "10.1021/la051196p",
+      "year": 2005,
+      "method": "Oleylamine-mediated sulfur injection with TOP and octenoic acid; direct Ni/S combination",
+      "recipe_label": "Ghezelbash & Korgel (2005) · Direct arrested-precipitation Ni3S4",
+      "sample_id": "ni-metal-byproduct-direct",
+      "source_sample_label": "Ni metal byproduct · Figure 1D",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ni",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ghezelbash2005-main",
+            "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ghezelbash2005-main",
+          "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Polycrystalline metallic Ni",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results"
+              }
+            ],
+            "note": "Reported as reaction byproduct in the direct route."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Polycrystalline Ni nanocrystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results"
+              }
+            ],
+            "note": "No size distribution reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ni3S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic Ni3S4 (polydymite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target size stated in the recipe section.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Irregular cuboidal, trapezoidal, quasi-spherical and quasi-triangular particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "note": "Single-material nanocrystal."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ni-metal-byproduct-direct",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified-dispersion",
+          "composition": {
+            "value": "Ni",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Polycrystalline metallic Ni",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results"
+                }
+              ],
+              "note": "Reported as reaction byproduct in the direct route."
+            },
+            "morphology": {
+              "value": "Polycrystalline Ni nanocrystal",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 3, printed p. 9453, Figure 1D caption and Results"
+                }
+              ],
+              "note": "No size distribution reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ghezelbash-2005-ni3s4-ola-top-octenoic-acid::ni3s4-direct-standard",
+      "record_id": "ghezelbash-2005-ni3s4-ola-top-octenoic-acid",
+      "record_page_path": "records/ghezelbash-2005-ni3s4-ola-top-octenoic-acid.html",
+      "source_group": "ghezelbash2005-main",
+      "title": "Ghezelbash & Korgel (2005) · Direct arrested-precipitation Ni3S4",
+      "doi": "10.1021/la051196p",
+      "year": 2005,
+      "method": "Oleylamine-mediated sulfur injection with TOP and octenoic acid; direct Ni/S combination",
+      "recipe_label": "Ghezelbash & Korgel (2005) · Direct arrested-precipitation Ni3S4",
+      "sample_id": "ni3s4-direct-standard",
+      "source_sample_label": "Direct Ni/S combination · reported product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ni3S4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ghezelbash2005-main",
+            "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ghezelbash2005-main",
+          "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic Ni3S4 (polydymite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption"
+              }
+            ],
+            "note": "Source assigns cubic polydymite and cites JCPDS 43-1469; no specimen-specific coordinates are provided."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular cuboidal, trapezoidal, quasi-spherical and quasi-triangular particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption"
+              }
+            ],
+            "note": "These are the paper's reported shape classes, not per-particle statistics."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ni3S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic Ni3S4 (polydymite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target size stated in the recipe section.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Irregular cuboidal, trapezoidal, quasi-spherical and quasi-triangular particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "note": "Single-material nanocrystal."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ni3s4-direct-standard",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified-dispersion",
+          "composition": {
+            "value": "Ni3S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic Ni3S4 (polydymite)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption"
+                }
+              ],
+              "note": "Source assigns cubic polydymite and cites JCPDS 43-1469; no specimen-specific coordinates are provided."
+            },
+            "morphology": {
+              "value": "Irregular cuboidal, trapezoidal, quasi-spherical and quasi-triangular particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 3, printed p. 9453, Results and Figure 1 caption"
+                }
+              ],
+              "note": "These are the paper's reported shape classes, not per-particle statistics."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ghezelbash-2005-ni3s4-superhydride::ni3s4-superhydride-product",
+      "record_id": "ghezelbash-2005-ni3s4-superhydride",
+      "record_page_path": "records/ghezelbash-2005-ni3s4-superhydride.html",
+      "source_group": "ghezelbash2005-main",
+      "title": "Ghezelbash & Korgel (2005) · Superhydride-assisted Ni3S4 synthesis",
+      "doi": "10.1021/la051196p",
+      "year": 2005,
+      "method": "Pre-reduction of a Ni/OLA feed with lithium triethylborohydride (Superhydride), followed by sulfur addition",
+      "recipe_label": "Ghezelbash & Korgel (2005) · Superhydride-assisted Ni3S4 synthesis",
+      "sample_id": "ni3s4-superhydride-product",
+      "source_sample_label": "Superhydride-treated nickel sulfide product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ni3S4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ghezelbash2005-main",
+            "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ghezelbash2005-main",
+          "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic Ni3S4 (polydymite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption"
+              }
+            ],
+            "note": "XRD in Figure 3 identifies Ni3S4 and the text says the initially formed Ni particles were fully sulfidated."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Primarily polycrystalline Ni3S4 nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption"
+              }
+            ],
+            "note": "The source contrasts this polycrystalline product with single-crystal-domain nanocrystals from direct Ni/S combination."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "ni3s4-superhydride-xrd",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Ni3S4 diffraction peaks; no residual Ni phase identified after sulfidation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454, Figure 3D and Results"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "XRD",
+          "conditions": "Figure 3D; source identifies JCPDS file 43-1469.",
+          "evidence": [
+            {
+              "source_id": "ghezelbash2005-main",
+              "locator": "Main PDF p. 4, printed p. 9454, Figure 3D and Results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ni3S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic Ni3S4 (polydymite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target size stated in the recipe section.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Primarily polycrystalline Ni3S4 nanocrystals after reduction and sulfur treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 1, printed p. 9451"
+              }
+            ],
+            "note": "Single-material nanocrystal."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ni3s4-superhydride-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified-dispersion",
+          "composition": {
+            "value": "Ni3S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic Ni3S4 (polydymite)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption"
+                }
+              ],
+              "note": "XRD in Figure 3 identifies Ni3S4 and the text says the initially formed Ni particles were fully sulfidated."
+            },
+            "morphology": {
+              "value": "Primarily polycrystalline Ni3S4 nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ghezelbash2005-main",
+                  "locator": "Main PDF p. 4, printed p. 9454, Results and Figure 3 caption"
+                }
+              ],
+              "note": "The source contrasts this polycrystalline product with single-crystal-domain nanocrystals from direct Ni/S combination."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "ni3s4-superhydride-xrd",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "ghosh-2012-core-large-variant::core-5p5",
       "record_id": "ghosh-2012-core-large-variant",
       "record_page_path": "records/ghosh-2012-core-large-variant.html",
@@ -11117,6 +11860,218 @@
                 "measurement_id": "template-depth",
                 "property": "well_depth",
                 "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "hu-wang-2010-ni-cl-oh-typical-synthesis::hu2010-typical-if-dispersion",
+      "record_id": "hu-wang-2010-ni-cl-oh-typical-synthesis",
+      "record_page_path": "records/hu-wang-2010-ni-cl-oh-typical-synthesis.html",
+      "source_group": "hu-wang-2010-nickel-hydroxychloride",
+      "title": "Hu & Wang (2010) · Typical Ni–Cl–OH fullerene-like colloid synthesis",
+      "doi": "10.1021/ja103607q",
+      "year": 2010,
+      "method": "Source-described typical solvothermal procedure for colloidal fullerene-like nickel hydroxychloride. Charges and stages follow the main-text method; unavailable cooling, pressure, and workup details remain missing.",
+      "recipe_label": "Hu & Wang (2010) · Typical Ni–Cl–OH fullerene-like colloid synthesis",
+      "sample_id": "hu2010-typical-if-dispersion",
+      "source_sample_label": "Typical IF dispersion after described route; no author batch identifier.",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "NiCl0.78(OH)1.22·xH2O",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hu-wang-2010-nickel-hydroxychloride",
+            "locator": "Main PDF p. 2 (printed p. 9574), empirical formula from elemental analysis; hydration x unknown."
+          }
+        ],
+        "note": "Empirical composition; exact association with a separately identified aliquot is not stated."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hu-wang-2010-nickel-hydroxychloride",
+          "locator": "Main PDF p. 1 (printed p. 9573), typical synthesis paragraph.",
+          "claim": null
+        },
+        {
+          "source_id": "hu-wang-2010-nickel-hydroxychloride",
+          "locator": "Main PDF p. 1 (printed p. 9573), paragraphs following typical synthesis; Figure 1 caption and panels.",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Layered nickel hydroxychloride; no indexed deposited crystal profile is reported.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 2 (printed p. 9574), XRD description."
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "TEM shows polyhedral, non-spherical IF nanoparticles around 20 nm. HRTEM shows nested multilayers with 0.56 nm spacing and a hollow or amorphous center.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 1 (printed p. 9573), TEM/HRTEM text and Figure 1."
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "typical-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "Source wording: diameters of ∼20 nm",
+            "raw_text": "≈20 nm",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 1 (printed p. 9573), low-magnification TEM description; Figure 1a."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1a; 100 nm scale bar.",
+          "evidence": [
+            {
+              "source_id": "hu-wang-2010-nickel-hydroxychloride",
+              "locator": "Main PDF p. 1 (printed p. 9573), TEM description and Figure 1a."
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "NiCl0.78(OH)1.22·xH2O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 2 (printed p. 9574), empirical formula from elemental analysis; hydration x unknown."
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Inorganic fullerene-like nickel hydroxychloride is the stated product family; no indexable crystal profile is reported in the main text.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 1 (printed p. 9573), abstract and typical synthesis; p. 2 (printed p. 9574), XRD description."
+              }
+            ],
+            "note": "The product label does not imply an indexed crystallographic phase."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "No intended size target is specified.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 1 (printed p. 9573), abstract and typical synthesis; p. 2 (printed p. 9574), XRD description."
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Inorganic fullerene-like nanostructure (IF) is the stated product type.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 1 (printed p. 9573), abstract."
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "hu2010-typical-if-dispersion",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "final-cyclohexane-dispersion",
+          "composition": {
+            "value": "NiCl0.78(OH)1.22·xH2O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                "locator": "Main PDF p. 2 (printed p. 9574), empirical formula from elemental analysis; hydration x unknown."
+              }
+            ],
+            "note": "Empirical composition; exact association with a separately identified aliquot is not stated."
+          },
+          "structure": {
+            "phase": {
+              "value": "Layered nickel hydroxychloride; no indexed deposited crystal profile is reported.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                  "locator": "Main PDF p. 2 (printed p. 9574), XRD description."
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "TEM shows polyhedral, non-spherical IF nanoparticles around 20 nm. HRTEM shows nested multilayers with 0.56 nm spacing and a hollow or amorphous center.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "hu-wang-2010-nickel-hydroxychloride",
+                  "locator": "Main PDF p. 1 (printed p. 9573), TEM/HRTEM text and Figure 1."
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "typical-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
               }
             ]
           }
