@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-26T09:34:12Z",
+  "updated_at": "2026-09-26T10:31:33Z",
   "corpus_scanned_at": "2026-09-22T23:15:44.572813+00:00",
   "published": {
-    "dataset_version": "0.40.2",
-    "record_count": 882,
-    "synthesis_route_count": 237,
-    "material_hub_count": 82,
-    "direct_material_hub_count": 70,
+    "dataset_version": "0.40.3",
+    "record_count": 885,
+    "synthesis_route_count": 238,
+    "material_hub_count": 83,
+    "direct_material_hub_count": 71,
     "component_material_hub_count": 12,
-    "public_source_group_count": 57,
-    "formal_source_reader_count": 52,
+    "public_source_group_count": 58,
+    "formal_source_reader_count": 53,
     "exact_structure_recipe_count": 0,
     "last_verified_site_commit": "562a3ec4ec4337533d558edc11b6317f57d22338",
     "count_basis": "Current artifact records, material index, review index and task eligibility; historical review events are preserved separately."
@@ -75,95 +75,80 @@
     {
       "short_label": "Wagner et al. (1999) · SSZ-48",
       "title": "SSZ-48 synthesis, characterization, and source-linked morphology",
-      "stage": "Candidate08-complete passed its final independent integration audit; root shared integration, browser checks and public release remain.",
-      "summary": "Three main-only records passed bounded source review and final candidate review. The 885-record candidate exactly matches its frozen input snapshot and generated manifest; the prior 882 records and all three Wagner record digests are preserved. 129 unit tests, all 13 candidate build commands, and the generated-site/atlas/quality validators passed. The three authored-flask references and progress-data build dependency are fixed. SI is unreviewed and source-figure publisher permission remains unverified.",
+      "stage": "The three-record Wagner contribution is integrated; the exact 885-record clean build and public-boundary gate passed. Site deployment and anonymous verification remain.",
+      "summary": "Candidate08-complete passed independent source and integration review. The clean committed-source artifact contains 885 records, preserves all 882 prior records and the three audited Wagner record hashes, and passed 129 tests, all site/atlas/quality validators, and a 9,197-file public-boundary scan with zero failures. The seven selected source figures and 21 authored assets are delivered with their reviewed provenance; source-figure permission remains unverified. Main-article scope only; SI unreviewed. This source contribution remains uncredited until the site is deployed and anonymously verified.",
       "stages": [
         {
           "label": "Main-article extraction and source audit",
           "status": "complete",
-          "detail": "Three records passed bounded independent source/Reader review with stated scope limits; SI was not reviewed."
+          "detail": "Three records and source/Reader claims passed bounded independent review with stated scope limits; SI was not reviewed."
         },
         {
-          "label": "Private candidate and generated-site validation",
+          "label": "Reader, figures, and candidate build",
           "status": "complete",
-          "detail": "Candidate08-complete passed 129 unit tests, 13 build commands, 48,140 quality checks, and generated-site, atlas, and quality validators."
+          "detail": "Candidate08 passed 13 build/check commands, 129 tests, preflight, source-tree delta and privacy scan; morphology interpretation was independently checked."
         },
         {
-          "label": "Independent final candidate audit",
-          "status": "complete",
-          "detail": "A separate reviewer verified the exact candidate snapshot, 4,077 inputs, all 885 record digests, 9,197 generated files, and 56 declared asset delivery paths."
-        },
-        {
-          "label": "Root integration and batched publication",
+          "label": "Batched publication",
           "status": "pending",
-          "detail": "Shared canonical/site integration, final browser and release checks, deployment, and anonymous verification remain; this candidate is not yet published."
+          "detail": "Shared integration, reproducible build and public-boundary gate passed. GitHub Pages deployment and anonymous verification remain; publication credit is still zero."
         }
       ]
     },
     {
       "short_label": "Song et al. (2024) · ZnSSeTe",
       "title": "Alloyed zinc chalcogenide magic-sized nanoclusters and quantum dots",
-      "stage": "R6 derived-index audit passed; isolated 890-record preflight passed; aggregate integration and publication remain.",
-      "summary": "Eight source-reviewed records retain the paper's qualified precursor, ratio, temperature, and duration conflicts. The R6 derived-index delta and its independent audit passed; the isolated additive preflight passed against the 882-record base. Root aggregate integration, final website checks, browser validation, and publication remain. SI is unreviewed, publisher permission is unverified, and training eligibility is false.",
+      "stage": "Independent integration audit HOLD; R4 hash/index reconciliation is required before release.",
+      "summary": "Source and targeted R2/R3 corrections are independently reviewed. R4 corrects status labels and the paper-review pointer, but independent audit found 383 Reader record-SHA pointers still bind R3 bytes and an inconsistent R4 payload-tree digest. Current preflight also reports six route-membership checks and six paper-review/source-group joins for reconciliation. The records remain synthesis routes; no alloy-to-binary synthesis claim is added. SI remains unreviewed; permission is unverified; training remains false.",
       "stages": [
         {
           "label": "Main-article extraction and scientific corrections",
           "status": "complete",
-          "detail": "Eight records; reported OLA/ODE, precursor-ratio, temperature, and duration conflicts remain qualified."
+          "detail": "Eight records; the source’s OLA/ODE, precursor-ratio, temperature, and duration conflicts remain qualified rather than reconciled."
         },
         {
-          "label": "R6 derived-index independent audit",
-          "status": "complete",
-          "detail": "The separately authored derived-index delta passed independent review; the isolated additive preflight passed."
-        },
-        {
-          "label": "Aggregate website integration and release checks",
-          "status": "pending",
-          "detail": "Root integration into the current shared site candidate, complete build/browser checks, and anonymous publication verification remain."
+          "label": "Reader/hash integration",
+          "status": "in_progress",
+          "detail": "R4 is frozen on HOLD: 383 stale Reader hashes, an inconsistent payload-tree digest, and 12 route/source-group index findings remain. R5 must refresh and verify the complete fanout without changing source facts."
         },
         {
           "label": "Publication",
           "status": "pending",
-          "detail": "No new source contribution is live yet."
+          "detail": "No public contribution until current hashes, complete site integration, build/browser checks, and release verification pass."
         }
       ],
       "gaps": [
-        "Supporting Information has not been reviewed.",
-        "Publisher permission for selected source figures remains unverified.",
-        "Root aggregate integration, full website and browser checks, and anonymous publication verification remain."
+        "Refresh all 383 Reader record-file hashes and recompute the payload-tree digest from the final six-file package.",
+        "Reconcile six material-hub route memberships while retaining the six synthesis-route classifications; do not imply routes synthesize binary component phases unless the source supports that.",
+        "Reconcile six paper-review/source-group joins before canonical integration."
       ]
     },
     {
       "short_label": "Zhan et al. (1999) · Jaipurite",
       "title": "Hydrothermal cobalt sulfide synthesis and control experiments",
-      "stage": "R5 independent audit passed; root aggregate website integration and release checks remain.",
-      "summary": "Four main-only records preserve the reported conflict and Table 1 anomaly. The R5 restage retains four scoped product-context additions and keeps the phase distinction between amorphous CoS feed and crystalline products; the separate product-bindings file is unchanged. Independent R5 review passed. SI remains unreviewed and source-figure publisher permission is unverified.",
+      "stage": "R3 integration correction frozen; separate independent audit pending.",
+      "summary": "The four-record, main-only correction is frozen against the exact R2 postimages and current base. It separates the amorphous CoS feed from crystalline phase assets and adds seven SHA-keyed provenance rows while keeping source-figure permission unverified. Independent R3 integration audit and final release checks remain; SI was not reviewed.",
       "stages": [
         {
-          "label": "Main-article extraction and scoped correction audit",
+          "label": "Main-article extraction and independent correction audit",
           "status": "complete",
-          "detail": "Four records; source conflicts and the Table 1 anomaly remain explicit; SI was not reviewed."
+          "detail": "Four records; reported conflicts and the Table 1 anomaly remain explicit; SI was not reviewed."
         },
         {
-          "label": "R5 restage and independent audit",
-          "status": "complete",
-          "detail": "The bounded package passed independent review; only four Zhan product contexts were added."
-        },
-        {
-          "label": "Aggregate website integration and release checks",
-          "status": "pending",
-          "detail": "Root integration, full build/browser checks, and anonymous publication verification remain."
+          "label": "Reader bindings, merge contract, and asset provenance",
+          "status": "in_progress",
+          "detail": "A new R3 package is being prepared from exact R2 postimages with a phase-honest amorphous CoS card and rights rows that do not claim permission."
         },
         {
           "label": "Publication",
           "status": "pending",
-          "detail": "No new source contribution is live yet."
+          "detail": "No public contribution until independent R3 review and all website/release checks pass."
         }
       ],
       "gaps": [
-        "Supporting Information has not been reviewed.",
+        "R3 is not yet independently accepted; do not integrate or publish before its separate audit.",
         "Publisher permission for selected source figures remains unverified.",
-        "Root aggregate integration, full website and browser checks, and anonymous publication verification remain."
+        "Supporting Information is unreviewed."
       ]
     },
     {
@@ -587,12 +572,8 @@
   ],
   "recent_milestones": [
     {
-      "at": "2026-09-26T09:34:12Z",
-      "text": "Wagner candidate08-complete passed its final independent integration audit. The exact candidate snapshot and 4,077 inputs matched; all 885 record digests and 9,197 generated files matched; 129 tests and 48,140 quality checks passed; all 56 declared figure/authored-asset delivery paths matched. The three-record source contribution remains unpublished pending root integration and public release checks. Publisher permission for the seven source figures remains unverified."
-    },
-    {
-      "at": "2026-09-26T09:25:28Z",
-      "text": "Two-hour checkpoint 2026-09-26T07:15:24Z–2026-09-26T09:25:28Z: 0 new distinct source papers, records, or broad evidence rows published (0.00 papers/hour over 2.1678 elapsed hours). Live inventory carried forward from anonymously verified site commit 562a3ec4ec4337533d558edc11b6317f57d22338: 882 records, 57 source groups, 52 Readers, 237 routes, 82 hubs, 153 broad evidence rows, and 0 exact coordinate pairs. Song R6 and Zhan R5 integration audits passed. Wagner's 885-record private candidate (three new records) passed 129 tests and site, atlas, and quality validators; final independent candidate audit and release remain pending. No new paper went live."
+      "at": "2026-09-26T10:13:36Z",
+      "text": "Wagner et al. (1999) SSZ-48: the committed 885-record release candidate passed 129 tests, site/atlas/quality checks, and the exact 9,197-file public-boundary scan (zero failures). The seven source figures remain displayed under the user direction with publisher permission unverified. Website deployment and anonymous verification remain; no new paper is credited yet."
     },
     {
       "at": "2026-09-26T08:07:12Z",
@@ -733,11 +714,11 @@
   "estimate": {
     "status": "active_capacity_measurement",
     "summary": "Curation is active on the frozen screened-pass collection. No whole-collection finish date is asserted; publish credit requires source review, independent audit, recipe/sample/figure checks, website validation, and anonymous deployment.",
-    "current_batch": "The last anonymously verified release contains 882 records from 57 source groups. Wagner candidate08-complete passed its final independent audit and all candidate validators; root integration, browser checks and release remain. Song R6 and Zhan R5 independent audits passed; their packages await root aggregate integration and release checks. All three contributions remain unpublished.",
+    "current_batch": "The last anonymously verified scientific release contains 882 records from 57 source groups. Wagner is integrated in an 885-record committed candidate that passed all local and public-boundary checks; Pages deployment and anonymous verification remain. Song R6 and Zhan R5 audits passed; their aggregate integration remains pending.",
     "scenarios": [],
     "notes": [
       "The historical ten-hour local-only trial remains frozen at 8 newly published source contributions; it is not a forecast.",
-      "Latest measured two-hour publication interval: 0 new distinct papers in 2.1678 hours (0/hour; 2026-09-26T07:15:24Z–09:25:28Z). The 20/hour (500/day) target remains unachieved.",
+      "Latest measured two-hour publication interval: 0 new distinct papers in 2.1678 hours (2026-09-26T07:15:24Z–09:25:28Z); the 20/hour (500/day) target remains unachieved.",
       "Three active source contributions are private and do not count as website papers until independently accepted, integrated, and anonymously verified.",
       "No paid API/cloud processing, external document transfer, or new paper downloads."
     ],
@@ -757,7 +738,7 @@
   "daily_throughput": {
     "target_papers_per_day": 500,
     "completed_papers_today": 0,
-    "deployed_pending_closeout": 0,
+    "deployed_pending_closeout": 1,
     "counting_rule": "Count one source paper only after its scoped source reading, independent scientific audit, recipe/sample/figure checks, material-page integration and browser validation pass. Multiple recipe rows from one paper count once. Drafts and screening skips do not count as website papers built.",
     "observed_pipeline": {
       "papers": 8,
@@ -768,7 +749,7 @@
       "scope_note": "Fixed ten-hour local-only trial, including four contributions with pre-trial work. Counts only distinct new source papers deployed and anonymously verified. This arithmetic rate is not a capacity forecast or a claim of continuous unattended work."
     },
     "machine_stage_note": "The local RTX 5090/Qwen3.5 runs produce drafts quickly, but the 27B cross-check missed a known source conflict. Machine drafts and model agreement are not independent scientific audit or completed website contributions.",
-    "capacity_note": "Historical ten-hour local-only trial: 8 newly published papers over 10 hours, including four contributions with pre-trial work. The independent revised-workflow twelve-hour measurement ends at 2026-09-26T14:03:41Z. Latest two-hour checkpoint (07:15:24–09:25:28 UTC): 0 new papers over 2.1678 elapsed hours. Live counts are carried forward from the last anonymous verification; this is not a capacity forecast.",
+    "capacity_note": "The ten-hour local-only trial remains frozen at 8 new source papers. A separate revised-workflow twelve-hour measurement remains active. One additional audited paper (Wagner et al., 1999) has passed the committed local build and public-boundary gate and is queued for Pages deployment; it receives zero paper credit until anonymous verification.",
     "as_of_date": "2026-09-26",
     "date_timezone": "America/Chicago",
     "completed_paper_ledger": [
@@ -956,38 +937,6 @@
     "status": "active",
     "resumed_at": "2026-09-25T15:36:20Z",
     "historical_trial_unchanged": true,
-    "new_run_published_papers": 6
-  },
-  "latest_checkpoint": {
-    "reported_at": "2026-09-26T09:25:28Z",
-    "interval_start": "2026-09-26T07:15:24Z",
-    "elapsed_seconds": 7804,
-    "new_distinct_source_papers_published": 0,
-    "papers_per_elapsed_hour": 0.0,
-    "new_live_records": 0,
-    "new_live_broad_structure_evidence_rows": 0,
-    "cumulative_live_inventory": {
-      "records": 882,
-      "primary_source_groups": 57,
-      "formal_readers": 52,
-      "routes": 237,
-      "material_hubs": 82,
-      "broad_structure_evidence_rows": 153,
-      "exact_coordinate_pairs": 0
-    },
-    "inventory_basis": "Carried forward from last anonymously verified site commit 562a3ec4ec4337533d558edc11b6317f57d22338; not freshly re-fetched at this checkpoint.",
-    "stage_counts": {
-      "new_extraction_packages_frozen_in_interval": 0,
-      "source_integration_audits_passed_in_interval": 2,
-      "conditional_asset_rights_audit_passed_in_interval": 1,
-      "private_candidate_rebuilt_and_site_validated": 1,
-      "new_papers_published_in_interval": 0,
-      "open_candidate_audits": 1,
-      "papers_pending_public_release": 3,
-      "papers_blocked_on_final_independent_candidate_audit": 1,
-      "papers_pending_root_aggregate_integration": 2
-    },
-    "rework": "A private candidate validator was first run against a stale local dist directory; rerunning against the exact generated candidate passed. The rebuilt candidate also repairs missing authored-flask references and includes the progress JSON in generated output.",
-    "model_note": "User selected GPT-6 Luna; runtime model and any speed effect are unverified."
+    "new_run_published_papers": 1
   }
 }

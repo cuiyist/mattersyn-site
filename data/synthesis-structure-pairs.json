@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 153,
-    "source_groups": 37,
-    "records": 130,
+    "recipe_structure_rows": 154,
+    "source_groups": 38,
+    "records": 131,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -27586,6 +27586,182 @@
                 {
                   "source_id": "veinot1997",
                   "locator": "Main PDF p. 2, printed p. 2118, QDOH preparation continuation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wagner1999-ssz48-synthesis::ssz48-synthesis-product",
+      "record_id": "wagner1999-ssz48-synthesis",
+      "record_page_path": "records/wagner1999-ssz48-synthesis.html",
+      "source_group": "wagner1999",
+      "title": "Wagner et al. (1999) · N,N-diethyldecahydroquinolinium SDA preparation and SSZ-48 synthesis",
+      "doi": "10.1021/jp991389j",
+      "year": 1999,
+      "method": "SDA preparation followed by hydrothermal synthesis of borosilicate SSZ-48",
+      "recipe_label": "Wagner et al. (1999) · N,N-diethyldecahydroquinolinium SDA preparation and SSZ-48 synthesis",
+      "sample_id": "ssz48-synthesis-product",
+      "source_sample_label": "Borosilicate SSZ-48 precipitated product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Borosilicate SSZ-48; bulk SiO2/B2O3 ratio 63 by ICP.",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wagner1999",
+            "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis"
+          }
+        ],
+        "note": "No complete empirical formula or B site occupancy is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wagner1999",
+          "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "SSZ-48 molecular-sieve framework.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Precipitated product, filtered, washed and air-dried; wash solvent/count and isolated yield not reported.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Borosilicate SSZ-48; source does not give a complete empirical formula",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF pp. 1-2 (printed pp. 8245-8246), Experimental Section, Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF pp. 1-2 (printed pp. 8245-8246), Experimental Section, Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "um",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target size specified before synthesis.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF pp. 1-2 (printed pp. 8245-8246), Experimental Section, Synthesis"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF pp. 1-2 (printed pp. 8245-8246), Experimental Section, Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF pp. 1-2 (printed pp. 8245-8246), Experimental Section, Synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ssz48-synthesis-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ssz48-filtered-air-dried-product",
+          "composition": {
+            "value": "Borosilicate SSZ-48; bulk SiO2/B2O3 ratio 63 by ICP.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wagner1999",
+                "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis"
+              }
+            ],
+            "note": "No complete empirical formula or B site occupancy is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "SSZ-48 molecular-sieve framework.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wagner1999",
+                  "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Precipitated product, filtered, washed and air-dried; wash solvent/count and isolated yield not reported.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wagner1999",
+                  "locator": "Main PDF p. 2 (printed p. 8246), Experimental Section, Synthesis, SSZ-48 synthesis"
                 }
               ],
               "note": ""
