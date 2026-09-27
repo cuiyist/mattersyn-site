@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 204,
-    "source_groups": 48,
-    "records": 181,
+    "recipe_structure_rows": 207,
+    "source_groups": 49,
+    "records": 182,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -34788,6 +34788,504 @@
               "note": ""
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p587ev-tem",
+      "record_id": "wehrenberg2002-pbse-general-route",
+      "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
+      "source_group": "wehrenberg2002-jp021187e",
+      "title": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "doi": "10.1021/jp021187e",
+      "year": 2002,
+      "method": "Hot injection",
+      "recipe_label": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "sample_id": "wehrenberg2002-pbse-general-route-0p587ev-tem",
+      "source_sample_label": "0p587ev-tem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wehrenberg2002-jp021187e",
+            "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wehrenberg2002-jp021187e",
+          "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "0p587ev-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 8.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "wehrenberg2002-jp021187e",
+              "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wehrenberg2002-pbse-general-route-0p587ev-tem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Powder XRD confirms a bulk cubic phase at study level; no separate phase pattern or per-specimen assignment is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No quantitative morphology is reported for this separately identified sample; source image and authored interpretation are kept distinct."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "0p587ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p688ev-tem",
+      "record_id": "wehrenberg2002-pbse-general-route",
+      "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
+      "source_group": "wehrenberg2002-jp021187e",
+      "title": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "doi": "10.1021/jp021187e",
+      "year": 2002,
+      "method": "Hot injection",
+      "recipe_label": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "sample_id": "wehrenberg2002-pbse-general-route-0p688ev-tem",
+      "source_sample_label": "0p688ev-tem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wehrenberg2002-jp021187e",
+            "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wehrenberg2002-jp021187e",
+          "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "0p688ev-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "wehrenberg2002-jp021187e",
+              "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wehrenberg2002-pbse-general-route-0p688ev-tem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Powder XRD confirms a bulk cubic phase at study level; no separate phase pattern or per-specimen assignment is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No quantitative morphology is reported for this separately identified sample; source image and authored interpretation are kept distinct."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "0p688ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p865ev-tem",
+      "record_id": "wehrenberg2002-pbse-general-route",
+      "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
+      "source_group": "wehrenberg2002-jp021187e",
+      "title": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "doi": "10.1021/jp021187e",
+      "year": 2002,
+      "method": "Hot injection",
+      "recipe_label": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "sample_id": "wehrenberg2002-pbse-general-route-0p865ev-tem",
+      "source_sample_label": "0p865ev-tem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wehrenberg2002-jp021187e",
+            "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wehrenberg2002-jp021187e",
+          "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "0p865ev-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "wehrenberg2002-jp021187e",
+              "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wehrenberg2002-pbse-general-route-0p865ev-tem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Powder XRD confirms a bulk cubic phase at study level; no separate phase pattern or per-specimen assignment is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No quantitative morphology is reported for this separately identified sample; source image and authored interpretation are kept distinct."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "0p865ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
           }
         }
       },

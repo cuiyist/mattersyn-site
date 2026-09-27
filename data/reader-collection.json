@@ -87,13 +87,13 @@
     "ZnSe",
     "ZnSe:Cr"
   ],
-  "contributing_papers": 68,
-  "synthesis_structure_pairs": 204,
+  "contributing_papers": 69,
+  "synthesis_structure_pairs": 207,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 201,
+  "partial_pairs": 204,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 969,
+  "all_records": 972,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -55940,6 +55940,1365 @@
                   {
                     "source_id": "wagner1999",
                     "locator": "Main PDF pp. 1-2 (printed pp. 8245-8246), Experimental Section, Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p587ev-tem",
+      "record_id": "wehrenberg2002-pbse-general-route",
+      "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
+      "source_group": "wehrenberg2002-jp021187e",
+      "title": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "doi": "10.1021/jp021187e",
+      "year": 2002,
+      "method": "Hot injection",
+      "recipe_label": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "sample_id": "wehrenberg2002-pbse-general-route-0p587ev-tem",
+      "source_sample_label": "0p587ev-tem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wehrenberg2002-jp021187e",
+            "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wehrenberg2002-jp021187e",
+          "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "0p587ev-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 8.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "wehrenberg2002-jp021187e",
+              "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wehrenberg2002-pbse-general-route-0p587ev-tem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Powder XRD confirms a bulk cubic phase at study level; no separate phase pattern or per-specimen assignment is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No quantitative morphology is reported for this separately identified sample; source image and authored interpretation are kept distinct."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "0p587ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ether-flask1",
+            "ether-flask2",
+            "lead-acetate",
+            "oleic-acid",
+            "top",
+            "topse-stock"
+          ],
+          "fields": [
+            {
+              "material_id": "lead-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask1",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topse-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topse-stock",
+              "pointer": "/materials/5/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-acetate",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask1",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p688ev-tem",
+      "record_id": "wehrenberg2002-pbse-general-route",
+      "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
+      "source_group": "wehrenberg2002-jp021187e",
+      "title": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "doi": "10.1021/jp021187e",
+      "year": 2002,
+      "method": "Hot injection",
+      "recipe_label": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "sample_id": "wehrenberg2002-pbse-general-route-0p688ev-tem",
+      "source_sample_label": "0p688ev-tem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wehrenberg2002-jp021187e",
+            "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wehrenberg2002-jp021187e",
+          "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "0p688ev-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "wehrenberg2002-jp021187e",
+              "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wehrenberg2002-pbse-general-route-0p688ev-tem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Powder XRD confirms a bulk cubic phase at study level; no separate phase pattern or per-specimen assignment is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No quantitative morphology is reported for this separately identified sample; source image and authored interpretation are kept distinct."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "0p688ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ether-flask1",
+            "ether-flask2",
+            "lead-acetate",
+            "oleic-acid",
+            "top",
+            "topse-stock"
+          ],
+          "fields": [
+            {
+              "material_id": "lead-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask1",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topse-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topse-stock",
+              "pointer": "/materials/5/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-acetate",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask1",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p865ev-tem",
+      "record_id": "wehrenberg2002-pbse-general-route",
+      "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
+      "source_group": "wehrenberg2002-jp021187e",
+      "title": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "doi": "10.1021/jp021187e",
+      "year": 2002,
+      "method": "Hot injection",
+      "recipe_label": "Wehrenberg et al. (2002): general preparation and three TEM-size outcomes",
+      "sample_id": "wehrenberg2002-pbse-general-route-0p865ev-tem",
+      "source_sample_label": "0p865ev-tem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wehrenberg2002-jp021187e",
+            "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wehrenberg2002-jp021187e",
+          "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "0p865ev-tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "wehrenberg2002-jp021187e",
+              "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wehrenberg2002-pbse-general-route-0p865ev-tem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wehrenberg2002-jp021187e",
+                "locator": "Main PDF p. 2, Experimental continuation: TEM diameter / first-exciton correspondence"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Powder XRD confirms a bulk cubic phase at study level; no separate phase pattern or per-specimen assignment is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No quantitative morphology is reported for this separately identified sample; source image and authored interpretation are kept distinct."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "0p865ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ether-flask1",
+            "ether-flask2",
+            "lead-acetate",
+            "oleic-acid",
+            "top",
+            "topse-stock"
+          ],
+          "fields": [
+            {
+              "material_id": "lead-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask1",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topse-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topse-stock",
+              "pointer": "/materials/5/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-acetate",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ether-flask1",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "lead-formulation",
+              "pointer": "/stocks/0/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wehrenberg2002-jp021187e",
+                    "locator": "Main PDF p. 1, Experimental Section: two-flask PbSe preparation"
                   }
                 ],
                 "derivation": null
