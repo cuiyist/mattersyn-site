@@ -4,57 +4,57 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4187,
+    "local_paper_groups_indexed": 4188,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
-    "canonical_records": 911,
-    "reviewed_literature_records": 811,
-    "reviewed_literature_source_groups": 61,
+    "canonical_records": 934,
+    "reviewed_literature_records": 834,
+    "reviewed_literature_source_groups": 63,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 62,
+    "total_canonical_source_groups": 64,
     "formal_full_main_and_matched_si_reviews": 27,
     "formal_full_review_pages": 638,
-    "formal_full_main_reviews_si_unverified": 30,
-    "formal_full_main_only_review_pages": 202,
+    "formal_full_main_reviews_si_unverified": 32,
+    "formal_full_main_only_review_pages": 227,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
-    "local_groups_without_canonical_records": 4125,
-    "synthesis_route_variant_records": 254,
-    "contextual_control_variant_records": 18,
-    "shared_preparation_workup_characterization_assay_procedures": 298,
-    "nonprocedure_literature_records": 513,
+    "local_groups_without_canonical_records": 4124,
+    "synthesis_route_variant_records": 263,
+    "contextual_control_variant_records": 19,
+    "shared_preparation_workup_characterization_assay_procedures": 303,
+    "nonprocedure_literature_records": 531,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 115,
-      "observation": 203,
-      "procedure": 298,
-      "protocol_variant": 157
+      "literature_protocol": 124,
+      "observation": 211,
+      "procedure": 303,
+      "protocol_variant": 158
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 115,
-      "observation": 203,
-      "procedure": 298,
-      "protocol_variant": 157
+      "literature_protocol": 124,
+      "observation": 211,
+      "procedure": 303,
+      "protocol_variant": 158
     },
-    "literature_recipe_family_ids": 134,
-    "primary_synthesis_recipe_family_ids": 88,
-    "public_material_hubs": 89,
-    "direct_synthesis_target_systems": 77,
+    "literature_recipe_family_ids": 141,
+    "primary_synthesis_recipe_family_ids": 95,
+    "public_material_hubs": 91,
+    "direct_synthesis_target_systems": 79,
     "component_only_hubs": 12,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 112,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 114,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
-    "contextual_observation_records": 203,
-    "recipe_or_control_literature_records": 272,
-    "contextual_observation_family_ids": 64,
-    "source_checked_synthesis_structure_rows": 168,
-    "source_groups_with_synthesis_structure_rows": 42,
+    "contextual_observation_records": 211,
+    "recipe_or_control_literature_records": 282,
+    "contextual_observation_family_ids": 65,
+    "source_checked_synthesis_structure_rows": 177,
+    "source_groups_with_synthesis_structure_rows": 44,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -87,6 +87,7 @@
       "(C14H29NH3)4AgBiI8",
       "Ag",
       "Ag/Si",
+      "Ag2S",
       "Bi2S3",
       "Borosilicate SSZ-48; source does not give a complete empirical formula",
       "C12-amine silver bismuth bromide",
@@ -124,6 +125,7 @@
       "Cu3SbS4",
       "Cu3SbS4 + Cu12Sb4S13",
       "Cu7S5",
+      "CuFeS2",
       "CuS",
       "CuS + Cu1.8S",
       "CuSbS2",
@@ -354,6 +356,80 @@
         "banerjee-2003-xrd": "records/banerjee-2003-xrd.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "basel2020",
+      "doi": "10.1021/acsomega.9b04448",
+      "url": "https://doi.org/10.1021/acsomega.9b04448",
+      "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis",
+      "year": 2020,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "All 10 main pages and correction delta independently accepted; SI and cited prior methods unreviewed; presentation pending.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/basel2020.json",
+      "paper_review_url": "paper-review.html?id=basel2020",
+      "si_status": "cited_not_inspected",
+      "notes": [
+        "Six material-specific NC preparations and one separate annealed InP film treatment. No main-article TEM, size/morphology or measured coordinates.",
+        "Twenty metal-carboxylate products, thirteen optimization conditions, fourteen NMR contexts and multigram zinc-stearate preparation are preserved as upstream contexts, not extra NC pairs.",
+        "Unknown CsPbBr3 reagent, missing PbS sulfur-stock quantities, and source conflicts remain explicit.",
+        "Source-linked figures supplied; presentation remains pending."
+      ],
+      "canonical_record_count": 7,
+      "synthesis_route_variant_count": 6,
+      "contextual_control_count": 1,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 22,
+      "record_type_counts": {
+        "literature_protocol": 6,
+        "protocol_variant": 1
+      },
+      "canonical_recipe_family_ids": [
+        "basel2020-ag2s",
+        "basel2020-cdse",
+        "basel2020-cspbbr3",
+        "basel2020-cufes2",
+        "basel2020-inp",
+        "basel2020-pbs"
+      ],
+      "direct_route_material_systems": [
+        "Ag2S",
+        "CdSe",
+        "CsPbBr3",
+        "CuFeS2",
+        "InP",
+        "PbS"
+      ],
+      "record_ids": [
+        "basel-2020-ag2s-hot-injection-140c",
+        "basel-2020-cdse-hot-injection-150c",
+        "basel-2020-cspbbr3-hot-injection-200c",
+        "basel-2020-cufes2-hot-injection-180c",
+        "basel-2020-inp-as-made-hot-injection-270c",
+        "basel-2020-inp-film-annealed-270c-4h",
+        "basel-2020-pbs-hot-injection-80c"
+      ],
+      "record_urls": {
+        "basel-2020-ag2s-hot-injection-140c": "records/basel-2020-ag2s-hot-injection-140c.html",
+        "basel-2020-cdse-hot-injection-150c": "records/basel-2020-cdse-hot-injection-150c.html",
+        "basel-2020-cspbbr3-hot-injection-200c": "records/basel-2020-cspbbr3-hot-injection-200c.html",
+        "basel-2020-cufes2-hot-injection-180c": "records/basel-2020-cufes2-hot-injection-180c.html",
+        "basel-2020-inp-as-made-hot-injection-270c": "records/basel-2020-inp-as-made-hot-injection-270c.html",
+        "basel-2020-inp-film-annealed-270c-4h": "records/basel-2020-inp-film-annealed-270c-4h.html",
+        "basel-2020-pbs-hot-injection-80c": "records/basel-2020-pbs-hot-injection-80c.html"
+      },
+      "source_checked_synthesis_structure_rows": 6
     },
     {
       "source_group": "besson2002",
@@ -2725,6 +2801,84 @@
         "nagasaki-2004-zeta": "records/nagasaki-2004-zeta.html"
       },
       "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "nagy2012nn204886b",
+      "paper_id": "nagy2012nn204886b",
+      "doi": "10.1021/nn204886b",
+      "url": "https://doi.org/10.1021/nn204886b",
+      "title": "Comprehensive Analysis of the Effects of CdSe Quantum Dot Size, Surface Charge, and Functionalization on Primary Human Lung Cells",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "All 15 main pages and correction delta independently accepted; SI and cited prior methods unreviewed; presentation pending.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 15,
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/nagy2012nn204886b.json",
+      "paper_review_url": "paper-review.html?id=nagy2012nn204886b",
+      "si_status": "known_local_unreviewed",
+      "canonical_record_count": 16,
+      "synthesis_route_variant_count": 3,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 8,
+      "procedure_count": 5,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 343,
+      "record_type_counts": {
+        "literature_protocol": 3,
+        "observation": 8,
+        "procedure": 5
+      },
+      "canonical_recipe_family_ids": [
+        "nagy2012-core-surface-cell-study"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_ids": [
+        "nagy2012-apoptosis-ao-elisa",
+        "nagy2012-atp-nac",
+        "nagy2012-core-10nm",
+        "nagy2012-core-3nm",
+        "nagy2012-core-5nm",
+        "nagy2012-exchange-aut",
+        "nagy2012-exchange-cyst",
+        "nagy2012-exchange-mpa",
+        "nagy2012-exchange-mua",
+        "nagy2012-gene-table2",
+        "nagy2012-gene-table3",
+        "nagy2012-ldh-necrosis",
+        "nagy2012-nhbe-culture-exposure",
+        "nagy2012-ros-nac",
+        "nagy2012-study-context-table4",
+        "nagy2012-wst1-proliferation"
+      ],
+      "record_urls": {
+        "nagy2012-apoptosis-ao-elisa": "records/nagy2012-apoptosis-ao-elisa.html",
+        "nagy2012-atp-nac": "records/nagy2012-atp-nac.html",
+        "nagy2012-core-10nm": "records/nagy2012-core-10nm.html",
+        "nagy2012-core-3nm": "records/nagy2012-core-3nm.html",
+        "nagy2012-core-5nm": "records/nagy2012-core-5nm.html",
+        "nagy2012-exchange-aut": "records/nagy2012-exchange-aut.html",
+        "nagy2012-exchange-cyst": "records/nagy2012-exchange-cyst.html",
+        "nagy2012-exchange-mpa": "records/nagy2012-exchange-mpa.html",
+        "nagy2012-exchange-mua": "records/nagy2012-exchange-mua.html",
+        "nagy2012-gene-table2": "records/nagy2012-gene-table2.html",
+        "nagy2012-gene-table3": "records/nagy2012-gene-table3.html",
+        "nagy2012-ldh-necrosis": "records/nagy2012-ldh-necrosis.html",
+        "nagy2012-nhbe-culture-exposure": "records/nagy2012-nhbe-culture-exposure.html",
+        "nagy2012-ros-nac": "records/nagy2012-ros-nac.html",
+        "nagy2012-study-context-table4": "records/nagy2012-study-context-table4.html",
+        "nagy2012-wst1-proliferation": "records/nagy2012-wst1-proliferation.html"
+      },
+      "source_checked_synthesis_structure_rows": 3
     },
     {
       "source_group": "nakonechnyi2017",
@@ -5827,6 +5981,42 @@
       ]
     },
     {
+      "material_system": "Ag2S",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "basel-2020-ag2s-hot-injection-140c"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "ag2s-2f1216",
+      "material_hub_url": "material.html?id=ag2s-2f1216",
+      "source_groups": [
+        "basel2020"
+      ],
+      "source_links": [
+        {
+          "source_group": "basel2020",
+          "doi": "10.1021/acsomega.9b04448",
+          "url": "https://doi.org/10.1021/acsomega.9b04448",
+          "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "basel2020-ag2s"
+      ]
+    },
+    {
       "material_system": "Ag–Bi layered halide study contexts",
       "notes": [
         "Reported source contexts retain their individual recipe and sample-link limits."
@@ -7105,8 +7295,9 @@
         "Before the Danek1996 addition: Seven direct routes: Murray3, Peng2, Nakonechnyi2. Public hub count13 also includes six CdSe-core-containing shell-growth records; those are not extra bare-CdSe recipes.",
         "Danek1996 adds three existing route IDs to this hub; the current route contribution count is 16. The shell-overgrowth route is distinct from the two matrix-film routes; component links do not create standalone CdSe or ZnSe synthesis recipes."
       ],
-      "direct_synthesis_route_variant_count": 23,
+      "direct_synthesis_route_variant_count": 27,
       "direct_route_record_ids": [
+        "basel-2020-cdse-hot-injection-150c",
         "cdse-nr-phosphonate-control-275-250",
         "cdse-qd-octadecylphosphinate-240",
         "cdse-qd-octadecylphosphinate-300",
@@ -7122,6 +7313,9 @@
         "murray-1993-cdse-method1",
         "murray-1993-cdse-method2",
         "murray-1993-cdse-small-species",
+        "nagy2012-core-10nm",
+        "nagy2012-core-3nm",
+        "nagy2012-core-5nm",
         "nakonechnyi-2017-wz-cdse-core",
         "nakonechnyi-2017-zb-cdse-core",
         "peng-1998-cdse-focusing",
@@ -7139,18 +7333,26 @@
         "nakonechnyi-2017-core-stability-neither",
         "nakonechnyi-2017-core-stability-top-s-only"
       ],
-      "contextual_observation_count": 4,
+      "contextual_observation_count": 12,
       "contextual_observation_record_ids": [
         "morrison-2017-starting-belt-reference",
+        "nagy2012-apoptosis-ao-elisa",
+        "nagy2012-atp-nac",
+        "nagy2012-gene-table2",
+        "nagy2012-gene-table3",
+        "nagy2012-ldh-necrosis",
+        "nagy2012-ros-nac",
+        "nagy2012-study-context-table4",
+        "nagy2012-wst1-proliferation",
         "peng-1998-cdse-calibration",
         "peng-1998-cdse-kinetics",
         "peng-1998-cdse-tem"
       ],
-      "procedure_count": 7,
+      "procedure_count": 12,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 40,
+      "public_hub_route_contributions": 44,
       "component_route_contribution_count": 17,
       "component_route_record_ids": [
         "dabbousi-1997-cds-overgrowth",
@@ -7171,10 +7373,11 @@
         "nakonechnyi-2017-zb-cdse-znse-25nmol",
         "nakonechnyi-2017-zb-cdse-znse-50nmol"
       ],
-      "primary_reviewed_source_count": 10,
+      "primary_reviewed_source_count": 12,
       "material_hub_id": "cdse-d923c5",
       "material_hub_url": "cdse.html",
       "source_groups": [
+        "basel2020",
         "dabbousi1997",
         "danek1996",
         "dhaene2022-main",
@@ -7183,12 +7386,19 @@
         "ghosh2012",
         "morrison2017",
         "murray1993",
+        "nagy2012nn204886b",
         "nakonechnyi2017",
         "peng1998",
         "peng2000",
         "yu1998cde"
       ],
       "source_links": [
+        {
+          "source_group": "basel2020",
+          "doi": "10.1021/acsomega.9b04448",
+          "url": "https://doi.org/10.1021/acsomega.9b04448",
+          "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis"
+        },
         {
           "source_group": "dabbousi1997",
           "doi": "10.1021/jp971091y",
@@ -7238,6 +7448,12 @@
           "title": "Synthesis and Characterization of Nearly Monodisperse CdE (E = S, Se, Te) Semiconductor Nanocrystallites"
         },
         {
+          "source_group": "nagy2012nn204886b",
+          "doi": "10.1021/nn204886b",
+          "url": "https://doi.org/10.1021/nn204886b",
+          "title": "Comprehensive Analysis of the Effects of CdSe Quantum Dot Size, Surface Charge, and Functionalization on Primary Human Lung Cells"
+        },
+        {
           "source_group": "nakonechnyi2017",
           "doi": "10.1021/acs.chemmater.7b00354",
           "url": "https://doi.org/10.1021/acs.chemmater.7b00354",
@@ -7263,6 +7479,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "basel2020-cdse",
         "dhaene2022-cdse-hot-injection",
         "dhaene2022-cdse-hot-injection,-lower-temperature-kinetic/pl-variant",
         "dhaene2022-cdse-hot-injection-control",
@@ -7275,6 +7492,7 @@
         "evans2010-phosphine-selenide-study",
         "ghosh2012-core-shell-parameter-study",
         "murray1993-cdse",
+        "nagy2012-core-surface-cell-study",
         "nakonechnyi2017-cdse",
         "peng1998-cdse-focusing",
         "peng2000-cdse",
@@ -8382,8 +8600,9 @@
     {
       "material_system": "CsPbBr3",
       "notes": [],
-      "direct_synthesis_route_variant_count": 2,
+      "direct_synthesis_route_variant_count": 3,
       "direct_route_record_ids": [
+        "basel-2020-cspbbr3-hot-injection-200c",
         "chen2018ami-cspbbr3-nc",
         "zhang2019-cspbbr3-tdpa-only"
       ],
@@ -8395,7 +8614,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 18,
+      "public_hub_route_contributions": 19,
       "component_route_contribution_count": 16,
       "component_route_record_ids": [
         "chen2018ami-dmso350-water77",
@@ -8415,14 +8634,21 @@
         "chen2018ami-s4-scale50",
         "chen2018ami-s5"
       ],
-      "primary_reviewed_source_count": 2,
+      "primary_reviewed_source_count": 3,
       "material_hub_id": "cspbbr3-2b7650",
       "material_hub_url": "material.html?id=cspbbr3-2b7650",
       "source_groups": [
+        "basel2020",
         "chen2018ami",
         "zhang2019"
       ],
       "source_links": [
+        {
+          "source_group": "basel2020",
+          "doi": "10.1021/acsomega.9b04448",
+          "url": "https://doi.org/10.1021/acsomega.9b04448",
+          "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis"
+        },
         {
           "source_group": "chen2018ami",
           "doi": "10.1021/acsami.8b04556",
@@ -8437,6 +8663,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "basel2020-cspbbr3",
         "chen2018ami-colloidal-comparator",
         "zhang2019-cspbbr3-phosphonic-acids"
       ]
@@ -8941,6 +9168,42 @@
       "direct_route_recipe_family_ids": [
         "1:1-thiols",
         "3:1-thiols"
+      ]
+    },
+    {
+      "material_system": "CuFeS2",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "basel-2020-cufes2-hot-injection-180c"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cufes2-d276bb",
+      "material_hub_url": "material.html?id=cufes2-d276bb",
+      "source_groups": [
+        "basel2020"
+      ],
+      "source_links": [
+        {
+          "source_group": "basel2020",
+          "doi": "10.1021/acsomega.9b04448",
+          "url": "https://doi.org/10.1021/acsomega.9b04448",
+          "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "basel2020-cufes2"
       ]
     },
     {
@@ -9532,8 +9795,9 @@
     {
       "material_system": "InP",
       "notes": [],
-      "direct_synthesis_route_variant_count": 22,
+      "direct_synthesis_route_variant_count": 23,
       "direct_route_record_ids": [
+        "basel-2020-inp-as-made-hot-injection-270c",
         "friedfeld-2019-conversion-acid-additive",
         "friedfeld-2019-conversion-concentration",
         "friedfeld-2019-conversion-indium-additive",
@@ -9557,8 +9821,9 @@
         "inp-qd-sequential-injection-5min",
         "tessier2015-inp-incl3-reference1"
       ],
-      "contextual_control_count": 1,
+      "contextual_control_count": 2,
       "contextual_control_record_ids": [
+        "basel-2020-inp-film-annealed-270c-4h",
         "gary-cossairt-2014-general-hot-injection"
       ],
       "contextual_observation_count": 8,
@@ -9576,18 +9841,25 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 22,
+      "public_hub_route_contributions": 23,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 3,
+      "primary_reviewed_source_count": 4,
       "material_hub_id": "inp-9eb58d",
       "material_hub_url": "material.html?id=inp-9eb58d",
       "source_groups": [
+        "basel2020",
         "friedfeld2019",
         "gary-cossairt-2014-main",
         "tessier2015"
       ],
       "source_links": [
+        {
+          "source_group": "basel2020",
+          "doi": "10.1021/acsomega.9b04448",
+          "url": "https://doi.org/10.1021/acsomega.9b04448",
+          "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis"
+        },
         {
           "source_group": "friedfeld2019",
           "doi": "10.1021/acs.inorgchem.8b02945",
@@ -9608,6 +9880,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "basel2020-inp",
         "friedfeld2019-cluster-conversion-study",
         "gary-cossairt-2014-inp-triarylsilylphosphines",
         "tessier2015-inp-aminophosphine"
@@ -10256,8 +10529,9 @@
       "notes": [
         "Numeric benchmark only, one source. 100 selected rows include95 optical outcomes and5 source-coded failures; no reviewed synthesis hub."
       ],
-      "direct_synthesis_route_variant_count": 1,
+      "direct_synthesis_route_variant_count": 2,
       "direct_route_record_ids": [
+        "basel-2020-pbs-hot-injection-80c",
         "yao2015-pbs-hot-injection-120c"
       ],
       "contextual_control_count": 0,
@@ -10268,7 +10542,7 @@
       "benchmark_row_count": 100,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 13,
+      "public_hub_route_contributions": 14,
       "component_route_contribution_count": 12,
       "component_route_record_ids": [
         "dantas-2002-afm1",
@@ -10284,15 +10558,22 @@
         "yao2015-cds-pbs-7-cycles",
         "yao2015-planar-cds-pbs-6-cycles"
       ],
-      "primary_reviewed_source_count": 1,
+      "primary_reviewed_source_count": 2,
       "material_hub_id": "pbs-7e1774",
       "material_hub_url": "material.html?id=pbs-7e1774",
       "source_groups": [
+        "basel2020",
         "dantas2002",
         "voznyy2019",
         "yao2015acsami"
       ],
       "source_links": [
+        {
+          "source_group": "basel2020",
+          "doi": "10.1021/acsomega.9b04448",
+          "url": "https://doi.org/10.1021/acsomega.9b04448",
+          "title": "DBU-Catalyzed One-Pot Synthesis of Nearly Any Metal Salt of Fatty Acid (M-FA): A Library of Metal Precursors to Semiconductor Nanocrystal Synthesis"
+        },
         {
           "source_group": "dantas2002",
           "doi": "10.1021/jp0208743",
@@ -10313,6 +10594,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "basel2020-pbs",
         "yao2015-cds-pbs-source-study"
       ]
     },
@@ -11937,9 +12219,9 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "5424d89d4ed00b5f92c202d923e633885bd8a9aaac238e6ea0d27d68cee5693d",
-    "record_ids_sha256": "81c20fcf51f7082e3c1ed6707fb11dddd7e218e2497b5e3490e6c120408ccb82",
-    "generated_dataset_version_observed": "0.41.1",
+    "reviewed_evidence_sha256": "bf5554eec9612dda44e91a679190d3bfbd73b1f371a5973c841ce3eea0cb1acd",
+    "record_ids_sha256": "2bdb4c4d02169cb0c219444f408bc43ec338fa88353bc6517ff04ad18c353b7a",
+    "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }
 }

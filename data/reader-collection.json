@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 77,
+  "material_families": 79,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -11,6 +11,7 @@
     "(C14H29NH3)4AgBiI8",
     "Ag",
     "Ag/Si",
+    "Ag2S",
     "Bi2S3",
     "Borosilicate SSZ-48; source does not give a complete empirical formula",
     "C12-amine silver bismuth bromide",
@@ -48,6 +49,7 @@
     "Cu3SbS4",
     "Cu3SbS4 + Cu12Sb4S13",
     "Cu7S5",
+    "CuFeS2",
     "CuS",
     "CuS + Cu1.8S",
     "CuSbS2",
@@ -81,13 +83,13 @@
     "ZnSSeTe",
     "ZnSTe"
   ],
-  "contributing_papers": 62,
-  "synthesis_structure_pairs": 168,
+  "contributing_papers": 64,
+  "synthesis_structure_pairs": 177,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 165,
+  "partial_pairs": 174,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 911,
+  "all_records": 934,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -387,6 +389,2337 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "basel-2020-ag2s-hot-injection-140c::basel-2020-ag2s-hot-injection-140c-product",
+      "record_id": "basel-2020-ag2s-hot-injection-140c",
+      "record_page_path": "records/basel-2020-ag2s-hot-injection-140c.html",
+      "source_group": "basel2020",
+      "title": "Basel et al. (2020): Ag2S from silver stearate",
+      "doi": "10.1021/acsomega.9b04448",
+      "year": 2020,
+      "method": "Hot-injection colloidal synthesis from DBU-prepared metal carboxylates",
+      "recipe_label": "Basel et al. (2020): Ag2S from silver stearate",
+      "sample_id": "basel-2020-ag2s-hot-injection-140c-product",
+      "source_sample_label": "Ag2S nanocrystals; material-specific panels in Figures 4 and 5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 6, Section 7.7"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 6, Section 7.7",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5e",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic; JCPDS 00-014-0072",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5e"
+              }
+            ],
+            "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "phase-assignment",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Monoclinic; JCPDS 00-014-0072",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5e"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD / author reference-pattern assignment",
+          "conditions": "PANalytical Cu Kα, λ = 1.54 Å, 40 kV, 30 mA. No coordinate file or refinement supplied.",
+          "evidence": [
+            {
+              "source_id": "basel2020",
+              "locator": "Main PDF p. 5, Figure 5e"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.7"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Reported phase is an outcome, not a prospectively specified target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "basel-2020-ag2s-hot-injection-140c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "Ag2S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.7"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic; JCPDS 00-014-0072",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "basel2020",
+                  "locator": "Main PDF p. 5, Figure 5e"
+                }
+              ],
+              "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured particle morphology in the inspected main article."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "phase-assignment",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ddt",
+            "dptu",
+            "ode",
+            "silver-stearate"
+          ],
+          "fields": [
+            {
+              "material_id": "silver-stearate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.039,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "silver-stearate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dptu",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.023,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dptu",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dptu",
+              "stock_id": "dptu-ddt-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.023,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dptu",
+              "stock_id": "dptu-ddt-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "stock_id": "dptu-ddt-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.7"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "basel-2020-cdse-hot-injection-150c::basel-2020-cdse-hot-injection-150c-product",
+      "record_id": "basel-2020-cdse-hot-injection-150c",
+      "record_page_path": "records/basel-2020-cdse-hot-injection-150c.html",
+      "source_group": "basel2020",
+      "title": "Basel et al. (2020): CdSe from cadmium stearate",
+      "doi": "10.1021/acsomega.9b04448",
+      "year": 2020,
+      "method": "Hot-injection colloidal synthesis from DBU-prepared metal carboxylates",
+      "recipe_label": "Basel et al. (2020): CdSe from cadmium stearate",
+      "sample_id": "basel-2020-cdse-hot-injection-150c-product",
+      "source_sample_label": "CdSe nanocrystals; material-specific panels in Figures 4 and 5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 6, Section 7.4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 6, Section 7.4",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5c",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc blende; JCPDS 65-2891",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5c"
+              }
+            ],
+            "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "phase-assignment",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Zinc blende; JCPDS 65-2891",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5c"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD / author reference-pattern assignment",
+          "conditions": "PANalytical Cu Kα, λ = 1.54 Å, 40 kV, 30 mA. No coordinate file or refinement supplied.",
+          "evidence": [
+            {
+              "source_id": "basel2020",
+              "locator": "Main PDF p. 5, Figure 5c"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Reported phase is an outcome, not a prospectively specified target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "basel-2020-cdse-hot-injection-150c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc blende; JCPDS 65-2891",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "basel2020",
+                  "locator": "Main PDF p. 5, Figure 5c"
+                }
+              ],
+              "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured particle morphology in the inspected main article."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "phase-assignment",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-stearate",
+            "ode",
+            "oleylamine",
+            "selenium",
+            "top"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-stearate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.068,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-stearate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.147,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "pointer": "/materials/3/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.15,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.9,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "stock_id": "selenium-top-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.15,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "stock_id": "selenium-top-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.9,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "selenium-top-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.4"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "basel-2020-cspbbr3-hot-injection-200c::basel-2020-cspbbr3-hot-injection-200c-product",
+      "record_id": "basel-2020-cspbbr3-hot-injection-200c",
+      "record_page_path": "records/basel-2020-cspbbr3-hot-injection-200c.html",
+      "source_group": "basel2020",
+      "title": "Basel et al. (2020): CsPbBr3 hot injection at 200 °C",
+      "doi": "10.1021/acsomega.9b04448",
+      "year": 2020,
+      "method": "Hot-injection colloidal synthesis from DBU-prepared metal carboxylates",
+      "recipe_label": "Basel et al. (2020): CsPbBr3 hot injection at 200 °C",
+      "sample_id": "basel-2020-cspbbr3-hot-injection-200c-product",
+      "source_sample_label": "CsPbBr3 nanocrystals; material-specific panels in Figures 4 and 5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CsPbBr3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 6, Section 7.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 6, Section 7.3",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic perovskite; JCPDS 00-054-0752",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5a"
+              }
+            ],
+            "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "phase-assignment",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Cubic perovskite; JCPDS 00-054-0752",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5a"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD / author reference-pattern assignment",
+          "conditions": "PANalytical Cu Kα, λ = 1.54 Å, 40 kV, 30 mA. No coordinate file or refinement supplied.",
+          "evidence": [
+            {
+              "source_id": "basel2020",
+              "locator": "Main PDF p. 5, Figure 5a"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CsPbBr3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Reported phase is an outcome, not a prospectively specified target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "basel-2020-cspbbr3-hot-injection-200c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "CsPbBr3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic perovskite; JCPDS 00-054-0752",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "basel2020",
+                  "locator": "Main PDF p. 5, Figure 5a"
+                }
+              ],
+              "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured particle morphology in the inspected main article."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "phase-assignment",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cs-oleate-stock",
+            "lead-oleate",
+            "ode",
+            "oleylamine",
+            "unnamed-reagent"
+          ],
+          "fields": [
+            {
+              "material_id": "lead-oleate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.077,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-oleate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "unnamed-reagent",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "unnamed-reagent",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cs-oleate-stock",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.3"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "basel-2020-cufes2-hot-injection-180c::basel-2020-cufes2-hot-injection-180c-product",
+      "record_id": "basel-2020-cufes2-hot-injection-180c",
+      "record_page_path": "records/basel-2020-cufes2-hot-injection-180c.html",
+      "source_group": "basel2020",
+      "title": "Basel et al. (2020): CuFeS2 from copper and iron stearates",
+      "doi": "10.1021/acsomega.9b04448",
+      "year": 2020,
+      "method": "Hot-injection colloidal synthesis from DBU-prepared metal carboxylates",
+      "recipe_label": "Basel et al. (2020): CuFeS2 from copper and iron stearates",
+      "sample_id": "basel-2020-cufes2-hot-injection-180c-product",
+      "source_sample_label": "CuFeS2 nanocrystals; material-specific panels in Figures 4 and 5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CuFeS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 6, Section 7.8"
+          },
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 7, Section 7.8 continued"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 6, Section 7.8",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 7, Section 7.8 continued",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal; JCPDS 00-037-0471",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5b"
+              }
+            ],
+            "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "phase-assignment",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Tetragonal; JCPDS 00-037-0471",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5b"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD / author reference-pattern assignment",
+          "conditions": "PANalytical Cu Kα, λ = 1.54 Å, 40 kV, 30 mA. No coordinate file or refinement supplied.",
+          "evidence": [
+            {
+              "source_id": "basel2020",
+              "locator": "Main PDF p. 5, Figure 5b"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuFeS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.8"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Reported phase is an outcome, not a prospectively specified target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "basel-2020-cufes2-hot-injection-180c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "CuFeS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.8"
+              },
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 7, Section 7.8 continued"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal; JCPDS 00-037-0471",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "basel2020",
+                  "locator": "Main PDF p. 5, Figure 5b"
+                }
+              ],
+              "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured particle morphology in the inspected main article."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "phase-assignment",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-stearate",
+            "ddt",
+            "iron-stearate",
+            "ode-metal",
+            "ode-s",
+            "oleylamine",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "iron-stearate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.09,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "iron-stearate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "copper-stearate",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.063,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "copper-stearate",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-metal",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.006,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-s",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.006,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-s",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.8"
+                  },
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 7, Section 7.8 continued"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "basel-2020-inp-film-annealed-270c-4h::basel-2020-inp-film-annealed-270c-4h-product",
+      "record_id": "basel-2020-inp-film-annealed-270c-4h",
+      "record_page_path": "records/basel-2020-inp-film-annealed-270c-4h.html",
+      "source_group": "basel2020",
+      "title": "Basel et al. (2020): InP film annealed at 270 °C",
+      "doi": "10.1021/acsomega.9b04448",
+      "year": 2020,
+      "method": "Post-synthesis film annealing",
+      "recipe_label": "Basel et al. (2020): InP film annealed at 270 °C",
+      "sample_id": "basel-2020-inp-film-annealed-270c-4h-product",
+      "source_sample_label": "Annealed InP film, blue trace",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 5, Figure 5f"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5f",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5f",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc blende; JCPDS 96-101-0147",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5f"
+              }
+            ],
+            "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "phase-assignment",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Zinc blende; JCPDS 96-101-0147",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5f"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD / author reference-pattern assignment",
+          "conditions": "PANalytical Cu Kα, λ = 1.54 Å, 40 kV, 30 mA. No coordinate file or refinement supplied.",
+          "evidence": [
+            {
+              "source_id": "basel2020",
+              "locator": "Main PDF p. 5, Figure 5f"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5f"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Reported phase is an outcome, not a prospectively specified target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "basel-2020-inp-film-annealed-270c-4h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5f"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc blende; JCPDS 96-101-0147",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "basel2020",
+                  "locator": "Main PDF p. 5, Figure 5f"
+                }
+              ],
+              "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured particle morphology in the inspected main article."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "phase-assignment",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "basel-2020-pbs-hot-injection-80c::basel-2020-pbs-hot-injection-80c-product",
+      "record_id": "basel-2020-pbs-hot-injection-80c",
+      "record_page_path": "records/basel-2020-pbs-hot-injection-80c.html",
+      "source_group": "basel2020",
+      "title": "Basel et al. (2020): PbS from lead oleate and diphenylthiourea",
+      "doi": "10.1021/acsomega.9b04448",
+      "year": 2020,
+      "method": "Hot-injection colloidal synthesis from DBU-prepared metal carboxylates",
+      "recipe_label": "Basel et al. (2020): PbS from lead oleate and diphenylthiourea",
+      "sample_id": "basel-2020-pbs-hot-injection-80c-product",
+      "source_sample_label": "PbS nanocrystals; material-specific panels in Figures 4 and 5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "basel2020",
+            "locator": "Main PDF p. 6, Section 7.6"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 6, Section 7.6",
+          "claim": null
+        },
+        {
+          "source_id": "basel2020",
+          "locator": "Main PDF p. 5, Figure 5d",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Rock salt; JCPDS 05-0592",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5d"
+              }
+            ],
+            "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "phase-assignment",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Rock salt; JCPDS 05-0592",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 5, Figure 5d"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Powder XRD / author reference-pattern assignment",
+          "conditions": "PANalytical Cu Kα, λ = 1.54 Å, 40 kV, 30 mA. No coordinate file or refinement supplied.",
+          "evidence": [
+            {
+              "source_id": "basel2020",
+              "locator": "Main PDF p. 5, Figure 5d"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.6"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Reported phase is an outcome, not a prospectively specified target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "basel-2020-pbs-hot-injection-80c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "basel2020",
+                "locator": "Main PDF p. 6, Section 7.6"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Rock salt; JCPDS 05-0592",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "basel2020",
+                  "locator": "Main PDF p. 5, Figure 5d"
+                }
+              ],
+              "note": "Powder-diffraction assignment by the authors; not refined sample coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured particle morphology in the inspected main article."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "phase-assignment",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "lead-oleate",
+            "ode"
+          ],
+          "fields": [
+            {
+              "material_id": "lead-oleate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.03,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.6"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-oleate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0389,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.6"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "basel2020",
+                    "locator": "Main PDF p. 6, Section 7.6"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -22517,6 +24850,1520 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nagy2012-core-10nm::nagy2012-core-10nm-core",
+      "record_id": "nagy2012-core-10nm",
+      "record_page_path": "records/nagy2012-core-10nm.html",
+      "source_group": "nagy2012nn204886b",
+      "title": "Nagy et al. (2012) · Nominal 10 nm CdSe core preparation",
+      "doi": "10.1021/nn204886b",
+      "year": 2012,
+      "method": "Seeded dropwise growth",
+      "recipe_label": "Nagy et al. (2012) · Nominal 10 nm CdSe core preparation",
+      "sample_id": "nagy2012-core-10nm-core",
+      "source_sample_label": "Nominal 10 nm CdSe core",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nagy2012nn204886b",
+            "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nagy2012nn204886b",
+          "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "nagy2012nn204886b",
+          "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods: Quantum Dot Synthesis and Ligand Exchange",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum dots; HRTEM Figure 1.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 9.48,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported as 9.48 ± 1.26 nm; table uncertainty statistic unspecified. Nominal 10 nm group.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Approximately 100 structures analyzed for each nominal size; main p.12. No physical batch ID.",
+          "evidence": [
+            {
+              "source_id": "nagy2012nn204886b",
+              "locator": "Main PDF p. 3 (printed p. 4750), Table 1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1 nominal study size"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nagy2012-core-10nm-core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nagy2012-core-10nm-core",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nagy2012nn204886b",
+                  "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quantum dots; HRTEM Figure 1.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nagy2012nn204886b",
+                  "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdo",
+            "oa",
+            "se",
+            "top"
+          ],
+          "fields": [
+            {
+              "material_id": "cdo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdo",
+              "stock_id": "cd-oleate",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "stock_id": "cd-oleate",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "top-se",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "top-se",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nagy2012-core-3nm::nagy2012-core-3nm-core",
+      "record_id": "nagy2012-core-3nm",
+      "record_page_path": "records/nagy2012-core-3nm.html",
+      "source_group": "nagy2012nn204886b",
+      "title": "Nagy et al. (2012) · Nominal 3 nm CdSe core preparation",
+      "doi": "10.1021/nn204886b",
+      "year": 2012,
+      "method": "Air-free hot injection",
+      "recipe_label": "Nagy et al. (2012) · Nominal 3 nm CdSe core preparation",
+      "sample_id": "nagy2012-core-3nm-core",
+      "source_sample_label": "Nominal 3 nm CdSe core",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nagy2012nn204886b",
+            "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nagy2012nn204886b",
+          "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "nagy2012nn204886b",
+          "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods: Quantum Dot Synthesis and Ligand Exchange",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum dots; HRTEM Figure 1.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3.37,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported as 3.37 ± 0.57 nm; table uncertainty statistic unspecified. Nominal 3 nm group.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Approximately 100 structures analyzed for each nominal size; main p.12. No physical batch ID.",
+          "evidence": [
+            {
+              "source_id": "nagy2012nn204886b",
+              "locator": "Main PDF p. 3 (printed p. 4750), Table 1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1 nominal study size"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nagy2012-core-3nm-core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nagy2012-core-3nm-core",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nagy2012nn204886b",
+                  "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quantum dots; HRTEM Figure 1.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nagy2012nn204886b",
+                  "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdo",
+            "oa",
+            "ode",
+            "ola",
+            "se",
+            "top",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "cdo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/reactor_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/injection_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ola",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdo",
+              "stock_id": "cd-oleate",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "stock_id": "cd-oleate",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "top-se",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "top-se",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ola",
+              "operation_id": "prepare-injection",
+              "pointer": "/operations/5/parameters/ola_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "operation_id": "prepare-injection",
+              "pointer": "/operations/5/parameters/ode_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nagy2012-core-5nm::nagy2012-core-5nm-core",
+      "record_id": "nagy2012-core-5nm",
+      "record_page_path": "records/nagy2012-core-5nm.html",
+      "source_group": "nagy2012nn204886b",
+      "title": "Nagy et al. (2012) · Nominal 5 nm CdSe core preparation",
+      "doi": "10.1021/nn204886b",
+      "year": 2012,
+      "method": "Air-free hot injection",
+      "recipe_label": "Nagy et al. (2012) · Nominal 5 nm CdSe core preparation",
+      "sample_id": "nagy2012-core-5nm-core",
+      "source_sample_label": "Nominal 5 nm CdSe core",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nagy2012nn204886b",
+            "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nagy2012nn204886b",
+          "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "nagy2012nn204886b",
+          "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods: Quantum Dot Synthesis and Ligand Exchange",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum dots; HRTEM Figure 1.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 4.98,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported as 4.98 ± 0.8 nm; table uncertainty statistic unspecified. Nominal 5 nm group.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Approximately 100 structures analyzed for each nominal size; main p.12. No physical batch ID.",
+          "evidence": [
+            {
+              "source_id": "nagy2012nn204886b",
+              "locator": "Main PDF p. 3 (printed p. 4750), Table 1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1 nominal study size"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nagy2012-core-5nm-core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nagy2012-core-5nm-core",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nagy2012nn204886b",
+                "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nagy2012nn204886b",
+                  "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quantum dots; HRTEM Figure 1.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nagy2012nn204886b",
+                  "locator": "Main PDF p. 3 (printed p. 4750), Table 1; Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdo",
+            "oa",
+            "ode",
+            "ola",
+            "se",
+            "top",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "cdo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/reactor_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/injection_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ola",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdo",
+              "stock_id": "cd-oleate",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "stock_id": "cd-oleate",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "top-se",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "top-se",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ola",
+              "operation_id": "prepare-injection",
+              "pointer": "/operations/5/parameters/ola_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "operation_id": "prepare-injection",
+              "pointer": "/operations/5/parameters/ode_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "nagy2012nn204886b",
+                    "locator": "Main PDF p. 12 (printed p. 4759), Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
