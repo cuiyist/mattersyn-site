@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 179,
-    "source_groups": 45,
-    "records": 156,
+    "recipe_structure_rows": 202,
+    "source_groups": 47,
+    "records": 179,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -13353,6 +13353,3565 @@
                 "measurement_id": "typical-tem-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film-c13-t28::lee2012-ito-film-c13-t28-product",
+      "record_id": "lee2012-ito-film-c13-t28",
+      "record_page_path": "records/lee2012-ito-film-c13-t28.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 28 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 28 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film-c13-t28-product",
+      "source_sample_label": "28 nm, 10% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 28,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film-c13-t28-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film-c30-t63::lee2012-ito-film-c30-t63-product",
+      "record_id": "lee2012-ito-film-c30-t63",
+      "record_page_path": "records/lee2012-ito-film-c30-t63.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 63 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 63 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film-c30-t63-product",
+      "source_sample_label": "63 nm, 10% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 63,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film-c30-t63-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film-c50-t90::lee2012-ito-film-c50-t90-product",
+      "record_id": "lee2012-ito-film-c50-t90",
+      "record_page_path": "records/lee2012-ito-film-c50-t90.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 90 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 90 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film-c50-t90-product",
+      "source_sample_label": "90 nm, 10% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 90,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film-c50-t90-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film-c65-t123::lee2012-ito-film-c65-t123-product",
+      "record_id": "lee2012-ito-film-c65-t123",
+      "record_page_path": "records/lee2012-ito-film-c65-t123.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 123 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 123 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film-c65-t123-product",
+      "source_sample_label": "123 nm, 10% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 123,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film-c65-t123-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film-c90-t146::lee2012-ito-film-c90-t146-product",
+      "record_id": "lee2012-ito-film-c90-t146",
+      "record_page_path": "records/lee2012-ito-film-c90-t146.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 146 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 146 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film-c90-t146-product",
+      "source_sample_label": "146 nm, 10% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Table 1, Assembly 2"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Table 1, Assembly 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 146,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Tabulated nominal-condition result; no exact physical batch ID.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Scherrer analysis of PXRD (222)",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film-c90-t146-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 2"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              },
+              {
+                "measurement_id": "grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-air-300c-6h::lee2012-ito-film120-air-300c-6h-product",
+      "record_id": "lee2012-ito-film120-air-300c-6h",
+      "record_page_path": "records/lee2012-ito-film120-air-300c-6h.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 6 h / air",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 6 h / air",
+      "sample_id": "lee2012-ito-film120-air-300c-6h-product",
+      "source_sample_label": "120 nm, 10% Sn, glass, 300 °C / 6 h / air",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-air-300c-6h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-ar-300c-6h::lee2012-ito-film120-ar-300c-6h-product",
+      "record_id": "lee2012-ito-film120-ar-300c-6h",
+      "record_page_path": "records/lee2012-ito-film120-ar-300c-6h.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar",
+      "sample_id": "lee2012-ito-film120-ar-300c-6h-product",
+      "source_sample_label": "120 nm, 10% Sn, glass, 300 °C / 6 h / Ar",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-ar-300c-6h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-arh2-300c-3h::lee2012-ito-film120-arh2-300c-3h-product",
+      "record_id": "lee2012-ito-film120-arh2-300c-3h",
+      "record_page_path": "records/lee2012-ito-film120-arh2-300c-3h.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 3 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 3 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-arh2-300c-3h-product",
+      "source_sample_label": "120 nm, 10% Sn, glass, 300 °C / 3 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-arh2-300c-3h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-arh2-300c-6h::lee2012-ito-film120-arh2-300c-6h-product",
+      "record_id": "lee2012-ito-film120-arh2-300c-6h",
+      "record_page_path": "records/lee2012-ito-film120-arh2-300c-6h.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 10% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-arh2-300c-6h-product",
+      "source_sample_label": "120 nm, 10% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-arh2-300c-6h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Film fabrication and thickness/atmosphere/time results"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-polyimide::lee2012-ito-film120-polyimide-product",
+      "record_id": "lee2012-ito-film120-polyimide",
+      "record_page_path": "records/lee2012-ito-film120-polyimide.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm ITO assembly on polyimide, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm ITO assembly on polyimide, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-polyimide-product",
+      "source_sample_label": "120 nm ITO film on polyimide; Sn percentage not separately reported",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 5, Polyimide substrate comparison"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 5, Polyimide substrate comparison",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 5, Polyimide substrate comparison"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source nominal film thickness",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 5, Polyimide substrate comparison"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 5, Polyimide substrate comparison"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 5, Polyimide substrate comparison"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-polyimide-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 5, Polyimide substrate comparison"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-sn0-arh2::lee2012-ito-film120-sn0-arh2-product",
+      "record_id": "lee2012-ito-film120-sn0-arh2",
+      "record_page_path": "records/lee2012-ito-film120-sn0-arh2.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 0% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 0% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-sn0-arh2-product",
+      "source_sample_label": "120 nm, 0% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-sn0-arh2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-sn12-arh2::lee2012-ito-film120-sn12-arh2-product",
+      "record_id": "lee2012-ito-film120-sn12-arh2",
+      "record_page_path": "records/lee2012-ito-film120-sn12-arh2.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 12% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 12% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-sn12-arh2-product",
+      "source_sample_label": "120 nm, 12% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-sn12-arh2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-sn2-arh2::lee2012-ito-film120-sn2-arh2-product",
+      "record_id": "lee2012-ito-film120-sn2-arh2",
+      "record_page_path": "records/lee2012-ito-film120-sn2-arh2.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 2% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 2% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-sn2-arh2-product",
+      "source_sample_label": "120 nm, 2% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-sn2-arh2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film120-sn5-arh2::lee2012-ito-film120-sn5-arh2-product",
+      "record_id": "lee2012-ito-film120-sn5-arh2",
+      "record_page_path": "records/lee2012-ito-film120-sn5-arh2.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 120 nm 5% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 120 nm 5% Sn assembly on glass, 300 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film120-sn5-arh2-product",
+      "source_sample_label": "120 nm, 5% Sn, glass, 300 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 120,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film120-sn5-arh2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Figure 3a: 120 nm Sn-composition series"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film146-arh2-300c-3h::lee2012-ito-film146-arh2-300c-3h-product",
+      "record_id": "lee2012-ito-film146-arh2-300c-3h",
+      "record_page_path": "records/lee2012-ito-film146-arh2-300c-3h.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 146 nm 10% Sn assembly on glass, 300 °C / 3 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 146 nm 10% Sn assembly on glass, 300 °C / 3 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film146-arh2-300c-3h-product",
+      "source_sample_label": "146 nm, 10% Sn, glass, 300 °C / 3 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Table 1, Assembly 1"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Table 1, Assembly 1"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Table 1, Assembly 1",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Table 1, Assembly 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 146,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 1"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Tabulated nominal-condition result; no exact physical batch ID.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Scherrer analysis of PXRD (222)",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film146-arh2-300c-3h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 1"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              },
+              {
+                "measurement_id": "grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-film146-arh2-400c-6h::lee2012-ito-film146-arh2-400c-6h-product",
+      "record_id": "lee2012-ito-film146-arh2-400c-6h",
+      "record_page_path": "records/lee2012-ito-film146-arh2-400c-6h.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 146 nm 10% Sn assembly on glass, 400 °C / 6 h / Ar + 5% H2",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Spin casting and thermal annealing",
+      "recipe_label": "Lee et al. (2012): 146 nm 10% Sn assembly on glass, 400 °C / 6 h / Ar + 5% H2",
+      "sample_id": "lee2012-ito-film146-arh2-400c-6h-product",
+      "source_sample_label": "146 nm, 10% Sn, glass, 400 °C / 6 h / Ar + 5% H2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Table 1, Assembly 3"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 4, Table 1, Assembly 3"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Table 1, Assembly 3",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Experimental: Film Fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 4, Table 1, Assembly 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 146,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source specimen thickness; substrate/batch limits in product notes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Ellipsometry on Si counterpart / nominal film label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 3"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 3"
+            }
+          ]
+        },
+        {
+          "measurement_id": "grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Tabulated nominal-condition result; no exact physical batch ID.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Scherrer analysis of PXRD (222)",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 4, Table 1, Assembly 3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-film146-arh2-400c-6h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: Film Fabrication"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 4, Table 1, Assembly 3"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned specimen diffraction pattern in this record; do not automatically inherit NC phase as a measured post-treatment phase."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Film geometry is described, but no uniquely matched microscopy image is provided for this individual nominal specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              },
+              {
+                "measurement_id": "grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2012-ito-nc-10pct::lee2012-ito-nc-10pct-product",
+      "record_id": "lee2012-ito-nc-10pct",
+      "record_page_path": "records/lee2012-ito-nc-10pct.html",
+      "source_group": "lee2012-ja3044807",
+      "title": "Lee et al. (2012): 11 nm ITO nanocrystals, 10 atom% Sn",
+      "doi": "10.1021/ja3044807",
+      "year": 2012,
+      "method": "Solution-phase thermal decomposition",
+      "recipe_label": "Lee et al. (2012): 11 nm ITO nanocrystals, 10 atom% Sn",
+      "sample_id": "lee2012-ito-nc-10pct-product",
+      "source_sample_label": "ITO nanocrystals; 10 atom% Sn growth example",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3:Sn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 2, Figure 1 and size discussion"
+          },
+          {
+            "source_id": "lee2012-ja3044807",
+            "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+          }
+        ],
+        "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 2, Figure 1 and size discussion",
+          "claim": null
+        },
+        {
+          "source_id": "lee2012-ja3044807",
+          "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic bixbyite In2O3 host",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Figure 1 and size discussion"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+              }
+            ],
+            "note": "Source PXRD/HRTEM assignment; Sn atom coordinates and refined occupancies are absent."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 11,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported 11.0 ±0.6 nm; uncertainty statistic not defined.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Figure 1 and size discussion"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Figure 1 and size discussion"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 8.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Coherent-domain estimate, distinct from the TEM diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Figure 1 and size discussion"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Scherrer analysis of PXRD (222)",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 2, Figure 1 and size discussion"
+            },
+            {
+              "source_id": "lee2012-ja3044807",
+              "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: ITO nanocrystals and film fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Experimental: ITO nanocrystals and film fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2012-ito-nc-10pct-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "final-dispersion-state",
+          "composition": {
+            "value": "In2O3:Sn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 2, Figure 1 and size discussion"
+              },
+              {
+                "source_id": "lee2012-ja3044807",
+                "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+              }
+            ],
+            "note": "Family formula; exact dopant/vacancy stoichiometry is not established."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic bixbyite In2O3 host",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2012-ja3044807",
+                  "locator": "Main PDF p. 2, Figure 1 and size discussion"
+                },
+                {
+                  "source_id": "lee2012-ja3044807",
+                  "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+                }
+              ],
+              "note": "Source PXRD/HRTEM assignment; Sn atom coordinates and refined occupancies are absent."
+            },
+            "morphology": {
+              "value": "Approximately rounded/faceted TEM projections",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "lee2012-ja3044807",
+                  "locator": "Main PDF p. 2, Figure 1 and size discussion"
+                },
+                {
+                  "source_id": "lee2012-ja3044807",
+                  "locator": "Main PDF p. 3, Bixbyite, HRTEM and Scherrer discussion"
+                }
+              ],
+              "note": "Author inspection of the source TEM/HRTEM outline; no measured 3D shape model."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
               }
             ]
           }
@@ -36194,6 +39753,1219 @@
                 "measurement_id": "cspbbr3-tdpa-size-spread",
                 "property": "particle_size_spread",
                 "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zheng2012-znse-cr-0p4pct::zheng2012-znse-cr-0p4pct-product",
+      "record_id": "zheng2012-znse-cr-0p4pct",
+      "record_page_path": "records/zheng2012-znse-cr-0p4pct.html",
+      "source_group": "zheng2012-ja210285p",
+      "title": "Zheng et al. (2012): 0.4 mol% Cr product from 2 mol% Cr:Zn feed",
+      "doi": "10.1021/ja210285p",
+      "year": 2012,
+      "method": "Single-source-cluster lyothermal growth",
+      "recipe_label": "Zheng et al. (2012): 0.4 mol% Cr product from 2 mol% Cr:Zn feed",
+      "sample_id": "zheng2012-znse-cr-0p4pct-product",
+      "source_sample_label": "0.4% Zn1−xCrxSe QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn1−xCrxSe, x = 0.004 by source XRF descriptor",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 2, Experimental: XRF mapping"
+          },
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+          }
+        ],
+        "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 2, Experimental: feed-to-measured-composition mapping",
+          "claim": null
+        },
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Numeric size is stated in main text citing SI TEM/optical data; those SI plots were not inspected.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM / optical size assignment reported in main text",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zheng2012-ja210285p",
+              "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSe:Cr",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zheng2012-znse-cr-0p4pct-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Zn1−xCrxSe, x = 0.004 by source XRF descriptor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: XRF mapping"
+              },
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "The main article discusses a zinc-blende host; no concentration-specific diffraction plot was inspected for this sample. The 4.0% plot is cited in unreviewed SI."
+            },
+            "morphology": {
+              "value": "Spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+                }
+              ],
+              "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zheng2012-znse-cr-0pct::zheng2012-znse-cr-0pct-product",
+      "record_id": "zheng2012-znse-cr-0pct",
+      "record_page_path": "records/zheng2012-znse-cr-0pct.html",
+      "source_group": "zheng2012-ja210285p",
+      "title": "Zheng et al. (2012): 0 mol% Cr product from 0 mol% Cr:Zn feed",
+      "doi": "10.1021/ja210285p",
+      "year": 2012,
+      "method": "Single-source-cluster lyothermal growth",
+      "recipe_label": "Zheng et al. (2012): 0 mol% Cr product from 0 mol% Cr:Zn feed",
+      "sample_id": "zheng2012-znse-cr-0pct-product",
+      "source_sample_label": "0% Zn1−xCrxSe QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn1−xCrxSe, x = 0 by source XRF descriptor",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 2, Experimental: XRF mapping"
+          },
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+          }
+        ],
+        "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 2, Experimental: feed-to-measured-composition mapping",
+          "claim": null
+        },
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc blende (sphalerite), F-43m (216)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Figure 1B and pXRD discussion"
+              }
+            ],
+            "note": "Host-phase reference-card assignment, not a dopant-coordinate refinement."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Numeric size is stated in main text citing SI TEM/optical data; those SI plots were not inspected.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM / optical size assignment reported in main text",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zheng2012-ja210285p",
+              "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zheng2012-znse-cr-0pct-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Zn1−xCrxSe, x = 0 by source XRF descriptor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: XRF mapping"
+              },
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc blende (sphalerite), F-43m (216)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Figure 1B and pXRD discussion"
+                }
+              ],
+              "note": "Host-phase reference-card assignment, not a dopant-coordinate refinement."
+            },
+            "morphology": {
+              "value": "Spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+                }
+              ],
+              "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zheng2012-znse-cr-1p0pct::zheng2012-znse-cr-1p0pct-product",
+      "record_id": "zheng2012-znse-cr-1p0pct",
+      "record_page_path": "records/zheng2012-znse-cr-1p0pct.html",
+      "source_group": "zheng2012-ja210285p",
+      "title": "Zheng et al. (2012): 1 mol% Cr product from 5 mol% Cr:Zn feed",
+      "doi": "10.1021/ja210285p",
+      "year": 2012,
+      "method": "Single-source-cluster lyothermal growth",
+      "recipe_label": "Zheng et al. (2012): 1 mol% Cr product from 5 mol% Cr:Zn feed",
+      "sample_id": "zheng2012-znse-cr-1p0pct-product",
+      "source_sample_label": "1% Zn1−xCrxSe QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn1−xCrxSe, x = 0.01 by source XRF descriptor",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 2, Experimental: XRF mapping"
+          },
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+          }
+        ],
+        "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 2, Experimental: feed-to-measured-composition mapping",
+          "claim": null
+        },
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Numeric size is stated in main text citing SI TEM/optical data; those SI plots were not inspected.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM / optical size assignment reported in main text",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zheng2012-ja210285p",
+              "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSe:Cr",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zheng2012-znse-cr-1p0pct-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Zn1−xCrxSe, x = 0.01 by source XRF descriptor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: XRF mapping"
+              },
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "The main article discusses a zinc-blende host; no concentration-specific diffraction plot was inspected for this sample. The 4.0% plot is cited in unreviewed SI."
+            },
+            "morphology": {
+              "value": "Spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+                }
+              ],
+              "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zheng2012-znse-cr-2p5pct::zheng2012-znse-cr-2p5pct-product",
+      "record_id": "zheng2012-znse-cr-2p5pct",
+      "record_page_path": "records/zheng2012-znse-cr-2p5pct.html",
+      "source_group": "zheng2012-ja210285p",
+      "title": "Zheng et al. (2012): 2.5 mol% Cr product from 10 mol% Cr:Zn feed",
+      "doi": "10.1021/ja210285p",
+      "year": 2012,
+      "method": "Single-source-cluster lyothermal growth",
+      "recipe_label": "Zheng et al. (2012): 2.5 mol% Cr product from 10 mol% Cr:Zn feed",
+      "sample_id": "zheng2012-znse-cr-2p5pct-product",
+      "source_sample_label": "2.5% Zn1−xCrxSe QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn1−xCrxSe, x = 0.025 by source XRF descriptor",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 2, Experimental: XRF mapping"
+          },
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+          }
+        ],
+        "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 2, Experimental: feed-to-measured-composition mapping",
+          "claim": null
+        },
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc blende (sphalerite), F-43m (216)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Figure 1B and pXRD discussion"
+              }
+            ],
+            "note": "Host-phase reference-card assignment, not a dopant-coordinate refinement."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Figure 1 caption gives ±0.1 nm for 2.5%; no uncertainty assigned to the other individual sizes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM / optical size assignment reported in main text",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zheng2012-ja210285p",
+              "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSe:Cr",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zheng2012-znse-cr-2p5pct-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Zn1−xCrxSe, x = 0.025 by source XRF descriptor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: XRF mapping"
+              },
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc blende (sphalerite), F-43m (216)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Figure 1B and pXRD discussion"
+                }
+              ],
+              "note": "Host-phase reference-card assignment, not a dopant-coordinate refinement."
+            },
+            "morphology": {
+              "value": "Spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+                }
+              ],
+              "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zheng2012-znse-cr-2p5pct-acid-etched::zheng2012-znse-cr-2p5pct-acid-etched-product",
+      "record_id": "zheng2012-znse-cr-2p5pct-acid-etched",
+      "record_page_path": "records/zheng2012-znse-cr-2p5pct-acid-etched.html",
+      "source_group": "zheng2012-ja210285p",
+      "title": "Zheng et al. (2012): acid-etched Cr-doped ZnSe from the 2.5% preparation",
+      "doi": "10.1021/ja210285p",
+      "year": 2012,
+      "method": "Post-synthesis acid etching",
+      "recipe_label": "Zheng et al. (2012): acid-etched Cr-doped ZnSe from the 2.5% preparation",
+      "sample_id": "zheng2012-znse-cr-2p5pct-acid-etched-product",
+      "source_sample_label": "Etched 2.5% Cr-doped ZnSe QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cr content rises to 8 mol% relative to Zn",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 7, Etching discussion"
+          }
+        ],
+        "note": "Source text cites unreviewed SI Table 2; exact vacancy/stoichiometric formula is unresolved."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 7, Etching discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "estimated-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": true,
+            "qualifier": "Source interprets an approximately 0.8 nm reduction from 2.8 nm; SI optical plot unreviewed.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 7, Etching discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Optical/geometric interpretation reported in main text",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zheng2012-ja210285p",
+              "locator": "Main PDF p. 7, Etching discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSe:Cr",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 7, Site Occupation of Cr(III) Ions"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 7, Site Occupation of Cr(III) Ions"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zheng2012-znse-cr-2p5pct-acid-etched-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "reprecipitate-state",
+          "composition": {
+            "value": "Cr content rises to 8 mol% relative to Zn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 7, Etching discussion"
+              }
+            ],
+            "note": "Source text cites unreviewed SI Table 2; exact vacancy/stoichiometric formula is unresolved."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No new post-etch diffraction phase measurement in the main article."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No post-etch TEM image in the inspected main; do not transfer the parent spherical outline as a measured final shape."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "estimated-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zheng2012-znse-cr-4p0pct::zheng2012-znse-cr-4p0pct-product",
+      "record_id": "zheng2012-znse-cr-4p0pct",
+      "record_page_path": "records/zheng2012-znse-cr-4p0pct.html",
+      "source_group": "zheng2012-ja210285p",
+      "title": "Zheng et al. (2012): 4 mol% Cr product from 20 mol% Cr:Zn feed",
+      "doi": "10.1021/ja210285p",
+      "year": 2012,
+      "method": "Single-source-cluster lyothermal growth",
+      "recipe_label": "Zheng et al. (2012): 4 mol% Cr product from 20 mol% Cr:Zn feed",
+      "sample_id": "zheng2012-znse-cr-4p0pct-product",
+      "source_sample_label": "4% Zn1−xCrxSe QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn1−xCrxSe, x = 0.04 by source XRF descriptor",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 2, Experimental: XRF mapping"
+          },
+          {
+            "source_id": "zheng2012-ja210285p",
+            "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+          }
+        ],
+        "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 2, Experimental: feed-to-measured-composition mapping",
+          "claim": null
+        },
+        {
+          "source_id": "zheng2012-ja210285p",
+          "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc blende (sphalerite), F-43m (216)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, pXRD discussion including 4.0% sample"
+              }
+            ],
+            "note": "Host-phase assignment reported in main prose; the 4.0% diffraction plot is in cited SI and was not visually inspected. No dopant-coordinate refinement."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Numeric size is stated in main text citing SI TEM/optical data; those SI plots were not inspected.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM / optical size assignment reported in main text",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zheng2012-ja210285p",
+              "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnSe:Cr",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zheng2012-znse-cr-4p0pct-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "Zn1−xCrxSe, x = 0.04 by source XRF descriptor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 2, Experimental: XRF mapping"
+              },
+              {
+                "source_id": "zheng2012-ja210285p",
+                "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+              }
+            ],
+            "note": "Authors’ compositional shorthand; not a vacancy-resolved exact formula."
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc blende (sphalerite), F-43m (216)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, pXRD discussion including 4.0% sample"
+                }
+              ],
+              "note": "Host-phase assignment reported in main prose; the 4.0% diffraction plot is in cited SI and was not visually inspected. No dopant-coordinate refinement."
+            },
+            "morphology": {
+              "value": "Spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zheng2012-ja210285p",
+                  "locator": "Main PDF p. 3, Results and Discussion: XRF, size and morphology statements"
+                }
+              ],
+              "note": "Reported for the prepared series. Main TEM image is specifically the 2.5% sample; other sample images are in unreviewed SI."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
               }
             ]
           }

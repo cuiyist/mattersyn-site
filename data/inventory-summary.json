@@ -4,59 +4,59 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4189,
+    "local_paper_groups_indexed": 4190,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
-    "canonical_records": 940,
-    "reviewed_literature_records": 840,
-    "reviewed_literature_source_groups": 64,
+    "canonical_records": 963,
+    "reviewed_literature_records": 863,
+    "reviewed_literature_source_groups": 66,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 65,
+    "total_canonical_source_groups": 67,
     "formal_full_main_and_matched_si_reviews": 27,
     "formal_full_review_pages": 638,
-    "formal_full_main_reviews_si_unverified": 32,
-    "formal_full_main_only_review_pages": 227,
+    "formal_full_main_reviews_si_unverified": 34,
+    "formal_full_main_only_review_pages": 241,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
-    "local_groups_without_canonical_records": 4124,
-    "synthesis_route_variant_records": 265,
-    "contextual_control_variant_records": 23,
+    "local_groups_without_canonical_records": 4123,
+    "synthesis_route_variant_records": 271,
+    "contextual_control_variant_records": 40,
     "shared_preparation_workup_characterization_assay_procedures": 303,
-    "nonprocedure_literature_records": 537,
+    "nonprocedure_literature_records": 560,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 130,
+      "literature_protocol": 153,
       "observation": 211,
       "procedure": 303,
       "protocol_variant": 158
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 130,
+      "literature_protocol": 153,
       "observation": 211,
       "procedure": 303,
       "protocol_variant": 158
     },
-    "literature_recipe_family_ids": 144,
-    "primary_synthesis_recipe_family_ids": 97,
-    "public_material_hubs": 91,
-    "direct_synthesis_target_systems": 79,
-    "component_only_hubs": 12,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 114,
+    "literature_recipe_family_ids": 146,
+    "primary_synthesis_recipe_family_ids": 99,
+    "public_material_hubs": 93,
+    "direct_synthesis_target_systems": 82,
+    "component_only_hubs": 11,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 117,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 211,
-    "recipe_or_control_literature_records": 288,
+    "recipe_or_control_literature_records": 311,
     "contextual_observation_family_ids": 65,
-    "source_checked_synthesis_structure_rows": 179,
-    "source_groups_with_synthesis_structure_rows": 45,
+    "source_checked_synthesis_structure_rows": 202,
+    "source_groups_with_synthesis_structure_rows": 47,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -135,6 +135,7 @@
       "FePt/CdS",
       "Fe–O",
       "Ge/Si",
+      "In2O3:Sn",
       "In66Si100Al92O384",
       "InAs",
       "InP",
@@ -159,12 +160,14 @@
       "ZnO:Co",
       "ZnO:Ni",
       "ZnSSeTe",
-      "ZnSTe"
+      "ZnSTe",
+      "ZnSe",
+      "ZnSe:Cr"
     ],
     "control_only_additional_product_labels": [
       "Ag–Bi–I mixed products",
-      "Si",
-      "ZnSe"
+      "In2O3",
+      "Si"
     ],
     "component_only_public_hubs": [
       "Cs4PbBr6",
@@ -177,7 +180,6 @@
       "Si",
       "SiOx",
       "ZnS",
-      "ZnSe",
       "ZnTe"
     ],
     "benchmark_only_product": "PbS",
@@ -2158,6 +2160,91 @@
         "hu-wang-2010-ni-cl-oh-typical-synthesis": "records/hu-wang-2010-ni-cl-oh-typical-synthesis.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "lee2012-ja3044807",
+      "doi": "10.1021/ja3044807",
+      "url": "https://doi.org/10.1021/ja3044807",
+      "title": "A Facile Solution-Phase Approach to Transparent and Conducting ITO Nanocrystal Assemblies",
+      "year": 2012,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent scientific audit of all five supplied main pages and the bounded R2 corrections accepted. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/lee2012-ja3044807.json",
+      "paper_review_url": "paper-review.html?id=lee2012-ja3044807",
+      "si_status": "cited_not_inspected",
+      "notes": [
+        "One NC-growth route and sixteen distinct film-condition outcomes; exact physical batch IDs unreported.",
+        "Source Figure 2c is 80 nm, not silently assigned to a 90, 120 or 123 nm record.",
+        "The 146 nm / 300 °C / 6 h Table 1 row and concentration-map point are one nominal condition, not duplicate pairs.",
+        "Five exact source crops include all four main figures and Table 1. External sputtered-film row, incomplete aggregation control and unreviewed SI reports remain explicit context.",
+        "Molecular/particle presentation completion remains separate from scientific acceptance."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 17,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 16,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 57,
+      "record_type_counts": {
+        "literature_protocol": 17
+      },
+      "canonical_recipe_family_ids": [
+        "lee2012-ito"
+      ],
+      "direct_route_material_systems": [
+        "In2O3:Sn"
+      ],
+      "record_ids": [
+        "lee2012-ito-film-c13-t28",
+        "lee2012-ito-film-c30-t63",
+        "lee2012-ito-film-c50-t90",
+        "lee2012-ito-film-c65-t123",
+        "lee2012-ito-film-c90-t146",
+        "lee2012-ito-film120-air-300c-6h",
+        "lee2012-ito-film120-ar-300c-6h",
+        "lee2012-ito-film120-arh2-300c-3h",
+        "lee2012-ito-film120-arh2-300c-6h",
+        "lee2012-ito-film120-polyimide",
+        "lee2012-ito-film120-sn0-arh2",
+        "lee2012-ito-film120-sn12-arh2",
+        "lee2012-ito-film120-sn2-arh2",
+        "lee2012-ito-film120-sn5-arh2",
+        "lee2012-ito-film146-arh2-300c-3h",
+        "lee2012-ito-film146-arh2-400c-6h",
+        "lee2012-ito-nc-10pct"
+      ],
+      "record_urls": {
+        "lee2012-ito-film-c13-t28": "records/lee2012-ito-film-c13-t28.html",
+        "lee2012-ito-film-c30-t63": "records/lee2012-ito-film-c30-t63.html",
+        "lee2012-ito-film-c50-t90": "records/lee2012-ito-film-c50-t90.html",
+        "lee2012-ito-film-c65-t123": "records/lee2012-ito-film-c65-t123.html",
+        "lee2012-ito-film-c90-t146": "records/lee2012-ito-film-c90-t146.html",
+        "lee2012-ito-film120-air-300c-6h": "records/lee2012-ito-film120-air-300c-6h.html",
+        "lee2012-ito-film120-ar-300c-6h": "records/lee2012-ito-film120-ar-300c-6h.html",
+        "lee2012-ito-film120-arh2-300c-3h": "records/lee2012-ito-film120-arh2-300c-3h.html",
+        "lee2012-ito-film120-arh2-300c-6h": "records/lee2012-ito-film120-arh2-300c-6h.html",
+        "lee2012-ito-film120-polyimide": "records/lee2012-ito-film120-polyimide.html",
+        "lee2012-ito-film120-sn0-arh2": "records/lee2012-ito-film120-sn0-arh2.html",
+        "lee2012-ito-film120-sn12-arh2": "records/lee2012-ito-film120-sn12-arh2.html",
+        "lee2012-ito-film120-sn2-arh2": "records/lee2012-ito-film120-sn2-arh2.html",
+        "lee2012-ito-film120-sn5-arh2": "records/lee2012-ito-film120-sn5-arh2.html",
+        "lee2012-ito-film146-arh2-300c-3h": "records/lee2012-ito-film146-arh2-300c-3h.html",
+        "lee2012-ito-film146-arh2-400c-6h": "records/lee2012-ito-film146-arh2-400c-6h.html",
+        "lee2012-ito-nc-10pct": "records/lee2012-ito-nc-10pct.html"
+      },
+      "source_checked_synthesis_structure_rows": 17
     },
     {
       "source_group": "li1998znga2o4",
@@ -5545,6 +5632,70 @@
         "zhang2019-cspbbr3-tdpa-only": "records/zhang2019-cspbbr3-tdpa-only.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "zheng2012-ja210285p",
+      "doi": "10.1021/ja210285p",
+      "url": "https://doi.org/10.1021/ja210285p",
+      "title": "Evidence of a ZnCr2Se4 Spinel Inclusion at the Core of a Cr-Doped ZnSe Quantum Dot",
+      "year": 2012,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent scientific audit of all nine supplied main pages and six figures, including the bounded correction deltas, accepted. SI and cited prior methods unreviewed. Presentation pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/zheng2012-ja210285p.json",
+      "paper_review_url": "paper-review.html?id=zheng2012-ja210285p",
+      "si_status": "cited_not_inspected",
+      "notes": [
+        "Five explicit Cr:Zn feed-to-product variants and one separate acid-etch treatment. Each distinct recipe/outcome is retained.",
+        "Main Figure 1 TEM/SAED is the 2.5% product; other sample images and etching spectra/tables are only cited in unreviewed SI.",
+        "ZnCr2Se4 inclusion is a proposed model supported by spectroscopy/magnetism; no specimen atomic coordinates or direct impurity diffraction phase is supplied.",
+        "Source SAED index, etched absorption wavelength and isolated formula/oxidation-label discrepancies are preserved.",
+        "Molecular/particle presentation completion remains separate from scientific acceptance."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 6,
+      "synthesis_route_variant_count": 5,
+      "contextual_control_count": 1,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 28,
+      "record_type_counts": {
+        "literature_protocol": 6
+      },
+      "canonical_recipe_family_ids": [
+        "zheng2012-crznse"
+      ],
+      "direct_route_material_systems": [
+        "ZnSe",
+        "ZnSe:Cr"
+      ],
+      "record_ids": [
+        "zheng2012-znse-cr-0p4pct",
+        "zheng2012-znse-cr-0pct",
+        "zheng2012-znse-cr-1p0pct",
+        "zheng2012-znse-cr-2p5pct",
+        "zheng2012-znse-cr-2p5pct-acid-etched",
+        "zheng2012-znse-cr-4p0pct"
+      ],
+      "record_urls": {
+        "zheng2012-znse-cr-0p4pct": "records/zheng2012-znse-cr-0p4pct.html",
+        "zheng2012-znse-cr-0pct": "records/zheng2012-znse-cr-0pct.html",
+        "zheng2012-znse-cr-1p0pct": "records/zheng2012-znse-cr-1p0pct.html",
+        "zheng2012-znse-cr-2p5pct": "records/zheng2012-znse-cr-2p5pct.html",
+        "zheng2012-znse-cr-2p5pct-acid-etched": "records/zheng2012-znse-cr-2p5pct-acid-etched.html",
+        "zheng2012-znse-cr-4p0pct": "records/zheng2012-znse-cr-4p0pct.html"
+      },
+      "source_checked_synthesis_structure_rows": 6
     },
     {
       "source_group": "zhu2012-ja210312s-si",
@@ -9810,6 +9961,92 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "In2O3",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 1,
+      "contextual_control_record_ids": [
+        "lee2012-ito-film120-sn0-arh2"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "lee2012-ja3044807"
+      ],
+      "source_links": [
+        {
+          "source_group": "lee2012-ja3044807",
+          "doi": "10.1021/ja3044807",
+          "url": "https://doi.org/10.1021/ja3044807",
+          "title": "A Facile Solution-Phase Approach to Transparent and Conducting ITO Nanocrystal Assemblies"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "In2O3:Sn",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "lee2012-ito-nc-10pct"
+      ],
+      "contextual_control_count": 15,
+      "contextual_control_record_ids": [
+        "lee2012-ito-film-c13-t28",
+        "lee2012-ito-film-c30-t63",
+        "lee2012-ito-film-c50-t90",
+        "lee2012-ito-film-c65-t123",
+        "lee2012-ito-film-c90-t146",
+        "lee2012-ito-film120-air-300c-6h",
+        "lee2012-ito-film120-ar-300c-6h",
+        "lee2012-ito-film120-arh2-300c-3h",
+        "lee2012-ito-film120-arh2-300c-6h",
+        "lee2012-ito-film120-polyimide",
+        "lee2012-ito-film120-sn12-arh2",
+        "lee2012-ito-film120-sn2-arh2",
+        "lee2012-ito-film120-sn5-arh2",
+        "lee2012-ito-film146-arh2-300c-3h",
+        "lee2012-ito-film146-arh2-400c-6h"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "in2o3-sn-da654b",
+      "material_hub_url": "material.html?id=in2o3-sn-da654b",
+      "source_groups": [
+        "lee2012-ja3044807"
+      ],
+      "source_links": [
+        {
+          "source_group": "lee2012-ja3044807",
+          "doi": "10.1021/ja3044807",
+          "url": "https://doi.org/10.1021/ja3044807",
+          "title": "A Facile Solution-Phase Approach to Transparent and Conducting ITO Nanocrystal Assemblies"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "lee2012-ito"
+      ]
+    },
+    {
       "material_system": "In66Si100Al92O384",
       "notes": [],
       "direct_synthesis_route_variant_count": 1,
@@ -12125,8 +12362,10 @@
         "Before the Danek1996 addition: Two no-seed control protocols carry this product identity in the canonical data, but are not published as independently complete synthesis routes. Public hub contributions are shell-growth components.",
         "Danek1996 adds three existing route IDs to this hub; the current route contribution count is 7. The shell-overgrowth route is distinct from the two matrix-film routes; component links do not create standalone CdSe or ZnSe synthesis recipes."
       ],
-      "direct_synthesis_route_variant_count": 0,
-      "direct_route_record_ids": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "zheng2012-znse-cr-0pct"
+      ],
       "contextual_control_count": 3,
       "contextual_control_record_ids": [
         "danek-1996-no-seed-control",
@@ -12138,8 +12377,8 @@
       "procedure_count": 0,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
-      "public_hub_component_only": true,
-      "public_hub_route_contributions": 12,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 13,
       "component_route_contribution_count": 12,
       "component_route_record_ids": [
         "danek-1996-bare-dot-film",
@@ -12155,13 +12394,14 @@
         "song-2024-znssete-msc-355",
         "song-2024-znssete-qd-conversion-from-msc-348"
       ],
-      "primary_reviewed_source_count": 2,
+      "primary_reviewed_source_count": 3,
       "material_hub_id": "znse-930698",
       "material_hub_url": "material.html?id=znse-930698",
       "source_groups": [
         "danek1996",
         "nakonechnyi2017",
-        "song2024inorgchem4c02738"
+        "song2024inorgchem4c02738",
+        "zheng2012-ja210285p"
       ],
       "source_links": [
         {
@@ -12181,9 +12421,58 @@
           "doi": "10.1021/acs.inorgchem.4c02738",
           "url": "https://doi.org/10.1021/acs.inorgchem.4c02738",
           "title": "Alloyed Zinc Chalcogenide Magic-Sized Nanoclusters and Their Transformation to Alloyed Quantum Dots"
+        },
+        {
+          "source_group": "zheng2012-ja210285p",
+          "doi": "10.1021/ja210285p",
+          "url": "https://doi.org/10.1021/ja210285p",
+          "title": "Evidence of a ZnCr2Se4 Spinel Inclusion at the Core of a Cr-Doped ZnSe Quantum Dot"
         }
       ],
-      "direct_route_recipe_family_ids": []
+      "direct_route_recipe_family_ids": [
+        "zheng2012-crznse"
+      ]
+    },
+    {
+      "material_system": "ZnSe:Cr",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 4,
+      "direct_route_record_ids": [
+        "zheng2012-znse-cr-0p4pct",
+        "zheng2012-znse-cr-1p0pct",
+        "zheng2012-znse-cr-2p5pct",
+        "zheng2012-znse-cr-4p0pct"
+      ],
+      "contextual_control_count": 1,
+      "contextual_control_record_ids": [
+        "zheng2012-znse-cr-2p5pct-acid-etched"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 4,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "znse-cr-3f3f5e",
+      "material_hub_url": "material.html?id=znse-cr-3f3f5e",
+      "source_groups": [
+        "zheng2012-ja210285p"
+      ],
+      "source_links": [
+        {
+          "source_group": "zheng2012-ja210285p",
+          "doi": "10.1021/ja210285p",
+          "url": "https://doi.org/10.1021/ja210285p",
+          "title": "Evidence of a ZnCr2Se4 Spinel Inclusion at the Core of a Cr-Doped ZnSe Quantum Dot"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "zheng2012-crznse"
+      ]
     },
     {
       "material_system": "ZnSeTe/ZnSSe/ZnSTe",
@@ -12318,8 +12607,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "2ad4a8138b9ea4a7e149da18ace074930d3d12af4c5226f2a0e7e3e42114978e",
-    "record_ids_sha256": "fa35a629308be4c97f06b8505de05120a8e8c85eb16399fe949ff542b6aad3a6",
+    "reviewed_evidence_sha256": "0cec42d380b83a40bcba3f23ecd4509a402108ded9cd039cf472bb28a3191500",
+    "record_ids_sha256": "9bf261a753479864984f80e693a354029cca727a17fe55b45acb318ee2aa9653",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }
