@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 177,
-    "source_groups": 44,
-    "records": 154,
+    "recipe_structure_rows": 179,
+    "source_groups": 45,
+    "records": 156,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -36194,6 +36194,384 @@
                 "measurement_id": "cspbbr3-tdpa-size-spread",
                 "property": "particle_size_spread",
                 "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu-ja210312s-cdse-cds-six-ml::zhu-ja210312s-cdse-cds-six-ml-product",
+      "record_id": "zhu-ja210312s-cdse-cds-six-ml",
+      "record_page_path": "records/zhu-ja210312s-cdse-cds-six-ml.html",
+      "source_group": "zhu2012-ja210312s-si",
+      "title": "Zhu et al.: CdSe/CdS six-monolayer shell growth",
+      "doi": "10.1021/ja210312s",
+      "year": null,
+      "method": "Successive ion layer adsorption and reaction (SILAR)",
+      "recipe_label": "Zhu et al.: CdSe/CdS six-monolayer shell growth",
+      "sample_id": "zhu-ja210312s-cdse-cds-six-ml-product",
+      "source_sample_label": "CdSe/CdS core/shell QDs, Figure S1B,C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2012-ja210312s-si",
+            "locator": "SI p. 3, Section 1A"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2012-ja210312s-si",
+          "locator": "SI p. 3, Section 1A",
+          "claim": null
+        },
+        {
+          "source_id": "zhu2012-ja210312s-si",
+          "locator": "SI p. 4, Figure S1B,C and adjacent text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported ±0.4 nm; uncertainty statistic unspecified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 4, Figure S1B,C and adjacent text"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Total core/shell diameter, not shell thickness. JEOL JEM-1400, 120 kV.",
+          "evidence": [
+            {
+              "source_id": "zhu2012-ja210312s-si",
+              "locator": "SI p. 4, Figure S1B,C and adjacent text"
+            }
+          ]
+        },
+        {
+          "measurement_id": "shell-thickness",
+          "property": "shell_thickness",
+          "descriptor_field": "architecture.surface_layer",
+          "value": {
+            "value": 2.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": true,
+            "qualifier": "Estimated from core/particle diameters by authors.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 4, Figure S1B,C and adjacent text"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM-based author estimate",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "zhu2012-ja210312s-si",
+              "locator": "SI p. 4, Figure S1B,C and adjacent text"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 3, Section 1A"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu-ja210312s-cdse-cds-six-ml-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 3, Section 1A"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured crystal-phase assignment in the inspected SI."
+            },
+            "morphology": {
+              "value": "Approximately equiaxed/rounded to faceted TEM projections",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "zhu2012-ja210312s-si",
+                  "locator": "SI p. 4, Figure S1B,C and adjacent text"
+                }
+              ],
+              "note": "Reader interpretation of the source TEM; not a measured 3D faceting model."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "shell-thickness",
+                "property": "shell_thickness",
+                "field": "architecture.surface_layer"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu-ja210312s-cdse-core::zhu-ja210312s-cdse-core-product",
+      "record_id": "zhu-ja210312s-cdse-core",
+      "record_page_path": "records/zhu-ja210312s-cdse-core.html",
+      "source_group": "zhu2012-ja210312s-si",
+      "title": "Zhu et al.: CdSe core synthesis and TEM size",
+      "doi": "10.1021/ja210312s",
+      "year": null,
+      "method": "CdSe hot injection",
+      "recipe_label": "Zhu et al.: CdSe core synthesis and TEM size",
+      "sample_id": "zhu-ja210312s-cdse-core-product",
+      "source_sample_label": "CdSe core QDs, Figure S1A,C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2012-ja210312s-si",
+            "locator": "SI p. 3, Section 1A"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2012-ja210312s-si",
+          "locator": "SI p. 3, Section 1A",
+          "claim": null
+        },
+        {
+          "source_id": "zhu2012-ja210312s-si",
+          "locator": "SI p. 4, Figure S1A,C and adjacent text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported ±0.2 nm; source does not define the error statistic.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 4, Figure S1A,C and adjacent text"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL JEM-1400, 120 kV; Figure S1, 5 nm scale bars.",
+          "evidence": [
+            {
+              "source_id": "zhu2012-ja210312s-si",
+              "locator": "SI p. 4, Figure S1A,C and adjacent text"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 3, Section 1A"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu-ja210312s-cdse-core-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2012-ja210312s-si",
+                "locator": "SI p. 3, Section 1A"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No measured crystal-phase assignment in the inspected SI."
+            },
+            "morphology": {
+              "value": "Approximately equiaxed/rounded TEM projections",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "zhu2012-ja210312s-si",
+                  "locator": "SI p. 4, Figure S1A,C and adjacent text"
+                }
+              ],
+              "note": "Reader interpretation of the displayed 2D TEM outline; no measured 3D shape or faceting distribution."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
               }
             ]
           }
