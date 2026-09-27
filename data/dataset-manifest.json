@@ -1,13 +1,16 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "0.41.0",
-  "record_count": 897,
-  "group_count": 60,
+  "dataset_version": "0.41.1",
+  "record_count": 911,
+  "group_count": 62,
   "families": [
     "Ammonia-substitution control context",
     "Amorphous cobalt sulfide control in Jaipurite study",
+    "Biomass-derived amine-functionalized carbon quantum dots",
     "Cadmium dithiocarbamate precursor and CdSe/CdS quantum belts",
     "Cassiterite tin dioxide colloids",
+    "CdS nanostructures",
+    "CdS/PbS nanostructures",
     "CdSe cores and CdSe/CdS giant quantum dots",
     "CdTe nanocrystals grown on oxidized multiwalled carbon nanotubes",
     "Ceria precipitation with triethanolamine",
@@ -44,6 +47,7 @@
     "Mn-doped ZnO, surface controls and nanocrystalline films",
     "Nanocrystalline cobalt monosulfide (Jaipurite; β-CoS)",
     "Noble-metal nanocrystals",
+    "PbS nanostructures",
     "Phosphine-selenide precursor chemistry and CdSe/PbSe nanocrystals",
     "Polymer-stabilized CdS and related source procedures",
     "Precursor conversion control assay; not an InP product",
@@ -46569,6 +46573,78 @@
       "pair_ids": []
     },
     {
+      "record_id": "saini-2023-nat-cqd-biomass-carbonization",
+      "title": "Saini et al. (2023): biomass-derived natural amine-targeted carbon quantum dots",
+      "formula": "NAT-CQDs",
+      "family": "Biomass-derived amine-functionalized carbon quantum dots",
+      "method": "Biomass carbonization followed by aqueous dispersion and fractionation",
+      "record_type": "literature_protocol",
+      "source_year": 2023,
+      "source_doi": "10.1021/acsami.3c08812",
+      "revision": 1,
+      "record_sha256": "0b9e07208c61bbdf75d2a7835da6fbfc19caeb9d27075ae2d3deb87ec7ed432f",
+      "recipe_signature": "6fe3d27fe330376926e33faafdcf9b2bd1bb8cdf9372e7a8568f41602ee87789",
+      "group_id": "group-b3dd04a9b551",
+      "split": "validation",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/saini-2023-nat-cqd-biomass-carbonization.json",
+      "page_url": "records/saini-2023-nat-cqd-biomass-carbonization.html",
+      "missing_field_count": 16,
+      "collection": "reviewed_literature",
+      "components": [
+        "NAT-CQDs"
+      ],
+      "pair_ids": [
+        "saini-2023-nat-cqd-biomass-carbonization::nat-cqds-fresh"
+      ]
+    },
+    {
       "record_id": "sashchiuk-2004-absorption",
       "title": "Sashchiuk et al. (2004) · Absorption during spherical-assembly growth",
       "formula": "PbSe",
@@ -61487,6 +61563,940 @@
       "collection": "reviewed_literature",
       "components": [
         "CdS"
+      ],
+      "pair_ids": []
+    },
+    {
+      "record_id": "yao2015-cds-nanorods-200c-12h",
+      "title": "Yao et al. (2015) · CdS nanorod arrays by chemical bath seeding and hydrothermal growth",
+      "formula": "CdS",
+      "family": "CdS nanostructures",
+      "method": "Chemical bath seeding → hydrothermal growth",
+      "record_type": "literature_protocol",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "cd8f36bbf84263c5609fa6a993a82f007f55b2eba5ab369d8afb28db96292b7c",
+      "recipe_signature": "1bfee13362e1bfbfda53bb7437510ba25389f1ccc2ca120daa7a9ad9e934a874",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-cds-nanorods-200c-12h.json",
+      "page_url": "records/yao2015-cds-nanorods-200c-12h.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS"
+      ],
+      "pair_ids": [
+        "yao2015-cds-nanorods-200c-12h::yao2015-cds-nanorods-200c-12h-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-cds-pbs-1-cycles",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 1 coating cycles",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "record_type": "protocol_variant",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "84042ebe259bfc243e5b1dc71957996d25d663fedf3d2085c25dfd16be24ad26",
+      "recipe_signature": "82a73ab0a82e280c79cd4df74cba73d3cc9c4c3cf857f74119efe60e61e66be1",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-cds-pbs-1-cycles.json",
+      "page_url": "records/yao2015-cds-pbs-1-cycles.html",
+      "missing_field_count": 5,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": [
+        "yao2015-cds-pbs-1-cycles::yao2015-cds-pbs-1-cycles-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-cds-pbs-2-cycles",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 2 coating cycles",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "record_type": "protocol_variant",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "6199296e29615b3c1bf7d5a1e0875b94edad92e5b076eed03711460a5d34788c",
+      "recipe_signature": "5427a4822bc030dfcec95c4905c2dc629b715fe8b0cc276723c749003fd74bab",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-cds-pbs-2-cycles.json",
+      "page_url": "records/yao2015-cds-pbs-2-cycles.html",
+      "missing_field_count": 5,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": [
+        "yao2015-cds-pbs-2-cycles::yao2015-cds-pbs-2-cycles-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-cds-pbs-4-cycles",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 4 coating cycles",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "record_type": "protocol_variant",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "8397bdf7fcbbfb374b636c751407de7e7eeeaf6d85dddb99b2a230c7d6aac278",
+      "recipe_signature": "bc53aa7c6998efdd11405b2f3a91544a63ff33a3fa962638e6837064b9838a12",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-cds-pbs-4-cycles.json",
+      "page_url": "records/yao2015-cds-pbs-4-cycles.html",
+      "missing_field_count": 5,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": [
+        "yao2015-cds-pbs-4-cycles::yao2015-cds-pbs-4-cycles-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-cds-pbs-6-cycles",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 6 coating cycles",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "record_type": "protocol_variant",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "d0c013c7170ebb81cc8dd7e3c01d515eabfadfc3964951e5885258803c7dcbd5",
+      "recipe_signature": "31bd5cf851d6f386c9bcf896520c8f440bd07029568e7abb014a9d978f0c2280",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-cds-pbs-6-cycles.json",
+      "page_url": "records/yao2015-cds-pbs-6-cycles.html",
+      "missing_field_count": 5,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": [
+        "yao2015-cds-pbs-6-cycles::yao2015-cds-pbs-6-cycles-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-cds-pbs-7-cycles",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 7 coating cycles",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "record_type": "protocol_variant",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "1eef8e014b1ddc19bea47474cd8c67397a2e07474a289cefdbfee809b58c6742",
+      "recipe_signature": "981ebf65348de1e7225b849c0cb75095047ccdfeb9c7dae1f09a149fa21ab7ed",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-cds-pbs-7-cycles.json",
+      "page_url": "records/yao2015-cds-pbs-7-cycles.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": []
+    },
+    {
+      "record_id": "yao2015-device-characterization-interpretation",
+      "title": "Yao et al. (2015) · Photovoltaic characterization, stability and chemical interpretation",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "Source study context",
+      "record_type": "observation",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "d4d952ad53af43b2b5b58c3693271588c189083550f738236876888eaa3c4d70",
+      "recipe_signature": "3ac67b4f76c331558ad72516d4c5b87e0c2ef6482e55cd978a516d7bb6de0d3c",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-device-characterization-interpretation.json",
+      "page_url": "records/yao2015-device-characterization-interpretation.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": []
+    },
+    {
+      "record_id": "yao2015-pbs-hot-injection-120c",
+      "title": "Yao et al. (2015) · PbS quantum dots by hot injection at 120 °C",
+      "formula": "PbS",
+      "family": "PbS nanostructures",
+      "method": "Hot injection",
+      "record_type": "literature_protocol",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "717e449ca47eb9c8c7041e120c44b4cb3b5e054c0e15c9c7de5e6bfe833f225f",
+      "recipe_signature": "c120182dfcb1e4ee438fd49d383ba81ed598907652684efd46dc55d1c53cf7b0",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-pbs-hot-injection-120c.json",
+      "page_url": "records/yao2015-pbs-hot-injection-120c.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "PbS"
+      ],
+      "pair_ids": [
+        "yao2015-pbs-hot-injection-120c::yao2015-pbs-hot-injection-120c-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-planar-cds-pbs-6-cycles",
+      "title": "Yao et al. (2015) · Planar CdS/PbS comparison device after six coating cycles",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "Planar CdS/PbS deposition",
+      "record_type": "protocol_variant",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "1bbb64b72157cb4f72e377a3fc86164a8cbb53a2e6d4dad293a9443690429f44",
+      "recipe_signature": "52ff2c2894eb013e02a6dadfdd06757031fe6a3745a927bdbd86d4b4a85fbec9",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-planar-cds-pbs-6-cycles.json",
+      "page_url": "records/yao2015-planar-cds-pbs-6-cycles.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": [
+        "yao2015-planar-cds-pbs-6-cycles::yao2015-planar-cds-pbs-6-cycles-sample"
+      ]
+    },
+    {
+      "record_id": "yao2015-seed-10min-device-context",
+      "title": "Yao et al. (2015) · CdS seed deposition 10 min: qualitative device comparison",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "Seed-layer duration comparison",
+      "record_type": "observation",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "5e2243811367adbf7464fed1c5276ce9d74d321d53e3ed92bae650eba702731a",
+      "recipe_signature": "8f294ccb8eb1a2a78b9fc1070aeb08e411c4294af7ea5330aecb8cb2c7cdfdec",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-seed-10min-device-context.json",
+      "page_url": "records/yao2015-seed-10min-device-context.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": []
+    },
+    {
+      "record_id": "yao2015-seed-15min-device-context",
+      "title": "Yao et al. (2015) · CdS seed deposition 15 min: qualitative device comparison",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "Seed-layer duration comparison",
+      "record_type": "observation",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "50c03c2e98bb61239d299eaf535856d88756f20a11e01e0726eca956d78152da",
+      "recipe_signature": "0f54f561197742397935307d4225e13ae1649ab6cd2043c771260c32548e3b4f",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-seed-15min-device-context.json",
+      "page_url": "records/yao2015-seed-15min-device-context.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
+      ],
+      "pair_ids": []
+    },
+    {
+      "record_id": "yao2015-seed-30min-morphology-context",
+      "title": "Yao et al. (2015) · 30 min CdS seed deposition: morphology limitation",
+      "formula": "CdS",
+      "family": "CdS nanostructures",
+      "method": "Seed-layer thickness comparison",
+      "record_type": "observation",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "73e481a24e3adccf31b112cc2a0b69f65d3023e4867d68ab04347300b491f140",
+      "recipe_signature": "675de8e8ae38bdc6360e2e585d4f717f3b6792c288a0076055791a832361ce69",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-seed-30min-morphology-context.json",
+      "page_url": "records/yao2015-seed-30min-morphology-context.html",
+      "missing_field_count": 3,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS"
+      ],
+      "pair_ids": []
+    },
+    {
+      "record_id": "yao2015-seed-5min-device-context",
+      "title": "Yao et al. (2015) · CdS seed deposition 5 min: qualitative device comparison",
+      "formula": "CdS/PbS",
+      "family": "CdS/PbS nanostructures",
+      "method": "Seed-layer duration comparison",
+      "record_type": "observation",
+      "source_year": 2015,
+      "source_doi": "10.1021/acsami.5b06857",
+      "revision": 1,
+      "record_sha256": "503cf1df8adfdddc7d2dc7ab6b49e5297a837cc467600fb58707913bcb9f31e4",
+      "recipe_signature": "7badcc0621e4f3b38d8c0eaf3705169c8711c07009c8d71206c51b06e6070dcf",
+      "group_id": "group-05d1210aed6a",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yao2015-seed-5min-device-context.json",
+      "page_url": "records/yao2015-seed-5min-device-context.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS",
+        "PbS"
       ],
       "pair_ids": []
     },

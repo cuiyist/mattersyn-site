@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 74,
+  "material_families": 77,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -18,6 +18,7 @@
     "CdE (E = S, Se, Te)",
     "CdS",
     "CdS/HgS/CdS",
+    "CdS/PbS",
     "CdS/SiO2",
     "CdS/polymer",
     "CdSe",
@@ -60,10 +61,12 @@
     "Ir",
     "La2(MoO4)3:Yb,Er",
     "Mn:ZnO",
+    "NAT-CQDs",
     "Ni3S4",
     "Ni3S4 + Ni",
     "NiCl0.78(OH)1.22·xH2O",
     "NiS",
+    "PbS",
     "PbS/glass",
     "PbSe",
     "Pt",
@@ -78,13 +81,13 @@
     "ZnSSeTe",
     "ZnSTe"
   ],
-  "contributing_papers": 60,
-  "synthesis_structure_pairs": 160,
+  "contributing_papers": 62,
+  "synthesis_structure_pairs": 168,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 157,
+  "partial_pairs": 165,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 897,
+  "all_records": 911,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -13679,7 +13682,41 @@
           }
         }
       ],
-      "structural_measurements": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "ni-metal-spacing-fig1d",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 2.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "The figure identifies the imaged particle as polycrystalline Ni; the spacing assignment is not expanded in the caption.",
+            "basis": "",
+            "raw_text": "2.0 Å",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Figure 1D"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "TEM image label",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ghezelbash2005-main",
+              "locator": "Main PDF p. 3, printed p. 9453, Figure 1D"
+            }
+          ]
+        }
+      ],
       "structure_descriptor_v02": {
         "schema_version": "mattersyn.structure/0.2",
         "mapping_status": "partial_canonical_projection",
@@ -13788,7 +13825,13 @@
               ],
               "note": "No size distribution reported."
             },
-            "measurement_refs": []
+            "measurement_refs": [
+              {
+                "measurement_id": "ni-metal-spacing-fig1d",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
           }
         }
       },
@@ -14137,7 +14180,74 @@
           }
         }
       ],
-      "structural_measurements": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "ni3s4-d-spacing-115",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 1.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Plane index as assigned by the article.",
+            "basis": "",
+            "raw_text": "1.8 Å, (115)",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Figure 1A/B and Results"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ghezelbash2005-main",
+              "locator": "Main PDF p. 3, printed p. 9453, Figure 1A/B and Results"
+            }
+          ]
+        },
+        {
+          "measurement_id": "ni3s4-d-spacing-022",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 3.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Plane index as assigned by the article.",
+            "basis": "",
+            "raw_text": "3.3 Å, (022)",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 3, printed p. 9453, Figure 1A/B and Results"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ghezelbash2005-main",
+              "locator": "Main PDF p. 3, printed p. 9453, Figure 1A/B and Results"
+            }
+          ]
+        }
+      ],
       "structure_descriptor_v02": {
         "schema_version": "mattersyn.structure/0.2",
         "mapping_status": "partial_canonical_projection",
@@ -14246,7 +14356,18 @@
               ],
               "note": "These are the paper's reported shape classes, not per-particle statistics."
             },
-            "measurement_refs": []
+            "measurement_refs": [
+              {
+                "measurement_id": "ni3s4-d-spacing-115",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "ni3s4-d-spacing-022",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
           }
         }
       },
@@ -14597,6 +14718,72 @@
       ],
       "structural_measurements": [
         {
+          "measurement_id": "ni3s4-superhydride-022",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 3.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Cubic Ni3S4 plane assignment from source.",
+            "basis": "",
+            "raw_text": "3.3 Å, (022)",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454, Figure 3 caption"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ghezelbash2005-main",
+              "locator": "Main PDF p. 4, printed p. 9454, Figure 3 caption"
+            }
+          ]
+        },
+        {
+          "measurement_id": "ni3s4-superhydride-004",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 2.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Cubic Ni3S4 plane assignment from source.",
+            "basis": "",
+            "raw_text": "2.4 Å, (004)",
+            "evidence": [
+              {
+                "source_id": "ghezelbash2005-main",
+                "locator": "Main PDF p. 4, printed p. 9454, Figure 3 caption"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ghezelbash2005-main",
+              "locator": "Main PDF p. 4, printed p. 9454, Figure 3 caption"
+            }
+          ]
+        },
+        {
           "measurement_id": "ni3s4-superhydride-xrd",
           "property": "phase",
           "descriptor_field": "crystal_structure.phase_lattice",
@@ -14730,6 +14917,16 @@
               "note": "The source contrasts this polycrystalline product with single-crystal-domain nanocrystals from direct Ni/S combination."
             },
             "measurement_refs": [
+              {
+                "measurement_id": "ni3s4-superhydride-022",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "ni3s4-superhydride-004",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
               {
                 "measurement_id": "ni3s4-superhydride-xrd",
                 "property": "phase",
@@ -37676,6 +37873,428 @@
       }
     },
     {
+      "pair_row_id": "saini-2023-nat-cqd-biomass-carbonization::nat-cqds-fresh",
+      "record_id": "saini-2023-nat-cqd-biomass-carbonization",
+      "record_page_path": "records/saini-2023-nat-cqd-biomass-carbonization.html",
+      "source_group": "saini2023",
+      "title": "Saini et al. (2023): biomass-derived natural amine-targeted carbon quantum dots",
+      "doi": "10.1021/acsami.3c08812",
+      "year": 2023,
+      "method": "Biomass carbonization followed by aqueous dispersion and fractionation",
+      "recipe_label": "Saini et al. (2023): biomass-derived natural amine-targeted carbon quantum dots",
+      "sample_id": "nat-cqds-fresh",
+      "source_sample_label": "Soluble fluorescent NAT-CQD filtrate; one synthesis route, actual characterized aliquots/batches unassigned",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Biomass-derived NAT-CQDs with source-reported C/N/O content",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "saini2023",
+            "locator": "Main PDF p. 3, §2.3"
+          },
+          {
+            "source_id": "saini2023",
+            "locator": "Main PDF p. 4, Figure 1"
+          },
+          {
+            "source_id": "saini2023",
+            "locator": "Main PDF p. 5, Figure 2"
+          },
+          {
+            "source_id": "saini2023",
+            "locator": "Main PDF p. 6, Figure 3"
+          }
+        ],
+        "note": "No unique molecular or stoichiometric formula."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "saini2023",
+          "locator": "Main PDF p. 3, §2.3",
+          "claim": null
+        },
+        {
+          "source_id": "saini2023",
+          "locator": "Main PDF p. 4, Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "saini2023",
+          "locator": "Main PDF p. 5, Figure 2",
+          "claim": null
+        },
+        {
+          "source_id": "saini2023",
+          "locator": "Main PDF p. 6, Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Partially crystalline/disordered graphitic carbon; orthorhombic Fmmm refinement is the authors’ model",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 3, §2.3"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 5, Figure 2"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 6, Figure 3"
+              }
+            ],
+            "note": "No sample coordinates or homogeneous whole-particle atomic structure established."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanodots with aggregation described by the authors",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1g–i"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size-range",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 2,
+            "maximum": 9,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported range; distribution particle count is not supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 5, TEM size paragraph"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1 g–k"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 5, TEM size paragraph"
+            },
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 4, Figure 1 g–k"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported as 3 ± 0.5 nm; the meaning of ±0.5 is not specified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 5, TEM size paragraph"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1 g–k"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 5, TEM size paragraph"
+            },
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 4, Figure 1 g–k"
+            }
+          ]
+        },
+        {
+          "measurement_id": "author-crystal-model",
+          "property": "phase",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": "Orthorhombic Fmmm; partially crystalline/disordered carbon",
+            "status": "author_derived",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 5, Rietveld discussion"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1b–f"
+              }
+            ],
+            "note": "Partially crystalline/disordered carbon; not a homogeneous whole-particle structure. No CIF, measured particle coordinates or atomic position table supplied. Do not claim source graphic as atomic-coordinate measurement"
+          },
+          "technique": "Author XRD/Rietveld model",
+          "conditions": "Partially crystalline/disordered carbon; not a homogeneous whole-particle structure. No CIF, measured particle coordinates or atomic position table supplied. Do not claim source graphic as atomic-coordinate measurement",
+          "evidence": [
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 5, Rietveld discussion"
+            },
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 4, Figure 1b–f"
+            }
+          ]
+        },
+        {
+          "measurement_id": "author-cell-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 7.52,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 5, Rietveld discussion"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1b–f"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Author XRD/Rietveld model",
+          "conditions": "Partially crystalline/disordered carbon; not a homogeneous whole-particle structure. No CIF, measured particle coordinates or atomic position table supplied. Do not claim source graphic as atomic-coordinate measurement",
+          "evidence": [
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 5, Rietveld discussion"
+            },
+            {
+              "source_id": "saini2023",
+              "locator": "Main PDF p. 4, Figure 1b–f"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Natural amine-targeted carbon quantum dots (NAT-CQDs); no unique stoichiometric formula",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 1, Title and Abstract"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective unique phase target specified."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Measured outcome is not a prospectively specified target.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Naturally occurring amine functionality as interpreted by the authors",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 1, Abstract"
+              }
+            ],
+            "note": "Not a defined molecular ligand or measured surface structure."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nat-cqds-fresh",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "retain-filtrate-state",
+          "composition": {
+            "value": "Biomass-derived NAT-CQDs with source-reported C/N/O content",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 3, §2.3"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 4, Figure 1"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 5, Figure 2"
+              },
+              {
+                "source_id": "saini2023",
+                "locator": "Main PDF p. 6, Figure 3"
+              }
+            ],
+            "note": "No unique molecular or stoichiometric formula."
+          },
+          "structure": {
+            "phase": {
+              "value": "Partially crystalline/disordered graphitic carbon; orthorhombic Fmmm refinement is the authors’ model",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "saini2023",
+                  "locator": "Main PDF p. 3, §2.3"
+                },
+                {
+                  "source_id": "saini2023",
+                  "locator": "Main PDF p. 4, Figure 1"
+                },
+                {
+                  "source_id": "saini2023",
+                  "locator": "Main PDF p. 5, Figure 2"
+                },
+                {
+                  "source_id": "saini2023",
+                  "locator": "Main PDF p. 6, Figure 3"
+                }
+              ],
+              "note": "No sample coordinates or homogeneous whole-particle atomic structure established."
+            },
+            "morphology": {
+              "value": "Nanodots with aggregation described by the authors",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "saini2023",
+                  "locator": "Main PDF p. 4, Figure 1g–i"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size-range",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "tem-size-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "author-crystal-model",
+                "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "author-cell-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "sashchiuk-2004-individual-low::route-product",
       "record_id": "sashchiuk-2004-individual-low",
       "record_page_path": "records/sashchiuk-2004-individual-low.html",
@@ -45825,6 +46444,2060 @@
           "cds-wurtzite-cod-9008862",
           "cds-zinc-blende-cod-9000067"
         ],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-cds-nanorods-200c-12h::yao2015-cds-nanorods-200c-12h-sample",
+      "record_id": "yao2015-cds-nanorods-200c-12h",
+      "record_page_path": "records/yao2015-cds-nanorods-200c-12h.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · CdS nanorod arrays by chemical bath seeding and hydrothermal growth",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "Chemical bath seeding → hydrothermal growth",
+      "recipe_label": "Yao et al. (2015) · CdS nanorod arrays by chemical bath seeding and hydrothermal growth",
+      "sample_id": "yao2015-cds-nanorods-200c-12h-sample",
+      "source_sample_label": "CdS nanorod arrays by chemical bath seeding and hydrothermal growth",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal wurtzite CdS; HRTEM and electron diffraction.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Single-crystalline nanorods with hexagonal cross-sections, arrayed vertically on FTO; preferential [0001] growth.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "nr-range",
+          "property": "cross_section_size",
+          "descriptor_field": "morphology.cross_section_size",
+          "value": {
+            "value": null,
+            "minimum": 60,
+            "maximum": 150,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "FESEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "nr-length",
+          "property": "particle_length",
+          "descriptor_field": "morphology.length",
+          "value": {
+            "value": 300,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 1c"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "nr-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 137,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "One illustrated rod; not ensemble mean.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 1c"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "nr-fringe-0110",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.356,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported (01−10) plane.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 1b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "nr-fringe-1010",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.357,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported (10−10) plane.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 1b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-cds-nanorods-200c-12h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-cds-nanorods-200c-12h-sample",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal wurtzite CdS; HRTEM and electron diffraction.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Single-crystalline nanorods with hexagonal cross-sections, arrayed vertically on FTO; preferential [0001] growth.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "nr-range",
+                "property": "cross_section_size",
+                "field": "morphology.cross_section_size"
+              },
+              {
+                "measurement_id": "nr-length",
+                "property": "particle_length",
+                "field": "morphology.length"
+              },
+              {
+                "measurement_id": "nr-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              },
+              {
+                "measurement_id": "nr-fringe-0110",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "nr-fringe-1010",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdcl2-hydrate",
+            "cdno3-hydrate",
+            "koh",
+            "nh4cl",
+            "thiourea",
+            "water"
+          ],
+          "fields": [
+            {
+              "material_id": "cdcl2-hydrate",
+              "pointer": "/materials/6/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "pointer": "/materials/7/quantities/seed_bath_mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.33,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "pointer": "/materials/7/quantities/nr_growth_amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nh4cl",
+              "pointer": "/materials/8/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10.52,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "koh",
+              "pointer": "/materials/9/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdno3-hydrate",
+              "pointer": "/materials/10/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdcl2-hydrate",
+              "stock_id": "seed-bath",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "stock_id": "seed-bath",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.33,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nh4cl",
+              "stock_id": "seed-bath",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10.52,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "koh",
+              "stock_id": "seed-bath",
+              "pointer": "/stocks/0/components/3/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdno3-hydrate",
+              "stock_id": "nr-growth-solution",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "stock_id": "nr-growth-solution",
+              "pointer": "/stocks/1/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "nr-growth-solution",
+              "pointer": "/stocks/1/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 40,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-cds-pbs-1-cycles::yao2015-cds-pbs-1-cycles-sample",
+      "record_id": "yao2015-cds-pbs-1-cycles",
+      "record_page_path": "records/yao2015-cds-pbs-1-cycles.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 1 coating cycles",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "recipe_label": "Yao et al. (2015) · CdS NR/PbS device after 1 coating cycles",
+      "sample_id": "yao2015-cds-pbs-1-cycles-sample",
+      "source_sample_label": "CdS NR/PbS device after 1 coating cycles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PbS heterojunction",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "After one PbS coating cycle, CdS nanorod top-surface features remain visible (Figure 2a).",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-cds-pbs-1-cycles-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-cds-pbs-1-cycles-sample",
+          "composition": {
+            "value": "CdS/PbS heterojunction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "After one PbS coating cycle, CdS nanorod top-surface features remain visible (Figure 2a).",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-cds-pbs-2-cycles::yao2015-cds-pbs-2-cycles-sample",
+      "record_id": "yao2015-cds-pbs-2-cycles",
+      "record_page_path": "records/yao2015-cds-pbs-2-cycles.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 2 coating cycles",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "recipe_label": "Yao et al. (2015) · CdS NR/PbS device after 2 coating cycles",
+      "sample_id": "yao2015-cds-pbs-2-cycles-sample",
+      "source_sample_label": "CdS NR/PbS device after 2 coating cycles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PbS heterojunction",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "After two PbS coating cycles, void filling increases; CdS NR array remains incompletely covered (Figure 2b).",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-cds-pbs-2-cycles-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-cds-pbs-2-cycles-sample",
+          "composition": {
+            "value": "CdS/PbS heterojunction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "After two PbS coating cycles, void filling increases; CdS NR array remains incompletely covered (Figure 2b).",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-cds-pbs-4-cycles::yao2015-cds-pbs-4-cycles-sample",
+      "record_id": "yao2015-cds-pbs-4-cycles",
+      "record_page_path": "records/yao2015-cds-pbs-4-cycles.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 4 coating cycles",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "recipe_label": "Yao et al. (2015) · CdS NR/PbS device after 4 coating cycles",
+      "sample_id": "yao2015-cds-pbs-4-cycles-sample",
+      "source_sample_label": "CdS NR/PbS device after 4 coating cycles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PbS heterojunction",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "At four coating cycles, obvious exposed nanorods disappear; interpenetrating CdS/PbS network reported (Figure 2c).",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-cds-pbs-4-cycles-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-cds-pbs-4-cycles-sample",
+          "composition": {
+            "value": "CdS/PbS heterojunction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "At four coating cycles, obvious exposed nanorods disappear; interpenetrating CdS/PbS network reported (Figure 2c).",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-cds-pbs-6-cycles::yao2015-cds-pbs-6-cycles-sample",
+      "record_id": "yao2015-cds-pbs-6-cycles",
+      "record_page_path": "records/yao2015-cds-pbs-6-cycles.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · CdS NR/PbS device after 6 coating cycles",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "CdS nanorod/PbS layer-by-layer deposition",
+      "recipe_label": "Yao et al. (2015) · CdS NR/PbS device after 6 coating cycles",
+      "sample_id": "yao2015-cds-pbs-6-cycles-sample",
+      "source_sample_label": "CdS NR/PbS device after 6 coating cycles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PbS heterojunction",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Six coating cycles produce a compact, flat PbS overlayer; cross-sectional FESEM shows nanorod features without visible void space (Figures 2d and 3b).",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "active-layer-thickness",
+          "property": "active_layer_thickness",
+          "descriptor_field": "morphology.device_layer_thickness",
+          "value": {
+            "value": 500,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 3b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Cross-sectional FESEM",
+          "conditions": "Layer between FTO and top electrode; not bare PbS thickness.",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 3b"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-cds-pbs-6-cycles-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-cds-pbs-6-cycles-sample",
+          "composition": {
+            "value": "CdS/PbS heterojunction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Six coating cycles produce a compact, flat PbS overlayer; cross-sectional FESEM shows nanorod features without visible void space (Figures 2d and 3b).",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3; Figures 2–3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "active-layer-thickness",
+                "property": "active_layer_thickness",
+                "field": "morphology.device_layer_thickness"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-pbs-hot-injection-120c::yao2015-pbs-hot-injection-120c-sample",
+      "record_id": "yao2015-pbs-hot-injection-120c",
+      "record_page_path": "records/yao2015-pbs-hot-injection-120c.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · PbS quantum dots by hot injection at 120 °C",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "Hot injection",
+      "recipe_label": "Yao et al. (2015) · PbS quantum dots by hot injection at 120 °C",
+      "sample_id": "yao2015-pbs-hot-injection-120c-sample",
+      "source_sample_label": "PbS quantum dots by hot injection at 120 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Rock-salt PbS; Figure 1e indexed to JCPDS 65-0241.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum dots; HRTEM shows crystalline fringes.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "pbs-mean-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Source-reported mean size; distribution/statistical uncertainty not reported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3; Figure 1f"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-pbs-hot-injection-120c-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-pbs-hot-injection-120c-sample",
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Rock-salt PbS; Figure 1e indexed to JCPDS 65-0241.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quantum dots; HRTEM shows crystalline fringes.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 3 (printed p. 23119), §3 Results and Discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "pbs-mean-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "oa",
+            "ode",
+            "pbo",
+            "tms"
+          ],
+          "fields": [
+            {
+              "material_id": "pbo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.45,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/2/quantities/reactor_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 18,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/2/quantities/sulfur_stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tms",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tms",
+              "stock_id": "tms-stock",
+              "pointer": "/stocks/0/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "stock_id": "tms-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "yao2015acsami",
+                    "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yao2015-planar-cds-pbs-6-cycles::yao2015-planar-cds-pbs-6-cycles-sample",
+      "record_id": "yao2015-planar-cds-pbs-6-cycles",
+      "record_page_path": "records/yao2015-planar-cds-pbs-6-cycles.html",
+      "source_group": "yao2015acsami",
+      "title": "Yao et al. (2015) · Planar CdS/PbS comparison device after six coating cycles",
+      "doi": "10.1021/acsami.5b06857",
+      "year": 2015,
+      "method": "Planar CdS/PbS deposition",
+      "recipe_label": "Yao et al. (2015) · Planar CdS/PbS comparison device after six coating cycles",
+      "sample_id": "yao2015-planar-cds-pbs-6-cycles-sample",
+      "source_sample_label": "Planar CdS/PbS comparison device after six coating cycles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PbS planar heterojunction",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2015acsami",
+            "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2015acsami",
+          "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform CdS film; compact, relatively flat PbS film after six cycles, as described in main prose referring to unreviewed Figure S-2.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "planar-cds-thickness",
+          "property": "cds_layer_thickness",
+          "descriptor_field": "morphology.component_layer_thickness",
+          "value": {
+            "value": 300,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Main-text value; SI FESEM cited",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+            }
+          ]
+        },
+        {
+          "measurement_id": "planar-pbs-thickness",
+          "property": "pbs_layer_thickness",
+          "descriptor_field": "morphology.component_layer_thickness",
+          "value": {
+            "value": 350,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Main-text value; SI FESEM cited",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yao2015acsami",
+              "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 2 (printed p. 23118), §2 Experimental Details"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2015-planar-cds-pbs-6-cycles-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yao2015-planar-cds-pbs-6-cycles-sample",
+          "composition": {
+            "value": "CdS/PbS planar heterojunction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2015acsami",
+                "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniform CdS film; compact, relatively flat PbS film after six cycles, as described in main prose referring to unreviewed Figure S-2.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2015acsami",
+                  "locator": "Main PDF p. 5 (printed p. 23121), §3 planar comparison; Figure 5a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "planar-cds-thickness",
+                "property": "cds_layer_thickness",
+                "field": "morphology.component_layer_thickness"
+              },
+              {
+                "measurement_id": "planar-pbs-thickness",
+                "property": "pbs_layer_thickness",
+                "field": "morphology.component_layer_thickness"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],

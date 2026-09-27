@@ -1,12 +1,12 @@
 {
   "status": "passed",
-  "dataset_version": "0.41.0",
-  "records": 897,
-  "recipe_records": 401,
+  "dataset_version": "0.41.1",
+  "records": 911,
+  "recipe_records": 410,
   "shared_procedures": 298,
   "independent_experiment_count": null,
-  "source_groups": 60,
-  "families": 79,
+  "source_groups": 62,
+  "families": 83,
   "eligible_by_task": {
     "precursor_selection": 95,
     "partial_protocol": 120,
@@ -31,8 +31,8 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 301,
-  "contextual_observation_records": 198,
+  "curated_recipes": 310,
+  "contextual_observation_records": 203,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
     "schema_version": "1.1",
@@ -53,28 +53,28 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 897,
+      "audited_task_profile_missing": 911,
       "explicit_sample_recipe_link_missing": 2,
       "measured_label_not_approved": 3,
-      "no_sample_coordinate_asset": 894,
+      "no_sample_coordinate_asset": 908,
       "source_review_required": 100,
-      "task_not_requested": 876
+      "task_not_requested": 890
     }
   },
   "structure_outcome_coverage": {
     "schema_version": "1.0",
     "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
     "counts": {
-      "recipe_structure_rows": 160,
-      "source_groups": 40,
-      "records": 137,
+      "recipe_structure_rows": 168,
+      "source_groups": 42,
+      "records": 145,
       "physical_samples_deduplicated": null
     },
     "measurement_property_policy": "data/structure-outcome-policy.json"
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 74,
+    "material_families": 77,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -92,6 +92,7 @@
       "CdE (E = S, Se, Te)",
       "CdS",
       "CdS/HgS/CdS",
+      "CdS/PbS",
       "CdS/SiO2",
       "CdS/polymer",
       "CdSe",
@@ -134,10 +135,12 @@
       "Ir",
       "La2(MoO4)3:Yb,Er",
       "Mn:ZnO",
+      "NAT-CQDs",
       "Ni3S4",
       "Ni3S4 + Ni",
       "NiCl0.78(OH)1.22·xH2O",
       "NiS",
+      "PbS",
       "PbS/glass",
       "PbSe",
       "Pt",
@@ -152,13 +155,13 @@
       "ZnSSeTe",
       "ZnSTe"
     ],
-    "contributing_papers": 60,
-    "synthesis_structure_pairs": 160,
+    "contributing_papers": 62,
+    "synthesis_structure_pairs": 168,
     "more_comprehensive_pairs": 3,
-    "partial_pairs": 157,
+    "partial_pairs": 165,
     "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 897,
+    "all_records": 911,
     "experimental_series_rows": 100
   },
   "queue_count": 37,
