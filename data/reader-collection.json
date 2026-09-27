@@ -87,13 +87,13 @@
     "ZnSe",
     "ZnSe:Cr"
   ],
-  "contributing_papers": 70,
-  "synthesis_structure_pairs": 208,
+  "contributing_papers": 71,
+  "synthesis_structure_pairs": 210,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 205,
+  "partial_pairs": 207,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 994,
+  "all_records": 1003,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -66940,6 +66940,467 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhou1995-ceo2-electrochemical-29c::zhou1995-ceo2-electrochemical-29c-product",
+      "record_id": "zhou1995-ceo2-electrochemical-29c",
+      "record_page_path": "records/zhou1995-ceo2-electrochemical-29c.html",
+      "source_group": "zhou1995-ceo2-tb08425",
+      "title": "Zhou et al. (1995): CeO2 powder at 29 °C solution temperature",
+      "doi": "10.1111/j.1151-2916.1995.tb08425.x",
+      "year": 1995,
+      "method": "Cathodic electrogeneration of base",
+      "recipe_label": "Zhou et al. (1995): CeO2 powder at 29 °C solution temperature",
+      "sample_id": "zhou1995-ceo2-electrochemical-29c-product",
+      "source_sample_label": "As-produced CeO2; solution 29 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhou1995-ceo2-tb08425",
+            "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhou1995-ceo2-tb08425",
+          "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2, Figure 2, explicitly 29 °C powder"
+              }
+            ],
+            "note": "No post-deposition heat treatment used to induce crystallinity."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer111",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer analysis of (111)",
+          "conditions": "Main text rounded (111)-based result; Figure 3 graph has different plotting precision.",
+          "evidence": [
+            {
+              "source_id": "zhou1995-ceo2-tb08425",
+              "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-all",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Reported ±0.9 nm; error statistic not defined. The result is independent of diffraction angle.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD line broadening, multiple reflections",
+          "conditions": "Do not treat the 10 and 10.4 nm estimates as separate syntheses.",
+          "evidence": [
+            {
+              "source_id": "zhou1995-ceo2-tb08425",
+              "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 0.5419,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2, XRD discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Powder XRD",
+          "conditions": "Cubic fluorite assignment; no measured atomic coordinate file.",
+          "evidence": [
+            {
+              "source_id": "zhou1995-ceo2-tb08425",
+              "locator": "Main PDF p. 2, XRD discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 1–2, Experimental Procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhou1995-ceo2-electrochemical-29c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grind-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic fluorite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhou1995-ceo2-tb08425",
+                  "locator": "Main PDF p. 2, Figure 2, explicitly 29 °C powder"
+                }
+              ],
+              "note": "No post-deposition heat treatment used to induce crystallinity."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No uniquely assigned particle or grain morphology for this exact processing condition."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer111",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "scherrer-all",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhou1995-ceo2-electrochemical-80c::zhou1995-ceo2-electrochemical-80c-product",
+      "record_id": "zhou1995-ceo2-electrochemical-80c",
+      "record_page_path": "records/zhou1995-ceo2-electrochemical-80c.html",
+      "source_group": "zhou1995-ceo2-tb08425",
+      "title": "Zhou et al. (1995): CeO2 powder at 80 °C solution temperature",
+      "doi": "10.1111/j.1151-2916.1995.tb08425.x",
+      "year": 1995,
+      "method": "Cathodic electrogeneration of base",
+      "recipe_label": "Zhou et al. (1995): CeO2 powder at 80 °C solution temperature",
+      "sample_id": "zhou1995-ceo2-electrochemical-80c-product",
+      "source_sample_label": "As-produced CeO2; solution 80 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhou1995-ceo2-tb08425",
+            "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhou1995-ceo2-tb08425",
+          "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer111",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 14,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer analysis of (111)",
+          "conditions": "Text endpoint; exact digitization of the Figure 3 point has not been performed.",
+          "evidence": [
+            {
+              "source_id": "zhou1995-ceo2-tb08425",
+              "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 1–2, Experimental Procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhou1995-ceo2-electrochemical-80c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grind-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou1995-ceo2-tb08425",
+                "locator": "Main PDF p. 2–3, Figure 2/3 and temperature-dependent crystallite-size discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific phase assignment is inherited from another preparation."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No uniquely assigned particle or grain morphology for this exact processing condition."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer111",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
