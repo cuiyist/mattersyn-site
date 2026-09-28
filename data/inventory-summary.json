@@ -4,59 +4,59 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4199,
+    "local_paper_groups_indexed": 4200,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
-    "canonical_records": 1026,
-    "reviewed_literature_records": 926,
-    "reviewed_literature_source_groups": 75,
+    "canonical_records": 1040,
+    "reviewed_literature_records": 940,
+    "reviewed_literature_source_groups": 76,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 76,
+    "total_canonical_source_groups": 77,
     "formal_full_main_and_matched_si_reviews": 27,
     "formal_full_review_pages": 638,
-    "formal_full_main_reviews_si_unverified": 43,
-    "formal_full_main_only_review_pages": 281,
+    "formal_full_main_reviews_si_unverified": 44,
+    "formal_full_main_only_review_pages": 283,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
     "local_groups_without_canonical_records": 4123,
-    "synthesis_route_variant_records": 320,
-    "contextual_control_variant_records": 44,
+    "synthesis_route_variant_records": 333,
+    "contextual_control_variant_records": 45,
     "shared_preparation_workup_characterization_assay_procedures": 313,
-    "nonprocedure_literature_records": 613,
+    "nonprocedure_literature_records": 627,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 183,
+      "literature_protocol": 197,
       "observation": 211,
       "procedure": 313,
       "protocol_variant": 181
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 183,
+      "literature_protocol": 197,
       "observation": 211,
       "procedure": 313,
       "protocol_variant": 181
     },
-    "literature_recipe_family_ids": 156,
-    "primary_synthesis_recipe_family_ids": 109,
-    "public_material_hubs": 97,
-    "direct_synthesis_target_systems": 86,
+    "literature_recipe_family_ids": 157,
+    "primary_synthesis_recipe_family_ids": 110,
+    "public_material_hubs": 98,
+    "direct_synthesis_target_systems": 87,
     "component_only_hubs": 11,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 122,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 123,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 211,
-    "recipe_or_control_literature_records": 364,
+    "recipe_or_control_literature_records": 378,
     "contextual_observation_family_ids": 65,
-    "source_checked_synthesis_structure_rows": 222,
-    "source_groups_with_synthesis_structure_rows": 56,
+    "source_checked_synthesis_structure_rows": 232,
+    "source_groups_with_synthesis_structure_rows": 57,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -90,6 +90,7 @@
       "Ag",
       "Ag/Si",
       "Ag2S",
+      "Al",
       "AlN",
       "Au",
       "Bi2S3",
@@ -1975,6 +1976,89 @@
         "gu-2004-xrf": "records/gu-2004-xrf.html"
       },
       "source_checked_synthesis_structure_rows": 2
+    },
+    {
+      "source_group": "haber1997-aln",
+      "doi": "10.1021/ja963368y",
+      "url": "https://doi.org/10.1021/ja963368y",
+      "title": "Morphological Control of Nanocrystalline Aluminum Nitride: Aluminum Chloride-Assisted Nanowhisker Growth",
+      "year": 1997,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent scientific audit of both complete main pages, both figures and all 17 numbered references/footnotes passed; bounded R2 source/sample and R3 nitrogen-admission scope corrections passed. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 2,
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "reading_method": "Full text and visual reading"
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/haber1997-aln.json",
+      "paper_review_url": "paper-review.html?id=haber1997-aln",
+      "si_status": "not_located_or_verified",
+      "notes": [
+        "Fourteen source-scoped records preserve nano-Al preparation, analytical pellet, AlN morphology conditions and commercial-feed comparisons; one pellet is supporting procedure only.",
+        "The 9.3, 10, 13 and 93 wt% AlCl3 contexts and unknown mass-fraction denominator remain separate.",
+        "General method ranges and study-wide size descriptors are not fabricated specimen schedules or separately measured per-condition distributions.",
+        "Source-defined contexts may share physical batches; deduplication remains unresolved.",
+        "XRD-only AlN peaks and local excess Al detected by EDX are both retained.",
+        "Two exact figures retain full captions/scales and explicit sample or proposed-mechanism scope. Publisher permission remains unverified.",
+        "Both analytical elemental tables and partial-reaction observations remain accessible in source contexts. No measured coordinates supplied."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 14,
+      "synthesis_route_variant_count": 13,
+      "contextual_control_count": 1,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 34,
+      "record_type_counts": {
+        "literature_protocol": 14
+      },
+      "canonical_recipe_family_ids": [
+        "haber1997-al-aln"
+      ],
+      "direct_route_material_systems": [
+        "Al",
+        "AlN"
+      ],
+      "record_ids": [
+        "haber1997-aln-10wt-20cmin",
+        "haber1997-aln-1100c-10h-9p3wt",
+        "haber1997-aln-1100c-10h-pure",
+        "haber1997-aln-93wt-100cmin",
+        "haber1997-aln-equiaxed-20cmin",
+        "haber1997-aln-mean2to3um-1100c-13wt",
+        "haber1997-aln-mean2to3um-1100c-unmodified",
+        "haber1997-aln-nominal2-alcl3",
+        "haber1997-aln-nominal2-unmodified",
+        "haber1997-aln-nominal20-alcl3",
+        "haber1997-aln-nominal20-unmodified",
+        "haber1997-nanoal-0p5molpct-28nm",
+        "haber1997-nanoal-catalytic-decomposition",
+        "haber1997-nanoal-gdms-hotpressed-pellet"
+      ],
+      "record_urls": {
+        "haber1997-aln-10wt-20cmin": "records/haber1997-aln-10wt-20cmin.html",
+        "haber1997-aln-1100c-10h-9p3wt": "records/haber1997-aln-1100c-10h-9p3wt.html",
+        "haber1997-aln-1100c-10h-pure": "records/haber1997-aln-1100c-10h-pure.html",
+        "haber1997-aln-93wt-100cmin": "records/haber1997-aln-93wt-100cmin.html",
+        "haber1997-aln-equiaxed-20cmin": "records/haber1997-aln-equiaxed-20cmin.html",
+        "haber1997-aln-mean2to3um-1100c-13wt": "records/haber1997-aln-mean2to3um-1100c-13wt.html",
+        "haber1997-aln-mean2to3um-1100c-unmodified": "records/haber1997-aln-mean2to3um-1100c-unmodified.html",
+        "haber1997-aln-nominal2-alcl3": "records/haber1997-aln-nominal2-alcl3.html",
+        "haber1997-aln-nominal2-unmodified": "records/haber1997-aln-nominal2-unmodified.html",
+        "haber1997-aln-nominal20-alcl3": "records/haber1997-aln-nominal20-alcl3.html",
+        "haber1997-aln-nominal20-unmodified": "records/haber1997-aln-nominal20-unmodified.html",
+        "haber1997-nanoal-0p5molpct-28nm": "records/haber1997-nanoal-0p5molpct-28nm.html",
+        "haber1997-nanoal-catalytic-decomposition": "records/haber1997-nanoal-catalytic-decomposition.html",
+        "haber1997-nanoal-gdms-hotpressed-pellet": "records/haber1997-nanoal-gdms-hotpressed-pellet.html"
+      },
+      "source_checked_synthesis_structure_rows": 10
     },
     {
       "source_group": "heath1996",
@@ -6931,10 +7015,60 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "Al",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "haber1997-nanoal-0p5molpct-28nm",
+        "haber1997-nanoal-catalytic-decomposition"
+      ],
+      "contextual_control_count": 1,
+      "contextual_control_record_ids": [
+        "haber1997-nanoal-gdms-hotpressed-pellet"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "al-1af8ff",
+      "material_hub_url": "material.html?id=al-1af8ff",
+      "source_groups": [
+        "haber1997-aln"
+      ],
+      "source_links": [
+        {
+          "source_group": "haber1997-aln",
+          "doi": "10.1021/ja963368y",
+          "url": "https://doi.org/10.1021/ja963368y",
+          "title": "Morphological Control of Nanocrystalline Aluminum Nitride: Aluminum Chloride-Assisted Nanowhisker Growth"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "haber1997-al-aln"
+      ]
+    },
+    {
       "material_system": "AlN",
       "notes": [],
-      "direct_synthesis_route_variant_count": 4,
+      "direct_synthesis_route_variant_count": 15,
       "direct_route_record_ids": [
+        "haber1997-aln-10wt-20cmin",
+        "haber1997-aln-1100c-10h-9p3wt",
+        "haber1997-aln-1100c-10h-pure",
+        "haber1997-aln-93wt-100cmin",
+        "haber1997-aln-equiaxed-20cmin",
+        "haber1997-aln-mean2to3um-1100c-13wt",
+        "haber1997-aln-mean2to3um-1100c-unmodified",
+        "haber1997-aln-nominal2-alcl3",
+        "haber1997-aln-nominal2-unmodified",
+        "haber1997-aln-nominal20-alcl3",
+        "haber1997-aln-nominal20-unmodified",
         "lu1999-aln-580c-1to1",
         "lu1999-aln-580c-2to1",
         "lu1999-aln-580c-3to1",
@@ -6948,16 +7082,23 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 4,
+      "public_hub_route_contributions": 15,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
+      "primary_reviewed_source_count": 2,
       "material_hub_id": "aln-b9f8fc",
       "material_hub_url": "material.html?id=aln-b9f8fc",
       "source_groups": [
+        "haber1997-aln",
         "lu1999-aln"
       ],
       "source_links": [
+        {
+          "source_group": "haber1997-aln",
+          "doi": "10.1021/ja963368y",
+          "url": "https://doi.org/10.1021/ja963368y",
+          "title": "Morphological Control of Nanocrystalline Aluminum Nitride: Aluminum Chloride-Assisted Nanowhisker Growth"
+        },
         {
           "source_group": "lu1999-aln",
           "doi": "10.1246/cl.1999.1239",
@@ -6966,6 +7107,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "haber1997-al-aln",
         "lu1999-aln"
       ]
     },
@@ -13521,8 +13663,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "2ecbb0effda9250f5c3d245b5d6720885f5660260bcba2eeb45e4cb9fe9b5207",
-    "record_ids_sha256": "a60f588b9601520bceb66b8060dcb289c3426df27bf4ab64a047d9f4d7dda320",
+    "reviewed_evidence_sha256": "5aa8349018e8885c7519420cb31e9e786bc5d268b9db4e3f49cc6075649da42a",
+    "record_ids_sha256": "18bb869baf3c19f5c1137e60afc79d085549b971571457d213cab43978b9c886",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

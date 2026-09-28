@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 86,
+  "material_families": 87,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -12,6 +12,7 @@
     "Ag",
     "Ag/Si",
     "Ag2S",
+    "Al",
     "AlN",
     "Au",
     "Bi2S3",
@@ -90,13 +91,13 @@
     "ZnSe",
     "ZnSe:Cr"
   ],
-  "contributing_papers": 76,
-  "synthesis_structure_pairs": 222,
+  "contributing_papers": 77,
+  "synthesis_structure_pairs": 232,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 219,
+  "partial_pairs": 229,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1026,
+  "all_records": 1040,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -18827,6 +18828,1852 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-10wt-20cmin::haber1997-aln-10wt-20cmin-product",
+      "record_id": "haber1997-aln-10wt-20cmin",
+      "record_page_path": "records/haber1997-aln-10wt-20cmin.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): 10 wt% AlCl3 and 20 °C/min: mainly straight whiskers",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): 10 wt% AlCl3 and 20 °C/min: mainly straight whiskers",
+      "sample_id": "haber1997-aln-10wt-20cmin-product",
+      "source_sample_label": "Whisker-rich AlN with 10 wt% AlCl3 at 20 °C/min",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Whisker morphology and 10 wt% comparison"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Whisker morphology and 10 wt% comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mostly straight whiskers with bent, curved, axe-shaped, hexagonal-cone and hollow-tube forms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Whisker morphology and 10 wt% comparison"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Nitridation and morphology discussion; footnote 8"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-10wt-20cmin-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Whisker morphology and 10 wt% comparison"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Mostly straight whiskers with bent, curved, axe-shaped, hexagonal-cone and hollow-tube forms",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Whisker morphology and 10 wt% comparison"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-93wt-100cmin::haber1997-aln-93wt-100cmin-product",
+      "record_id": "haber1997-aln-93wt-100cmin",
+      "record_page_path": "records/haber1997-aln-93wt-100cmin.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): 93 wt% AlCl3 and 100 °C/min: branched AlN",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): 93 wt% AlCl3 and 100 °C/min: branched AlN",
+      "sample_id": "haber1997-aln-93wt-100cmin-product",
+      "source_sample_label": "Whisker-rich and branched AlN, Figure 1c",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1–2, Whisker fraction discussion and Figure 1c"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1–2, Whisker fraction discussion and Figure 1c",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Whiskers including branched crystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1–2, Whisker fraction discussion and Figure 1c"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 2, Figure 1c and caption; p. 1 branching discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-93wt-100cmin-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1–2, Whisker fraction discussion and Figure 1c"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Whiskers including branched crystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1–2, Whisker fraction discussion and Figure 1c"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-equiaxed-20cmin::haber1997-aln-equiaxed-20cmin-product",
+      "record_id": "haber1997-aln-equiaxed-20cmin",
+      "record_page_path": "records/haber1997-aln-equiaxed-20cmin.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): Equiaxed AlN from nano-Al at 20 °C/min",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): Equiaxed AlN from nano-Al at 20 °C/min",
+      "sample_id": "haber1997-aln-equiaxed-20cmin-product",
+      "source_sample_label": "Almost entirely equiaxed nano-AlN, Figure 1b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1–2, Morphology discussion and Figure 1b"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1–2, Morphology discussion and Figure 1b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Almost entirely equiaxed crystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1–2, Morphology discussion and Figure 1b"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Nitridation and morphology discussion; footnote 8"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-equiaxed-20cmin-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1–2, Morphology discussion and Figure 1b"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Almost entirely equiaxed crystallites",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1–2, Morphology discussion and Figure 1b"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-mean2to3um-1100c-13wt::haber1997-aln-mean2to3um-1100c-13wt-product",
+      "record_id": "haber1997-aln-mean2to3um-1100c-13wt",
+      "record_page_path": "records/haber1997-aln-mean2to3um-1100c-13wt.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): 2–3 µm mean Al at 1100 °C with 13 wt% AlCl3",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): 2–3 µm mean Al at 1100 °C with 13 wt% AlCl3",
+      "sample_id": "haber1997-aln-mean2to3um-1100c-13wt-product",
+      "source_sample_label": "2–3 µm mean Al feed, 1100 °C 13 wt% AlCl3",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Footnote 11"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Footnote 11",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Only nano-AlN peaks observed by XRD; local Al excess by EDX",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical aggregates of small equiaxed particles with a large whisker yield",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "constituent-upper-bound",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 20,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "≤20 nm equiaxed constituent particles; separate from aggregate diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "haber1997-aln",
+              "locator": "Main PDF p. 1, Footnote 11"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11; footnote 8 shared apparatus"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-mean2to3um-1100c-13wt-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Only nano-AlN peaks observed by XRD; local Al excess by EDX",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Footnote 11"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Spherical aggregates of small equiaxed particles with a large whisker yield",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Footnote 11"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "constituent-upper-bound",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-mean2to3um-1100c-unmodified::haber1997-aln-mean2to3um-1100c-unmodified-product",
+      "record_id": "haber1997-aln-mean2to3um-1100c-unmodified",
+      "record_page_path": "records/haber1997-aln-mean2to3um-1100c-unmodified.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): 2–3 µm mean Al at 1100 °C without AlCl3",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): 2–3 µm mean Al at 1100 °C without AlCl3",
+      "sample_id": "haber1997-aln-mean2to3um-1100c-unmodified-product",
+      "source_sample_label": "2–3 µm mean Al feed, 1100 °C as-received",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Footnote 11"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Footnote 11",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Only nano-AlN peaks observed by XRD; local Al excess by EDX",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical aggregates of small equiaxed particles with very few whiskers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "constituent-upper-bound",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 20,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "≤20 nm equiaxed constituent particles; separate from aggregate diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "haber1997-aln",
+              "locator": "Main PDF p. 1, Footnote 11"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11; footnote 8 shared apparatus"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-mean2to3um-1100c-unmodified-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Footnote 11"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Only nano-AlN peaks observed by XRD; local Al excess by EDX",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Footnote 11"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Spherical aggregates of small equiaxed particles with very few whiskers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Footnote 11"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "constituent-upper-bound",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-nominal2-alcl3::haber1997-aln-nominal2-alcl3-product",
+      "record_id": "haber1997-aln-nominal2-alcl3",
+      "record_page_path": "records/haber1997-aln-nominal2-alcl3.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): Nominal 2 µm commercial Al with AlCl3",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): Nominal 2 µm commercial Al with AlCl3",
+      "sample_id": "haber1997-aln-nominal2-alcl3-product",
+      "source_sample_label": "Commercial-feed AlN comparison, nominal2, AlCl3 added",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed morphological population including nanowhiskers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison; footnotes 8 and 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-nominal2-alcl3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Mixed morphological population including nanowhiskers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-nominal2-unmodified::haber1997-aln-nominal2-unmodified-product",
+      "record_id": "haber1997-aln-nominal2-unmodified",
+      "record_page_path": "records/haber1997-aln-nominal2-unmodified.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): Nominal 2 µm commercial Al without specified additive",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): Nominal 2 µm commercial Al without specified additive",
+      "sample_id": "haber1997-aln-nominal2-unmodified-product",
+      "source_sample_label": "Commercial-feed AlN comparison, nominal2, unmodified feed",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed morphological population including nanowhiskers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison; footnotes 8 and 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-nominal2-unmodified-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Mixed morphological population including nanowhiskers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-nominal20-alcl3::haber1997-aln-nominal20-alcl3-product",
+      "record_id": "haber1997-aln-nominal20-alcl3",
+      "record_page_path": "records/haber1997-aln-nominal20-alcl3.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): Nominal 20 µm commercial Al with AlCl3",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): Nominal 20 µm commercial Al with AlCl3",
+      "sample_id": "haber1997-aln-nominal20-alcl3-product",
+      "source_sample_label": "Commercial-feed AlN comparison, nominal20, AlCl3 added",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed morphological population including nanowhiskers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison; footnotes 8 and 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-nominal20-alcl3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Mixed morphological population including nanowhiskers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-aln-nominal20-unmodified::haber1997-aln-nominal20-unmodified-product",
+      "record_id": "haber1997-aln-nominal20-unmodified",
+      "record_page_path": "records/haber1997-aln-nominal20-unmodified.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): Nominal 20 µm commercial Al without specified additive",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Thermal nitridation",
+      "recipe_label": "Haber et al. (1997): Nominal 20 µm commercial Al without specified additive",
+      "sample_id": "haber1997-aln-nominal20-unmodified-product",
+      "source_sample_label": "Commercial-feed AlN comparison, nominal20, unmodified feed",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed morphological population including nanowhiskers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison; footnotes 8 and 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-aln-nominal20-unmodified-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nitridate-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Mixed morphological population including nanowhiskers",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Commercial-feed comparison and footnotes 10–11"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "haber1997-nanoal-catalytic-decomposition::haber1997-nanoal-catalytic-decomposition-product",
+      "record_id": "haber1997-nanoal-catalytic-decomposition",
+      "record_page_path": "records/haber1997-nanoal-catalytic-decomposition.html",
+      "source_group": "haber1997-aln",
+      "title": "Haber et al. (1997): Catalytic nano-Al preparation and general size range",
+      "doi": "10.1021/ja963368y",
+      "year": 1997,
+      "method": "Catalytic precursor decomposition",
+      "recipe_label": "Haber et al. (1997): Catalytic nano-Al preparation and general size range",
+      "sample_id": "haber1997-nanoal-catalytic-decomposition-product",
+      "source_sample_label": "Nano-Al powder, Figure 1a and general preparation series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Al",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "haber1997-aln",
+            "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "haber1997-aln",
+          "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Aggregates of aluminum crystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-range",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 40,
+            "maximum": 180,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer analysis",
+          "conditions": "Reported range of mean diffraction-coherence dimensions across catalyst loadings, not one specimen distribution.",
+          "evidence": [
+            {
+              "source_id": "haber1997-aln",
+              "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-crystallites",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 10,
+            "maximum": 200,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1–2, TEM discussion and Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Constituent crystallites in aggregates; source panel a scale is 200 nm.",
+          "evidence": [
+            {
+              "source_id": "haber1997-aln",
+              "locator": "Main PDF p. 1–2, TEM discussion and Figure 1a"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Al",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Equation 1, nano-Al characterization and footnotes 5–7"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "haber1997-nanoal-catalytic-decomposition-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "decompose-state",
+          "composition": {
+            "value": "Al",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "haber1997-aln",
+                "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No named polymorph assigned to this specimen in the scoped main."
+            },
+            "morphology": {
+              "value": "Aggregates of aluminum crystallites",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "haber1997-aln",
+                  "locator": "Main PDF p. 1, Nano-Al characterization; Figure 1a on p. 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-range",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-crystallites",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
