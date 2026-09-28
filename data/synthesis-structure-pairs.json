@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 283,
-    "source_groups": 64,
-    "records": 244,
+    "recipe_structure_rows": 291,
+    "source_groups": 66,
+    "records": 252,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -17159,6 +17159,1554 @@
                 "field": "morphology.dimensions"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "igarashi2001-zns-mn-nc-paa::igarashi2001-zns-mn-nc-paa-product",
+      "record_id": "igarashi2001-zns-mn-nc-paa",
+      "record_page_path": "records/igarashi2001-zns-mn-nc-paa.html",
+      "source_group": "igarashi2001-zns-mn-a1011445009443",
+      "title": "Igarashi et al. (2001): PAA-coated nanocrystals (NC)",
+      "doi": "10.1023/A:1011445009443",
+      "year": 2001,
+      "method": "Aqueous/methanolic precipitation with polymer coating",
+      "recipe_label": "Igarashi et al. (2001): PAA-coated nanocrystals (NC)",
+      "sample_id": "igarashi2001-zns-mn-nc-paa-product",
+      "source_sample_label": "NC",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mn-doped ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "igarashi2001-zns-mn-a1011445009443",
+            "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+          }
+        ],
+        "note": "Mn/(Zn+Mn) atomic fraction is measured separately; no exact substitution formula or uniform dopant distribution is inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "igarashi2001-zns-mn-a1011445009443",
+          "locator": "Main PDF p. 2–3, Experimental sample definitions NC/SMP and Table 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic ZnS host",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+              }
+            ],
+            "note": "Host assignment and indexed diffraction; no measured atomic positions or refined unit-cell parameter supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 1.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 3, Table 1, XRD crystallite size"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "igarashi2001-zns-mn-a1011445009443",
+              "locator": "Main PDF p. 3, Table 1, XRD crystallite size"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Mn-doped ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 2, Experimental preparation, NC and SMP"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 2, Experimental preparation, NC and SMP"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "igarashi2001-zns-mn-nc-paa-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Mn-doped ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+              }
+            ],
+            "note": "Mn/(Zn+Mn) atomic fraction is measured separately; no exact substitution formula or uniform dopant distribution is inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic ZnS host",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "igarashi2001-zns-mn-a1011445009443",
+                  "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+                }
+              ],
+              "note": "Host assignment and indexed diffraction; no measured atomic positions or refined unit-cell parameter supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Particle shape is not separately specified; no TEM/SEM image appears in the supplied main."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "igarashi2001-zns-mn-smp-fired::igarashi2001-zns-mn-smp-fired-product",
+      "record_id": "igarashi2001-zns-mn-smp-fired",
+      "record_page_path": "records/igarashi2001-zns-mn-smp-fired.html",
+      "source_group": "igarashi2001-zns-mn-a1011445009443",
+      "title": "Igarashi et al. (2001): Mn-treated submicron ZnS particles (SMP)",
+      "doi": "10.1023/A:1011445009443",
+      "year": 2001,
+      "method": "Manganese treatment and nitrogen firing of ZnS particles",
+      "recipe_label": "Igarashi et al. (2001): Mn-treated submicron ZnS particles (SMP)",
+      "sample_id": "igarashi2001-zns-mn-smp-fired-product",
+      "source_sample_label": "SMP",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mn-doped ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "igarashi2001-zns-mn-a1011445009443",
+            "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+          }
+        ],
+        "note": "Mn/(Zn+Mn) atomic fraction is measured separately; no exact substitution formula or uniform dopant distribution is inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "igarashi2001-zns-mn-a1011445009443",
+          "locator": "Main PDF p. 2–3, Experimental sample definitions NC/SMP and Table 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic ZnS host",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+              }
+            ],
+            "note": "Host assignment and indexed diffraction; no measured atomic positions or refined unit-cell parameter supplied."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Mn-doped ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 2, Experimental preparation, NC and SMP"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 2, Experimental preparation, NC and SMP"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "igarashi2001-zns-mn-smp-fired-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "fire-state",
+          "composition": {
+            "value": "Mn-doped ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "igarashi2001-zns-mn-a1011445009443",
+                "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+              }
+            ],
+            "note": "Mn/(Zn+Mn) atomic fraction is measured separately; no exact substitution formula or uniform dopant distribution is inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic ZnS host",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "igarashi2001-zns-mn-a1011445009443",
+                  "locator": "Main PDF p. 1, 3–5, Cubic ZnS host discussion, Table 1 and Figure 4"
+                }
+              ],
+              "note": "Host assignment and indexed diffraction; no measured atomic positions or refined unit-cell parameter supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Particle shape is not separately specified; no TEM/SEM image appears in the supplied main."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kovacheva2002-limn2o4-0p5a::kovacheva2002-limn2o4-0p5a-product",
+      "record_id": "kovacheva2002-limn2o4-0p5a",
+      "record_page_path": "records/kovacheva2002-limn2o4-0p5a.html",
+      "source_group": "kovacheva2002-limn2o4-b107669h",
+      "title": "Kovacheva et al. (2002): 0.5A — combustion plus 700 °C annealing",
+      "doi": "10.1039/b107669h",
+      "year": 2002,
+      "method": "Sucrose/nitrate combustion",
+      "recipe_label": "Kovacheva et al. (2002): 0.5A — combustion plus 700 °C annealing",
+      "sample_id": "kovacheva2002-limn2o4-0p5a-product",
+      "source_sample_label": "0.5A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal LiMn2O4-family material",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kovacheva2002-limn2o4-b107669h",
+            "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+          }
+        ],
+        "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 1–2, Experimental preparation and sample labels",
+          "claim": null
+        },
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 2, Figure 1 and structural/morphological discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic spinel with residual Mn2O3 impurity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+              }
+            ],
+            "note": "Figure 1d and detailed text retain impurity despite generalized purity statements. This sample was excluded from further measurements."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nominal LiMn2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": "Starting nominal stoichiometry; source-derived lithium-rich composition estimates are retained separately."
+          },
+          "phase": {
+            "value": "Cubic spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kovacheva2002-limn2o4-0p5a-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Nominal LiMn2O4-family material",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+              }
+            ],
+            "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic spinel with residual Mn2O3 impurity",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+                }
+              ],
+              "note": "Figure 1d and detailed text retain impurity despite generalized purity statements. This sample was excluded from further measurements."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No sample-specific TEM size or particle morphology supplied for 0.5A."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kovacheva2002-limn2o4-0p5p::kovacheva2002-limn2o4-0p5p-product",
+      "record_id": "kovacheva2002-limn2o4-0p5p",
+      "record_page_path": "records/kovacheva2002-limn2o4-0p5p.html",
+      "source_group": "kovacheva2002-limn2o4-b107669h",
+      "title": "Kovacheva et al. (2002): 0.5P — as-prepared combustion powder",
+      "doi": "10.1039/b107669h",
+      "year": 2002,
+      "method": "Sucrose/nitrate combustion",
+      "recipe_label": "Kovacheva et al. (2002): 0.5P — as-prepared combustion powder",
+      "sample_id": "kovacheva2002-limn2o4-0p5p-product",
+      "source_sample_label": "0.5P",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal LiMn2O4-family material",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kovacheva2002-limn2o4-b107669h",
+            "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+          }
+        ],
+        "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 1–2, Experimental preparation and sample labels",
+          "claim": null
+        },
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 2, Figure 1 and structural/morphological discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic spinel with Mn2O3 impurity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+              }
+            ],
+            "note": "Broad spinel diffraction peaks with weaker impurity peaks; no phase-pure assignment."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Voluminous black sponge-like powder",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1, Experimental ignition description"
+              }
+            ],
+            "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nominal LiMn2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": "Starting nominal stoichiometry; source-derived lithium-rich composition estimates are retained separately."
+          },
+          "phase": {
+            "value": "Cubic spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kovacheva2002-limn2o4-0p5p-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ignite-state",
+          "composition": {
+            "value": "Nominal LiMn2O4-family material",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+              }
+            ],
+            "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic spinel with Mn2O3 impurity",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+                }
+              ],
+              "note": "Broad spinel diffraction peaks with weaker impurity peaks; no phase-pure assignment."
+            },
+            "morphology": {
+              "value": "Voluminous black sponge-like powder",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 1, Experimental ignition description"
+                }
+              ],
+              "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kovacheva2002-limn2o4-1a::kovacheva2002-limn2o4-1a-product",
+      "record_id": "kovacheva2002-limn2o4-1a",
+      "record_page_path": "records/kovacheva2002-limn2o4-1a.html",
+      "source_group": "kovacheva2002-limn2o4-b107669h",
+      "title": "Kovacheva et al. (2002): 1A — combustion plus 700 °C annealing",
+      "doi": "10.1039/b107669h",
+      "year": 2002,
+      "method": "Sucrose/nitrate combustion",
+      "recipe_label": "Kovacheva et al. (2002): 1A — combustion plus 700 °C annealing",
+      "sample_id": "kovacheva2002-limn2o4-1a-product",
+      "source_sample_label": "1A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal LiMn2O4-family material",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kovacheva2002-limn2o4-b107669h",
+            "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+          }
+        ],
+        "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 1–2, Experimental preparation and sample labels",
+          "claim": null
+        },
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 2, Figure 1 and structural/morphological discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Single cubic spinel phase in reported XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+              }
+            ],
+            "note": "Only typical spinel peaks are reported; detection limits and measured atomic coordinates are not supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 8.236,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Source notation 8.236(2) Å; parenthetical uncertainty retained, statistic not defined.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Lattice-parameter paragraph after Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / CelRef refinement",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kovacheva2002-limn2o4-b107669h",
+              "locator": "Main PDF p. 2, Lattice-parameter paragraph after Figure 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 55,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average particle size as reported; averaging estimator is not further specified; standard deviation stored separately.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM size distribution",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kovacheva2002-limn2o4-b107669h",
+              "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-sd",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 23,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Population-distribution standard deviation reported by authors, not uncertainty on the mean.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM size distribution",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kovacheva2002-limn2o4-b107669h",
+              "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nominal LiMn2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": "Starting nominal stoichiometry; source-derived lithium-rich composition estimates are retained separately."
+          },
+          "phase": {
+            "value": "Cubic spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kovacheva2002-limn2o4-1a-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Nominal LiMn2O4-family material",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+              }
+            ],
+            "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+          },
+          "structure": {
+            "phase": {
+              "value": "Single cubic spinel phase in reported XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+                }
+              ],
+              "note": "Only typical spinel peaks are reported; detection limits and measured atomic coordinates are not supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "TEM size distribution is given but a separate shape descriptor for 1A is not specified."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "tem-sd",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kovacheva2002-limn2o4-1p::kovacheva2002-limn2o4-1p-product",
+      "record_id": "kovacheva2002-limn2o4-1p",
+      "record_page_path": "records/kovacheva2002-limn2o4-1p.html",
+      "source_group": "kovacheva2002-limn2o4-b107669h",
+      "title": "Kovacheva et al. (2002): 1P — as-prepared combustion powder",
+      "doi": "10.1039/b107669h",
+      "year": 2002,
+      "method": "Sucrose/nitrate combustion",
+      "recipe_label": "Kovacheva et al. (2002): 1P — as-prepared combustion powder",
+      "sample_id": "kovacheva2002-limn2o4-1p-product",
+      "source_sample_label": "1P",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal LiMn2O4-family material",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kovacheva2002-limn2o4-b107669h",
+            "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+          }
+        ],
+        "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 1–2, Experimental preparation and sample labels",
+          "claim": null
+        },
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 2, Figure 1 and structural/morphological discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic spinel with Mn3O4 impurity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+              }
+            ],
+            "note": "Broad spinel diffraction peaks with weaker impurity peaks; no phase-pure assignment."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Voluminous black sponge-like powder",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1, Experimental ignition description"
+              }
+            ],
+            "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nominal LiMn2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": "Starting nominal stoichiometry; source-derived lithium-rich composition estimates are retained separately."
+          },
+          "phase": {
+            "value": "Cubic spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kovacheva2002-limn2o4-1p-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ignite-state",
+          "composition": {
+            "value": "Nominal LiMn2O4-family material",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+              }
+            ],
+            "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic spinel with Mn3O4 impurity",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+                }
+              ],
+              "note": "Broad spinel diffraction peaks with weaker impurity peaks; no phase-pure assignment."
+            },
+            "morphology": {
+              "value": "Voluminous black sponge-like powder",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 1, Experimental ignition description"
+                }
+              ],
+              "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kovacheva2002-limn2o4-2a::kovacheva2002-limn2o4-2a-product",
+      "record_id": "kovacheva2002-limn2o4-2a",
+      "record_page_path": "records/kovacheva2002-limn2o4-2a.html",
+      "source_group": "kovacheva2002-limn2o4-b107669h",
+      "title": "Kovacheva et al. (2002): 2A — combustion plus 700 °C annealing",
+      "doi": "10.1039/b107669h",
+      "year": 2002,
+      "method": "Sucrose/nitrate combustion",
+      "recipe_label": "Kovacheva et al. (2002): 2A — combustion plus 700 °C annealing",
+      "sample_id": "kovacheva2002-limn2o4-2a-product",
+      "source_sample_label": "2A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Li1.05Mn1.95O4",
+        "status": "author_derived",
+        "evidence": [
+          {
+            "source_id": "kovacheva2002-limn2o4-b107669h",
+            "locator": "Main PDF p. 3–4, Thermal/electrochemical composition discussion"
+          }
+        ],
+        "note": "TG/reference-relationship estimate x=0.05. Lattice-derived x=0.06 and electrochemical Li1.04Mn1.96O4 remain parallel source estimates, not silently averaged."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 1–2, Experimental preparation and sample labels",
+          "claim": null
+        },
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 2, Figure 1 and structural/morphological discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Single cubic spinel phase in reported XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+              }
+            ],
+            "note": "Only typical spinel peaks are reported; detection limits and measured atomic coordinates are not supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Aggregated particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2–3, Figure 2 and adjacent 2A discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 8.233,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Source notation 8.233(1) Å; parenthetical uncertainty retained, statistic not defined.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Lattice-parameter paragraph after Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / CelRef refinement",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kovacheva2002-limn2o4-b107669h",
+              "locator": "Main PDF p. 2, Lattice-parameter paragraph after Figure 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 33,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average particle size as reported; averaging estimator is not further specified; standard deviation stored separately.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM size distribution",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kovacheva2002-limn2o4-b107669h",
+              "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-sd",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 12,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Population-distribution standard deviation reported by authors, not uncertainty on the mean.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM size distribution",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kovacheva2002-limn2o4-b107669h",
+              "locator": "Main PDF p. 2–3, Particle-size discussion and Figure 3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nominal LiMn2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": "Starting nominal stoichiometry; source-derived lithium-rich composition estimates are retained separately."
+          },
+          "phase": {
+            "value": "Cubic spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kovacheva2002-limn2o4-2a-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Li1.05Mn1.95O4",
+            "status": "author_derived",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 3–4, Thermal/electrochemical composition discussion"
+              }
+            ],
+            "note": "TG/reference-relationship estimate x=0.05. Lattice-derived x=0.06 and electrochemical Li1.04Mn1.96O4 remain parallel source estimates, not silently averaged."
+          },
+          "structure": {
+            "phase": {
+              "value": "Single cubic spinel phase in reported XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+                }
+              ],
+              "note": "Only typical spinel peaks are reported; detection limits and measured atomic coordinates are not supplied."
+            },
+            "morphology": {
+              "value": "Aggregated particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2–3, Figure 2 and adjacent 2A discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "tem-sd",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kovacheva2002-limn2o4-2p::kovacheva2002-limn2o4-2p-product",
+      "record_id": "kovacheva2002-limn2o4-2p",
+      "record_page_path": "records/kovacheva2002-limn2o4-2p.html",
+      "source_group": "kovacheva2002-limn2o4-b107669h",
+      "title": "Kovacheva et al. (2002): 2P — as-prepared combustion powder",
+      "doi": "10.1039/b107669h",
+      "year": 2002,
+      "method": "Sucrose/nitrate combustion",
+      "recipe_label": "Kovacheva et al. (2002): 2P — as-prepared combustion powder",
+      "sample_id": "kovacheva2002-limn2o4-2p-product",
+      "source_sample_label": "2P",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal LiMn2O4-family material",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kovacheva2002-limn2o4-b107669h",
+            "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+          }
+        ],
+        "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 1–2, Experimental preparation and sample labels",
+          "claim": null
+        },
+        {
+          "source_id": "kovacheva2002-limn2o4-b107669h",
+          "locator": "Main PDF p. 2, Figure 1 and structural/morphological discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic spinel with Mn3O4 impurity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+              }
+            ],
+            "note": "Broad spinel diffraction peaks with weaker impurity peaks; no phase-pure assignment."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Voluminous black sponge-like powder",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1, Experimental ignition description"
+              }
+            ],
+            "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nominal LiMn2O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": "Starting nominal stoichiometry; source-derived lithium-rich composition estimates are retained separately."
+          },
+          "phase": {
+            "value": "Cubic spinel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Experimental combustion preparation and sample nomenclature"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kovacheva2002-limn2o4-2p-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ignite-state",
+          "composition": {
+            "value": "Nominal LiMn2O4-family material",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kovacheva2002-limn2o4-b107669h",
+                "locator": "Main PDF p. 1–2, Preparation and sample nomenclature"
+              }
+            ],
+            "note": "Exact sample composition is not inferred from nominal precursor stoichiometry."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic spinel with Mn3O4 impurity",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 2, Figure 1 and structural characterization"
+                }
+              ],
+              "note": "Broad spinel diffraction peaks with weaker impurity peaks; no phase-pure assignment."
+            },
+            "morphology": {
+              "value": "Voluminous black sponge-like powder",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kovacheva2002-limn2o4-b107669h",
+                  "locator": "Main PDF p. 1, Experimental ignition description"
+                }
+              ],
+              "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+            },
+            "measurement_refs": []
           }
         }
       },

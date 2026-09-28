@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **84 primary source groups** · release `20260928-copt3-source-reviewed`. Records are not independent experiments.
+Dataset **0.41.2** · **86 primary source groups** · release `mattersyn-li-igarashi-batch-20260928`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -53,6 +53,8 @@ Dataset **0.41.2** · **84 primary source groups** · release `20260928-copt3-so
 
 - Bin Li, Yi Xie, Jiaxing Huang, and Yitai Qian (2000). Synthesis, Characterization, and Properties of Nanocrystalline Cu2SnS3. [10.1006/jssc.2000.8772](https://doi.org/10.1006/jssc.2000.8772). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2000cu2sns3).
 
+- T. Igarashi; M. Ihara; T. Kusunoki; K. Ohno; T. Isobe; M. Senna (2001). Characterization of Mn2+ coordination states in ZnS nanocrystal by EPR spectroscopy and related photoluminescence properties. *Journal of Nanoparticle Research*, 3, 51–56. [10.1023/A:1011445009443](https://doi.org/10.1023/A:1011445009443). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=igarashi2001-zns-mn-a1011445009443).
+
 - Jinke Tang; Kai-Ying Wang; Weilie Zhou (2001). Magnetic properties of nanocrystalline Fe3O4 films. *Journal of Applied Physics*, 89, 7690–7692. [10.1063/1.1358350](https://doi.org/10.1063/1.1358350). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=tang2001-fe3o4-pld).
 
 - Parag S. Shah; Shabbir Husain; Keith P. Johnston; Brian A. Korgel (2001). Nanocrystal Arrested Precipitation in Supercritical Carbon Dioxide. *Journal of Physical Chemistry B*, 105, 9433–9440. [10.1021/jp011815c](https://doi.org/10.1021/jp011815c). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=shah2001).
@@ -74,6 +76,8 @@ Dataset **0.41.2** · **84 primary source groups** · release `20260928-copt3-so
 - Hui Du; Chialing Chen; Rishikesh Krishnan; Todd D. Krauss; Jeffrey M. Harbold; Frank W. Wise; Malcolm G. Thomas; John Silcox (2002). Optical Properties of Colloidal PbSe Nanocrystals. *Nano Letters*, 2, 1321–1324. [10.1021/nl025785g](https://doi.org/10.1021/nl025785g). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=du2002-pbse-nl025785g).
 
 - Guangshun Yi; Baoquan Sun; Fengzhen Yang; Depu Chen; Yuxiang Zhou; Jing Cheng (2002). Synthesis and Characterization of High-Efficiency Nanocrystal Up-Conversion Phosphors: Ytterbium and Erbium Codoped Lanthanum Molybdate. *Chemistry of Materials*, 14, 2910–2914. [10.1021/cm0115416](https://doi.org/10.1021/cm0115416). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=yi2002).
+
+- Daniela Kovacheva; Hristo Gadjov; Kostadin Petrov; Sankar Mandal; Mónica G. Lazarraga; Laura Pascual; J. Manuel Amarilla; Rosa M. Rojas; Pilar Herrero; José M. Rojo (2002). Synthesizing nanocrystalline LiMn2O4 by a combustion route. *Journal of Materials Chemistry*, 12, 1184–1188. [10.1039/b107669h](https://doi.org/10.1039/b107669h). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=kovacheva2002-limn2o4-b107669h).
 
 - Sarbajit Banerjee; Stanislaus S. Wong (2003). In Situ Quantum Dot Growth on Multiwalled Carbon Nanotubes. *Journal of the American Chemical Society*, 125, 10342–10350. [10.1021/ja035980c](https://doi.org/10.1021/ja035980c). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=banerjee2003).
 
