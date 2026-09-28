@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "dataset_version": "0.41.2",
-  "record_count": 1040,
-  "group_count": 77,
+  "record_count": 1049,
+  "group_count": 80,
   "families": [
     "Ag2S nanocrystals",
     "Aluminum nanocrystals",
@@ -14,6 +14,7 @@
     "Cadmium chalcogenide noninjection nanocrystals",
     "Cadmium dithiocarbamate precursor and CdSe/CdS quantum belts",
     "Cadmium sulfide magic-sized nanocrystals",
+    "Cadmium sulfide nanocrystals",
     "Cassiterite tin dioxide colloids",
     "CdS nanostructures",
     "CdS/PbS nanostructures",
@@ -39,6 +40,7 @@
     "Dhaene et al. CdS source-defined synthesis branch",
     "Dhaene et al. CdSe source-defined synthesis branch",
     "FePt–CdS heterodimers and source-linked precursor/control contexts",
+    "Fe–Zr–B nanocrystalline alloy ribbons",
     "II-VI colloidal nanocrystals",
     "III–V semiconductors",
     "II–VI chalcogenides",
@@ -51,6 +53,7 @@
     "Indium tin oxide nanocrystals and assemblies",
     "Iron oxide films and PLD target preparation",
     "Iron oxides",
+    "Iron reference foil",
     "Jaipurite additive and precursor-concentration comparison contexts",
     "Lead chalcogenides",
     "Lead halide perovskite quantum dots",
@@ -59,6 +62,7 @@
     "Lead selenide nanocrystals and their assemblies",
     "Lead-sulfide quantum dots embedded in a multicomponent glass",
     "Ligand-stabilized metal nanocrystals",
+    "Lithium ferrite nanocrystals",
     "Metal nanocrystals on semiconductor substrates",
     "Metal oxides",
     "Mn-doped ZnO, surface controls and nanocrystalline films",
@@ -61173,6 +61177,436 @@
       "pair_ids": []
     },
     {
+      "record_id": "stankov2008-a",
+      "title": "Stankov et al. (2008): Sample A: 753 K for 10 min",
+      "formula": "Fe90Zr7B3",
+      "family": "Fe–Zr–B nanocrystalline alloy ribbons",
+      "method": "Vacuum annealing",
+      "record_type": "literature_protocol",
+      "source_year": 2008,
+      "source_doi": "10.1103/PhysRevLett.100.235503",
+      "revision": 1,
+      "record_sha256": "fd9b063aa0026ae8cec0909f37f2c4fc1b296a4b84b433c072f076e67ed8ce78",
+      "recipe_signature": "4ddb663f34e83aec98f10b89f8af3d292b604e43bddbf1623a3cb217cbe28b75",
+      "group_id": "group-61be6b2949d8",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/stankov2008-a.json",
+      "page_url": "records/stankov2008-a.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "Fe90Zr7B3"
+      ],
+      "pair_ids": [
+        "stankov2008-a::stankov2008-a-product"
+      ]
+    },
+    {
+      "record_id": "stankov2008-as-quenched",
+      "title": "Stankov et al. (2008): As-quenched melt-spun ribbon",
+      "formula": "Fe90Zr7B3",
+      "family": "Fe–Zr–B nanocrystalline alloy ribbons",
+      "method": "Melt spinning",
+      "record_type": "literature_protocol",
+      "source_year": 2008,
+      "source_doi": "10.1103/PhysRevLett.100.235503",
+      "revision": 1,
+      "record_sha256": "b7bafc9515a97f2cca459b7fa6d26df1d946c06da991138939a85d63291f0695",
+      "recipe_signature": "fbc6e272a3cf65bdf2dcc62196c82665ed2eee4fa31c540e8641441211bbaa48",
+      "group_id": "group-61be6b2949d8",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/stankov2008-as-quenched.json",
+      "page_url": "records/stankov2008-as-quenched.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "Fe90Zr7B3"
+      ],
+      "pair_ids": [
+        "stankov2008-as-quenched::stankov2008-as-quenched-product"
+      ]
+    },
+    {
+      "record_id": "stankov2008-b",
+      "title": "Stankov et al. (2008): Sample B: 783 K for 10 min",
+      "formula": "Fe90Zr7B3",
+      "family": "Fe–Zr–B nanocrystalline alloy ribbons",
+      "method": "Vacuum annealing",
+      "record_type": "literature_protocol",
+      "source_year": 2008,
+      "source_doi": "10.1103/PhysRevLett.100.235503",
+      "revision": 1,
+      "record_sha256": "645ba92af1bf48f12df510b8835cff7de74a5f0819d41c60e2201c22a32a0654",
+      "recipe_signature": "5d16ce697dbe320eb2994a22e9462a1c18d61d446ee2f9470d493f9abbc8d5b7",
+      "group_id": "group-61be6b2949d8",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/stankov2008-b.json",
+      "page_url": "records/stankov2008-b.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "Fe90Zr7B3"
+      ],
+      "pair_ids": [
+        "stankov2008-b::stankov2008-b-product"
+      ]
+    },
+    {
+      "record_id": "stankov2008-c",
+      "title": "Stankov et al. (2008): Sample C: 783 K for 30 min",
+      "formula": "Fe90Zr7B3",
+      "family": "Fe–Zr–B nanocrystalline alloy ribbons",
+      "method": "Vacuum annealing",
+      "record_type": "literature_protocol",
+      "source_year": 2008,
+      "source_doi": "10.1103/PhysRevLett.100.235503",
+      "revision": 1,
+      "record_sha256": "8310a7b292b3bd151d41c2b728fca4b1210150bd764338d5999369a7545e7301",
+      "recipe_signature": "039dbead2e1f7c7b05c18ba1c30d9aa1bafa3241e3ae222f574b11c359394d3f",
+      "group_id": "group-61be6b2949d8",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/stankov2008-c.json",
+      "page_url": "records/stankov2008-c.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "Fe90Zr7B3"
+      ],
+      "pair_ids": [
+        "stankov2008-c::stankov2008-c-product"
+      ]
+    },
+    {
+      "record_id": "stankov2008-d",
+      "title": "Stankov et al. (2008): Sample D: 893 K for 80 min",
+      "formula": "Fe90Zr7B3",
+      "family": "Fe–Zr–B nanocrystalline alloy ribbons",
+      "method": "Vacuum annealing",
+      "record_type": "literature_protocol",
+      "source_year": 2008,
+      "source_doi": "10.1103/PhysRevLett.100.235503",
+      "revision": 1,
+      "record_sha256": "1b4ad6dfc9a8fe3e8764f81492accdbcb293710753a54deb5a957183105b20c9",
+      "recipe_signature": "7cc1d92a2607ff27da396dd9f764124eae83597037cd04274bad1a9987a247f7",
+      "group_id": "group-61be6b2949d8",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/stankov2008-d.json",
+      "page_url": "records/stankov2008-d.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "Fe90Zr7B3"
+      ],
+      "pair_ids": [
+        "stankov2008-d::stankov2008-d-product"
+      ]
+    },
+    {
+      "record_id": "stankov2008-fe-reference-foil",
+      "title": "Stankov et al. (2008): Bulk α-Fe foil spectroscopy reference",
+      "formula": "Fe",
+      "family": "Iron reference foil",
+      "method": "Nuclear inelastic scattering reference measurement",
+      "record_type": "literature_protocol",
+      "source_year": 2008,
+      "source_doi": "10.1103/PhysRevLett.100.235503",
+      "revision": 1,
+      "record_sha256": "aef072da94da902d0e0dfbcf1398c02d0e4340c5ffb0c851be25a1a595910eed",
+      "recipe_signature": "1b069b220f270154816b46e2b9cc7f06b795ad4b60b081702910c84468771bee",
+      "group_id": "group-61be6b2949d8",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/stankov2008-fe-reference-foil.json",
+      "page_url": "records/stankov2008-fe-reference-foil.html",
+      "missing_field_count": 3,
+      "collection": "reviewed_literature",
+      "components": [
+        "Fe"
+      ],
+      "pair_ids": []
+    },
+    {
       "record_id": "stiger-1999-afm",
       "title": "Stiger et al. (1999) · AFM imaging, height distributions and nucleation density",
       "formula": "Ag/Si",
@@ -64689,6 +65123,150 @@
       ]
     },
     {
+      "record_id": "wang2001-cds-sonochemical-a-water",
+      "title": "Wang et al. (2001): sonochemical CdS sample A in water",
+      "formula": "CdS",
+      "family": "Cadmium sulfide nanocrystals",
+      "method": "Room-temperature bath sonication",
+      "record_type": "literature_protocol",
+      "source_year": 2001,
+      "source_doi": "10.1246/cl.2001.344",
+      "revision": 1,
+      "record_sha256": "5542b2f5cd470363829a73f7ff0e8bc7cc47fa931f3d3fd568f9bc92f33953ad",
+      "recipe_signature": "ced87d0620d4c4f47ad6e2da1b953b875649e04ba038faba97b69d8a2a59da49",
+      "group_id": "group-545103ded5b5",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/wang2001-cds-sonochemical-a-water.json",
+      "page_url": "records/wang2001-cds-sonochemical-a-water.html",
+      "missing_field_count": 9,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS"
+      ],
+      "pair_ids": [
+        "wang2001-cds-sonochemical-a-water::wang2001-cds-sonochemical-a-water-product"
+      ]
+    },
+    {
+      "record_id": "wang2001-cds-sonochemical-b-isopropanol-water",
+      "title": "Wang et al. (2001): sonochemical CdS sample B in isopropyl alcohol/water",
+      "formula": "CdS",
+      "family": "Cadmium sulfide nanocrystals",
+      "method": "Room-temperature bath sonication",
+      "record_type": "literature_protocol",
+      "source_year": 2001,
+      "source_doi": "10.1246/cl.2001.344",
+      "revision": 1,
+      "record_sha256": "52385bdcf714b1b878d2d5cf64fecf0a63c28208a614381af62bf562f648e7e9",
+      "recipe_signature": "6110df8f1d172e8f6962f931cb9f3ed6d52c26ea3c0e550efd57caaff4a34978",
+      "group_id": "group-545103ded5b5",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/wang2001-cds-sonochemical-b-isopropanol-water.json",
+      "page_url": "records/wang2001-cds-sonochemical-b-isopropanol-water.html",
+      "missing_field_count": 9,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdS"
+      ],
+      "pair_ids": [
+        "wang2001-cds-sonochemical-b-isopropanol-water::wang2001-cds-sonochemical-b-isopropanol-water-product"
+      ]
+    },
+    {
       "record_id": "wehrenberg2002-pbse-180c-110c-1min",
       "title": "Wehrenberg et al. (2002): 180 °C injection / 110 °C growth / approximately 1 min",
       "formula": "PbSe",
@@ -67920,6 +68498,84 @@
         "CdS"
       ],
       "pair_ids": []
+    },
+    {
+      "record_id": "yang1994-life5o8-peg-series",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "formula": "LiFe5O8",
+      "family": "Lithium ferrite nanocrystals",
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "record_type": "literature_protocol",
+      "source_year": 1994,
+      "source_doi": "10.1007/BF00571768",
+      "revision": 1,
+      "record_sha256": "2fb8c9020627962e38f397b2f4de9755745b44398d83e5e86216a6458a3138c2",
+      "recipe_signature": "dce425787b19987445e1c35c47a0ef24531400cfc8fbff18a615f8f0b910b521",
+      "group_id": "group-e6458a5bfe22",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yang1994-life5o8-peg-series.json",
+      "page_url": "records/yang1994-life5o8-peg-series.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "components": [
+        "LiFe5O8"
+      ],
+      "pair_ids": [
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-16p4",
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-22p6",
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-27p3",
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-32p4",
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-46p7",
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-9p1",
+        "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-gt100"
+      ]
     },
     {
       "record_id": "yang2005-cadmium-myristate",

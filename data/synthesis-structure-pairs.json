@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 232,
-    "source_groups": 57,
-    "records": 207,
+    "recipe_structure_rows": 246,
+    "source_groups": 60,
+    "records": 215,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -37475,6 +37475,911 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "stankov2008-a::stankov2008-a-product",
+      "record_id": "stankov2008-a",
+      "record_page_path": "records/stankov2008-a.html",
+      "source_group": "stankov2008-fe90zr7b3",
+      "title": "Stankov et al. (2008): Sample A: 753 K for 10 min",
+      "doi": "10.1103/PhysRevLett.100.235503",
+      "year": 2008,
+      "method": "Vacuum annealing",
+      "recipe_label": "Stankov et al. (2008): Sample A: 753 K for 10 min",
+      "sample_id": "stankov2008-a-product",
+      "source_sample_label": "A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe90Zr7B3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "stankov2008-fe90zr7b3",
+            "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+          }
+        ],
+        "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "stankov2008-fe90zr7b3",
+          "locator": "Main PDF p. 1, Table I and diffraction/phase discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-constant",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 2.8662,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported uncertainty ±0.0001 angstrom; uncertainty convention is not defined. Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Rietveld refinement",
+          "conditions": "Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+          "evidence": [
+            {
+              "source_id": "stankov2008-fe90zr7b3",
+              "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Preparation paragraph and Table I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stankov2008-a-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+          },
+          "structure": {
+            "phase": {
+              "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "stankov2008-fe90zr7b3",
+                  "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Nanograins in a ribbon are reported; individual grain shape and morphology distribution are not specified."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-constant",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "stankov2008-as-quenched::stankov2008-as-quenched-product",
+      "record_id": "stankov2008-as-quenched",
+      "record_page_path": "records/stankov2008-as-quenched.html",
+      "source_group": "stankov2008-fe90zr7b3",
+      "title": "Stankov et al. (2008): As-quenched melt-spun ribbon",
+      "doi": "10.1103/PhysRevLett.100.235503",
+      "year": 2008,
+      "method": "Melt spinning",
+      "recipe_label": "Stankov et al. (2008): As-quenched melt-spun ribbon",
+      "sample_id": "stankov2008-as-quenched-product",
+      "source_sample_label": "As-quenched",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe90Zr7B3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "stankov2008-fe90zr7b3",
+            "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+          }
+        ],
+        "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "stankov2008-fe90zr7b3",
+          "locator": "Main PDF p. 1, Table I and diffraction/phase discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-constant",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 2.8661,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported uncertainty ±0.0001 angstrom; uncertainty convention is not defined. Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Rietveld refinement",
+          "conditions": "Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+          "evidence": [
+            {
+              "source_id": "stankov2008-fe90zr7b3",
+              "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Preparation paragraph and Table I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stankov2008-as-quenched-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "melt-spin-state",
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+          },
+          "structure": {
+            "phase": {
+              "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "stankov2008-fe90zr7b3",
+                  "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Nanograins in a ribbon are reported; individual grain shape and morphology distribution are not specified."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-constant",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "stankov2008-b::stankov2008-b-product",
+      "record_id": "stankov2008-b",
+      "record_page_path": "records/stankov2008-b.html",
+      "source_group": "stankov2008-fe90zr7b3",
+      "title": "Stankov et al. (2008): Sample B: 783 K for 10 min",
+      "doi": "10.1103/PhysRevLett.100.235503",
+      "year": 2008,
+      "method": "Vacuum annealing",
+      "recipe_label": "Stankov et al. (2008): Sample B: 783 K for 10 min",
+      "sample_id": "stankov2008-b-product",
+      "source_sample_label": "B",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe90Zr7B3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "stankov2008-fe90zr7b3",
+            "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+          }
+        ],
+        "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "stankov2008-fe90zr7b3",
+          "locator": "Main PDF p. 1, Table I and diffraction/phase discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-constant",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 2.866,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported uncertainty ±0.0001 angstrom; uncertainty convention is not defined. Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Rietveld refinement",
+          "conditions": "Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+          "evidence": [
+            {
+              "source_id": "stankov2008-fe90zr7b3",
+              "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Preparation paragraph and Table I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stankov2008-b-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+          },
+          "structure": {
+            "phase": {
+              "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "stankov2008-fe90zr7b3",
+                  "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Nanograins in a ribbon are reported; individual grain shape and morphology distribution are not specified."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-constant",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "stankov2008-c::stankov2008-c-product",
+      "record_id": "stankov2008-c",
+      "record_page_path": "records/stankov2008-c.html",
+      "source_group": "stankov2008-fe90zr7b3",
+      "title": "Stankov et al. (2008): Sample C: 783 K for 30 min",
+      "doi": "10.1103/PhysRevLett.100.235503",
+      "year": 2008,
+      "method": "Vacuum annealing",
+      "recipe_label": "Stankov et al. (2008): Sample C: 783 K for 30 min",
+      "sample_id": "stankov2008-c-product",
+      "source_sample_label": "C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe90Zr7B3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "stankov2008-fe90zr7b3",
+            "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+          }
+        ],
+        "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "stankov2008-fe90zr7b3",
+          "locator": "Main PDF p. 1, Table I and diffraction/phase discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-constant",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 2.8661,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported uncertainty ±0.0001 angstrom; uncertainty convention is not defined. Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Rietveld refinement",
+          "conditions": "Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+          "evidence": [
+            {
+              "source_id": "stankov2008-fe90zr7b3",
+              "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Preparation paragraph and Table I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stankov2008-c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+          },
+          "structure": {
+            "phase": {
+              "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "stankov2008-fe90zr7b3",
+                  "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Nanograins in a ribbon are reported; individual grain shape and morphology distribution are not specified."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-constant",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "stankov2008-d::stankov2008-d-product",
+      "record_id": "stankov2008-d",
+      "record_page_path": "records/stankov2008-d.html",
+      "source_group": "stankov2008-fe90zr7b3",
+      "title": "Stankov et al. (2008): Sample D: 893 K for 80 min",
+      "doi": "10.1103/PhysRevLett.100.235503",
+      "year": 2008,
+      "method": "Vacuum annealing",
+      "recipe_label": "Stankov et al. (2008): Sample D: 893 K for 80 min",
+      "sample_id": "stankov2008-d-product",
+      "source_sample_label": "D",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe90Zr7B3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "stankov2008-fe90zr7b3",
+            "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+          }
+        ],
+        "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "stankov2008-fe90zr7b3",
+          "locator": "Main PDF p. 1, Table I and diffraction/phase discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-constant",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 2.8659,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported uncertainty ±0.0001 angstrom; uncertainty convention is not defined. Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Rietveld refinement",
+          "conditions": "Lattice constant of α-Fe nanograins; no measured atom coordinates or full interface structure.",
+          "evidence": [
+            {
+              "source_id": "stankov2008-fe90zr7b3",
+              "locator": "Main PDF p. 1, Table I; XRD and CEMS methods"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Preparation paragraph and Table I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stankov2008-d-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Fe90Zr7B3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "stankov2008-fe90zr7b3",
+                "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+              }
+            ],
+            "note": "Overall source material composition; not a refined composition of every nanograin or interface."
+          },
+          "structure": {
+            "phase": {
+              "value": "α-Fe nanograins and intercrystalline regions in the overall Fe90Zr7B3 alloy",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "stankov2008-fe90zr7b3",
+                  "locator": "Main PDF p. 1, Table I and diffraction/phase discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Nanograins in a ribbon are reported; individual grain shape and morphology distribution are not specified."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-constant",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "stiger-1999-electrodeposition::ag-si-product",
       "record_id": "stiger-1999-electrodeposition",
       "record_page_path": "records/stiger-1999-electrodeposition.html",
@@ -38720,6 +39625,544 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "wang2001-cds-sonochemical-a-water::wang2001-cds-sonochemical-a-water-product",
+      "record_id": "wang2001-cds-sonochemical-a-water",
+      "record_page_path": "records/wang2001-cds-sonochemical-a-water.html",
+      "source_group": "wang2001-cds-sonochemical",
+      "title": "Wang et al. (2001): sonochemical CdS sample A in water",
+      "doi": "10.1246/cl.2001.344",
+      "year": 2001,
+      "method": "Room-temperature bath sonication",
+      "recipe_label": "Wang et al. (2001): sonochemical CdS sample A in water",
+      "sample_id": "wang2001-cds-sonochemical-a-water-product",
+      "source_sample_label": "Sample A from solution A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang2001-cds-sonochemical",
+            "locator": "Supplied PDF p. 2, p. 345, XPS composition paragraph"
+          }
+        ],
+        "note": "Qualitative XPS composition assertion; spectra not shown and no atomic ratio supplied."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang2001-cds-sonochemical",
+          "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns",
+          "claim": null
+        },
+        {
+          "source_id": "wang2001-cds-sonochemical",
+          "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation",
+          "claim": null
+        },
+        {
+          "source_id": "wang2001-cds-sonochemical",
+          "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+              }
+            ],
+            "note": "Explicit Figure 1a assignment; contradictory final summary ordering retained in conflicts."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanoparticles with more pronounced aggregation than sample B",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+              }
+            ],
+            "note": "Comparative aggregation and size-distribution description, not a numerical shape or dispersity fit."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 4.14,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source printed 4.140 Å",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction",
+          "conditions": "Hexagonal sample A; no uncertainty supplied.",
+          "evidence": [
+            {
+              "source_id": "wang2001-cds-sonochemical",
+              "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+            }
+          ]
+        },
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 5.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystallite diameter from peak broadening; source coefficient0.94; no numerical wavelength/FWHM or uncertainty supplied",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Source calls this average particle size from Scherrer; kept distinct from TEM particle diameter.",
+          "evidence": [
+            {
+              "source_id": "wang2001-cds-sonochemical",
+              "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-particle-size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Source says about8nm for A and around5nm for B; no fitted distribution/statistical uncertainty supplied",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Hitachi H-800; Figure 2a, displayed scale100nm. TEM accelerating voltage, specimen grid/support and preparation unreported.",
+          "evidence": [
+            {
+              "source_id": "wang2001-cds-sonochemical",
+              "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang2001-cds-sonochemical-a-water-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-product",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 2, p. 345, XPS composition paragraph"
+              }
+            ],
+            "note": "Qualitative XPS composition assertion; spectra not shown and no atomic ratio supplied."
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal CdS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2001-cds-sonochemical",
+                  "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+                }
+              ],
+              "note": "Explicit Figure 1a assignment; contradictory final summary ordering retained in conflicts."
+            },
+            "morphology": {
+              "value": "Nanoparticles with more pronounced aggregation than sample B",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2001-cds-sonochemical",
+                  "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+                }
+              ],
+              "note": "Comparative aggregation and size-distribution description, not a numerical shape or dispersity fit."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-particle-size",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang2001-cds-sonochemical-b-isopropanol-water::wang2001-cds-sonochemical-b-isopropanol-water-product",
+      "record_id": "wang2001-cds-sonochemical-b-isopropanol-water",
+      "record_page_path": "records/wang2001-cds-sonochemical-b-isopropanol-water.html",
+      "source_group": "wang2001-cds-sonochemical",
+      "title": "Wang et al. (2001): sonochemical CdS sample B in isopropyl alcohol/water",
+      "doi": "10.1246/cl.2001.344",
+      "year": 2001,
+      "method": "Room-temperature bath sonication",
+      "recipe_label": "Wang et al. (2001): sonochemical CdS sample B in isopropyl alcohol/water",
+      "sample_id": "wang2001-cds-sonochemical-b-isopropanol-water-product",
+      "source_sample_label": "Sample B from solution B",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang2001-cds-sonochemical",
+            "locator": "Supplied PDF p. 2, p. 345, XPS composition paragraph"
+          }
+        ],
+        "note": "Qualitative XPS composition assertion; spectra not shown and no atomic ratio supplied."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang2001-cds-sonochemical",
+          "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns",
+          "claim": null
+        },
+        {
+          "source_id": "wang2001-cds-sonochemical",
+          "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation",
+          "claim": null
+        },
+        {
+          "source_id": "wang2001-cds-sonochemical",
+          "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic beta-CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+              }
+            ],
+            "note": "Explicit Figure 1b assignment; contradictory final summary ordering retained in conflicts."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Relatively well-dispersed nanoparticles with a narrower size distribution than sample A",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+              }
+            ],
+            "note": "Comparative aggregation and size-distribution description, not a numerical shape or dispersity fit."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 3.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystallite diameter from peak broadening; source coefficient0.94; no numerical wavelength/FWHM or uncertainty supplied",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Source calls this average particle size from Scherrer; kept distinct from TEM particle diameter.",
+          "evidence": [
+            {
+              "source_id": "wang2001-cds-sonochemical",
+              "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-particle-size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Source says about8nm for A and around5nm for B; no fitted distribution/statistical uncertainty supplied",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Hitachi H-800; Figure 2b, displayed scale50nm. TEM accelerating voltage, specimen grid/support and preparation unreported.",
+          "evidence": [
+            {
+              "source_id": "wang2001-cds-sonochemical",
+              "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang2001-cds-sonochemical-b-isopropanol-water-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-product",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2001-cds-sonochemical",
+                "locator": "Supplied PDF p. 2, p. 345, XPS composition paragraph"
+              }
+            ],
+            "note": "Qualitative XPS composition assertion; spectra not shown and no atomic ratio supplied."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic beta-CdS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2001-cds-sonochemical",
+                  "locator": "Supplied PDF p. 1, p. 344, Figure 1 and XRD interpretation"
+                }
+              ],
+              "note": "Explicit Figure 1b assignment; contradictory final summary ordering retained in conflicts."
+            },
+            "morphology": {
+              "value": "Relatively well-dispersed nanoparticles with a narrower size distribution than sample A",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2001-cds-sonochemical",
+                  "locator": "Supplied PDF p. 2, p. 345, Figure 2 and TEM discussion"
+                }
+              ],
+              "note": "Comparative aggregation and size-distribution description, not a numerical shape or dispersity fit."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-particle-size",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "wehrenberg2002-pbse-general-route::wehrenberg2002-pbse-general-route-0p587ev-tem",
       "record_id": "wehrenberg2002-pbse-general-route",
       "record_page_path": "records/wehrenberg2002-pbse-general-route.html",
@@ -39210,6 +40653,1309 @@
                 "measurement_id": "0p865ev-tem-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-16p4",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-16p4",
+      "source_sample_label": "16.4 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-16p4",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 16.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average crystal size evaluated by XRD and TEM, described as agreeing. No uncertainty, size distribution or Scherrer procedure is given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-16p4",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-16p4",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-22p6",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-22p6",
+      "source_sample_label": "22.6 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-22p6",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 22.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average crystal size evaluated by XRD and TEM, described as agreeing. No uncertainty, size distribution or Scherrer procedure is given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-22p6",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-22p6",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-27p3",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-27p3",
+      "source_sample_label": "27.3 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-27p3",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 27.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average crystal size evaluated by XRD and TEM, described as agreeing. No uncertainty, size distribution or Scherrer procedure is given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-27p3",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-27p3",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-32p4",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-32p4",
+      "source_sample_label": "32.4 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-32p4",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 32.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average crystal size evaluated by XRD and TEM, described as agreeing. No uncertainty, size distribution or Scherrer procedure is given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-32p4",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-32p4",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-46p7",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-46p7",
+      "source_sample_label": "46.7 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-46p7",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 46.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average crystal size evaluated by XRD and TEM, described as agreeing. No uncertainty, size distribution or Scherrer procedure is given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-46p7",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-46p7",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-9p1",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-9p1",
+      "source_sample_label": "9.1 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-9p1",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 9.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average crystal size evaluated by XRD and TEM, described as agreeing. No uncertainty, size distribution or Scherrer procedure is given.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-9p1",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-9p1",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang1994-life5o8-peg-series::yang1994-life5o8-peg-series-gt100",
+      "record_id": "yang1994-life5o8-peg-series",
+      "record_page_path": "records/yang1994-life5o8-peg-series.html",
+      "source_group": "yang1994-life5o8-bf00571768",
+      "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "doi": "10.1007/BF00571768",
+      "year": 1994,
+      "method": "Poly(ethylene glycol) gel preparation and air calcination",
+      "recipe_label": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
+      "sample_id": "yang1994-life5o8-peg-series-gt100",
+      "source_sample_label": ">100 nm",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "LiFe5O8",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1994-life5o8-bf00571768",
+            "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1994-life5o8-bf00571768",
+          "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Spinel-type LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+              }
+            ],
+            "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystal-size-gt100",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 100,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Strictly greater than 100 nm as reported; no exact value or upper bound.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": true
+          },
+          "technique": "XRD and TEM",
+          "conditions": "D/max-r A diffractometer and JEM-2000 FX microscope; source size-method agreement stated. No source TEM panel or specimen-specific thermal schedule.",
+          "evidence": [
+            {
+              "source_id": "yang1994-life5o8-bf00571768",
+              "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Spinel-type lithium ferrite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Opening preparation statement and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1994-life5o8-peg-series-gt100",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "LiFe5O8",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1994-life5o8-bf00571768",
+                "locator": "Main PDF p. 1, Preparation size series and XRD/TEM method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Spinel-type LiFe5O8",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1994-life5o8-bf00571768",
+                  "locator": "Main PDF p. 1, Opening phase statement and XRD discussion/Figure 2"
+                }
+              ],
+              "note": "Source assigns the ferrite series; no resolved space group, atom coordinates or individual trace mapping is supplied."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Average crystal size is reported, but no TEM image or crystal-shape description is supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystal-size-gt100",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
               }
             ]
           }
