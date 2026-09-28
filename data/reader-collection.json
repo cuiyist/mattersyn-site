@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 83,
+  "material_families": 85,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -55,6 +55,8 @@
     "CuS + Cu1.8S",
     "CuSbS2",
     "FAPbI3",
+    "Fe3O4",
+    "FeIn2S4",
     "FePt/CdS",
     "Fe–O",
     "Ge/Si",
@@ -87,13 +89,13 @@
     "ZnSe",
     "ZnSe:Cr"
   ],
-  "contributing_papers": 72,
-  "synthesis_structure_pairs": 212,
+  "contributing_papers": 74,
+  "synthesis_structure_pairs": 217,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 209,
+  "partial_pairs": 214,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1011,
+  "all_records": 1021,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -29718,6 +29720,809 @@
       }
     },
     {
+      "pair_row_id": "lu1999-fein2s4-200c::lu1999-fein2s4-200c-product",
+      "record_id": "lu1999-fein2s4-200c",
+      "record_page_path": "records/lu1999-fein2s4-200c.html",
+      "source_group": "lu1999-fein2s4",
+      "title": "Lu et al. (1999): 200 °C low-crystallinity comparison",
+      "doi": "10.1246/cl.1999.481",
+      "year": 1999,
+      "method": "Solvothermal synthesis",
+      "recipe_label": "Lu et al. (1999): 200 °C low-crystallinity comparison",
+      "sample_id": "lu1999-fein2s4-200c-product",
+      "source_sample_label": "FeIn2S4 at 200 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "FeIn2S4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-fein2s4",
+            "locator": "Main PDF p. 2, Temperature discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-fein2s4",
+          "locator": "Main PDF p. 2, Temperature discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystallinity",
+          "property": "crystallinity",
+          "descriptor_field": "crystal_structure.crystalline_character",
+          "value": {
+            "value": "Poor crystallinity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, Temperature discussion"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Source temperature comparison",
+          "conditions": "No crystallinity fraction or diffraction-width value is supplied.",
+          "evidence": [
+            {
+              "source_id": "lu1999-fein2s4",
+              "locator": "Main PDF p. 2, Temperature discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-fein2s4-200c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "wash-state",
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, Temperature discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystallinity",
+                "property": "crystallinity",
+                "field": "crystal_structure.crystalline_character"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-fein2s4-benzene-280c-12h::lu1999-fein2s4-benzene-280c-12h-product",
+      "record_id": "lu1999-fein2s4-benzene-280c-12h",
+      "record_page_path": "records/lu1999-fein2s4-benzene-280c-12h.html",
+      "source_group": "lu1999-fein2s4",
+      "title": "Lu et al. (1999): benzene, 280 °C for 12 h",
+      "doi": "10.1246/cl.1999.481",
+      "year": 1999,
+      "method": "Solvothermal synthesis",
+      "recipe_label": "Lu et al. (1999): benzene, 280 °C for 12 h",
+      "sample_id": "lu1999-fein2s4-benzene-280c-12h-product",
+      "source_sample_label": "Benzene-prepared FeIn2S4 nanocrystallites",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "FeIn2S4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-fein2s4",
+            "locator": "Main PDF p. 1–2, Figures 1–2 and structural discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-fein2s4",
+          "locator": "Main PDF p. 1–2, Figures 1–2 and structural discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, Figure 1 and XRD discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform spherical grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, TEM discussion continuing Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 10.63,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, XRD discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Powder XRD",
+          "conditions": "Rigaku Dmax gamma A; Cu K-alpha, wavelength 1.54178 angstrom. Reference 10.62 angstrom / JCPDS16-170 is separate.",
+          "evidence": [
+            {
+              "source_id": "lu1999-fein2s4",
+              "locator": "Main PDF p. 1, XRD discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, XRD discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer analysis",
+          "conditions": "Author-calculated average from diffraction broadening. Source calls this particle size, but measurement basis is coherent-domain estimation.",
+          "evidence": [
+            {
+              "source_id": "lu1999-fein2s4",
+              "locator": "Main PDF p. 1, XRD discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-range",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 3,
+            "maximum": 6,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Observed particle-size range; not a measured exact TEM mean. Hitachi H-800, Figure 2 with 50 nm scale.",
+          "evidence": [
+            {
+              "source_id": "lu1999-fein2s4",
+              "locator": "Main PDF p. 2, TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-fein2s4-benzene-280c-12h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "wash-state",
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1–2, Figures 1–2 and structural discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic FeIn2S4",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-fein2s4",
+                  "locator": "Main PDF p. 1, Figure 1 and XRD discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniform spherical grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-fein2s4",
+                  "locator": "Main PDF p. 2, TEM discussion continuing Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-range",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-fein2s4-ethylenediamine::lu1999-fein2s4-ethylenediamine-product",
+      "record_id": "lu1999-fein2s4-ethylenediamine",
+      "record_page_path": "records/lu1999-fein2s4-ethylenediamine.html",
+      "source_group": "lu1999-fein2s4",
+      "title": "Lu et al. (1999): ethylenediamine solvent comparison",
+      "doi": "10.1246/cl.1999.481",
+      "year": 1999,
+      "method": "Solvothermal synthesis",
+      "recipe_label": "Lu et al. (1999): ethylenediamine solvent comparison",
+      "sample_id": "lu1999-fein2s4-ethylenediamine-product",
+      "source_sample_label": "FeIn2S4 prepared in ethylenediamine",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "FeIn2S4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-fein2s4",
+            "locator": "Main PDF p. 2, Solvent comparison"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-fein2s4",
+          "locator": "Main PDF p. 2, Solvent comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular morphology with preferred orientation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, Solvent comparison"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-fein2s4-ethylenediamine-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "wash-state",
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, Solvent comparison"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Irregular morphology with preferred orientation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-fein2s4",
+                  "locator": "Main PDF p. 2, Solvent comparison"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-fein2s4-pyridine::lu1999-fein2s4-pyridine-product",
+      "record_id": "lu1999-fein2s4-pyridine",
+      "record_page_path": "records/lu1999-fein2s4-pyridine.html",
+      "source_group": "lu1999-fein2s4",
+      "title": "Lu et al. (1999): pyridine solvent comparison",
+      "doi": "10.1246/cl.1999.481",
+      "year": 1999,
+      "method": "Solvothermal synthesis",
+      "recipe_label": "Lu et al. (1999): pyridine solvent comparison",
+      "sample_id": "lu1999-fein2s4-pyridine-product",
+      "source_sample_label": "FeIn2S4 prepared in pyridine",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "FeIn2S4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-fein2s4",
+            "locator": "Main PDF p. 2, Solvent comparison"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-fein2s4",
+          "locator": "Main PDF p. 2, Solvent comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular morphology with preferred orientation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, Solvent comparison"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-fein2s4-pyridine-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "wash-state",
+          "composition": {
+            "value": "FeIn2S4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-fein2s4",
+                "locator": "Main PDF p. 2, Solvent comparison"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Irregular morphology with preferred orientation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-fein2s4",
+                  "locator": "Main PDF p. 2, Solvent comparison"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "matuhina-2023-hot-injection-series::nc150",
       "record_id": "matuhina-2023-hot-injection-series",
       "record_page_path": "records/matuhina-2023-hot-injection-series.html",
@@ -54702,6 +55507,264 @@
           "ag-fcc-cod-9008459",
           "si-diamond-cod-9008565"
         ],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "tang2001-fe3o4-pld-350c::tang2001-fe3o4-pld-350c-product",
+      "record_id": "tang2001-fe3o4-pld-350c",
+      "record_page_path": "records/tang2001-fe3o4-pld-350c.html",
+      "source_group": "tang2001-fe3o4-pld",
+      "title": "Tang et al. (2001): nanocrystalline Fe3O4 film on Si(100)",
+      "doi": "10.1063/1.1358350",
+      "year": 2001,
+      "method": "Pulsed laser deposition",
+      "recipe_label": "Tang et al. (2001): nanocrystalline Fe3O4 film on Si(100)",
+      "sample_id": "tang2001-fe3o4-pld-350c-product",
+      "source_sample_label": "Approximately 180 nm nanocrystalline magnetite film on Si(100)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tang2001-fe3o4-pld",
+            "locator": "Supplied PDF p. 2, Abstract, preparation, Figure 1 and TEM discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tang2001-fe3o4-pld",
+          "locator": "Supplied PDF p. 2, Abstract, preparation, Figure 1 and TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Magnetite Fe3O4 (XRD-assigned)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tang2001-fe3o4-pld",
+                "locator": "Supplied PDF p. 2, Figure 1 and powder-card comparison"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystalline film with grains containing antiphase domains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tang2001-fe3o4-pld",
+                "locator": "Supplied PDF p. 2–3, Figure 2 and TEM discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 180,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Approximately 180 nm; measurement technique not specified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tang2001-fe3o4-pld",
+                "locator": "Supplied PDF p. 2, Abstract and preparation"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported film thickness",
+          "conditions": "Total film thickness, not grain diameter.",
+          "evidence": [
+            {
+              "source_id": "tang2001-fe3o4-pld",
+              "locator": "Supplied PDF p. 2, Abstract and preparation"
+            }
+          ]
+        },
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 0.8392,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source notation a=0.8392(2) nm; parenthetical uncertainty preserved without assuming a confidence level.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tang2001-fe3o4-pld",
+                "locator": "Supplied PDF p. 2, Figure 1 discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Glancing-angle XRD",
+          "conditions": "Philips X’Pert with Cu K-alpha radiation; powder card 19-629 comparison.",
+          "evidence": [
+            {
+              "source_id": "tang2001-fe3o4-pld",
+              "locator": "Supplied PDF p. 2, Figure 1 discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tang2001-fe3o4-pld",
+                "locator": "Supplied PDF p. 2, Preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tang2001-fe3o4-pld-350c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "deposit-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tang2001-fe3o4-pld",
+                "locator": "Supplied PDF p. 2, Abstract, preparation, Figure 1 and TEM discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Magnetite Fe3O4 (XRD-assigned)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tang2001-fe3o4-pld",
+                  "locator": "Supplied PDF p. 2, Figure 1 and powder-card comparison"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystalline film with grains containing antiphase domains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tang2001-fe3o4-pld",
+                  "locator": "Supplied PDF p. 2–3, Figure 2 and TEM discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              },
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],

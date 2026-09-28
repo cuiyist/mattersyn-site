@@ -4,59 +4,59 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4195,
+    "local_paper_groups_indexed": 4197,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
-    "canonical_records": 1011,
-    "reviewed_literature_records": 911,
-    "reviewed_literature_source_groups": 71,
+    "canonical_records": 1021,
+    "reviewed_literature_records": 921,
+    "reviewed_literature_source_groups": 73,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 72,
+    "total_canonical_source_groups": 74,
     "formal_full_main_and_matched_si_reviews": 27,
     "formal_full_review_pages": 638,
-    "formal_full_main_reviews_si_unverified": 39,
-    "formal_full_main_only_review_pages": 269,
+    "formal_full_main_reviews_si_unverified": 41,
+    "formal_full_main_only_review_pages": 275,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
     "local_groups_without_canonical_records": 4123,
-    "synthesis_route_variant_records": 309,
+    "synthesis_route_variant_records": 315,
     "contextual_control_variant_records": 44,
-    "shared_preparation_workup_characterization_assay_procedures": 309,
-    "nonprocedure_literature_records": 602,
+    "shared_preparation_workup_characterization_assay_procedures": 313,
+    "nonprocedure_literature_records": 608,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 172,
+      "literature_protocol": 178,
       "observation": 211,
-      "procedure": 309,
+      "procedure": 313,
       "protocol_variant": 181
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 172,
+      "literature_protocol": 178,
       "observation": 211,
-      "procedure": 309,
+      "procedure": 313,
       "protocol_variant": 181
     },
-    "literature_recipe_family_ids": 152,
-    "primary_synthesis_recipe_family_ids": 105,
-    "public_material_hubs": 94,
-    "direct_synthesis_target_systems": 83,
+    "literature_recipe_family_ids": 154,
+    "primary_synthesis_recipe_family_ids": 107,
+    "public_material_hubs": 96,
+    "direct_synthesis_target_systems": 85,
     "component_only_hubs": 11,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 119,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 121,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 211,
-    "recipe_or_control_literature_records": 353,
+    "recipe_or_control_literature_records": 359,
     "contextual_observation_family_ids": 65,
-    "source_checked_synthesis_structure_rows": 212,
-    "source_groups_with_synthesis_structure_rows": 52,
+    "source_checked_synthesis_structure_rows": 217,
+    "source_groups_with_synthesis_structure_rows": 54,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -133,6 +133,8 @@
       "CuS + Cu1.8S",
       "CuSbS2",
       "FAPbI3",
+      "Fe3O4",
+      "FeIn2S4",
       "FePt/CdS",
       "Fe–O",
       "Ge/Si",
@@ -2724,6 +2726,77 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "lu1999-fein2s4",
+      "doi": "10.1246/cl.1999.481",
+      "url": "https://doi.org/10.1246/cl.1999.481",
+      "title": "The Solvothermal Synthesis for Nanocrystalline FeIn2S4 at Low Temperature",
+      "year": 1999,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent scientific audit of both scanned main pages through visual reading and the accepted correction revision passed. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 2,
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "reading_method": "Full visual reading of scanned text and figures; no usable text layer"
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/lu1999-fein2s4.json",
+      "paper_review_url": "paper-review.html?id=lu1999-fein2s4",
+      "si_status": "not_located_or_verified",
+      "notes": [
+        "Five source preparation views: main benzene, unhydrated FeCl3, pyridine, ethylenediamine and 200 °C.",
+        "Three mechanistic controls are supporting contexts with no new material hub.",
+        "Absolute precursor charges are unreported;1:3:4 proportions are calculated from source equation/theoretical-ratio statement.",
+        "Unknown absolute-alcohol identity is preserved; no ethanol structure assigned.",
+        "Main TEM particle range, Scherrer coherence size and cited general spinel site model remain distinct.",
+        "Both exact source figures concern the main benzene product. Publisher permission remains unverified.",
+        "Current broad metric projects four rows after hypothetical acceptance; qualitative irregular morphology and low crystallinity are incomplete structural descriptors, not comprehensive coordinate pairs."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 8,
+      "synthesis_route_variant_count": 5,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 3,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 12,
+      "record_type_counts": {
+        "literature_protocol": 5,
+        "procedure": 3
+      },
+      "canonical_recipe_family_ids": [
+        "lu1999-fein2s4"
+      ],
+      "direct_route_material_systems": [
+        "FeIn2S4"
+      ],
+      "record_ids": [
+        "lu1999-control-fe-in-s",
+        "lu1999-control-fe-s",
+        "lu1999-control-fecl3-s",
+        "lu1999-fein2s4-200c",
+        "lu1999-fein2s4-benzene-280c-12h",
+        "lu1999-fein2s4-ethylenediamine",
+        "lu1999-fein2s4-pyridine",
+        "lu1999-fein2s4-unhydrated-fecl3"
+      ],
+      "record_urls": {
+        "lu1999-control-fe-in-s": "records/lu1999-control-fe-in-s.html",
+        "lu1999-control-fe-s": "records/lu1999-control-fe-s.html",
+        "lu1999-control-fecl3-s": "records/lu1999-control-fecl3-s.html",
+        "lu1999-fein2s4-200c": "records/lu1999-fein2s4-200c.html",
+        "lu1999-fein2s4-benzene-280c-12h": "records/lu1999-fein2s4-benzene-280c-12h.html",
+        "lu1999-fein2s4-ethylenediamine": "records/lu1999-fein2s4-ethylenediamine.html",
+        "lu1999-fein2s4-pyridine": "records/lu1999-fein2s4-pyridine.html",
+        "lu1999-fein2s4-unhydrated-fecl3": "records/lu1999-fein2s4-unhydrated-fecl3.html"
+      },
+      "source_checked_synthesis_structure_rows": 4
+    },
+    {
       "source_group": "matuhina2023",
       "doi": "10.1021/acsanm.2c04342",
       "url": "https://doi.org/10.1021/acsanm.2c04342",
@@ -4592,6 +4665,64 @@
         "stowell-2005-ir-topb-recycling-assay": "records/stowell-2005-ir-topb-recycling-assay.html"
       },
       "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "tang2001-fe3o4-pld",
+      "doi": "10.1063/1.1358350",
+      "url": "https://doi.org/10.1063/1.1358350",
+      "title": "Magnetic properties of nanocrystalline Fe3O4 films",
+      "year": 2001,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent scientific audit of all four supplied pages (one publisher cover and three main article pages) and the accepted correction revision passed. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "reading_method": "Complete cached-text and visual source-page reading; page 1 is a publisher cover"
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/tang2001-fe3o4-pld.json",
+      "paper_review_url": "paper-review.html?id=tang2001-fe3o4-pld",
+      "si_status": "not_located_or_verified",
+      "notes": [
+        "One direct Fe3O4 film preparation plus a supporting alpha-Fe2O3 target preparation.",
+        "The 3 × 10^-6 Torr value belongs to pre-deposition cleaning; the deposition pressure is unreported.",
+        "Temperature/field magnetic measurements enrich one product; they are not extra recipe variants.",
+        "External resistance and sputtered-film comparisons remain cited contexts, not new own samples.",
+        "Six exact source crops retain provenance and unverified publisher permission.",
+        "One broad pair after hypothetical acceptance; no measured coordinate asset supplied."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 1,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 14,
+      "record_type_counts": {
+        "literature_protocol": 1,
+        "procedure": 1
+      },
+      "canonical_recipe_family_ids": [
+        "tang2001-fe3o4-pld"
+      ],
+      "direct_route_material_systems": [
+        "Fe3O4"
+      ],
+      "record_ids": [
+        "tang2001-alpha-fe2o3-target",
+        "tang2001-fe3o4-pld-350c"
+      ],
+      "record_urls": {
+        "tang2001-alpha-fe2o3-target": "records/tang2001-alpha-fe2o3-target.html",
+        "tang2001-fe3o4-pld-350c": "records/tang2001-fe3o4-pld-350c.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
     },
     {
       "source_group": "tessier2015",
@@ -10184,6 +10315,82 @@
       ]
     },
     {
+      "material_system": "Fe3O4",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "tang2001-fe3o4-pld-350c"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "fe3o4-a36358",
+      "material_hub_url": "material.html?id=fe3o4-a36358",
+      "source_groups": [
+        "tang2001-fe3o4-pld"
+      ],
+      "source_links": [
+        {
+          "source_group": "tang2001-fe3o4-pld",
+          "doi": "10.1063/1.1358350",
+          "url": "https://doi.org/10.1063/1.1358350",
+          "title": "Magnetic properties of nanocrystalline Fe3O4 films"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "tang2001-fe3o4-pld"
+      ]
+    },
+    {
+      "material_system": "FeIn2S4",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 5,
+      "direct_route_record_ids": [
+        "lu1999-fein2s4-200c",
+        "lu1999-fein2s4-benzene-280c-12h",
+        "lu1999-fein2s4-ethylenediamine",
+        "lu1999-fein2s4-pyridine",
+        "lu1999-fein2s4-unhydrated-fecl3"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 1,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 5,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "fein2s4-f25a59",
+      "material_hub_url": "material.html?id=fein2s4-f25a59",
+      "source_groups": [
+        "lu1999-fein2s4"
+      ],
+      "source_links": [
+        {
+          "source_group": "lu1999-fein2s4",
+          "doi": "10.1246/cl.1999.481",
+          "url": "https://doi.org/10.1246/cl.1999.481",
+          "title": "The Solvothermal Synthesis for Nanocrystalline FeIn2S4 at Low Temperature"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "lu1999-fein2s4"
+      ]
+    },
+    {
       "material_system": "FePt",
       "notes": [],
       "direct_synthesis_route_variant_count": 0,
@@ -13149,8 +13356,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "438141515d1a30e67e468a49f1397845bc1b22b1a6b27945583883f6dc1ca83d",
-    "record_ids_sha256": "f27aaeb4333382fefa9d1213a5f0e151564a29b50fc043c87d8b056414e55e36",
+    "reviewed_evidence_sha256": "6594a20b6e87339819486d3d267778e14db4aef312aa73680917eb6d423c6e91",
+    "record_ids_sha256": "27de5c04199b12cd6a7f18aa20ef78b549286e7b1991ab0f438bedef6bdcf3e8",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }
