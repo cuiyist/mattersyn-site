@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 299,
-    "source_groups": 68,
-    "records": 260,
+    "recipe_structure_rows": 313,
+    "source_groups": 71,
+    "records": 274,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -1369,6 +1369,660 @@
                 "field": "crystal_structure.phase_lattice"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "baumgardner2010-snse-105c::baumgardner2010-snse-105c-product",
+      "record_id": "baumgardner2010-snse-105c",
+      "record_page_path": "records/baumgardner2010-snse-105c.html",
+      "source_group": "baumgardner2010-snse-ja1013745",
+      "title": "Baumgardner et al. (2010): 105 °C hot-injection specimen",
+      "doi": "10.1021/ja1013745",
+      "year": 2010,
+      "method": "SnSe hot injection with post-nucleation oleic acid",
+      "recipe_label": "Baumgardner et al. (2010): 105 °C hot-injection specimen",
+      "sample_id": "baumgardner2010-snse-105c-product",
+      "source_sample_label": "105 °C SnSe specimen",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 1, Synthetic-method paragraph"
+          },
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 1, Synthetic-method paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Primarily Cmcm character",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+              }
+            ],
+            "note": "Author figure assignment; prose explicitly says peak broadening and similar structures prevent conclusive unambiguous assignment. No phase fraction or refined coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Synthetic-method paragraph"
+              },
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 2, Figure 2 caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "baumgardner2010-snse-105c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "clean-state",
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Synthetic-method paragraph"
+              },
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Primarily Cmcm character",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "baumgardner2010-snse-ja1013745",
+                  "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+                }
+              ],
+              "note": "Author figure assignment; prose explicitly says peak broadening and similar structures prevent conclusive unambiguous assignment. No phase fraction or refined coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned morphology image or numerical mean size for this temperature in the supplied main."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "baumgardner2010-snse-155c::baumgardner2010-snse-155c-product",
+      "record_id": "baumgardner2010-snse-155c",
+      "record_page_path": "records/baumgardner2010-snse-155c.html",
+      "source_group": "baumgardner2010-snse-ja1013745",
+      "title": "Baumgardner et al. (2010): 155 °C hot-injection specimen",
+      "doi": "10.1021/ja1013745",
+      "year": 2010,
+      "method": "SnSe hot injection with post-nucleation oleic acid",
+      "recipe_label": "Baumgardner et al. (2010): 155 °C hot-injection specimen",
+      "sample_id": "baumgardner2010-snse-155c-product",
+      "source_sample_label": "155 °C SnSe specimen",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 1, Synthetic-method paragraph"
+          },
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 1, Synthetic-method paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular, pseudospherical nanocrystals; stacking faults visible",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion"
+              }
+            ],
+            "note": "Figure 1 TEM description; no precise mean diameter is reported for this specimen."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-fringes",
+          "property": "crystallinity",
+          "descriptor_field": "crystal_structure.crystalline_character",
+          "value": {
+            "value": "(200) and (111) lattice fringes; FFT inset and stacking faults",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion"
+              }
+            ],
+            "note": "Index labels reported; no exact d spacings digitized from the image."
+          },
+          "technique": "HRTEM / FFT",
+          "conditions": "Figure 1B: 5 nm scale; ensemble panel A: 100 nm scale. Figure 1C is an illustrative Pnma model.",
+          "evidence": [
+            {
+              "source_id": "baumgardner2010-snse-ja1013745",
+              "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Synthetic-method paragraph"
+              },
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "baumgardner2010-snse-155c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "clean-state",
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Synthetic-method paragraph"
+              },
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Figure 1c is a Pnma structural model, not a uniquely measured phase assignment for the 155 °C TEM specimen."
+            },
+            "morphology": {
+              "value": "Irregular, pseudospherical nanocrystals; stacking faults visible",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "baumgardner2010-snse-ja1013745",
+                  "locator": "Main PDF p. 1, Figure 1 and p. 2 TEM discussion"
+                }
+              ],
+              "note": "Figure 1 TEM description; no precise mean diameter is reported for this specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-fringes",
+                "property": "crystallinity",
+                "field": "crystal_structure.crystalline_character"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "baumgardner2010-snse-175c::baumgardner2010-snse-175c-product",
+      "record_id": "baumgardner2010-snse-175c",
+      "record_page_path": "records/baumgardner2010-snse-175c.html",
+      "source_group": "baumgardner2010-snse-ja1013745",
+      "title": "Baumgardner et al. (2010): 175 °C hot-injection specimen",
+      "doi": "10.1021/ja1013745",
+      "year": 2010,
+      "method": "SnSe hot injection with post-nucleation oleic acid",
+      "recipe_label": "Baumgardner et al. (2010): 175 °C hot-injection specimen",
+      "sample_id": "baumgardner2010-snse-175c-product",
+      "source_sample_label": "175 °C SnSe specimen",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 1, Synthetic-method paragraph"
+          },
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 1, Synthetic-method paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Primarily Pnma character",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+              }
+            ],
+            "note": "Author figure assignment; prose explicitly says peak broadening and similar structures prevent conclusive unambiguous assignment. No phase fraction or refined coordinates."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Synthetic-method paragraph"
+              },
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 2, Figure 2 caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "baumgardner2010-snse-175c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "clean-state",
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 1, Synthetic-method paragraph"
+              },
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Primarily Pnma character",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "baumgardner2010-snse-ja1013745",
+                  "locator": "Main PDF p. 2, Figure 2 and phase-assignment discussion"
+                }
+              ],
+              "note": "Author figure assignment; prose explicitly says peak broadening and similar structures prevent conclusive unambiguous assignment. No phase fraction or refined coordinates."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately assigned morphology image or numerical mean size for this temperature in the supplied main."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "baumgardner2010-snse-ddt-growth::baumgardner2010-snse-ddt-growth-product",
+      "record_id": "baumgardner2010-snse-ddt-growth",
+      "record_page_path": "records/baumgardner2010-snse-ddt-growth.html",
+      "source_group": "baumgardner2010-snse-ja1013745",
+      "title": "Baumgardner et al. (2010): Dodecanethiol-modified anisotropic growth",
+      "doi": "10.1021/ja1013745",
+      "year": 2010,
+      "method": "Colloidal hot-injection synthesis",
+      "recipe_label": "Baumgardner et al. (2010): Dodecanethiol-modified anisotropic growth",
+      "sample_id": "baumgardner2010-snse-ddt-growth-product",
+      "source_sample_label": "Dodecanethiol-grown anisotropic SnSe, main-text report",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "baumgardner2010-snse-ja1013745",
+            "locator": "Main PDF p. 3, Surface chemistry and transport discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "baumgardner2010-snse-ja1013745",
+          "locator": "Main PDF p. 3, Surface chemistry and transport discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Complex elongated nanocrystals including branched superstructures",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 3, Surface chemistry and transport discussion"
+              }
+            ],
+            "note": "Reported in the main with Figure S6 referenced but unreviewed; no dimensions, morphology fractions or measured 3D geometry supplied."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 3, Dodecanethiol-modified synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "baumgardner2010-snse-ddt-growth-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ddt-grow-state",
+          "composition": {
+            "value": "SnSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "baumgardner2010-snse-ja1013745",
+                "locator": "Main PDF p. 3, Surface chemistry and transport discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separate specimen phase assignment supplied."
+            },
+            "morphology": {
+              "value": "Complex elongated nanocrystals including branched superstructures",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "baumgardner2010-snse-ja1013745",
+                  "locator": "Main PDF p. 3, Surface chemistry and transport discussion"
+                }
+              ],
+              "note": "Reported in the main with Figure S6 referenced but unreviewed; no dimensions, morphology fractions or measured 3D geometry supplied."
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -18053,6 +18707,2049 @@
               "note": "Particle shape is not separately specified; no TEM/SEM image appears in the supplied main."
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-01::iwasaki1998-tio2-a1006660209934-run-01-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-01",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-01.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 1 — Ethanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 1 — Ethanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-01-product",
+      "source_sample_label": "Table I run 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 2.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-01-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-02::iwasaki1998-tio2-a1006660209934-run-02-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-02",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-02.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 2 — Ethanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 2 — Ethanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-02-product",
+      "source_sample_label": "Table I run 2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 2.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-02-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-03::iwasaki1998-tio2-a1006660209934-run-03-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-03",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-03.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 3 — Ethanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 3 — Ethanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-03-product",
+      "source_sample_label": "Table I run 3",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 2.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-aggregate-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "Particle/aggregate diameter; crystallite size separately2.7nm",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, Figure 3 and continued TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JOEL JEM3010 as printed,300kV; Figure3 scale50nm. Weakly agglomerated particles; average particle size3.7times crystallite size. Specimen grid/preparation unreported.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 2–3, Figure 3 and continued TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-03-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-aggregate-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-04::iwasaki1998-tio2-a1006660209934-run-04-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-04",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-04.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 4 — Ethanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 4 — Ethanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-04-product",
+      "source_sample_label": "Table I run 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 4.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-04-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-05::iwasaki1998-tio2-a1006660209934-run-05-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-05",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-05.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 5 — Ethanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 5 — Ethanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-05-product",
+      "source_sample_label": "Table I run 5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 5.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-05-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 5"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-06::iwasaki1998-tio2-a1006660209934-run-06-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-06",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-06.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 6 — Ethanol/water, 4 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 6 — Ethanol/water, 4 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-06-product",
+      "source_sample_label": "Table I run 6",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 6.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-06-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 6"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-07::iwasaki1998-tio2-a1006660209934-run-07-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-07",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-07.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 7 — Ethanol/water, 8 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 7 — Ethanol/water, 8 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-07-product",
+      "source_sample_label": "Table I run 7",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 6.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-07-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 7"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-08::iwasaki1998-tio2-a1006660209934-run-08-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-08",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-08.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 8 — Methanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 8 — Methanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-08-product",
+      "source_sample_label": "Table I run 8",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 3.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-08-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 8"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-09::iwasaki1998-tio2-a1006660209934-run-09-product",
+      "record_id": "iwasaki1998-tio2-a1006660209934-run-09",
+      "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-09.html",
+      "source_group": "iwasaki1998-tio2-a1006660209934",
+      "title": "Iwasaki et al. (1998): anatase run 9 — n-Propanol/water, 2 h reflux",
+      "doi": "10.1023/A:1006660209934",
+      "year": 1998,
+      "method": "Alcohol–water reflux hydrolysis",
+      "recipe_label": "Iwasaki et al. (1998): anatase run 9 — n-Propanol/water, 2 h reflux",
+      "sample_id": "iwasaki1998-tio2-a1006660209934-run-09-product",
+      "source_sample_label": "Table I run 9",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "iwasaki1998-tio2-a1006660209934",
+            "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9",
+          "claim": null
+        },
+        {
+          "source_id": "iwasaki1998-tio2-a1006660209934",
+          "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+              },
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystallites; particle aggregation is context-dependent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-crystallite-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 2.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Author-reported calculation from anatase (101) half-peak width at half-height; not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer",
+          "conditions": "Rigaku RINT 2000; Ni-filtered Cu Kα; reported scan 5–70 degrees; wavelength, instrumental correction and uncertainty absent.",
+          "evidence": [
+            {
+              "source_id": "iwasaki1998-tio2-a1006660209934",
+              "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 1, p. 1769, experimental preparation"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "iwasaki1998-tio2-a1006660209934-run-09-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "iwasaki1998-tio2-a1006660209934",
+                "locator": "Supplied main PDF p. 2, p. 1770, phase assignment"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+                },
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 2–3, anatase phase and heat-treatment discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystallites; particle aggregation is context-dependent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "iwasaki1998-tio2-a1006660209934",
+                  "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-crystallite-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
           }
         }
       },
@@ -50191,6 +52888,211 @@
               {
                 "measurement_id": "tem-particle-size",
                 "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "watt2004-pbs-mehppv-one-pot::watt2004-pbs-mehppv-one-pot-product",
+      "record_id": "watt2004-pbs-mehppv-one-pot",
+      "record_page_path": "records/watt2004-pbs-mehppv-one-pot.html",
+      "source_group": "watt2004-pbs-mehppv-b406060a",
+      "title": "Watt et al. (2004): one-pot PbS/polymer composite",
+      "doi": "10.1039/b406060a",
+      "year": 2004,
+      "method": "One-pot growth in conjugated polymer",
+      "recipe_label": "Watt et al. (2004): one-pot PbS/polymer composite",
+      "sample_id": "watt2004-pbs-mehppv-one-pot-product",
+      "source_sample_label": "Representative cleaned PbS/MEH-PPV composite; TEM time unspecified",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS nanocrystals in MEH-PPV",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "watt2004-pbs-mehppv-b406060a",
+            "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "watt2004-pbs-mehppv-b406060a",
+          "locator": "Main PDF p. 1, Typical preparation and cleaned-product/aliquot characterization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic PbS component",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "watt2004-pbs-mehppv-b406060a",
+                "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+              }
+            ],
+            "note": "Selected-area diffraction along[111]; no numerical lattice constant or atomic coordinates reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nonaggregated, polydisperse nanocrystals in a continuous ultrathin composite film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "watt2004-pbs-mehppv-b406060a",
+                "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+              }
+            ],
+            "note": "Source TEM description; no precise3D shape or polymer thickness."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported average4±2nm, polydisperse; uncertainty statistic and averaging basis unreported. Not separately assigned to a timed optical aliquot.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "watt2004-pbs-mehppv-b406060a",
+                "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM/STEM",
+          "conditions": "Cleaned product diluted and deposited on ultrathin carbon-coated copper grid, Formvar removed; Tecnai20.",
+          "evidence": [
+            {
+              "source_id": "watt2004-pbs-mehppv-b406060a",
+              "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS in MEH-PPV",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "watt2004-pbs-mehppv-b406060a",
+                "locator": "Main PDF p. 1, Synthesis and characterization methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "MEH-PPV polymer matrix",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "watt2004-pbs-mehppv-b406060a",
+                "locator": "Main PDF p. 1, Synthesis and characterization methods"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "watt2004-pbs-mehppv-one-pot-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "PbS nanocrystals in MEH-PPV",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "watt2004-pbs-mehppv-b406060a",
+                "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic PbS component",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "watt2004-pbs-mehppv-b406060a",
+                  "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+                }
+              ],
+              "note": "Selected-area diffraction along[111]; no numerical lattice constant or atomic coordinates reported."
+            },
+            "morphology": {
+              "value": "Nonaggregated, polydisperse nanocrystals in a continuous ultrathin composite film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "watt2004-pbs-mehppv-b406060a",
+                  "locator": "Main PDF p. 1–2, TEM discussion and Figure1"
+                }
+              ],
+              "note": "Source TEM description; no precise3D shape or polymer thickness."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
                 "field": "morphology.dimensions"
               }
             ]
