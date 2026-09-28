@@ -4,59 +4,59 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4197,
+    "local_paper_groups_indexed": 4198,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
-    "canonical_records": 1021,
-    "reviewed_literature_records": 921,
-    "reviewed_literature_source_groups": 73,
+    "canonical_records": 1025,
+    "reviewed_literature_records": 925,
+    "reviewed_literature_source_groups": 74,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 74,
+    "total_canonical_source_groups": 75,
     "formal_full_main_and_matched_si_reviews": 27,
     "formal_full_review_pages": 638,
-    "formal_full_main_reviews_si_unverified": 41,
-    "formal_full_main_only_review_pages": 275,
+    "formal_full_main_reviews_si_unverified": 42,
+    "formal_full_main_only_review_pages": 277,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
     "local_groups_without_canonical_records": 4123,
-    "synthesis_route_variant_records": 315,
+    "synthesis_route_variant_records": 319,
     "contextual_control_variant_records": 44,
     "shared_preparation_workup_characterization_assay_procedures": 313,
-    "nonprocedure_literature_records": 608,
+    "nonprocedure_literature_records": 612,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 178,
+      "literature_protocol": 182,
       "observation": 211,
       "procedure": 313,
       "protocol_variant": 181
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 178,
+      "literature_protocol": 182,
       "observation": 211,
       "procedure": 313,
       "protocol_variant": 181
     },
-    "literature_recipe_family_ids": 154,
-    "primary_synthesis_recipe_family_ids": 107,
-    "public_material_hubs": 96,
-    "direct_synthesis_target_systems": 85,
+    "literature_recipe_family_ids": 155,
+    "primary_synthesis_recipe_family_ids": 108,
+    "public_material_hubs": 97,
+    "direct_synthesis_target_systems": 86,
     "component_only_hubs": 11,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 121,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 122,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 211,
-    "recipe_or_control_literature_records": 359,
+    "recipe_or_control_literature_records": 363,
     "contextual_observation_family_ids": 65,
-    "source_checked_synthesis_structure_rows": 217,
-    "source_groups_with_synthesis_structure_rows": 54,
+    "source_checked_synthesis_structure_rows": 221,
+    "source_groups_with_synthesis_structure_rows": 55,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -90,6 +90,7 @@
       "Ag",
       "Ag/Si",
       "Ag2S",
+      "AlN",
       "Au",
       "Bi2S3",
       "Borosilicate SSZ-48; source does not give a complete empirical formula",
@@ -2724,6 +2725,68 @@
         "littau-1993-si-xrd-characterization": "records/littau-1993-si-xrd-characterization.html"
       },
       "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "lu1999-aln",
+      "doi": "10.1246/cl.1999.1239",
+      "url": "https://doi.org/10.1246/cl.1999.1239",
+      "title": "A Low Temperature Nitridation Route for Nanocrystalline AlN",
+      "year": 1999,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent scientific audit of both complete scanned main pages, all four figures and source-proposed equations passed. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 2,
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "reading_method": "Full visual reading of scanned text and figures; no usable text layer"
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/lu1999-aln.json",
+      "paper_review_url": "paper-review.html?id=lu1999-aln",
+      "si_status": "not_located_or_verified",
+      "notes": [
+        "Four source preparations: NH4Cl:Al ratios 3:1, 2:1 and 1:1, and about 500 °C.",
+        "Unrestated alternative conditions retain shared-method inference status. The low-temperature sample has no separately supplied feed ratio.",
+        "Relative molar charges are not absolute reagent amounts; net reaction coefficients are distinct from optimized feed ratio.",
+        "Absolute alcohol remains identity-unspecified. Ar is a manipulation context, not asserted hot-vessel atmosphere.",
+        "Primary 6 nm Scherrer coherence size, rounded 6 nm TEM mean, 3–11 nm range and 5.85 nm histogram mean remain distinct. Standard deviation 0.57 has no separately printed unit.",
+        "All four exact source figures are retained with explicit sample scopes. No panel is assigned to the about-500 °C sample. Publisher permission remains unverified.",
+        "Four broad rows after hypothetical acceptance include incomplete phase/impurity and low-crystallinity descriptors, not complete measured-coordinate pairs."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 4,
+      "synthesis_route_variant_count": 4,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 12,
+      "record_type_counts": {
+        "literature_protocol": 4
+      },
+      "canonical_recipe_family_ids": [
+        "lu1999-aln"
+      ],
+      "direct_route_material_systems": [
+        "AlN"
+      ],
+      "record_ids": [
+        "lu1999-aln-580c-1to1",
+        "lu1999-aln-580c-2to1",
+        "lu1999-aln-580c-3to1",
+        "lu1999-aln-about500c"
+      ],
+      "record_urls": {
+        "lu1999-aln-580c-1to1": "records/lu1999-aln-580c-1to1.html",
+        "lu1999-aln-580c-2to1": "records/lu1999-aln-580c-2to1.html",
+        "lu1999-aln-580c-3to1": "records/lu1999-aln-580c-3to1.html",
+        "lu1999-aln-about500c": "records/lu1999-aln-about500c.html"
+      },
+      "source_checked_synthesis_structure_rows": 4
     },
     {
       "source_group": "lu1999-fein2s4",
@@ -6803,6 +6866,45 @@
         }
       ],
       "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "AlN",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 4,
+      "direct_route_record_ids": [
+        "lu1999-aln-580c-1to1",
+        "lu1999-aln-580c-2to1",
+        "lu1999-aln-580c-3to1",
+        "lu1999-aln-about500c"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 4,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "aln-b9f8fc",
+      "material_hub_url": "material.html?id=aln-b9f8fc",
+      "source_groups": [
+        "lu1999-aln"
+      ],
+      "source_links": [
+        {
+          "source_group": "lu1999-aln",
+          "doi": "10.1246/cl.1999.1239",
+          "url": "https://doi.org/10.1246/cl.1999.1239",
+          "title": "A Low Temperature Nitridation Route for Nanocrystalline AlN"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "lu1999-aln"
+      ]
     },
     {
       "material_system": "Antimony-halide A and B calculation contexts",
@@ -13356,8 +13458,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "6594a20b6e87339819486d3d267778e14db4aef312aa73680917eb6d423c6e91",
-    "record_ids_sha256": "27de5c04199b12cd6a7f18aa20ef78b549286e7b1991ab0f438bedef6bdcf3e8",
+    "reviewed_evidence_sha256": "d12a67834439f1920a7f2ea54d2fe23a01728c63b08fac0d80b41fb00c63be8c",
+    "record_ids_sha256": "4c86f66211cbb5826cea1c32b09287ed5a638243cf4670147d9bb352276a5465",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

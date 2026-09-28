@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 85,
+  "material_families": 86,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -12,6 +12,7 @@
     "Ag",
     "Ag/Si",
     "Ag2S",
+    "AlN",
     "Au",
     "Bi2S3",
     "Borosilicate SSZ-48; source does not give a complete empirical formula",
@@ -89,13 +90,13 @@
     "ZnSe",
     "ZnSe:Cr"
   ],
-  "contributing_papers": 74,
-  "synthesis_structure_pairs": 217,
+  "contributing_papers": 75,
+  "synthesis_structure_pairs": 221,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 214,
+  "partial_pairs": 218,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1021,
+  "all_records": 1025,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -29714,6 +29715,917 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-aln-580c-1to1::lu1999-aln-580c-1to1-product",
+      "record_id": "lu1999-aln-580c-1to1",
+      "record_page_path": "records/lu1999-aln-580c-1to1.html",
+      "source_group": "lu1999-aln",
+      "title": "Lu et al. (1999): NH4Cl:Al 1:1 comparison",
+      "doi": "10.1246/cl.1999.1239",
+      "year": 1999,
+      "method": "Autoclave nitridation",
+      "recipe_label": "Lu et al. (1999): NH4Cl:Al 1:1 comparison",
+      "sample_id": "lu1999-aln-580c-1to1-product",
+      "source_sample_label": "NH4Cl:Al 1:1 powder, Figure 4c",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-aln",
+            "locator": "Main PDF p. 2, Figure 4c and feed-ratio discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-aln",
+          "locator": "Main PDF p. 2, Figure 4c and feed-ratio discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "AlN diffraction reflections with residual Al and alpha-Al2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 4c and feed-ratio discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-aln-580c-1to1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 4c and feed-ratio discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "AlN diffraction reflections with residual Al and alpha-Al2O3",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-aln",
+                  "locator": "Main PDF p. 2, Figure 4c and feed-ratio discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-aln-580c-2to1::lu1999-aln-580c-2to1-product",
+      "record_id": "lu1999-aln-580c-2to1",
+      "record_page_path": "records/lu1999-aln-580c-2to1.html",
+      "source_group": "lu1999-aln",
+      "title": "Lu et al. (1999): NH4Cl:Al 2:1 comparison",
+      "doi": "10.1246/cl.1999.1239",
+      "year": 1999,
+      "method": "Autoclave nitridation",
+      "recipe_label": "Lu et al. (1999): NH4Cl:Al 2:1 comparison",
+      "sample_id": "lu1999-aln-580c-2to1-product",
+      "source_sample_label": "NH4Cl:Al 2:1 powder, Figure 4b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-aln",
+            "locator": "Main PDF p. 2, Figure 4b and feed-ratio discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-aln",
+          "locator": "Main PDF p. 2, Figure 4b and feed-ratio discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "AlN diffraction reflections with residual Al and alpha-Al2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 4b and feed-ratio discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-aln-580c-2to1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 4b and feed-ratio discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "AlN diffraction reflections with residual Al and alpha-Al2O3",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-aln",
+                  "locator": "Main PDF p. 2, Figure 4b and feed-ratio discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-aln-580c-3to1::lu1999-aln-580c-3to1-product",
+      "record_id": "lu1999-aln-580c-3to1",
+      "record_page_path": "records/lu1999-aln-580c-3to1.html",
+      "source_group": "lu1999-aln",
+      "title": "Lu et al. (1999): 580 °C, NH4Cl:Al 3:1",
+      "doi": "10.1246/cl.1999.1239",
+      "year": 1999,
+      "method": "Autoclave nitridation",
+      "recipe_label": "Lu et al. (1999): 580 °C, NH4Cl:Al 3:1",
+      "sample_id": "lu1999-aln-580c-3to1-product",
+      "source_sample_label": "Primary 580 °C / NH4Cl:Al 3:1 powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-aln",
+            "locator": "Main PDF p. 1–2, Figures 1–3 and primary structural discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-aln",
+          "locator": "Main PDF p. 1–2, Figures 1–3 and primary structural discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, Figure 1 and XRD indexing"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform spherical particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1–2, Figure 2 and TEM discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 3.11,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, Figure 1 and XRD discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Powder XRD",
+          "conditions": "Rigaku Dmax gamma A; Cu K-alpha, wavelength 1.54178 angstrom. Cited reference lattice values remain contextual.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 1, Figure 1 and XRD discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, XRD discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer analysis",
+          "conditions": "Author-calculated diffraction-coherence estimate; source calls it average particle size.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 1, XRD discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1–2, Figure 2 and TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Rounded reported mean; Hitachi H-800, Figure 2 with 25 nm scale bar.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 1–2, Figure 2 and TEM discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "hist-range",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 3,
+            "maximum": 11,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 3 and histogram discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM particle-size histogram",
+          "conditions": "PDS1010 M Microdensitometer; observed distribution range, not error bounds on the mean.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 2, Figure 3 and histogram discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "hist-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.85,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 3 and histogram discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Particle-size histogram / source calculation",
+          "conditions": "Mean calculated by the source using cited reference 13; cited method not independently inspected.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 2, Figure 3 and histogram discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "hist-standard-deviation",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 0.57,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "The source states standard deviation 0.57 without a separately printed unit. Preserve the number in particle-size-distribution context; no unit asserted.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Figure 3 and histogram discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Particle-size histogram / source calculation",
+          "conditions": "Associated with the 5.85 nm calculated mean; not a separate particle diameter.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 2, Figure 3 and histogram discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-aln-580c-3to1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1–2, Figures 1–3 and primary structural discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal AlN",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-aln",
+                  "locator": "Main PDF p. 1, Figure 1 and XRD indexing"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniform spherical particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lu1999-aln",
+                  "locator": "Main PDF p. 1–2, Figure 2 and TEM discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "hist-range",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "hist-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "hist-standard-deviation",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lu1999-aln-about500c::lu1999-aln-about500c-product",
+      "record_id": "lu1999-aln-about500c",
+      "record_page_path": "records/lu1999-aln-about500c.html",
+      "source_group": "lu1999-aln",
+      "title": "Lu et al. (1999): about 500 °C low-crystallinity comparison",
+      "doi": "10.1246/cl.1999.1239",
+      "year": 1999,
+      "method": "Autoclave nitridation",
+      "recipe_label": "Lu et al. (1999): about 500 °C low-crystallinity comparison",
+      "sample_id": "lu1999-aln-about500c-product",
+      "source_sample_label": "AlN formed at about 500 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AlN",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lu1999-aln",
+            "locator": "Main PDF p. 2, Temperature discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lu1999-aln",
+          "locator": "Main PDF p. 2, Temperature discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "crystallinity",
+          "property": "crystallinity",
+          "descriptor_field": "crystal_structure.crystalline_character",
+          "value": {
+            "value": "Very poor crystallinity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Temperature discussion"
+              }
+            ],
+            "note": ""
+          },
+          "technique": "Source temperature comparison",
+          "conditions": "Qualitative source observation; no assigned polymorph or numerical crystallinity fraction.",
+          "evidence": [
+            {
+              "source_id": "lu1999-aln",
+              "locator": "Main PDF p. 2, Temperature discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lu1999-aln-about500c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "AlN",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lu1999-aln",
+                "locator": "Main PDF p. 2, Temperature discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "crystallinity",
+                "property": "crystallinity",
+                "field": "crystal_structure.crystalline_character"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
