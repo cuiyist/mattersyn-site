@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 246,
-    "source_groups": 60,
-    "records": 215,
+    "recipe_structure_rows": 247,
+    "source_groups": 61,
+    "records": 216,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -40651,6 +40651,257 @@
             "measurement_refs": [
               {
                 "measurement_id": "0p865ev-tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xie1999-pbse-gamma-ethylenediamine::xie1999-pbse-gamma-ethylenediamine-typical-product",
+      "record_id": "xie1999-pbse-gamma-ethylenediamine",
+      "record_page_path": "records/xie1999-pbse-gamma-ethylenediamine.html",
+      "source_group": "xie1999-pbse-gamma",
+      "title": "Xie et al. (1999): gamma-irradiated PbSe in ethylenediamine",
+      "doi": "10.1246/cl.1999.875",
+      "year": 1999,
+      "method": "Room-temperature gamma irradiation",
+      "recipe_label": "Xie et al. (1999): gamma-irradiated PbSe in ethylenediamine",
+      "sample_id": "xie1999-pbse-gamma-ethylenediamine-typical-product",
+      "source_sample_label": "Typical PbSe sample in Figure 1 and the same sample in Figure 2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xie1999-pbse-gamma",
+            "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1"
+          }
+        ],
+        "note": "Source assigns nanocrystalline PbSe; no elemental stoichiometry assay or numerical purity supplied."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xie1999-pbse-gamma",
+          "locator": "Supplied main PDF p. 1, printed p. 875, preparation paragraph at bottom left continuing at top right",
+          "claim": null
+        },
+        {
+          "source_id": "xie1999-pbse-gamma",
+          "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "xie1999-pbse-gamma",
+          "locator": "Supplied main PDF p. 1, printed p. 875, TEM paragraph and Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1"
+              }
+            ],
+            "note": "All reported XRD peaks indexed to cubic PbSe; JCPDS Card File No. 6-354. No impurity detection limit specified."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Homogeneously spherical particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, TEM paragraph and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 6.12,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction",
+          "conditions": "Japan Rigaku Dmax γA; graphitemonochromatized Cu Kα, wavelength 1.54178 Å; scan rate 0.05° s−1; Figure 1. Holder and sample preparation unreported. Cell constant a; no uncertainty supplied.",
+          "evidence": [
+            {
+              "source_id": "xie1999-pbse-gamma",
+              "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-particle-size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 30,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Reported average particle size; averaging definition, count and uncertainty unspecified",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, TEM paragraph and Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Hitachi Model H-800 at 200 kV; Figure 2 explicitly the same sample as Figure 1; displayed scale 100 nm. Grid/support and specimen preparation unreported.",
+          "evidence": [
+            {
+              "source_id": "xie1999-pbse-gamma",
+              "locator": "Supplied main PDF p. 1, printed p. 875, TEM paragraph and Figure 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, abstract and current-method discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, abstract and current-method discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xie1999-pbse-gamma-ethylenediamine-typical-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-product",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-pbse-gamma",
+                "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1"
+              }
+            ],
+            "note": "Source assigns nanocrystalline PbSe; no elemental stoichiometry assay or numerical purity supplied."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic PbSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie1999-pbse-gamma",
+                  "locator": "Supplied main PDF p. 1, printed p. 875, XRD acquisition and typical-sample paragraph, Figure 1"
+                }
+              ],
+              "note": "All reported XRD peaks indexed to cubic PbSe; JCPDS Card File No. 6-354. No impurity detection limit specified."
+            },
+            "morphology": {
+              "value": "Homogeneously spherical particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie1999-pbse-gamma",
+                  "locator": "Supplied main PDF p. 1, printed p. 875, TEM paragraph and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-particle-size",
                 "property": "diameter",
                 "field": "morphology.dimensions"
               }
