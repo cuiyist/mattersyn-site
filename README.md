@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **83 primary source groups** · release `wr28-du2002-pbse`. Records are not independent experiments.
+Dataset **0.41.2** · **84 primary source groups** · release `20260928-copt3-source-reviewed`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -66,6 +66,8 @@ Dataset **0.41.2** · **83 primary source groups** · release `wr28-du2002-pbse`
 - Sophie Besson; Thierry Gacoin; Christian Ricolleau; Catherine Jacquiod; Jean-Pierre Boilot (2002). 3D Quantum Dot Lattice Inside Mesoporous Silica Films. *Nano Letters*, 2, 409–414. [10.1021/nl015685v](https://doi.org/10.1021/nl015685v). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=besson2002).
 
 - Noelio Oliveira Dantas; Fanyao Qu; R. S. Silva; Paulo César Morais (2002). Anti-Stokes Photoluminescence in Nanocrystal Quantum Dots. *Journal of Physical Chemistry B*, 106, 7453–7457. [10.1021/jp0208743](https://doi.org/10.1021/jp0208743). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=dantas2002).
+
+- Elena V. Shevchenko; Dmitri V. Talapin; Andrey L. Rogach; Andreas Kornowski; Markus Haase; Horst Weller (2002). Colloidal Synthesis and Self-Assembly of CoPt3 Nanocrystals. *Journal of the American Chemical Society*, 124, 11480–11485. [10.1021/ja025976l](https://doi.org/10.1021/ja025976l). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=shevchenko2002-copt3-ja025976l).
 
 - Brian L. Wehrenberg; Congjun Wang; Philippe Guyot-Sionnest (2002). Interband and Intraband Optical Studies of PbSe Colloidal Quantum Dots. *Journal of Physical Chemistry B*, 106, 10634–10640. [10.1021/jp021187e](https://doi.org/10.1021/jp021187e). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=wehrenberg2002-jp021187e).
 
