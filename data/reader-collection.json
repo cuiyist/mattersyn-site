@@ -93,13 +93,13 @@
     "ZnSe",
     "ZnSe:Cr"
   ],
-  "contributing_papers": 81,
-  "synthesis_structure_pairs": 247,
+  "contributing_papers": 82,
+  "synthesis_structure_pairs": 253,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 244,
+  "partial_pairs": 250,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1052,
+  "all_records": 1058,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -15594,6 +15594,2724 @@
                   {
                     "source_id": "fu2007",
                     "locator": "Main p.16030, Sample Preparation, final two sentences defining S2–S4"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2007-fe3o4-cnc-141nm::ge2007-fe3o4-cnc-141nm-product",
+      "record_id": "ge2007-fe3o4-cnc-141nm",
+      "record_page_path": "records/ge2007-fe3o4-cnc-141nm.html",
+      "source_group": "ge2007-magnetite-anie200700197",
+      "title": "Ge et al. (2007): 141 nm magnetite clusters from 1.8 mL NaOH/DEG stock",
+      "doi": "10.1002/anie.200700197",
+      "year": 2007,
+      "method": "High-temperature solution hydrolysis and nanocrystal aggregation",
+      "recipe_label": "Ge et al. (2007): 141 nm magnetite clusters from 1.8 mL NaOH/DEG stock",
+      "sample_id": "ge2007-fe3o4-cnc-141nm-product",
+      "source_sample_label": "141 nm CNCs; Figure 1e",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2007-magnetite-anie200700197",
+            "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 4, Experimental Section",
+          "claim": null
+        },
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 2, Figure 1e and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+              }
+            ],
+            "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              },
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1e and caption"
+              }
+            ],
+            "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cluster-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 141,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cluster diameter from approximately 150 clusters per sample; numeric spread or error bar not tabulated.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1e and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1e; all TEM scale bars 200 nm. This is the secondary cluster diameter, not primary crystallite size.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 1e and caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 lattice and Figure 3 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 141,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-linked average cluster diameter, not an individual crystallite size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Flowerlike three-dimensional clusters of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Poly(acrylic acid)-covered",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, 3, PAA coordination and water dispersibility discussion"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ge2007-fe3o4-cnc-141nm-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic magnetite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+                }
+              ],
+              "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+            },
+            "morphology": {
+              "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1, Cluster formation discussion"
+                },
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 2, Figure 1e and caption"
+                }
+              ],
+              "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "cluster-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "deg-reaction",
+            "deg-stock",
+            "fecl3",
+            "naoh",
+            "paa"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "paa",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "As reported; chain versus repeat-unit molar basis and molecular weight are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fecl3",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-reaction",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 17,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2007-fe3o4-cnc-174nm::ge2007-fe3o4-cnc-174nm-product",
+      "record_id": "ge2007-fe3o4-cnc-174nm",
+      "record_page_path": "records/ge2007-fe3o4-cnc-174nm.html",
+      "source_group": "ge2007-magnetite-anie200700197",
+      "title": "Ge et al. (2007): 174 nm magnetite clusters from 1.85 mL NaOH/DEG stock",
+      "doi": "10.1002/anie.200700197",
+      "year": 2007,
+      "method": "High-temperature solution hydrolysis and nanocrystal aggregation",
+      "recipe_label": "Ge et al. (2007): 174 nm magnetite clusters from 1.85 mL NaOH/DEG stock",
+      "sample_id": "ge2007-fe3o4-cnc-174nm-product",
+      "source_sample_label": "174 nm CNCs; Figure 1f",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2007-magnetite-anie200700197",
+            "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 4, Experimental Section",
+          "claim": null
+        },
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 2, Figure 1f and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+              }
+            ],
+            "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              },
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1f and caption"
+              }
+            ],
+            "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cluster-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 174,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cluster diameter from approximately 150 clusters per sample; numeric spread or error bar not tabulated.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1f and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1f; all TEM scale bars 200 nm. This is the secondary cluster diameter, not primary crystallite size.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 1f and caption"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10.83,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2–3, Debye–Scherrer (311) discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Debye–Scherrer estimate",
+          "conditions": "Grain-size estimate from the strongest (311) peak; no Scherrer constant or instrumental-broadening correction is specified in the main.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2–3, Debye–Scherrer (311) discussion and Figure 3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 lattice and Figure 3 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 174,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-linked average cluster diameter, not an individual crystallite size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Flowerlike three-dimensional clusters of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Poly(acrylic acid)-covered",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, 3, PAA coordination and water dispersibility discussion"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ge2007-fe3o4-cnc-174nm-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic magnetite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+                }
+              ],
+              "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+            },
+            "morphology": {
+              "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1, Cluster formation discussion"
+                },
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 2, Figure 1f and caption"
+                }
+              ],
+              "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "cluster-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "scherrer-grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "deg-reaction",
+            "deg-stock",
+            "fecl3",
+            "naoh",
+            "paa"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "paa",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "As reported; chain versus repeat-unit molar basis and molecular weight are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fecl3",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-reaction",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 17,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2007-fe3o4-cnc-31nm::ge2007-fe3o4-cnc-31nm-product",
+      "record_id": "ge2007-fe3o4-cnc-31nm",
+      "record_page_path": "records/ge2007-fe3o4-cnc-31nm.html",
+      "source_group": "ge2007-magnetite-anie200700197",
+      "title": "Ge et al. (2007): 31 nm magnetite clusters from 1.6 mL NaOH/DEG stock",
+      "doi": "10.1002/anie.200700197",
+      "year": 2007,
+      "method": "High-temperature solution hydrolysis and nanocrystal aggregation",
+      "recipe_label": "Ge et al. (2007): 31 nm magnetite clusters from 1.6 mL NaOH/DEG stock",
+      "sample_id": "ge2007-fe3o4-cnc-31nm-product",
+      "source_sample_label": "31 nm CNCs; Figure 1a",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2007-magnetite-anie200700197",
+            "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 4, Experimental Section",
+          "claim": null
+        },
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 2, Figure 1a and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+              }
+            ],
+            "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              },
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1a and caption"
+              }
+            ],
+            "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cluster-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 31,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cluster diameter from approximately 150 clusters per sample; numeric spread or error bar not tabulated.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1a and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1a; all TEM scale bars 200 nm. This is the secondary cluster diameter, not primary crystallite size.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 1a and caption"
+            }
+          ]
+        },
+        {
+          "measurement_id": "primary-crystal-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 6,
+            "maximum": 8,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Primary crystals within a 31 nm cluster.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 2a and HRTEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "Source reports similarly oriented primary crystals; not a size assigned to every larger cluster.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 2a and HRTEM discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "111-spacing",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.482,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 2a and HRTEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "Source assigns this spacing to cubic magnetite (111), within the 31 nm cluster; no refined lattice constant is inferred.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 2a and HRTEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 lattice and Figure 3 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 31,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-linked average cluster diameter, not an individual crystallite size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Flowerlike three-dimensional clusters of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Poly(acrylic acid)-covered",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, 3, PAA coordination and water dispersibility discussion"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ge2007-fe3o4-cnc-31nm-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic magnetite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+                }
+              ],
+              "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+            },
+            "morphology": {
+              "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1, Cluster formation discussion"
+                },
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 2, Figure 1a and caption"
+                }
+              ],
+              "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "cluster-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "primary-crystal-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "111-spacing",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "deg-reaction",
+            "deg-stock",
+            "fecl3",
+            "naoh",
+            "paa"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "paa",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "As reported; chain versus repeat-unit molar basis and molecular weight are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fecl3",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-reaction",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 17,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2007-fe3o4-cnc-53nm::ge2007-fe3o4-cnc-53nm-product",
+      "record_id": "ge2007-fe3o4-cnc-53nm",
+      "record_page_path": "records/ge2007-fe3o4-cnc-53nm.html",
+      "source_group": "ge2007-magnetite-anie200700197",
+      "title": "Ge et al. (2007): 53 nm magnetite clusters from 1.65 mL NaOH/DEG stock",
+      "doi": "10.1002/anie.200700197",
+      "year": 2007,
+      "method": "High-temperature solution hydrolysis and nanocrystal aggregation",
+      "recipe_label": "Ge et al. (2007): 53 nm magnetite clusters from 1.65 mL NaOH/DEG stock",
+      "sample_id": "ge2007-fe3o4-cnc-53nm-product",
+      "source_sample_label": "53 nm CNCs; Figure 1b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2007-magnetite-anie200700197",
+            "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 4, Experimental Section",
+          "claim": null
+        },
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 2, Figure 1b and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+              }
+            ],
+            "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              },
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1b and caption"
+              }
+            ],
+            "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cluster-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 53,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cluster diameter from approximately 150 clusters per sample; numeric spread or error bar not tabulated.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1b and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1b; all TEM scale bars 200 nm. This is the secondary cluster diameter, not primary crystallite size.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 1b and caption"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 9.73,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2–3, Debye–Scherrer (311) discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Debye–Scherrer estimate",
+          "conditions": "Grain-size estimate from the strongest (311) peak; no Scherrer constant or instrumental-broadening correction is specified in the main.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2–3, Debye–Scherrer (311) discussion and Figure 3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 lattice and Figure 3 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 53,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-linked average cluster diameter, not an individual crystallite size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Flowerlike three-dimensional clusters of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Poly(acrylic acid)-covered",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, 3, PAA coordination and water dispersibility discussion"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ge2007-fe3o4-cnc-53nm-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic magnetite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+                }
+              ],
+              "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+            },
+            "morphology": {
+              "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1, Cluster formation discussion"
+                },
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 2, Figure 1b and caption"
+                }
+              ],
+              "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "cluster-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "scherrer-grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "deg-reaction",
+            "deg-stock",
+            "fecl3",
+            "naoh",
+            "paa"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "paa",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "As reported; chain versus repeat-unit molar basis and molecular weight are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fecl3",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-reaction",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 17,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2007-fe3o4-cnc-71nm::ge2007-fe3o4-cnc-71nm-product",
+      "record_id": "ge2007-fe3o4-cnc-71nm",
+      "record_page_path": "records/ge2007-fe3o4-cnc-71nm.html",
+      "source_group": "ge2007-magnetite-anie200700197",
+      "title": "Ge et al. (2007): 71 nm magnetite clusters from 1.7 mL NaOH/DEG stock",
+      "doi": "10.1002/anie.200700197",
+      "year": 2007,
+      "method": "High-temperature solution hydrolysis and nanocrystal aggregation",
+      "recipe_label": "Ge et al. (2007): 71 nm magnetite clusters from 1.7 mL NaOH/DEG stock",
+      "sample_id": "ge2007-fe3o4-cnc-71nm-product",
+      "source_sample_label": "71 nm CNCs; Figure 1c",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2007-magnetite-anie200700197",
+            "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 4, Experimental Section",
+          "claim": null
+        },
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 2, Figure 1c and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+              }
+            ],
+            "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              },
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1c and caption"
+              }
+            ],
+            "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cluster-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 71,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cluster diameter from approximately 150 clusters per sample; numeric spread or error bar not tabulated.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1c and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1c; all TEM scale bars 200 nm. This is the secondary cluster diameter, not primary crystallite size.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 1c and caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 lattice and Figure 3 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 71,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-linked average cluster diameter, not an individual crystallite size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Flowerlike three-dimensional clusters of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Poly(acrylic acid)-covered",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, 3, PAA coordination and water dispersibility discussion"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ge2007-fe3o4-cnc-71nm-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic magnetite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+                }
+              ],
+              "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+            },
+            "morphology": {
+              "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1, Cluster formation discussion"
+                },
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 2, Figure 1c and caption"
+                }
+              ],
+              "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "cluster-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "deg-reaction",
+            "deg-stock",
+            "fecl3",
+            "naoh",
+            "paa"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "paa",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "As reported; chain versus repeat-unit molar basis and molecular weight are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fecl3",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-reaction",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 17,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2007-fe3o4-cnc-93nm::ge2007-fe3o4-cnc-93nm-product",
+      "record_id": "ge2007-fe3o4-cnc-93nm",
+      "record_page_path": "records/ge2007-fe3o4-cnc-93nm.html",
+      "source_group": "ge2007-magnetite-anie200700197",
+      "title": "Ge et al. (2007): 93 nm magnetite clusters from 1.75 mL NaOH/DEG stock",
+      "doi": "10.1002/anie.200700197",
+      "year": 2007,
+      "method": "High-temperature solution hydrolysis and nanocrystal aggregation",
+      "recipe_label": "Ge et al. (2007): 93 nm magnetite clusters from 1.75 mL NaOH/DEG stock",
+      "sample_id": "ge2007-fe3o4-cnc-93nm-product",
+      "source_sample_label": "93 nm CNCs; Figure 1d",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2007-magnetite-anie200700197",
+            "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 4, Experimental Section",
+          "claim": null
+        },
+        {
+          "source_id": "ge2007-magnetite-anie200700197",
+          "locator": "Main PDF p. 2, Figure 1d and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+              }
+            ],
+            "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              },
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1d and caption"
+              }
+            ],
+            "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cluster-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 93,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cluster diameter from approximately 150 clusters per sample; numeric spread or error bar not tabulated.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2, Figure 1d and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 1d; all TEM scale bars 200 nm. This is the secondary cluster diameter, not primary crystallite size.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2, Figure 1d and caption"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-grain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 9.65,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 2–3, Debye–Scherrer (311) discussion and Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Debye–Scherrer estimate",
+          "conditions": "Grain-size estimate from the strongest (311) peak; no Scherrer constant or instrumental-broadening correction is specified in the main.",
+          "evidence": [
+            {
+              "source_id": "ge2007-magnetite-anie200700197",
+              "locator": "Main PDF p. 2–3, Debye–Scherrer (311) discussion and Figure 3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic magnetite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 lattice and Figure 3 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 93,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-linked average cluster diameter, not an individual crystallite size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 4, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Flowerlike three-dimensional clusters of primary nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, Cluster formation discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Poly(acrylic acid)-covered",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1, 3, PAA coordination and water dispersibility discussion"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ge2007-fe3o4-cnc-93nm-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2007-magnetite-anie200700197",
+                "locator": "Main PDF p. 1–3, Magnetite assignment and XRD/XAS discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic magnetite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1–3, Magnetite assignment; Figure 2 HRTEM and Figure 3 XRD"
+                }
+              ],
+              "note": "Source assigns the cluster series; XRD patterns specifically show 53, 93 and 174 nm samples. SI XAS is cited by the authors but unreviewed here."
+            },
+            "morphology": {
+              "value": "Flowerlike three-dimensional cluster of primary nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 1, Cluster formation discussion"
+                },
+                {
+                  "source_id": "ge2007-magnetite-anie200700197",
+                  "locator": "Main PDF p. 2, Figure 1d and caption"
+                }
+              ],
+              "note": "Source wording and TEM projections; no atomistic cluster model or measured 3D surface mesh."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "cluster-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "scherrer-grain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "deg-reaction",
+            "deg-stock",
+            "fecl3",
+            "naoh",
+            "paa"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "paa",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "As reported; chain versus repeat-unit molar basis and molecular weight are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fecl3",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-reaction",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 17,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full prepared stock charge; only the variant aliquot enters the synthesis.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "deg-stock",
+              "stock_id": "naoh-deg-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Full stock preparation solvent volume, not a measured final solution volume.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "ge2007-magnetite-anie200700197",
+                    "locator": "Main PDF p. 4, Experimental Section"
                   }
                 ],
                 "derivation": null
