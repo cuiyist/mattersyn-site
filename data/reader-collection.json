@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 122,
+  "material_families": 125,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -23,6 +23,7 @@
     "BaTiO3",
     "Bi2S3",
     "Bi2Te3",
+    "Bi4Ti3O12",
     "Borosilicate SSZ-48; source does not give a complete empirical formula",
     "C12-amine silver bismuth bromide",
     "C12-amine silver bismuth chloride",
@@ -66,6 +67,7 @@
     "Cu3SbS4",
     "Cu3SbS4 + Cu12Sb4S13",
     "Cu7S5",
+    "Cu7Te4",
     "CuFeS2",
     "CuS",
     "CuS + Cu1.8S",
@@ -86,6 +88,7 @@
     "InP",
     "Ir",
     "La2(MoO4)3:Yb,Er",
+    "Li2Bi4Ti3O12",
     "LiFe5O8",
     "LiMn2O4",
     "Mn:ZnO",
@@ -126,22 +129,22 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 120,
+  "contributing_papers": 123,
   "source_coverage": {
-    "total_contributing_papers": 120,
-    "reviewed_contributing_papers": 120,
+    "total_contributing_papers": 123,
+    "reviewed_contributing_papers": 123,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 434,
+  "synthesis_structure_pairs": 439,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 431,
+  "partial_pairs": 436,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1422,
+  "all_records": 1441,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -20067,6 +20070,401 @@
                 "derivation": null,
                 "minimum_exclusive": false,
                 "maximum_exclusive": false
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "cu7te4-jssc19998303-main-160c::cu7te4-jssc19998303-main-160c-product",
+      "record_id": "cu7te4-jssc19998303-main-160c",
+      "record_page_path": "records/cu7te4-jssc19998303-main-160c.html",
+      "source_group": "cu7te4-jssc19998303",
+      "title": "Li et al. (1999): 7:4 feed in ethylenediamine at 160 °C for 10 h",
+      "doi": "10.1006/jssc.1999.8303",
+      "year": 1999,
+      "method": "Solvothermal synthesis",
+      "recipe_label": "Li et al. (1999): 7:4 feed in ethylenediamine at 160 °C for 10 h",
+      "sample_id": "cu7te4-jssc19998303-main-160c-product",
+      "source_sample_label": "Main 160 °C / 10 h Cu7Te4 specimen",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu7Te4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cu7te4-jssc19998303",
+            "locator": "Main PDF p. 2–3, Figures 1–3 and accompanying characterization"
+          }
+        ],
+        "note": "XRD indexes Cu7Te4. XPS gives Cu:Te = 63.41:36.29, retained as the printed ratio without normalization or conversion to a purity percentage. No obvious oxide peaks are reported; no detection limit is supplied."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cu7te4-jssc19998303",
+          "locator": "Main PDF p. 2–3, Figures 1–3 and accompanying characterization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal Cu7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 2–3, Figures 1–3 and accompanying characterization"
+              }
+            ],
+            "note": "XRD indexes Cu7Te4. XPS gives Cu:Te = 63.41:36.29, retained as the printed ratio without normalization or conversion to a purity percentage. No obvious oxide peaks are reported; no detection limit is supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Homogeneous nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 3, Figure 3 TEM and text"
+              }
+            ],
+            "note": "TEM average diameter near 15 nm, distinct from XRD/Scherrer crystallite estimate."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 8.335,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Indexed specimen lattice parameter; close to JCPDS 18-456. No atomic coordinates supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 2, Figure 1 XRD and lattice indexing"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "Rigaku D/max-γA, Cu Kα λ = 1.54178 Å; scan rate 0.05° s−1, 2θ = 10–70°.",
+          "evidence": [
+            {
+              "source_id": "cu7te4-jssc19998303",
+              "locator": "Main PDF p. 2, Figure 1 XRD and lattice indexing"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 15,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "About 15 nm from diffraction-peak half-widths using the Scherrer formula; shape factor and broadening correction are not supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 2, Figure 1 XRD and lattice indexing"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Main as-prepared specimen only.",
+          "evidence": [
+            {
+              "source_id": "cu7te4-jssc19998303",
+              "locator": "Main PDF p. 2, Figure 1 XRD and lattice indexing"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 15,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Average diameter near 15 nm; counting statistics and dispersion are unreported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 3, Figure 3 TEM and accompanying particle-size statement"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Hitachi H-800, 200 kV; specimen preparation/grid not stated.",
+          "evidence": [
+            {
+              "source_id": "cu7te4-jssc19998303",
+              "locator": "Main PDF p. 3, Figure 3 TEM and accompanying particle-size statement"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 1–2, Experimental main preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Hexagonal Cu7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 1–2, Experimental main preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cu7te4-jssc19998303-main-160c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Cu7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cu7te4-jssc19998303",
+                "locator": "Main PDF p. 2–3, Figures 1–3 and accompanying characterization"
+              }
+            ],
+            "note": "XRD indexes Cu7Te4. XPS gives Cu:Te = 63.41:36.29, retained as the printed ratio without normalization or conversion to a purity percentage. No obvious oxide peaks are reported; no detection limit is supplied."
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal Cu7Te4",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cu7te4-jssc19998303",
+                  "locator": "Main PDF p. 2–3, Figures 1–3 and accompanying characterization"
+                }
+              ],
+              "note": "XRD indexes Cu7Te4. XPS gives Cu:Te = 63.41:36.29, retained as the printed ratio without normalization or conversion to a purity percentage. No obvious oxide peaks are reported; no detection limit is supplied."
+            },
+            "morphology": {
+              "value": "Homogeneous nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cu7te4-jssc19998303",
+                  "locator": "Main PDF p. 3, Figure 3 TEM and text"
+                }
+              ],
+              "note": "TEM average diameter near 15 nm, distinct from XRD/Scherrer crystallite estimate."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-chloride",
+            "tellurium"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-chloride",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "cu7te4-jssc19998303",
+                    "locator": "Main PDF p. 1–2, Experimental main preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tellurium",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "cu7te4-jssc19998303",
+                    "locator": "Main PDF p. 1–2, Experimental main preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "copper-chloride",
+              "stock_id": "reaction-charge",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "cu7te4-jssc19998303",
+                    "locator": "Main PDF p. 1–2, Experimental main preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tellurium",
+              "stock_id": "reaction-charge",
+              "pointer": "/stocks/0/components/2/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "cu7te4-jssc19998303",
+                    "locator": "Main PDF p. 1–2, Experimental main preparation"
+                  }
+                ],
+                "derivation": null
               }
             }
           ],
@@ -45264,6 +45662,679 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2001-bi4ti3o12-cm0102436-epd-film::kim2001-bi4ti3o12-cm0102436-epd-film-product",
+      "record_id": "kim2001-bi4ti3o12-cm0102436-epd-film",
+      "record_page_path": "records/kim2001-bi4ti3o12-cm0102436-epd-film.html",
+      "source_group": "kim2001-bi4ti3o12-cm0102436",
+      "title": "Kim et al. (2001): Electrophoretic BTO film deposition",
+      "doi": "10.1021/cm0102436",
+      "year": 2001,
+      "method": "Electrophoretic BTO film deposition",
+      "recipe_label": "Kim et al. (2001): Electrophoretic BTO film deposition",
+      "sample_id": "kim2001-bi4ti3o12-cm0102436-epd-film-product",
+      "source_sample_label": "As-deposited EPD BTO film, solvent unspecified",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Bi4Ti3O12 platelet film on Pt-coated silicon",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2001-bi4ti3o12-cm0102436",
+            "locator": "SI PDF p. 2–3, Electrophoretic deposition"
+          },
+          {
+            "source_id": "kim2001-bi4ti3o12-cm0102436",
+            "locator": "SI PDF p. 6, Figure S3 caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2001-bi4ti3o12-cm0102436",
+          "locator": "SI PDF p. 2–3, Electrophoretic deposition",
+          "claim": null
+        },
+        {
+          "source_id": "kim2001-bi4ti3o12-cm0102436",
+          "locator": "SI PDF p. 6, Figure S3 caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dense, flat and well-oriented assembled film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 2–3, Electrophoretic deposition"
+              },
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 6, Figure S3 caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 850,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Source-estimated thickness; no digitization from the dark image.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 3, 6, 11, Figure S3b and film text"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "FE-SEM cross-section (source estimate)",
+          "conditions": "As-deposited film; PC versus DMF unidentified",
+          "evidence": [
+            {
+              "source_id": "kim2001-bi4ti3o12-cm0102436",
+              "locator": "SI PDF p. 3, 6, 11, Figure S3b and film text"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Bi4Ti3O12",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 2–3, Electrophoretic deposition"
+              },
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 6, Figure S3 caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2001-bi4ti3o12-cm0102436-epd-film-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "deposit-state",
+          "composition": {
+            "value": "Bi4Ti3O12 platelet film on Pt-coated silicon",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 2–3, Electrophoretic deposition"
+              },
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 6, Figure S3 caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "SI PDF p. 2–3, Electrophoretic deposition"
+                },
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "SI PDF p. 6, Figure S3 caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Dense, flat and well-oriented assembled film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "SI PDF p. 2–3, Electrophoretic deposition"
+                },
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "SI PDF p. 6, Figure S3 caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2001-bi4ti3o12-cm0102436-exfoliated::kim2001-bi4ti3o12-cm0102436-exfoliated-product",
+      "record_id": "kim2001-bi4ti3o12-cm0102436-exfoliated",
+      "record_page_path": "records/kim2001-bi4ti3o12-cm0102436-exfoliated.html",
+      "source_group": "kim2001-bi4ti3o12-cm0102436",
+      "title": "Kim et al. (2001): Water exfoliation and washed BTO suspension",
+      "doi": "10.1021/cm0102436",
+      "year": 2001,
+      "method": "Water exfoliation and washed BTO suspension",
+      "recipe_label": "Kim et al. (2001): Water exfoliation and washed BTO suspension",
+      "sample_id": "kim2001-bi4ti3o12-cm0102436-exfoliated-product",
+      "source_sample_label": "Exfoliated BTO nanoplatelets",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal Bi4Ti3O12",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2001-bi4ti3o12-cm0102436",
+            "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2001-bi4ti3o12-cm0102436",
+          "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Aurivillius-type BTO layered structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Thin nanoplatelets / nanosheets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Bi4Ti3O12",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2001-bi4ti3o12-cm0102436-exfoliated-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "sonicate-state",
+          "composition": {
+            "value": "Nominal Bi4Ti3O12",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Aurivillius-type BTO layered structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Thin nanoplatelets / nanosheets",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "Main PDF p. 1–3, Exfoliation, Figures 2–3 and conclusion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2001-bi4ti3o12-cm0102436-lithiated::kim2001-bi4ti3o12-cm0102436-lithiated-product",
+      "record_id": "kim2001-bi4ti3o12-cm0102436-lithiated",
+      "record_page_path": "records/kim2001-bi4ti3o12-cm0102436-lithiated.html",
+      "source_group": "kim2001-bi4ti3o12-cm0102436",
+      "title": "Kim et al. (2001): Lithium intercalation of bulk BTO",
+      "doi": "10.1021/cm0102436",
+      "year": 2001,
+      "method": "Lithium intercalation of bulk BTO",
+      "recipe_label": "Kim et al. (2001): Lithium intercalation of bulk BTO",
+      "sample_id": "kim2001-bi4ti3o12-cm0102436-lithiated-product",
+      "source_sample_label": "LiBTO bulk powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal Li2Bi4Ti3O12; ICP/AA Li2.1(1)Bi4.0Ti3.1(1)O12",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2001-bi4ti3o12-cm0102436",
+            "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+          },
+          {
+            "source_id": "kim2001-bi4ti3o12-cm0102436",
+            "locator": "SI PDF p. 1–2, Neutron structural refinement"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2001-bi4ti3o12-cm0102436",
+          "locator": "Main PDF p. 1, Preparation and exfoliation paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "kim2001-bi4ti3o12-cm0102436",
+          "locator": "SI PDF p. 1–2, Neutron structural refinement",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Orthorhombic B2cb lithium-intercalated Aurivillius oxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+              },
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 1–2, Neutron structural refinement"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Bulk layered powder",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+              },
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 1–2, Neutron structural refinement"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 5.4428,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Bulk LiBTO neutron-refinement result at 297 K; parentheses in raw text are the reported uncertainty.",
+            "basis": "",
+            "raw_text": "5.4428(5)",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 1, Crystal data"
+              }
+            ],
+            "derivation": "Reported structural refinement/calculated density; no new refinement."
+          },
+          "technique": "Neutron powder diffraction / Rietveld",
+          "conditions": "Bulk Li2Bi4Ti3O12 intermediate only; not exfoliated BTO",
+          "evidence": [
+            {
+              "source_id": "kim2001-bi4ti3o12-cm0102436",
+              "locator": "SI PDF p. 1, Crystal data"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Li2Bi4Ti3O12",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2001-bi4ti3o12-cm0102436-lithiated-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "Nominal Li2Bi4Ti3O12; ICP/AA Li2.1(1)Bi4.0Ti3.1(1)O12",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+              },
+              {
+                "source_id": "kim2001-bi4ti3o12-cm0102436",
+                "locator": "SI PDF p. 1–2, Neutron structural refinement"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Orthorhombic B2cb lithium-intercalated Aurivillius oxide",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+                },
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "SI PDF p. 1–2, Neutron structural refinement"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Bulk layered powder",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "Main PDF p. 1, Preparation and exfoliation paragraph"
+                },
+                {
+                  "source_id": "kim2001-bi4ti3o12-cm0102436",
+                  "locator": "SI PDF p. 1–2, Neutron structural refinement"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -133720,6 +134791,684 @@
                 "derivation": null,
                 "minimum_exclusive": false,
                 "maximum_exclusive": false
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2000-cdse-jssc20008646-aqueous-room-temperature::zhang2000-cdse-jssc20008646-aqueous-room-temperature-product",
+      "record_id": "zhang2000-cdse-jssc20008646-aqueous-room-temperature",
+      "record_page_path": "records/zhang2000-cdse-jssc20008646-aqueous-room-temperature.html",
+      "source_group": "zhang2000-cdse-jssc20008646",
+      "title": "Zhang et al. (2000): room-temperature aqueous CdSe precipitation",
+      "doi": "10.1006/jssc.2000.8646",
+      "year": 2000,
+      "method": "Alkaline selenium / cadmium–EDTA aqueous precipitation",
+      "recipe_label": "Zhang et al. (2000): room-temperature aqueous CdSe precipitation",
+      "sample_id": "zhang2000-cdse-jssc20008646-aqueous-room-temperature-product",
+      "source_sample_label": "Final aqueous-route CdSe product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2000-cdse-jssc20008646",
+            "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2000-cdse-jssc20008646",
+          "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic blende CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical and slightly agglomerated nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-cell-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 0.61,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Source-refined cell constant; no independent recalculation.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+              }
+            ],
+            "derivation": "Authors report XRD refinement."
+          },
+          "technique": "Powder X-ray diffraction refinement",
+          "conditions": "Final CdSe product; compared with reference JCPDS 19-191",
+          "evidence": [
+            {
+              "source_id": "zhang2000-cdse-jssc20008646",
+              "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Average estimated using the Scherrer formula; not the TEM size range.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+              }
+            ],
+            "derivation": "Authors use the Scherrer formula."
+          },
+          "technique": "Powder X-ray diffraction / Scherrer formula",
+          "conditions": "Final CdSe product",
+          "evidence": [
+            {
+              "source_id": "zhang2000-cdse-jssc20008646",
+              "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 4,
+            "maximum": 7,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-reported range, spherical and slightly agglomerated particles.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Typical final CdSe specimen, Figure 2a",
+          "evidence": [
+            {
+              "source_id": "zhang2000-cdse-jssc20008646",
+              "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 1, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2000-cdse-jssc20008646-aqueous-room-temperature-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2000-cdse-jssc20008646",
+                "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic blende CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2000-cdse-jssc20008646",
+                  "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Spherical and slightly agglomerated nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2000-cdse-jssc20008646",
+                  "locator": "Main PDF p. 2, Results and Discussion; Figures 1–2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-cell-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-chloride",
+            "edta",
+            "naoh",
+            "selenium",
+            "stock-water"
+          ],
+          "fields": [
+            {
+              "material_id": "naoh",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.56,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0025,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "stock-water",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-chloride",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0026,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "edta",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Aqueous EDTA solution volume, not neat EDTA.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "edta",
+              "pointer": "/materials/4/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Reported EDTA solution concentration.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "stock_id": "alkaline-selenium",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.56,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "stock_id": "alkaline-selenium",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.0025,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "stock-water",
+              "stock_id": "alkaline-selenium",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-chloride",
+              "stock_id": "cadmium-edta",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.0026,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "edta",
+              "stock_id": "cadmium-edta",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Aqueous EDTA solution volume, not neat EDTA.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "edta",
+              "stock_id": "cadmium-edta",
+              "pointer": "/stocks/1/components/1/quantities/concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Reported EDTA solution concentration.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "naoh",
+              "operation_id": "selenium-stock",
+              "pointer": "/operations/0/parameters/naoh_amount",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.56,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "operation_id": "selenium-stock",
+              "pointer": "/operations/0/parameters/selenium_amount",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.0025,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "edta",
+              "operation_id": "cadmium-stock",
+              "pointer": "/operations/1/parameters/edta_solution_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "edta",
+              "operation_id": "cadmium-stock",
+              "pointer": "/operations/1/parameters/edta_solution_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhang2000-cdse-jssc20008646",
+                    "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
               }
             }
           ],
