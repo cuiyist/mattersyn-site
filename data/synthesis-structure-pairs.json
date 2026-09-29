@@ -2,13 +2,413 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 378,
-    "source_groups": 85,
-    "records": 339,
+    "recipe_structure_rows": 382,
+    "source_groups": 87,
+    "records": 343,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
   "rows": [
+    {
+      "pair_row_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail::alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
+      "record_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
+      "record_page_path": "records/alam2012-cdse-cds-ica201110038-cdse-cds-head-tail.html",
+      "source_group": "alam2012-cdse-cds-ica201110038",
+      "title": "Alam and Maye (2012): CdSe/CdS head–tail shell growth",
+      "doi": "10.1016/j.ica.2011.10.038",
+      "year": 2012,
+      "method": "CdSe/CdS head–tail shell growth",
+      "recipe_label": "Alam and Maye (2012): CdSe/CdS head–tail shell growth",
+      "sample_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
+      "source_sample_label": "CdSe/CdS head–tail rods, Figures 1(ii), 2(b), 3(ii)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "alam2012-cdse-cds-ica201110038",
+            "locator": "Main PDF p. 2, Section 2.3.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "alam2012-cdse-cds-ica201110038",
+          "locator": "Main PDF p. 2, Section 2.3.2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite, assigned by powder XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Asymmetric head–tail rods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "total-length",
+          "property": "particle_length",
+          "descriptor_field": "morphology.length",
+          "value": {
+            "value": 44.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Total rod length ±4.1 nm; head and whole-rod dimensions kept distinct. Uncertainty statistic unspecified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 3, Figure 2(b) and discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "TEM: JEOL 2000EX at 100 kV; at least 100 counts and manual ImageJ statistics.",
+          "evidence": [
+            {
+              "source_id": "alam2012-cdse-cds-ica201110038",
+              "locator": "Main PDF p. 3, Figure 2(b) and discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite, assigned by powder XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Asymmetric head–tail rods",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "total-length",
+                "property": "particle_length",
+                "field": "morphology.length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop::alam2012-cdse-cds-ica201110038-cdse-teardrop-product",
+      "record_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop",
+      "record_page_path": "records/alam2012-cdse-cds-ica201110038-cdse-teardrop.html",
+      "source_group": "alam2012-cdse-cds-ica201110038",
+      "title": "Alam and Maye (2012): CdSe teardrop temperature-cycling synthesis",
+      "doi": "10.1016/j.ica.2011.10.038",
+      "year": 2012,
+      "method": "CdSe teardrop temperature-cycling synthesis",
+      "recipe_label": "Alam and Maye (2012): CdSe teardrop temperature-cycling synthesis",
+      "sample_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop-product",
+      "source_sample_label": "CdSe teardrop cores, Figures 1(i), 2(a), 3(i)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "alam2012-cdse-cds-ica201110038",
+            "locator": "Main PDF p. 2, Section 2.3.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "alam2012-cdse-cds-ica201110038",
+          "locator": "Main PDF p. 2, Section 2.3.1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite, assigned by powder XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Teardrop nanocrystals with needle-like protrusions on many particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "length",
+          "property": "particle_length",
+          "descriptor_field": "morphology.length",
+          "value": {
+            "value": 10.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported ±0.7 nm; uncertainty statistic unspecified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 3, Figure 2(a) and discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "TEM: JEOL 2000EX at 100 kV; at least 100 counts and manual ImageJ statistics.",
+          "evidence": [
+            {
+              "source_id": "alam2012-cdse-cds-ica201110038",
+              "locator": "Main PDF p. 3, Figure 2(a) and discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite, assigned by powder XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Teardrop nanocrystals with needle-like protrusions on many particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "length",
+                "property": "particle_length",
+                "field": "morphology.length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
     {
       "pair_row_id": "banerjee-2003-growth::composite",
       "record_id": "banerjee-2003-growth",
@@ -2021,6 +2421,368 @@
                 }
               ],
               "note": "Reported in the main with Figure S6 referenced but unreviewed; no dimensions, morphology fractions or measured 3D geometry supplied."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bellato2024-inas-olam::bellato2024-inas-olam-product",
+      "record_id": "bellato2024-inas-olam",
+      "record_page_path": "records/bellato2024-inas-olam.html",
+      "source_group": "bellato2024-inas-acsenergylett4c00295",
+      "title": "Bellato et al. (2024): Oleylamine-capped InAs by cyanoborohydride hot injection",
+      "doi": "10.1021/acsenergylett.4c00295",
+      "year": 2024,
+      "method": "Oleylamine-capped InAs by cyanoborohydride hot injection",
+      "recipe_label": "Bellato et al. (2024): Oleylamine-capped InAs by cyanoborohydride hot injection",
+      "sample_id": "bellato2024-inas-olam-product",
+      "source_sample_label": "OLAM-capped InAs QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bellato2024-inas-acsenergylett4c00295",
+            "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bellato2024-inas-acsenergylett4c00295",
+          "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc-blende InAs; source reports pure phase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum dots; no quantitative shape descriptor supplied",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported average; uncertainty/distribution parameters absent.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Pristine OLAM-capped InAs QDs only",
+          "evidence": [
+            {
+              "source_id": "bellato2024-inas-acsenergylett4c00295",
+              "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bellato2024-inas-olam-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc-blende InAs; source reports pure phase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quantum dots; no quantitative shape descriptor supplied",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bellato2024-inas-thiol::bellato2024-inas-thiol-product",
+      "record_id": "bellato2024-inas-thiol",
+      "record_page_path": "records/bellato2024-inas-thiol.html",
+      "source_group": "bellato2024-inas-acsenergylett4c00295",
+      "title": "Bellato et al. (2024): Ligand exchange of InAs QDs to short-chain thiol-capped colloids",
+      "doi": "10.1021/acsenergylett.4c00295",
+      "year": 2024,
+      "method": "Ligand exchange of InAs QDs to short-chain thiol-capped colloids",
+      "recipe_label": "Bellato et al. (2024): Ligand exchange of InAs QDs to short-chain thiol-capped colloids",
+      "sample_id": "bellato2024-inas-thiol-product",
+      "source_sample_label": "Ligand-exchanged InAs QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bellato2024-inas-acsenergylett4c00295",
+            "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bellato2024-inas-acsenergylett4c00295",
+          "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Initial zinc-blende InAs phase retained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Source reports retained morphological features and decreased interparticle distance",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 4, Section 1.2.3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bellato2024-inas-thiol-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Initial zinc-blende InAs phase retained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Source reports retained morphological features and decreased interparticle distance",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+                }
+              ],
+              "note": ""
             },
             "measurement_refs": []
           }

@@ -113,24 +113,1118 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 105,
+  "contributing_papers": 107,
   "source_coverage": {
-    "total_contributing_papers": 105,
-    "reviewed_contributing_papers": 105,
+    "total_contributing_papers": 107,
+    "reviewed_contributing_papers": 107,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 378,
+  "synthesis_structure_pairs": 382,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 375,
+  "partial_pairs": 379,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1274,
+  "all_records": 1288,
   "experimental_series_rows": 100,
   "pairs": [
+    {
+      "pair_row_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail::alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
+      "record_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
+      "record_page_path": "records/alam2012-cdse-cds-ica201110038-cdse-cds-head-tail.html",
+      "source_group": "alam2012-cdse-cds-ica201110038",
+      "title": "Alam and Maye (2012): CdSe/CdS head–tail shell growth",
+      "doi": "10.1016/j.ica.2011.10.038",
+      "year": 2012,
+      "method": "CdSe/CdS head–tail shell growth",
+      "recipe_label": "Alam and Maye (2012): CdSe/CdS head–tail shell growth",
+      "sample_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
+      "source_sample_label": "CdSe/CdS head–tail rods, Figures 1(ii), 2(b), 3(ii)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "alam2012-cdse-cds-ica201110038",
+            "locator": "Main PDF p. 2, Section 2.3.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "alam2012-cdse-cds-ica201110038",
+          "locator": "Main PDF p. 2, Section 2.3.2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite, assigned by powder XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Asymmetric head–tail rods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "total-length",
+          "property": "particle_length",
+          "descriptor_field": "morphology.length",
+          "value": {
+            "value": 44.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Total rod length ±4.1 nm; head and whole-rod dimensions kept distinct. Uncertainty statistic unspecified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 3, Figure 2(b) and discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "TEM: JEOL 2000EX at 100 kV; at least 100 counts and manual ImageJ statistics.",
+          "evidence": [
+            {
+              "source_id": "alam2012-cdse-cds-ica201110038",
+              "locator": "Main PDF p. 3, Figure 2(b) and discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite, assigned by powder XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Asymmetric head–tail rods",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "total-length",
+                "property": "particle_length",
+                "field": "morphology.length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdo",
+            "extra-top",
+            "hpa",
+            "ode",
+            "odpa",
+            "s-top",
+            "seed",
+            "seed-top",
+            "sulfur",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "cdo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.06,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "odpa",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.29,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "extra-top",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "hpa",
+              "pointer": "/materials/8/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.08,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed",
+              "pointer": "/materials/9/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1e-08,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Reported moles of CdSe seeds; do not convert to CdSe formula-unit mass.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed-top",
+              "pointer": "/materials/10/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/11/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "s-top",
+              "pointer": "/materials/12/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed",
+              "stock_id": "seed-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1e-08,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Reported moles of CdSe seeds; do not convert to CdSe formula-unit mass.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed-top",
+              "stock_id": "seed-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "s-top",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed",
+              "stock_id": "combined-feed",
+              "pointer": "/stocks/2/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1e-08,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Reported moles of CdSe seeds; do not convert to CdSe formula-unit mass.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed-top",
+              "stock_id": "combined-feed",
+              "pointer": "/stocks/2/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "combined-feed",
+              "pointer": "/stocks/2/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "s-top",
+              "stock_id": "combined-feed",
+              "pointer": "/stocks/2/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop::alam2012-cdse-cds-ica201110038-cdse-teardrop-product",
+      "record_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop",
+      "record_page_path": "records/alam2012-cdse-cds-ica201110038-cdse-teardrop.html",
+      "source_group": "alam2012-cdse-cds-ica201110038",
+      "title": "Alam and Maye (2012): CdSe teardrop temperature-cycling synthesis",
+      "doi": "10.1016/j.ica.2011.10.038",
+      "year": 2012,
+      "method": "CdSe teardrop temperature-cycling synthesis",
+      "recipe_label": "Alam and Maye (2012): CdSe teardrop temperature-cycling synthesis",
+      "sample_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop-product",
+      "source_sample_label": "CdSe teardrop cores, Figures 1(i), 2(a), 3(i)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "alam2012-cdse-cds-ica201110038",
+            "locator": "Main PDF p. 2, Section 2.3.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "alam2012-cdse-cds-ica201110038",
+          "locator": "Main PDF p. 2, Section 2.3.1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite, assigned by powder XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Teardrop nanocrystals with needle-like protrusions on many particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "length",
+          "property": "particle_length",
+          "descriptor_field": "morphology.length",
+          "value": {
+            "value": 10.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported ±0.7 nm; uncertainty statistic unspecified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 3, Figure 2(a) and discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "TEM: JEOL 2000EX at 100 kV; at least 100 counts and manual ImageJ statistics.",
+          "evidence": [
+            {
+              "source_id": "alam2012-cdse-cds-ica201110038",
+              "locator": "Main PDF p. 3, Figure 2(a) and discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alam2012-cdse-cds-ica201110038-cdse-teardrop-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "alam2012-cdse-cds-ica201110038",
+                "locator": "Main PDF p. 2, Section 2.3.1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite, assigned by powder XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Teardrop nanocrystals with needle-like protrusions on many particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "alam2012-cdse-cds-ica201110038",
+                  "locator": "Main PDF p. 2–4, Preparation and Figures 1–4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "length",
+                "property": "particle_length",
+                "field": "morphology.length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdo",
+            "extra-top",
+            "ode",
+            "odpa",
+            "se-top",
+            "selenium",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "cdo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.06,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "odpa",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.28,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "extra-top",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "pointer": "/materials/8/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.053,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se-top",
+              "pointer": "/materials/9/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "selenium",
+              "stock_id": "selenium-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.053,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se-top",
+              "stock_id": "selenium-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "alam2012-cdse-cds-ica201110038",
+                    "locator": "Main PDF p. 2, Section 2.3.1"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
     {
       "pair_row_id": "banerjee-2003-growth::composite",
       "record_id": "banerjee-2003-growth",
@@ -4345,6 +5439,846 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bellato2024-inas-olam::bellato2024-inas-olam-product",
+      "record_id": "bellato2024-inas-olam",
+      "record_page_path": "records/bellato2024-inas-olam.html",
+      "source_group": "bellato2024-inas-acsenergylett4c00295",
+      "title": "Bellato et al. (2024): Oleylamine-capped InAs by cyanoborohydride hot injection",
+      "doi": "10.1021/acsenergylett.4c00295",
+      "year": 2024,
+      "method": "Oleylamine-capped InAs by cyanoborohydride hot injection",
+      "recipe_label": "Bellato et al. (2024): Oleylamine-capped InAs by cyanoborohydride hot injection",
+      "sample_id": "bellato2024-inas-olam-product",
+      "source_sample_label": "OLAM-capped InAs QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bellato2024-inas-acsenergylett4c00295",
+            "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bellato2024-inas-acsenergylett4c00295",
+          "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc-blende InAs; source reports pure phase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum dots; no quantitative shape descriptor supplied",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported average; uncertainty/distribution parameters absent.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Pristine OLAM-capped InAs QDs only",
+          "evidence": [
+            {
+              "source_id": "bellato2024-inas-acsenergylett4c00295",
+              "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bellato2024-inas-olam-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc-blende InAs; source reports pure phase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quantum dots; no quantitative shape descriptor supplied",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 14–15, Section 2.2 and Figure S3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "amino-as",
+            "incl3",
+            "nacnbh3",
+            "ode",
+            "olam-as",
+            "olam-in",
+            "olam-reductant"
+          ],
+          "fields": [
+            {
+              "material_id": "amino-as",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "olam-as",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "incl3",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "olam-in",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nacnbh3",
+              "pointer": "/materials/5/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "olam-reductant",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "amino-as",
+              "stock_id": "arsenic-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "olam-as",
+              "stock_id": "arsenic-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "incl3",
+              "stock_id": "indium-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "olam-in",
+              "stock_id": "indium-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "stock_id": "indium-stock",
+              "pointer": "/stocks/1/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nacnbh3",
+              "stock_id": "reductant-stock",
+              "pointer": "/stocks/2/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "olam-reductant",
+              "stock_id": "reductant-stock",
+              "pointer": "/stocks/2/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 3–4, Sections 1.2.1–1.2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bellato2024-inas-thiol::bellato2024-inas-thiol-product",
+      "record_id": "bellato2024-inas-thiol",
+      "record_page_path": "records/bellato2024-inas-thiol.html",
+      "source_group": "bellato2024-inas-acsenergylett4c00295",
+      "title": "Bellato et al. (2024): Ligand exchange of InAs QDs to short-chain thiol-capped colloids",
+      "doi": "10.1021/acsenergylett.4c00295",
+      "year": 2024,
+      "method": "Ligand exchange of InAs QDs to short-chain thiol-capped colloids",
+      "recipe_label": "Bellato et al. (2024): Ligand exchange of InAs QDs to short-chain thiol-capped colloids",
+      "sample_id": "bellato2024-inas-thiol-product",
+      "source_sample_label": "Ligand-exchanged InAs QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bellato2024-inas-acsenergylett4c00295",
+            "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bellato2024-inas-acsenergylett4c00295",
+          "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Initial zinc-blende InAs phase retained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Source reports retained morphological features and decreased interparticle distance",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 4, Section 1.2.3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bellato2024-inas-thiol-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "InAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bellato2024-inas-acsenergylett4c00295",
+                "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Initial zinc-blende InAs phase retained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Source reports retained morphological features and decreased interparticle distance",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bellato2024-inas-acsenergylett4c00295",
+                  "locator": "Supporting Information PDF p. 26–27, Section 4.2 and Figure S12"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "butylamine",
+            "dmf-first",
+            "dmf-second",
+            "mpd"
+          ],
+          "fields": [
+            {
+              "material_id": "dmf-first",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 4, Section 1.2.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "butylamine",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 75,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 4, Section 1.2.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "mpd",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 150,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 4, Section 1.2.3"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmf-second",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "bellato2024-inas-acsenergylett4c00295",
+                    "locator": "Supporting Information PDF p. 4, Section 1.2.3"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
