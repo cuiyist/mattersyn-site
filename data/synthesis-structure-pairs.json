@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 388,
-    "source_groups": 90,
-    "records": 349,
+    "recipe_structure_rows": 399,
+    "source_groups": 92,
+    "records": 360,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -1766,6 +1766,554 @@
               {
                 "measurement_id": "phase-assignment",
                 "property": "phase",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "batio3-2010-cm9038768-air::batio3-2010-cm9038768-air-product",
+      "record_id": "batio3-2010-cm9038768-air",
+      "record_page_path": "records/batio3-2010-cm9038768-air.html",
+      "source_group": "batio3-2010-cm9038768",
+      "title": "Adireddy et al. (2010): Open-atmosphere precursor mixing",
+      "doi": "10.1021/cm9038768",
+      "year": 2010,
+      "method": "Open-atmosphere precursor mixing",
+      "recipe_label": "Adireddy et al. (2010): Open-atmosphere precursor mixing",
+      "sample_id": "batio3-2010-cm9038768-air-product",
+      "source_sample_label": "Air-prepared mixed cube-like population",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "BaTiO3; surface oleic acid retained; BaCO3 impurity reported",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "batio3-2010-cm9038768",
+            "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+          },
+          {
+            "source_id": "batio3-2010-cm9038768",
+            "locator": "SI PDF p. 2, Synthesis"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "batio3-2010-cm9038768",
+          "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology",
+          "claim": null
+        },
+        {
+          "source_id": "batio3-2010-cm9038768",
+          "locator": "SI PDF p. 2, Synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "BaTiO3 with BaCO3 secondary phase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Regular cubes, cube-like particles and truncated cubes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Synthesis"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-regular-subset",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average edge only of the 36% regular-cube subset; not the mean of the whole air-prepared population.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1, Figure 1a–c and morphology populations"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Air-prepared regular-cube subset only",
+          "evidence": [
+            {
+              "source_id": "batio3-2010-cm9038768",
+              "locator": "Main PDF p. 1, Figure 1a–c and morphology populations"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "BaTiO3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Chemicals and synthesis of cube-like BaTiO3 nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Retained oleic acid, source interpretation and characterization",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Chemicals and synthesis of cube-like BaTiO3 nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "batio3-2010-cm9038768-air-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "BaTiO3; surface oleic acid retained; BaCO3 impurity reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "BaTiO3 with BaCO3 secondary phase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+                },
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "SI PDF p. 2, Synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Regular cubes, cube-like particles and truncated cubes",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+                },
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "SI PDF p. 2, Synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-regular-subset",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "batio3-2010-cm9038768-glovebox::batio3-2010-cm9038768-glovebox-product",
+      "record_id": "batio3-2010-cm9038768-glovebox",
+      "record_page_path": "records/batio3-2010-cm9038768-glovebox.html",
+      "source_group": "batio3-2010-cm9038768",
+      "title": "Adireddy et al. (2010): Anaerobic glovebox precursor mixing",
+      "doi": "10.1021/cm9038768",
+      "year": 2010,
+      "method": "Anaerobic glovebox precursor mixing",
+      "recipe_label": "Adireddy et al. (2010): Anaerobic glovebox precursor mixing",
+      "sample_id": "batio3-2010-cm9038768-glovebox-product",
+      "source_sample_label": "Anaerobic-prepared regular cubes",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "BaTiO3; surface oleic acid retained",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "batio3-2010-cm9038768",
+            "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+          },
+          {
+            "source_id": "batio3-2010-cm9038768",
+            "locator": "SI PDF p. 2, Synthesis"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "batio3-2010-cm9038768",
+          "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology",
+          "claim": null
+        },
+        {
+          "source_id": "batio3-2010-cm9038768",
+          "locator": "SI PDF p. 2, Synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Pseudocubic indexed BaTiO3; cubic/tetragonal polymorph unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Regular cubes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Synthesis"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-edge",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 22,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Average cube edge, not hydrodynamic size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 2, Figure 1d and cubic morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 6, Figure S3; 100 counted nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Anaerobic-prepared regular cubes; Figure S3 distribution counts 100 nanoparticles",
+          "evidence": [
+            {
+              "source_id": "batio3-2010-cm9038768",
+              "locator": "Main PDF p. 2, Figure 1d and cubic morphology"
+            },
+            {
+              "source_id": "batio3-2010-cm9038768",
+              "locator": "SI PDF p. 6, Figure S3; 100 counted nanoparticles"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 21.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer estimate from three most intense diffraction peaks.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 2, Figure 2a and Scherrer/indexing discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD (Scherrer)",
+          "conditions": "Cubic-morphology BaTiO3 from inert preparation; distinct from TEM size",
+          "evidence": [
+            {
+              "source_id": "batio3-2010-cm9038768",
+              "locator": "Main PDF p. 2, Figure 2a and Scherrer/indexing discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "cell-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 4.026,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Printed a = 4.026(8) Å; pseudocubic assumption, cubic/tetragonal not uniquely resolved.",
+            "basis": "",
+            "raw_text": "4.026(8)",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 2, Figure 2a and Scherrer/indexing discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD indexing",
+          "conditions": "Pseudocubic lattice parameter; no measured atom positions",
+          "evidence": [
+            {
+              "source_id": "batio3-2010-cm9038768",
+              "locator": "Main PDF p. 2, Figure 2a and Scherrer/indexing discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "BaTiO3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Chemicals and synthesis of cube-like BaTiO3 nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Retained oleic acid, source interpretation and characterization",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Chemicals and synthesis of cube-like BaTiO3 nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "batio3-2010-cm9038768-glovebox-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "disperse-state",
+          "composition": {
+            "value": "BaTiO3; surface oleic acid retained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+              },
+              {
+                "source_id": "batio3-2010-cm9038768",
+                "locator": "SI PDF p. 2, Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Pseudocubic indexed BaTiO3; cubic/tetragonal polymorph unresolved",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+                },
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "SI PDF p. 2, Synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Regular cubes",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "Main PDF p. 1–2, Figure 1 and atmosphere-dependent morphology"
+                },
+                {
+                  "source_id": "batio3-2010-cm9038768",
+                  "locator": "SI PDF p. 2, Synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-edge",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "scherrer",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "cell-a",
+                "property": "lattice_parameter_a",
                 "field": "crystal_structure.phase_lattice"
               }
             ]
@@ -68849,6 +69397,1548 @@
                 "field": "morphology.dimensions"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-one-step-urea-010::xu2002-scsz-tb00207x-one-step-urea-010-product",
+      "record_id": "xu2002-scsz-tb00207x-one-step-urea-010",
+      "record_page_path": "records/xu2002-scsz-tb00207x-one-step-urea-010.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): One-step route: 0.1 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): One-step route: 0.1 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-one-step-urea-010-product",
+      "source_sample_label": "One-step route: 0.1 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 2b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 2b"
+              }
+            ],
+            "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-one-step-urea-010-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 2b"
+                }
+              ],
+              "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-one-step-urea-020::xu2002-scsz-tb00207x-one-step-urea-020-product",
+      "record_id": "xu2002-scsz-tb00207x-one-step-urea-020",
+      "record_page_path": "records/xu2002-scsz-tb00207x-one-step-urea-020.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): One-step route: 0.2 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): One-step route: 0.2 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-one-step-urea-020-product",
+      "source_sample_label": "One-step route: 0.2 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 2b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 2b"
+              }
+            ],
+            "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-one-step-urea-020-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 2b"
+                }
+              ],
+              "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-one-step-urea-050::xu2002-scsz-tb00207x-one-step-urea-050-product",
+      "record_id": "xu2002-scsz-tb00207x-one-step-urea-050",
+      "record_page_path": "records/xu2002-scsz-tb00207x-one-step-urea-050.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): One-step route: 0.5 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): One-step route: 0.5 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-one-step-urea-050-product",
+      "source_sample_label": "One-step route: 0.5 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 2b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 2b"
+              }
+            ],
+            "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-one-step-urea-050-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 2b"
+                }
+              ],
+              "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-one-step-urea-100::xu2002-scsz-tb00207x-one-step-urea-100-product",
+      "record_id": "xu2002-scsz-tb00207x-one-step-urea-100",
+      "record_page_path": "records/xu2002-scsz-tb00207x-one-step-urea-100.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): One-step route: 1.0 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): One-step route: 1.0 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-one-step-urea-100-product",
+      "source_sample_label": "One-step route: 1.0 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 2b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 2b"
+              }
+            ],
+            "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-one-step-urea-100-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 2b"
+                }
+              ],
+              "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-one-step-urea-150::xu2002-scsz-tb00207x-one-step-urea-150-product",
+      "record_id": "xu2002-scsz-tb00207x-one-step-urea-150",
+      "record_page_path": "records/xu2002-scsz-tb00207x-one-step-urea-150.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): One-step route: 1.5 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): One-step route: 1.5 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-one-step-urea-150-product",
+      "source_sample_label": "One-step route: 1.5 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 2b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 2b"
+              }
+            ],
+            "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-one-step-urea-150-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic-containing zirconia; pure cubic phase not attained",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 2b"
+                }
+              ],
+              "note": "Figure 2b is the 180 °C, 72 h one-step series. Its phase fractions are plotted, not tabulated; only the approximately 100% endpoint is stated numerically in prose."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-two-step-urea-010::xu2002-scsz-tb00207x-two-step-urea-010-product",
+      "record_id": "xu2002-scsz-tb00207x-two-step-urea-010",
+      "record_page_path": "records/xu2002-scsz-tb00207x-two-step-urea-010.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): Two-step route: 0.1 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): Two-step route: 0.1 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-two-step-urea-010-product",
+      "source_sample_label": "Two-step route: 0.1 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 1 and Figure 2a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Pure cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+              }
+            ],
+            "note": "Source assigns the lower-urea long-schedule products to cubic 8ScSZ. TEM/XRD/BET dimensions belong only to the 0.2 mol/L urea specimen."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-two-step-urea-010-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Pure cubic fluorite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+                }
+              ],
+              "note": "Source assigns the lower-urea long-schedule products to cubic 8ScSZ. TEM/XRD/BET dimensions belong only to the 0.2 mol/L urea specimen."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-two-step-urea-020::xu2002-scsz-tb00207x-two-step-urea-020-product",
+      "record_id": "xu2002-scsz-tb00207x-two-step-urea-020",
+      "record_page_path": "records/xu2002-scsz-tb00207x-two-step-urea-020.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): Two-step route: 0.2 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): Two-step route: 0.2 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-two-step-urea-020-product",
+      "source_sample_label": "Two-step route: 0.2 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 1 and Figure 2a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Pure cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+              }
+            ],
+            "note": "Source assigns the lower-urea long-schedule products to cubic 8ScSZ. TEM/XRD/BET dimensions belong only to the 0.2 mol/L urea specimen."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Highly dispersed primary nanoparticles; no definite tight agglomeration",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 3, Figure 5 and adjacent morphology/XRD/BET paragraph"
+              }
+            ],
+            "note": "Source qualitative morphology; no reconstructed particle geometry."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 7.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "XRD line-broadening estimate; separate from TEM and BET-derived sizes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 3, Figure 5 and adjacent morphology/XRD/BET paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer line broadening",
+          "conditions": "Rigaku D/max-2000, Cu Kα radiation; (111) linewidth.",
+          "evidence": [
+            {
+              "source_id": "xu2002-scsz-tb00207x",
+              "locator": "Main PDF p. 3, Figure 5 and adjacent morphology/XRD/BET paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "bet-derived-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Author-calculated equivalent size from BET surface area; model details not supplied, not a separate TEM measurement.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 3, Figure 5 and adjacent morphology/XRD/BET paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "BET / author calculation",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "xu2002-scsz-tb00207x",
+              "locator": "Main PDF p. 3, Figure 5 and adjacent morphology/XRD/BET paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-two-step-urea-020-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Pure cubic fluorite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+                }
+              ],
+              "note": "Source assigns the lower-urea long-schedule products to cubic 8ScSZ. TEM/XRD/BET dimensions belong only to the 0.2 mol/L urea specimen."
+            },
+            "morphology": {
+              "value": "Highly dispersed primary nanoparticles; no definite tight agglomeration",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 3, Figure 5 and adjacent morphology/XRD/BET paragraph"
+                }
+              ],
+              "note": "Source qualitative morphology; no reconstructed particle geometry."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "bet-derived-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-two-step-urea-100::xu2002-scsz-tb00207x-two-step-urea-100-product",
+      "record_id": "xu2002-scsz-tb00207x-two-step-urea-100",
+      "record_page_path": "records/xu2002-scsz-tb00207x-two-step-urea-100.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): Two-step route: 1.0 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): Two-step route: 1.0 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-two-step-urea-100-product",
+      "source_sample_label": "Two-step route: 1.0 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 1 and Figure 2a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic and monoclinic zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+              }
+            ],
+            "note": "Monoclinic fraction increases above 0.5 mol/L urea. No exact graph-derived phase fraction or size is asserted."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-two-step-urea-100-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic and monoclinic zirconia",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+                }
+              ],
+              "note": "Monoclinic fraction increases above 0.5 mol/L urea. No exact graph-derived phase fraction or size is asserted."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2002-scsz-tb00207x-two-step-urea-150::xu2002-scsz-tb00207x-two-step-urea-150-product",
+      "record_id": "xu2002-scsz-tb00207x-two-step-urea-150",
+      "record_page_path": "records/xu2002-scsz-tb00207x-two-step-urea-150.html",
+      "source_group": "xu2002-scsz-tb00207x",
+      "title": "Xu et al. (2002): Two-step route: 1.5 mol/L urea",
+      "doi": "10.1111/j.1151-2916.2002.tb00207.x",
+      "year": 2002,
+      "method": "Hydrothermal homogeneous urea precipitation",
+      "recipe_label": "Xu et al. (2002): Two-step route: 1.5 mol/L urea",
+      "sample_id": "xu2002-scsz-tb00207x-two-step-urea-150-product",
+      "source_sample_label": "Two-step route: 1.5 mol/L urea powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2002-scsz-tb00207x",
+            "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+          }
+        ],
+        "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 1, Experimental Procedure",
+          "claim": null
+        },
+        {
+          "source_id": "xu2002-scsz-tb00207x",
+          "locator": "Main PDF p. 2, Figure 1 and Figure 2a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic and monoclinic zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure"
+              },
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+              }
+            ],
+            "note": "Monoclinic fraction increases above 0.5 mol/L urea. No exact graph-derived phase fraction or size is asserted."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Title, abstract and Experimental Procedure"
+              }
+            ],
+            "note": "Nominal oxide basis: (Sc2O3)0.08(ZrO2)0.92; not 8 mol% scandium cations."
+          },
+          "phase": {
+            "value": "Cubic fluorite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2002-scsz-tb00207x-two-step-urea-150-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Nominal 8 mol% Sc2O3-stabilized zirconia",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2002-scsz-tb00207x",
+                "locator": "Main PDF p. 1, Experimental Procedure; nominal starting composition"
+              }
+            ],
+            "note": "Nominal oxide composition; no independent chemical-composition analysis is reported."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic and monoclinic zirconia",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 1, Experimental Procedure"
+                },
+                {
+                  "source_id": "xu2002-scsz-tb00207x",
+                  "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+                }
+              ],
+              "note": "Monoclinic fraction increases above 0.5 mol/L urea. No exact graph-derived phase fraction or size is asserted."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
