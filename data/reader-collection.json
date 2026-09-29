@@ -112,22 +112,22 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 102,
+  "contributing_papers": 104,
   "source_coverage": {
-    "total_contributing_papers": 102,
-    "reviewed_contributing_papers": 102,
+    "total_contributing_papers": 104,
+    "reviewed_contributing_papers": 104,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 369,
+  "synthesis_structure_pairs": 377,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 366,
+  "partial_pairs": 374,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1251,
+  "all_records": 1266,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -42534,6 +42534,676 @@
       }
     },
     {
+      "pair_row_id": "lee2007-cds-cbd-film::lee2007-cds-cbd-film-product",
+      "record_id": "lee2007-cds-cbd-film",
+      "record_page_path": "records/lee2007-cds-cbd-film.html",
+      "source_group": "lee2007-cds-polymers-1p2752021",
+      "title": "Lee et al. (2007): CdS chemical-bath film on ITO",
+      "doi": "10.1063/1.2752021",
+      "year": 2007,
+      "method": "CdS chemical-bath film on ITO",
+      "recipe_label": "Lee et al. (2007): CdS chemical-bath film on ITO",
+      "sample_id": "lee2007-cds-cbd-film-product",
+      "source_sample_label": "Bare nanocrystalline CdS film on ITO",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2007-cds-polymers-1p2752021",
+            "locator": "Main PDF p. 2, Preparation paragraph"
+          },
+          {
+            "source_id": "lee2007-cds-polymers-1p2752021",
+            "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2007-cds-polymers-1p2752021",
+          "locator": "Main PDF p. 2, Preparation paragraph",
+          "claim": null
+        },
+        {
+          "source_id": "lee2007-cds-polymers-1p2752021",
+          "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Nanocrystalline CdS; indexed (100) and (002) planes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+              }
+            ],
+            "note": "No explicit polymorph name, lattice constants or coordinates supplied. Diffuse SAED rings are attributed to amorphous and/or less nanocrystalline structure."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately 7 ± 1 nm particles closely aggregated into sharp-edged approximately 20 nm islands",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Source particle dimension approximately 7 ± 1 nm from SEM/TEM; the ±1 statistic is not explicitly defined.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "SEM and TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2007-cds-polymers-1p2752021",
+              "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 8.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Coherent grain size, distinct from particle diameter and aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer analysis",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2007-cds-polymers-1p2752021",
+              "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 150,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 2, End of preparation paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Reported film thickness; technique not specified",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "lee2007-cds-polymers-1p2752021",
+              "locator": "Main PDF p. 2, End of preparation paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "lattice-planes",
+          "property": "crystallinity",
+          "descriptor_field": "crystal_structure.crystalline_character",
+          "value": {
+            "value": "Nanocrystalline CdS; indexed (100) and (002) planes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+              }
+            ],
+            "note": "No explicit polymorph name, lattice constants or coordinates supplied. Diffuse SAED rings are attributed to amorphous and/or less nanocrystalline structure."
+          },
+          "technique": "SAED / HRTEM",
+          "conditions": "TEM Omega EM 912 at 200 kV; SAED/HRTEM planes (100)/(002), source describes preferential [100]/[002] growth. No d spacings digitized.",
+          "evidence": [
+            {
+              "source_id": "lee2007-cds-polymers-1p2752021",
+              "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 2, Preparation paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lee2007-cds-cbd-film-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "reflux-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 2, Preparation paragraph"
+              },
+              {
+                "source_id": "lee2007-cds-polymers-1p2752021",
+                "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Nanocrystalline CdS; indexed (100) and (002) planes",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2007-cds-polymers-1p2752021",
+                  "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+                }
+              ],
+              "note": "No explicit polymorph name, lattice constants or coordinates supplied. Diffuse SAED rings are attributed to amorphous and/or less nanocrystalline structure."
+            },
+            "morphology": {
+              "value": "Approximately 7 ± 1 nm particles closely aggregated into sharp-edged approximately 20 nm islands",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2007-cds-polymers-1p2752021",
+                  "locator": "Main PDF p. 3, Figure 1 and CdS structural discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              },
+              {
+                "measurement_id": "lattice-planes",
+                "property": "crystallinity",
+                "field": "crystal_structure.crystalline_character"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cd-acetate",
+            "dmf",
+            "thioglycerol",
+            "thiourea"
+          ],
+          "fields": [
+            {
+              "material_id": "cd-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.35,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8.82,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 12.48,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thioglycerol",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thioglycerol",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmf",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-acetate",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2.35,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-acetate",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 8.82,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thiourea",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 12.48,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thioglycerol",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "thioglycerol",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/2/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10.95,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmf",
+              "stock_id": "cds-bath",
+              "pointer": "/stocks/0/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lee2007-cds-polymers-1p2752021",
+                    "locator": "Main PDF p. 2, Preparation paragraph"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "lee2012-ito-film-c13-t28::lee2012-ito-film-c13-t28-product",
       "record_id": "lee2012-ito-film-c13-t28",
       "record_page_path": "records/lee2012-ito-film-c13-t28.html",
@@ -52192,6 +52862,2817 @@
                   {
                     "source_id": "lian2021",
                     "locator": "MAIN PDF p. 6 (printed 58913), 4.3; source SHA256 4a351221c8398d31f804d2af3d9f8327931c43e6e275e481ce84d7a67522a692"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-butanol::liao2009-tio2-jp905720g-butanol-product",
+      "record_id": "liao2009-tio2-jp905720g-butanol",
+      "record_page_path": "records/liao2009-tio2-jp905720g-butanol.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): Pure n-butanol control solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): Pure n-butanol control solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-butanol-product",
+      "source_sample_label": "Pure n-butanol control final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Poorly crystalline TiO2 with amorphous contribution; no quantitative phase fraction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Amorphous floccus-like aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-butanol-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Poorly crystalline TiO2 with amorphous contribution; no quantitative phase fraction",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Amorphous floccus-like aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "solvent-alcohol",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "solvent-alcohol",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-propanol::liao2009-tio2-jp905720g-propanol-product",
+      "record_id": "liao2009-tio2-jp905720g-propanol",
+      "record_page_path": "records/liao2009-tio2-jp905720g-propanol.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): Pure n-propanol control solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): Pure n-propanol control solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-propanol-product",
+      "source_sample_label": "Pure n-propanol control final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Poorly crystalline TiO2 with amorphous contribution; no quantitative phase fraction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Amorphous floccus-like aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-propanol-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Poorly crystalline TiO2 with amorphous contribution; no quantitative phase fraction",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Amorphous floccus-like aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "solvent-alcohol",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "solvent-alcohol",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-te::liao2009-tio2-jp905720g-te-product",
+      "record_id": "liao2009-tio2-jp905720g-te",
+      "record_page_path": "records/liao2009-tio2-jp905720g-te.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): TE solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): TE solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-te-product",
+      "source_sample_label": "TE final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; source high-crystallinity water/ethanol series; amorphous contribution also inferred for TE from measured/calculated area discrepancy",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Rectangular",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "table-tem",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 26.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TE row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Source Table1 DTEM diameter metric; at least200 particles measured. Distinct from direction-specific length/width.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TE row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "table-xrd",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TE row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Explicit Table1 row mapping; conflicts with prose order onp3. Not TEM particle size.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TE row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "hrtem-101",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 3.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "Source-assigned(101) fringe of TE; no correction of source indexing or measured CIF.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-te-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; source high-crystallinity water/ethanol series; amorphous contribution also inferred for TE from measured/calculated area discrepancy",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Rectangular",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "table-tem",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "table-xrd",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "hrtem-101",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "solvent-ethanol",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "solvent-ethanol",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-tw::liao2009-tio2-jp905720g-tw-product",
+      "record_id": "liao2009-tio2-jp905720g-tw",
+      "record_page_path": "records/liao2009-tio2-jp905720g-tw.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): TW solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): TW solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-tw-product",
+      "source_sample_label": "TW final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; source high-crystallinity water/ethanol series",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Rodlike",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "table-tem",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 80.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TW row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Source Table1 DTEM diameter metric; at least200 particles measured. Distinct from direction-specific length/width.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TW row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "table-xrd",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TW row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Explicit Table1 row mapping; conflicts with prose order onp3. Not TEM particle size.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TW row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "hrtem-101",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 3.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "Source-assigned(101) fringe of TW; no correction of source indexing or measured CIF.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "hrtem-002",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 4.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "Source-assigned(002) fringe of TW; no correction of source indexing or measured CIF.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-tw-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; source high-crystallinity water/ethanol series",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Rodlike",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "table-tem",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "table-xrd",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "hrtem-101",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "hrtem-002",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "solvent-water",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "solvent-water",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-twe025::liao2009-tio2-jp905720g-twe025-product",
+      "record_id": "liao2009-tio2-jp905720g-twe025",
+      "record_page_path": "records/liao2009-tio2-jp905720g-twe025.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): TWE0.25 solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): TWE0.25 solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-twe025-product",
+      "source_sample_label": "TWE0.25 final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; source high-crystallinity water/ethanol series",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "table-tem",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 9.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TWE0.25 row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Source Table1 DTEM diameter metric; at least200 particles measured. Distinct from direction-specific length/width.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TWE0.25 row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "table-xrd",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 8.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TWE0.25 row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Explicit Table1 row mapping; conflicts with prose order onp3. Not TEM particle size.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TWE0.25 row and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-twe025-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; source high-crystallinity water/ethanol series",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "table-tem",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "table-xrd",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-twe1::liao2009-tio2-jp905720g-twe1-product",
+      "record_id": "liao2009-tio2-jp905720g-twe1",
+      "record_page_path": "records/liao2009-tio2-jp905720g-twe1.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): TWE1 solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): TWE1 solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-twe1-product",
+      "source_sample_label": "TWE1 final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; source high-crystallinity water/ethanol series",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "table-tem",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 24.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TWE1 row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Source Table1 DTEM diameter metric; at least200 particles measured. Distinct from direction-specific length/width.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TWE1 row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "table-xrd",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TWE1 row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Explicit Table1 row mapping; conflicts with prose order onp3. Not TEM particle size.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TWE1 row and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-twe1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; source high-crystallinity water/ethanol series",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "table-tem",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "table-xrd",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "liao2009-tio2-jp905720g-twe4::liao2009-tio2-jp905720g-twe4-product",
+      "record_id": "liao2009-tio2-jp905720g-twe4",
+      "record_page_path": "records/liao2009-tio2-jp905720g-twe4.html",
+      "source_group": "liao2009-tio2-jp905720g",
+      "title": "Liao et al. (2009): TWE4 solvothermal TiO2",
+      "doi": "10.1021/jp905720g",
+      "year": 2009,
+      "method": "Peroxotitanate precursor and solvothermal crystallization",
+      "recipe_label": "Liao et al. (2009): TWE4 solvothermal TiO2",
+      "sample_id": "liao2009-tio2-jp905720g-twe4-product",
+      "source_sample_label": "TWE4 final product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liao2009-tio2-jp905720g",
+            "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+          }
+        ],
+        "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liao2009-tio2-jp905720g",
+          "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; source high-crystallinity water/ethanol series",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "table-tem",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 47.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TWE4 row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Source Table1 DTEM diameter metric; at least200 particles measured. Distinct from direction-specific length/width.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TWE4 row and footnotes"
+            }
+          ]
+        },
+        {
+          "measurement_id": "table-xrd",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 4, Table1, TWE4 row and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Explicit Table1 row mapping; conflicts with prose order onp3. Not TEM particle size.",
+          "evidence": [
+            {
+              "source_id": "liao2009-tio2-jp905720g",
+              "locator": "Supplied main PDF p. 4, Table1, TWE4 row and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 2, Sections2.1–2.4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liao2009-tio2-jp905720g-twe4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liao2009-tio2-jp905720g",
+                "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+              }
+            ],
+            "note": "Source product designation; no elemental assay or surface stoichiometry inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; source high-crystallinity water/ethanol series",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liao2009-tio2-jp905720g",
+                  "locator": "Supplied main PDF p. 3–4, Sections3.1–3.2; Figures2–4; Table1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "table-tem",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "table-xrd",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonia",
+            "h2o2",
+            "ti-sulfate"
+          ],
+          "fields": [
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "pointer": "/materials/0/quantities/solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonia",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "h2o2",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ti-sulfate",
+              "stock_id": "ti-stock",
+              "pointer": "/stocks/0/components/0/quantities/solution_concentration",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "liao2009-tio2-jp905720g",
+                    "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
                   }
                 ],
                 "derivation": null
