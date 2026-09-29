@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 365,
-    "source_groups": 80,
-    "records": 326,
+    "recipe_structure_rows": 369,
+    "source_groups": 82,
+    "records": 330,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -18862,6 +18862,550 @@
               {
                 "measurement_id": "typical-tem-diameter",
                 "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "hu1999-agms2-aggas2::hu1999-agms2-aggas2-product",
+      "record_id": "hu1999-agms2-aggas2",
+      "record_page_path": "records/hu1999-agms2-aggas2.html",
+      "source_group": "hu1999-agms2-a902218j",
+      "title": "Hu et al. (1999): AgGaS2 ethylenediamine solvothermal route",
+      "doi": "10.1039/a902218j",
+      "year": 1999,
+      "method": "AgGaS2 ethylenediamine solvothermal route",
+      "recipe_label": "Hu et al. (1999): AgGaS2 ethylenediamine solvothermal route",
+      "sample_id": "hu1999-agms2-aggas2-product",
+      "source_sample_label": "AgGaS2 as-prepared final dark-yellow product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgGaS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hu1999-agms2-a902218j",
+            "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hu1999-agms2-a902218j",
+          "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal AgGaS2; chalcopyrite family",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform spherical particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 5.7538,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-reported lattice constant; no sample atomic coordinates or uncertainty supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "AgGaS2 indexed specimen",
+          "evidence": [
+            {
+              "source_id": "hu1999-agms2-a902218j",
+              "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1a"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source calls average particle size estimated by Scherrer equation; kept separate from TEM diameter range.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "AgGaS2 Figure 1, not an image scale-bar measurement",
+          "evidence": [
+            {
+              "source_id": "hu1999-agms2-a902218j",
+              "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1a"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 5,
+            "maximum": 7,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported particle diameter range, not a mean or fitted distribution.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, TEM diameter paragraph and Figure 2a"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "AgGaS2 Figure 2 specimen",
+          "evidence": [
+            {
+              "source_id": "hu1999-agms2-a902218j",
+              "locator": "Main PDF p. 1–2, TEM diameter paragraph and Figure 2a"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgGaS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1, Typical procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "hu1999-agms2-aggas2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "AgGaS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal AgGaS2; chalcopyrite family",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "hu1999-agms2-a902218j",
+                  "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniform spherical particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "hu1999-agms2-a902218j",
+                  "locator": "Main PDF p. 1–2, Figure 1a XRD, Figure 2a TEM and accompanying discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "hu1999-agms2-agins2::hu1999-agms2-agins2-product",
+      "record_id": "hu1999-agms2-agins2",
+      "record_page_path": "records/hu1999-agms2-agins2.html",
+      "source_group": "hu1999-agms2-a902218j",
+      "title": "Hu et al. (1999): AgInS2 ethylenediamine solvothermal route",
+      "doi": "10.1039/a902218j",
+      "year": 1999,
+      "method": "AgInS2 ethylenediamine solvothermal route",
+      "recipe_label": "Hu et al. (1999): AgInS2 ethylenediamine solvothermal route",
+      "sample_id": "hu1999-agms2-agins2-product",
+      "source_sample_label": "AgInS2 as-prepared final dark-yellow product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hu1999-agms2-a902218j",
+            "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hu1999-agms2-a902218j",
+          "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal AgInS2; chalcopyrite family",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform spherical particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 5.8652,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-reported lattice constant; no sample atomic coordinates or uncertainty supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "AgInS2 indexed specimen",
+          "evidence": [
+            {
+              "source_id": "hu1999-agms2-a902218j",
+              "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1b"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source calls average particle size estimated by Scherrer equation; kept separate from TEM diameter range.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "AgInS2 Figure 1, not an image scale-bar measurement",
+          "evidence": [
+            {
+              "source_id": "hu1999-agms2-a902218j",
+              "locator": "Main PDF p. 1, XRD phase and Scherrer-size discussion, Figure 1b"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 9,
+            "maximum": 12,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported particle diameter range, not a mean or fitted distribution.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, TEM diameter paragraph and Figure 2b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "AgInS2 Figure 2 specimen",
+          "evidence": [
+            {
+              "source_id": "hu1999-agms2-a902218j",
+              "locator": "Main PDF p. 1–2, TEM diameter paragraph and Figure 2b"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1, Typical procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "hu1999-agms2-agins2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "AgInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hu1999-agms2-a902218j",
+                "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal AgInS2; chalcopyrite family",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "hu1999-agms2-a902218j",
+                  "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniform spherical particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "hu1999-agms2-a902218j",
+                  "locator": "Main PDF p. 1–2, Figure 1b XRD, Figure 2b TEM and accompanying discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_size",
                 "field": "morphology.dimensions"
               }
             ]
@@ -62713,6 +63257,385 @@
               "note": ""
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang1998-cu2xse-180c-4h::wang1998-cu2xse-180c-4h-product",
+      "record_id": "wang1998-cu2xse-180c-4h",
+      "record_page_path": "records/wang1998-cu2xse-180c-4h.html",
+      "source_group": "wang1998-cu2xse-a806166a",
+      "title": "Wang et al. (1998): Cu2−xSe at 180 °C for 4 h",
+      "doi": "10.1039/a806166a",
+      "year": 1998,
+      "method": "Ethylenediamine solvothermal synthesis",
+      "recipe_label": "Wang et al. (1998): Cu2−xSe at 180 °C for 4 h",
+      "sample_id": "wang1998-cu2xse-180c-4h-product",
+      "source_sample_label": "180 °C for 4 h Cu2−xSe product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2−xSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang1998-cu2xse-a806166a",
+            "locator": "Main PDF p. 2, 180 °C/4 h comparison, top right column"
+          }
+        ],
+        "note": "Nominal Cu2−xSe comparison context; no separately reported XPS composition."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang1998-cu2xse-a806166a",
+          "locator": "Main PDF p. 1, Experimental procedure, lower left column",
+          "claim": null
+        },
+        {
+          "source_id": "wang1998-cu2xse-a806166a",
+          "locator": "Main PDF p. 2, 180 °C/4 h comparison, top right column",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 100,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source reports grain size reaching100 nm (XRD) at180 °C/4 h; no error or Scherrer recalculation supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 2, 180 °C/4 h comparison, top right column"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "Comparison stated in prose; no separate diffraction pattern or TEM figure assigned.",
+          "evidence": [
+            {
+              "source_id": "wang1998-cu2xse-a806166a",
+              "locator": "Main PDF p. 2, 180 °C/4 h comparison, top right column"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu2−xSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 1, Experimental procedure, lower left column"
+              },
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 2, Temperature/time comparison"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No separately prescribed target space group or cell dimensions."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang1998-cu2xse-180c-4h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Cu2−xSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 2, 180 °C/4 h comparison, top right column"
+              }
+            ],
+            "note": "Nominal Cu2−xSe comparison context; no separately reported XPS composition."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Cubic phase is not separately restated or plotted for this 180 °C comparison."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No separately shown TEM image or morphology for this comparison."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang1998-cu2xse-90c-4h::wang1998-cu2xse-90c-4h-product",
+      "record_id": "wang1998-cu2xse-90c-4h",
+      "record_page_path": "records/wang1998-cu2xse-90c-4h.html",
+      "source_group": "wang1998-cu2xse-a806166a",
+      "title": "Wang et al. (1998): Cu2−xSe at 90 °C for 4 h",
+      "doi": "10.1039/a806166a",
+      "year": 1998,
+      "method": "Ethylenediamine solvothermal synthesis",
+      "recipe_label": "Wang et al. (1998): Cu2−xSe at 90 °C for 4 h",
+      "sample_id": "wang1998-cu2xse-90c-4h-product",
+      "source_sample_label": "90 °C for 4 h Cu2−xSe product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2−xSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang1998-cu2xse-a806166a",
+            "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2"
+          }
+        ],
+        "note": "XPS Cu:Se ratio1.83:1 pertains to the main characterized product only."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang1998-cu2xse-a806166a",
+          "locator": "Main PDF p. 1, Experimental procedure, lower left column",
+          "claim": null
+        },
+        {
+          "source_id": "wang1998-cu2xse-a806166a",
+          "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic Cu2−xSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2"
+              }
+            ],
+            "note": "Source-indexed XRD, JCPDS6-680 cited; measured atomic coordinates absent."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly homogeneously spherical grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2"
+              }
+            ],
+            "note": "TEM description of the main sample; no measured three-dimensional shape."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported20±5 nm using Scherrer peak half-widths; meaning of±5 not defined.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 1, XRD paragraph and Figure1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer estimate",
+          "conditions": "Japan Rigaku D/max γA rotating-anode diffractometer; Ni-filtered Cu Kα radiation. Coherent-domain estimate distinct from TEM.",
+          "evidence": [
+            {
+              "source_id": "wang1998-cu2xse-a806166a",
+              "locator": "Main PDF p. 1, XRD paragraph and Figure1"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu2−xSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 1, Experimental procedure, lower left column"
+              },
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 2, Temperature/time comparison"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No separately prescribed target space group or cell dimensions."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang1998-cu2xse-90c-4h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Cu2−xSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1998-cu2xse-a806166a",
+                "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2"
+              }
+            ],
+            "note": "XPS Cu:Se ratio1.83:1 pertains to the main characterized product only."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic Cu2−xSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang1998-cu2xse-a806166a",
+                  "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2"
+                }
+              ],
+              "note": "Source-indexed XRD, JCPDS6-680 cited; measured atomic coordinates absent."
+            },
+            "morphology": {
+              "value": "Nearly homogeneously spherical grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang1998-cu2xse-a806166a",
+                  "locator": "Main PDF p. 1, XRD/TEM paragraphs, Figures1–2"
+                }
+              ],
+              "note": "TEM description of the main sample; no measured three-dimensional shape."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
           }
         }
       },
