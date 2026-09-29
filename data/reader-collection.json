@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 109,
+  "material_families": 113,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -81,6 +81,9 @@
     "LiFe5O8",
     "LiMn2O4",
     "Mn:ZnO",
+    "MoO2",
+    "MoO2/MoS2",
+    "MoS2",
     "NAT-CQDs",
     "Ni3S4",
     "Ni3S4 + Ni",
@@ -94,6 +97,7 @@
     "Pt",
     "Si/SiOx",
     "SiO2",
+    "Sn4P3",
     "SnO2",
     "SnSe",
     "TiO2",
@@ -113,22 +117,22 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 107,
+  "contributing_papers": 110,
   "source_coverage": {
-    "total_contributing_papers": 107,
-    "reviewed_contributing_papers": 107,
+    "total_contributing_papers": 110,
+    "reviewed_contributing_papers": 110,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 382,
+  "synthesis_structure_pairs": 388,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 379,
+  "partial_pairs": 385,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1288,
+  "all_records": 1315,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -12467,6 +12471,467 @@
                   {
                     "source_id": "chen2018ami",
                     "locator": "main PDF p. 4 (printed 15908), Table 1"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "choi2006-pbs-aptamer-ja066506k-tae::choi2006-pbs-aptamer-ja066506k-tae-product",
+      "record_id": "choi2006-pbs-aptamer-ja066506k-tae",
+      "record_page_path": "records/choi2006-pbs-aptamer-ja066506k-tae.html",
+      "source_group": "choi2006-pbs-aptamer-ja066506k",
+      "title": "Choi et al. (2006): Aqueous TBA-capped PbS preparation in 1× TAE",
+      "doi": "10.1021/ja066506k",
+      "year": 2006,
+      "method": "Aqueous TBA-capped PbS preparation in 1× TAE",
+      "recipe_label": "Choi et al. (2006): Aqueous TBA-capped PbS preparation in 1× TAE",
+      "sample_id": "choi2006-pbs-aptamer-ja066506k-tae-product",
+      "source_sample_label": "TBA-capped PbS from aqueous preparation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS quantum-dot host",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "choi2006-pbs-aptamer-ja066506k",
+            "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+          },
+          {
+            "source_id": "choi2006-pbs-aptamer-ja066506k",
+            "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "choi2006-pbs-aptamer-ja066506k",
+          "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1",
+          "claim": null
+        },
+        {
+          "source_id": "choi2006-pbs-aptamer-ja066506k",
+          "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 3,
+            "maximum": 6,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Typical/majority particle diameter range, not a formal statistical distribution or mean; no separate water/buffer sample assignment.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+              },
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+              },
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "SI PDF p. 1–2, Figure S1 and caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "TBA-capped PbS from the common aqueous synthesis; medium-specific image batch unresolved",
+          "evidence": [
+            {
+              "source_id": "choi2006-pbs-aptamer-ja066506k",
+              "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+            },
+            {
+              "source_id": "choi2006-pbs-aptamer-ja066506k",
+              "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+            },
+            {
+              "source_id": "choi2006-pbs-aptamer-ja066506k",
+              "locator": "SI PDF p. 1–2, Figure S1 and caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS QD host",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+              },
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Source-defined DNA/aptamer cap; conformation is interpreted, not a measured atomic model",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+              },
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "choi2006-pbs-aptamer-ja066506k-tae-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "inject-state",
+          "composition": {
+            "value": "PbS quantum-dot host",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+              },
+              {
+                "source_id": "choi2006-pbs-aptamer-ja066506k",
+                "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "choi2006-pbs-aptamer-ja066506k",
+                  "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                },
+                {
+                  "source_id": "choi2006-pbs-aptamer-ja066506k",
+                  "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "lead-acetate",
+            "sulfur-feed",
+            "tba"
+          ],
+          "fields": [
+            {
+              "material_id": "tba",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 32,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-acetate",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-feed",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tba",
+              "stock_id": "tba-pb-mixture",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 32,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-acetate",
+              "stock_id": "tba-pb-mixture",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tba",
+              "stock_id": "tba-qd-dispersion",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 32,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lead-acetate",
+              "stock_id": "tba-qd-dispersion",
+              "pointer": "/stocks/1/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-feed",
+              "stock_id": "tba-qd-dispersion",
+              "pointer": "/stocks/1/components/2/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 65,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "Main PDF p. 1, aqueous synthesis and Scheme 1"
+                  },
+                  {
+                    "source_id": "choi2006-pbs-aptamer-ja066506k",
+                    "locator": "SI PDF p. 1, Synthesis of PbS Quantum Dots Using Thrombin-Binding Aptamer"
                   }
                 ],
                 "derivation": null
@@ -97023,6 +97488,442 @@
       }
     },
     {
+      "pair_row_id": "sn4p3-1999-jssc19998315-160c10h::sn4p3-1999-jssc19998315-160c10h-product",
+      "record_id": "sn4p3-1999-jssc19998315-160c10h",
+      "record_page_path": "records/sn4p3-1999-jssc19998315-160c10h.html",
+      "source_group": "sn4p3-1999-jssc19998315",
+      "title": "Su et al. (1999): One-step ethanol solvothermal preparation at 160 °C for 10 h",
+      "doi": "10.1006/jssc.1999.8315",
+      "year": 1999,
+      "method": "One-step ethanol solvothermal preparation at 160 °C for 10 h",
+      "recipe_label": "Su et al. (1999): One-step ethanol solvothermal preparation at 160 °C for 10 h",
+      "sample_id": "sn4p3-1999-jssc19998315-160c10h-product",
+      "source_sample_label": "As-prepared Sn4P3 from the 160 °C/10 h route",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Sn4P3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sn4p3-1999-jssc19998315",
+            "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sn4p3-1999-jssc19998315",
+          "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Single hexagonal Sn4P3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical, nonuniform nanoparticles with aggregation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Mean crystallite size from diffraction-peak half-width; distinct from TEM particle/aggregate sizes.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer equation",
+          "conditions": "As-prepared successful route; Scherrer mean",
+          "evidence": [
+            {
+              "source_id": "sn4p3-1999-jssc19998315",
+              "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "cell-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 3.9701,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source-calculated specimen cell constant; literature comparison a=3.9677 Å is separate.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "As-prepared hexagonal Sn4P3",
+          "evidence": [
+            {
+              "source_id": "sn4p3-1999-jssc19998315",
+              "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-small-subpopulation",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 20,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Only some TEM particles fall below this strict bound; not a mean, uniform diameter or maximum of the whole sample.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+              }
+            ],
+            "derivation": null,
+            "maximum_exclusive": true
+          },
+          "technique": "TEM",
+          "conditions": "Small-particle subpopulation in Figure 2; larger features are aggregates",
+          "evidence": [
+            {
+              "source_id": "sn4p3-1999-jssc19998315",
+              "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Sn4P3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sn4p3-1999-jssc19998315-160c10h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "Sn4P3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sn4p3-1999-jssc19998315",
+                "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Single hexagonal Sn4P3",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sn4p3-1999-jssc19998315",
+                  "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nearly spherical, nonuniform nanoparticles with aggregation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sn4p3-1999-jssc19998315",
+                  "locator": "Main PDF p. 2, Results and Discussion, Figures 1–2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "cell-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-small-subpopulation",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "kbh4",
+            "sncl2-2h2o",
+            "yellow-p"
+          ],
+          "fields": [
+            {
+              "material_id": "sncl2-2h2o",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.256,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "sn4p3-1999-jssc19998315",
+                    "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sncl2-2h2o",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "sn4p3-1999-jssc19998315",
+                    "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yellow-p",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.24,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "sn4p3-1999-jssc19998315",
+                    "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yellow-p",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 7.74,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Literal source amount for yellow phosphorus; atom-versus-P4 molecular basis is not explicitly stated.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "sn4p3-1999-jssc19998315",
+                    "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "kbh4",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.54,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "sn4p3-1999-jssc19998315",
+                    "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "kbh4",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "sn4p3-1999-jssc19998315",
+                    "locator": "Main PDF p. 1–2, Experimental, printed pp.110–111"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "song-2024-znssete-msc-349::msc-349-condition-context",
       "record_id": "song-2024-znssete-msc-349",
       "record_page_path": "records/song-2024-znssete-msc-349.html",
@@ -119417,6 +120318,1000 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhan1998-mos2-jssc19987991-sample-a::zhan1998-mos2-jssc19987991-sample-a-product",
+      "record_id": "zhan1998-mos2-jssc19987991-sample-a",
+      "record_page_path": "records/zhan1998-mos2-jssc19987991-sample-a.html",
+      "source_group": "zhan1998-mos2-jssc19987991",
+      "title": "Zhan et al. (1998): Sample a: MoO3 without sulfur",
+      "doi": "10.1006/jssc.1998.7991",
+      "year": 1998,
+      "method": "Sample a: MoO3 without sulfur",
+      "recipe_label": "Zhan et al. (1998): Sample a: MoO3 without sulfur",
+      "sample_id": "zhan1998-mos2-jssc19987991-sample-a-product",
+      "source_sample_label": "Sample a (Table 1; Figure 1a)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "MoO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+          },
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 2, Figure 1, trace a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 3, Table 1 and XRD discussion",
+          "claim": null
+        },
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 2, Figure 1, trace a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "MoO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "MoO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 1, Preparation of samples"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhan1998-mos2-jssc19987991-sample-a-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "MoO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "MoO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+                },
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 2, Figure 1, trace a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "hydrazine-hydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "hydrazine-hydrate",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Hydrazine monohydrate charge; source calls it sufficient. No molarity or water volume separately supplied. Conditions follow the source statement that ratio experiments used the same conditions; variant absolute precursor charges are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhan1998-mos2-jssc19987991-sample-b::zhan1998-mos2-jssc19987991-sample-b-product",
+      "record_id": "zhan1998-mos2-jssc19987991-sample-b",
+      "record_page_path": "records/zhan1998-mos2-jssc19987991-sample-b.html",
+      "source_group": "zhan1998-mos2-jssc19987991",
+      "title": "Zhan et al. (1998): Sample b: MoO3:S = 1:1",
+      "doi": "10.1006/jssc.1998.7991",
+      "year": 1998,
+      "method": "Sample b: MoO3:S = 1:1",
+      "recipe_label": "Zhan et al. (1998): Sample b: MoO3:S = 1:1",
+      "sample_id": "zhan1998-mos2-jssc19987991-sample-b-product",
+      "source_sample_label": "Sample b (Table 1; Figure 1b)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "MoO2/MoS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+          },
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 2, Figure 1, trace b"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 3, Table 1 and XRD discussion",
+          "claim": null
+        },
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 2, Figure 1, trace b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "MoO2 + MoS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace b"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "MoO2/MoS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 1, Preparation of samples"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhan1998-mos2-jssc19987991-sample-b-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "MoO2/MoS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace b"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "MoO2 + MoS2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+                },
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 2, Figure 1, trace b"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "hydrazine-hydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "hydrazine-hydrate",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Hydrazine monohydrate charge; source calls it sufficient. No molarity or water volume separately supplied. Conditions follow the source statement that ratio experiments used the same conditions; variant absolute precursor charges are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhan1998-mos2-jssc19987991-sample-c::zhan1998-mos2-jssc19987991-sample-c-product",
+      "record_id": "zhan1998-mos2-jssc19987991-sample-c",
+      "record_page_path": "records/zhan1998-mos2-jssc19987991-sample-c.html",
+      "source_group": "zhan1998-mos2-jssc19987991",
+      "title": "Zhan et al. (1998): Sample c: MoO3:S = 1:2",
+      "doi": "10.1006/jssc.1998.7991",
+      "year": 1998,
+      "method": "Sample c: MoO3:S = 1:2",
+      "recipe_label": "Zhan et al. (1998): Sample c: MoO3:S = 1:2",
+      "sample_id": "zhan1998-mos2-jssc19987991-sample-c-product",
+      "source_sample_label": "Sample c (Table 1; Figure 1c)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "MoS1.99",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+          },
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 2, Figure 1, trace c"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 3, Table 1 and XRD discussion",
+          "claim": null
+        },
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 2, Figure 1, trace c",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "2H-MoS2; P63/mmc (No. 194)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace c"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "MoS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 1, Preparation of samples"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhan1998-mos2-jssc19987991-sample-c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "MoS1.99",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace c"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "2H-MoS2; P63/mmc (No. 194)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+                },
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 2, Figure 1, trace c"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "hydrazine-hydrate",
+            "moo3",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "moo3",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.576,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "moo3",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "hydrazine-hydrate",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Hydrazine monohydrate charge; source calls it sufficient. No molarity or water volume separately supplied.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "moo3",
+              "stock_id": "ground-feed",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.576,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "moo3",
+              "stock_id": "ground-feed",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "ground-feed",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhan1998-mos2-jssc19987991-sample-d::zhan1998-mos2-jssc19987991-sample-d-product",
+      "record_id": "zhan1998-mos2-jssc19987991-sample-d",
+      "record_page_path": "records/zhan1998-mos2-jssc19987991-sample-d.html",
+      "source_group": "zhan1998-mos2-jssc19987991",
+      "title": "Zhan et al. (1998): Sample d: MoO3:S = 1:3",
+      "doi": "10.1006/jssc.1998.7991",
+      "year": 1998,
+      "method": "Sample d: MoO3:S = 1:3",
+      "recipe_label": "Zhan et al. (1998): Sample d: MoO3:S = 1:3",
+      "sample_id": "zhan1998-mos2-jssc19987991-sample-d-product",
+      "source_sample_label": "Sample d (Table 1; Figure 1d)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "MoS2.02",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+          },
+          {
+            "source_id": "zhan1998-mos2-jssc19987991",
+            "locator": "Main PDF p. 2, Figure 1, trace d"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 3, Table 1 and XRD discussion",
+          "claim": null
+        },
+        {
+          "source_id": "zhan1998-mos2-jssc19987991",
+          "locator": "Main PDF p. 2, Figure 1, trace d",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "2H-MoS2; P63/mmc (No. 194)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace d"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "MoS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 1, Preparation of samples"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhan1998-mos2-jssc19987991-sample-d-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "MoS2.02",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+              },
+              {
+                "source_id": "zhan1998-mos2-jssc19987991",
+                "locator": "Main PDF p. 2, Figure 1, trace d"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "2H-MoS2; P63/mmc (No. 194)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 3, Table 1 and XRD discussion"
+                },
+                {
+                  "source_id": "zhan1998-mos2-jssc19987991",
+                  "locator": "Main PDF p. 2, Figure 1, trace d"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "hydrazine-hydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "hydrazine-hydrate",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Hydrazine monohydrate charge; source calls it sufficient. No molarity or water volume separately supplied. Conditions follow the source statement that ratio experiments used the same conditions; variant absolute precursor charges are not specified.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhan1998-mos2-jssc19987991",
+                    "locator": "Main PDF p. 1, Preparation of samples"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
