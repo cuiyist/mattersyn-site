@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 429,
-    "source_groups": 98,
-    "records": 390,
+    "recipe_structure_rows": 434,
+    "source_groups": 100,
+    "records": 395,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -66153,6 +66153,691 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "sorescu2004-in2o3-jmsc01603fc-stirred-in2o3::sorescu2004-in2o3-jmsc01603fc-stirred-in2o3-product",
+      "record_id": "sorescu2004-in2o3-jmsc01603fc-stirred-in2o3",
+      "record_page_path": "records/sorescu2004-in2o3-jmsc01603fc-stirred-in2o3.html",
+      "source_group": "sorescu2004-in2o3-jmsc01603fc",
+      "title": "Sorescu et al. (2004): stirred stainless-steel InOOH postannealed at 500 °C",
+      "doi": "10.1023/B:JMSC.0000011529.01603.FC",
+      "year": 2004,
+      "method": "Postannealing of hydrothermal indium oxyhydroxide",
+      "recipe_label": "Sorescu et al. (2004): stirred stainless-steel InOOH postannealed at 500 °C",
+      "sample_id": "sorescu2004-in2o3-jmsc01603fc-stirred-in2o3-product",
+      "source_sample_label": "stirred stainless-steel postannealed In2O3",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sorescu2004-in2o3-jmsc01603fc",
+            "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+          }
+        ],
+        "note": "Phase identity assigned from XRD; no separate elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sorescu2004-in2o3-jmsc01603fc",
+          "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Rhombohedral corundum In2O3; R-3c (167)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+              }
+            ],
+            "note": "No other indium-compound peaks detected by XRD; this is an instrumental phase-detection statement, not absolute chemical-purity proof."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanometer particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 2, Figure 2a TEM and accompanying paragraph"
+              }
+            ],
+            "note": "Qualitative TEM confirmation. A 100 nm scale bar is not a numerical particle diameter."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "refined-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 5.469,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Refined annealed first-experiment specimen; not reference-cell value.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / refinement",
+          "conditions": "Rhombohedral phase, ASTM 22-336; R-3c (167).",
+          "evidence": [
+            {
+              "source_id": "sorescu2004-in2o3-jmsc01603fc",
+              "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+            }
+          ]
+        },
+        {
+          "measurement_id": "mean-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 12,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Author reports particle dimensions in the XRD/Scherrer comparison. This is not a counted TEM diameter distribution; estimator statistics and uncertainty are not supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer size estimate",
+          "conditions": "First-experiment Scherrer method is explicit; second-experiment mean/range appears in the continuing XRD comparison.",
+          "evidence": [
+            {
+              "source_id": "sorescu2004-in2o3-jmsc01603fc",
+              "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+            }
+          ]
+        },
+        {
+          "measurement_id": "size-range",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 10,
+            "maximum": 18,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Author reports particle dimensions in the XRD/Scherrer comparison. This is not a counted TEM diameter distribution; estimator statistics and uncertainty are not supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer size estimate",
+          "conditions": "First-experiment Scherrer method is explicit; second-experiment mean/range appears in the continuing XRD comparison.",
+          "evidence": [
+            {
+              "source_id": "sorescu2004-in2o3-jmsc01603fc",
+              "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Experimental synthesis paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Rhombohedral In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1–2, XRD phase assignments"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sorescu2004-in2o3-jmsc01603fc-stirred-in2o3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+              }
+            ],
+            "note": "Phase identity assigned from XRD; no separate elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Rhombohedral corundum In2O3; R-3c (167)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                  "locator": "Main PDF p. 1, Figure 1b, refined oxide cell and Scherrer estimate"
+                }
+              ],
+              "note": "No other indium-compound peaks detected by XRD; this is an instrumental phase-detection statement, not absolute chemical-purity proof."
+            },
+            "morphology": {
+              "value": "Nanometer particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                  "locator": "Main PDF p. 2, Figure 2a TEM and accompanying paragraph"
+                }
+              ],
+              "note": "Qualitative TEM confirmation. A 100 nm scale bar is not a numerical particle diameter."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "refined-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "mean-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "size-range",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "sorescu2004-in2o3-jmsc01603fc-stirred-inooh::sorescu2004-in2o3-jmsc01603fc-stirred-inooh-product",
+      "record_id": "sorescu2004-in2o3-jmsc01603fc-stirred-inooh",
+      "record_page_path": "records/sorescu2004-in2o3-jmsc01603fc-stirred-inooh.html",
+      "source_group": "sorescu2004-in2o3-jmsc01603fc",
+      "title": "Sorescu et al. (2004): stirred stainless-steel hydrothermal InOOH",
+      "doi": "10.1023/B:JMSC.0000011529.01603.FC",
+      "year": 2004,
+      "method": "Hydrothermal preparation",
+      "recipe_label": "Sorescu et al. (2004): stirred stainless-steel hydrothermal InOOH",
+      "sample_id": "sorescu2004-in2o3-jmsc01603fc-stirred-inooh-product",
+      "source_sample_label": "stirred stainless-steel hydrothermal InOOH",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InOOH",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sorescu2004-in2o3-jmsc01603fc",
+            "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement"
+          }
+        ],
+        "note": "Phase identity assigned from XRD; no separate elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sorescu2004-in2o3-jmsc01603fc",
+          "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Orthorhombic InOOH; Pnnm (58)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement"
+              }
+            ],
+            "note": "First experiment has Figure 1a and refined cell parameters."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "refined-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 5.262,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Rietveld-refined first hydrothermal specimen; not cited reference-cell value.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Rietveld refinement",
+          "conditions": "Rigaku D-2013; Cu Kα λ = 1.540598 Å.",
+          "evidence": [
+            {
+              "source_id": "sorescu2004-in2o3-jmsc01603fc",
+              "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InOOH",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Experimental synthesis paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Orthorhombic InOOH",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1–2, XRD phase assignments"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sorescu2004-in2o3-jmsc01603fc-stirred-inooh-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "InOOH",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement"
+              }
+            ],
+            "note": "Phase identity assigned from XRD; no separate elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Orthorhombic InOOH; Pnnm (58)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                  "locator": "Main PDF p. 1, Figure 1a and first-experiment Rietveld refinement"
+                }
+              ],
+              "note": "First experiment has Figure 1a and refined cell parameters."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No numerical TEM dimensions assigned unless expressly reported for this specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "refined-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "sorescu2004-in2o3-jmsc01603fc-unstirred-in2o3::sorescu2004-in2o3-jmsc01603fc-unstirred-in2o3-product",
+      "record_id": "sorescu2004-in2o3-jmsc01603fc-unstirred-in2o3",
+      "record_page_path": "records/sorescu2004-in2o3-jmsc01603fc-unstirred-in2o3.html",
+      "source_group": "sorescu2004-in2o3-jmsc01603fc",
+      "title": "Sorescu et al. (2004): unstirred Teflon-lined InOOH postannealed at 500 °C",
+      "doi": "10.1023/B:JMSC.0000011529.01603.FC",
+      "year": 2004,
+      "method": "Postannealing of hydrothermal indium oxyhydroxide",
+      "recipe_label": "Sorescu et al. (2004): unstirred Teflon-lined InOOH postannealed at 500 °C",
+      "sample_id": "sorescu2004-in2o3-jmsc01603fc-unstirred-in2o3-product",
+      "source_sample_label": "unstirred Teflon-lined postannealed In2O3",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In2O3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sorescu2004-in2o3-jmsc01603fc",
+            "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+          }
+        ],
+        "note": "Phase identity assigned from XRD; no separate elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sorescu2004-in2o3-jmsc01603fc",
+          "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Rhombohedral corundum In2O3; R-3c (167)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+              }
+            ],
+            "note": "Second experiment transforms to rhombohedral In2O3 on postannealing; no first-experiment refined cell or TEM assigned here."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "mean-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 22,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Author reports particle dimensions in the XRD/Scherrer comparison. This is not a counted TEM diameter distribution; estimator statistics and uncertainty are not supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer size estimate",
+          "conditions": "First-experiment Scherrer method is explicit; second-experiment mean/range appears in the continuing XRD comparison.",
+          "evidence": [
+            {
+              "source_id": "sorescu2004-in2o3-jmsc01603fc",
+              "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+            }
+          ]
+        },
+        {
+          "measurement_id": "size-range",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 19,
+            "maximum": 26,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Author reports particle dimensions in the XRD/Scherrer comparison. This is not a counted TEM diameter distribution; estimator statistics and uncertainty are not supplied.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer size estimate",
+          "conditions": "First-experiment Scherrer method is explicit; second-experiment mean/range appears in the continuing XRD comparison.",
+          "evidence": [
+            {
+              "source_id": "sorescu2004-in2o3-jmsc01603fc",
+              "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1, Experimental synthesis paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Rhombohedral In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 1–2, XRD phase assignments"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sorescu2004-in2o3-jmsc01603fc-unstirred-in2o3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "In2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+              }
+            ],
+            "note": "Phase identity assigned from XRD; no separate elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Rhombohedral corundum In2O3; R-3c (167)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sorescu2004-in2o3-jmsc01603fc",
+                  "locator": "Main PDF p. 2, Teflon-lined autoclave postannealing comparison"
+                }
+              ],
+              "note": "Second experiment transforms to rhombohedral In2O3 on postannealing; no first-experiment refined cell or TEM assigned here."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No numerical TEM dimensions assigned unless expressly reported for this specimen."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "mean-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "size-range",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "stankov2008-a::stankov2008-a-product",
       "record_id": "stankov2008-a",
       "record_page_path": "records/stankov2008-a.html",
@@ -72804,6 +73489,335 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang1999-ag-mcm48-cm990228p-ast::wang1999-ag-mcm48-cm990228p-ast-product",
+      "record_id": "wang1999-ag-mcm48-cm990228p-ast",
+      "record_page_path": "records/wang1999-ag-mcm48-cm990228p-ast.html",
+      "source_group": "wang1999-ag-mcm48-cm990228p",
+      "title": "Wang et al. (1999): AST: thermally formed silver arrays on silica",
+      "doi": "10.1021/cm990228p",
+      "year": 1999,
+      "method": "AST: thermally formed silver arrays on silica",
+      "recipe_label": "Wang et al. (1999): AST: thermally formed silver arrays on silica",
+      "sample_id": "wang1999-ag-mcm48-cm990228p-ast-product",
+      "source_sample_label": "AST",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag/SiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang1999-ag-mcm48-cm990228p",
+            "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang1999-ag-mcm48-cm990228p",
+          "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Metallic Ag on cubic MCM-48 mesoporous silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Regular oriented Ag line arrays; square networks also observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag/SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1, Preparation of PS, AS and AST"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "MCM-48 silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1, Preparation of PS, AS and AST"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang1999-ag-mcm48-cm990228p-ast-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "Ag/SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Metallic Ag on cubic MCM-48 mesoporous silica",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang1999-ag-mcm48-cm990228p",
+                  "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Regular oriented Ag line arrays; square networks also observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang1999-ag-mcm48-cm990228p",
+                  "locator": "Main PDF p. 1–3, AST preparation, Figure 1b, Table 1 and Figures 3–4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang1999-ag-mcm48-cm990228p-ps::wang1999-ag-mcm48-cm990228p-ps-product",
+      "record_id": "wang1999-ag-mcm48-cm990228p-ps",
+      "record_page_path": "records/wang1999-ag-mcm48-cm990228p-ps.html",
+      "source_group": "wang1999-ag-mcm48-cm990228p",
+      "title": "Wang et al. (1999): PS: cubic mesoporous silica support",
+      "doi": "10.1021/cm990228p",
+      "year": 1999,
+      "method": "PS: cubic mesoporous silica support",
+      "recipe_label": "Wang et al. (1999): PS: cubic mesoporous silica support",
+      "sample_id": "wang1999-ag-mcm48-cm990228p-ps-product",
+      "source_sample_label": "PS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang1999-ag-mcm48-cm990228p",
+            "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang1999-ag-mcm48-cm990228p",
+          "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic MCM-48 mesostructure; atomic silica phase unassigned",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ordered mesoporous silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1, Preparation of PS, AS and AST"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang1999-ag-mcm48-cm990228p-ps-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang1999-ag-mcm48-cm990228p",
+                "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic MCM-48 mesostructure; atomic silica phase unassigned",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang1999-ag-mcm48-cm990228p",
+                  "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Ordered mesoporous silica",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang1999-ag-mcm48-cm990228p",
+                  "locator": "Main PDF p. 1–2, PS preparation, Table 1 and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
