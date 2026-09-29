@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 343,
-    "source_groups": 75,
-    "records": 304,
+    "recipe_structure_rows": 357,
+    "source_groups": 78,
+    "records": 318,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -20671,6 +20671,2067 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "ivanov2010-ceria-an-130-180::ivanov2010-ceria-an-130-180-product",
+      "record_id": "ivanov2010-ceria-an-130-180",
+      "record_page_path": "records/ivanov2010-ceria-an-130-180.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-130-180 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-130-180 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-130-180 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-130-180-product",
+      "source_sample_label": "An-130-180",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-130-180"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-130-180",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-180"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-130-180; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-130-180"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-130-180-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-130-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-130-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-130-30::ivanov2010-ceria-an-130-30-product",
+      "record_id": "ivanov2010-ceria-an-130-30",
+      "record_page_path": "records/ivanov2010-ceria-an-130-30.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-130-30 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-130-30 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-130-30 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-130-30-product",
+      "source_sample_label": "An-130-30",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-130-30"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-130-30",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-30"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-130-30; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-130-30"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-130-30-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-130-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-130-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-130-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-150-180::ivanov2010-ceria-an-150-180-product",
+      "record_id": "ivanov2010-ceria-an-150-180",
+      "record_page_path": "records/ivanov2010-ceria-an-150-180.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-150-180 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-150-180 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-150-180 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-150-180-product",
+      "source_sample_label": "An-150-180",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-150-180"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-150-180",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-180"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-150-180; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-150-180"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-150-180-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-150-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-150-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-150-30::ivanov2010-ceria-an-150-30-product",
+      "record_id": "ivanov2010-ceria-an-150-30",
+      "record_page_path": "records/ivanov2010-ceria-an-150-30.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-150-30 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-150-30 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-150-30 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-150-30-product",
+      "source_sample_label": "An-150-30",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-150-30"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-150-30",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-30"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-150-30; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-150-30"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-150-30-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-150-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-150-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-150-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-170-180::ivanov2010-ceria-an-170-180-product",
+      "record_id": "ivanov2010-ceria-an-170-180",
+      "record_page_path": "records/ivanov2010-ceria-an-170-180.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-170-180 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-170-180 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-170-180 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-170-180-product",
+      "source_sample_label": "An-170-180",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-170-180"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-170-180",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-180"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-170-180; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-170-180"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-170-180-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-170-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-170-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-170-30::ivanov2010-ceria-an-170-30-product",
+      "record_id": "ivanov2010-ceria-an-170-30",
+      "record_page_path": "records/ivanov2010-ceria-an-170-30.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-170-30 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-170-30 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-170-30 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-170-30-product",
+      "source_sample_label": "An-170-30",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-170-30"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-170-30",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-30"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-170-30; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-170-30"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-170-30-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-170-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-170-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-170-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-190-120::ivanov2010-ceria-an-190-120-product",
+      "record_id": "ivanov2010-ceria-an-190-120",
+      "record_page_path": "records/ivanov2010-ceria-an-190-120.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-190-120 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-190-120 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-190-120 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-190-120-product",
+      "source_sample_label": "An-190-120",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-190-120"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-190-120",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-120"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-120"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-120"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-190-120; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-190-120"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-190-120-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-120"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-190-120"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-190-120"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-190-180::ivanov2010-ceria-an-190-180-product",
+      "record_id": "ivanov2010-ceria-an-190-180",
+      "record_page_path": "records/ivanov2010-ceria-an-190-180.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-190-180 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-190-180 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-190-180 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-190-180-product",
+      "source_sample_label": "An-190-180",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-190-180"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-190-180",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-180"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-190-180; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-190-180"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-190-180-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-180"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-190-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-190-180"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2010-ceria-an-190-30::ivanov2010-ceria-an-190-30-product",
+      "record_id": "ivanov2010-ceria-an-190-30",
+      "record_page_path": "records/ivanov2010-ceria-an-190-30.html",
+      "source_group": "ivanov2010-ceria-sols-s0036023610010018",
+      "title": "Ivanov et al. (2010): An-190-30 fresh-sol MWHT",
+      "doi": "10.1134/S0036023610010018",
+      "year": 2010,
+      "method": "An-190-30 fresh-sol MWHT",
+      "recipe_label": "Ivanov et al. (2010): An-190-30 fresh-sol MWHT",
+      "sample_id": "ivanov2010-ceria-an-190-30-product",
+      "source_sample_label": "An-190-30",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2, Table, An-190-30"
+          },
+          {
+            "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+            "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2, Table, An-190-30",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+          "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Table mean nanoparticle size, not DLS aggregate size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-30"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "An-190-30; mean from several TEM image regions of same specimen at equal magnification",
+          "evidence": [
+            {
+              "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+              "locator": "Main PDF p. 2, Table, An-190-30"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 1–2, Experimental, anion exchange and microwave-hydrothermal treatment"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2010-ceria-an-190-30-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cool-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2, Table, An-190-30"
+              },
+              {
+                "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CeO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-190-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-crystallized particles, mostly hexagonal outline; occasional chain aggregates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2, Table, An-190-30"
+                },
+                {
+                  "source_id": "ivanov2010-ceria-sols-s0036023610010018",
+                  "locator": "Main PDF p. 2–3, TEM discussion; cubic-ceria growth interpretation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "iwasaki1998-tio2-a1006660209934-run-01::iwasaki1998-tio2-a1006660209934-run-01-product",
       "record_id": "iwasaki1998-tio2-a1006660209934-run-01",
       "record_page_path": "records/iwasaki1998-tio2-a1006660209934-run-01.html",
@@ -38757,6 +40818,538 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "ratanatawanate2009-pbs-tio2-both::ratanatawanate2009-pbs-tio2-both-product",
+      "record_id": "ratanatawanate2009-pbs-tio2-both",
+      "record_page_path": "records/ratanatawanate2009-pbs-tio2-both.html",
+      "source_group": "ratanatawanate2009-pbs-tio2-jp903050h",
+      "title": "Ratanatawanate et al. (2009): PbS on inside and outside TNT surfaces",
+      "doi": "10.1021/jp903050h",
+      "year": 2009,
+      "method": "PbS on inside and outside TNT surfaces",
+      "recipe_label": "Ratanatawanate et al. (2009): PbS on inside and outside TNT surfaces",
+      "sample_id": "ratanatawanate2009-pbs-tio2-both-product",
+      "source_sample_label": "PbS/TNTs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS/TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+            "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+          "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "PbS quantum dots on inner and outer TiO2 nanotube surfaces",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "pbs-tem-diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Average of 100 TEM counts; source supplies no uncertainty statistic.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "PbS domains in both-surface PbS/TNTs; Figure 1c 5 nm scale bar.",
+          "evidence": [
+            {
+              "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+              "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+            }
+          ]
+        },
+        {
+          "measurement_id": "pbs-xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 5.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source XRD-derived estimate; diffraction data are not shown. Distinct from TEM diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "Authors associate the larger estimate with axial growth of encapsulated PbS; no axis-resolved size is reported.",
+          "evidence": [
+            {
+              "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+              "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS/TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "TiO2 nanotubes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ratanatawanate2009-pbs-tio2-both-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "sulfide-wash-state",
+          "composition": {
+            "value": "PbS/TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "PbS quantum dots on inner and outer TiO2 nanotube surfaces",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                  "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1c"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "pbs-tem-diameter",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "pbs-xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ratanatawanate2009-pbs-tio2-inside::ratanatawanate2009-pbs-tio2-inside-product",
+      "record_id": "ratanatawanate2009-pbs-tio2-inside",
+      "record_page_path": "records/ratanatawanate2009-pbs-tio2-inside.html",
+      "source_group": "ratanatawanate2009-pbs-tio2-jp903050h",
+      "title": "Ratanatawanate et al. (2009): PbS only inside TNT pores",
+      "doi": "10.1021/jp903050h",
+      "year": 2009,
+      "method": "PbS only inside TNT pores",
+      "recipe_label": "Ratanatawanate et al. (2009): PbS only inside TNT pores",
+      "sample_id": "ratanatawanate2009-pbs-tio2-inside-product",
+      "source_sample_label": "PbS/TNTs (in)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS/TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+            "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1d"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+          "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1d",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "PbS quantum dots inside TiO2 nanotube pores only",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1d"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS/TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "TiO2 nanotubes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ratanatawanate2009-pbs-tio2-inside-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "sulfide-expose-state",
+          "composition": {
+            "value": "PbS/TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1d"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "PbS quantum dots inside TiO2 nanotube pores only",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                  "locator": "Main PDF p. 2–3, Deposition, Characteristics and Figure 1d"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ratanatawanate2009-tio2-nanotubes::ratanatawanate2009-tio2-nanotubes-product",
+      "record_id": "ratanatawanate2009-tio2-nanotubes",
+      "record_page_path": "records/ratanatawanate2009-tio2-nanotubes.html",
+      "source_group": "ratanatawanate2009-pbs-tio2-jp903050h",
+      "title": "Ratanatawanate et al. (2009): Hydrothermal TiO2 nanotubes",
+      "doi": "10.1021/jp903050h",
+      "year": 2009,
+      "method": "Hydrothermal TiO2 nanotubes",
+      "recipe_label": "Ratanatawanate et al. (2009): Hydrothermal TiO2 nanotubes",
+      "sample_id": "ratanatawanate2009-tio2-nanotubes-product",
+      "source_sample_label": "TNTs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+            "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+          "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b"
+              }
+            ],
+            "note": "Authors assign the calcined TNT phase and cite reference 29; no diffraction panel is supplied here."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Open-ended nanotubes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ratanatawanate2009-tio2-nanotubes-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "anneal-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                  "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b"
+                }
+              ],
+              "note": "Authors assign the calcined TNT phase and cite reference 29; no diffraction panel is supplied here."
+            },
+            "morphology": {
+              "value": "Open-ended nanotubes",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ratanatawanate2009-pbs-tio2-jp903050h",
+                  "locator": "Main PDF p. 2–3, Characteristics of TiO2 Catalysts and Figure 1b"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "ribeiro-2004-hydrolysis::final-series",
       "record_id": "ribeiro-2004-hydrolysis",
       "record_page_path": "records/ribeiro-2004-hydrolysis.html",
@@ -52478,6 +55071,388 @@
             "measurement_refs": [
               {
                 "measurement_id": "table-size",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "sigman2004-auag-la035405m-ag-core::sigman2004-auag-la035405m-ag-core-product",
+      "record_id": "sigman2004-auag-la035405m-ag-core",
+      "record_page_path": "records/sigman2004-auag-la035405m-ag-core.html",
+      "source_group": "sigman2004-auag-la035405m",
+      "title": "Sigman et al. (2004): Ag nanocrystal preparation",
+      "doi": "10.1021/la035405m",
+      "year": 2004,
+      "method": "Two-phase borohydride reduction with dodecanethiol capping",
+      "recipe_label": "Sigman et al. (2004): Ag nanocrystal preparation",
+      "sample_id": "sigman2004-auag-la035405m-ag-core-product",
+      "source_sample_label": "Source Ag study nanocrystals",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sigman2004-auag-la035405m",
+            "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sigman2004-auag-la035405m",
+          "locator": "Supplied main PDF p. 2, first paragraph, study size range",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "study-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 5,
+            "maximum": 7,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Study-level size-selected nanocrystal range; no individual-batch mean.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, first paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM and SAXS",
+          "conditions": "Shared source range for study nanocrystals; not a direct measurement of one exact identified synthesis batch.",
+          "evidence": [
+            {
+              "source_id": "sigman2004-auag-la035405m",
+              "locator": "Supplied main PDF p. 2, first paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 1, title and experimental synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Atomic crystal phase not established by the superlattice designation."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, Thin Film Formation and Results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Dodecanethiol-capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 1–2, synthesis and film preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sigman2004-auag-la035405m-ag-core-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "size-select-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Atomic phase not measured by superlattice packing; no atomic fcc assignment inferred."
+            },
+            "morphology": {
+              "value": "Nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sigman2004-auag-la035405m",
+                  "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "study-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "sigman2004-auag-la035405m-au-core::sigman2004-auag-la035405m-au-core-product",
+      "record_id": "sigman2004-auag-la035405m-au-core",
+      "record_page_path": "records/sigman2004-auag-la035405m-au-core.html",
+      "source_group": "sigman2004-auag-la035405m",
+      "title": "Sigman et al. (2004): Au nanocrystal preparation",
+      "doi": "10.1021/la035405m",
+      "year": 2004,
+      "method": "Two-phase borohydride reduction with dodecanethiol capping",
+      "recipe_label": "Sigman et al. (2004): Au nanocrystal preparation",
+      "sample_id": "sigman2004-auag-la035405m-au-core-product",
+      "source_sample_label": "Source Au study nanocrystals",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sigman2004-auag-la035405m",
+            "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sigman2004-auag-la035405m",
+          "locator": "Supplied main PDF p. 2, first paragraph, study size range",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "study-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 5,
+            "maximum": 7,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Study-level size-selected nanocrystal range; no individual-batch mean.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, first paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM and SAXS",
+          "conditions": "Shared source range for study nanocrystals; not a direct measurement of one exact identified synthesis batch.",
+          "evidence": [
+            {
+              "source_id": "sigman2004-auag-la035405m",
+              "locator": "Supplied main PDF p. 2, first paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 1, title and experimental synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Atomic crystal phase not established by the superlattice designation."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, Thin Film Formation and Results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Dodecanethiol-capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 1–2, synthesis and film preparation"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sigman2004-auag-la035405m-au-core-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "size-select-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sigman2004-auag-la035405m",
+                "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Atomic phase not measured by superlattice packing; no atomic fcc assignment inferred."
+            },
+            "morphology": {
+              "value": "Nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sigman2004-auag-la035405m",
+                  "locator": "Supplied main PDF p. 2, first paragraph, study size range"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "study-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
               }
