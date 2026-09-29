@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **125 primary source groups** · release `ordinary-batch21-real-parent-target`. Records are not independent experiments.
+Dataset **0.41.2** · **131 primary source groups** · release `batch24-li-ncqd-cu2s-r4`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -22,6 +22,8 @@ Dataset **0.41.2** · **125 primary source groups** · release `ordinary-batch21
 - J. R. Heath; R. S. Williams; J. J. Shiang; S. J. Wind; J. Chu; C. D’Emic; W. Chen; C. L. Stanis; J. J. Bucchignano (1996). Spatially Confined Chemistry: Fabrication of Ge Quantum Dot Arrays. *The Journal of Physical Chemistry*, 100, 3144–3149. [10.1021/jp951903v](https://doi.org/10.1021/jp951903v). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=heath1996).
 
 - Michal Danek; Klavs F. Jensen; Chris B. Murray; Moungi G. Bawendi (1996). Synthesis of Luminescent Thin-Film CdSe/ZnSe Quantum Dot Composites Using CdSe Quantum Dots Passivated with an Overlayer of ZnSe. *Chemistry of Materials*, 8, 173–180. [10.1021/cm9503137](https://doi.org/10.1021/cm9503137). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=danek1996).
+
+- M. Mukherjee; A. Datta; S. K. Pradhan; D. Chakravorty (1996). Synthesis of nanocrystalline PbS by a chemical route. *Journal of Materials Science Letters*, 15, 654–657. [10.1007/bf00264103](https://doi.org/10.1007/bf00264103). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=mukherjee1996-pbs-bf00264103).
 
 - B. O. Dabbousi; J. Rodriguez-Viejo; F. V. Mikulec; J. R. Heine; H. Mattoussi; R. Ober; K. F. Jensen; M. G. Bawendi (1997). (CdSe)ZnS Core–Shell Quantum Dots: Synthesis and Characterization of a Size Series of Highly Luminescent Nanocrystallites. *The Journal of Physical Chemistry B*, 101, 9463–9475. [10.1021/jp971091y](https://doi.org/10.1021/jp971091y). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=dabbousi1997).
 
@@ -165,6 +167,8 @@ Dataset **0.41.2** · **125 primary source groups** · release `ordinary-batch21
 
 - Su Chen; Jia Zhu; Yongfeng Shen; Chunhui Hu; Li Chen (2007). Synthesis of Nanocrystal–Polymer Transparent Hybrids via Polyurethane Matrix Grafted onto Functionalized CdS Nanocrystals. *Langmuir*, 23, 850–854. [10.1021/la062210g](https://doi.org/10.1021/la062210g). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=cds-polyurethane-la062210g).
 
+- Jonathan S. Owen; Jungwon Park; Paul-Emile Trudeau; A. Paul Alivisatos (2008). Reaction Chemistry and Ligand Exchange at Cadmium–Selenide Nanocrystal Surfaces. *Journal of the American Chemical Society*, 130, 12279–12281. [10.1021/ja804414f](https://doi.org/10.1021/ja804414f). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=owen2008-cdse-ja804414f).
+
 - Yue Wu, Cyrus Wadia, Wanli Ma, Bryce Sadtler, A. Paul Alivisatos (2008). Synthesis and Photovoltaic Application of Copper(I) Sulfide Nanocrystals. [10.1021/nl801817d](https://doi.org/10.1021/nl801817d). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=wu2008).
 
 - S. Stankov; Y. Z. Yue; M. Miglierini; B. Sepiol; I. Sergueev; A. I. Chumakov; L. Hu; P. Svec; R. Rüffer (2008). Vibrational Properties of Nanograins and Interfaces in Nanocrystalline Materials. *Physical Review Letters*, 100, 235503. [10.1103/PhysRevLett.100.235503](https://doi.org/10.1103/PhysRevLett.100.235503). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=stankov2008-fe90zr7b3).
@@ -183,9 +187,13 @@ Dataset **0.41.2** · **125 primary source groups** · release `ordinary-batch21
 
 - Shi Hu; Xun Wang (2010). Fullerene-like Colloidal Nanocrystal of Nickel Hydroxychloride. *Journal of the American Chemical Society*, 132, 9573–9575. [10.1021/ja103607q](https://doi.org/10.1021/ja103607q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=hu2010nichydroxychloride).
 
+- Minghui Deng; Quanxin Zhang; Shuqing Huang; Dongmei Li; Yanhong Luo; Qing Shen; Taro Toyoda; Qingbo Meng (2010). Low-Cost Flexible Nano-Sulfide/Carbon Composite Counter Electrode for Quantum-Dot-Sensitized Solar Cell. [10.1007/s11671-010-9592-3](https://doi.org/10.1007/s11671-010-9592-3). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=deng2010-main).
+
 - V. K. Ivanov; O. S. Polezhaeva; A. B. Shcherbakov; D. O. Gil’; Yu. D. Tret’yakov (2010). Microwave-Hydrothermal Synthesis of Stable Nanocrystalline Ceria Sols for Biomedical Uses. *Russian Journal of Inorganic Chemistry*, 55, 1–5. [10.1134/S0036023610010018](https://doi.org/10.1134/S0036023610010018). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ivanov2010-ceria-sols-s0036023610010018).
 
 - Christopher M. Evans; Meagan E. Evans; Todd D. Krauss (2010). Mysteries of TOPSe Revealed: Insights into Quantum Dot Nucleation. *Journal of the American Chemical Society*, 132, 10973–10975. [10.1021/ja103805s](https://doi.org/10.1021/ja103805s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=evans2010).
+
+- Yueming Li; Xiaojun Lv; Jin Lu; Jinghong Li (2010). Preparation of SnO2-Nanocrystal/Graphene-Nanosheets Composites and Their Lithium Storage Ability. *Journal of Physical Chemistry C*, 114, 21770–21774. [10.1021/jp1050047](https://doi.org/10.1021/jp1050047). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2010-sno2-graphene-jp1050047).
 
 - William J. Baumgardner; Joshua J. Choi; Yee-Fun Lim; Tobias Hanrath (2010). SnSe Nanocrystals: Synthesis, Structure, Optical Properties, and Surface Chemistry. *Journal of the American Chemical Society*, 132, 9519–9521. [10.1021/ja1013745](https://doi.org/10.1021/ja1013745). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=baumgardner2010-snse-ja1013745).
 
@@ -205,7 +213,11 @@ Dataset **0.41.2** · **125 primary source groups** · release `ordinary-batch21
 
 - Yagnaseni Ghosh; Benjamin D. Mangum; Joanna L. Casson; Darrick J. Williams; Han Htoon; Jennifer A. Hollingsworth (2012). New Insights into the Complexities of Shell Growth and the Strong Influence of Particle Volume in Nonblinking “Giant” Core/Shell Nanocrystal Quantum Dots. *Journal of the American Chemical Society*, 134, 9634–9643. [10.1021/ja212032q](https://doi.org/10.1021/ja212032q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ghosh2012).
 
+- Jingwen Li; Xinming Li; Xiujuan Shi; Xuewen He; Wei Wei; Nan Ma; Hong Chen (2013). Highly Sensitive Detection of Caspase-3 Activities via a Nonconjugated Gold Nanoparticle–Quantum Dot Pair Mediated by an Inner-Filter Effect. *ACS Applied Materials & Interfaces*, 5, 9798–9802. [10.1021/am4029735](https://doi.org/10.1021/am4029735). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2013-cdte-au-caspase3-am4029735).
+
 - Jian Zhu; Jinguo Wang; Fujian Lv; Shengxiong Xiao; Colin Nuckolls; Hexing Li (2013). Synthesis and Self-Assembly of Photonic Materials from Nanocrystalline Titania Sheets. *Journal of the American Chemical Society*, 135, 4719–4721. [10.1021/ja401334j](https://doi.org/10.1021/ja401334j). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2013-tio2-ja401334j).
+
+- Haimin Zhang; Yibing Li; Xiaolu Liu; Porun Liu; Yun Wang; Taicheng An; Huagui Yang; Dengwei Jing; Huijun Zhao (2014). Determination of Iodide via Direct Fluorescence Quenching at Nitrogen-Doped Carbon Quantum Dot Fluorophores. *Environmental Science & Technology Letters*, 1, 87–91. [10.1021/ez400137j](https://doi.org/10.1021/ez400137j). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhang2014-ncqd-ez400137j).
 
 - Dylan C. Gary; Benjamin A. Glassy; Brandi M. Cossairt (2014). Investigation of Indium Phosphide Quantum Dot Nucleation and Growth Utilizing Triarylsilylphosphine Precursors. *Chemistry of Materials*, 26, 1734-1744. [10.1021/cm500102q](https://doi.org/10.1021/cm500102q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=gary-cossairt-2014).
 
