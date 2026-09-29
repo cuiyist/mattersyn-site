@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 416,
-    "source_groups": 95,
-    "records": 377,
+    "recipe_structure_rows": 429,
+    "source_groups": 98,
+    "records": 390,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -20112,6 +20112,386 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "guo2006-wc-cl20061210-typical-600c-15h::guo2006-wc-cl20061210-typical-600c-15h-product",
+      "record_id": "guo2006-wc-cl20061210-typical-600c-15h",
+      "record_page_path": "records/guo2006-wc-cl20061210-typical-600c-15h.html",
+      "source_group": "guo2006-wc-cl20061210",
+      "title": "Guo et al. (2006): WO3/Mg/ethanol reductive synthesis at 600 °C",
+      "doi": "10.1246/cl.2006.1210",
+      "year": 2006,
+      "method": "WO3/Mg/ethanol reductive synthesis at 600 °C",
+      "recipe_label": "Guo et al. (2006): WO3/Mg/ethanol reductive synthesis at 600 °C",
+      "sample_id": "guo2006-wc-cl20061210-typical-600c-15h-product",
+      "source_sample_label": "Typical WC product populations",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "WC with carbon-containing and carbon-free populations",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "guo2006-wc-cl20061210",
+            "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "guo2006-wc-cl20061210",
+          "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal WC with carbon also detected",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Cake-like WC, slightly agglomerated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 100,
+            "maximum": 200,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source diameter range; no distribution statistic or independent sample identifier.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 2, Figure 3 and TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM / HRTEM",
+          "conditions": "Typical WC population; carbon-coated and carbon-free observations are not separate batches",
+          "evidence": [
+            {
+              "source_id": "guo2006-wc-cl20061210",
+              "locator": "Main PDF p. 2, Figure 3 and TEM discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 2.8999,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Source-refined hexagonal WC lattice parameter; reference card values kept separately.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 1, Figure 1 and refinement paragraph"
+              }
+            ],
+            "derivation": "Authors report refinement; no recalculation performed."
+          },
+          "technique": "Powder X-ray diffraction refinement",
+          "conditions": "Final WC product",
+          "evidence": [
+            {
+              "source_id": "guo2006-wc-cl20061210",
+              "locator": "Main PDF p. 1, Figure 1 and refinement paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "spacing-wc001",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.284,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "WC (001) interplanar spacing.",
+            "basis": "WC (001)",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 2, Figure 3d single-phase WC region"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "High-resolution TEM",
+          "conditions": "Figure 3d single-phase WC region",
+          "evidence": [
+            {
+              "source_id": "guo2006-wc-cl20061210",
+              "locator": "Main PDF p. 2, Figure 3d single-phase WC region"
+            }
+          ]
+        },
+        {
+          "measurement_id": "spacing-wc100",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.248,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "WC (100) interplanar spacing.",
+            "basis": "WC (100)",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 2, Figure 3d single-phase WC region"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "High-resolution TEM",
+          "conditions": "Figure 3d single-phase WC region",
+          "evidence": [
+            {
+              "source_id": "guo2006-wc-cl20061210",
+              "locator": "Main PDF p. 2, Figure 3d single-phase WC region"
+            }
+          ]
+        },
+        {
+          "measurement_id": "spacing-carbon002",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.339,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "carbon (002) interplanar spacing.",
+            "basis": "carbon (002)",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 2, Figure 3e mixed WC/carbon region"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "High-resolution TEM",
+          "conditions": "Figure 3e mixed WC/carbon region",
+          "evidence": [
+            {
+              "source_id": "guo2006-wc-cl20061210",
+              "locator": "Main PDF p. 2, Figure 3e mixed WC/carbon region"
+            }
+          ]
+        },
+        {
+          "measurement_id": "spacing-wc100-mixed",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.25,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "WC (100) interplanar spacing.",
+            "basis": "WC (100)",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 2, Figure 3e WC-region image label only"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "High-resolution TEM",
+          "conditions": "Figure 3e WC-region image label only",
+          "evidence": [
+            {
+              "source_id": "guo2006-wc-cl20061210",
+              "locator": "Main PDF p. 2, Figure 3e WC-region image label only"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "WC",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 1, Typical experimental procedure, continued in right column"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "guo2006-wc-cl20061210-typical-600c-15h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "WC with carbon-containing and carbon-free populations",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guo2006-wc-cl20061210",
+                "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal WC with carbon also detected",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "guo2006-wc-cl20061210",
+                  "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Cake-like WC, slightly agglomerated",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "guo2006-wc-cl20061210",
+                  "locator": "Main PDF p. 1–2, Figure 1 refinement; Figure 3 and structural characterization"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "spacing-wc001",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "spacing-wc100",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "spacing-carbon002",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              },
+              {
+                "measurement_id": "spacing-wc100-mixed",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "haber1997-aln-10wt-20cmin::haber1997-aln-10wt-20cmin-product",
       "record_id": "haber1997-aln-10wt-20cmin",
       "record_page_path": "records/haber1997-aln-10wt-20cmin.html",
@@ -39287,6 +39667,1703 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-cdse-nanorods::liu2004-cdse-polythiophene-ja0489184-cdse-nanorods-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-cdse-nanorods",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-cdse-nanorods.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): CdSe nanorods",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Hot injection",
+      "recipe_label": "Liu et al. (2004): CdSe nanorods",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-cdse-nanorods-product",
+      "source_sample_label": "CdSe nanorods",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "Main PDF p. 1, CdSe morphology and ligand exchange"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "Main PDF p. 1, CdSe morphology and ligand exchange",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanorods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "Main PDF p. 1, CdSe morphology and ligand exchange"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Approximate rod diameter; no reported uncertainty or measured unit cell.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "Main PDF p. 1, CdSe nanorod dimensions"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM estimate",
+          "conditions": "Approximate rod diameter; no reported uncertainty or measured unit cell.",
+          "evidence": [
+            {
+              "source_id": "liu2004-cdse-polythiophene-ja0489184",
+              "locator": "Main PDF p. 1, CdSe nanorod dimensions"
+            }
+          ]
+        },
+        {
+          "measurement_id": "length",
+          "property": "particle_length",
+          "descriptor_field": "morphology.length",
+          "value": {
+            "value": 30,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Approximate rod length; no separate dimensions assigned to each film.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "Main PDF p. 1, CdSe nanorod dimensions"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM estimate",
+          "conditions": "Approximate rod length; no separate dimensions assigned to each film.",
+          "evidence": [
+            {
+              "source_id": "liu2004-cdse-polythiophene-ja0489184",
+              "locator": "Main PDF p. 1, CdSe nanorod dimensions"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 6, CdSe nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-cdse-nanorods-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "Main PDF p. 1, CdSe morphology and ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanorods",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "Main PDF p. 1, CdSe morphology and ligand exchange"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              },
+              {
+                "measurement_id": "length",
+                "property": "particle_length",
+                "field": "morphology.length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p1::liu2004-cdse-polythiophene-ja0489184-si-thick-12-p1-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p1",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thick-12-p1.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thick film: 12 vol% CdSe, polymer 1",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thick film: 12 vol% CdSe, polymer 1",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p1-product",
+      "source_sample_label": "SI thick film: 12 vol% CdSe, polymer 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 8, Figure 4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 8, Figure 4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 8, Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p4::liu2004-cdse-polythiophene-ja0489184-si-thick-12-p4-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p4",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thick-12-p4.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thick film: 12 vol% CdSe, polymer 4",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thick film: 12 vol% CdSe, polymer 4",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p4-product",
+      "source_sample_label": "SI thick film: 12 vol% CdSe, polymer 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 8, Figure 4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 8, Figure 4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-12-p4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 8, Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p1::liu2004-cdse-polythiophene-ja0489184-si-thick-26-p1-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p1",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thick-26-p1.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thick film: 26 vol% CdSe, polymer 1",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thick film: 26 vol% CdSe, polymer 1",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p1-product",
+      "source_sample_label": "SI thick film: 26 vol% CdSe, polymer 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 8, Figure 4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 8, Figure 4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 8, Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p4::liu2004-cdse-polythiophene-ja0489184-si-thick-26-p4-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p4",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thick-26-p4.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thick film: 26 vol% CdSe, polymer 4",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thick film: 26 vol% CdSe, polymer 4",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p4-product",
+      "source_sample_label": "SI thick film: 26 vol% CdSe, polymer 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 8, Figure 4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 8, Figure 4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-26-p4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 8, Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p1::liu2004-cdse-polythiophene-ja0489184-si-thick-43-p1-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p1",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thick-43-p1.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thick film: 43 vol% CdSe, polymer 1",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thick film: 43 vol% CdSe, polymer 1",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p1-product",
+      "source_sample_label": "SI thick film: 43 vol% CdSe, polymer 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 8, Figure 4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 8, Figure 4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 8, Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p4::liu2004-cdse-polythiophene-ja0489184-si-thick-43-p4-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p4",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thick-43-p4.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thick film: 43 vol% CdSe, polymer 4",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thick film: 43 vol% CdSe, polymer 4",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p4-product",
+      "source_sample_label": "SI thick film: 43 vol% CdSe, polymer 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 8, Figure 4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 8, Figure 4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thick-43-p4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 8, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 8, Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p1::liu2004-cdse-polythiophene-ja0489184-si-thin-12-p1-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p1",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thin-12-p1.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thin film: 12 vol% CdSe, polymer 1",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thin film: 12 vol% CdSe, polymer 1",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p1-product",
+      "source_sample_label": "SI thin film: 12 vol% CdSe, polymer 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 7, Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 7, Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 7, Figure 3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p4::liu2004-cdse-polythiophene-ja0489184-si-thin-12-p4-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p4",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thin-12-p4.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thin film: 12 vol% CdSe, polymer 4",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thin film: 12 vol% CdSe, polymer 4",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p4-product",
+      "source_sample_label": "SI thin film: 12 vol% CdSe, polymer 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 7, Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 7, Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-12-p4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 7, Figure 3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p1::liu2004-cdse-polythiophene-ja0489184-si-thin-5-p1-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p1",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thin-5-p1.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thin film: 5 vol% CdSe, polymer 1",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thin film: 5 vol% CdSe, polymer 1",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p1-product",
+      "source_sample_label": "SI thin film: 5 vol% CdSe, polymer 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 7, Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 7, Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Phase-separated CdSe/polymer film with poor nanorod dispersion",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 7, Figure 3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p4::liu2004-cdse-polythiophene-ja0489184-si-thin-5-p4-product",
+      "record_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p4",
+      "record_page_path": "records/liu2004-cdse-polythiophene-ja0489184-si-thin-5-p4.html",
+      "source_group": "liu2004-cdse-polythiophene-ja0489184",
+      "title": "Liu et al. (2004): SI thin film: 5 vol% CdSe, polymer 4",
+      "doi": "10.1021/ja0489184",
+      "year": 2004,
+      "method": "Spin coating of CdSe/polymer films",
+      "recipe_label": "Liu et al. (2004): SI thin film: 5 vol% CdSe, polymer 4",
+      "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p4-product",
+      "source_sample_label": "SI thin film: 5 vol% CdSe, polymer 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/poly(3-hexylthiophene)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "liu2004-cdse-polythiophene-ja0489184",
+            "locator": "SI PDF p. 7, Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "liu2004-cdse-polythiophene-ja0489184",
+          "locator": "SI PDF p. 7, Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/polythiophene",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "liu2004-cdse-polythiophene-ja0489184-si-thin-5-p4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "tem-state",
+          "composition": {
+            "value": "CdSe/poly(3-hexylthiophene)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                "locator": "SI PDF p. 7, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniformly dispersed CdSe rods; source reports no visible aggregation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "liu2004-cdse-polythiophene-ja0489184",
+                  "locator": "SI PDF p. 7, Figure 3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "lu1999-aln-580c-1to1::lu1999-aln-580c-1to1-product",
       "record_id": "lu1999-aln-580c-1to1",
       "record_page_path": "records/lu1999-aln-580c-1to1.html",
@@ -40813,6 +42890,172 @@
               "note": ""
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "makarov2003-zno-a1024049203327-gel-decomposition::makarov2003-zno-a1024049203327-gel-decomposition-product",
+      "record_id": "makarov2003-zno-a1024049203327-gel-decomposition",
+      "record_page_path": "records/makarov2003-zno-a1024049203327-gel-decomposition.html",
+      "source_group": "makarov2003-zno-a1024049203327",
+      "title": "Makarov et al. (2003): Zinc hydroxide gel decomposition to nanocrystalline ZnO",
+      "doi": "10.1023/A:1024049203327",
+      "year": 2003,
+      "method": "Zinc hydroxide gel decomposition to nanocrystalline ZnO",
+      "recipe_label": "Makarov et al. (2003): Zinc hydroxide gel decomposition to nanocrystalline ZnO",
+      "sample_id": "makarov2003-zno-a1024049203327-gel-decomposition-product",
+      "source_sample_label": "Prepared nanocrystalline ZnO",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "makarov2003-zno-a1024049203327",
+            "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "makarov2003-zno-a1024049203327",
+          "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source calls this average particle size, evaluated from x-ray peak width by the Scherrer formula; not a TEM diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "makarov2003-zno-a1024049203327",
+                "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "X-ray diffraction / Scherrer formula",
+          "conditions": "Prepared nanocrystalline ZnO before the later vaporization/aging observations",
+          "evidence": [
+            {
+              "source_id": "makarov2003-zno-a1024049203327",
+              "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "makarov2003-zno-a1024049203327",
+                "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "makarov2003-zno-a1024049203327-gel-decomposition-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "decompose-state",
+          "composition": {
+            "value": "ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "makarov2003-zno-a1024049203327",
+                "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "makarov2003-zno-a1024049203327",
+                  "locator": "Main PDF p. 1, Experimental, zinc hydroxide gel preparation and decomposition"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
           }
         }
       },

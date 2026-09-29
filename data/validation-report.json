@@ -1,12 +1,12 @@
 {
   "status": "passed",
   "dataset_version": "0.41.2",
-  "records": 1376,
-  "recipe_records": 701,
-  "shared_procedures": 389,
+  "records": 1414,
+  "recipe_records": 714,
+  "shared_procedures": 403,
   "independent_experiment_count": null,
-  "source_groups": 115,
-  "families": 144,
+  "source_groups": 118,
+  "families": 148,
   "eligible_by_task": {
     "precursor_selection": 95,
     "partial_protocol": 120,
@@ -31,8 +31,8 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 601,
-  "contextual_observation_records": 286,
+  "curated_recipes": 614,
+  "contextual_observation_records": 297,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
     "schema_version": "1.1",
@@ -53,28 +53,28 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 1376,
+      "audited_task_profile_missing": 1414,
       "explicit_sample_recipe_link_missing": 2,
       "measured_label_not_approved": 3,
-      "no_sample_coordinate_asset": 1373,
+      "no_sample_coordinate_asset": 1411,
       "source_review_required": 100,
-      "task_not_requested": 1355
+      "task_not_requested": 1393
     }
   },
   "structure_outcome_coverage": {
     "schema_version": "1.0",
     "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
     "counts": {
-      "recipe_structure_rows": 416,
-      "source_groups": 95,
-      "records": 377,
+      "recipe_structure_rows": 429,
+      "source_groups": 98,
+      "records": 390,
       "physical_samples_deduplicated": null
     },
     "measurement_property_policy": "data/structure-outcome-policy.json"
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 117,
+    "material_families": 119,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -114,6 +114,7 @@
       "CdSe/ZnS",
       "CdSe/ZnS/siloxane",
       "CdSe/ZnSe",
+      "CdSe/polythiophene",
       "CdTe",
       "CdTe/MWNT",
       "CeO2",
@@ -179,6 +180,7 @@
       "SnO2",
       "SnSe",
       "TiO2",
+      "WC",
       "Y3Al5O12:Ce",
       "ZCIS/ZnS",
       "Zn0.95Mg0.05O",
@@ -195,22 +197,22 @@
       "ZnSe:Cr",
       "ZrO2"
     ],
-    "contributing_papers": 115,
+    "contributing_papers": 118,
     "source_coverage": {
-      "total_contributing_papers": 115,
-      "reviewed_contributing_papers": 115,
+      "total_contributing_papers": 118,
+      "reviewed_contributing_papers": 118,
       "preliminary_contributing_papers": 0,
       "additional_preliminary_papers": 0,
       "overlapping_preliminary_papers": 0,
       "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
       "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
     },
-    "synthesis_structure_pairs": 416,
+    "synthesis_structure_pairs": 429,
     "more_comprehensive_pairs": 3,
-    "partial_pairs": 413,
+    "partial_pairs": 426,
     "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 1376,
+    "all_records": 1414,
     "experimental_series_rows": 100
   },
   "queue_count": 37,
