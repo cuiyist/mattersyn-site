@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 313,
-    "source_groups": 71,
-    "records": 274,
+    "recipe_structure_rows": 321,
+    "source_groups": 73,
+    "records": 282,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -6409,6 +6409,498 @@
               "note": ""
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "colfen2003-tio2-sample-1-acetic-acid::colfen2003-tio2-sample-1-acetic-acid-product",
+      "record_id": "colfen2003-tio2-sample-1-acetic-acid",
+      "record_page_path": "records/colfen2003-tio2-sample-1-acetic-acid.html",
+      "source_group": "colfen2003-tio2-la0347051",
+      "title": "Cölfen et al. (2003): sample 1, acetic-acid hydrothermal TiO2",
+      "doi": "10.1021/la0347051",
+      "year": 2003,
+      "method": "Acid-mediated hydrothermal TiO2 colloid synthesis",
+      "recipe_label": "Cölfen et al. (2003): sample 1, acetic-acid hydrothermal TiO2",
+      "sample_id": "colfen2003-tio2-sample-1-acetic-acid-product",
+      "source_sample_label": "Sample 1, acetic acid pH 2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "colfen2003-tio2-la0347051",
+            "locator": "Main PDF p. 2–3, Results, Figure 1 TEM and Figure 2 XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "colfen2003-tio2-la0347051",
+          "locator": "Main PDF p. 2, Experimental Section, Colloid Synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "colfen2003-tio2-la0347051",
+          "locator": "Main PDF p. 2–3, Results, Figure 1 TEM and Figure 2 XRD",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, XRD assignment and Figure 2"
+              }
+            ],
+            "note": "Phase assignment; no measured atomic coordinate model supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular nanocrystals with rounded edges",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, TEM description and Figure 1"
+              }
+            ],
+            "note": "Source description of two-dimensional TEM projections; no exact 3D shape is assigned."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 18.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Number-average TEM size; standard deviation 6.5 nm. 140 particles per sample; evaluation repeated at three additional grid areas. No pooled count inferred.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, TEM results and Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL, 100 kV; thin amorphous-carbon-coated copper grids. Dry projected particle dimensions, not hydrodynamic diameter.",
+          "evidence": [
+            {
+              "source_id": "colfen2003-tio2-la0347051",
+              "locator": "Main PDF p. 2–3, TEM results and Figure 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 18.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Volume-average estimate from anatase [101] peak broadening using the Scherrer formula; distinct from TEM number average.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, [101] peak broadening and Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "Rigaku 2028; Cu Kα radiation.",
+          "evidence": [
+            {
+              "source_id": "colfen2003-tio2-la0347051",
+              "locator": "Main PDF p. 2–3, [101] peak broadening and Figure 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2, Experimental Section, Colloid Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2, Results and Discussion, XRD assignment"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "colfen2003-tio2-sample-1-acetic-acid-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hydrothermal-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, Results, Figure 1 TEM and Figure 2 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "colfen2003-tio2-la0347051",
+                  "locator": "Main PDF p. 2–3, XRD assignment and Figure 2"
+                }
+              ],
+              "note": "Phase assignment; no measured atomic coordinate model supplied."
+            },
+            "morphology": {
+              "value": "Irregular nanocrystals with rounded edges",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "colfen2003-tio2-la0347051",
+                  "locator": "Main PDF p. 2–3, TEM description and Figure 1"
+                }
+              ],
+              "note": "Source description of two-dimensional TEM projections; no exact 3D shape is assigned."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "colfen2003-tio2-sample-2-nitric-acid::colfen2003-tio2-sample-2-nitric-acid-product",
+      "record_id": "colfen2003-tio2-sample-2-nitric-acid",
+      "record_page_path": "records/colfen2003-tio2-sample-2-nitric-acid.html",
+      "source_group": "colfen2003-tio2-la0347051",
+      "title": "Cölfen et al. (2003): sample 2, nitric-acid hydrothermal TiO2",
+      "doi": "10.1021/la0347051",
+      "year": 2003,
+      "method": "Acid-mediated hydrothermal TiO2 colloid synthesis",
+      "recipe_label": "Cölfen et al. (2003): sample 2, nitric-acid hydrothermal TiO2",
+      "sample_id": "colfen2003-tio2-sample-2-nitric-acid-product",
+      "source_sample_label": "Sample 2, nitric acid pH 1.9",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "colfen2003-tio2-la0347051",
+            "locator": "Main PDF p. 2–3, Results, Figure 1 TEM and Figure 2 XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "colfen2003-tio2-la0347051",
+          "locator": "Main PDF p. 2, Experimental Section, Colloid Synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "colfen2003-tio2-la0347051",
+          "locator": "Main PDF p. 2–3, Results, Figure 1 TEM and Figure 2 XRD",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, XRD assignment and Figure 2"
+              }
+            ],
+            "note": "Phase assignment; no measured atomic coordinate model supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular nanocrystals with rounded edges",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, TEM description and Figure 1"
+              }
+            ],
+            "note": "Source description of two-dimensional TEM projections; no exact 3D shape is assigned."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 17.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Number-average TEM size; standard deviation 4.2 nm. 140 particles per sample; evaluation repeated at three additional grid areas. No pooled count inferred.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, TEM results and Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL, 100 kV; thin amorphous-carbon-coated copper grids. Dry projected particle dimensions, not hydrodynamic diameter.",
+          "evidence": [
+            {
+              "source_id": "colfen2003-tio2-la0347051",
+              "locator": "Main PDF p. 2–3, TEM results and Figure 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 16.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Volume-average estimate from anatase [101] peak broadening using the Scherrer formula; distinct from TEM number average.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, [101] peak broadening and Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "Rigaku 2028; Cu Kα radiation.",
+          "evidence": [
+            {
+              "source_id": "colfen2003-tio2-la0347051",
+              "locator": "Main PDF p. 2–3, [101] peak broadening and Figure 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2, Experimental Section, Colloid Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2, Results and Discussion, XRD assignment"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "colfen2003-tio2-sample-2-nitric-acid-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hydrothermal-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "colfen2003-tio2-la0347051",
+                "locator": "Main PDF p. 2–3, Results, Figure 1 TEM and Figure 2 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "colfen2003-tio2-la0347051",
+                  "locator": "Main PDF p. 2–3, XRD assignment and Figure 2"
+                }
+              ],
+              "note": "Phase assignment; no measured atomic coordinate model supplied."
+            },
+            "morphology": {
+              "value": "Irregular nanocrystals with rounded edges",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "colfen2003-tio2-la0347051",
+                  "locator": "Main PDF p. 2–3, TEM description and Figure 1"
+                }
+              ],
+              "note": "Source description of two-dimensional TEM projections; no exact 3D shape is assigned."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
           }
         }
       },
@@ -18707,6 +19199,1472 @@
               "note": "Particle shape is not separately specified; no TEM/SEM image appears in the supplied main."
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2009-ceo2-s0012500809060056-sol-initial::ivanov2009-ceo2-s0012500809060056-sol-initial-product",
+      "record_id": "ivanov2009-ceo2-s0012500809060056-sol-initial",
+      "record_page_path": "records/ivanov2009-ceo2-s0012500809060056-sol-initial.html",
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "title": "Ivanov et al. (2009): sol precursor",
+      "doi": "10.1134/S0012500809060056",
+      "year": 2009,
+      "method": "Anion-exchange sol preparation",
+      "recipe_label": "Ivanov et al. (2009): sol precursor",
+      "sample_id": "ivanov2009-ceo2-s0012500809060056-sol-initial-product",
+      "source_sample_label": "Table row4: Sol, untreated precursor",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+          },
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Loosely aggregated crystalline nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-csd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 5,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Strict <5nm in source table",
+            "basis": "XRD coherent-scattering domain",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+              }
+            ],
+            "derivation": null,
+            "maximum_exclusive": true
+          },
+          "technique": "XRD / Selyakov–Scherrer",
+          "conditions": "Rigaku D/MAX2500,CuKα; λ1.54178Å,(111) intrinsic broadening, sapphire reference; equationD=λ/(βcosθ). Uncertainty and crystal phase not reported.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-table-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source table average particle size",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Leo912ABOmega,100kV; copper grids without preliminary ultrasonic redispersion. XRD CSD size kept separate.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystalline cerium dioxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2009-ceo2-s0012500809060056-sol-initial-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "filter-resin-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+              },
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 3, p.133, table row4 (Sol, untreated precursor)"
+                },
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": "Crystalline cerium dioxide reported; no explicit crystallographic polymorph assigned. Hexagonal outlines are morphology, not a phase."
+            },
+            "morphology": {
+              "value": "Loosely aggregated crystalline nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-csd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-table-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-120::ivanov2009-ceo2-s0012500809060056-sol-mw-120-product",
+      "record_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-120",
+      "record_page_path": "records/ivanov2009-ceo2-s0012500809060056-sol-mw-120.html",
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "title": "Ivanov et al. (2009): sol, microwave hydrothermal 120 °C",
+      "doi": "10.1134/S0012500809060056",
+      "year": 2009,
+      "method": "Microwave hydrothermal treatment",
+      "recipe_label": "Ivanov et al. (2009): sol, microwave hydrothermal 120 °C",
+      "sample_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-120-product",
+      "source_sample_label": "Table row5: Sol, 120°C microwave",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+          },
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Virtually nonaggregated, primarily hexagonal particle outlines",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-csd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Selyakov–Scherrer coherent-scattering domain, not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Selyakov–Scherrer",
+          "conditions": "Rigaku D/MAX2500,CuKα; λ1.54178Å,(111) intrinsic broadening, sapphire reference; equationD=λ/(βcosθ). Uncertainty and crystal phase not reported.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-table-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source table average particle size",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Leo912ABOmega,100kV; copper grids without preliminary ultrasonic redispersion. XRD CSD size kept separate.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystalline cerium dioxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-120-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+              },
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 3, p.133, table row5 (Sol, 120°C)"
+                },
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": "Crystalline cerium dioxide reported; no explicit crystallographic polymorph assigned. Hexagonal outlines are morphology, not a phase."
+            },
+            "morphology": {
+              "value": "Virtually nonaggregated, primarily hexagonal particle outlines",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-csd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-table-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-180::ivanov2009-ceo2-s0012500809060056-sol-mw-180-product",
+      "record_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-180",
+      "record_page_path": "records/ivanov2009-ceo2-s0012500809060056-sol-mw-180.html",
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "title": "Ivanov et al. (2009): sol, microwave hydrothermal 180 °C",
+      "doi": "10.1134/S0012500809060056",
+      "year": 2009,
+      "method": "Microwave hydrothermal treatment",
+      "recipe_label": "Ivanov et al. (2009): sol, microwave hydrothermal 180 °C",
+      "sample_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-180-product",
+      "source_sample_label": "Table row6: Sol, 180°C microwave",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+          },
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Virtually nonaggregated, primarily hexagonal particle outlines",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-csd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Selyakov–Scherrer coherent-scattering domain, not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Selyakov–Scherrer",
+          "conditions": "Rigaku D/MAX2500,CuKα; λ1.54178Å,(111) intrinsic broadening, sapphire reference; equationD=λ/(βcosθ). Uncertainty and crystal phase not reported.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-table-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source table average particle size",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Leo912ABOmega,100kV; copper grids without preliminary ultrasonic redispersion. XRD CSD size kept separate.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystalline cerium dioxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2009-ceo2-s0012500809060056-sol-mw-180-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+              },
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 3, p.133, table row6 (Sol, 180°C)"
+                },
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": "Crystalline cerium dioxide reported; no explicit crystallographic polymorph assigned. Hexagonal outlines are morphology, not a phase."
+            },
+            "morphology": {
+              "value": "Virtually nonaggregated, primarily hexagonal particle outlines",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-csd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-table-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2009-ceo2-s0012500809060056-suspension-initial::ivanov2009-ceo2-s0012500809060056-suspension-initial-product",
+      "record_id": "ivanov2009-ceo2-s0012500809060056-suspension-initial",
+      "record_page_path": "records/ivanov2009-ceo2-s0012500809060056-suspension-initial.html",
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "title": "Ivanov et al. (2009): suspension precursor",
+      "doi": "10.1134/S0012500809060056",
+      "year": 2009,
+      "method": "Ammonia precipitation reference",
+      "recipe_label": "Ivanov et al. (2009): suspension precursor",
+      "sample_id": "ivanov2009-ceo2-s0012500809060056-suspension-initial-product",
+      "source_sample_label": "Table row1: Suspension, untreated precursor",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+          },
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Highly aggregated nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-csd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 5,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Strict <5nm in source table",
+            "basis": "XRD coherent-scattering domain",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+              }
+            ],
+            "derivation": null,
+            "maximum_exclusive": true
+          },
+          "technique": "XRD / Selyakov–Scherrer",
+          "conditions": "Rigaku D/MAX2500,CuKα; λ1.54178Å,(111) intrinsic broadening, sapphire reference; equationD=λ/(βcosθ). Uncertainty and crystal phase not reported.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-table-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source table average particle size",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Leo912ABOmega,100kV; copper grids without preliminary ultrasonic redispersion. XRD CSD size kept separate.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystalline cerium dioxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2009-ceo2-s0012500809060056-suspension-initial-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "precipitate-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+              },
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 3, p.133, table row1 (Suspension, untreated precursor)"
+                },
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": "Crystalline cerium dioxide reported; no explicit crystallographic polymorph assigned. Hexagonal outlines are morphology, not a phase."
+            },
+            "morphology": {
+              "value": "Highly aggregated nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-csd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-table-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-120::ivanov2009-ceo2-s0012500809060056-suspension-mw-120-product",
+      "record_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-120",
+      "record_page_path": "records/ivanov2009-ceo2-s0012500809060056-suspension-mw-120.html",
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "title": "Ivanov et al. (2009): suspension, microwave hydrothermal 120 °C",
+      "doi": "10.1134/S0012500809060056",
+      "year": 2009,
+      "method": "Microwave hydrothermal treatment",
+      "recipe_label": "Ivanov et al. (2009): suspension, microwave hydrothermal 120 °C",
+      "sample_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-120-product",
+      "source_sample_label": "Table row2: Suspension, 120°C microwave",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+          },
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Polydisperse, aggregated nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-csd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 12,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Selyakov–Scherrer coherent-scattering domain, not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Selyakov–Scherrer",
+          "conditions": "Rigaku D/MAX2500,CuKα; λ1.54178Å,(111) intrinsic broadening, sapphire reference; equationD=λ/(βcosθ). Uncertainty and crystal phase not reported.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-table-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source table average particle size",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Leo912ABOmega,100kV; copper grids without preliminary ultrasonic redispersion. XRD CSD size kept separate.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystalline cerium dioxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-120-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+              },
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 3, p.133, table row2 (Suspension, 120°C)"
+                },
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": "Crystalline cerium dioxide reported; no explicit crystallographic polymorph assigned. Hexagonal outlines are morphology, not a phase."
+            },
+            "morphology": {
+              "value": "Polydisperse, aggregated nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-csd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-table-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-180::ivanov2009-ceo2-s0012500809060056-suspension-mw-180-product",
+      "record_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-180",
+      "record_page_path": "records/ivanov2009-ceo2-s0012500809060056-suspension-mw-180.html",
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "title": "Ivanov et al. (2009): suspension, microwave hydrothermal 180 °C",
+      "doi": "10.1134/S0012500809060056",
+      "year": 2009,
+      "method": "Microwave hydrothermal treatment",
+      "recipe_label": "Ivanov et al. (2009): suspension, microwave hydrothermal 180 °C",
+      "sample_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-180-product",
+      "source_sample_label": "Table row3: Suspension, 180°C microwave",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CeO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+          },
+          {
+            "source_id": "ivanov2009-ceo2-s0012500809060056",
+            "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)",
+          "claim": null
+        },
+        {
+          "source_id": "ivanov2009-ceo2-s0012500809060056",
+          "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Polydisperse, aggregated nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-csd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 12,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Selyakov–Scherrer coherent-scattering domain, not TEM particle diameter",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Selyakov–Scherrer",
+          "conditions": "Rigaku D/MAX2500,CuKα; λ1.54178Å,(111) intrinsic broadening, sapphire reference; equationD=λ/(βcosθ). Uncertainty and crystal phase not reported.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-table-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source table average particle size",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Leo912ABOmega,100kV; copper grids without preliminary ultrasonic redispersion. XRD CSD size kept separate.",
+          "evidence": [
+            {
+              "source_id": "ivanov2009-ceo2-s0012500809060056",
+              "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nanocrystalline cerium dioxide",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1, p.131, preparation paragraphs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ivanov2009-ceo2-s0012500809060056-suspension-mw-180-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dry-state",
+          "composition": {
+            "value": "CeO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+              },
+              {
+                "source_id": "ivanov2009-ceo2-s0012500809060056",
+                "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 3, p.133, table row3 (Suspension, 180°C)"
+                },
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": "Crystalline cerium dioxide reported; no explicit crystallographic polymorph assigned. Hexagonal outlines are morphology, not a phase."
+            },
+            "morphology": {
+              "value": "Polydisperse, aggregated nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ivanov2009-ceo2-s0012500809060056",
+                  "locator": "Supplied main PDF p. 1–2, pp.131–132, morphology and diffraction discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-csd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-table-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
           }
         }
       },

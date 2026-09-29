@@ -4,45 +4,48 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4214,
+    "local_paper_groups_indexed": 4216,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
-    "canonical_records": 1130,
-    "reviewed_literature_records": 1030,
-    "reviewed_literature_source_groups": 90,
+    "historical_augmented_library_groups": 4214,
+    "frozen_intake_local_paper_groups": 4176,
+    "curated_library_additions": 40,
+    "canonical_records": 1139,
+    "reviewed_literature_records": 1039,
+    "reviewed_literature_source_groups": 92,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 91,
+    "total_canonical_source_groups": 93,
     "formal_full_main_and_matched_si_reviews": 27,
     "formal_full_review_pages": 638,
-    "formal_full_main_reviews_si_unverified": 58,
-    "formal_full_main_only_review_pages": 334,
+    "formal_full_main_reviews_si_unverified": 60,
+    "formal_full_main_only_review_pages": 343,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
     "local_groups_without_canonical_records": 4123,
-    "synthesis_route_variant_records": 392,
+    "synthesis_route_variant_records": 400,
     "contextual_control_variant_records": 60,
-    "shared_preparation_workup_characterization_assay_procedures": 327,
-    "nonprocedure_literature_records": 703,
+    "shared_preparation_workup_characterization_assay_procedures": 328,
+    "nonprocedure_literature_records": 711,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 271,
+      "literature_protocol": 279,
       "observation": 213,
-      "procedure": 327,
+      "procedure": 328,
       "protocol_variant": 181
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 271,
+      "literature_protocol": 279,
       "observation": 213,
-      "procedure": 327,
+      "procedure": 328,
       "protocol_variant": 181
     },
-    "literature_recipe_family_ids": 171,
-    "primary_synthesis_recipe_family_ids": 124,
+    "literature_recipe_family_ids": 173,
+    "primary_synthesis_recipe_family_ids": 126,
     "public_material_hubs": 109,
     "direct_synthesis_target_systems": 97,
     "component_only_hubs": 12,
@@ -53,10 +56,10 @@
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 213,
-    "recipe_or_control_literature_records": 452,
+    "recipe_or_control_literature_records": 460,
     "contextual_observation_family_ids": 66,
-    "source_checked_synthesis_structure_rows": 313,
-    "source_groups_with_synthesis_structure_rows": 71,
+    "source_checked_synthesis_structure_rows": 321,
+    "source_groups_with_synthesis_structure_rows": 73,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -77,7 +80,10 @@
     "danek_series": "Figure-defined particle sizes, shell ratios, optical aliquots and film-deposition categories are source-scoped observations. Their number must not be interpreted as fully specified independent synthesis recipes.",
     "local_paper_groups_indexed": "Actual generated source-library groups, including reviewed incoming-folder sources absent from the earlier legacy index; not a full incoming-corpus count.",
     "local_document_files_indexed": "Document-file count from the retained legacy corpus index snapshot; incoming-folder monitor totals are reported separately on the progress page.",
-    "reviewed_literature_experimental_row": "A source-defined table row with preserved input/output scope. It is not an additional fully specified synthesis route or a deduplicated physical experiment."
+    "reviewed_literature_experimental_row": "A source-defined table row with preserved input/output scope. It is not an additional fully specified synthesis route or a deduplicated physical experiment.",
+    "historical_augmented_library_groups": "Previous public-library snapshot count, retained unchanged; includes legacy intake groups and the canonical additions present at that snapshot.",
+    "frozen_intake_local_paper_groups": "Distinct DOI groups with local documents in the content-pinned original intake index; curated additions do not change this count.",
+    "curated_library_additions": "Canonical primary-source DOIs absent from the frozen local-document intake view; not new intake and not additional credit for contextual citations."
   },
   "material_system_lists": {
     "direct_synthesis_targets": [
@@ -777,6 +783,61 @@
         "chen2018ami-wled": "records/chen2018ami-wled.html"
       },
       "source_checked_synthesis_structure_rows": 7
+    },
+    {
+      "source_group": "colfen2003-tio2-la0347051",
+      "doi": "10.1021/la0347051",
+      "url": "https://doi.org/10.1021/la0347051",
+      "title": "Nanocrystal Surface Structure Analysis by Analytical Ultracentrifugation",
+      "year": 2003,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Root independent source comparison of all six supplied main pages, five source figures and the unnumbered DLS block passed. Two acid-specific recipes and all 18 measurement scalars were checked; the subsequent review-admission revision changes only metadata and dependent hashes. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "reading_method": "All six pypdf text pages and original 130 dpi renders inspected; five figures, DLS block, four equations and bibliography."
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/colfen2003-tio2-la0347051.json",
+      "paper_review_url": "paper-review.html?id=colfen2003-tio2-la0347051",
+      "si_status": "not_located_or_verified",
+      "notes": [
+        "Two acid-specific hydrothermal anatase preparations.",
+        "TEM, XRD, DLS and AUC estimators retain distinct sample/condition scopes.",
+        "Analytical pH series and hydration models are not additional synthesis pairs.",
+        "Final model sample-label conflict remains unresolved; no measured atomic coordinates supplied."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 18,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "colfen2003-tio2-la0347051"
+      ],
+      "direct_route_material_systems": [
+        "TiO2"
+      ],
+      "record_ids": [
+        "colfen2003-tio2-sample-1-acetic-acid",
+        "colfen2003-tio2-sample-2-nitric-acid"
+      ],
+      "record_urls": {
+        "colfen2003-tio2-sample-1-acetic-acid": "records/colfen2003-tio2-sample-1-acetic-acid.html",
+        "colfen2003-tio2-sample-2-nitric-acid": "records/colfen2003-tio2-sample-2-nitric-acid.html"
+      },
+      "source_checked_synthesis_structure_rows": 2
     },
     {
       "source_group": "costanzo2016co",
@@ -2580,6 +2641,71 @@
         "igarashi2001-zns-mn-smp-fired": "records/igarashi2001-zns-mn-smp-fired.html"
       },
       "source_checked_synthesis_structure_rows": 2
+    },
+    {
+      "source_group": "ivanov2009-ceo2-s0012500809060056",
+      "doi": "10.1134/S0012500809060056",
+      "url": "https://doi.org/10.1134/S0012500809060056",
+      "title": "Hydrothermal Microwave Synthesis of Nanocrystalline Cerium Dioxide",
+      "year": 2009,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "Independent R1 source audit of all three supplied main pages, both figures, six-row table, equation1 and ten bibliographic entries passed. SI and cited references remain unreviewed. Presentation refinements pending; no measured-coordinate admission.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 3,
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "reading_method": "Full local text and source-page visual reading"
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/ivanov2009-ceo2-s0012500809060056.json",
+      "paper_review_url": "paper-review.html?id=ivanov2009-ceo2-s0012500809060056",
+      "si_status": "not_located_or_verified",
+      "notes": [
+        "Six precursor/microwave routes; one supporting ordinary-heating comparator. Exact physical batches not asserted.",
+        "XRD, TEM and optical estimates are distinct; particle outlines are not a crystal-phase assignment.",
+        "Source figures retain unverified publisher permission; no measured-coordinate or publication admission."
+      ],
+      "main_status": "reviewed",
+      "canonical_record_count": 7,
+      "synthesis_route_variant_count": 6,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 1,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 18,
+      "record_type_counts": {
+        "literature_protocol": 6,
+        "procedure": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ivanov2009-ceo2-s0012500809060056"
+      ],
+      "direct_route_material_systems": [
+        "CeO2"
+      ],
+      "record_ids": [
+        "ivanov2009-ceo2-s0012500809060056-sol-initial",
+        "ivanov2009-ceo2-s0012500809060056-sol-mw-120",
+        "ivanov2009-ceo2-s0012500809060056-sol-mw-180",
+        "ivanov2009-ceo2-s0012500809060056-suspension-initial",
+        "ivanov2009-ceo2-s0012500809060056-suspension-mw-120",
+        "ivanov2009-ceo2-s0012500809060056-suspension-mw-180",
+        "ivanov2009-ceo2-s0012500809060056-suspension-ordinary-hydrothermal"
+      ],
+      "record_urls": {
+        "ivanov2009-ceo2-s0012500809060056-sol-initial": "records/ivanov2009-ceo2-s0012500809060056-sol-initial.html",
+        "ivanov2009-ceo2-s0012500809060056-sol-mw-120": "records/ivanov2009-ceo2-s0012500809060056-sol-mw-120.html",
+        "ivanov2009-ceo2-s0012500809060056-sol-mw-180": "records/ivanov2009-ceo2-s0012500809060056-sol-mw-180.html",
+        "ivanov2009-ceo2-s0012500809060056-suspension-initial": "records/ivanov2009-ceo2-s0012500809060056-suspension-initial.html",
+        "ivanov2009-ceo2-s0012500809060056-suspension-mw-120": "records/ivanov2009-ceo2-s0012500809060056-suspension-mw-120.html",
+        "ivanov2009-ceo2-s0012500809060056-suspension-mw-180": "records/ivanov2009-ceo2-s0012500809060056-suspension-mw-180.html",
+        "ivanov2009-ceo2-s0012500809060056-suspension-ordinary-hydrothermal": "records/ivanov2009-ceo2-s0012500809060056-suspension-ordinary-hydrothermal.html"
+      },
+      "source_checked_synthesis_structure_rows": 6
     },
     {
       "source_group": "iwasaki1998-tio2-a1006660209934",
@@ -10102,8 +10228,14 @@
     {
       "material_system": "CeO2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 7,
+      "direct_synthesis_route_variant_count": 13,
       "direct_route_record_ids": [
+        "ivanov2009-ceo2-s0012500809060056-sol-initial",
+        "ivanov2009-ceo2-s0012500809060056-sol-mw-120",
+        "ivanov2009-ceo2-s0012500809060056-sol-mw-180",
+        "ivanov2009-ceo2-s0012500809060056-suspension-initial",
+        "ivanov2009-ceo2-s0012500809060056-suspension-mw-120",
+        "ivanov2009-ceo2-s0012500809060056-suspension-mw-180",
         "pati-2009-butanol-route",
         "pati-2009-ethanol-route",
         "pati-2009-propanol-route",
@@ -10120,21 +10252,28 @@
         "pati-2009-property-results",
         "pati-2009-structure-results"
       ],
-      "procedure_count": 15,
+      "procedure_count": 16,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 7,
+      "public_hub_route_contributions": 13,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 2,
+      "primary_reviewed_source_count": 3,
       "material_hub_id": "ceo2-625501",
       "material_hub_url": "material.html?id=ceo2-625501",
       "source_groups": [
+        "ivanov2009-ceo2-s0012500809060056",
         "pati2009",
         "zhou1995-ceo2-tb08425"
       ],
       "source_links": [
+        {
+          "source_group": "ivanov2009-ceo2-s0012500809060056",
+          "doi": "10.1134/S0012500809060056",
+          "url": "https://doi.org/10.1134/S0012500809060056",
+          "title": "Hydrothermal Microwave Synthesis of Nanocrystalline Cerium Dioxide"
+        },
         {
           "source_group": "pati2009",
           "doi": "10.1021/la8031286",
@@ -10149,6 +10288,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "ivanov2009-ceo2-s0012500809060056",
         "pati2009-alcohol-tea-study",
         "zhou1995-electrochemical-ceo2"
       ]
@@ -14404,8 +14544,10 @@
     {
       "material_system": "TiO2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 9,
+      "direct_synthesis_route_variant_count": 11,
       "direct_route_record_ids": [
+        "colfen2003-tio2-sample-1-acetic-acid",
+        "colfen2003-tio2-sample-2-nitric-acid",
         "iwasaki1998-tio2-a1006660209934-run-01",
         "iwasaki1998-tio2-a1006660209934-run-02",
         "iwasaki1998-tio2-a1006660209934-run-03",
@@ -14424,16 +14566,23 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 9,
+      "public_hub_route_contributions": 11,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
+      "primary_reviewed_source_count": 2,
       "material_hub_id": "tio2-ce6bfd",
       "material_hub_url": "material.html?id=tio2-ce6bfd",
       "source_groups": [
+        "colfen2003-tio2-la0347051",
         "iwasaki1998-tio2-a1006660209934"
       ],
       "source_links": [
+        {
+          "source_group": "colfen2003-tio2-la0347051",
+          "doi": "10.1021/la0347051",
+          "url": "https://doi.org/10.1021/la0347051",
+          "title": "Nanocrystal Surface Structure Analysis by Analytical Ultracentrifugation"
+        },
         {
           "source_group": "iwasaki1998-tio2-a1006660209934",
           "doi": "10.1023/A:1006660209934",
@@ -14442,6 +14591,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "colfen2003-tio2-la0347051",
         "iwasaki1998-tio2-a1006660209934"
       ]
     },
@@ -15156,8 +15306,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "0862dd20a3761bf122676620f540fd45897a50f33e1298838e9265309362e897",
-    "record_ids_sha256": "9455e826409dac4ae8354dc5f48da5a7599581d9a4d76ff3a5647956485ccf09",
+    "reviewed_evidence_sha256": "7b2ff3ccad1833d5a8aa87ab2dba99927ca76e14775a7875775413164b8230e0",
+    "record_ids_sha256": "5278789fdad6e9a6ca3a47d596bcc82448e362346bd75fab660475634bf9ae33",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **91 primary source groups** · release `mattersyn-preliminary-batch04`. Records are not independent experiments.
+Dataset **0.41.2** · **93 primary source groups** · release `mattersyn-regular-batch07-order-fix`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -84,6 +84,8 @@ Dataset **0.41.2** · **91 primary source groups** · release `mattersyn-prelimi
 
 - Dana A. Schwartz; Nick S. Norberg; Quyen P. Nguyen; Jason M. Parker; Daniel R. Gamelin (2003). Magnetic Quantum Dots: Synthesis, Spectroscopy, and Magnetism of Co2+- and Ni2+-Doped ZnO Nanocrystals. *Journal of the American Chemical Society*, 125, 13205–13218. [10.1021/ja036811v](https://doi.org/10.1021/ja036811v). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=schwartz2003).
 
+- Helmut Cölfen; Shay Tirosh; Arie Zaban (2003). Nanocrystal Surface Structure Analysis by Analytical Ultracentrifugation. *Langmuir*, 19, 10654–10659. [10.1021/la0347051](https://doi.org/10.1021/la0347051). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=colfen2003-tio2-la0347051).
+
 - Nam Ho Heo; Jong Sam Park; Young Joo Kim; Woo Taik Lim; Sung Wook Jung; Karl Seff (2003). Spatially Ordered Quantum Dot Array of Indium Nanoclusters in Fully Indium-Exchanged Zeolite X. *Journal of Physical Chemistry B*, 107, 1120–1128. [10.1021/jp0219348](https://doi.org/10.1021/jp0219348). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=heo2003).
 
 - Andrew Watt; Elizabeth Thomsen; Paul Meredith; Halina Rubinsztein-Dunlop (2004). A new approach to the synthesis of conjugated polymer–nanocrystal composites for heterojunction optoelectronics. *Chemical Communications*, 2334–2335. [10.1039/b406060a](https://doi.org/10.1039/b406060a). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=watt2004-pbs-mehppv-b406060a).
@@ -117,6 +119,8 @@ Dataset **0.41.2** · **91 primary source groups** · release `mattersyn-prelimi
 - S. Stankov; Y. Z. Yue; M. Miglierini; B. Sepiol; I. Sergueev; A. I. Chumakov; L. Hu; P. Svec; R. Rüffer (2008). Vibrational Properties of Nanograins and Interfaces in Nanocrystalline Materials. *Physical Review Letters*, 100, 235503. [10.1103/PhysRevLett.100.235503](https://doi.org/10.1103/PhysRevLett.100.235503). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=stankov2008-fe90zr7b3).
 
 - Minjie Li; Jianying Ouyang; Christopher I. Ratcliffe; Laetitia Pietri; Xiaohua Wu; Donald M. Leek; Igor Moudrakovski; Quan Lin; Bai Yang; Kui Yu (2009). CdS Magic-Sized Nanocrystals Exhibiting Bright Band Gap Photoemission via Thermodynamically Driven Formation. *ACS Nano*, 3, 3832–3838. [10.1021/nn9009455](https://doi.org/10.1021/nn9009455). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2009-nn9009455).
+
+- V. K. Ivanov; O. S. Polezhaeva; D. O. Gil’; G. P. Kopitsa; Yu. D. Tret’yakov (2009). Hydrothermal Microwave Synthesis of Nanocrystalline Cerium Dioxide. *Doklady Chemistry*, 426, 131–133. [10.1134/S0012500809060056](https://doi.org/10.1134/S0012500809060056). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ivanov2009-ceo2-s0012500809060056).
 
 - Ranjan K. Pati; Ivan C. Lee; Karen J. Gaskell; Sheryl H. Ehrman (2009). Precipitation of Nanocrystalline CeO2 Using Triethanolamine. *Langmuir*, 25, 67–70. [10.1021/la8031286](https://doi.org/10.1021/la8031286). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=pati2009).
 
@@ -191,42 +195,6 @@ Dataset **0.41.2** · **91 primary source groups** · release `mattersyn-prelimi
 These are contextual/upstream references, not extra reviewed synthesis contributions.
 
 - Williamson, E. M.; Tappan, B. A.; Mora-Tamez, L.; Barim, G.; Brutchey, R. L. (2021). Statistical Multi-Objective Optimization of Thiospinel CoNi2S4 Nanocrystal Synthesis via Design of Experiments. [Source](https://doi.org/10.1021/acsnano.1c00502). Review scope remains stated in the linked website records.
-
-## Preliminary synthesis sources
-
-These scoped contributions are source-checked by the extractor, not independently audited. Accuracy is unmeasured; they are excluded from reviewed pair totals and training-ready data.
-
-- [Efficient energy transfer between nanocrystalline YAG:Ce and TRITC](https://doi.org/10.1039/b401299b). Sander F. Wuister, Celso de Mello Donegá and Andries Meijerink. Physical Chemistry Chemical Physics 6, 1633–1636 (2004). — Preliminary contribution.
-
-- [Electrodeposition of Nanocrystalline Metals and Alloys from Ionic Liquids](https://doi.org/10.1002/anie.200350912). Frank Endres, Mirko Bukowski, Rolf Hempelmann and Harald Natter. Angewandte Chemie International Edition 42, 3428–3430 (2003). — Preliminary contribution.
-
-- [Field-Assisted Sintering of Nanocrystalline Titanium Nitride](https://doi.org/10.1111/j.1151-2916.2000.tb01369.x). J. R. Groza, J. D. Curtis and M. Krämer. J. Am. Ceram. Soc. 83 [5], 1281–1283 (2000). DOI: 10.1111/j.1151-2916.2000.tb01369.x. — Preliminary contribution.
-
-- [Laser-Power-Induced Multiphonon Resonant Raman Scattering in Laser-Heated CdS Nanocrystal](https://doi.org/10.1021/jp912103t). S. Sahoo and A. K. Arora. J. Phys. Chem. B 2010, 114, 4199–4203. DOI: 10.1021/jp912103t. — Preliminary contribution.
-
-- [Lattice expansion and oxygen non-stoichiometry of nanocrystalline ceria](https://doi.org/10.1039/c0ce00245c). Alexander E. Baranchikov, Olga S. Polezhaeva, Vladimir K. Ivanov and Yuri D. Tretyakov. CrystEngComm 12, 3531–3533 (2010). — Preliminary contribution.
-
-- [Light-emission properties in nanocrystalline BaTiO 3](https://doi.org/10.1063/1.1322376). Jian Yu, Jinglan Sun, Junhao Chu and Dingyuan Tang. Applied Physics Letters 77, 2807–2809 (2000). — Preliminary contribution.
-
-- [Light-induced change of charge transfer band in nanocrystalline Y2O3:Eu3+](https://doi.org/10.1063/1.1501441). Hongwei Song, Baojiu Chen, Hongshang Peng and Jisen Zhang. Applied Physics Letters 81, 1776–1778 (2002). — Preliminary contribution.
-
-- [Low-Temperature Preparation of Nanocrystalline Lead Zirconate Titanate and Lead Lanthanum Zirconate Titanate Powders Using Triethanolamine](https://doi.org/10.1111/j.1151-2916.1998.tb02784.x). Rabindra N. Das, Amita Pathak and Panchanan Pramanik. Journal of the American Ceramic Society 81(12), 3357–3360 (1998). — Preliminary contribution.
-
-- [Microstructure and magnetic properties of the FeTaCN nanocrystalline thin films](https://doi.org/10.1063/1.1555904). C. Y. Chou, P. C. Kuo, Y. D. Yao, S. C. Chen, A. C. Sun and C. T. Lie. Journal of Applied Physics 93, 7205–7207 (2003). — Preliminary contribution.
-
-- [Nanocrystal Growth on Graphene with Various Degrees of Oxidation](https://doi.org/10.1021/ja100329d). Hailiang Wang, Joshua Tucker Robinson, Georgi Diankov, and Hongjie Dai. Journal of the American Chemical Society 132, 3270–3271 (2010). DOI: 10.1021/ja100329d. — Preliminary contribution.
-
-- [Oxygen Nonstoichiometry of Nanocrystalline Ceria](https://doi.org/10.1134/s0036023610030034). V. K. Ivanov, A. E. Baranchikov, O. S. Polezhaeva, G. P. Kopitsa and Yu. D. Tret’yakov. Russian Journal of Inorganic Chemistry 55, 325–327 (2010). — Preliminary contribution.
-
-- [Residual stress minimum in nanocrystalline diamond films](https://doi.org/10.1063/1.2339042). M. Vila, M. Amaral, F. J. Oliveira, R. F. Silva, A. J. S. Fernandes and M. R. Soares. Applied Physics Letters 89, 093109 (2006). — Preliminary contribution.
-
-- [Superparamagnetic nanocrystalline CuFe2O4](https://doi.org/10.1063/1.372662). S. Roy and J. Ghose. Journal of Applied Physics 87, 6226–6228 (2000). — Preliminary contribution.
-
-- [Synthesis of Nanocrystalline Alumina Using Egg White](https://doi.org/10.1111/j.1551-2916.2005.00382.x). Santanu Dhara, J. Am. Ceram. Soc. 88(7), 2003–2004 (2005). DOI: 10.1111/j.1551-2916.2005.00382.x. — Preliminary contribution.
-
-- [Temperature dependent structural properties of nanocrystalline SnS structures](https://doi.org/10.1063/1.3277148). M. Devika, N. Koteeswara Reddy, Fernando Patolsky, K. Ramesh and K. R. Gunasekhar. Applied Physics Letters 95, 261907 (2009). — Preliminary contribution.
-
-- [Ultratough nanocrystalline copper with a narrow grain size distribution](https://doi.org/10.1063/1.1779342). Khaled M. Youssef, Ronald O. Scattergood, K. Linga Murty and Carl C. Koch. Applied Physics Letters 85, 929–931 (2004). — Preliminary contribution.
 
 ## Crystal reference models
 
