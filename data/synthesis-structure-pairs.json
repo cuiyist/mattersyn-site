@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 321,
-    "source_groups": 73,
-    "records": 282,
+    "recipe_structure_rows": 343,
+    "source_groups": 75,
+    "records": 304,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -34370,6 +34370,1203 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "nishino2009-calcite-mg0::nishino2009-calcite-mg0-product",
+      "record_id": "nishino2009-calcite-mg0",
+      "record_page_path": "records/nishino2009-calcite-mg0.html",
+      "source_group": "nishino2009-calcite-cg800331a",
+      "title": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 0 mM",
+      "doi": "10.1021/cg800331a",
+      "year": 2009,
+      "method": "CO2 diffusion onto FTO, Mg2+ 0 mM",
+      "recipe_label": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 0 mM",
+      "sample_id": "nishino2009-calcite-mg0-product",
+      "source_sample_label": "FTO deposit at 0 mM Mg2+",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CaCO3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nishino2009-calcite-cg800331a",
+            "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nishino2009-calcite-cg800331a",
+          "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Predominantly calcite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Regular rhombohedra bound by {104} faces",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CaCO3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 1, Experimental Procedures, gas-diffusion precipitation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nishino2009-calcite-mg0-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "co2-diffusion-state",
+          "composition": {
+            "value": "CaCO3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Predominantly calcite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Regular rhombohedra bound by {104} faces",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "nishino2009-calcite-mg10::nishino2009-calcite-mg10-product",
+      "record_id": "nishino2009-calcite-mg10",
+      "record_page_path": "records/nishino2009-calcite-mg10.html",
+      "source_group": "nishino2009-calcite-cg800331a",
+      "title": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 10 mM",
+      "doi": "10.1021/cg800331a",
+      "year": 2009,
+      "method": "CO2 diffusion onto FTO, Mg2+ 10 mM",
+      "recipe_label": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 10 mM",
+      "sample_id": "nishino2009-calcite-mg10-product",
+      "source_sample_label": "FTO deposit at 10 mM Mg2+",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nishino2009-calcite-cg800331a",
+            "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nishino2009-calcite-cg800331a",
+          "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Predominantly calcite, with Mg-related lattice contraction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Elongated rhombohedra along the c axis",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CaCO3 host with Mg content unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 1, Experimental Procedures, gas-diffusion precipitation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nishino2009-calcite-mg10-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "co2-diffusion-state",
+          "composition": {
+            "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Predominantly calcite, with Mg-related lattice contraction",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Elongated rhombohedra along the c axis",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "nishino2009-calcite-mg100::nishino2009-calcite-mg100-product",
+      "record_id": "nishino2009-calcite-mg100",
+      "record_page_path": "records/nishino2009-calcite-mg100.html",
+      "source_group": "nishino2009-calcite-cg800331a",
+      "title": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 100 mM",
+      "doi": "10.1021/cg800331a",
+      "year": 2009,
+      "method": "CO2 diffusion onto FTO, Mg2+ 100 mM",
+      "recipe_label": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 100 mM",
+      "sample_id": "nishino2009-calcite-mg100-product",
+      "source_sample_label": "FTO deposit at 100 mM Mg2+",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nishino2009-calcite-cg800331a",
+            "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nishino2009-calcite-cg800331a",
+          "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Amorphous calcium carbonate (ACC)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Planar film with smooth surface",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CaCO3 host with Mg content unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 1, Experimental Procedures, gas-diffusion precipitation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nishino2009-calcite-mg100-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "co2-diffusion-state",
+          "composition": {
+            "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Amorphous calcium carbonate (ACC)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Planar film with smooth surface",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "nishino2009-calcite-mg20::nishino2009-calcite-mg20-product",
+      "record_id": "nishino2009-calcite-mg20",
+      "record_page_path": "records/nishino2009-calcite-mg20.html",
+      "source_group": "nishino2009-calcite-cg800331a",
+      "title": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 20 mM",
+      "doi": "10.1021/cg800331a",
+      "year": 2009,
+      "method": "CO2 diffusion onto FTO, Mg2+ 20 mM",
+      "recipe_label": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 20 mM",
+      "sample_id": "nishino2009-calcite-mg20-product",
+      "source_sample_label": "FTO deposit at 20 mM Mg2+",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nishino2009-calcite-cg800331a",
+            "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nishino2009-calcite-cg800331a",
+          "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Predominantly calcite, with Mg-related lattice contraction",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Elongated rhombohedra along the c axis",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "sem-nanocrystals",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 50,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Nanocrystals on triangular submicron units, strict upper bound.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF pp. 2–3, Figure 4a,b and submicron-unit discussion"
+              }
+            ],
+            "derivation": null,
+            "maximum_exclusive": true
+          },
+          "technique": "SEM",
+          "conditions": "20 mM Figure 4a,b; constituent crystallites, not aggregate size",
+          "evidence": [
+            {
+              "source_id": "nishino2009-calcite-cg800331a",
+              "locator": "Main PDF pp. 2–3, Figure 4a,b and submicron-unit discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "mosaic-domain-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 5,
+            "maximum": 20,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Connected crystalline domains separated by amorphous material and dislocations.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 3, Figure 6 and mosaic-domain discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "20 mM Figure 6; not overall triangular-unit size",
+          "evidence": [
+            {
+              "source_id": "nishino2009-calcite-cg800331a",
+              "locator": "Main PDF p. 3, Figure 6 and mosaic-domain discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "104-fringe",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.31,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Literal Figure 6b (104) label; no cell refinement.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 3, Figure 6 and mosaic-domain discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "20 mM Figure 6b",
+          "evidence": [
+            {
+              "source_id": "nishino2009-calcite-cg800331a",
+              "locator": "Main PDF p. 3, Figure 6 and mosaic-domain discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CaCO3 host with Mg content unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 1, Experimental Procedures, gas-diffusion precipitation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nishino2009-calcite-mg20-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "co2-diffusion-state",
+          "composition": {
+            "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Predominantly calcite, with Mg-related lattice contraction",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Elongated rhombohedra along the c axis",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "sem-nanocrystals",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "mosaic-domain-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "104-fringe",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "nishino2009-calcite-mg40::nishino2009-calcite-mg40-product",
+      "record_id": "nishino2009-calcite-mg40",
+      "record_page_path": "records/nishino2009-calcite-mg40.html",
+      "source_group": "nishino2009-calcite-cg800331a",
+      "title": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 40 mM",
+      "doi": "10.1021/cg800331a",
+      "year": 2009,
+      "method": "CO2 diffusion onto FTO, Mg2+ 40 mM",
+      "recipe_label": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 40 mM",
+      "sample_id": "nishino2009-calcite-mg40-product",
+      "source_sample_label": "FTO deposit at 40 mM Mg2+",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nishino2009-calcite-cg800331a",
+            "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nishino2009-calcite-cg800331a",
+          "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Calcite with amorphous calcium carbonate context",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dumbbells with oriented upgrowth at both ends and radial interior",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "sem-surface-nanocrystals",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 20,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Strict upper bound; constituent crystallites of dumbbells/spheres.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF pp. 2–3, Figure 4c,d and nanocrystal-size paragraph"
+              }
+            ],
+            "derivation": null,
+            "maximum_exclusive": true
+          },
+          "technique": "SEM",
+          "conditions": "40 mM Figure 4c",
+          "evidence": [
+            {
+              "source_id": "nishino2009-calcite-cg800331a",
+              "locator": "Main PDF pp. 2–3, Figure 4c,d and nanocrystal-size paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "sem-radial-interior",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": 20,
+            "maximum": 30,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Radial interior observation; distinct from <20 nm outer-unit description.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 3, Figure 5 fractured dumbbell and radial interior"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "SEM",
+          "conditions": "40 mM fractured dumbbell interior",
+          "evidence": [
+            {
+              "source_id": "nishino2009-calcite-cg800331a",
+              "locator": "Main PDF p. 3, Figure 5 fractured dumbbell and radial interior"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CaCO3 host with Mg content unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 1, Experimental Procedures, gas-diffusion precipitation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nishino2009-calcite-mg40-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "co2-diffusion-state",
+          "composition": {
+            "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Calcite with amorphous calcium carbonate context",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Dumbbells with oriented upgrowth at both ends and radial interior",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "sem-surface-nanocrystals",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "sem-radial-interior",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "nishino2009-calcite-mg60::nishino2009-calcite-mg60-product",
+      "record_id": "nishino2009-calcite-mg60",
+      "record_page_path": "records/nishino2009-calcite-mg60.html",
+      "source_group": "nishino2009-calcite-cg800331a",
+      "title": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 60 mM",
+      "doi": "10.1021/cg800331a",
+      "year": 2009,
+      "method": "CO2 diffusion onto FTO, Mg2+ 60 mM",
+      "recipe_label": "Nishino et al. (2009): CO2 diffusion onto FTO, Mg2+ 60 mM",
+      "sample_id": "nishino2009-calcite-mg60-product",
+      "source_sample_label": "FTO deposit at 60 mM Mg2+",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nishino2009-calcite-cg800331a",
+            "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nishino2009-calcite-cg800331a",
+          "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Calcite with amorphous calcium carbonate context",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Stacked spherical architectures",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "sem-surface-nanocrystals",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 20,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Strict upper bound; constituent crystallites of dumbbells/spheres.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF pp. 2–3, Figure 4c,d and nanocrystal-size paragraph"
+              }
+            ],
+            "derivation": null,
+            "maximum_exclusive": true
+          },
+          "technique": "SEM",
+          "conditions": "60 mM Figure 4d",
+          "evidence": [
+            {
+              "source_id": "nishino2009-calcite-cg800331a",
+              "locator": "Main PDF pp. 2–3, Figure 4c,d and nanocrystal-size paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CaCO3 host with Mg content unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 1, Experimental Procedures, gas-diffusion precipitation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nishino2009-calcite-mg60-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "co2-diffusion-state",
+          "composition": {
+            "value": "Mg-containing calcium carbonate; exact composition and phase partition unresolved",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nishino2009-calcite-cg800331a",
+                "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Calcite with amorphous calcium carbonate context",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Stacked spherical architectures",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nishino2009-calcite-cg800331a",
+                  "locator": "Main PDF p. 2–3, Figures 1, 3–6 and morphology/structure discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "sem-surface-nanocrystals",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "qiu2006-ag-superlattice-150c::qiu2006-ag-superlattice-150c-product",
       "record_id": "qiu2006-ag-superlattice-150c",
       "record_page_path": "records/qiu2006-ag-superlattice-150c.html",
@@ -53938,6 +55135,3226 @@
                 "measurement_id": "xrd-lattice-a",
                 "property": "lattice_parameter_a",
                 "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-o-400c::tyagi2006-zro2-pp-o-400c-product",
+      "record_id": "tyagi2006-zro2-pp-o-400c",
+      "record_page_path": "records/tyagi2006-zro2-pp-o-400c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-O 400 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-O calcination at 400 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-O 400 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-o-400c-product",
+      "source_sample_label": "Z-PP-O, 400°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "97% tetragonal; 3% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O T(111) at400°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 400°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O T(111) at400°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-o-400c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "97% tetragonal; 3% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-o-500c::tyagi2006-zro2-pp-o-500c-product",
+      "record_id": "tyagi2006-zro2-pp-o-500c",
+      "record_page_path": "records/tyagi2006-zro2-pp-o-500c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-O 500 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-O calcination at 500 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-O 500 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-o-500c-product",
+      "source_sample_label": "Z-PP-O, 500°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "8% tetragonal; 92% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 15,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O T(111) at500°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 500°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O T(111) at500°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m11bar1-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(11-1); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O M(11-1) at500°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 500°C; M(11-1); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O M(11-1) at500°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 16,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O M(111) at500°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 500°C; M(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O M(111) at500°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-o-500c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "8% tetragonal; 92% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m11bar1-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-o-600c::tyagi2006-zro2-pp-o-600c-product",
+      "record_id": "tyagi2006-zro2-pp-o-600c",
+      "record_page_path": "records/tyagi2006-zro2-pp-o-600c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-O 600 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-O calcination at 600 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-O 600 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-o-600c-product",
+      "source_sample_label": "Z-PP-O, 600°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "1% tetragonal; 99% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 32,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O T(111) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 600°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O T(111) at600°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m11bar1-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 17,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(11-1); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O M(11-1) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 600°C; M(11-1); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O M(11-1) at600°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O M(111) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 600°C; M(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O M(111) at600°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-o-600c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "1% tetragonal; 99% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m11bar1-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-o-700c::tyagi2006-zro2-pp-o-700c-product",
+      "record_id": "tyagi2006-zro2-pp-o-700c",
+      "record_page_path": "records/tyagi2006-zro2-pp-o-700c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-O 700 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-O calcination at 700 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-O 700 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-o-700c-product",
+      "source_sample_label": "Z-PP-O, 700°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "100% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "m11bar1-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 26,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(11-1); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O M(11-1) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 700°C; M(11-1); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O M(11-1) at700°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 30,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-O M(111) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-O 700°C; M(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-O M(111) at700°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-o-700c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "100% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "m11bar1-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-v-400c::tyagi2006-zro2-pp-v-400c-product",
+      "record_id": "tyagi2006-zro2-pp-v-400c",
+      "record_page_path": "records/tyagi2006-zro2-pp-v-400c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-V 400 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-V calcination at 400 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-V 400 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-v-400c-product",
+      "source_sample_label": "Z-PP-V, 400°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "100% tetragonal (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 21,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at400°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 400°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at400°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-v-400c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "100% tetragonal (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-v-500c::tyagi2006-zro2-pp-v-500c-product",
+      "record_id": "tyagi2006-zro2-pp-v-500c",
+      "record_page_path": "records/tyagi2006-zro2-pp-v-500c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-V 500 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-V calcination at 500 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-V 500 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-v-500c-product",
+      "source_sample_label": "Z-PP-V, 500°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "73% tetragonal; 27% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 22,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at500°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 500°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at500°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-v-500c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "73% tetragonal; 27% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-v-600c::tyagi2006-zro2-pp-v-600c-product",
+      "record_id": "tyagi2006-zro2-pp-v-600c",
+      "record_page_path": "records/tyagi2006-zro2-pp-v-600c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-V 600 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-V calcination at 600 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-V 600 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-v-600c-product",
+      "source_sample_label": "Z-PP-V, 600°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "10% tetragonal; 90% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 29,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 600°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at600°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m11bar1-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 16,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(11-1); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V M(11-1) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 600°C; M(11-1); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V M(11-1) at600°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 19,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V M(111) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 600°C; M(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V M(111) at600°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-v-600c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "10% tetragonal; 90% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m11bar1-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-pp-v-700c::tyagi2006-zro2-pp-v-700c-product",
+      "record_id": "tyagi2006-zro2-pp-v-700c",
+      "record_page_path": "records/tyagi2006-zro2-pp-v-700c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-PP-V 700 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-PP-V calcination at 700 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-PP-V 700 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-pp-v-700c-product",
+      "source_sample_label": "Z-PP-V, 700°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "4% tetragonal; 96% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 37,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 700°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V T(111) at700°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m11bar1-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 29,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(11-1); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V M(11-1) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 700°C; M(11-1); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V M(11-1) at700°C"
+            }
+          ]
+        },
+        {
+          "measurement_id": "m111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 25,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific M(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-PP-V M(111) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-PP-V 700°C; M(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-PP-V M(111) at700°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-pp-v-700c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "4% tetragonal; 96% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m11bar1-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "m111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-o-400c::tyagi2006-zro2-sg-o-400c-product",
+      "record_id": "tyagi2006-zro2-sg-o-400c",
+      "record_page_path": "records/tyagi2006-zro2-sg-o-400c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-O 400 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-O calcination at 400 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-O 400 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-o-400c-product",
+      "source_sample_label": "Z-SG-O, 400°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "100% tetragonal (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at400°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-O 400°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at400°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-o-400c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "100% tetragonal (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-o-500c::tyagi2006-zro2-sg-o-500c-product",
+      "record_id": "tyagi2006-zro2-sg-o-500c",
+      "record_page_path": "records/tyagi2006-zro2-sg-o-500c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-O 500 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-O calcination at 500 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-O 500 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-o-500c-product",
+      "source_sample_label": "Z-SG-O, 500°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "100% tetragonal (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 14,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at500°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-O 500°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at500°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-o-500c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "100% tetragonal (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-o-600c::tyagi2006-zro2-sg-o-600c-product",
+      "record_id": "tyagi2006-zro2-sg-o-600c",
+      "record_page_path": "records/tyagi2006-zro2-sg-o-600c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-O 600 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-O calcination at 600 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-O 600 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-o-600c-product",
+      "source_sample_label": "Z-SG-O, 600°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "90% tetragonal; 10% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 17,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-O 600°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at600°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-o-600c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "90% tetragonal; 10% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-o-700c::tyagi2006-zro2-sg-o-700c-product",
+      "record_id": "tyagi2006-zro2-sg-o-700c",
+      "record_page_path": "records/tyagi2006-zro2-sg-o-700c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-O 700 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-O calcination at 700 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-O 700 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-o-700c-product",
+      "source_sample_label": "Z-SG-O, 700°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "80% tetragonal; 20% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 23,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-O 700°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-O T(111) at700°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-o-700c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "80% tetragonal; 20% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-v-400c::tyagi2006-zro2-sg-v-400c-product",
+      "record_id": "tyagi2006-zro2-sg-v-400c",
+      "record_page_path": "records/tyagi2006-zro2-sg-v-400c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-V 400 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-V calcination at 400 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-V 400 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-v-400c-product",
+      "source_sample_label": "Z-SG-V, 400°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "100% tetragonal (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at400°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-V 400°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at400°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-v-400c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "100% tetragonal (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-v-500c::tyagi2006-zro2-sg-v-500c-product",
+      "record_id": "tyagi2006-zro2-sg-v-500c",
+      "record_page_path": "records/tyagi2006-zro2-sg-v-500c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-V 500 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-V calcination at 500 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-V 500 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-v-500c-product",
+      "source_sample_label": "Z-SG-V, 500°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "98% tetragonal; 2% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 21,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at500°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-V 500°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at500°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-v-500c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "98% tetragonal; 2% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-v-600c::tyagi2006-zro2-sg-v-600c-product",
+      "record_id": "tyagi2006-zro2-sg-v-600c",
+      "record_page_path": "records/tyagi2006-zro2-sg-v-600c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-V 600 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-V calcination at 600 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-V 600 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-v-600c-product",
+      "source_sample_label": "Z-SG-V, 600°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "84% tetragonal; 16% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 23,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at600°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-V 600°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at600°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-v-600c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "84% tetragonal; 16% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tyagi2006-zro2-sg-v-700c::tyagi2006-zro2-sg-v-700c-product",
+      "record_id": "tyagi2006-zro2-sg-v-700c",
+      "record_page_path": "records/tyagi2006-zro2-sg-v-700c.html",
+      "source_group": "tyagi2006-zro2-ie060519p",
+      "title": "Tyagi et al. (2006): Z-SG-V 700 °C / 4 h",
+      "doi": "10.1021/ie060519p",
+      "year": 2006,
+      "method": "Z-SG-V calcination at 700 °C",
+      "recipe_label": "Tyagi et al. (2006): Z-SG-V 700 °C / 4 h",
+      "sample_id": "tyagi2006-zro2-sg-v-700c-product",
+      "source_sample_label": "Z-SG-V, 700°C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tyagi2006-zro2-ie060519p",
+            "locator": "Main PDF p. 3,5, Tables1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tyagi2006-zro2-ie060519p",
+          "locator": "Main PDF p. 3,5, Tables1–3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "12% tetragonal; 88% monoclinic (XRD peak-area fractions)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "t111-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 28,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Phase/reflection-specific T(111); not a particle diameter.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at700°C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Z-SG-V 700°C; T(111); K0.9, CuKα1.5405Å; corrected profile width per source",
+          "evidence": [
+            {
+              "source_id": "tyagi2006-zro2-ie060519p",
+              "locator": "Main PDF p. 5, Table2, Z-SG-V T(111) at700°C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 2–3, Experimental Sections 2.1–2.3 and Scheme 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tyagi2006-zro2-sg-v-700c-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "ZrO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tyagi2006-zro2-ie060519p",
+                "locator": "Main PDF p. 3,5, Tables1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "12% tetragonal; 88% monoclinic (XRD peak-area fractions)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tyagi2006-zro2-ie060519p",
+                  "locator": "Main PDF p. 3,5, Tables1–3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "t111-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
               }
             ]
           }
