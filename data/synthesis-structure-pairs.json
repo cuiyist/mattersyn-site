@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 399,
-    "source_groups": 92,
-    "records": 360,
+    "recipe_structure_rows": 416,
+    "source_groups": 95,
+    "records": 377,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -404,6 +404,685 @@
                 "field": "morphology.length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "au-silica-adfm200500603-gold-core::au-silica-adfm200500603-gold-core-product",
+      "record_id": "au-silica-adfm200500603-gold-core",
+      "record_page_path": "records/au-silica-adfm200500603-gold-core.html",
+      "source_group": "au-silica-adfm200500603",
+      "title": "Fan et al. (2006): n-Dodecanethiol-capped gold nanocrystal preparation",
+      "doi": "10.1002/adfm.200500603",
+      "year": 2006,
+      "method": "n-Dodecanethiol-capped gold nanocrystal preparation",
+      "recipe_label": "Fan et al. (2006): n-Dodecanethiol-capped gold nanocrystal preparation",
+      "sample_id": "au-silica-adfm200500603-gold-core-product",
+      "source_sample_label": "n-Dodecanethiol-stabilized gold NCs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au nanocrystals with n-dodecanethiol capping",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 2–4, Gold NC preparation and ca.3nm feed to both film families"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 2–4, Gold NC preparation and ca.3nm feed to both film families",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Monodisperse gold nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 2–4, Gold NC preparation and ca.3nm feed to both film families"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4–5, Experimental, Synthesis of Gold NCs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "au-silica-adfm200500603-gold-core-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "precipitate-state",
+          "composition": {
+            "value": "Au nanocrystals with n-dodecanethiol capping",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 2–4, Gold NC preparation and ca.3nm feed to both film families"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 2–4, Gold NC preparation and ca.3nm feed to both film families"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Monodisperse gold nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 2–4, Gold NC preparation and ca.3nm feed to both film families"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "au-silica-adfm200500603-teos-0h::au-silica-adfm200500603-teos-0h-product",
+      "record_id": "au-silica-adfm200500603-teos-0h",
+      "record_page_path": "records/au-silica-adfm200500603-teos-0h.html",
+      "source_group": "au-silica-adfm200500603",
+      "title": "Fan et al. (2006): TEOS film, no additional aging",
+      "doi": "10.1002/adfm.200500603",
+      "year": 2006,
+      "method": "TEOS film, no additional aging",
+      "recipe_label": "Fan et al. (2006): TEOS film, no additional aging",
+      "sample_id": "au-silica-adfm200500603-teos-0h-product",
+      "source_sample_label": "TEOS film, no additional aging",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au NCs embedded in silica",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 3, Figure2C3"
+          },
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 4, Aging/host-framework comparison"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 3, Figure2C3",
+          "claim": null
+        },
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 4, Aging/host-framework comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ordered fcc gold-NC superlattice mesostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C3"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4, Aging/host-framework comparison"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au/SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 5, Experimental, Gold NC/Silica Superlattice Thin Films"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C aging comparison"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "au-silica-adfm200500603-teos-0h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "spin-state",
+          "composition": {
+            "value": "Au NCs embedded in silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C3"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4, Aging/host-framework comparison"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 3, Figure2C3"
+                },
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 4, Aging/host-framework comparison"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Ordered fcc gold-NC superlattice mesostructure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 3, Figure2C3"
+                },
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 4, Aging/host-framework comparison"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "au-silica-adfm200500603-teos-24h::au-silica-adfm200500603-teos-24h-product",
+      "record_id": "au-silica-adfm200500603-teos-24h",
+      "record_page_path": "records/au-silica-adfm200500603-teos-24h.html",
+      "source_group": "au-silica-adfm200500603",
+      "title": "Fan et al. (2006): TEOS film, 24 h solution aging",
+      "doi": "10.1002/adfm.200500603",
+      "year": 2006,
+      "method": "TEOS film, 24 h solution aging",
+      "recipe_label": "Fan et al. (2006): TEOS film, 24 h solution aging",
+      "sample_id": "au-silica-adfm200500603-teos-24h-product",
+      "source_sample_label": "TEOS film, 24 h solution aging",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au NCs embedded in silica",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 3, Figure2C1"
+          },
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 4, Aging/host-framework comparison"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 3, Figure2C1",
+          "claim": null
+        },
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 4, Aging/host-framework comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Less ordered gold-NC/silica film; higher-order reflections diminished",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C1"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4, Aging/host-framework comparison"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au/SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 5, Experimental, Gold NC/Silica Superlattice Thin Films"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C aging comparison"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "au-silica-adfm200500603-teos-24h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "spin-state",
+          "composition": {
+            "value": "Au NCs embedded in silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C1"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4, Aging/host-framework comparison"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 3, Figure2C1"
+                },
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 4, Aging/host-framework comparison"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Less ordered gold-NC/silica film; higher-order reflections diminished",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 3, Figure2C1"
+                },
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 4, Aging/host-framework comparison"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "au-silica-adfm200500603-teos-5h::au-silica-adfm200500603-teos-5h-product",
+      "record_id": "au-silica-adfm200500603-teos-5h",
+      "record_page_path": "records/au-silica-adfm200500603-teos-5h.html",
+      "source_group": "au-silica-adfm200500603",
+      "title": "Fan et al. (2006): TEOS film, 5 h solution aging",
+      "doi": "10.1002/adfm.200500603",
+      "year": 2006,
+      "method": "TEOS film, 5 h solution aging",
+      "recipe_label": "Fan et al. (2006): TEOS film, 5 h solution aging",
+      "sample_id": "au-silica-adfm200500603-teos-5h-product",
+      "source_sample_label": "TEOS film, 5 h solution aging",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au NCs embedded in silica",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 3, Figure2C2"
+          },
+          {
+            "source_id": "au-silica-adfm200500603",
+            "locator": "Main PDF p. 4, Aging/host-framework comparison"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 3, Figure2C2",
+          "claim": null
+        },
+        {
+          "source_id": "au-silica-adfm200500603",
+          "locator": "Main PDF p. 4, Aging/host-framework comparison",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Gold-NC/silica film with5h aging XRD trace; no numerical order parameter",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C2"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4, Aging/host-framework comparison"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au/SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 5, Experimental, Gold NC/Silica Superlattice Thin Films"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C aging comparison"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "au-silica-adfm200500603-teos-5h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "spin-state",
+          "composition": {
+            "value": "Au NCs embedded in silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 3, Figure2C2"
+              },
+              {
+                "source_id": "au-silica-adfm200500603",
+                "locator": "Main PDF p. 4, Aging/host-framework comparison"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 3, Figure2C2"
+                },
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 4, Aging/host-framework comparison"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Gold-NC/silica film with5h aging XRD trace; no numerical order parameter",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 3, Figure2C2"
+                },
+                {
+                  "source_id": "au-silica-adfm200500603",
+                  "locator": "Main PDF p. 4, Aging/host-framework comparison"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -6254,6 +6933,1680 @@
                 "measurement_id": "barrier-thickness",
                 "property": "reported_cds_interwell_barrier_thickness",
                 "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-hybrid-1p5::cds-polyurethane-la062210g-hybrid-1p5-product",
+      "record_id": "cds-polyurethane-la062210g-hybrid-1p5",
+      "record_page_path": "records/cds-polyurethane-la062210g-hybrid-1p5.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): PU–CdS hybrid, 1.5 wt% CdS",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Stepwise polyurethane grafting",
+      "recipe_label": "Chen et al. (2007): PU–CdS hybrid, 1.5 wt% CdS",
+      "sample_id": "cds-polyurethane-la062210g-hybrid-1p5-product",
+      "source_sample_label": "PU–CdS hybrid containing 1.5 wt% CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PU hybrid",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "hybrid-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": true,
+            "qualifier": "Authors infer retained CdS size from absorption near 400 nm; not a TEM measurement of the hybrid.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figure7 and hybrid UV–vis discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis interpretation",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 4, Figure7 and hybrid UV–vis discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS nanocrystals in polyurethane",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Polyurethane",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-hybrid-1p5-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "polymerize-state",
+          "composition": {
+            "value": "CdS/PU hybrid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "hybrid-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-hybrid-3::cds-polyurethane-la062210g-hybrid-3-product",
+      "record_id": "cds-polyurethane-la062210g-hybrid-3",
+      "record_page_path": "records/cds-polyurethane-la062210g-hybrid-3.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): PU–CdS hybrid, 3.0 wt% CdS",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Stepwise polyurethane grafting",
+      "recipe_label": "Chen et al. (2007): PU–CdS hybrid, 3.0 wt% CdS",
+      "sample_id": "cds-polyurethane-la062210g-hybrid-3-product",
+      "source_sample_label": "PU–CdS hybrid containing 3.0 wt% CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/PU hybrid",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "hybrid-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": true,
+            "qualifier": "Authors infer retained CdS size from absorption near 400 nm; not a TEM measurement of the hybrid.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figure7 and hybrid UV–vis discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis interpretation",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 4, Figure7 and hybrid UV–vis discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS nanocrystals in polyurethane",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Polyurethane",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-hybrid-3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "polymerize-state",
+          "composition": {
+            "value": "CdS/PU hybrid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of CdS Nanocrystal–PU Nanocomposite Hybrids"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 4, Figures7–8 and hybrid optical results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "hybrid-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-ligand-0p5::cds-polyurethane-la062210g-ligand-0p5-product",
+      "record_id": "cds-polyurethane-la062210g-ligand-0p5",
+      "record_page_path": "records/cds-polyurethane-la062210g-ligand-0p5.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): Ligand series: ME/Cd2+ = 0.5",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): Ligand series: ME/Cd2+ = 0.5",
+      "sample_id": "cds-polyurethane-la062210g-ligand-0p5-product",
+      "source_sample_label": "Ligand series: ME/Cd2+ = 0.5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Figure1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Figure1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "brus-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3.88,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Literal text assignment; retained despite contrary ligand-concentration trend narrative.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Ligand-series Brus-model size paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis / Brus model",
+          "conditions": "Model-derived diameter; no independent calculation or measured-coordinate asset.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Ligand-series Brus-model size paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-ligand-0p5-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "brus-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-ligand-1::cds-polyurethane-la062210g-ligand-1-product",
+      "record_id": "cds-polyurethane-la062210g-ligand-1",
+      "record_page_path": "records/cds-polyurethane-la062210g-ligand-1.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): Ligand series: ME/Cd2+ = 1",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): Ligand series: ME/Cd2+ = 1",
+      "sample_id": "cds-polyurethane-la062210g-ligand-1-product",
+      "source_sample_label": "Ligand series: ME/Cd2+ = 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Figure1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Figure1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "brus-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 4.34,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Literal text assignment; retained despite contrary ligand-concentration trend narrative.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Ligand-series Brus-model size paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis / Brus model",
+          "conditions": "Model-derived diameter; no independent calculation or measured-coordinate asset.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Ligand-series Brus-model size paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-ligand-1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "brus-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-ligand-2::cds-polyurethane-la062210g-ligand-2-product",
+      "record_id": "cds-polyurethane-la062210g-ligand-2",
+      "record_page_path": "records/cds-polyurethane-la062210g-ligand-2.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): Ligand series: ME/Cd2+ = 2",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): Ligand series: ME/Cd2+ = 2",
+      "sample_id": "cds-polyurethane-la062210g-ligand-2-product",
+      "source_sample_label": "Ligand series: ME/Cd2+ = 2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Figure1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Figure1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic and hexagonal CdS contributions",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "brus-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 5.02,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "Literal text assignment; retained despite contrary ligand-concentration trend narrative.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Ligand-series Brus-model size paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis / Brus model",
+          "conditions": "Model-derived diameter; no independent calculation or measured-coordinate asset.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Ligand-series Brus-model size paragraph"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Reported mean TEM size; no distribution uncertainty specified.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure2 and adjacent TEM paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL JEM-2100; DMF-dispersed sample;100 nm main and 20 nm inset scale bars.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Figure2 and adjacent TEM paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-ligand-2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic and hexagonal CdS contributions",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cds-polyurethane-la062210g",
+                  "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+                },
+                {
+                  "source_id": "cds-polyurethane-la062210g",
+                  "locator": "Main PDF p. 2, Figure1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "brus-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              },
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-no-me::cds-polyurethane-la062210g-no-me-product",
+      "record_id": "cds-polyurethane-la062210g-no-me",
+      "record_page_path": "records/cds-polyurethane-la062210g-no-me.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): CdS prepared without ME",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): CdS prepared without ME",
+      "sample_id": "cds-polyurethane-la062210g-no-me-product",
+      "source_sample_label": "CdS prepared without ME",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 3, Figures4–5"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 3, Figures4–5",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic and hexagonal CdS contributions",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figures4–5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figures4–5"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-no-me-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figures4–5"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic and hexagonal CdS contributions",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cds-polyurethane-la062210g",
+                  "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+                },
+                {
+                  "source_id": "cds-polyurethane-la062210g",
+                  "locator": "Main PDF p. 3, Figures4–5"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-water-0p2::cds-polyurethane-la062210g-water-0p2-product",
+      "record_id": "cds-polyurethane-la062210g-water-0p2",
+      "record_page_path": "records/cds-polyurethane-la062210g-water-0p2.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): Solvent series: H2O/DMF = 0.2 by mass",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): Solvent series: H2O/DMF = 0.2 by mass",
+      "sample_id": "cds-polyurethane-la062210g-water-0p2-product",
+      "source_sample_label": "Solvent series: H2O/DMF = 0.2 by mass",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 3, Figure3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 3, Figure3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "brus-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3.71,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "ME amount/ratio is not given in this solvent-series caption; do not equate this sample with the ligand-series 0.2 mass-ratio specimen.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3 and solvent-ratio results paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis / Brus model",
+          "conditions": "Perkin-Elmer Lambda 900; samples diluted60 times with DMF,300–500 nm scan.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Figure3 and solvent-ratio results paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-water-0p2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "brus-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-water-0p45::cds-polyurethane-la062210g-water-0p45-product",
+      "record_id": "cds-polyurethane-la062210g-water-0p45",
+      "record_page_path": "records/cds-polyurethane-la062210g-water-0p45.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): Solvent series: H2O/DMF = 0.45 by mass",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): Solvent series: H2O/DMF = 0.45 by mass",
+      "sample_id": "cds-polyurethane-la062210g-water-0p45-product",
+      "source_sample_label": "Solvent series: H2O/DMF = 0.45 by mass",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 3, Figure3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 3, Figure3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "brus-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3.98,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "ME amount/ratio is not given in this solvent-series caption; do not equate this sample with the ligand-series 0.2 mass-ratio specimen.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3 and solvent-ratio results paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis / Brus model",
+          "conditions": "Perkin-Elmer Lambda 900; samples diluted60 times with DMF,300–500 nm scan.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Figure3 and solvent-ratio results paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-water-0p45-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "brus-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cds-polyurethane-la062210g-water-0p9::cds-polyurethane-la062210g-water-0p9-product",
+      "record_id": "cds-polyurethane-la062210g-water-0p9",
+      "record_page_path": "records/cds-polyurethane-la062210g-water-0p9.html",
+      "source_group": "cds-polyurethane-la062210g",
+      "title": "Chen et al. (2007): Solvent series: H2O/DMF = 0.9 by mass",
+      "doi": "10.1021/la062210g",
+      "year": 2007,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Chen et al. (2007): Solvent series: H2O/DMF = 0.9 by mass",
+      "sample_id": "cds-polyurethane-la062210g-water-0p9-product",
+      "source_sample_label": "Solvent series: H2O/DMF = 0.9 by mass",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+          },
+          {
+            "source_id": "cds-polyurethane-la062210g",
+            "locator": "Main PDF p. 3, Figure3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "cds-polyurethane-la062210g",
+          "locator": "Main PDF p. 3, Figure3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "brus-size",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 4.34,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "ME amount/ratio is not given in this solvent-series caption; do not equate this sample with the ligand-series 0.2 mass-ratio specimen.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3 and solvent-ratio results paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "UV–vis / Brus model",
+          "conditions": "Perkin-Elmer Lambda 900; samples diluted60 times with DMF,300–500 nm scan.",
+          "evidence": [
+            {
+              "source_id": "cds-polyurethane-la062210g",
+              "locator": "Main PDF p. 3, Figure3 and solvent-ratio results paragraph"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds-polyurethane-la062210g-water-0p9-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dmf-wash-state",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 2, Synthesis of Hydroxyl-Coated CdS Nanocrystals"
+              },
+              {
+                "source_id": "cds-polyurethane-la062210g",
+                "locator": "Main PDF p. 3, Figure3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "brus-size",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
               }
             ]
           }
@@ -63081,6 +65434,914 @@
                 "measurement_id": "inp-protocol-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tio2-b200053a-s1::tio2-b200053a-s1-product",
+      "record_id": "tio2-b200053a-s1",
+      "record_page_path": "records/tio2-b200053a-s1.html",
+      "source_group": "tio2-b200053a",
+      "title": "Wilson et al. (2002): S1 anatase colloid",
+      "doi": "10.1039/b200053a",
+      "year": 2002,
+      "method": "Acid-peptized hydrolysis",
+      "recipe_label": "Wilson et al. (2002): S1 anatase colloid",
+      "sample_id": "tio2-b200053a-s1-product",
+      "source_sample_label": "S1 colloid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tio2-b200053a",
+            "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1"
+          }
+        ],
+        "note": "Source product designation, not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tio2-b200053a",
+          "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Irregular nanocrystallite shapes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 3.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Table 2, S1 row; Scherrer equation on p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Dried analytical specimen; source-labeled Table 2 row at 29.58° 2θ. Distinct from TEM particles; no new numerical curve extraction.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Table 2, S1 row; Scherrer equation on p.2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 3,
+            "maximum": 35,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Figure 2 and S1 TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "S1 TEM distribution, irregular shapes; 3–6 nm centered-distribution interpretation is not substituted for this range.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Figure 2 and S1 TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2, Experimental and Table 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tio2-b200053a-s1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-colloid-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1"
+              }
+            ],
+            "note": "Source product designation, not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Irregular nanocrystallite shapes",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tio2-b200053a-s2::tio2-b200053a-s2-product",
+      "record_id": "tio2-b200053a-s2",
+      "record_page_path": "records/tio2-b200053a-s2.html",
+      "source_group": "tio2-b200053a",
+      "title": "Wilson et al. (2002): S2 anatase colloid",
+      "doi": "10.1039/b200053a",
+      "year": 2002,
+      "method": "Acid-peptized hydrolysis and convection hydrothermal treatment",
+      "recipe_label": "Wilson et al. (2002): S2 anatase colloid",
+      "sample_id": "tio2-b200053a-s2-product",
+      "source_sample_label": "S2 colloid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tio2-b200053a",
+            "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2"
+          }
+        ],
+        "note": "Source product designation, not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tio2-b200053a",
+          "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "More regular crystalline particles with narrower size distribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Table 2, S2 row; Scherrer equation on p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Dried analytical specimen; source-labeled Table 2 row at 29.58° 2θ. Distinct from TEM particles; no new numerical curve extraction.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Table 2, S2 row; Scherrer equation on p.2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 10,
+            "maximum": 15,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Figure 3 and S2 TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "S2 TEM distribution; source says approximately 10–15 nm.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Figure 3 and S2 TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2, Experimental and Table 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tio2-b200053a-s2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "convection-stand-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2"
+              }
+            ],
+            "note": "Source product designation, not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "More regular crystalline particles with narrower size distribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tio2-b200053a-s3::tio2-b200053a-s3-product",
+      "record_id": "tio2-b200053a-s3",
+      "record_page_path": "records/tio2-b200053a-s3.html",
+      "source_group": "tio2-b200053a",
+      "title": "Wilson et al. (2002): S3 anatase colloid",
+      "doi": "10.1039/b200053a",
+      "year": 2002,
+      "method": "Acid-peptized hydrolysis and microwave hydrothermal treatment",
+      "recipe_label": "Wilson et al. (2002): S3 anatase colloid",
+      "sample_id": "tio2-b200053a-s3-product",
+      "source_sample_label": "S3 colloid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tio2-b200053a",
+            "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3"
+          }
+        ],
+        "note": "Source product designation, not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tio2-b200053a",
+          "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Small nanocrystallites with narrow size distribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 4.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Table 2, S3 row; Scherrer equation on p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Dried analytical specimen; source-labeled Table 2 row at 29.58° 2θ. Distinct from TEM particles; no new numerical curve extraction.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Table 2, S3 row; Scherrer equation on p.2"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Figure 4 caption and microwave TEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 4 caption explicitly S3; poor contrast due to support film. Table 1/figure duration conflict remains explicit; no S4 TEM mean borrowed.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Figure 4 caption and microwave TEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2, Experimental and Table 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tio2-b200053a-s3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "microwave-treat-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3"
+              }
+            ],
+            "note": "Source product designation, not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Small nanocrystallites with narrow size distribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tio2-b200053a-s4::tio2-b200053a-s4-product",
+      "record_id": "tio2-b200053a-s4",
+      "record_page_path": "records/tio2-b200053a-s4.html",
+      "source_group": "tio2-b200053a",
+      "title": "Wilson et al. (2002): S4 anatase colloid",
+      "doi": "10.1039/b200053a",
+      "year": 2002,
+      "method": "Acid-peptized hydrolysis and microwave hydrothermal treatment",
+      "recipe_label": "Wilson et al. (2002): S4 anatase colloid",
+      "sample_id": "tio2-b200053a-s4-product",
+      "source_sample_label": "S4 colloid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tio2-b200053a",
+            "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4"
+          }
+        ],
+        "note": "Source product designation, not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tio2-b200053a",
+          "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Small nanocrystallites with narrow size distribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "xrd-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 4.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "author_derived",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 3, Table 2, S4 row; Scherrer equation on p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD / Scherrer",
+          "conditions": "Dried analytical specimen; source-labeled Table 2 row at 29.58° 2θ. Distinct from TEM particles; no new numerical curve extraction.",
+          "evidence": [
+            {
+              "source_id": "tio2-b200053a",
+              "locator": "Supplied main PDF p. 3, Table 2, S4 row; Scherrer equation on p.2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2, Experimental and Table 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tio2-b200053a-s4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "microwave-treat-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tio2-b200053a",
+                "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4"
+              }
+            ],
+            "note": "Source product designation, not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase; small brookite contribution discussed for the series; no quantitative purity inferred",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Small nanocrystallites with narrow size distribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tio2-b200053a",
+                  "locator": "Supplied main PDF p. 2–4, Results; Tables 1–3; sample S4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "xrd-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
               }
             ]
           }
