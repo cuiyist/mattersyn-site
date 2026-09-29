@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 100,
+  "material_families": 105,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -20,6 +20,8 @@
     "Borosilicate SSZ-48; source does not give a complete empirical formula",
     "C12-amine silver bismuth bromide",
     "C12-amine silver bismuth chloride",
+    "CIGS/ZnS",
+    "CIS/ZnS",
     "CaCO3",
     "CdE (E = S, Se, Te)",
     "CdS",
@@ -92,6 +94,9 @@
     "SnO2",
     "SnSe",
     "TiO2",
+    "ZCIS/ZnS",
+    "Zn0.95Mg0.05O",
+    "Zn0.9Mg0.1O",
     "ZnAl2O4",
     "ZnGa2O4",
     "ZnO",
@@ -104,22 +109,22 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 98,
+  "contributing_papers": 100,
   "source_coverage": {
-    "total_contributing_papers": 98,
-    "reviewed_contributing_papers": 98,
+    "total_contributing_papers": 100,
+    "reviewed_contributing_papers": 100,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 357,
+  "synthesis_structure_pairs": 365,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 354,
+  "partial_pairs": 362,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1200,
+  "all_records": 1241,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -37112,6 +37117,2886 @@
                   {
                     "source_id": "iwasaki1998-tio2-a1006660209934",
                     "locator": "Supplied main PDF p. 1, p. 1769, Table I row 9"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-cigs::kim2015-znmgo-cm503756q-cigs-product",
+      "record_id": "kim2015-znmgo-cm503756q-cigs",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-cigs.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): CIGS/ZnS core/shell QDs",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Core growth and two-stage ZnS shelling",
+      "recipe_label": "Kim et al. (2015): CIGS/ZnS core/shell QDs",
+      "sample_id": "kim2015-znmgo-cm503756q-cigs-product",
+      "source_sample_label": "CIGS/ZnS QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CIGS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "CIGS/ZnS Figure1d mean",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Only CIGS; similar-size statement does not transfer the exact mean to CIS/ZCIS.",
+          "evidence": [
+            {
+              "source_id": "kim2015-znmgo-cm503756q",
+              "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CIGS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-cigs-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CIGS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cu",
+            "ga",
+            "in",
+            "oa-shell1",
+            "oa-shell2",
+            "ode-core",
+            "ode-shell1",
+            "ode-shell2",
+            "ott",
+            "zn-shell1",
+            "zn-shell2"
+          ],
+          "fields": [
+            {
+              "material_id": "cu",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "in",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-core",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ott",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell1",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell1",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell1",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell2",
+              "pointer": "/materials/7/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell2",
+              "pointer": "/materials/8/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell2",
+              "pointer": "/materials/9/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ga",
+              "pointer": "/materials/10/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-cis::kim2015-znmgo-cm503756q-cis-product",
+      "record_id": "kim2015-znmgo-cm503756q-cis",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-cis.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): CIS/ZnS core/shell QDs",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Core growth and two-stage ZnS shelling",
+      "recipe_label": "Kim et al. (2015): CIS/ZnS core/shell QDs",
+      "sample_id": "kim2015-znmgo-cm503756q-cis-product",
+      "source_sample_label": "CIS/ZnS QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CIS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-cis-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cu",
+            "in",
+            "oa-shell1",
+            "oa-shell2",
+            "ode-core",
+            "ode-shell1",
+            "ode-shell2",
+            "ott",
+            "zn-shell1",
+            "zn-shell2"
+          ],
+          "fields": [
+            {
+              "material_id": "cu",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "in",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-core",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ott",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell1",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell1",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell1",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell2",
+              "pointer": "/materials/7/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell2",
+              "pointer": "/materials/8/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell2",
+              "pointer": "/materials/9/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-x0::kim2015-znmgo-cm503756q-x0-product",
+      "record_id": "kim2015-znmgo-cm503756q-x0",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-x0.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): ZnO nanoparticles",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Kim et al. (2015): ZnO nanoparticles",
+      "sample_id": "kim2015-znmgo-cm503756q-x0-product",
+      "source_sample_label": "ZnO NPs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure2d ZnO or visibleFigure2e Zn0.9Mg0.1O; no x=0.05 size assigned.",
+          "evidence": [
+            {
+              "source_id": "kim2015-znmgo-cm503756q",
+              "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-x0-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nearly spherical nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "dmso",
+            "ethanol-feed",
+            "tmah"
+          ],
+          "fields": [
+            {
+              "material_id": "dmso",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tmah",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol-feed",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmso",
+              "stock_id": "cation-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tmah",
+              "stock_id": "base-stock",
+              "pointer": "/stocks/1/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol-feed",
+              "stock_id": "base-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-x005::kim2015-znmgo-cm503756q-x005-product",
+      "record_id": "kim2015-znmgo-cm503756q-x005",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-x005.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): Zn0.95Mg0.05O nanoparticles",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Kim et al. (2015): Zn0.95Mg0.05O nanoparticles",
+      "sample_id": "kim2015-znmgo-cm503756q-x005-product",
+      "source_sample_label": "Zn0.95Mg0.05O NPs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn0.95Mg0.05O",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Zn0.95Mg0.05O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-x005-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Zn0.95Mg0.05O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "dmso",
+            "ethanol-feed",
+            "magnesium",
+            "tmah",
+            "zinc"
+          ],
+          "fields": [
+            {
+              "material_id": "zinc",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.85,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "magnesium",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.15,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmso",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tmah",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol-feed",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc",
+              "stock_id": "cation-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2.85,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "magnesium",
+              "stock_id": "cation-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.15,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmso",
+              "stock_id": "cation-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tmah",
+              "stock_id": "base-stock",
+              "pointer": "/stocks/1/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol-feed",
+              "stock_id": "base-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-x01::kim2015-znmgo-cm503756q-x01-product",
+      "record_id": "kim2015-znmgo-cm503756q-x01",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-x01.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): Zn0.9Mg0.1O nanoparticles",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Kim et al. (2015): Zn0.9Mg0.1O nanoparticles",
+      "sample_id": "kim2015-znmgo-cm503756q-x01-product",
+      "source_sample_label": "Zn0.9Mg0.1O NPs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn0.9Mg0.1O",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure2d ZnO or visibleFigure2e Zn0.9Mg0.1O; no x=0.05 size assigned.",
+          "evidence": [
+            {
+              "source_id": "kim2015-znmgo-cm503756q",
+              "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Zn0.9Mg0.1O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-x01-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Zn0.9Mg0.1O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nearly spherical nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "dmso",
+            "ethanol-feed",
+            "tmah"
+          ],
+          "fields": [
+            {
+              "material_id": "dmso",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tmah",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol-feed",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "dmso",
+              "stock_id": "cation-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tmah",
+              "stock_id": "base-stock",
+              "pointer": "/stocks/1/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol-feed",
+              "stock_id": "base-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6–7, Experimental, ZnMgO precipitation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-zcis::kim2015-znmgo-cm503756q-zcis-product",
+      "record_id": "kim2015-znmgo-cm503756q-zcis",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-zcis.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): ZCIS/ZnS core/shell QDs",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Core growth and two-stage ZnS shelling",
+      "recipe_label": "Kim et al. (2015): ZCIS/ZnS core/shell QDs",
+      "sample_id": "kim2015-znmgo-cm503756q-zcis-product",
+      "source_sample_label": "ZCIS/ZnS QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZCIS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZCIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-zcis-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "ZCIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cu",
+            "in",
+            "oa-shell1",
+            "oa-shell2",
+            "ode-core",
+            "ode-shell1",
+            "ode-shell2",
+            "ott",
+            "zn-core",
+            "zn-shell1",
+            "zn-shell2"
+          ],
+          "fields": [
+            {
+              "material_id": "cu",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.125,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "in",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-core",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ott",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell1",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell1",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell1",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell2",
+              "pointer": "/materials/7/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell2",
+              "pointer": "/materials/8/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell2",
+              "pointer": "/materials/9/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-core",
+              "pointer": "/materials/10/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.063,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell1",
+              "stock_id": "shell1-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zn-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oa-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode-shell2",
+              "stock_id": "shell2-stock",
+              "pointer": "/stocks/1/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "kim2015-znmgo-cm503756q",
+                    "locator": "Supplied main PDF p. 6, Experimental, QD synthesis"
                   }
                 ],
                 "derivation": null
@@ -98556,6 +101441,690 @@
                   {
                     "source_id": "wang2001-cds-sonochemical",
                     "locator": "Supplied PDF p. 1, p. 344, typical procedure, bottom left and upper right columns"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "wang2005-lss-ag::wang2005-lss-ag-product",
+      "record_id": "wang2005-lss-ag",
+      "record_page_path": "records/wang2005-lss-ag.html",
+      "source_group": "wang2005-lss-nature03968",
+      "title": "Wang et al. (2005): Ag noble-metal LSS, Figure 1a 90 °C",
+      "doi": "10.1038/nature03968",
+      "year": 2005,
+      "method": "Ag noble-metal LSS, Figure 1a 90 °C",
+      "recipe_label": "Wang et al. (2005): Ag noble-metal LSS, Figure 1a 90 °C",
+      "sample_id": "wang2005-lss-ag-product",
+      "source_sample_label": "Ag 90 °C TEM example",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang2005-lss-nature03968",
+            "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang2005-lss-nature03968",
+          "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Face-centred cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_size-0",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source ±0.3 nm; uncertainty type not specified. Ag at 90 °C",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 2, Figure 1a caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Ag at 90 °C",
+          "evidence": [
+            {
+              "source_id": "wang2005-lss-nature03968",
+              "locator": "Main PDF p. 2, Figure 1a caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang2005-lss-ag-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "collect-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Face-centred cubic Ag",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_size-0",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ethanol",
+            "linoleic-acid",
+            "metal-salt-ag",
+            "sodium-linoleate"
+          ],
+          "fields": [
+            {
+              "material_id": "metal-salt-ag",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Typical-method example charge; no hydration or exact chloride formula inferred.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sodium-linoleate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "linoleic-acid",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "metal-salt-ag",
+              "stock_id": "aqueous-metal-feed",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Typical-method example charge; no hydration or exact chloride formula inferred.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "wang2005-lss-au::wang2005-lss-au-product",
+      "record_id": "wang2005-lss-au",
+      "record_page_path": "records/wang2005-lss-au.html",
+      "source_group": "wang2005-lss-nature03968",
+      "title": "Wang et al. (2005): Au noble-metal LSS, Figure 1a 50 °C",
+      "doi": "10.1038/nature03968",
+      "year": 2005,
+      "method": "Au noble-metal LSS, Figure 1a 50 °C",
+      "recipe_label": "Wang et al. (2005): Au noble-metal LSS, Figure 1a 50 °C",
+      "sample_id": "wang2005-lss-au-product",
+      "source_sample_label": "Au 50 °C TEM example",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang2005-lss-nature03968",
+            "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang2005-lss-nature03968",
+          "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Face-centred cubic Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_size-0",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source ±0.5 nm; uncertainty type not specified. Au at 50 °C",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 2, Figure 1a caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Au at 50 °C",
+          "evidence": [
+            {
+              "source_id": "wang2005-lss-nature03968",
+              "locator": "Main PDF p. 2, Figure 1a caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang2005-lss-au-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "collect-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Face-centred cubic Au",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_size-0",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ethanol",
+            "linoleic-acid",
+            "metal-salt-au",
+            "sodium-linoleate"
+          ],
+          "fields": [
+            {
+              "material_id": "metal-salt-au",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Typical-method example charge; no hydration or exact chloride formula inferred.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sodium-linoleate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "linoleic-acid",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "metal-salt-au",
+              "stock_id": "aqueous-metal-feed",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "Typical-method example charge; no hydration or exact chloride formula inferred.",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "wang2005-lss-nature03968",
+                    "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
                   }
                 ],
                 "derivation": null

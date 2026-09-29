@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 357,
-    "source_groups": 78,
-    "records": 318,
+    "recipe_structure_rows": 365,
+    "source_groups": 80,
+    "records": 326,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -24769,6 +24769,1016 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-cigs::kim2015-znmgo-cm503756q-cigs-product",
+      "record_id": "kim2015-znmgo-cm503756q-cigs",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-cigs.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): CIGS/ZnS core/shell QDs",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Core growth and two-stage ZnS shelling",
+      "recipe_label": "Kim et al. (2015): CIGS/ZnS core/shell QDs",
+      "sample_id": "kim2015-znmgo-cm503756q-cigs-product",
+      "source_sample_label": "CIGS/ZnS QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CIGS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "CIGS/ZnS Figure1d mean",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Only CIGS; similar-size statement does not transfer the exact mean to CIS/ZCIS.",
+          "evidence": [
+            {
+              "source_id": "kim2015-znmgo-cm503756q",
+              "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CIGS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-cigs-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CIGS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-cis::kim2015-znmgo-cm503756q-cis-product",
+      "record_id": "kim2015-znmgo-cm503756q-cis",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-cis.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): CIS/ZnS core/shell QDs",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Core growth and two-stage ZnS shelling",
+      "recipe_label": "Kim et al. (2015): CIS/ZnS core/shell QDs",
+      "sample_id": "kim2015-znmgo-cm503756q-cis-product",
+      "source_sample_label": "CIS/ZnS QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CIS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-cis-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-x0::kim2015-znmgo-cm503756q-x0-product",
+      "record_id": "kim2015-znmgo-cm503756q-x0",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-x0.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): ZnO nanoparticles",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Kim et al. (2015): ZnO nanoparticles",
+      "sample_id": "kim2015-znmgo-cm503756q-x0-product",
+      "source_sample_label": "ZnO NPs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure2d ZnO or visibleFigure2e Zn0.9Mg0.1O; no x=0.05 size assigned.",
+          "evidence": [
+            {
+              "source_id": "kim2015-znmgo-cm503756q",
+              "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-x0-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nearly spherical nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-x005::kim2015-znmgo-cm503756q-x005-product",
+      "record_id": "kim2015-znmgo-cm503756q-x005",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-x005.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): Zn0.95Mg0.05O nanoparticles",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Kim et al. (2015): Zn0.95Mg0.05O nanoparticles",
+      "sample_id": "kim2015-znmgo-cm503756q-x005-product",
+      "source_sample_label": "Zn0.95Mg0.05O NPs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn0.95Mg0.05O",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Zn0.95Mg0.05O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-x005-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Zn0.95Mg0.05O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-x01::kim2015-znmgo-cm503756q-x01-product",
+      "record_id": "kim2015-znmgo-cm503756q-x01",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-x01.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): Zn0.9Mg0.1O nanoparticles",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Room-temperature solution precipitation",
+      "recipe_label": "Kim et al. (2015): Zn0.9Mg0.1O nanoparticles",
+      "sample_id": "kim2015-znmgo-cm503756q-x01-product",
+      "source_sample_label": "Zn0.9Mg0.1O NPs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Zn0.9Mg0.1O",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure2d ZnO or visibleFigure2e Zn0.9Mg0.1O; no x=0.05 size assigned.",
+          "evidence": [
+            {
+              "source_id": "kim2015-znmgo-cm503756q",
+              "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Zn0.9Mg0.1O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-x01-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "Zn0.9Mg0.1O",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type ZnO structure; no phase-separated cubic MgO observed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nearly spherical nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, Figure2 and ZnMgO structure/optical discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kim2015-znmgo-cm503756q-zcis::kim2015-znmgo-cm503756q-zcis-product",
+      "record_id": "kim2015-znmgo-cm503756q-zcis",
+      "record_page_path": "records/kim2015-znmgo-cm503756q-zcis.html",
+      "source_group": "kim2015-znmgo-cm503756q",
+      "title": "Kim et al. (2015): ZCIS/ZnS core/shell QDs",
+      "doi": "10.1021/cm503756q",
+      "year": 2015,
+      "method": "Core growth and two-stage ZnS shelling",
+      "recipe_label": "Kim et al. (2015): ZCIS/ZnS core/shell QDs",
+      "sample_id": "kim2015-znmgo-cm503756q-zcis-product",
+      "source_sample_label": "ZCIS/ZnS QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZCIS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2015-znmgo-cm503756q",
+            "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+          }
+        ],
+        "note": "Source material designation; nominal alloy composition is not an elemental assay."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2015-znmgo-cm503756q",
+          "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZCIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 6, Conclusion and Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2015-znmgo-cm503756q-zcis-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "ZCIS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2015-znmgo-cm503756q",
+                "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+              }
+            ],
+            "note": "Source material designation; nominal alloy composition is not an elemental assay."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2015-znmgo-cm503756q",
+                  "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -62238,6 +63248,406 @@
               {
                 "measurement_id": "tem-particle-size",
                 "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang2005-lss-ag::wang2005-lss-ag-product",
+      "record_id": "wang2005-lss-ag",
+      "record_page_path": "records/wang2005-lss-ag.html",
+      "source_group": "wang2005-lss-nature03968",
+      "title": "Wang et al. (2005): Ag noble-metal LSS, Figure 1a 90 °C",
+      "doi": "10.1038/nature03968",
+      "year": 2005,
+      "method": "Ag noble-metal LSS, Figure 1a 90 °C",
+      "recipe_label": "Wang et al. (2005): Ag noble-metal LSS, Figure 1a 90 °C",
+      "sample_id": "wang2005-lss-ag-product",
+      "source_sample_label": "Ag 90 °C TEM example",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang2005-lss-nature03968",
+            "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang2005-lss-nature03968",
+          "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Face-centred cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_size-0",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source ±0.3 nm; uncertainty type not specified. Ag at 90 °C",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 2, Figure 1a caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Ag at 90 °C",
+          "evidence": [
+            {
+              "source_id": "wang2005-lss-nature03968",
+              "locator": "Main PDF p. 2, Figure 1a caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang2005-lss-ag-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "collect-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Face-centred cubic Ag",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_size-0",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "wang2005-lss-au::wang2005-lss-au-product",
+      "record_id": "wang2005-lss-au",
+      "record_page_path": "records/wang2005-lss-au.html",
+      "source_group": "wang2005-lss-nature03968",
+      "title": "Wang et al. (2005): Au noble-metal LSS, Figure 1a 50 °C",
+      "doi": "10.1038/nature03968",
+      "year": 2005,
+      "method": "Au noble-metal LSS, Figure 1a 50 °C",
+      "recipe_label": "Wang et al. (2005): Au noble-metal LSS, Figure 1a 50 °C",
+      "sample_id": "wang2005-lss-au-product",
+      "source_sample_label": "Au 50 °C TEM example",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "wang2005-lss-nature03968",
+            "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "wang2005-lss-nature03968",
+          "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Face-centred cubic Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_size-0",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source ±0.5 nm; uncertainty type not specified. Au at 50 °C",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 2, Figure 1a caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Au at 50 °C",
+          "evidence": [
+            {
+              "source_id": "wang2005-lss-nature03968",
+              "locator": "Main PDF p. 2, Figure 1a caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1, Typical noble-metal synthesis and LSS mechanism"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "wang2005-lss-au-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "collect-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "wang2005-lss-nature03968",
+                "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Face-centred cubic Au",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Round with smooth surfaces; ordered two-dimensional TEM-grid arrays",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "wang2005-lss-nature03968",
+                  "locator": "Main PDF p. 1–2, Noble-metal TEM/HRTEM/EDS/XRD discussion and Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_size-0",
+                "property": "particle_size",
                 "field": "morphology.dimensions"
               }
             ]
