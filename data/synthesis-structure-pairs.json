@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 439,
-    "source_groups": 103,
-    "records": 400,
+    "recipe_structure_rows": 443,
+    "source_groups": 105,
+    "records": 404,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -48267,6 +48267,168 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "que2001-nd2o3-s003390100786-oxide::que2001-nd2o3-s003390100786-oxide-product",
+      "record_id": "que2001-nd2o3-s003390100786-oxide",
+      "record_page_path": "records/que2001-nd2o3-s003390100786-oxide.html",
+      "source_group": "que2001-nd2o3-s003390100786",
+      "title": "Que et al. (2001): microemulsion-derived Nd2O3",
+      "doi": "10.1007/s003390100786",
+      "year": 2001,
+      "method": "Inverse microemulsion precipitation followed by oxalate calcination",
+      "recipe_label": "Que et al. (2001): microemulsion-derived Nd2O3",
+      "sample_id": "que2001-nd2o3-s003390100786-oxide-product",
+      "source_sample_label": "Microemulsion-derived neodymium oxide nanoparticles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Nd2O3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "que2001-nd2o3-s003390100786",
+            "locator": "Main PDF p. 2, Results and discussion; Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "que2001-nd2o3-s003390100786",
+          "locator": "Main PDF p. 2, Results and discussion; Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Nanocrystalline; crystal polymorph not assigned",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "que2001-nd2o3-s003390100786",
+                "locator": "Main PDF p. 2, Results and discussion; Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Needle-like particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "que2001-nd2o3-s003390100786",
+                "locator": "Main PDF p. 2, Results and discussion; Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nd2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "que2001-nd2o3-s003390100786",
+                "locator": "Main PDF p. 2, Experimental procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "que2001-nd2o3-s003390100786-oxide-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "Nd2O3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "que2001-nd2o3-s003390100786",
+                "locator": "Main PDF p. 2, Results and discussion; Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Nanocrystalline; crystal polymorph not assigned",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "que2001-nd2o3-s003390100786",
+                  "locator": "Main PDF p. 2, Results and discussion; Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Needle-like particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "que2001-nd2o3-s003390100786",
+                  "locator": "Main PDF p. 2, Results and discussion; Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "cusb-1-1-sola-190c::cusb-1-1-sola-190c-map-observation",
       "record_id": "cusb-1-1-sola-190c",
       "record_page_path": "records/cusb-1-1-sola-190c.html",
@@ -88244,6 +88406,634 @@
                 "field": "morphology.dimensions"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu2013-tio2-ja401334j-coloured-film::zhu2013-tio2-ja401334j-coloured-film-product",
+      "record_id": "zhu2013-tio2-ja401334j-coloured-film",
+      "record_page_path": "records/zhu2013-tio2-ja401334j-coloured-film.html",
+      "source_group": "zhu2013-tio2-ja401334j",
+      "title": "Zhu et al. (2013): Coloured TiO2 film on titanium foil",
+      "doi": "10.1021/ja401334j",
+      "year": 2013,
+      "method": "Source-scoped titania preparation",
+      "recipe_label": "Zhu et al. (2013): Coloured TiO2 film on titanium foil",
+      "sample_id": "zhu2013-tio2-ja401334j-coloured-film-product",
+      "source_sample_label": "Green TiO2 film on Ti foil",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2013-tio2-ja401334j",
+            "locator": "Main PDF p. 3, Figure 4"
+          },
+          {
+            "source_id": "zhu2013-tio2-ja401334j",
+            "locator": "SI PDF p. 5, Figure S7"
+          }
+        ],
+        "note": "Representative green film; exact recipes for other colours are not supplied."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2013-tio2-ja401334j",
+          "locator": "Main PDF p. 3, Figure 4",
+          "claim": null
+        },
+        {
+          "source_id": "zhu2013-tio2-ja401334j",
+          "locator": "SI PDF p. 5, Figure S7",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 3, Figure 4"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 5, Figure S7"
+              }
+            ],
+            "note": "Representative green film; exact recipes for other colours are not supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Oriented film of stacked nanosheets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 3, Figure 4"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 5, Figure S7"
+              }
+            ],
+            "note": "Representative green film; exact recipes for other colours are not supplied."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "film-thickness",
+          "property": "film_thickness",
+          "descriptor_field": "architecture.host_or_film_geometry",
+          "value": {
+            "value": 190,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "190 ± 10 nm; ± statistic unreported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 3, Figure 4b"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Cross-sectional SEM",
+          "conditions": "190 ± 10 nm; ± statistic unreported.",
+          "evidence": [
+            {
+              "source_id": "zhu2013-tio2-ja401334j",
+              "locator": "Main PDF p. 3, Figure 4b"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 1, Colourful TiO2 film"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 3, Figure 4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu2013-tio2-ja401334j-coloured-film-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "wash-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 3, Figure 4"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 5, Figure S7"
+              }
+            ],
+            "note": "Representative green film; exact recipes for other colours are not supplied."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "Main PDF p. 3, Figure 4"
+                },
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "SI PDF p. 5, Figure S7"
+                }
+              ],
+              "note": "Representative green film; exact recipes for other colours are not supplied."
+            },
+            "morphology": {
+              "value": "Oriented film of stacked nanosheets",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "Main PDF p. 3, Figure 4"
+                },
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "SI PDF p. 5, Figure S7"
+                }
+              ],
+              "note": "Representative green film; exact recipes for other colours are not supplied."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "film-thickness",
+                "property": "film_thickness",
+                "field": "architecture.host_or_film_geometry"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu2013-tio2-ja401334j-powder-160c-24h::zhu2013-tio2-ja401334j-powder-160c-24h-product",
+      "record_id": "zhu2013-tio2-ja401334j-powder-160c-24h",
+      "record_page_path": "records/zhu2013-tio2-ja401334j-powder-160c-24h.html",
+      "source_group": "zhu2013-tio2-ja401334j",
+      "title": "Zhu et al. (2013): Typical layered anatase powder",
+      "doi": "10.1021/ja401334j",
+      "year": 2013,
+      "method": "Source-scoped titania preparation",
+      "recipe_label": "Zhu et al. (2013): Typical layered anatase powder",
+      "sample_id": "zhu2013-tio2-ja401334j-powder-160c-24h-product",
+      "source_sample_label": "Typical 160 °C / 24 h powder",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2013-tio2-ja401334j",
+            "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization"
+          },
+          {
+            "source_id": "zhu2013-tio2-ja401334j",
+            "locator": "SI PDF p. 2, Figure S1"
+          }
+        ],
+        "note": "Individual plate dimensions are distinct from dimensions of the full stack. Source attributes about 90% exposed (001) facets."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2013-tio2-ja401334j",
+          "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization",
+          "claim": null
+        },
+        {
+          "source_id": "zhu2013-tio2-ja401334j",
+          "locator": "SI PDF p. 2, Figure S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 2, Figure S1"
+              }
+            ],
+            "note": "Individual plate dimensions are distinct from dimensions of the full stack. Source attributes about 90% exposed (001) facets."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Parallel stacks of nanosheets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 2, Figure S1"
+              }
+            ],
+            "note": "Individual plate dimensions are distinct from dimensions of the full stack. Source attributes about 90% exposed (001) facets."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice",
+          "property": "lattice_spacing",
+          "descriptor_field": "crystal_structure.interplanar_spacing",
+          "value": {
+            "value": 0.19,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Approximately 0.19 nm fringes; [001] SAED zone.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 2, Continuation of Figure 1 characterization"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported characterization",
+          "conditions": "Approximately 0.19 nm fringes; [001] SAED zone.",
+          "evidence": [
+            {
+              "source_id": "zhu2013-tio2-ja401334j",
+              "locator": "Main PDF p. 2, Continuation of Figure 1 characterization"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 1, Typical synthesis"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 1, Layered TiO2 nanosheets"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu2013-tio2-ja401334j-powder-160c-24h-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "wash-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization"
+              },
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 2, Figure S1"
+              }
+            ],
+            "note": "Individual plate dimensions are distinct from dimensions of the full stack. Source attributes about 90% exposed (001) facets."
+          },
+          "structure": {
+            "phase": {
+              "value": "Anatase",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization"
+                },
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "SI PDF p. 2, Figure S1"
+                }
+              ],
+              "note": "Individual plate dimensions are distinct from dimensions of the full stack. Source attributes about 90% exposed (001) facets."
+            },
+            "morphology": {
+              "value": "Parallel stacks of nanosheets",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "Main PDF p. 1–2, Figure 1 and typical-powder characterization"
+                },
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "SI PDF p. 2, Figure S1"
+                }
+              ],
+              "note": "Individual plate dimensions are distinct from dimensions of the full stack. Source attributes about 90% exposed (001) facets."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice",
+                "property": "lattice_spacing",
+                "field": "crystal_structure.interplanar_spacing"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu2013-tio2-ja401334j-sol-gel-film::zhu2013-tio2-ja401334j-sol-gel-film-product",
+      "record_id": "zhu2013-tio2-ja401334j-sol-gel-film",
+      "record_page_path": "records/zhu2013-tio2-ja401334j-sol-gel-film.html",
+      "source_group": "zhu2013-tio2-ja401334j",
+      "title": "Zhu et al. (2013): Sol-gel TiO2 comparison film; substrate conflict",
+      "doi": "10.1021/ja401334j",
+      "year": 2013,
+      "method": "Source-scoped titania preparation",
+      "recipe_label": "Zhu et al. (2013): Sol-gel TiO2 comparison film; substrate conflict",
+      "sample_id": "zhu2013-tio2-ja401334j-sol-gel-film-product",
+      "source_sample_label": "Crystalline TiO2 from the procedural glass-slide route",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2013-tio2-ja401334j",
+            "locator": "SI PDF p. 1, Sol-gel method"
+          }
+        ],
+        "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2013-tio2-ja401334j",
+          "locator": "SI PDF p. 1, Sol-gel method",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Crystalline TiO2; phase not separately stated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 1, Sol-gel method"
+              }
+            ],
+            "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 1, Sol-gel method"
+              }
+            ],
+            "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 1, Sol-gel method"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu2013-tio2-ja401334j-sol-gel-film-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "calcine-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2013-tio2-ja401334j",
+                "locator": "SI PDF p. 1, Sol-gel method"
+              }
+            ],
+            "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+          },
+          "structure": {
+            "phase": {
+              "value": "Crystalline TiO2; phase not separately stated",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "SI PDF p. 1, Sol-gel method"
+                }
+              ],
+              "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+            },
+            "morphology": {
+              "value": "Film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2013-tio2-ja401334j",
+                  "locator": "SI PDF p. 1, Sol-gel method"
+                }
+              ],
+              "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+            },
+            "measurement_refs": []
           }
         }
       },
