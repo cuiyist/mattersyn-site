@@ -132,22 +132,22 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 131,
+  "contributing_papers": 133,
   "source_coverage": {
-    "total_contributing_papers": 131,
-    "reviewed_contributing_papers": 131,
+    "total_contributing_papers": 133,
+    "reviewed_contributing_papers": 133,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 464,
+  "synthesis_structure_pairs": 467,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 461,
+  "partial_pairs": 464,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1530,
+  "all_records": 1533,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -24068,6 +24068,441 @@
           "cdse-wurtzite-cod-9016056-reader-20260926",
           "cdse-zinc-blende-existing-ideal-reference-reader-20260926"
         ],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "dhage2004-sno2-bf02708509-calcination-400c-12h::dhage2004-sno2-bf02708509-calcined-400c-12h",
+      "record_id": "dhage2004-sno2-bf02708509-calcination-400c-12h",
+      "record_page_path": "records/dhage2004-sno2-bf02708509-calcination-400c-12h.html",
+      "source_group": "dhage2004-sno2-bf02708509",
+      "title": "Dhage et al. (2004): crystalline 400 °C/12 h calcination comparator",
+      "doi": "10.1007/bf02708509",
+      "year": 2004,
+      "method": "Dhage et al. (2004): crystalline 400 °C/12 h calcination comparator",
+      "recipe_label": "Dhage et al. (2004): crystalline 400 °C/12 h calcination comparator",
+      "sample_id": "dhage2004-sno2-bf02708509-calcined-400c-12h",
+      "source_sample_label": "Crystalline calcination comparator, 400 °C/12 h",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "dhage2004-sno2-bf02708509",
+            "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "dhage2004-sno2-bf02708509",
+          "locator": "Main PDF p. 2 / printed 222, Results and discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystalline SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 1 / printed 221, Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "dhage2004-sno2-bf02708509-calcined-400c-12h",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "crystalline SnO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "dhage2004-sno2-bf02708509",
+                  "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "dhage2004-sno2-bf02708509-reflux::dhage2004-sno2-bf02708509-reflux-population",
+      "record_id": "dhage2004-sno2-bf02708509-reflux",
+      "record_page_path": "records/dhage2004-sno2-bf02708509-reflux.html",
+      "source_group": "dhage2004-sno2-bf02708509",
+      "title": "Dhage et al. (2004): gel-to-crystal SnO2 reflux product",
+      "doi": "10.1007/bf02708509",
+      "year": 2004,
+      "method": "Dhage et al. (2004): gel-to-crystal SnO2 reflux product",
+      "recipe_label": "Dhage et al. (2004): gel-to-crystal SnO2 reflux product",
+      "sample_id": "dhage2004-sno2-bf02708509-reflux-population",
+      "source_sample_label": "Reflux-product population; Figure 1b and Figure 2 are distinct source views",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "dhage2004-sno2-bf02708509",
+            "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "dhage2004-sno2-bf02708509",
+          "locator": "Main PDF p. 2 / printed 222, Results and discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "rutile SnO2; observed d-lines match rutile values",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion and Figure 1 (after-reflux trace b; 100 °C, 4 h)"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "agglomerated particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion and Figure 2 (100 °C reflux-product TEM; duration/aliquot unspecified)"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 4.738,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD lattice calculation with silicon internal standard",
+          "conditions": "Reflux powder; experimental result, not introductory reference value. Figure 1(b) supplies the 4 h XRD scope; no assignment to the nominal six-hour Experimental execution.",
+          "evidence": [
+            {
+              "source_id": "dhage2004-sno2-bf02708509",
+              "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-mean",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 30,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Source average; particle count, statistic uncertainty and physical aliquot unreported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion and Figure 2 (100 °C reflux-product TEM; duration/aliquot unspecified)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 2 reflux-product population at 100 °C; duration unspecified. TEM duration and physical aliquot are unknown; no assignment to the nominal six-hour Experimental execution.",
+          "evidence": [
+            {
+              "source_id": "dhage2004-sno2-bf02708509",
+              "locator": "Main PDF p. 2 / printed 222, Results and discussion and Figure 2 (100 °C reflux-product TEM; duration/aliquot unspecified)"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-mean",
+          "property": "scherrer_crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 40,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Source uses k = 0.9 assuming spherical particles and instrumental broadening correction; distinct from 30 nm TEM average. Figure 1(b) supplies the 4 h XRD scope; no assignment to the nominal six-hour Experimental execution.",
+          "evidence": [
+            {
+              "source_id": "dhage2004-sno2-bf02708509",
+              "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 1 / printed 221, Experimental"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "dhage2004-sno2-bf02708509-reflux-population",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dhage2004-sno2-bf02708509",
+                "locator": "Main PDF p. 2 / printed 222, Results and discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "rutile SnO2; observed d-lines match rutile values",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "dhage2004-sno2-bf02708509",
+                  "locator": "Main PDF p. 2 / printed 222, Results and discussion and Figure 1 (after-reflux trace b; 100 °C, 4 h)"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "agglomerated particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "dhage2004-sno2-bf02708509",
+                  "locator": "Main PDF p. 2 / printed 222, Results and discussion and Figure 2 (100 °C reflux-product TEM; duration/aliquot unspecified)"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-mean",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              },
+              {
+                "measurement_id": "scherrer-mean",
+                "property": "scherrer_crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
@@ -131804,6 +132239,332 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xie1999-cdse-solvothermal-120c-6h::xie1999-cdse-solvothermal-120c-6h-as-prepared-product",
+      "record_id": "xie1999-cdse-solvothermal-120c-6h",
+      "record_page_path": "records/xie1999-cdse-solvothermal-120c-6h.html",
+      "source_group": "xie1999-cdse-jssc19998179",
+      "title": "Solvothermal CdSe nanocrystallites in ethylenediamine (120 °C, 6 h; precursor charges unspecified)",
+      "doi": "10.1006/jssc.1999.8179",
+      "year": 1999,
+      "method": "One-step solvothermal preparation in ethylenediamine from CdCl2·2.5H2O and selenium powder with qualitative excess sodium; 80% autoclave fill, 120 °C/6 h. Precursor charges and feed ratio are not reported.",
+      "recipe_label": "Solvothermal CdSe nanocrystallites in ethylenediamine (120 °C, 6 h; precursor charges unspecified)",
+      "sample_id": "xie1999-cdse-solvothermal-120c-6h-as-prepared-product",
+      "source_sample_label": "As-prepared nanocrystalline CdSe; characterization sample/aliquot IDs not reported",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xie1999-cdse-jssc19998179",
+            "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion.; Figs. 1–3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xie1999-cdse-jssc19998179",
+          "locator": "Main PDF p. 1 (printed p. 82), Experimental section.; Main PDF p. 2 (printed p. 83), Results and Discussion. Figs. 1–3 and results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion.; Fig. 1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Homogeneous, granular grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion.; Fig. 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 4.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4.300 Å",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 1"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "Powder X-ray diffraction",
+          "conditions": "Cu Kα, λ=1.54178 Å; 2θ=20–80°; scan rate 0.02° s−1 (Experimental).",
+          "evidence": [
+            {
+              "source_id": "xie1999-cdse-jssc19998179",
+              "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "scherrer-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "about/around",
+            "basis": "",
+            "raw_text": "about 7 nm",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 1"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "XRD; Scherrer equation",
+          "conditions": "Author estimate from diffraction peak half-width; coherent-domain size, not particle-size distribution.",
+          "evidence": [
+            {
+              "source_id": "xie1999-cdse-jssc19998179",
+              "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 1"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "about/around",
+            "basis": "",
+            "raw_text": "average around 7 nm",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 2"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "technique": "TEM",
+          "conditions": "Figure 2 retains the 50 nm scale bar; no distribution or count reported.",
+          "evidence": [
+            {
+              "source_id": "xie1999-cdse-jssc19998179",
+              "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 2"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 1 (printed p. 82), Experimental section.; Main PDF p. 2 (printed p. 83), Results and Discussion."
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Hexagonal CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 1"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "about/around",
+            "basis": "",
+            "raw_text": "about by Scherrer; around by TEM",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Figs. 1–2"
+              }
+            ],
+            "derivation": null,
+            "minimum_exclusive": false,
+            "maximum_exclusive": false
+          },
+          "morphology": {
+            "value": "Homogeneous, granular grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion. Fig. 2"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion."
+              }
+            ],
+            "note": "Ligand identity not reported."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion."
+              }
+            ],
+            "note": "Single-material CdSe."
+          }
+        },
+        "observed_product": {
+          "sample_id": "xie1999-cdse-solvothermal-120c-6h-as-prepared-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "xie1999-cdse-solvothermal-120c-6h-product",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie1999-cdse-jssc19998179",
+                "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion.; Figs. 1–3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie1999-cdse-jssc19998179",
+                  "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion.; Fig. 1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Homogeneous, granular grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie1999-cdse-jssc19998179",
+                  "locator": "Main PDF p. 2 (printed p. 83), Results and Discussion.; Fig. 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "scherrer-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-size",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
