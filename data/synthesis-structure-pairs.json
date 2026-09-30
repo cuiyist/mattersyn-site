@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 475,
-    "source_groups": 114,
-    "records": 436,
+    "recipe_structure_rows": 480,
+    "source_groups": 116,
+    "records": 441,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -33219,6 +33219,604 @@
                 }
               ],
               "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kudryavtseva1997-sno2-a702862h-a-600c-60h::sno2-a-600c-60h",
+      "record_id": "kudryavtseva1997-sno2-a702862h-a-600c-60h",
+      "record_page_path": "records/kudryavtseva1997-sno2-a702862h-a-600c-60h.html",
+      "source_group": "kudryavtseva1997-sno2-a702862h",
+      "title": "Powder A: 600 °C time-series endpoint at 60 h",
+      "doi": "10.1039/a702862h",
+      "year": 1997,
+      "method": "Powder A: 600 °C time-series endpoint at 60 h",
+      "recipe_label": "Powder A: 600 °C time-series endpoint at 60 h",
+      "sample_id": "sno2-a-600c-60h",
+      "source_sample_label": "A, Figure 5 60 h endpoint",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kudryavtseva1997-sno2-a702862h",
+            "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kudryavtseva1997-sno2-a702862h",
+          "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-size",
+          "property": "scherrer_crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Textual endpoint summary, not separate exact values for both {110} and {101} reflections.",
+            "basis": "",
+            "raw_text": "up to 20 nm after annealing for 60 h",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD line broadening and Scherrer equation ({110}, {101})",
+          "conditions": "Figure 5, 600 °C time series; text summary of 60 h endpoint.",
+          "evidence": [
+            {
+              "source_id": "kudryavtseva1997-sno2-a702862h",
+              "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 1 / printed 2269, Experimental and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sno2-a-600c-60h",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-size",
+                "property": "scherrer_crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kudryavtseva1997-sno2-a702862h-a-as-prepared::sno2-a-as-prepared",
+      "record_id": "kudryavtseva1997-sno2-a702862h-a-as-prepared",
+      "record_page_path": "records/kudryavtseva1997-sno2-a702862h-a-as-prepared.html",
+      "source_group": "kudryavtseva1997-sno2-a702862h",
+      "title": "Powder A: conventional precipitation and 100 °C drying",
+      "doi": "10.1039/a702862h",
+      "year": 1997,
+      "method": "Powder A: conventional precipitation and 100 °C drying",
+      "recipe_label": "Powder A: conventional precipitation and 100 °C drying",
+      "sample_id": "sno2-a-as-prepared",
+      "source_sample_label": "A (as prepared)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kudryavtseva1997-sno2-a702862h",
+            "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kudryavtseva1997-sno2-a702862h",
+          "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "amorphous by source XRD description",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "three-dimensional agglomerates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 2 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 1 / printed 2269, Experimental and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sno2-a-as-prepared",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "amorphous by source XRD description",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kudryavtseva1997-sno2-a702862h",
+                  "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "three-dimensional agglomerates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kudryavtseva1997-sno2-a702862h",
+                  "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 2 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kudryavtseva1997-sno2-a702862h-b-600c-60h::sno2-b-600c-60h",
+      "record_id": "kudryavtseva1997-sno2-a702862h-b-600c-60h",
+      "record_page_path": "records/kudryavtseva1997-sno2-a702862h-b-600c-60h.html",
+      "source_group": "kudryavtseva1997-sno2-a702862h",
+      "title": "Powder B: 600 °C time-series endpoint at 60 h",
+      "doi": "10.1039/a702862h",
+      "year": 1997,
+      "method": "Powder B: 600 °C time-series endpoint at 60 h",
+      "recipe_label": "Powder B: 600 °C time-series endpoint at 60 h",
+      "sample_id": "sno2-b-600c-60h",
+      "source_sample_label": "B, Figure 5 60 h endpoint",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kudryavtseva1997-sno2-a702862h",
+            "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kudryavtseva1997-sno2-a702862h",
+          "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-size",
+          "property": "scherrer_crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": null,
+            "minimum": null,
+            "maximum": 6,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source says size does not exceed 6 nm over the same 60 h interval.",
+            "basis": "",
+            "raw_text": "does not exceed 6 nm",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD line broadening and Scherrer equation ({110}, {101})",
+          "conditions": "Figure 5, 600 °C time series; text summary of 60 h endpoint.",
+          "evidence": [
+            {
+              "source_id": "kudryavtseva1997-sno2-a702862h",
+              "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 1 / printed 2269, Experimental and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sno2-b-600c-60h",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF pp. 2–3 / printed 2270–2271, grain-growth paragraph and Figure 5 (600 °C time series)"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-size",
+                "property": "scherrer_crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "kudryavtseva1997-sno2-a702862h-b-as-prepared::sno2-b-as-prepared",
+      "record_id": "kudryavtseva1997-sno2-a702862h-b-as-prepared",
+      "record_page_path": "records/kudryavtseva1997-sno2-a702862h-b-as-prepared.html",
+      "source_group": "kudryavtseva1997-sno2-a702862h",
+      "title": "Powder B: cation exchange and freeze drying",
+      "doi": "10.1039/a702862h",
+      "year": 1997,
+      "method": "Powder B: cation exchange and freeze drying",
+      "recipe_label": "Powder B: cation exchange and freeze drying",
+      "sample_id": "sno2-b-as-prepared",
+      "source_sample_label": "B (as prepared)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "SnO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kudryavtseva1997-sno2-a702862h",
+            "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kudryavtseva1997-sno2-a702862h",
+          "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cassiterite with very broad diffraction reflections",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "thin two-dimensional platelet agglomerates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 2 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 1 / printed 2269, Experimental and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sno2-b-as-prepared",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "SnO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kudryavtseva1997-sno2-a702862h",
+                "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cassiterite with very broad diffraction reflections",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kudryavtseva1997-sno2-a702862h",
+                  "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 3 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "thin two-dimensional platelet agglomerates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kudryavtseva1997-sno2-a702862h",
+                  "locator": "Main PDF p. 2 / printed 2270, Results and Discussion, Figure 2 and caption"
+                }
+              ],
+              "note": ""
             },
             "measurement_refs": []
           }
@@ -79228,6 +79826,201 @@
                 }
               ],
               "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "venkatesan-2003-fe3o4-coprecipitation::venkatesan2003-fe3o4-coprecipitation-powder",
+      "record_id": "venkatesan-2003-fe3o4-coprecipitation",
+      "record_page_path": "records/venkatesan-2003-fe3o4-coprecipitation.html",
+      "source_group": "venkatesan2003-fe3o4-1555371",
+      "title": "Venkatesan et al. (2003): Fe3O4 nanoparticles by FeCl3/FeCl2 coprecipitation",
+      "doi": "10.1063/1.1555371",
+      "year": 2003,
+      "method": "Aqueous Fe(III)/Fe(II) coprecipitation with ammonium hydroxide",
+      "recipe_label": "Venkatesan et al. (2003): Fe3O4 nanoparticles by FeCl3/FeCl2 coprecipitation",
+      "sample_id": "venkatesan2003-fe3o4-coprecipitation-powder",
+      "source_sample_label": "Coprecipitation powder (Table I); coprecipitated TEM population (Figure 2)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "venkatesan2003-fe3o4-1555371",
+            "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)"
+          },
+          {
+            "source_id": "venkatesan2003-fe3o4-1555371",
+            "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "venkatesan2003-fe3o4-1555371",
+          "locator": "Main PDF p. 2, printed p. 8023, Section II. Experiment",
+          "claim": null
+        },
+        {
+          "source_id": "venkatesan2003-fe3o4-1555371",
+          "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)",
+          "claim": null
+        },
+        {
+          "source_id": "venkatesan2003-fe3o4-1555371",
+          "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Single-phase Fe3O4 by XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)"
+              }
+            ],
+            "note": "No atomic coordinates or CIF supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical and practically monodisperse",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption"
+              }
+            ],
+            "note": "Method-level sample association is clear; exact physical aliquot crosswalk is absent."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Single-phase Fe3O4 by XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)"
+              }
+            ],
+            "note": "The article reports phase and lattice parameter, not atomic coordinates or a CIF."
+          },
+          "size": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Source labels this d_g; meaning of ± is not specified.",
+            "basis": "",
+            "raw_text": "d_g = 10 ± 2 nm",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Nearly spherical and practically monodisperse particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption"
+              }
+            ],
+            "note": "Qualitative source description; no fitted aspect ratio or numeric shape distribution."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Surface termination/ligands not reported."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "Single-material magnetite."
+          }
+        },
+        "observed_product": {
+          "sample_id": "venkatesan2003-fe3o4-coprecipitation-powder",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "washed-coprecipitate",
+          "composition": {
+            "value": "Fe3O4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)"
+              },
+              {
+                "source_id": "venkatesan2003-fe3o4-1555371",
+                "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Single-phase Fe3O4 by XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "venkatesan2003-fe3o4-1555371",
+                  "locator": "Main PDF p. 2, printed p. 8023, Section III. Results and Discussion; Figure 1(c)"
+                }
+              ],
+              "note": "No atomic coordinates or CIF supplied."
+            },
+            "morphology": {
+              "value": "Nearly spherical and practically monodisperse",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "venkatesan2003-fe3o4-1555371",
+                  "locator": "Main PDF p. 3, printed p. 8024, text and Figure 2 caption"
+                }
+              ],
+              "note": "Method-level sample association is clear; exact physical aliquot crosswalk is absent."
             },
             "measurement_refs": []
           }
