@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 128,
+  "material_families": 132,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -14,8 +14,10 @@
     "Ag/Si",
     "Ag/SiO2",
     "Ag2S",
+    "Ag7Te4",
     "AgGaS2",
     "AgInS2",
+    "Ag–Te phase mixture",
     "Al",
     "AlN",
     "Au",
@@ -60,6 +62,7 @@
     "Cu1.8S",
     "Cu12Sb4S13",
     "Cu2-xSe",
+    "Cu2-xTe",
     "Cu2S",
     "Cu2SnS3",
     "Cu3SbS3",
@@ -72,6 +75,7 @@
     "CuS",
     "CuS + Cu1.8S",
     "CuSbS2",
+    "Cu–Te phase mixture",
     "FAPbI3",
     "Fe3O4",
     "Fe90Zr7B3",
@@ -132,22 +136,22 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 133,
+  "contributing_papers": 134,
   "source_coverage": {
-    "total_contributing_papers": 133,
-    "reviewed_contributing_papers": 133,
+    "total_contributing_papers": 134,
+    "reviewed_contributing_papers": 134,
     "preliminary_contributing_papers": 0,
     "additional_preliminary_papers": 0,
     "overlapping_preliminary_papers": 0,
     "count_definition": "Distinct primary source identifiers across the reviewed collection and the validated preliminary collection. A source present in both tiers counts once in the total. Supporting citations and multiple recipes do not add papers.",
     "tier_note": "Reviewed collection retains its recorded source scopes, including selected recipes and published experimental series. Preliminary contributions are author-source-checked, independently unaudited, accuracy unmeasured and excluded from training. Preliminary entries do not add reviewed material families or recipe–structure pairs."
   },
-  "synthesis_structure_pairs": 467,
+  "synthesis_structure_pairs": 475,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 464,
+  "partial_pairs": 472,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1533,
+  "all_records": 1544,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -136305,6 +136309,1310 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-ag-te-1-1-180c-12h::yang1999-ag-te-1-1-180c-12h-sample",
+      "record_id": "yang1999-ag-te-1-1-180c-12h",
+      "record_page_path": "records/yang1999-ag-te-1-1-180c-12h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): AgNO3 + Te, M:Te 1:1, 180 °C, 12 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): AgNO3 + Te, M:Te 1:1, 180 °C, 12 h",
+      "sample_id": "yang1999-ag-te-1-1-180c-12h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te + Ag7Te4 + Te phase mixture",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 180 °C, 12 h"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 180 °C, 12 h",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Ag2Te, Ag7Te4 and Te according to Table 2; relative amounts not quantified.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 180 °C, 12 h"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-ag-te-1-1-180c-12h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Ag2Te + Ag7Te4 + Te phase mixture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 180 °C, 12 h"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Ag2Te, Ag7Te4 and Te according to Table 2; relative amounts not quantified.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 180 °C, 12 h"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-ag-te-1-1-200c-24h::yang1999-ag-te-1-1-200c-24h-sample",
+      "record_id": "yang1999-ag-te-1-1-200c-24h",
+      "record_page_path": "records/yang1999-ag-te-1-1-200c-24h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): AgNO3 + Te, M:Te 1:1, 200 °C, 24 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): AgNO3 + Te, M:Te 1:1, 200 °C, 24 h",
+      "sample_id": "yang1999-ag-te-1-1-200c-24h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag7Te4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 200 °C, 24 h"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 200 °C, 24 h",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Ag7Te4 (pure monoclinic phase); average size reported as 20 nm.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 200 °C, 24 h"
+              },
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Results paragraph: Ag:Te = 1:1 at 200 °C for 24 h"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-ag-te-1-1-200c-24h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Ag7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 200 °C, 24 h"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Ag7Te4 (pure monoclinic phase); average size reported as 20 nm.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1:1 at 200 °C, 24 h"
+                },
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Results paragraph: Ag:Te = 1:1 at 200 °C for 24 h"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-ag-te-1-5-1-180c-12h::yang1999-ag-te-1-5-1-180c-12h-sample",
+      "record_id": "yang1999-ag-te-1-5-1-180c-12h",
+      "record_page_path": "records/yang1999-ag-te-1-5-1-180c-12h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): AgNO3 + Te, M:Te 1.5:1, 180 °C, 12 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): AgNO3 + Te, M:Te 1.5:1, 180 °C, 12 h",
+      "sample_id": "yang1999-ag-te-1-5-1-180c-12h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te + trace Ag + trace Te",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1.5:1"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1.5:1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Ag2Te with trace Ag and trace Te (Table 2 footnote).",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1.5:1"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-ag-te-1-5-1-180c-12h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Ag2Te + trace Ag + trace Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1.5:1"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Ag2Te with trace Ag and trace Te (Table 2 footnote).",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 1.5:1"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-ag-te-2-1-180c-12h::yang1999-ag-te-2-1-180c-12h-sample",
+      "record_id": "yang1999-ag-te-2-1-180c-12h",
+      "record_page_path": "records/yang1999-ag-te-2-1-180c-12h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): AgNO3 + Te, M:Te 2:1, 180 °C, 12 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): AgNO3 + Te, M:Te 2:1, 180 °C, 12 h",
+      "sample_id": "yang1999-ag-te-2-1-180c-12h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te + Ag phase mixture",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 2:1"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 2:1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Ag2Te and Ag according to Table 2.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 2:1"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-ag-te-2-1-180c-12h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Ag2Te + Ag phase mixture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 2:1"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Ag2Te and Ag according to Table 2.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 2, AgNO3 row Ag:Te = 2:1"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-cu-te-1-1-160c-8h::yang1999-cu-te-1-1-160c-8h-sample",
+      "record_id": "yang1999-cu-te-1-1-160c-8h",
+      "record_page_path": "records/yang1999-cu-te-1-1-160c-8h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): CuCl2 + Te, M:Te 1:1, 160 °C, 8 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): CuCl2 + Te, M:Te 1:1, 160 °C, 8 h",
+      "sample_id": "yang1999-cu-te-1-1-160c-8h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2.86Te2 + minor Cu7Te5 + minor CuTe + minor Te",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 160 °C, 8 h"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 160 °C, 8 h",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cu2.86Te2 predominant; Cu7Te5, CuTe and Te are marked minor in Table 1.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 160 °C, 8 h"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-cu-te-1-1-160c-8h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Cu2.86Te2 + minor Cu7Te5 + minor CuTe + minor Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 160 °C, 8 h"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cu2.86Te2 predominant; Cu7Te5, CuTe and Te are marked minor in Table 1.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 160 °C, 8 h"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-cu-te-1-1-200c-12h::yang1999-cu-te-1-1-200c-12h-sample",
+      "record_id": "yang1999-cu-te-1-1-200c-12h",
+      "record_page_path": "records/yang1999-cu-te-1-1-200c-12h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): CuCl2 + Te, M:Te 1:1, 200 °C, 12 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): CuCl2 + Te, M:Te 1:1, 200 °C, 12 h",
+      "sample_id": "yang1999-cu-te-1-1-200c-12h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2.86Te2 + minor Te",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 200 °C, 12 h"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 200 °C, 12 h",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cu2.86Te2 with minor Te according to Table 1; CuTe is not listed in this row.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 200 °C, 12 h"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-cu-te-1-1-200c-12h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Cu2.86Te2 + minor Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 200 °C, 12 h"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cu2.86Te2 with minor Te according to Table 1; CuTe is not listed in this row.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1:1 at 200 °C, 12 h"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-cu-te-1-25-1-160c-8h::yang1999-cu-te-1-25-1-160c-8h-sample",
+      "record_id": "yang1999-cu-te-1-25-1-160c-8h",
+      "record_page_path": "records/yang1999-cu-te-1-25-1-160c-8h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): CuCl2 + Te, M:Te 1.25:1, 160 °C, 8 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): CuCl2 + Te, M:Te 1.25:1, 160 °C, 8 h",
+      "sample_id": "yang1999-cu-te-1-25-1-160c-8h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2.86Te2 + Cu2-xTe phase mixture",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1.25:1"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1.25:1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cu2.86Te2 and Cu2-xTe; coexistence reported, no abundance quantified.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1.25:1"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-cu-te-1-25-1-160c-8h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Cu2.86Te2 + Cu2-xTe phase mixture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1.25:1"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cu2.86Te2 and Cu2-xTe; coexistence reported, no abundance quantified.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 1.25:1"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No morphology is assigned to this tabulated recipe row in the source."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yang1999-cu-te-2-1-160c-8h::yang1999-cu-te-2-1-160c-8h-sample",
+      "record_id": "yang1999-cu-te-2-1-160c-8h",
+      "record_page_path": "records/yang1999-cu-te-2-1-160c-8h.html",
+      "source_group": "yang1999-jssc-8366",
+      "title": "Yang et al. (1999): CuCl2 + Te, M:Te 2:1, 160 °C, 8 h",
+      "doi": "10.1006/jssc.1999.8366",
+      "year": 1999,
+      "method": "Hydrothermal reduction of a group-11 metal salt and tellurium in aqueous ammonia with hydrazine hydrate",
+      "recipe_label": "Yang et al. (1999): CuCl2 + Te, M:Te 2:1, 160 °C, 8 h",
+      "sample_id": "yang1999-cu-te-2-1-160c-8h-sample",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu2-xTe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang1999-jssc-8366",
+            "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 2:1"
+          }
+        ],
+        "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang1999-jssc-8366",
+          "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 2:1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cu2-xTe (pure hexagonal phase; source names wessite)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 2:1"
+              },
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Results paragraph: Cu:Te = 2:1 at 160 °C for 8 h"
+              }
+            ],
+            "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The authors study phase formation across feed ratios; a distinct pre-specified target for this row is not stated."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The phase is an observed XRD outcome, not a separately stated intended target."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No source-defined target size.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target morphology."
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No source-defined target surface state."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": "No host material."
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang1999-cu-te-2-1-160c-8h-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried-powder",
+          "composition": {
+            "value": "Cu2-xTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang1999-jssc-8366",
+                "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 2:1"
+              }
+            ],
+            "note": "Formula is a source-reported XRD assignment, not a composition independently recomputed from feed ratio."
+          },
+          "structure": {
+            "phase": {
+              "value": "Cu2-xTe (pure hexagonal phase; source names wessite)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Table 1, CuCl2 row Cu:Te = 2:1"
+                },
+                {
+                  "source_id": "yang1999-jssc-8366",
+                  "locator": "Main p. 2 (printed p. 388), Results paragraph: Cu:Te = 2:1 at 160 °C for 8 h"
+                }
+              ],
+              "note": "Phase assemblage reported from XRD; source names are preserved. No unit-cell parameters or coordinates are reported in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "The paper reports TEM morphology for a Cu2-xTe population at 160 °C for 8 h, but does not identify its Cu:Te feed ratio or physical batch. It is preserved separately as population-level context, not assigned to this tabulated row."
+            },
+            "measurement_refs": []
           }
         }
       },
