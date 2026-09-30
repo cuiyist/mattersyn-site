@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 480,
-    "source_groups": 116,
-    "records": 441,
+    "recipe_structure_rows": 488,
+    "source_groups": 117,
+    "records": 449,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -93587,6 +93587,1225 @@
                 "measurement_id": "tem-size",
                 "property": "particle_size",
                 "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1::zhang2011-cm201400w-cu-zn-in-s-ratio-1-1-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-1.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:1 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:1 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1-sample",
+      "source_sample_label": "Cu:Zn = 1:1 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20::zhang2011-cm201400w-cu-zn-in-s-ratio-1-20-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-20.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:20 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:20 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20-sample",
+      "source_sample_label": "Cu:Zn = 1:20 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3::zhang2011-cm201400w-cu-zn-in-s-ratio-1-3-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-3.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:3 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:3 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3-sample",
+      "source_sample_label": "Cu:Zn = 1:3 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5::zhang2011-cm201400w-cu-zn-in-s-ratio-1-5-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-5.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:5 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:5 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5-sample",
+      "source_sample_label": "Cu:Zn = 1:5 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1::zhang2011-cm201400w-cu-zn-in-s-ratio-2-1-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-2-1.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 2:1 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 2:1 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1-sample",
+      "source_sample_label": "Cu:Zn = 2:1 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-t180::zhang2011-cm201400w-cu-zn-in-s-t180-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-t180",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-t180.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · 180 °C temperature series",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · 180 °C temperature series",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t180-sample",
+      "source_sample_label": "180 °C temperature series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned zinc blend diffraction pattern",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1A"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_diameter-1",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "3 nm",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel A"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL 100CX; 100 kV; carbon-coated copper grids dipped in hexane dispersion.",
+          "evidence": [
+            {
+              "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+              "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel A"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t180-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned zinc blend diffraction pattern",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+                }
+              ],
+              "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+            },
+            "morphology": {
+              "value": "Nearly spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1A"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_diameter-1",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-t210::zhang2011-cm201400w-cu-zn-in-s-t210-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-t210",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-t210.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · 210 °C temperature series",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · 210 °C temperature series",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t210-sample",
+      "source_sample_label": "210 °C temperature series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned zinc blend diffraction pattern",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1B"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_diameter-1",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "5 nm",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel B"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL 100CX; 100 kV; carbon-coated copper grids dipped in hexane dispersion.",
+          "evidence": [
+            {
+              "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+              "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel B"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t210-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned zinc blend diffraction pattern",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+                }
+              ],
+              "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+            },
+            "morphology": {
+              "value": "Nearly spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1B"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_diameter-1",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-t240::zhang2011-cm201400w-cu-zn-in-s-t240-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-t240",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-t240.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · 240 °C temperature series",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · 240 °C temperature series",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t240-sample",
+      "source_sample_label": "240 °C temperature series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned zinc blend diffraction pattern",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1C"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_diameter-1",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "7 nm",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL 100CX; 100 kV; carbon-coated copper grids dipped in hexane dispersion.",
+          "evidence": [
+            {
+              "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+              "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t240-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned zinc blend diffraction pattern",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+                }
+              ],
+              "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+            },
+            "morphology": {
+              "value": "Nearly spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1C"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_diameter-1",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
               }
             ]
           }

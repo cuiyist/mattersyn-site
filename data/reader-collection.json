@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 132,
+  "material_families": 133,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -59,6 +59,7 @@
     "Cs4PbBr6/CsPbBr3",
     "CsMnCl3",
     "CsPbBr3",
+    "Cu-Zn-In-S",
     "Cu1.8S",
     "Cu12Sb4S13",
     "Cu2-xSe",
@@ -136,18 +137,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 136,
+  "contributing_papers": 137,
   "source_coverage": {
-    "total_contributing_papers": 136,
-    "reviewed_contributing_papers": 136,
+    "total_contributing_papers": 137,
+    "reviewed_contributing_papers": 137,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 480,
+  "synthesis_structure_pairs": 488,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 477,
+  "partial_pairs": 485,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1554,
+  "all_records": 1564,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -147497,6 +147498,3413 @@
                   {
                     "source_id": "zhang2000-cdse-jssc20008646",
                     "locator": "Main PDF p. 1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1::zhang2011-cm201400w-cu-zn-in-s-ratio-1-1-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-1.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:1 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:1 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1-sample",
+      "source_sample_label": "Cu:Zn = 1:1 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-1-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20::zhang2011-cm201400w-cu-zn-in-s-ratio-1-20-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-20.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:20 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:20 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20-sample",
+      "source_sample_label": "Cu:Zn = 1:20 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-20-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3::zhang2011-cm201400w-cu-zn-in-s-ratio-1-3-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-3.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:3 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:3 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3-sample",
+      "source_sample_label": "Cu:Zn = 1:3 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-3-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5::zhang2011-cm201400w-cu-zn-in-s-ratio-1-5-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-1-5.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 1:5 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 1:5 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5-sample",
+      "source_sample_label": "Cu:Zn = 1:5 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-1-5-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1::zhang2011-cm201400w-cu-zn-in-s-ratio-2-1-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-ratio-2-1.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · Cu:Zn = 2:1 at 210 °C",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · Cu:Zn = 2:1 at 210 °C",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1-sample",
+      "source_sample_label": "Cu:Zn = 2:1 at 210 °C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-reported zinc blend structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+              }
+            ],
+            "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-ratio-2-1-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 3 / printed 3359, composition series and Figures 5–6; SI pp. 2–3, Figure S5 and Table S1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-reported zinc blend structure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 3 / printed 3359, Figure 6 discussion of the Cu:Zn composition-series XRD patterns"
+                }
+              ],
+              "note": "The authors describe all nanocrystals in this ratio series as showing a similar “zinc blend” structure. This is not an independently indexed/refined phase; no lattice, cell, phase fraction or physical-batch assignment is reported."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur"
+          ],
+          "fields": [
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-t180::zhang2011-cm201400w-cu-zn-in-s-t180-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-t180",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-t180.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · 180 °C temperature series",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · 180 °C temperature series",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t180-sample",
+      "source_sample_label": "180 °C temperature series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned zinc blend diffraction pattern",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1A"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_diameter-1",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "3 nm",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel A"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL 100CX; 100 kV; carbon-coated copper grids dipped in hexane dispersion.",
+          "evidence": [
+            {
+              "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+              "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel A"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t180-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned zinc blend diffraction pattern",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+                }
+              ],
+              "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+            },
+            "morphology": {
+              "value": "Nearly spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1A"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_diameter-1",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.019,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.019 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0176,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0176 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-t210::zhang2011-cm201400w-cu-zn-in-s-t210-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-t210",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-t210.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · 210 °C temperature series",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · 210 °C temperature series",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t210-sample",
+      "source_sample_label": "210 °C temperature series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned zinc blend diffraction pattern",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1B"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_diameter-1",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "5 nm",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel B"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL 100CX; 100 kV; carbon-coated copper grids dipped in hexane dispersion.",
+          "evidence": [
+            {
+              "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+              "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel B"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t210-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned zinc blend diffraction pattern",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+                }
+              ],
+              "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+            },
+            "morphology": {
+              "value": "Nearly spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1B"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_diameter-1",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.019,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.019 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0176,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0176 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhang2011-cm201400w-cu-zn-in-s-t240::zhang2011-cm201400w-cu-zn-in-s-t240-sample",
+      "record_id": "zhang2011-cm201400w-cu-zn-in-s-t240",
+      "record_page_path": "records/zhang2011-cm201400w-cu-zn-in-s-t240.html",
+      "source_group": "zhang2011-cm201400w-cu-zn-in-s",
+      "title": "Cu–Zn–In–S · 240 °C temperature series",
+      "doi": "10.1021/cm201400w",
+      "year": 2011,
+      "method": "Colloidal hot injection",
+      "recipe_label": "Cu–Zn–In–S · 240 °C temperature series",
+      "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t240-sample",
+      "source_sample_label": "240 °C temperature series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-Zn-In-S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+            "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+          "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned zinc blend diffraction pattern",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nearly spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1C"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "particle_diameter-1",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "7 nm",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel C"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "JEOL 100CX; 100 kV; carbon-coated copper grids dipped in hexane dispersion.",
+          "evidence": [
+            {
+              "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+              "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results; Figure 1A–C; panel C"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "source-reported quantity",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2011-cm201400w-cu-zn-in-s-t240-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purified",
+          "composition": {
+            "value": "Cu-Zn-In-S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned zinc blend diffraction pattern",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF p. 2 / printed 3358, Figure 1D and Figure 2 temperature labels"
+                }
+              ],
+              "note": "Printed phase wording is retained; no refined cell, phase fraction or space group is reported."
+            },
+            "morphology": {
+              "value": "Nearly spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                  "locator": "Main PDF pp. 1–2 / printed 3357–3358, Results TEM morphology discussion; Figure 1C"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "particle_diameter-1",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "ddt",
+            "indium-acetate",
+            "ode",
+            "oleic-acid",
+            "oleylamine",
+            "sulfur",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.019,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.019 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0176,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0176 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0292,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.0292 g",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "indium-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.1 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ddt",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "4 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "pointer": "/materials/6/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/7/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "stock_id": "sulfur-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "0.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "zhang2011-cm201400w-cu-zn-in-s",
+                    "locator": "Main PDF p. 4 / printed 3360, Experimental Section, Materials and Methods"
                   }
                 ],
                 "derivation": null
