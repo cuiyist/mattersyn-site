@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 496,
-    "source_groups": 120,
-    "records": 457,
+    "recipe_structure_rows": 506,
+    "source_groups": 122,
+    "records": 464,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -47855,6 +47855,1531 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-amtp2pbbr4-control::amtp2pbbr4-control",
+      "record_id": "massasa2024-cgd3c01472-amtp2pbbr4-control",
+      "record_page_path": "records/massasa2024-cgd3c01472-amtp2pbbr4-control.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): AMTP2PbBr4 monolayer control",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "AMTP2PbBr4 monolayer control",
+      "recipe_label": "Massasa et al. (2024): AMTP2PbBr4 monolayer control",
+      "sample_id": "amtp2pbbr4-control",
+      "source_sample_label": "AMTP2PbBr4 monolayer control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AMTP2PbBr4 monolayer control",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.8"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.8",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monolayer product named as synthesis target; quantitative phase purity not established",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.8"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AMTP2PbBr4 monolayer control",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.8"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "amtp2pbbr4-control",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "control-colloid",
+          "composition": {
+            "value": "AMTP2PbBr4 monolayer control",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.8"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monolayer product named as synthesis target; quantitative phase purity not established",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.8"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No control-particle morphology stated in main Methods."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-deprot-acetone::deprot-acetone-rt",
+      "record_id": "massasa2024-cgd3c01472-deprot-acetone",
+      "record_page_path": "records/massasa2024-cgd3c01472-deprot-acetone.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Deprotonated AMTP in acetone",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Deprotonated AMTP in acetone",
+      "recipe_label": "Massasa et al. (2024): Deprotonated AMTP in acetone",
+      "sample_id": "deprot-acetone-rt",
+      "source_sample_label": "Figure 4a/e: RT acetone",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Cubic-shaped dispersed particles in Results narrative and Figure 4a TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results; p.5 / printed p.3241, Figure 4a/e caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "deprot-acetone-rt",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Cubic-shaped dispersed particles in Results narrative and Figure 4a TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.4 / printed p.3240, Results; p.5 / printed p.3241, Figure 4a/e caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-deprot-ode::deprot-ode-150c-5min",
+      "record_id": "massasa2024-cgd3c01472-deprot-ode",
+      "record_page_path": "records/massasa2024-cgd3c01472-deprot-ode.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Deprotonated AMTP in ODE",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Deprotonated AMTP in ODE",
+      "recipe_label": "Massasa et al. (2024): Deprotonated AMTP in ODE",
+      "sample_id": "deprot-ode-150c-5min",
+      "source_sample_label": "Figure 4b,c/f,g: 150 °C ODE, 5 min, heated complexation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanoplates/nanorods in Results; Figure 4b,c TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "deprot-ode-150c-5min",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanoplates/nanorods in Results; Figure 4b,c TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-deprot-ode::deprot-ode-180c-5min",
+      "record_id": "massasa2024-cgd3c01472-deprot-ode",
+      "record_page_path": "records/massasa2024-cgd3c01472-deprot-ode.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Deprotonated AMTP in ODE",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Deprotonated AMTP in ODE",
+      "recipe_label": "Massasa et al. (2024): Deprotonated AMTP in ODE",
+      "sample_id": "deprot-ode-180c-5min",
+      "source_sample_label": "Figure 4d/h: 180 °C ODE, 5 min, heated complexation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanoplates/nanorods in Results; Figure 4d TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "deprot-ode-180c-5min",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanoplates/nanorods in Results; Figure 4d TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.5 / printed p.3241, Figure 4 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-oam2pbbr4-control::oam2pbbr4-control",
+      "record_id": "massasa2024-cgd3c01472-oam2pbbr4-control",
+      "record_page_path": "records/massasa2024-cgd3c01472-oam2pbbr4-control.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): OAM2PbBr4 monolayer control",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "OAM2PbBr4 monolayer control",
+      "recipe_label": "Massasa et al. (2024): OAM2PbBr4 monolayer control",
+      "sample_id": "oam2pbbr4-control",
+      "source_sample_label": "OAM2PbBr4 monolayer control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "OAM2PbBr4 monolayer control",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.7"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.7",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monolayer product named as synthesis target; quantitative phase purity not established",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.7"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "OAM2PbBr4 monolayer control",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.7"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "oam2pbbr4-control",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "control-colloid",
+          "composition": {
+            "value": "OAM2PbBr4 monolayer control",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.7"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monolayer product named as synthesis target; quantitative phase purity not established",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.2 / printed p.3238, Methods §2.2.7"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No control-particle morphology stated in main Methods."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-prot-acetone::prot-acetone-50c",
+      "record_id": "massasa2024-cgd3c01472-prot-acetone",
+      "record_page_path": "records/massasa2024-cgd3c01472-prot-acetone.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Protonated AMTP-Br in acetone",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Protonated AMTP-Br in acetone",
+      "recipe_label": "Massasa et al. (2024): Protonated AMTP-Br in acetone",
+      "sample_id": "prot-acetone-50c",
+      "source_sample_label": "Figure 2b/f: 50 °C acetone",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Colloidal particles in Figure 2b TEM; exact size not transcribed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "prot-acetone-50c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Colloidal particles in Figure 2b TEM; exact size not transcribed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-prot-acetone::prot-acetone-rt",
+      "record_id": "massasa2024-cgd3c01472-prot-acetone",
+      "record_page_path": "records/massasa2024-cgd3c01472-prot-acetone.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Protonated AMTP-Br in acetone",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Protonated AMTP-Br in acetone",
+      "recipe_label": "Massasa et al. (2024): Protonated AMTP-Br in acetone",
+      "sample_id": "prot-acetone-rt",
+      "source_sample_label": "Figure 2a/e: RT acetone",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform nanocubes in Results narrative; Figure 2a TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "prot-acetone-rt",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Uniform nanocubes in Results narrative; Figure 2a TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-prot-ode::prot-ode-120c",
+      "record_id": "massasa2024-cgd3c01472-prot-ode",
+      "record_page_path": "records/massasa2024-cgd3c01472-prot-ode.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Protonated AMTP-Br in ODE",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Protonated AMTP-Br in ODE",
+      "recipe_label": "Massasa et al. (2024): Protonated AMTP-Br in ODE",
+      "sample_id": "prot-ode-120c",
+      "source_sample_label": "Figure 2c/g: 120 °C ODE",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Elongated particles in Figure 2c TEM; precise class/size not reported in caption",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "prot-ode-120c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Elongated particles in Figure 2c TEM; precise class/size not reported in caption",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "massasa2024-cgd3c01472-prot-ode::prot-ode-150c",
+      "record_id": "massasa2024-cgd3c01472-prot-ode",
+      "record_page_path": "records/massasa2024-cgd3c01472-prot-ode.html",
+      "source_group": "massasa2024-cgd3c01472",
+      "title": "Massasa et al. (2024): Protonated AMTP-Br in ODE",
+      "doi": "10.1021/acs.cgd.3c01472",
+      "year": 2024,
+      "method": "Colloidal anti-solvent precipitation; Protonated AMTP-Br in ODE",
+      "recipe_label": "Massasa et al. (2024): Protonated AMTP-Br in ODE",
+      "sample_id": "prot-ode-150c",
+      "source_sample_label": "Figure 2d/h: 150 °C ODE",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "massasa2024-cgd3c01472",
+            "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "massasa2024-cgd3c01472",
+          "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanoplates in Results narrative and Figure 2d TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.1 / printed p.3237, Abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Author-assigned periodic heterostructure; no measured nanoparticle coordinates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.5 / printed p.3241, Figure 5 and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Temperature/solvent-dependent nanocubes versus plates/rods; see sample-level Figure 2/4 products",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.4 / printed p.3240, Results and Discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "OA/OAM ligands depicted in Figure 1b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.2 / printed p.3238, Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "prot-ode-150c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-colloid",
+          "composition": {
+            "value": "(PbBr2)2(AMTP)2PbBr4 colloidal heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "massasa2024-cgd3c01472",
+                "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Author-assigned periodic heterostructure from linked diffraction; no measured atomic coordinate set",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanoplates in Results narrative and Figure 2d TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "massasa2024-cgd3c01472",
+                  "locator": "Main PDF p.3 / printed p.3239, Figure 2 caption and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -96395,6 +97920,154 @@
                 "field": "morphology.diameter"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2012-ag2s-nn301218z-dhla-exchange::zhang2012-ag2s-nn301218z-dhla-exchange-product",
+      "record_id": "zhang2012-ag2s-nn301218z-dhla-exchange",
+      "record_page_path": "records/zhang2012-ag2s-nn301218z-dhla-exchange.html",
+      "source_group": "zhang2012-ag2s-nn301218z",
+      "title": "Zhang et al. (2012): hydrophilic DHLA–Ag2S QDs",
+      "doi": "10.1021/nn301218z",
+      "year": 2012,
+      "method": "DT-to-DHLA ligand exchange",
+      "recipe_label": "Zhang et al. (2012): hydrophilic DHLA–Ag2S QDs",
+      "sample_id": "zhang2012-ag2s-nn301218z-dhla-exchange-product",
+      "source_sample_label": "DHLA–Ag2S QDs; Figure 2B and 2C",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2012-ag2s-nn301218z",
+            "locator": "Main PDF p.6 / printed 3700, Methods, Preparation of Hydrophilic Ag2S QDs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2012-ag2s-nn301218z",
+          "locator": "Main PDF p.6 / printed 3700, Methods, Preparation of Hydrophilic Ag2S QDs",
+          "claim": null
+        },
+        {
+          "source_id": "zhang2012-ag2s-nn301218z",
+          "locator": "Main PDF p.2 / printed 3696, Figure 2B/C and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Monodisperse, narrow-size-distribution QDs with approximately circular 2D TEM projections",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2012-ag2s-nn301218z",
+                "locator": "Main PDF p.2 / printed 3696, Results, Figure 2B"
+              }
+            ],
+            "note": "Monodispersity is author-reported; round projection is an interpretation of TEM, not a measured 3D shape."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2012-ag2s-nn301218z",
+                "locator": "Main PDF p.2 / printed 3696, Results, Ag2S QD preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Crystal phase not stated for these samples in inspected main text."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhang2012-ag2s-nn301218z-dhla-exchange-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ph-adjusted",
+          "composition": {
+            "value": "Ag2S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2012-ag2s-nn301218z",
+                "locator": "Main PDF p.6 / printed 3700, Methods, Preparation of Hydrophilic Ag2S QDs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No sample-specific unit cell, diffraction or atomic coordinates in scoped main text."
+            },
+            "morphology": {
+              "value": "Monodisperse, narrow-size-distribution QDs with approximately circular 2D TEM projections",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2012-ag2s-nn301218z",
+                  "locator": "Main PDF p.2 / printed 3696, Results, Figure 2B"
+                }
+              ],
+              "note": "Monodispersity is author-reported; round projection is an interpretation of TEM, not a measured 3D shape."
+            },
+            "measurement_refs": []
           }
         }
       },
