@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **154 primary source groups** · release `v5-fanfair-20261001`. Records are not independent experiments.
+Dataset **0.41.2** · **156 primary source groups** · release `urban-sahoo-route-guard-20261001-r1`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -187,6 +187,8 @@ Dataset **0.41.2** · **154 primary source groups** · release `v5-fanfair-20261
 
 - Jianping Ge; Yongxing Hu; Maurizio Biasini; Ward P. Beyermann; Yadong Yin (2007). Superparamagnetic Magnetite Colloidal Nanocrystal Clusters. *Angewandte Chemie International Edition*, 46, 4342–4345. [10.1002/anie.200700197](https://doi.org/10.1002/anie.200700197). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ge2007-magnetite-anie200700197).
 
+- Jeffrey J. Urban; Dmitri V. Talapin; Elena V. Shevchenko; Cherie R. Kagan; Christopher B. Murray (2007). Synergism in binary nanocrystal superlattices leads to enhanced p-type conductivity in self-assembled PbTe/Ag2Te thin films. [10.1038/nmat1826](https://doi.org/10.1038/nmat1826). Review scope remains stated in the linked website records.
+
 - Su Chen; Jia Zhu; Yongfeng Shen; Chunhui Hu; Li Chen (2007). Synthesis of Nanocrystal–Polymer Transparent Hybrids via Polyurethane Matrix Grafted onto Functionalized CdS Nanocrystals. *Langmuir*, 23, 850–854. [10.1021/la062210g](https://doi.org/10.1021/la062210g). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=cds-polyurethane-la062210g).
 
 - Jonathan S. Owen; Jungwon Park; Paul-Emile Trudeau; A. Paul Alivisatos (2008). Reaction Chemistry and Ligand Exchange at Cadmium–Selenide Nanocrystal Surfaces. *Journal of the American Chemical Society*, 130, 12279–12281. [10.1021/ja804414f](https://doi.org/10.1021/ja804414f). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=owen2008-cdse-ja804414f).
@@ -210,6 +212,8 @@ Dataset **0.41.2** · **154 primary source groups** · release `v5-fanfair-20261
 - Jianhua Liao; Liyi Shi; Shuai Yuan; Yin Zhao; Jianhui Fang (2009). Solvothermal Synthesis of TiO2 Nanocrystal Colloids from Peroxotitanate Complex Solution and Their Photocatalytic Activities. *J.Phys.Chem.C*, 113, 18778–18783. [10.1021/jp905720g](https://doi.org/10.1021/jp905720g). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=liao2009-tio2-jp905720g).
 
 - Shi Hu; Xun Wang (2010). Fullerene-like Colloidal Nanocrystal of Nickel Hydroxychloride. *Journal of the American Chemical Society*, 132, 9573–9575. [10.1021/ja103607q](https://doi.org/10.1021/ja103607q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=hu2010nichydroxychloride).
+
+- Satyaprakash Sahoo; A. K. Arora (2010). Laser-Power-Induced Multiphonon Resonant Raman Scattering in Laser-Heated CdS Nanocrystal. [10.1021/jp912103t](https://doi.org/10.1021/jp912103t). Review scope remains stated in the linked website records.
 
 - Minghui Deng; Quanxin Zhang; Shuqing Huang; Dongmei Li; Yanhong Luo; Qing Shen; Taro Toyoda; Qingbo Meng (2010). Low-Cost Flexible Nano-Sulfide/Carbon Composite Counter Electrode for Quantum-Dot-Sensitized Solar Cell. [10.1007/s11671-010-9592-3](https://doi.org/10.1007/s11671-010-9592-3). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=deng2010-main).
 
