@@ -10,16 +10,16 @@
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
     "curated_library_additions": 78,
-    "canonical_records": 1564,
-    "reviewed_literature_records": 1464,
-    "reviewed_literature_source_groups": 136,
+    "canonical_records": 1566,
+    "reviewed_literature_records": 1466,
+    "reviewed_literature_source_groups": 138,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 137,
+    "total_canonical_source_groups": 139,
     "formal_full_main_and_matched_si_reviews": 38,
     "formal_full_review_pages": 766,
-    "formal_full_main_reviews_si_unverified": 92,
-    "formal_full_main_only_review_pages": 474,
+    "formal_full_main_reviews_si_unverified": 94,
+    "formal_full_main_only_review_pages": 491,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
     "formal_main_and_selected_si_reviews": 1,
@@ -27,41 +27,41 @@
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 2,
-    "local_groups_without_canonical_records": 4117,
-    "synthesis_route_variant_records": 579,
+    "local_groups_without_canonical_records": 4115,
+    "synthesis_route_variant_records": 581,
     "contextual_control_variant_records": 61,
     "shared_preparation_workup_characterization_assay_procedures": 454,
-    "nonprocedure_literature_records": 1010,
+    "nonprocedure_literature_records": 1012,
     "literature_record_type_counts": {
       "experiment": 38,
-      "literature_protocol": 435,
+      "literature_protocol": 437,
       "observation": 332,
       "procedure": 454,
       "protocol_variant": 205
     },
     "canonical_record_type_counts": {
       "experiment": 138,
-      "literature_protocol": 435,
+      "literature_protocol": 437,
       "observation": 332,
       "procedure": 454,
       "protocol_variant": 205
     },
-    "literature_recipe_family_ids": 250,
-    "primary_synthesis_recipe_family_ids": 189,
-    "public_material_hubs": 154,
-    "direct_synthesis_target_systems": 133,
+    "literature_recipe_family_ids": 252,
+    "primary_synthesis_recipe_family_ids": 191,
+    "public_material_hubs": 156,
+    "direct_synthesis_target_systems": 135,
     "component_only_hubs": 21,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 187,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 189,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 332,
-    "recipe_or_control_literature_records": 640,
+    "recipe_or_control_literature_records": 642,
     "contextual_observation_family_ids": 85,
-    "source_checked_synthesis_structure_rows": 488,
-    "source_groups_with_synthesis_structure_rows": 117,
+    "source_checked_synthesis_structure_rows": 490,
+    "source_groups_with_synthesis_structure_rows": 119,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -183,10 +183,12 @@
       "LiFe5O8",
       "LiMn2O4",
       "Mn:ZnO",
+      "MnO2",
       "MoO2",
       "MoO2/MoS2",
       "MoS2",
       "N-CQDs",
+      "N/S-CQDs",
       "NAT-CQDs",
       "Nd2O3",
       "Ni3S4",
@@ -1262,6 +1264,59 @@
         "chen2018ami-wled": "records/chen2018ami-wled.html"
       },
       "source_checked_synthesis_structure_rows": 7
+    },
+    {
+      "source_group": "chen2020-cqd-d0ra03970e",
+      "paper_id": "chen2020-cqd-d0ra03970e",
+      "doi": "10.1039/d0ra03970e",
+      "url": "https://doi.org/10.1039/d0ra03970e",
+      "title": "A simple fluorescence assay for trypsin through a protamine-induced carbon quantum dot-quenching aggregation platform",
+      "year": 2020,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "All six supplied main pages were read and visually checked for the one citric-acid/reduced-glutathione CQD preparation and its Figure 1, Figure 3A and Figure 4A–B product evidence. Pages 5–6 were checked for further CQD production but the downstream protamine/trypsin assay was not exhaustively extracted. The matching SI was not reviewed. Independent r2 scientific quick audit passed; the article-level pristine-CQD measurements do not establish one physical aliquot or a unique bulk phase.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/chen2020-cqd-d0ra03970e.json",
+      "paper_review_url": "paper-review.html?id=chen2020-cqd-d0ra03970e",
+      "si_status": "not_reviewed",
+      "main_status": "reviewed",
+      "notes": [
+        "One staged-heating 2 g citric-acid-monohydrate plus 0.6 g reduced-GSH route is linked to the pristine CQD product; the Pro/Try assembly is a downstream assay and not an additional synthesis.",
+        "Figure 3A TEM size 2.1–2.4 nm (mean 2.31 nm) and Figure 4B pure-CQD DLS size 2.3 nm are distinct measurements without an asserted shared aliquot; Figure 3B and the larger CQDs/Pro distribution belong to the assay aggregate.",
+        "The 0.20 nm fringe is author-indexed to graphite (100) but does not establish unique CQD bulk phase or measured atomic coordinates. FTIR 3386 and 3270 cm−1 values remain approximate.",
+        "Source PDF p.1 states CC BY-NC 3.0; the separate rights registry retains attribution and noncommercial conditions for source crops, while authored SVGs are identified as project artwork."
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 10,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "chen2020-cqd-d0ra03970e"
+      ],
+      "direct_route_material_systems": [
+        "N/S-CQDs"
+      ],
+      "record_ids": [
+        "chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating"
+      ],
+      "record_urls": {
+        "chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating": "records/chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
     },
     {
       "source_group": "choi2006-pbs-aptamer-ja066506k",
@@ -10849,6 +10904,58 @@
         "zhu2013-tio2-ja401334j-time-8h": "records/zhu2013-tio2-ja401334j-time-8h.html"
       },
       "source_checked_synthesis_structure_rows": 3
+    },
+    {
+      "source_group": "zou2022-mno2-casein-acssuschemeng2c02981",
+      "paper_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+      "doi": "10.1021/acssuschemeng.2c02981",
+      "url": "https://doi.org/10.1021/acssuschemeng.2c02981",
+      "title": "Ingenious Multifunctional MnO2 Quantum Dot Nanozymes with Superior Catechol Oxidase-like Activity for Highly Selective Sensing of Redox-Active Dopamine Based on an Interfacial Passivation Strategy",
+      "year": 2022,
+      "has_local_corpus_group": true,
+      "review_status": "full_supplied_main_review_si_unverified",
+      "review_scope": "All eleven supplied main-article pages were read and visually reviewed. Pages 2–4 establish the scoped one-pot casein/MnO2 quantum-dot preparation and Figures 1–2 product characterization; pages 5–8 concern downstream catalysis and dopamine-treated specimens, and pages 9–11 are notice and references. An independent quick scientific audit passed for the scoped route and added product facts. Matching Supporting Information was not used or reviewed.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/paper-reviews/zou2022-mno2-casein-acssuschemeng2c02981.json",
+      "paper_review_url": "paper-review.html?id=zou2022-mno2-casein-acssuschemeng2c02981",
+      "si_status": "not_reviewed",
+      "main_status": "reviewed",
+      "notes": [
+        "One quantified dropwise permanganate route is linked to the Figure 1B–F 2 mg/mL casein product, with a reported TEM diameter range of 1.1–1.6 nm from 200 particles and a 0.206 nm fringe indexed to MnO2 (401).",
+        "Figure 1A and Figure 2 characterize CS-MnO2 QDs in broader product context without assigning the same physical 2 mg/mL batch; the 3.4% quantum yield and −48.6 mV zeta potential are not counted as extra recipe–structure pairs.",
+        "Scheme 1's 30 min, the 20 min colloid observation, and unspecified Experimental completion time remain distinct; no unique polymorph or measured atomic coordinates are claimed. Publisher permission for selected source figures remains unverified."
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 18,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "zou2022-mno2-casein-acssuschemeng2c02981"
+      ],
+      "direct_route_material_systems": [
+        "MnO2"
+      ],
+      "record_ids": [
+        "zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot"
+      ],
+      "record_urls": {
+        "zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot": "records/zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
     }
   ],
   "per_material": [
@@ -17937,6 +18044,42 @@
       ]
     },
     {
+      "material_system": "MnO2",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "mno2-7858b1",
+      "material_hub_url": "material.html?id=mno2-7858b1",
+      "source_groups": [
+        "zou2022-mno2-casein-acssuschemeng2c02981"
+      ],
+      "source_links": [
+        {
+          "source_group": "zou2022-mno2-casein-acssuschemeng2c02981",
+          "doi": "10.1021/acssuschemeng.2c02981",
+          "url": "https://doi.org/10.1021/acssuschemeng.2c02981",
+          "title": "Ingenious Multifunctional MnO2 Quantum Dot Nanozymes with Superior Catechol Oxidase-like Activity for Highly Selective Sensing of Redox-Active Dopamine Based on an Interfacial Passivation Strategy"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "zou2022-mno2-casein-acssuschemeng2c02981"
+      ]
+    },
+    {
       "material_system": "MoO2",
       "notes": [],
       "direct_synthesis_route_variant_count": 1,
@@ -18083,6 +18226,42 @@
       ],
       "direct_route_recipe_family_ids": [
         "zhang2014-ncqd-ez400137j"
+      ]
+    },
+    {
+      "material_system": "N/S-CQDs",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "n-s-cqds-042bd4",
+      "material_hub_url": "material.html?id=n-s-cqds-042bd4",
+      "source_groups": [
+        "chen2020-cqd-d0ra03970e"
+      ],
+      "source_links": [
+        {
+          "source_group": "chen2020-cqd-d0ra03970e",
+          "doi": "10.1039/d0ra03970e",
+          "url": "https://doi.org/10.1039/d0ra03970e",
+          "title": "A simple fluorescence assay for trypsin through a protamine-induced carbon quantum dot-quenching aggregation platform"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "chen2020-cqd-d0ra03970e"
       ]
     },
     {
@@ -21533,8 +21712,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "7e2355c7ad1dbaae7ae2d4633ba7516a4da7821aaf0c29a1c0b2eaf84e1287e1",
-    "record_ids_sha256": "8b43300030f34eaf6edf5dd90801a1ec31d1081e100e54a7196e111c0aac52be",
+    "reviewed_evidence_sha256": "7f9885eb61d5061ea32e124b95f0cd7434a40609688e794dec2a8819c5b07149",
+    "record_ids_sha256": "df9f96890295b41ebee3432aeb6c417425cbd2bffd4820520710e1de47cabf52",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

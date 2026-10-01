@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 133,
+  "material_families": 135,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -97,10 +97,12 @@
     "LiFe5O8",
     "LiMn2O4",
     "Mn:ZnO",
+    "MnO2",
     "MoO2",
     "MoO2/MoS2",
     "MoS2",
     "N-CQDs",
+    "N/S-CQDs",
     "NAT-CQDs",
     "Nd2O3",
     "Ni3S4",
@@ -137,18 +139,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 137,
+  "contributing_papers": 139,
   "source_coverage": {
-    "total_contributing_papers": 137,
-    "reviewed_contributing_papers": 137,
+    "total_contributing_papers": 139,
+    "reviewed_contributing_papers": 139,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 488,
+  "synthesis_structure_pairs": 490,
   "more_comprehensive_pairs": 3,
-  "partial_pairs": 485,
+  "partial_pairs": 487,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1564,
+  "all_records": 1566,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -17010,6 +17012,292 @@
                   {
                     "source_id": "chen2018ami",
                     "locator": "main PDF p. 4 (printed 15908), Table 1"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating::pristine-cqds",
+      "record_id": "chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating",
+      "record_page_path": "records/chen2020-cqd-d0ra03970e-citric-acid-gsh-staged-heating.html",
+      "source_group": "chen2020-cqd-d0ra03970e",
+      "title": "Chen et al. (2020): citric-acid/glutathione carbon quantum dots by staged heating",
+      "doi": "10.1039/d0ra03970e",
+      "year": 2020,
+      "method": "One-pot staged thermal conversion of citric acid monohydrate and glutathione, followed by dialysis",
+      "recipe_label": "Chen et al. (2020): citric-acid/glutathione carbon quantum dots by staged heating",
+      "sample_id": "pristine-cqds",
+      "source_sample_label": "CQDs (Figure 1 and Figure 3A)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "N/S-containing carbon quantum dots",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2020-cqd-d0ra03970e",
+            "locator": "Main PDF p.3 / printed p.26767, Characterization of the CQDs and Figure 1 caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2020-cqd-d0ra03970e",
+          "locator": "Main PDF p.2 / printed p.26766, Experimental, CQD synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "chen2020-cqd-d0ra03970e",
+          "locator": "Main PDF p.3 / printed p.26767, Characterization of the CQDs and Figure 1 caption",
+          "claim": null
+        },
+        {
+          "source_id": "chen2020-cqd-d0ra03970e",
+          "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Uniform quasispherical dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter-range",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 2.1,
+            "maximum": 2.4,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Figure 3A pristine dots",
+            "raw_text": "2.1–2.4 nm",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 3A; not the protamine aggregate in Figure 3B",
+          "evidence": [
+            {
+              "source_id": "chen2020-cqd-d0ra03970e",
+              "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-diameter-mean",
+          "property": "mean_diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.31,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Figure 3A",
+            "raw_text": "average diameter of 2.31 nm",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM particle-size analysis",
+          "conditions": "Figure 3A inset; sample count not stated",
+          "evidence": [
+            {
+              "source_id": "chen2020-cqd-d0ra03970e",
+              "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Nitrogen/sulfur-containing carbon quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.3 / printed p.26767, Characterization of the CQDs and Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Quasispherical quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Negatively charged in water (measured zeta potential −12.8 mV)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.3 / printed p.26767, Characterization of the CQDs and Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "pristine-cqds",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "N/S-containing carbon quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2020-cqd-d0ra03970e",
+                "locator": "Main PDF p.3 / printed p.26767, Characterization of the CQDs and Figure 1 caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "One 0.20 nm HRTEM fringe is author-indexed to graphite carbon (100); this does not establish a unique bulk CQD phase."
+            },
+            "morphology": {
+              "value": "Uniform quasispherical dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2020-cqd-d0ra03970e",
+                  "locator": "Main PDF p.4 / printed p.26768, Figure 3 caption and adjacent TEM/HRTEM discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter-range",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "tem-diameter-mean",
+                "property": "mean_diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "glutathione"
+          ],
+          "fields": [
+            {
+              "material_id": "glutathione",
+              "operation_id": "combine-precursors",
+              "pointer": "/operations/0/parameters/glutathione_mass",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.6 g",
+                "evidence": [
+                  {
+                    "source_id": "chen2020-cqd-d0ra03970e",
+                    "locator": "Main PDF p.2 / printed p.26766, Experimental, CQD synthesis"
                   }
                 ],
                 "derivation": null
@@ -156202,6 +156490,237 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot::cs-mno2-2mgml",
+      "record_id": "zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot",
+      "record_page_path": "records/zou2022-mno2-casein-acssuschemeng2c02981-aqueous-one-pot.html",
+      "source_group": "zou2022-mno2-casein-acssuschemeng2c02981",
+      "title": "Zou et al. (2022): casein-stabilized MnO2 quantum dots from aqueous permanganate",
+      "doi": "10.1021/acssuschemeng.2c02981",
+      "year": 2022,
+      "method": "Aqueous protein-directed permanganate reduction at room temperature",
+      "recipe_label": "Zou et al. (2022): casein-stabilized MnO2 quantum dots from aqueous permanganate",
+      "sample_id": "cs-mno2-2mgml",
+      "source_sample_label": "CS-MnO2 QDs prepared in the presence of 2 mg mL−1 casein",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Casein-stabilized MnO2 QDs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+            "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+          "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "MnO2 assignment from 0.206 nm HRTEM fringe indexed (401); polymorph not independently established",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Well-dispersed quantum dots; a specific particle-shape name is not stated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter-range",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": null,
+            "minimum": 1.1,
+            "maximum": 1.6,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "200 individual particles",
+            "raw_text": "ranging from 1.1 to 1.6 nm",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM particle-size analysis (n=200)",
+          "conditions": "Figure 1B–C; 2 mg/mL casein preparation",
+          "evidence": [
+            {
+              "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+              "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Casein-stabilized MnO2 quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.2 / printed p.10058, Experimental Section, Reagents and Chemicals / Preparation of CS-MnO2 QDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Colloidal quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.2 / printed p.10058, Experimental Section, Reagents and Chemicals / Preparation of CS-MnO2 QDs"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Beta-casein-stabilized",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.2 / printed p.10058, Experimental Section, Reagents and Chemicals / Preparation of CS-MnO2 QDs"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cs-mno2-2mgml",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "Casein-stabilized MnO2 QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "MnO2 assignment from 0.206 nm HRTEM fringe indexed (401); polymorph not independently established",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                  "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Well-dispersed quantum dots; a specific particle-shape name is not stated",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zou2022-mno2-casein-acssuschemeng2c02981",
+                  "locator": "Main PDF p.3 / printed p.10059, Characterization of CS-MnO2 QDs, Figure 1 caption and adjacent text"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter-range",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
