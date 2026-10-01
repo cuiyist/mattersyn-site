@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 545,
-    "source_groups": 131,
-    "records": 502,
+    "recipe_structure_rows": 555,
+    "source_groups": 133,
+    "records": 512,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -5129,6 +5129,1599 @@
                 "field": "architecture.host_or_film_geometry"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-80min::bhattacharya2023-aginte2-zns-ic3c03156-ait-80min-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-80min",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait-80min.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(80) AgInTe2",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "Ag-DDT injection into In4Te3 seed",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(80) AgInTe2",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-80min-sample",
+      "source_sample_label": "AIT (80)",
+      "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.2 / printed 20220, Experimental Section, AgInTe2 NC synthesis and timed quenches",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Microrod with micron-scale length",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Hexagonal AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Microrod with micron-scale length",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-80min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal AgInTe2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Microrod with micron-scale length",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.3 / printed 20221, Figure 2d,e and AIT(80) discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-83min::bhattacharya2023-aginte2-zns-ic3c03156-ait-83min-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-83min",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait-83min.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(83) AgInTe2",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "Ag-DDT injection into In4Te3 seed",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(83) AgInTe2",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-83min-sample",
+      "source_sample_label": "AIT (83)",
+      "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.2 / printed 20220, Experimental Section, AgInTe2 NC synthesis and timed quenches",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Monodisperse QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Monodisperse QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-83min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal chalcopyrite AgInTe2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Monodisperse QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF pp.3–4 / printed 20221–20222, AIT(83) 4–5 nm QD discussion referring to SI Figures S1–S3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-85min::bhattacharya2023-aginte2-zns-ic3c03156-ait-85min-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-85min",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait-85min.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(85) AgInTe2",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "Ag-DDT injection into In4Te3 seed",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(85) AgInTe2",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-85min-sample",
+      "source_sample_label": "AIT (85)",
+      "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.2 / printed 20220, Experimental Section, AgInTe2 NC synthesis and timed quenches",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "One-dimensional quantum-dot chain",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "One-dimensional quantum-dot chain",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-85min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal chalcopyrite AgInTe2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "One-dimensional quantum-dot chain",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2f,g and AIT(85) discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-87min::bhattacharya2023-aginte2-zns-ic3c03156-ait-87min-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-87min",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait-87min.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(87) AgInTe2",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "Ag-DDT injection into In4Te3 seed",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(87) AgInTe2",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-87min-sample",
+      "source_sample_label": "AIT (87)",
+      "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.2 / printed 20220, Experimental Section, AgInTe2 NC synthesis and timed quenches",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Larger AgInTe2 QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Larger AgInTe2 QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-87min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal chalcopyrite AgInTe2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Larger AgInTe2 QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.4 / printed 20222, AIT(87) 18–20 nm QD discussion referring to SI Figures S2–S3"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-90min::bhattacharya2023-aginte2-zns-ic3c03156-ait-90min-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-90min",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait-90min.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(90) AgInTe2",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "Ag-DDT injection into In4Te3 seed",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(90) AgInTe2",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-90min-sample",
+      "source_sample_label": "AIT (90)",
+      "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.2 / printed 20220, Experimental Section, AgInTe2 NC synthesis and timed quenches",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Microrod formed by QD fusion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Tetragonal chalcopyrite AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Microrod formed by QD fusion",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait-90min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal chalcopyrite AgInTe2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Microrod formed by QD fusion",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF pp.3–4 / printed 20221–20222, Figure 2h,i and AIT(90) discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10::bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(85)-Z10 AgInTe2/ZnS Janus",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "fusion of 7-day ambient-aged AIT(85) QDC and ZnS QDs",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(85)-Z10 AgInTe2/ZnS Janus",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10-sample",
+      "source_sample_label": "AIT (85)-Z10",
+      "batch_id": "Named AIT(85)/ZnS Janus formulation; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.3 / printed 20221, Experimental Section, AgInTe2–ZnS Janus synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal AgInTe2 plus zinc-blende ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Janus heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Tetragonal AgInTe2 plus zinc-blende ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Coupled Janus nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AIT(85)/ZnS Janus formulation; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal AgInTe2 plus zinc-blende ZnS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Janus heterostructure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5::bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): AIT(85)-Z5 AgInTe2/ZnS Janus",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "fusion of 7-day ambient-aged AIT(85) QDC and ZnS QDs",
+      "recipe_label": "Bhattacharya et al. (2023): AIT(85)-Z5 AgInTe2/ZnS Janus",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5-sample",
+      "source_sample_label": "AIT (85)-Z5",
+      "batch_id": "Named AIT(85)/ZnS Janus formulation; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgInTe2/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.3 / printed 20221, Experimental Section, AgInTe2–ZnS Janus synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Tetragonal AgInTe2 plus zinc-blende ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Janus heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgInTe2/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Tetragonal AgInTe2 plus zinc-blende ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Coupled Janus nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AIT(85)/ZnS Janus formulation; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "AgInTe2/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Tetragonal AgInTe2 plus zinc-blende ZnS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Janus heterostructure",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.6 / printed 20224, Figure 5a,b ZnS and Z5/Z10 XRD"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-in4te3-seed::bhattacharya2023-aginte2-zns-ic3c03156-in4te3-seed-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-in4te3-seed",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-in4te3-seed.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): orthorhombic In4Te3 seed",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "In-oleate and Te-TOP seed formation",
+      "recipe_label": "Bhattacharya et al. (2023): orthorhombic In4Te3 seed",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-in4te3-seed-sample",
+      "source_sample_label": "Figure 2b,c In4Te3",
+      "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "In4Te3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.2 / printed 20220, Experimental Section, AgInTe2 NC synthesis and timed quenches",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Orthorhombic In4Te3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanocrystal seed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "In4Te3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Orthorhombic In4Te3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Colloidal NC seed",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-in4te3-seed-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named AgInTe2 time-course specimen; physical aliquot identity across methods unreported",
+          "material_state_id": "in4te3-seed",
+          "composition": {
+            "value": "In4Te3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Orthorhombic In4Te3",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Nanocrystal seed",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.3 / printed 20221, Figure 2b,c and In4Te3 seed discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "bhattacharya2023-aginte2-zns-ic3c03156-zns-seed::bhattacharya2023-aginte2-zns-ic3c03156-zns-seed-sample",
+      "record_id": "bhattacharya2023-aginte2-zns-ic3c03156-zns-seed",
+      "record_page_path": "records/bhattacharya2023-aginte2-zns-ic3c03156-zns-seed.html",
+      "source_group": "bhattacharya2023-aginte2-zns-ic3c03156",
+      "title": "Bhattacharya et al. (2023): ZnS QD seed",
+      "doi": "10.1021/acs.inorgchem.3c03156",
+      "year": 2023,
+      "method": "hot injection of TOP-S into Zn acetate/OA/ODE",
+      "recipe_label": "Bhattacharya et al. (2023): ZnS QD seed",
+      "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-zns-seed-sample",
+      "source_sample_label": "Figure 4b ZnS QDs",
+      "batch_id": "Named ZnS QD product; physical aliquot identity across methods unreported",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+            "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF pp.2–3 / printed 20220–20221, Experimental Section, ZnS QD synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+          "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc-blende ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dispersed QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Zinc-blende ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Dispersed QDs averaging ~4.7 nm",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "bhattacharya2023-aginte2-zns-ic3c03156-zns-seed-sample",
+          "parent_sample_id": null,
+          "batch_id": "Named ZnS QD product; physical aliquot identity across methods unreported",
+          "material_state_id": "product",
+          "composition": {
+            "value": "ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc-blende ZnS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Dispersed QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bhattacharya2023-aginte2-zns-ic3c03156",
+                  "locator": "Main PDF p.5 / printed 20223, Figure 4a–c AIT(85), ZnS and Z10 TEM/HRTEM/IFFT"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -21174,6 +22767,167 @@
             "measurement_refs": [
               {
                 "measurement_id": "diameter-8nm",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "fafarman2014-ag-nc-films-nn406461p-untreated::fafarman2014-ag-nc-films-nn406461p-untreated-sample",
+      "record_id": "fafarman2014-ag-nc-films-nn406461p-untreated",
+      "record_page_path": "records/fafarman2014-ag-nc-films-nn406461p-untreated.html",
+      "source_group": "fafarman2014-ag-nc-films-nn406461p",
+      "title": "Fafarman et al. (2014): purified approximately 5 nm colloidal Ag nanocrystals",
+      "doi": "10.1021/nn406461p",
+      "year": 2014,
+      "method": "Microwave synthesis of colloidal Ag nanocrystals",
+      "recipe_label": "Fafarman et al. (2014): purified approximately 5 nm colloidal Ag nanocrystals",
+      "sample_id": "fafarman2014-ag-nc-films-nn406461p-untreated-sample",
+      "source_sample_label": "Purified, approximately 5 nm colloidal Ag nanocrystals",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "fafarman2014-ag-nc-films-nn406461p",
+            "locator": "Main PDF p.7 / printed 2752, Methods > Synthesis"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "fafarman2014-ag-nc-films-nn406461p",
+          "locator": "Main PDF p.7 / printed 2752, Methods > Synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "ag-nc-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "Silver nanocrystals of 5 nm",
+            "evidence": [
+              {
+                "source_id": "fafarman2014-ag-nc-films-nn406461p",
+                "locator": "Main PDF p.7 / printed 2752, Methods > Synthesis and Deposition and Ligand Exchange"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Author-stated diameter in Methods; measurement method not separately specified here",
+          "conditions": "Approximately 5 nm as-synthesized colloidal Ag nanocrystals; no separate size distribution or measurement method given in the selected route.",
+          "evidence": [
+            {
+              "source_id": "fafarman2014-ag-nc-films-nn406461p",
+              "locator": "Main PDF p.7 / printed 2752, Methods > Synthesis"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fafarman2014-ag-nc-films-nn406461p",
+                "locator": "Main PDF p.7 / printed 2752, Methods > Synthesis and Deposition and Ligand Exchange"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective crystal phase for the colloid is specified; film XRD is outside this route."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "TDPA and trioctylamine are preparation inputs; prospective bound shell composition is not stated."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "fafarman2014-ag-nc-films-nn406461p-untreated-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ag-octane-dispersion",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fafarman2014-ag-nc-films-nn406461p",
+                "locator": "Main PDF p.7 / printed 2752, Methods > Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "The colloidal aliquot has no separately measured phase assignment; untreated-film XRD is a different preparation cohort."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "ag-nc-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
               }

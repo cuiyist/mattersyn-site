@@ -1,16 +1,16 @@
 {
   "status": "passed",
   "dataset_version": "0.41.2",
-  "records": 1630,
-  "recipe_records": 844,
+  "records": 1640,
+  "recipe_records": 854,
   "shared_procedures": 454,
   "independent_experiment_count": null,
-  "source_groups": 151,
-  "families": 189,
+  "source_groups": 153,
+  "families": 194,
   "eligible_by_task": {
     "precursor_selection": 95,
     "partial_protocol": 120,
-    "size_conditioned_recipe": 15,
+    "size_conditioned_recipe": 16,
     "exact_structure_recipe": 0,
     "success_prediction": 0,
     "optical_outcome": 95
@@ -31,7 +31,7 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 744,
+  "curated_recipes": 754,
   "contextual_observation_records": 332,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
@@ -53,28 +53,28 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 1630,
+      "audited_task_profile_missing": 1640,
       "explicit_sample_recipe_link_missing": 2,
       "measured_label_not_approved": 7,
-      "no_sample_coordinate_asset": 1612,
+      "no_sample_coordinate_asset": 1622,
       "source_review_required": 100,
-      "task_not_requested": 1609
+      "task_not_requested": 1619
     }
   },
   "structure_outcome_coverage": {
     "schema_version": "1.0",
     "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
     "counts": {
-      "recipe_structure_rows": 545,
-      "source_groups": 131,
-      "records": 502,
+      "recipe_structure_rows": 555,
+      "source_groups": 133,
+      "records": 512,
       "physical_samples_deduplicated": null
     },
     "measurement_property_policy": "data/structure-outcome-policy.json"
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 156,
+    "material_families": 159,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -100,6 +100,8 @@
       "Ag7Te4",
       "AgGaS2",
       "AgInS2",
+      "AgInTe2",
+      "AgInTe2/ZnS",
       "Ag–Te phase mixture",
       "Al",
       "AlN",
@@ -181,6 +183,7 @@
       "Ge/Si",
       "In2O3",
       "In2O3:Sn",
+      "In4Te3",
       "In66Si100Al92O384",
       "InAs",
       "InOOH",
@@ -234,18 +237,18 @@
       "ZnSe:Cr",
       "ZrO2"
     ],
-    "contributing_papers": 151,
+    "contributing_papers": 153,
     "source_coverage": {
-      "total_contributing_papers": 151,
-      "reviewed_contributing_papers": 151,
+      "total_contributing_papers": 153,
+      "reviewed_contributing_papers": 153,
       "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
     },
-    "synthesis_structure_pairs": 545,
+    "synthesis_structure_pairs": 555,
     "more_comprehensive_pairs": 5,
-    "partial_pairs": 540,
+    "partial_pairs": 550,
     "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 1630,
+    "all_records": 1640,
     "experimental_series_rows": 100
   },
   "queue_count": 37,
