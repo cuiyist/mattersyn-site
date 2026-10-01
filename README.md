@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **139 primary source groups** · release `workflow-v5-release-helper-cache-fix`. Records are not independent experiments.
+Dataset **0.41.2** · **140 primary source groups** · release `workflow-v5-chen2014-cuznsns-20261001`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -234,6 +234,8 @@ Dataset **0.41.2** · **139 primary source groups** · release `workflow-v5-rele
 - Dylan C. Gary; Benjamin A. Glassy; Brandi M. Cossairt (2014). Investigation of Indium Phosphide Quantum Dot Nucleation and Growth Utilizing Triarylsilylphosphine Precursors. *Chemistry of Materials*, 26, 1734-1744. [10.1021/cm500102q](https://doi.org/10.1021/cm500102q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=gary-cossairt-2014).
 
 - Karthik Ramasamy; Hunter Sims; William H. Butler; Arunava Gupta (2014). Selective Nanocrystal Synthesis and Calculated Electronic Structure of All Four Phases of Copper-Antimony-Sulfide. [10.1021/cm5005642](https://doi.org/10.1021/cm5005642). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ramasamy2014cusb).
+
+- Yubin Chen; Chi-Hung Chuang; Keng-Chu Lin; Shaohua Shen; Christopher McCleese; Liejin Guo; Clemens Burda (2014). Synthesis and Photoelectrochemical Properties of (Cu2Sn)xZn3(1−x)S3 Nanocrystal Films. *The Journal of Physical Chemistry C*, 118, 11954–11963. [10.1021/jp500270d](https://doi.org/10.1021/jp500270d). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=chen2014-jp500270d-cuznsns).
 
 - Mickael D. Tessier, Dorian Dupont, Kim De Nolf, Jonathan De Roo, Zeger Hens (2015). Economic and Size-Tunable Synthesis of InP/ZnE (E = S, Se) Colloidal Quantum Dots. [10.1021/acs.chemmater.5b02138](https://doi.org/10.1021/acs.chemmater.5b02138). Review scope remains stated in the linked website records.
 

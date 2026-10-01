@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 135,
+  "material_families": 141,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -9,6 +9,10 @@
     "(C12H28N)2SbCl5",
     "(C12H28N)SbCl4",
     "(C14H29NH3)4AgBiI8",
+    "(Cu2Sn)0.05Zn2.85S3",
+    "(Cu2Sn)0.1Zn2.7S3",
+    "(Cu2Sn)0.25Zn2.25S3",
+    "(Cu2Sn)0.45Zn1.65S3",
     "(Sc2O3)0.08(ZrO2)0.92",
     "Ag",
     "Ag/Si",
@@ -66,6 +70,7 @@
     "Cu2-xTe",
     "Cu2S",
     "Cu2SnS3",
+    "Cu2ZnSnS4",
     "Cu3SbS3",
     "Cu3SbS3 + Cu12Sb4S13",
     "Cu3SbS4",
@@ -132,6 +137,7 @@
     "ZnO",
     "ZnO:Co",
     "ZnO:Ni",
+    "ZnS",
     "ZnS:Mn",
     "ZnSSeTe",
     "ZnSTe",
@@ -139,18 +145,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 139,
+  "contributing_papers": 140,
   "source_coverage": {
-    "total_contributing_papers": 139,
-    "reviewed_contributing_papers": 139,
+    "total_contributing_papers": 140,
+    "reviewed_contributing_papers": 140,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 490,
-  "more_comprehensive_pairs": 3,
-  "partial_pairs": 487,
+  "synthesis_structure_pairs": 496,
+  "more_comprehensive_pairs": 4,
+  "partial_pairs": 492,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1566,
+  "all_records": 1572,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -14662,6 +14668,2596 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2014-jp500270d-cuznsns-x000::chen2014-jp500270d-cuznsns-x000-nc-product",
+      "record_id": "chen2014-jp500270d-cuznsns-x000",
+      "record_page_path": "records/chen2014-jp500270d-cuznsns-x000.html",
+      "source_group": "chen2014-jp500270d-cuznsns",
+      "title": "ZnS (x = 0) · hot-injection nanocrystal synthesis",
+      "doi": "10.1021/jp500270d",
+      "year": 2014,
+      "method": "Colloidal hot injection",
+      "recipe_label": "ZnS (x = 0) · hot-injection nanocrystal synthesis",
+      "sample_id": "chen2014-jp500270d-cuznsns-x000-nc-product",
+      "source_sample_label": "nominal x = 0; ZnS (x = 0); Figure 4f",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnS (x = 0)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2014-jp500270d-cuznsns",
+            "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+          }
+        ],
+        "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "small nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-crystalline-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 3.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystalline size, not TEM particle size",
+            "raw_text": "3.1 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Table 1; author-derived from XRD peak width",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-particle-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "TEM qualitative size estimate",
+            "raw_text": "~3 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 4f",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1"
+            },
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "ZnS (x = 0)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+              }
+            ],
+            "note": "Nominal intended x-series formula from precursor ratio; measured EDX composition is not assumed equal to this label."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chen2014-jp500270d-cuznsns-x000-nc-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "ZnS (x = 0)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite ZnS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+            },
+            "morphology": {
+              "value": "small nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-crystalline-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-particle-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "more_comprehensive",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [],
+        "reference_ids": [
+          "zns-wurtzite-cod-1100044"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "oleylamine-flask",
+            "oleylamine-stock",
+            "sulfur-powder",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "oleylamine-flask",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "20.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2014-jp500270d-cuznsns-x005::chen2014-jp500270d-cuznsns-x005-nc-product",
+      "record_id": "chen2014-jp500270d-cuznsns-x005",
+      "record_page_path": "records/chen2014-jp500270d-cuznsns-x005.html",
+      "source_group": "chen2014-jp500270d-cuznsns",
+      "title": "(Cu2Sn)0.05Zn2.85S3 · hot-injection nanocrystal synthesis",
+      "doi": "10.1021/jp500270d",
+      "year": 2014,
+      "method": "Colloidal hot injection",
+      "recipe_label": "(Cu2Sn)0.05Zn2.85S3 · hot-injection nanocrystal synthesis",
+      "sample_id": "chen2014-jp500270d-cuznsns-x005-nc-product",
+      "source_sample_label": "nominal x = 0.05; (Cu2Sn)0.05Zn2.85S3; Figure 4e",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(Cu2Sn)0.05Zn2.85S3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2014-jp500270d-cuznsns",
+            "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+          }
+        ],
+        "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "mixture of kesterite quaternary nanocrystals and wurtzite ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": "Author XRD/Table 1 assignment; x=0.05 is explicitly a physical mixture, not a single refined phase."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "large aggregates with small nanocrystals (~3 nm); product mixture, not one uniform population",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-crystalline-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 24.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystalline size, not TEM particle size",
+            "raw_text": "24.2 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Table 1; author-derived from XRD peak width",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(Cu2Sn)0.05Zn2.85S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+              }
+            ],
+            "note": "Nominal intended x-series formula from precursor ratio; measured EDX composition is not assumed equal to this label."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chen2014-jp500270d-cuznsns-x005-nc-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "(Cu2Sn)0.05Zn2.85S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+          },
+          "structure": {
+            "phase": {
+              "value": "mixture of kesterite quaternary nanocrystals and wurtzite ZnS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": "Author XRD/Table 1 assignment; x=0.05 is explicitly a physical mixture, not a single refined phase."
+            },
+            "morphology": {
+              "value": "large aggregates with small nanocrystals (~3 nm); product mixture, not one uniform population",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-crystalline-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "zns-wurtzite-cod-1100044"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "oleylamine-flask",
+            "oleylamine-stock",
+            "sulfur-powder",
+            "tin-chloride",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.053333,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "tin-chloride",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.026667,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.52,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "oleylamine-flask",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "20.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2014-jp500270d-cuznsns-x010::chen2014-jp500270d-cuznsns-x010-nc-product",
+      "record_id": "chen2014-jp500270d-cuznsns-x010",
+      "record_page_path": "records/chen2014-jp500270d-cuznsns-x010.html",
+      "source_group": "chen2014-jp500270d-cuznsns",
+      "title": "(Cu2Sn)0.1Zn2.7S3 · hot-injection nanocrystal synthesis",
+      "doi": "10.1021/jp500270d",
+      "year": 2014,
+      "method": "Colloidal hot injection",
+      "recipe_label": "(Cu2Sn)0.1Zn2.7S3 · hot-injection nanocrystal synthesis",
+      "sample_id": "chen2014-jp500270d-cuznsns-x010-nc-product",
+      "source_sample_label": "nominal x = 0.1; (Cu2Sn)0.1Zn2.7S3; Figure 4d",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(Cu2Sn)0.1Zn2.7S3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2014-jp500270d-cuznsns",
+            "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+          }
+        ],
+        "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "dominant kesterite with wurtzite polytypism",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "curved wirelike nanocrystals; agglomeration reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-crystalline-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 17.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystalline size, not TEM particle size",
+            "raw_text": "17 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Table 1; author-derived from XRD peak width",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-wire-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Figure 4g / prose endpoint estimate",
+            "raw_text": "7.7 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Curved wire population, x=0.10",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1"
+            },
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(Cu2Sn)0.1Zn2.7S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+              }
+            ],
+            "note": "Nominal intended x-series formula from precursor ratio; measured EDX composition is not assumed equal to this label."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chen2014-jp500270d-cuznsns-x010-nc-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "(Cu2Sn)0.1Zn2.7S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+          },
+          "structure": {
+            "phase": {
+              "value": "dominant kesterite with wurtzite polytypism",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+            },
+            "morphology": {
+              "value": "curved wirelike nanocrystals; agglomeration reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-crystalline-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-wire-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "oleylamine-flask",
+            "oleylamine-stock",
+            "sulfur-powder",
+            "tin-chloride",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.106667,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "tin-chloride",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.053333,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.44,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "oleylamine-flask",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "20.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2014-jp500270d-cuznsns-x025::chen2014-jp500270d-cuznsns-x025-nc-product",
+      "record_id": "chen2014-jp500270d-cuznsns-x025",
+      "record_page_path": "records/chen2014-jp500270d-cuznsns-x025.html",
+      "source_group": "chen2014-jp500270d-cuznsns",
+      "title": "(Cu2Sn)0.25Zn2.25S3 · hot-injection nanocrystal synthesis",
+      "doi": "10.1021/jp500270d",
+      "year": 2014,
+      "method": "Colloidal hot injection",
+      "recipe_label": "(Cu2Sn)0.25Zn2.25S3 · hot-injection nanocrystal synthesis",
+      "sample_id": "chen2014-jp500270d-cuznsns-x025-nc-product",
+      "source_sample_label": "nominal x = 0.25; (Cu2Sn)0.25Zn2.25S3; Figure 4c",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(Cu2Sn)0.25Zn2.25S3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2014-jp500270d-cuznsns",
+            "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+          }
+        ],
+        "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "kesterite-indexed; very weak near-27° wurtzite feature also reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "rodlike nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-crystalline-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystalline size, not TEM particle size",
+            "raw_text": "13.2 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Table 1; author-derived from XRD peak width",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(Cu2Sn)0.25Zn2.25S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+              }
+            ],
+            "note": "Nominal intended x-series formula from precursor ratio; measured EDX composition is not assumed equal to this label."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chen2014-jp500270d-cuznsns-x025-nc-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "(Cu2Sn)0.25Zn2.25S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+          },
+          "structure": {
+            "phase": {
+              "value": "kesterite-indexed; very weak near-27° wurtzite feature also reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+            },
+            "morphology": {
+              "value": "rodlike nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-crystalline-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "oleylamine-flask",
+            "oleylamine-stock",
+            "sulfur-powder",
+            "tin-chloride",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.266667,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "tin-chloride",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.133333,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "oleylamine-flask",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "20.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2014-jp500270d-cuznsns-x045::chen2014-jp500270d-cuznsns-x045-nc-product",
+      "record_id": "chen2014-jp500270d-cuznsns-x045",
+      "record_page_path": "records/chen2014-jp500270d-cuznsns-x045.html",
+      "source_group": "chen2014-jp500270d-cuznsns",
+      "title": "(Cu2Sn)0.45Zn1.65S3 · hot-injection nanocrystal synthesis",
+      "doi": "10.1021/jp500270d",
+      "year": 2014,
+      "method": "Colloidal hot injection",
+      "recipe_label": "(Cu2Sn)0.45Zn1.65S3 · hot-injection nanocrystal synthesis",
+      "sample_id": "chen2014-jp500270d-cuznsns-x045-nc-product",
+      "source_sample_label": "nominal x = 0.45; (Cu2Sn)0.45Zn1.65S3; Figure 4b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(Cu2Sn)0.45Zn1.65S3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2014-jp500270d-cuznsns",
+            "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+          }
+        ],
+        "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "kesterite-indexed; very weak near-27° wurtzite feature also reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "rodlike nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-crystalline-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystalline size, not TEM particle size",
+            "raw_text": "11.6 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Table 1; author-derived from XRD peak width",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(Cu2Sn)0.45Zn1.65S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+              }
+            ],
+            "note": "Nominal intended x-series formula from precursor ratio; measured EDX composition is not assumed equal to this label."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chen2014-jp500270d-cuznsns-x045-nc-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "(Cu2Sn)0.45Zn1.65S3",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+          },
+          "structure": {
+            "phase": {
+              "value": "kesterite-indexed; very weak near-27° wurtzite feature also reported",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+            },
+            "morphology": {
+              "value": "rodlike nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-crystalline-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "oleylamine-flask",
+            "oleylamine-stock",
+            "sulfur-powder",
+            "tin-chloride",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.48,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "tin-chloride",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.24,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.88,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "oleylamine-flask",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "20.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2014-jp500270d-cuznsns-x075::chen2014-jp500270d-cuznsns-x075-nc-product",
+      "record_id": "chen2014-jp500270d-cuznsns-x075",
+      "record_page_path": "records/chen2014-jp500270d-cuznsns-x075.html",
+      "source_group": "chen2014-jp500270d-cuznsns",
+      "title": "(Cu2Sn)0.75Zn0.75S3 (CZTS) · hot-injection nanocrystal synthesis",
+      "doi": "10.1021/jp500270d",
+      "year": 2014,
+      "method": "Colloidal hot injection",
+      "recipe_label": "(Cu2Sn)0.75Zn0.75S3 (CZTS) · hot-injection nanocrystal synthesis",
+      "sample_id": "chen2014-jp500270d-cuznsns-x075-nc-product",
+      "source_sample_label": "nominal x = 0.75; (Cu2Sn)0.75Zn0.75S3 (CZTS); Figure 4a",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "(Cu2Sn)0.75Zn0.75S3 (CZTS)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2014-jp500270d-cuznsns",
+            "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+          }
+        ],
+        "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "chen2014-jp500270d-cuznsns",
+          "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "kesterite CZTS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "approximately spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "scherrer-crystalline-size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 11.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Scherrer crystalline size, not TEM particle size",
+            "raw_text": "11.7 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD Scherrer equation",
+          "conditions": "Table 1; author-derived from XRD peak width",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-particle-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 12,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "TEM qualitative size estimate",
+            "raw_text": "~12 nm",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Figure 4a",
+          "evidence": [
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1"
+            },
+            {
+              "source_id": "chen2014-jp500270d-cuznsns",
+              "locator": "Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "(Cu2Sn)0.75Zn0.75S3 (CZTS)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+              }
+            ],
+            "note": "Nominal intended x-series formula from precursor ratio; measured EDX composition is not assumed equal to this label."
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chen2014-jp500270d-cuznsns-x075-nc-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "(Cu2Sn)0.75Zn0.75S3 (CZTS)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2014-jp500270d-cuznsns",
+                "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure"
+              }
+            ],
+            "note": "This formula is the nominal x-series label defined by the precursor mixing ratio, not an exact measured product composition. Figure 6 EDX reports deviations from stoichiometric ratios and sulfur deficiency; retain analyzed composition separately."
+          },
+          "structure": {
+            "phase": {
+              "value": "kesterite CZTS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.4 / printed 11957, Figure 2, Table 1 and Crystal Structure; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": "Author XRD/Table 1 assignment; no sample-specific atomic coordinates."
+            },
+            "morphology": {
+              "value": "approximately spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chen2014-jp500270d-cuznsns",
+                  "locator": "Main PDF p.3 / printed 11956, Results, Optical Properties and NC Size and Shape, Figure 1; Main PDF p.5 / printed 11958, Figures 4–5 and NC Size and Shape/Crystal Structure"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "scherrer-crystalline-size",
+                "property": "crystallite_size",
+                "field": "crystal_structure.coherence_length"
+              },
+              {
+                "measurement_id": "tem-particle-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "copper-acetate",
+            "oleylamine-flask",
+            "oleylamine-stock",
+            "sulfur-powder",
+            "tin-chloride",
+            "zinc-acetate"
+          ],
+          "fields": [
+            {
+              "material_id": "copper-acetate",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "tin-chloride",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "zinc-acetate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "calculated",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "calculated from reported total and nominal cation ratio",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": "1.6 mmol total metal salts × nominal cation fraction from (Cu2Sn)xZn3(1−x)S3; Cu=2x/3, Sn=x/3, Zn=1−x"
+              }
+            },
+            {
+              "material_id": "oleylamine-flask",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "20.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "pointer": "/materials/4/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sulfur-powder",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "1.6 mmol",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine-stock",
+              "stock_id": "sulfur-oleylamine-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "source-reported quantity",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "chen2014-jp500270d-cuznsns",
+                    "locator": "Main PDF p.2 / printed 11955, Experimental, Synthesis of (Cu2Sn)xZn3(1−x)S3 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
