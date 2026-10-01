@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 537,
-    "source_groups": 129,
-    "records": 495,
+    "recipe_structure_rows": 545,
+    "source_groups": 131,
+    "records": 502,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -44210,6 +44210,612 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "li1999-ag-dbs-jcis5879-dbs-aged-3mo::li1999-ag-dbs-jcis5879-dbs-aged-colloid",
+      "record_id": "li1999-ag-dbs-jcis5879-dbs-aged-3mo",
+      "record_page_path": "records/li1999-ag-dbs-jcis5879-dbs-aged-3mo.html",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "title": "Li et al. (1999): DBS-stabilized Ag colloid after three months",
+      "doi": "10.1006/jcis.1998.5879",
+      "year": 1999,
+      "method": "Aqueous silver-ammine reduction with hydrazine and DBS",
+      "recipe_label": "Li et al. (1999): DBS-stabilized Ag colloid after three months",
+      "sample_id": "li1999-ag-dbs-jcis5879-dbs-aged-colloid",
+      "source_sample_label": "DBS Ag colloid after three months (Figure 2e)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li1999-ag-dbs-jcis5879",
+            "locator": "Main PDF p.3 / printed 349, fresh-versus-three-month colloid paragraph and Figure 2e"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li1999-ag-dbs-jcis5879",
+          "locator": "Main PDF p.3 / printed 349, fresh-versus-three-month colloid paragraph and Figure 2e",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Larger Ag colloid particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.3 / printed 349, fresh-versus-three-month colloid paragraph and Figure 2e"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Experimental, silver-ammine and reduction procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No separately specified phase target for storage branch."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "li1999-ag-dbs-jcis5879-dbs-aged-colloid",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "aged-colloid-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.3 / printed 349, fresh-versus-three-month colloid paragraph and Figure 2e"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Aged colloid was not separately assigned a phase by XRD; cubic Ag refers to fresh route powder."
+            },
+            "morphology": {
+              "value": "Larger Ag colloid particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1999-ag-dbs-jcis5879",
+                  "locator": "Main PDF p.3 / printed 349, fresh-versus-three-month colloid paragraph and Figure 2e"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li1999-ag-dbs-jcis5879-dbs-fresh::li1999-ag-dbs-jcis5879-dbs-fresh-colloid",
+      "record_id": "li1999-ag-dbs-jcis5879-dbs-fresh",
+      "record_page_path": "records/li1999-ag-dbs-jcis5879-dbs-fresh.html",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "title": "Li et al. (1999): newly prepared DBS-stabilized Ag colloid",
+      "doi": "10.1006/jcis.1998.5879",
+      "year": 1999,
+      "method": "Aqueous silver-ammine reduction with hydrazine and DBS",
+      "recipe_label": "Li et al. (1999): newly prepared DBS-stabilized Ag colloid",
+      "sample_id": "li1999-ag-dbs-jcis5879-dbs-fresh-colloid",
+      "source_sample_label": "Newly prepared Ag colloid with DBS (Figure 2d)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li1999-ag-dbs-jcis5879",
+            "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li1999-ag-dbs-jcis5879",
+          "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Dispersed Ag colloid particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Experimental, silver-ammine and reduction procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "li1999-ag-dbs-jcis5879-dbs-fresh-colloid",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "fresh-product-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Figure 1b indexes recovered DBS-route powder to cubic Ag; the fresh colloid in Figure 2d was not separately measured by XRD."
+            },
+            "morphology": {
+              "value": "Dispersed Ag colloid particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1999-ag-dbs-jcis5879",
+                  "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li1999-ag-dbs-jcis5879-dbs-fresh::li1999-ag-dbs-jcis5879-dbs-recovered-powder",
+      "record_id": "li1999-ag-dbs-jcis5879-dbs-fresh",
+      "record_page_path": "records/li1999-ag-dbs-jcis5879-dbs-fresh.html",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "title": "Li et al. (1999): newly prepared DBS-stabilized Ag colloid",
+      "doi": "10.1006/jcis.1998.5879",
+      "year": 1999,
+      "method": "Aqueous silver-ammine reduction with hydrazine and DBS",
+      "recipe_label": "Li et al. (1999): newly prepared DBS-stabilized Ag colloid",
+      "sample_id": "li1999-ag-dbs-jcis5879-dbs-recovered-powder",
+      "source_sample_label": "Recovered DBS-route Ag powder (Figure 1b; Figure 2b/c beam context)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li1999-ag-dbs-jcis5879",
+            "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li1999-ag-dbs-jcis5879",
+          "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+              }
+            ],
+            "note": "Source XRD indexes the two preparation routes to cubic Ag; no atomic positions were refined."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Experimental, silver-ammine and reduction procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "li1999-ag-dbs-jcis5879-dbs-recovered-powder",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "recovered-powder-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic Ag",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1999-ag-dbs-jcis5879",
+                  "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+                }
+              ],
+              "note": "Source XRD indexes the two preparation routes to cubic Ag; no atomic positions were refined."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No stable native morphology assigned."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li1999-ag-dbs-jcis5879-no-dbs::li1999-ag-dbs-jcis5879-no-dbs-powder",
+      "record_id": "li1999-ag-dbs-jcis5879-no-dbs",
+      "record_page_path": "records/li1999-ag-dbs-jcis5879-no-dbs.html",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "title": "Li et al. (1999): Ag powder reduced without DBS",
+      "doi": "10.1006/jcis.1998.5879",
+      "year": 1999,
+      "method": "Aqueous silver-ammine reduction with hydrazine",
+      "recipe_label": "Li et al. (1999): Ag powder reduced without DBS",
+      "sample_id": "li1999-ag-dbs-jcis5879-no-dbs-powder",
+      "source_sample_label": "Without DBS, recovered light-gray Ag powder (Figure 1a, Figure 2a)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li1999-ag-dbs-jcis5879",
+            "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li1999-ag-dbs-jcis5879",
+          "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+              }
+            ],
+            "note": "Source XRD indexes the two preparation routes to cubic Ag; no atomic positions were refined."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Strongly agglomerated, irregular particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Experimental, silver-ammine and reduction procedure"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "cubic Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "li1999-ag-dbs-jcis5879-no-dbs-powder",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "recovered-powder-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li1999-ag-dbs-jcis5879",
+                "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic Ag",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1999-ag-dbs-jcis5879",
+                  "locator": "Main PDF p.1 / printed 347, Figure 1 caption and p.2 / printed 348, XRD discussion"
+                }
+              ],
+              "note": "Source XRD indexes the two preparation routes to cubic Ag; no atomic positions were refined."
+            },
+            "morphology": {
+              "value": "Strongly agglomerated, irregular particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li1999-ag-dbs-jcis5879",
+                  "locator": "Main PDF p.2 / printed 348, Figure 2 caption and p.3 / printed 349, TEM discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "li2000-cu2sns3-ethylenediamine-solvothermal::high-temp-grain-context",
       "record_id": "li2000-cu2sns3-ethylenediamine-solvothermal",
       "record_page_path": "records/li2000-cu2sns3-ethylenediamine-solvothermal.html",
@@ -82889,6 +83495,810 @@
               "note": ""
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tan2006-ag-ag2se-jp0616011-ag-seed::tan2006-ag-ag2se-jp0616011-ag-seed-sample",
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag-seed",
+      "record_page_path": "records/tan2006-ag-ag2se-jp0616011-ag-seed.html",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "title": "Tan et al. (2006): 50 nm citrate-reduced Ag seed colloid",
+      "doi": "10.1021/jp0616011",
+      "year": 2006,
+      "method": "Citrate reduction of silver nitrate",
+      "recipe_label": "Tan et al. (2006): 50 nm citrate-reduced Ag seed colloid",
+      "sample_id": "tan2006-ag-ag2se-jp0616011-ag-seed-sample",
+      "source_sample_label": "Figure 1a / Figure 2a / Figure 3a / Figure 4a initial Ag",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tan2006-ag-ag2se-jp0616011",
+            "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.1 / printed 15812, Experimental Section, citrate Ag-colloid reduction",
+          "claim": null
+        },
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic fcc Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.4 / printed 15815, Figure 4 ED panels a/b"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Near-spherical Ag colloids",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "ag-seed-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 50,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported spread ±10 nm; statistic unspecified.",
+            "basis": "",
+            "raw_text": "50 ± 10 nm",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Mean over TEM particles; article describes >200-particle counting method.",
+          "evidence": [
+            {
+              "source_id": "tan2006-ag-ag2se-jp0616011",
+              "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, citrate Ag-colloid reduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic fcc Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.4 / printed 15815, Figure 4 ED panels a/b"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Near-spherical Ag nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Citrate-stabilized starting Ag colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, citrate Ag-colloid reduction"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tan2006-ag-ag2se-jp0616011-ag-seed-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic fcc Ag",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.4 / printed 15815, Figure 4 ED panels a/b"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Near-spherical Ag colloids",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "ag-seed-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tan2006-ag-ag2se-jp0616011-ag2se-10min::tan2006-ag-ag2se-jp0616011-10min-sample",
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag2se-10min",
+      "record_page_path": "records/tan2006-ag-ag2se-jp0616011-ag2se-10min.html",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "title": "Tan et al. (2006): Ag/Ag2Se at 10 min UV exposure",
+      "doi": "10.1021/jp0616011",
+      "year": 2006,
+      "method": "254 nm UV photolysis of CSe2 at citrate Ag-colloid surface",
+      "recipe_label": "Tan et al. (2006): Ag/Ag2Se at 10 min UV exposure",
+      "sample_id": "tan2006-ag-ag2se-jp0616011-10min-sample",
+      "source_sample_label": "Figure 1c; Figure 2c; Figure 3c",
+      "batch_id": "Tan2006 shared Ag/CSe2 photolysis time course",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag core / Ag2Se shell",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tan2006-ag-ag2se-jp0616011",
+            "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.1 / printed 15812, Experimental Section, UV photolysis charge and lamp",
+          "claim": null
+        },
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic Ag core and orthorhombic Ag2Se shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core-shell Ag@Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag/Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, UV photolysis charge and lamp"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic Ag core and orthorhombic Ag2Se shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Core-shell Ag@Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Citrate-stabilized starting Ag colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, citrate Ag-colloid reduction"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tan2006-ag-ag2se-jp0616011-10min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Tan2006 shared Ag/CSe2 photolysis time course",
+          "material_state_id": "product",
+          "composition": {
+            "value": "Ag core / Ag2Se shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic Ag core and orthorhombic Ag2Se shell",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core-shell Ag@Ag2Se",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tan2006-ag-ag2se-jp0616011-ag2se-60min::tan2006-ag-ag2se-jp0616011-60min-sample",
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag2se-60min",
+      "record_page_path": "records/tan2006-ag-ag2se-jp0616011-ag2se-60min.html",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "title": "Tan et al. (2006): Ag/Ag2Se at 60 min UV exposure",
+      "doi": "10.1021/jp0616011",
+      "year": 2006,
+      "method": "254 nm UV photolysis of CSe2 at citrate Ag-colloid surface",
+      "recipe_label": "Tan et al. (2006): Ag/Ag2Se at 60 min UV exposure",
+      "sample_id": "tan2006-ag-ag2se-jp0616011-60min-sample",
+      "source_sample_label": "Figure 1e; Figure 2e; Figure 3e",
+      "batch_id": "Tan2006 shared Ag/CSe2 photolysis time course",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag core / Ag2Se shell",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tan2006-ag-ag2se-jp0616011",
+            "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.1 / printed 15812, Experimental Section, UV photolysis charge and lamp",
+          "claim": null
+        },
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic Ag and orthorhombic Ag2Se mixed phases",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag@Ag2Se with hollow interior beginning to form",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag/Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, UV photolysis charge and lamp"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic Ag and orthorhombic Ag2Se mixed phases",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Ag@Ag2Se with hollow interior beginning to form",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Citrate-stabilized starting Ag colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, citrate Ag-colloid reduction"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tan2006-ag-ag2se-jp0616011-60min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Tan2006 shared Ag/CSe2 photolysis time course",
+          "material_state_id": "product",
+          "composition": {
+            "value": "Ag core / Ag2Se shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic Ag and orthorhombic Ag2Se mixed phases",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Ag@Ag2Se with hollow interior beginning to form",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "tan2006-ag-ag2se-jp0616011-ag2se-90min::tan2006-ag-ag2se-jp0616011-90min-sample",
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag2se-90min",
+      "record_page_path": "records/tan2006-ag-ag2se-jp0616011-ag2se-90min.html",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "title": "Tan et al. (2006): Ag/Ag2Se at 90 min UV exposure",
+      "doi": "10.1021/jp0616011",
+      "year": 2006,
+      "method": "254 nm UV photolysis of CSe2 at citrate Ag-colloid surface",
+      "recipe_label": "Tan et al. (2006): Ag/Ag2Se at 90 min UV exposure",
+      "sample_id": "tan2006-ag-ag2se-jp0616011-90min-sample",
+      "source_sample_label": "Figure 1f; Figure 2f; Figure 3f",
+      "batch_id": "Tan2006 shared Ag/CSe2 photolysis time course",
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "tan2006-ag-ag2se-jp0616011",
+            "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.1 / printed 15812, Experimental Section, UV photolysis charge and lamp",
+          "claim": null
+        },
+        {
+          "source_id": "tan2006-ag-ag2se-jp0616011",
+          "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Orthorhombic Ag2Se without detected Ag core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Hollow Ag2Se nanoshell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "outer-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 70,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Reported spread ±10 nm; statistic unspecified.",
+            "basis": "",
+            "raw_text": "70 ± 10 nm",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.5 / printed 15816, Ag and Ag2Se size comparison"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "tan2006-ag-ag2se-jp0616011",
+              "locator": "Main PDF p.5 / printed 15816, Ag and Ag2Se size comparison"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, UV photolysis charge and lamp"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Orthorhombic Ag2Se without detected Ag core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Hollow Ag2Se nanoshell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Citrate-stabilized starting Ag colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.1 / printed 15812, Experimental Section, citrate Ag-colloid reduction"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "tan2006-ag-ag2se-jp0616011-90min-sample",
+          "parent_sample_id": null,
+          "batch_id": "Tan2006 shared Ag/CSe2 photolysis time course",
+          "material_state_id": "product",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "tan2006-ag-ag2se-jp0616011",
+                "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Orthorhombic Ag2Se without detected Ag core",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.3 / printed 15814, Figure 3 EDX/XRD panels a/c/e/f"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Hollow Ag2Se nanoshell",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "tan2006-ag-ag2se-jp0616011",
+                  "locator": "Main PDF p.2 / printed 15813, Figure 2 caption and TEM results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "outer-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              }
+            ]
           }
         }
       },

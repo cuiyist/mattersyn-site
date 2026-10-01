@@ -17,12 +17,12 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 1623,
+    "audited_task_profile_missing": 1630,
     "explicit_sample_recipe_link_missing": 2,
     "measured_label_not_approved": 7,
-    "no_sample_coordinate_asset": 1608,
+    "no_sample_coordinate_asset": 1612,
     "source_review_required": 100,
-    "task_not_requested": 1602
+    "task_not_requested": 1609
   },
   "records": [
     {
@@ -19434,6 +19434,149 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "li1999-ag-dbs-jcis5879-dbs-aged-3mo",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "measured_product_assets": [
+        {
+          "asset_id": "figure-2-tem",
+          "url": "assets/paper-reviews/li1999-ag-dbs-jcis5879/figure-2-tem.png",
+          "sample_id": "li1999-ag-dbs-jcis5879-dbs-aged-colloid",
+          "source_group": "li1999-ag-dbs-jcis5879",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "263c3ca157cc0186aa1bc8052c2261488347a91b7ba84501214152c33422747e",
+          "representation": "unclassified",
+          "label": "figure-2-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "li1999-ag-dbs-jcis5879-dbs-fresh",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "measured_product_assets": [
+        {
+          "asset_id": "figure-2-tem",
+          "url": "assets/paper-reviews/li1999-ag-dbs-jcis5879/figure-2-tem.png",
+          "sample_id": "li1999-ag-dbs-jcis5879-dbs-fresh-colloid",
+          "source_group": "li1999-ag-dbs-jcis5879",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "263c3ca157cc0186aa1bc8052c2261488347a91b7ba84501214152c33422747e",
+          "representation": "unclassified",
+          "label": "figure-2-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "figure-1-xrd",
+          "url": "assets/paper-reviews/li1999-ag-dbs-jcis5879/figure-1-xrd.png",
+          "sample_id": "li1999-ag-dbs-jcis5879-dbs-recovered-powder",
+          "source_group": "li1999-ag-dbs-jcis5879",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "322148d2c4d59787c7d85e1302fc551f24b3d67a484dd98a86735476544da1ad",
+          "representation": "unclassified",
+          "label": "figure-1-xrd",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "li1999-ag-dbs-jcis5879-no-dbs",
+      "source_group": "li1999-ag-dbs-jcis5879",
+      "measured_product_assets": [
+        {
+          "asset_id": "figure-1-xrd",
+          "url": "assets/paper-reviews/li1999-ag-dbs-jcis5879/figure-1-xrd.png",
+          "sample_id": "li1999-ag-dbs-jcis5879-no-dbs-powder",
+          "source_group": "li1999-ag-dbs-jcis5879",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "322148d2c4d59787c7d85e1302fc551f24b3d67a484dd98a86735476544da1ad",
+          "representation": "unclassified",
+          "label": "figure-1-xrd",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "figure-2-tem",
+          "url": "assets/paper-reviews/li1999-ag-dbs-jcis5879/figure-2-tem.png",
+          "sample_id": "li1999-ag-dbs-jcis5879-no-dbs-powder",
+          "source_group": "li1999-ag-dbs-jcis5879",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "263c3ca157cc0186aa1bc8052c2261488347a91b7ba84501214152c33422747e",
+          "representation": "unclassified",
+          "label": "figure-2-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
           },
           {
             "code": "audited_task_profile_missing",
@@ -39737,6 +39880,126 @@
     {
       "record_id": "stowell-2005-ir-topb-recycling-assay",
       "source_group": "stowell2005",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag-seed",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag2se-10min",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag2se-60min",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "tan2006-ag-ag2se-jp0616011-ag2se-90min",
+      "source_group": "tan2006-ag-ag2se-jp0616011",
       "measured_product_assets": [],
       "exact_structure_recipe": {
         "eligible": false,
