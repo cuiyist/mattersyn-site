@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **145 primary source groups** · release `workflow-v5-huang-chem-dierick-20261001`. Records are not independent experiments.
+Dataset **0.41.2** · **148 primary source groups** · release `v5-jbl-20261001`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -46,6 +46,8 @@ Dataset **0.41.2** · **145 primary source groups** · release `workflow-v5-huan
 - Yadong Li; Xiangfeng Duan; Hongwei Liao; Yitai Qian (1998). Self-Regulation Synthesis of Nanocrystalline ZnGa2O4 by Hydrothermal Reaction. *Chemistry of Materials*, 10, 17–18. [10.1021/cm970557m](https://doi.org/10.1021/cm970557m). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li1998znga2o4).
 
 - J. H. Zhan; Z. D. Zhang; X. F. Qian; C. Wang; Y. Xie; Y. T. Qian (1998). Solvothermal Synthesis of Nanocrystalline MoS2 from MoO3 and Elemental Sulfur. *Journal of Solid State Chemistry*, 141, 270–273. [10.1006/jssc.1998.7991](https://doi.org/10.1006/jssc.1998.7991). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhan1998-mos2-jssc19987991).
+
+- V. Buschmann; G. Van Tendeloo; Ph. Monnoyer; J. B. Nagy (1998). Structural Characterization of Colloidal Ag2Se Nanocrystals. *Langmuir*, 14, 1528–1531. [10.1021/la9713210](https://doi.org/10.1021/la9713210). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=buschmann1998-ag2se-la9713210).
 
 - Qingyi Lu; Junqing Hu; Kaibin Tang; Yitai Qian; Guien Zhou; Xianming Liu; Jinyun Xing (1999). A Low Temperature Nitridation Route for Nanocrystalline AlN. *Chemistry Letters*, 1239–1240. [10.1246/cl.1999.1239](https://doi.org/10.1246/cl.1999.1239). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=lu1999-aln).
 
@@ -88,6 +90,8 @@ Dataset **0.41.2** · **145 primary source groups** · release `workflow-v5-huan
 - W. X. Que; Y. Zhou; Y. L. Lam; C. H. Kam; J. Zhou; K. Pita; Y. C. Chan; S. Buddhudu; L. H. Gan; G. R. Deen (2001). Photoluminescence characteristics of neodymium oxide nanocrystal/titania/ormosil composite sol-gel thin films. *Applied Physics A*, 73, 485–488. [10.1007/s003390100786](https://doi.org/10.1007/s003390100786). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=que2001-nd2o3-s003390100786).
 
 - Guozhong Wang; Guanghai Li; Changhao Liang; Lide Zhang (2001). Sonochemical Synthesis and Phase Control of Nanocrystalline CdS. *Chemistry Letters*, 344–345. [10.1246/cl.2001.344](https://doi.org/10.1246/cl.2001.344). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=wang2001-cds-sonochemical).
+
+- Bin Li; Yi Xie; Yu Liu; Jiaxing Huang; Yitai Qian (2001). Sonochemical Synthesis of Nanocrystalline Silver Tellurides Ag2Te and Ag7Te4. *Journal of Solid State Chemistry*, 158, 260–263. [10.1006/jssc.2001.9103](https://doi.org/10.1006/jssc.2001.9103). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2001-ag2te-ag7te4-jssc9103).
 
 - Edward E. Foos; Rhonda M. Stroud; Alan D. Berry (2001). Synthesis and Characterization of Nanocrystalline Bismuth Telluride. *Nano Letters*, 1, 693–695. [10.1021/nl0156179](https://doi.org/10.1021/nl0156179). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=foos2001-bi2te3-nl0156179).
 
@@ -154,6 +158,8 @@ Dataset **0.41.2** · **145 primary source groups** · release `workflow-v5-huan
 - Cynthia A. Stowell and Brian A. Korgel (2005). Iridium Nanocrystal Synthesis and Surface Coating-Dependent Catalytic Activity. *Nano Letters*, 5, 1203–1207. [10.1021/nl050648f](https://doi.org/10.1021/nl050648f). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=stowell2005).
 
 - Ali Ghezelbash; Brian A. Korgel (2005). Nickel Sulfide and Copper Sulfide Nanocrystal Synthesis and Polymorphism. [10.1021/la051196p](https://doi.org/10.1021/la051196p). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ghezelbash2005-main).
+
+- Jacek Jasieniak; Craig Bullen; Joel van Embden; Paul Mulvaney (2005). Phosphine-Free Synthesis of CdSe Nanocrystals. *The Journal of Physical Chemistry B*, 20665–20668. [10.1021/jp054289o](https://doi.org/10.1021/jp054289o). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=jasieniak2005-cdse-jp054289o).
 
 - Yongan Andrew Yang; Huimeng Wu; Kathryn R. Williams; Y. Charles Cao (2005). Synthesis of CdSe and CdTe Nanocrystals without Precursor Injection. *Angewandte Chemie International Edition*, 44, 6712–6715. [10.1002/anie.200502279](https://doi.org/10.1002/anie.200502279). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=yang2005-anie200502279).
 

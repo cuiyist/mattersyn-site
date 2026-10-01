@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 519,
-    "source_groups": 125,
-    "records": 477,
+    "recipe_structure_rows": 533,
+    "source_groups": 128,
+    "records": 491,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -6935,6 +6935,658 @@
                 "field": "architecture.host_or_film_geometry"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "buschmann1998-ag2se-la9713210-double-jet::buschmann1998-ag2se-la9713210-double-jet-fresh-cluster",
+      "record_id": "buschmann1998-ag2se-la9713210-double-jet",
+      "record_page_path": "records/buschmann1998-ag2se-la9713210-double-jet.html",
+      "source_group": "buschmann1998-ag2se-la9713210",
+      "title": "Buschmann et al. (1998): colloidal Ag2Se, double-jet precipitation",
+      "doi": "10.1021/la9713210",
+      "year": 1998,
+      "method": "Double-jet aqueous precipitation",
+      "recipe_label": "Buschmann et al. (1998): colloidal Ag2Se, double-jet precipitation",
+      "sample_id": "buschmann1998-ag2se-la9713210-double-jet-fresh-cluster",
+      "source_sample_label": "Double-jet Ag2Se cluster, Figure 2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "buschmann1998-ag2se-la9713210",
+            "locator": "Main PDF p.2 / printed 1529, Results, double-jet HREM/EDX"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.1 / printed 1528, Experimental Section, double-jet route",
+          "claim": null
+        },
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Figure 2 caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.2 / printed 1529, Figure 2 caption and adjacent HREM result"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.2 / printed 1529, Results and Figures 2/4, group-level HREM phase"
+              }
+            ],
+            "note": "Figure 2 is an identified double-jet orthorhombic cluster; the aged Figure 3 cluster is a separate observed particle."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target diameter prescribed",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The route aims at clusters; no target shape is prescribed."
+          },
+          "surface": {
+            "value": "gelatine protective colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Introduction and Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "buschmann1998-ag2se-la9713210-double-jet-fresh-cluster",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "colloid",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.2 / printed 1529, Results, double-jet HREM/EDX"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "orthorhombic",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.2 / printed 1529, Figure 2 caption and adjacent HREM result"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "nanoscale colloidal clusters; 3D shape not established",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.2 / printed 1529, Figures 1–2, 2D microscopy projection"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "buschmann1998-ag2se-la9713210-micro-063::buschmann1998-ag2se-la9713210-micro-063-product",
+      "record_id": "buschmann1998-ag2se-la9713210-micro-063",
+      "record_page_path": "records/buschmann1998-ag2se-la9713210-micro-063.html",
+      "source_group": "buschmann1998-ag2se-la9713210",
+      "title": "Buschmann et al. (1998): colloidal Ag2Se, microemulsion, AgNO3 0.063 M",
+      "doi": "10.1021/la9713210",
+      "year": 1998,
+      "method": "AOT water-in-heptane microemulsion mixing",
+      "recipe_label": "Buschmann et al. (1998): colloidal Ag2Se, microemulsion, AgNO3 0.063 M",
+      "sample_id": "buschmann1998-ag2se-la9713210-micro-063-product",
+      "source_sample_label": "Figure 1 microemulsion size distribution, AgNO3 0.063 M",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "buschmann1998-ag2se-la9713210",
+            "locator": "Main PDF p.1 / printed 1528, Abstract; microemulsion product"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Experimental Section, AgNO3 concentration series",
+          "claim": null
+        },
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Figure 1 legend and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.3 / printed 1530, Microemulsion group SAD/HREM; Figure 4 concentration not assigned"
+              }
+            ],
+            "note": "Group-level phase; Figure 4 is not assigned to this concentration-specific sample."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.3 / printed 1530, Results and Figures 2/4, group-level HREM phase"
+              }
+            ],
+            "note": "Orthorhombic phase and Figure 4 are assigned to the microemulsion group; Figure 4 is not assigned to a specific AgNO3 concentration."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target diameter prescribed",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The route aims at clusters; no target shape is prescribed."
+          },
+          "surface": {
+            "value": "AOT surfactant",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.2 / printed 1529, Introduction and Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "buschmann1998-ag2se-la9713210-micro-063-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nanocrystal-colloid",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; microemulsion product"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "orthorhombic",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.3 / printed 1530, Microemulsion group SAD/HREM; Figure 4 concentration not assigned"
+                }
+              ],
+              "note": "Group-level phase; Figure 4 is not assigned to this concentration-specific sample."
+            },
+            "morphology": {
+              "value": "colloidal nanoclusters; 3D morphology unassigned",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.2 / printed 1529, Figure 1 size distributions; Figure 4 representative HREM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "buschmann1998-ag2se-la9713210-micro-125::buschmann1998-ag2se-la9713210-micro-125-product",
+      "record_id": "buschmann1998-ag2se-la9713210-micro-125",
+      "record_page_path": "records/buschmann1998-ag2se-la9713210-micro-125.html",
+      "source_group": "buschmann1998-ag2se-la9713210",
+      "title": "Buschmann et al. (1998): colloidal Ag2Se, microemulsion, AgNO3 0.125 M",
+      "doi": "10.1021/la9713210",
+      "year": 1998,
+      "method": "AOT water-in-heptane microemulsion mixing",
+      "recipe_label": "Buschmann et al. (1998): colloidal Ag2Se, microemulsion, AgNO3 0.125 M",
+      "sample_id": "buschmann1998-ag2se-la9713210-micro-125-product",
+      "source_sample_label": "Figure 1 microemulsion size distribution, AgNO3 0.125 M",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "buschmann1998-ag2se-la9713210",
+            "locator": "Main PDF p.1 / printed 1528, Abstract; microemulsion product"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Experimental Section, AgNO3 concentration series",
+          "claim": null
+        },
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Figure 1 legend and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.3 / printed 1530, Microemulsion group SAD/HREM; Figure 4 concentration not assigned"
+              }
+            ],
+            "note": "Group-level phase; Figure 4 is not assigned to this concentration-specific sample."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.3 / printed 1530, Results and Figures 2/4, group-level HREM phase"
+              }
+            ],
+            "note": "Orthorhombic phase and Figure 4 are assigned to the microemulsion group; Figure 4 is not assigned to a specific AgNO3 concentration."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target diameter prescribed",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The route aims at clusters; no target shape is prescribed."
+          },
+          "surface": {
+            "value": "AOT surfactant",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.2 / printed 1529, Introduction and Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "buschmann1998-ag2se-la9713210-micro-125-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nanocrystal-colloid",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; microemulsion product"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "orthorhombic",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.3 / printed 1530, Microemulsion group SAD/HREM; Figure 4 concentration not assigned"
+                }
+              ],
+              "note": "Group-level phase; Figure 4 is not assigned to this concentration-specific sample."
+            },
+            "morphology": {
+              "value": "colloidal nanoclusters; 3D morphology unassigned",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.2 / printed 1529, Figure 1 size distributions; Figure 4 representative HREM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "buschmann1998-ag2se-la9713210-micro-250::buschmann1998-ag2se-la9713210-micro-250-product",
+      "record_id": "buschmann1998-ag2se-la9713210-micro-250",
+      "record_page_path": "records/buschmann1998-ag2se-la9713210-micro-250.html",
+      "source_group": "buschmann1998-ag2se-la9713210",
+      "title": "Buschmann et al. (1998): colloidal Ag2Se, microemulsion, AgNO3 0.25 M",
+      "doi": "10.1021/la9713210",
+      "year": 1998,
+      "method": "AOT water-in-heptane microemulsion mixing",
+      "recipe_label": "Buschmann et al. (1998): colloidal Ag2Se, microemulsion, AgNO3 0.25 M",
+      "sample_id": "buschmann1998-ag2se-la9713210-micro-250-product",
+      "source_sample_label": "Figure 1 microemulsion size distribution, AgNO3 0.25 M",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "buschmann1998-ag2se-la9713210",
+            "locator": "Main PDF p.1 / printed 1528, Abstract; microemulsion product"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Experimental Section, AgNO3 concentration series",
+          "claim": null
+        },
+        {
+          "source_id": "buschmann1998-ag2se-la9713210",
+          "locator": "Main PDF p.2 / printed 1529, Figure 1 legend and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.3 / printed 1530, Microemulsion group SAD/HREM; Figure 4 concentration not assigned"
+              }
+            ],
+            "note": "Group-level phase; Figure 4 is not assigned to this concentration-specific sample."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.3 / printed 1530, Results and Figures 2/4, group-level HREM phase"
+              }
+            ],
+            "note": "Orthorhombic phase and Figure 4 are assigned to the microemulsion group; Figure 4 is not assigned to a specific AgNO3 concentration."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target diameter prescribed",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The route aims at clusters; no target shape is prescribed."
+          },
+          "surface": {
+            "value": "AOT surfactant",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.2 / printed 1529, Introduction and Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "buschmann1998-ag2se-la9713210-micro-250-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "nanocrystal-colloid",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "buschmann1998-ag2se-la9713210",
+                "locator": "Main PDF p.1 / printed 1528, Abstract; microemulsion product"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "orthorhombic",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.3 / printed 1530, Microemulsion group SAD/HREM; Figure 4 concentration not assigned"
+                }
+              ],
+              "note": "Group-level phase; Figure 4 is not assigned to this concentration-specific sample."
+            },
+            "morphology": {
+              "value": "colloidal nanoclusters; 3D morphology unassigned",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "buschmann1998-ag2se-la9713210",
+                  "locator": "Main PDF p.2 / printed 1529, Figure 1 size distributions; Figure 4 representative HREM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -34580,6 +35232,1246 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-phosphinefree::cdse-phosphinefree-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-phosphinefree",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-phosphinefree.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · TMPPA–TOP-free comparison",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · TMPPA–TOP-free comparison",
+      "sample_id": "cdse-phosphinefree-route-family",
+      "source_sample_label": "TMPPA–TOP-free comparison CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "zinc blende",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+              }
+            ],
+            "note": "Route-family powder XRD Figure 3C; source does not identify a physical aliquot or supply measured atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-phosphinefree-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "zinc blende",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+                }
+              ],
+              "note": "Route-family powder XRD Figure 3C; source does not identify a physical aliquot or supply measured atomic coordinates."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-phosphinefree-top::cdse-phosphinefree-top-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-phosphinefree-top",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-phosphinefree-top.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · TMPPA-free with added TOP comparison",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · TMPPA-free with added TOP comparison",
+      "sample_id": "cdse-phosphinefree-top-route-family",
+      "source_sample_label": "TMPPA-free with added TOP comparison CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "zinc blende",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+              }
+            ],
+            "note": "Route-family powder XRD Figure 3D; source does not identify a physical aliquot or supply measured atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-phosphinefree-top-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "zinc blende",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+                }
+              ],
+              "note": "Route-family powder XRD Figure 3D; source does not identify a physical aliquot or supply measured atomic coordinates."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-top000::cdse-top000-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-top000",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-top000.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · Table 1 reaction 1, TOP-free",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · Table 1 reaction 1, TOP-free",
+      "sample_id": "cdse-top000-route-family",
+      "source_sample_label": "Table 1 reaction 1, TOP-free CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+              }
+            ],
+            "note": "Route-family powder XRD Figure 3B; source does not identify a physical aliquot or supply measured atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-top000-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+                }
+              ],
+              "note": "Route-family powder XRD Figure 3B; source does not identify a physical aliquot or supply measured atomic coordinates."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-top078::cdse-top078-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-top078",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-top078.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · Table 1 reaction 2",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · Table 1 reaction 2",
+      "sample_id": "cdse-top078-route-family",
+      "source_sample_label": "Table 1 reaction 2 CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-top078-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No variant-specific XRD panel for this TOP titration formulation."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-top156::cdse-top156-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-top156",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-top156.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · Table 1 reaction 3",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · Table 1 reaction 3",
+      "sample_id": "cdse-top156-route-family",
+      "source_sample_label": "Table 1 reaction 3 CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-top156-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No variant-specific XRD panel for this TOP titration formulation."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-top215::cdse-top215-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-top215",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-top215.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · Table 1 reaction 4",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · Table 1 reaction 4",
+      "sample_id": "cdse-top215-route-family",
+      "source_sample_label": "Table 1 reaction 4 CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-top215-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No variant-specific XRD panel for this TOP titration formulation."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-top469::cdse-top469-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-top469",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-top469.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · Table 1 reaction 5",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · Table 1 reaction 5",
+      "sample_id": "cdse-top469-route-family",
+      "source_sample_label": "Table 1 reaction 5 CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-top469-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No variant-specific XRD panel for this TOP titration formulation."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jasieniak2005-cdse-jp054289o-topse::cdse-topse-route-family",
+      "record_id": "jasieniak2005-cdse-jp054289o-topse",
+      "record_page_path": "records/jasieniak2005-cdse-jp054289o-topse.html",
+      "source_group": "jasieniak2005-cdse-jp054289o",
+      "title": "CdSe colloidal nanocrystals · TOPSe comparator",
+      "doi": "10.1021/jp054289o",
+      "year": 2005,
+      "method": "Nitrogen-atmosphere hot-injection synthesis from cadmium oleate and Se precursor",
+      "recipe_label": "CdSe colloidal nanocrystals · TOPSe comparator",
+      "sample_id": "cdse-topse-route-family",
+      "source_sample_label": "TOPSe comparator CdSe nanocrystal route family",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jasieniak2005-cdse-jp054289o",
+            "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "jasieniak2005-cdse-jp054289o",
+          "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+              }
+            ],
+            "note": "Route-family powder XRD Figure 3A; source does not identify a physical aliquot or supply measured atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+              }
+            ],
+            "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-topse-route-family",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grown-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jasieniak2005-cdse-jp054289o",
+                "locator": "Main PDF p.2 / printed 20666, Experimental Details, Table 1 and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.3 / printed 20667, Figure 2 and Figure 3 with adjacent phase assignment text"
+                }
+              ],
+              "note": "Route-family powder XRD Figure 3A; source does not identify a physical aliquot or supply measured atomic coordinates."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jasieniak2005-cdse-jp054289o",
+                  "locator": "Main PDF p.4 / printed 20668, global TEM morphology statement and conclusions"
+                }
+              ],
+              "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "kim2001-bi4ti3o12-cm0102436-epd-film::kim2001-bi4ti3o12-cm0102436-epd-film-product",
       "record_id": "kim2001-bi4ti3o12-cm0102436-epd-film",
       "record_page_path": "records/kim2001-bi4ti3o12-cm0102436-epd-film.html",
@@ -42472,6 +44364,488 @@
               "note": "Upper extent is source wording; no mean/count/statistics reported."
             },
             "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li2001-ag2te-ag7te4-jssc9103-ag2te::li2001-ag2te-ag7te4-jssc9103-ag2te-product",
+      "record_id": "li2001-ag2te-ag7te4-jssc9103-ag2te",
+      "record_page_path": "records/li2001-ag2te-ag7te4-jssc9103-ag2te.html",
+      "source_group": "li2001-ag2te-ag7te4-jssc9103",
+      "title": "Li et al. (2001): Ag2Te sonochemical synthesis in anhydrous ethylenediamine",
+      "doi": "10.1006/jssc.2001.9103",
+      "year": 2001,
+      "method": "Ag2Te probe sonication in anhydrous ethylenediamine",
+      "recipe_label": "Li et al. (2001): Ag2Te sonochemical synthesis in anhydrous ethylenediamine",
+      "sample_id": "li2001-ag2te-ag7te4-jssc9103-ag2te-product",
+      "source_sample_label": "As-prepared Ag2Te product, Figures 1A XRD and 2A TEM",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2001-ag2te-ag7te4-jssc9103",
+            "locator": "Main PDF p.2 / printed 261, Results, Figure 1A and ICP ratio"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2001-ag2te-ag7te4-jssc9103",
+          "locator": "Main PDF p.1 / printed 260, Experimental Section and solvent-identified product",
+          "claim": null
+        },
+        {
+          "source_id": "li2001-ag2te-ag7te4-jssc9103",
+          "locator": "Main PDF p.3 / printed 262, Figure 2A caption; p.2 Results maps solvent to product",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Monoclinic Ag2Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 1A XRD indexing"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately spherical particles; TEM shows projected agglomerates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.3 / printed 262, Figure 2A TEM and p.2 text"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 8.18,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "8.18 Å",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 1A lattice parameters"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "XRD-indexed product; no atomic coordinates supplied",
+          "evidence": [
+            {
+              "source_id": "li2001-ag2te-ag7te4-jssc9103",
+              "locator": "Main PDF p.2 / printed 261, Results, Figure 1A"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Approximate source-reported diameter; not a distribution",
+            "basis": "",
+            "raw_text": "about 20 nm",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 2A TEM"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Ag2Te Figure 2A sample",
+          "evidence": [
+            {
+              "source_id": "li2001-ag2te-ag7te4-jssc9103",
+              "locator": "Main PDF p.3 / printed 262, Figure 2A TEM caption; p.2 Results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.1 / printed 260, Experimental Section and abstract"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "li2001-ag2te-ag7te4-jssc9103-ag2te-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried",
+          "composition": {
+            "value": "Ag2Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 1A and ICP ratio"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Monoclinic Ag2Te",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                  "locator": "Main PDF p.2 / printed 261, Results, Figure 1A XRD indexing"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Approximately spherical particles; TEM shows projected agglomerates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                  "locator": "Main PDF p.3 / printed 262, Figure 2A TEM and p.2 text"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "li2001-ag2te-ag7te4-jssc9103-ag7te4::li2001-ag2te-ag7te4-jssc9103-ag7te4-product",
+      "record_id": "li2001-ag2te-ag7te4-jssc9103-ag7te4",
+      "record_page_path": "records/li2001-ag2te-ag7te4-jssc9103-ag7te4.html",
+      "source_group": "li2001-ag2te-ag7te4-jssc9103",
+      "title": "Li et al. (2001): Ag7Te4 sonochemical synthesis in ethanol",
+      "doi": "10.1006/jssc.2001.9103",
+      "year": 2001,
+      "method": "Ag7Te4 probe sonication in ethanol",
+      "recipe_label": "Li et al. (2001): Ag7Te4 sonochemical synthesis in ethanol",
+      "sample_id": "li2001-ag2te-ag7te4-jssc9103-ag7te4-product",
+      "source_sample_label": "As-prepared Ag7Te4 product, Figures 1B XRD and 2B TEM",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag7Te4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "li2001-ag2te-ag7te4-jssc9103",
+            "locator": "Main PDF p.2 / printed 261, Results, Figure 1B and ICP ratio"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "li2001-ag2te-ag7te4-jssc9103",
+          "locator": "Main PDF p.2 / printed 261, Experimental Section and solvent-identified product",
+          "claim": null
+        },
+        {
+          "source_id": "li2001-ag2te-ag7te4-jssc9103",
+          "locator": "Main PDF p.3 / printed 262, Figure 2B caption; p.2 Results maps solvent to product",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Hexagonal Ag7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 1B XRD indexing"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately spherical particles; TEM shows projected agglomerates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.3 / printed 262, Figure 2B TEM and p.2 text"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "lattice-a",
+          "property": "lattice_parameter_a",
+          "descriptor_field": "crystal_structure.phase_lattice",
+          "value": {
+            "value": 13.51,
+            "minimum": null,
+            "maximum": null,
+            "unit": "angstrom",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "13.51 Å",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 1B lattice parameters"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "XRD-indexed product; no atomic coordinates supplied",
+          "evidence": [
+            {
+              "source_id": "li2001-ag2te-ag7te4-jssc9103",
+              "locator": "Main PDF p.2 / printed 261, Results, Figure 1B"
+            }
+          ]
+        },
+        {
+          "measurement_id": "tem-diameter",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 50,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Approximate source-reported diameter; not a distribution",
+            "basis": "",
+            "raw_text": "about 50 nm",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 2B TEM"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Ag7Te4 Figure 2B sample",
+          "evidence": [
+            {
+              "source_id": "li2001-ag2te-ag7te4-jssc9103",
+              "locator": "Main PDF p.3 / printed 262, Figure 2B TEM caption; p.2 Results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.1 / printed 260, Experimental Section and abstract"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "li2001-ag2te-ag7te4-jssc9103-ag7te4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried",
+          "composition": {
+            "value": "Ag7Te4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                "locator": "Main PDF p.2 / printed 261, Results, Figure 1B and ICP ratio"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Hexagonal Ag7Te4",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                  "locator": "Main PDF p.2 / printed 261, Results, Figure 1B XRD indexing"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Approximately spherical particles; TEM shows projected agglomerates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "li2001-ag2te-ag7te4-jssc9103",
+                  "locator": "Main PDF p.3 / printed 262, Figure 2B TEM and p.2 text"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "lattice-a",
+                "property": "lattice_parameter_a",
+                "field": "crystal_structure.phase_lattice"
+              },
+              {
+                "measurement_id": "tem-diameter",
+                "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
           }
         }
       },
