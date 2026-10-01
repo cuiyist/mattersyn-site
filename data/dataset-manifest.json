@@ -1,9 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset_version": "0.41.2",
-  "record_count": 1582,
-  "group_count": 142,
+  "record_count": 1602,
+  "group_count": 145,
   "families": [
+    "9-ACA-functionalized CdSe nanocrystals",
     "Ag nanocrystals and superlattice films",
     "Ag2S nanocrystals",
     "Ag2S quantum dots",
@@ -15,7 +16,9 @@
     "Annealed InP film derived from nanocrystals",
     "Aptamer-capped lead sulfide quantum dots",
     "Aqueous cadmium selenide nanocrystals",
+    "Au colloidal nanocrystal seeds",
     "Au nanocrystals and superlattice films",
+    "Au/CdS colloidal metal–semiconductor core/shell nanocrystals",
     "Aurivillius bismuth titanate and lithium-intercalated intermediate",
     "Biomass-derived amine-functionalized carbon quantum dots",
     "Bismuth telluride nanocrystals",
@@ -33,11 +36,13 @@
     "CdS nanocrystal–polyurethane hybrid",
     "CdS nanostructures",
     "CdS/PbS nanostructures",
+    "CdSe colloidal nanocrystal seeds",
     "CdSe cores and CdSe/CdS giant quantum dots",
     "CdSe nanocrystal synthesis and surface-reaction chemistry",
     "CdSe nanocrystals",
     "CdSe quantum dots",
     "CdSe/CdS quantum dots and electron-acceptor complexes",
+    "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
     "CdSe–polythiophene composite",
     "CdTe nanocrystals grown on oxidized multiwalled carbon nanotubes",
     "CdTe quantum dots and peptide-functionalized gold probes",
@@ -164,6 +169,7 @@
     "cobalt ferrite comparator observations",
     "cobalt ferrite nanocrystals",
     "cobalt-oxide characterization control",
+    "colloidal CuInS2 nanocrystals",
     "colloidal copper(I) sulfide nanocrystals",
     "copper sulfide nanocrystals",
     "copper sulfide nanodisks",
@@ -8363,6 +8369,764 @@
       "pair_ids": []
     },
     {
+      "record_id": "chemmater2017-cdse-cald-7b01873-au-cds-shell",
+      "title": "Slejko et al. (2017): Au/CdS shell c-ALD (1–7 ML)",
+      "formula": "Au/CdS",
+      "family": "Au/CdS colloidal metal–semiconductor core/shell nanocrystals",
+      "method": "CdS c-ALD on preformed Au cores, followed by oleylamine functionalization",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "7c86f732e9bc0a93aac452bc3f8a1db505d7ad7f926330fbc06e73fb53b06a28",
+      "recipe_signature": "6f5238dbee2e406ba560e2d75d9701edaf90d786a614c90822bfadc58995f5b9",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "measured_label_not_approved",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "measured_label_not_approved",
+              "message": "The available sample coordinates have not been approved as a measured training label."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-au-cds-shell.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-au-cds-shell.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": [
+        "chemmater2017-cdse-cald-7b01873-au-cds-shell::au-cds7"
+      ]
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-au-core-4nm",
+      "title": "Slejko et al. (2017): ~4 nm Au seed synthesis",
+      "formula": "Au",
+      "family": "Au colloidal nanocrystal seeds",
+      "method": "Room-temperature tert-butylamine-borane reduction under argon",
+      "record_type": "literature_protocol",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 1,
+      "record_sha256": "cc9cebbff2f27bdef6419db98372654da61aedcc8dfa27dabb2c8dc9d35e3655",
+      "recipe_signature": "74cc0cb6ac6285530e37c4621a3f51b8cb714a1e17da03b53bd6a2ccac32bde9",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "measured_label_not_approved",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "measured_label_not_approved",
+              "message": "The available sample coordinates have not been approved as a measured training label."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-au-core-4nm.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-au-core-4nm.html",
+      "missing_field_count": 2,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": [
+        "chemmater2017-cdse-cald-7b01873-au-core-4nm::au-core-4nm"
+      ]
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cds-zns-cds-zns-3p3",
+      "title": "Slejko et al. (2017): CdSe/CdS/ZnS/CdS/ZnS four-ML c-ALD shell",
+      "formula": "CdSe/CdS/ZnS/CdS/ZnS",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "b3fb3f7ff0765380f61d383094183a08ce99a2f8c22a1a487728646160307a65",
+      "recipe_signature": "90102756bbe6afe15924f7c8824d94dccc6a7125dfe592d54916887ecd398119",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cds-zns-cds-zns-3p3.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cds-zns-cds-zns-3p3.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": []
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cds2-zns-cds-3p8",
+      "title": "Slejko et al. (2017): CdSe/CdS2/ZnS/CdS four-ML c-ALD shell",
+      "formula": "CdSe/CdS2/ZnS/CdS",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "b1d96615ab7fa7531cca607cdc2228c5053096fb8ad917e481af7831ac239d3a",
+      "recipe_signature": "01b92b43498203e17b66dd9cbf21998760cfcb5f3f900bf91e53c23d072d0f70",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cds2-zns-cds-3p8.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cds2-zns-cds-3p8.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": []
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cds2-zns2-3p3",
+      "title": "Slejko et al. (2017): CdSe/CdS2/ZnS2 four-ML c-ALD shell",
+      "formula": "CdSe/CdS2/ZnS2",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "64e4eb2836443dcbbb9532dbb86189b0bc856717f48cc7017623b0d02a4f6fbb",
+      "recipe_signature": "0563645ce6667065f012e53b5843a7ed1ccab130d1cf83d3781eb019db96b076",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cds2-zns2-3p3.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cds2-zns2-3p3.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": []
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cds3-zns-3p8",
+      "title": "Slejko et al. (2017): CdSe/CdS3/ZnS four-ML c-ALD shell",
+      "formula": "CdSe/CdS3/ZnS",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "6e263591a7d920040598b599472fd26bc6075f41d6659c1f8fd5d861459fd871",
+      "recipe_signature": "14ce5c90e1172848b16a752f2c3595635aebb44ce1f296b1ac3630dc702ea1e9",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "measured_label_not_approved",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "measured_label_not_approved",
+              "message": "The available sample coordinates have not been approved as a measured training label."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cds3-zns-3p8.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cds3-zns-3p8.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": [
+        "chemmater2017-cdse-cald-7b01873-cds3-zns-3p8::cds3-zns-3p8"
+      ]
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cds4-3p3",
+      "title": "Slejko et al. (2017): CdSe/CdS4 four-ML c-ALD shell",
+      "formula": "CdSe/CdS4",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "00ab87169215e30d5800923fc5899f85ca77b7ec93d8c0141dc1e8089909a696",
+      "recipe_signature": "ba55f935d7abcd7cc7587af9dc5cfeebbe9142f3cc854270aa02742634e7057f",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cds4-3p3.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cds4-3p3.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": []
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cdse-core-3p3",
+      "title": "Slejko et al. (2017): 3.3 nm CdSe core hot injection",
+      "formula": "CdSe",
+      "family": "CdSe colloidal nanocrystal seeds",
+      "method": "Hot injection in CdO/OA/ODE with TOP-Se, then precipitation/wash",
+      "record_type": "literature_protocol",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 2,
+      "record_sha256": "d0eaf238c0723f6e0f868ad00a50ef5f0a30599003b4bb33fce8ccdbcf889cfe",
+      "recipe_signature": "a35ee185d9e4729391eb3dcfad8646f838fc3b0e7f16921d6b1c8300ceb3e00f",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cdse-core-3p3.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cdse-core-3p3.html",
+      "missing_field_count": 3,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": [
+        "chemmater2017-cdse-cald-7b01873-cdse-core-3p3::cdse-3p3-core"
+      ]
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-cdse-core-3p8",
+      "title": "Slejko et al. (2017): 3.8 nm CdSe core hot injection",
+      "formula": "CdSe",
+      "family": "CdSe colloidal nanocrystal seeds",
+      "method": "Hot injection in CdO/TOPO/ODPA with Se/TOP, then analogous wash",
+      "record_type": "literature_protocol",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 1,
+      "record_sha256": "d168e18b458ad476c6cfee477f395d6497b797faaa5e11f519c1a45f9cd3808d",
+      "recipe_signature": "a53a17a1546ef0af6cf62591afd1bad8f7bd4c97d55007ec0578b525bbe5ac16",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "measured_label_not_approved",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "measured_label_not_approved",
+              "message": "The available sample coordinates have not been approved as a measured training label."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-cdse-core-3p8.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-cdse-core-3p8.html",
+      "missing_field_count": 2,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": [
+        "chemmater2017-cdse-cald-7b01873-cdse-core-3p8::cdse-3p8-core"
+      ]
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-zns-cds3-3p8",
+      "title": "Slejko et al. (2017): CdSe/ZnS/CdS3 four-ML c-ALD shell",
+      "formula": "CdSe/ZnS/CdS3",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "8f04344dbb72b54bcc8dad4b84c6e5311032eb0fcee8ac9691f75e2f56bc4261",
+      "recipe_signature": "8a0dd0ebbe1250bbf2c54b2c29587ee68898816ef29118960e54ccc4d618d6d0",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-zns-cds3-3p8.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-zns-cds3-3p8.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": []
+    },
+    {
+      "record_id": "chemmater2017-cdse-cald-7b01873-zns4-3p8",
+      "title": "Slejko et al. (2017): CdSe/ZnS4 four-ML c-ALD shell",
+      "formula": "CdSe/ZnS4",
+      "family": "CdSe/CdS/ZnS colloidal core/shell nanocrystals",
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "record_type": "protocol_variant",
+      "source_year": 2017,
+      "source_doi": "10.1021/acs.chemmater.7b01873",
+      "revision": 3,
+      "record_sha256": "6bb85ab59cb6ada0d603c15d1e5cab0ed1b1ccbda8371346b04895a0639e6399",
+      "recipe_signature": "3c4832029a1b29329f129b41f2b1f90b84d21dc5dbea35150a8bc42e0b6f306a",
+      "group_id": "group-512fb7e7c269",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/chemmater2017-cdse-cald-7b01873-zns4-3p8.json",
+      "page_url": "records/chemmater2017-cdse-cald-7b01873-zns4-3p8.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [],
+      "pair_ids": []
+    },
+    {
       "record_id": "chen2014-jp500270d-cuznsns-x000",
       "title": "ZnS (x = 0) · hot-injection nanocrystal synthesis",
       "formula": "ZnS",
@@ -11352,6 +12116,510 @@
         "PbS"
       ],
       "pair_ids": []
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-27nm",
+      "title": "Huang et al. (2015): 2.7 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "9fbdfbcf684dc8080ddb000f5d32dca65aa817c525491c651d225a24fa84957d",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-27nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-27nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-27nm::huang2015-cdse-9aca-27nm-series"
+      ]
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-29nm",
+      "title": "Huang et al. (2015): 2.9 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "f91867ef50a2c4bbd54eab48747c94896e6206b165c3ed22b61b8e1081a7d307",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-29nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-29nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-29nm::huang2015-cdse-9aca-29nm-series"
+      ]
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-31nm",
+      "title": "Huang et al. (2015): 3.1 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "e89e1641c385d232d1e719cce1dc7653575863c151ea2c2a431b34d902b05721",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-31nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-31nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-31nm::huang2015-cdse-9aca-31nm-series"
+      ]
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-32nm",
+      "title": "Huang et al. (2015): 3.2 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "f36c0b1c3ab482993f946fdcf7d1aba22c685f04c9b1a396c5ef3bbae95a82c8",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-32nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-32nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-32nm::huang2015-cdse-9aca-32nm-series"
+      ]
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-37nm",
+      "title": "Huang et al. (2015): 3.7 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "67af644062291053073989e14d800760073f81319aa1e9e51a289e2fc5b4ce47",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-37nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-37nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-37nm::huang2015-cdse-9aca-37nm-series"
+      ]
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-41nm",
+      "title": "Huang et al. (2015): 4.1 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "d9ae634e5ad0a5c0cd7b89a5350172f4d558a21c6d5d9832c01ce6531850c507",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-41nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-41nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-41nm::huang2015-cdse-9aca-41nm-series"
+      ]
+    },
+    {
+      "record_id": "cm2015-5b03731-cdse-9aca-51nm",
+      "title": "Huang et al. (2015): 5.1 nm CdSe / 9-ACA ligand-exchange series",
+      "formula": "CdSe",
+      "family": "9-ACA-functionalized CdSe nanocrystals",
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "record_type": "experiment",
+      "source_year": 2015,
+      "source_doi": "10.1021/acs.chemmater.5b03731",
+      "revision": 3,
+      "record_sha256": "e24fb9bc89ae6bc457861030252a3a803e38de2c87901940da97b7b85a981e6c",
+      "recipe_signature": "8141002abf966ffbd89884777c88447a949328962cec285a50ca8cddfdb92582",
+      "group_id": "group-8b5fc6770537",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/cm2015-5b03731-cdse-9aca-51nm.json",
+      "page_url": "records/cm2015-5b03731-cdse-9aca-51nm.html",
+      "missing_field_count": 6,
+      "collection": "reviewed_literature",
+      "components": [
+        "CdSe"
+      ],
+      "pair_ids": [
+        "cm2015-5b03731-cdse-9aca-51nm::huang2015-cdse-9aca-51nm-series"
+      ]
     },
     {
       "record_id": "colfen2003-tio2-sample-1-acetic-acid",
@@ -18172,6 +19440,148 @@
       "pair_ids": [
         "dhage2004-sno2-bf02708509-reflux::dhage2004-sno2-bf02708509-reflux-population"
       ]
+    },
+    {
+      "record_id": "dierick2014-cuins2-cm502687p-odam",
+      "title": "CuInS2 colloidal nanocrystals capped with 1-octadecylamine",
+      "formula": "CuInS2",
+      "family": "colloidal CuInS2 nanocrystals",
+      "method": "Nitrogen-flushed colloidal heating-up synthesis",
+      "record_type": "protocol_variant",
+      "source_year": 2014,
+      "source_doi": "10.1021/cm502687p",
+      "revision": 2,
+      "record_sha256": "6203720a783de1865bc9a4dc6afbbc7c1336353c1ca77cd1529263a36afc268f",
+      "recipe_signature": "bcd603516d4471f05d2f0d9b80e13e362fab6d4e86aa53812bfaf5a1bfbfc0ff",
+      "group_id": "group-b654c56719cd",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/dierick2014-cuins2-cm502687p-odam.json",
+      "page_url": "records/dierick2014-cuins2-cm502687p-odam.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "components": [
+        "CuInS2"
+      ],
+      "pair_ids": [
+        "dierick2014-cuins2-cm502687p-odam::cis-odam-as-synthesized"
+      ]
+    },
+    {
+      "record_id": "dierick2014-cuins2-cm502687p-olam",
+      "title": "CuInS2 colloidal nanocrystals capped with technical oleylamine",
+      "formula": "CuInS2",
+      "family": "colloidal CuInS2 nanocrystals",
+      "method": "Nitrogen-flushed colloidal heating-up synthesis",
+      "record_type": "protocol_variant",
+      "source_year": 2014,
+      "source_doi": "10.1021/cm502687p",
+      "revision": 3,
+      "record_sha256": "e80de02fcd9cad7b3eb15b356214767d46a1882d2b7fac58d785c84e78815238",
+      "recipe_signature": "3e39fd3379017761b95d16b11e16e9d844bf3dae92c589788fab3edd42486d23",
+      "group_id": "group-b654c56719cd",
+      "split": "test",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/dierick2014-cuins2-cm502687p-olam.json",
+      "page_url": "records/dierick2014-cuins2-cm502687p-olam.html",
+      "missing_field_count": 5,
+      "collection": "reviewed_literature",
+      "components": [
+        "CuInS2"
+      ],
+      "pair_ids": []
     },
     {
       "record_id": "du2002-pbse-general-route",

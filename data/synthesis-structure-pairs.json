@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 506,
-    "source_groups": 122,
-    "records": 464,
+    "recipe_structure_rows": 519,
+    "source_groups": 125,
+    "records": 477,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -8615,6 +8615,1023 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "chemmater2017-cdse-cald-7b01873-au-cds-shell::au-cds7",
+      "record_id": "chemmater2017-cdse-cald-7b01873-au-cds-shell",
+      "record_page_path": "records/chemmater2017-cdse-cald-7b01873-au-cds-shell.html",
+      "source_group": "chemmater2017-cdse-cald-7b01873",
+      "title": "Slejko et al. (2017): Au/CdS shell c-ALD (1–7 ML)",
+      "doi": "10.1021/acs.chemmater.7b01873",
+      "year": 2017,
+      "method": "CdS c-ALD on preformed Au cores, followed by oleylamine functionalization",
+      "recipe_label": "Slejko et al. (2017): Au/CdS shell c-ALD (1–7 ML)",
+      "sample_id": "au-cds7",
+      "source_sample_label": "Au/CdS7 shell-thickness context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au/CdS7",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chemmater2017-cdse-cald-7b01873",
+            "locator": "Main PDF p.6 / printed p.8116, Figure 8B and Au/CdS Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chemmater2017-cdse-cald-7b01873",
+          "locator": "Main PDF p.6 / printed p.8116, Figure 8B and Au/CdS Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "fcc Au core plus hexagonal CdS shell phase assignment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.7 / printed p.8117, Figure 9b caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Centrosymmetric core/shell nanocrystals with narrow size distribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8B and adjacent Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "au-cds7-diameter",
+          "property": "particle_diameter",
+          "descriptor_field": "morphology.diameter",
+          "value": {
+            "value": 8.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "∼8.5 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8B and adjacent Results"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "chemmater2017-cdse-cald-7b01873",
+              "locator": "Main PDF p.6 / printed p.8116, Figure 8B and adjacent Results"
+            }
+          ]
+        },
+        {
+          "measurement_id": "au-cds7-shell",
+          "property": "shell_thickness",
+          "descriptor_field": "architecture.surface_layer",
+          "value": {
+            "value": 2.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "approximately 2.3 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8B and adjacent Results"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM-derived source estimate",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "chemmater2017-cdse-cald-7b01873",
+              "locator": "Main PDF p.6 / printed p.8116, Figure 8B and adjacent Results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au/CdS core/shell nanocrystals up to seven CdS monolayers",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Au/CdS Results"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "fcc Au and hexagonal CdS phase assignments for 3/7 ML samples",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.7 / printed p.8117, Figure 9b"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 8.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "∼8.5 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8B, seven-ML sample"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Centrosymmetric core/shell nanocrystals, 7 ML sample",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8B and Results"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleylamine-functionalized",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.3 / printed p.8113, Au/CdS oleylamine functionalization"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "Au core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Au/CdS Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "au-cds7",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "au-cds7-context",
+          "composition": {
+            "value": "Au/CdS7",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8B and Au/CdS Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "fcc Au core plus hexagonal CdS shell phase assignment",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.7 / printed p.8117, Figure 9b caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Centrosymmetric core/shell nanocrystals with narrow size distribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.6 / printed p.8116, Figure 8B and adjacent Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "au-cds7-diameter",
+                "property": "particle_diameter",
+                "field": "morphology.diameter"
+              },
+              {
+                "measurement_id": "au-cds7-shell",
+                "property": "shell_thickness",
+                "field": "architecture.surface_layer"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "chemmater2017-cdse-cald-7b01873-au-core-4nm::au-core-4nm",
+      "record_id": "chemmater2017-cdse-cald-7b01873-au-core-4nm",
+      "record_page_path": "records/chemmater2017-cdse-cald-7b01873-au-core-4nm.html",
+      "source_group": "chemmater2017-cdse-cald-7b01873",
+      "title": "Slejko et al. (2017): ~4 nm Au seed synthesis",
+      "doi": "10.1021/acs.chemmater.7b01873",
+      "year": 2017,
+      "method": "Room-temperature tert-butylamine-borane reduction under argon",
+      "recipe_label": "Slejko et al. (2017): ~4 nm Au seed synthesis",
+      "sample_id": "au-core-4nm",
+      "source_sample_label": "~4 nm Au starting cores; Figure 8A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chemmater2017-cdse-cald-7b01873",
+            "locator": "Main PDF p.6 / printed p.8116, Figure 8A and adjacent Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chemmater2017-cdse-cald-7b01873",
+          "locator": "Main PDF p.6 / printed p.8116, Figure 8A and adjacent Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "fcc Au pattern assigned in Figure 9b",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.7 / printed p.8117, Figure 9b caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasi-spherical Au seeds",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Au seed synthesis and Figure 8A"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "au-core-size",
+          "property": "core_diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "∼4 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8A and Results"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "chemmater2017-cdse-cald-7b01873",
+              "locator": "Main PDF p.6 / printed p.8116, Figure 8A and adjacent Results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au nanocrystal cores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Au seed synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "fcc Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.7 / printed p.8117, Figure 9b caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "∼4 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Au seed synthesis"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Quasi-spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Au seed synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Organic-capped",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Au seed synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "au-core-4nm",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "au-washed",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.6 / printed p.8116, Figure 8A and adjacent Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "fcc Au pattern assigned in Figure 9b",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.7 / printed p.8117, Figure 9b caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quasi-spherical Au seeds",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.2 / printed p.8112, Au seed synthesis and Figure 8A"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "au-core-size",
+                "property": "core_diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "chemmater2017-cdse-cald-7b01873-cds3-zns-3p8::cds3-zns-3p8",
+      "record_id": "chemmater2017-cdse-cald-7b01873-cds3-zns-3p8",
+      "record_page_path": "records/chemmater2017-cdse-cald-7b01873-cds3-zns-3p8.html",
+      "source_group": "chemmater2017-cdse-cald-7b01873",
+      "title": "Slejko et al. (2017): CdSe/CdS3/ZnS four-ML c-ALD shell",
+      "doi": "10.1021/acs.chemmater.7b01873",
+      "year": 2017,
+      "method": "Room-temperature c-ALD alternating S2- and Cd2+/Zn2+ surface half-reactions",
+      "recipe_label": "Slejko et al. (2017): CdSe/CdS3/ZnS four-ML c-ALD shell",
+      "sample_id": "cds3-zns-3p8",
+      "source_sample_label": "CdSe/CdS3/ZnS four-ML shell product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS3/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chemmater2017-cdse-cald-7b01873",
+            "locator": "Main PDF p.3 / printed p.8113, Results, seven shell compositions and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chemmater2017-cdse-cald-7b01873",
+          "locator": "Main PDF p.3 / printed p.8113, Results, seven shell compositions and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "CdSe/CdS3/ZnS diffraction pattern with source-assigned shell growth shift",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.5 / printed p.8115, Figure 4 caption and Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS3/ZnS ordered four-monolayer shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.3 / printed p.8113, Results and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "CdSe/CdS3/ZnS diffraction pattern with source-assigned shell growth shift",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.5 / printed p.8115, Figure 4 caption and Results"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No final diameter uniquely reported for this shell composition.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No unambiguous variant-specific TEM morphology outcome."
+          },
+          "surface": {
+            "value": "Inorganic-capped shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Colloidal Atomic Layer Deposition"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "CdSe core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.3 / printed p.8113, Results, shell compositions"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cds3-zns-3p8",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "layer-4",
+          "composition": {
+            "value": "CdSe/CdS3/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.3 / printed p.8113, Results, seven shell compositions and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "CdSe/CdS3/ZnS diffraction pattern with source-assigned shell growth shift",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.5 / printed p.8115, Figure 4 caption and Results"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No unambiguous shell-product TEM size or shape for this exact composition in main text."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "chemmater2017-cdse-cald-7b01873-cdse-core-3p3::cdse-3p3-core",
+      "record_id": "chemmater2017-cdse-cald-7b01873-cdse-core-3p3",
+      "record_page_path": "records/chemmater2017-cdse-cald-7b01873-cdse-core-3p3.html",
+      "source_group": "chemmater2017-cdse-cald-7b01873",
+      "title": "Slejko et al. (2017): 3.3 nm CdSe core hot injection",
+      "doi": "10.1021/acs.chemmater.7b01873",
+      "year": 2017,
+      "method": "Hot injection in CdO/OA/ODE with TOP-Se, then precipitation/wash",
+      "recipe_label": "Slejko et al. (2017): 3.3 nm CdSe core hot injection",
+      "sample_id": "cdse-3p3-core",
+      "source_sample_label": "3.3 nm CdSe starting cores",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chemmater2017-cdse-cald-7b01873",
+            "locator": "Main PDF p.3 / printed p.8113, Results, semiconductor core/shell routes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chemmater2017-cdse-cald-7b01873",
+          "locator": "Main PDF p.3 / printed p.8113, Results, semiconductor core/shell routes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasi-spherical NC seed morphology",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Synthesis of CdSe and Au Nanocrystal Seeds heading"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe nanocrystal core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, CdSe seed synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": 3.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "3.3 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.3 / printed p.8113, Results, CdSe starting cores"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Quasi-spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, CdSe/Au seed morphology heading"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Oleic-acid-stabilized",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, CdSe seed synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-3p3-core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "washed-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.3 / printed p.8113, Results, semiconductor core/shell routes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No unique nanoparticle phase/coordinate assignment for this exact variant."
+            },
+            "morphology": {
+              "value": "Quasi-spherical NC seed morphology",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.2 / printed p.8112, Synthesis of CdSe and Au Nanocrystal Seeds heading"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "chemmater2017-cdse-cald-7b01873-cdse-core-3p8::cdse-3p8-core",
+      "record_id": "chemmater2017-cdse-cald-7b01873-cdse-core-3p8",
+      "record_page_path": "records/chemmater2017-cdse-cald-7b01873-cdse-core-3p8.html",
+      "source_group": "chemmater2017-cdse-cald-7b01873",
+      "title": "Slejko et al. (2017): 3.8 nm CdSe core hot injection",
+      "doi": "10.1021/acs.chemmater.7b01873",
+      "year": 2017,
+      "method": "Hot injection in CdO/TOPO/ODPA with Se/TOP, then analogous wash",
+      "recipe_label": "Slejko et al. (2017): 3.8 nm CdSe core hot injection",
+      "sample_id": "cdse-3p8-core",
+      "source_sample_label": "3.8 nm wurtzite-type CdSe initial cores; Figure 3A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chemmater2017-cdse-cald-7b01873",
+            "locator": "Main PDF p.2 / printed p.8112, Experimental Section, 3.8 nm CdSe seed synthesis; Figure 3A caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chemmater2017-cdse-cald-7b01873",
+          "locator": "Main PDF p.2 / printed p.8112, Experimental Section, 3.8 nm CdSe seed synthesis; Figure 3A caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type CdSe assignment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Experimental Section, 3.8 nm CdSe seed synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasi-spherical cores in Figure 3A TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.4 / printed p.8114, Figure 3A caption and image"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-core-size",
+          "property": "core_diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "3.8 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.4 / printed p.8114, Figure 3A caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "Source-named diameter, not independently digitized image measurement.",
+          "evidence": [
+            {
+              "source_id": "chemmater2017-cdse-cald-7b01873",
+              "locator": "Main PDF p.4 / printed p.8114, Figure 3A caption and adjacent Results"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe nanocrystal core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, 3.8 nm core synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Wurtzite-type",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, 3.8 nm core synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "3.8 nm",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, 3.8 nm core synthesis"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Quasi-spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, 3.8 nm core synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "Phosphonic-acid-stabilized",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, 3.8 nm core synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cdse-3p8-core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "washed-cdse",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chemmater2017-cdse-cald-7b01873",
+                "locator": "Main PDF p.2 / printed p.8112, Experimental Section, 3.8 nm CdSe seed synthesis; Figure 3A caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type CdSe assignment",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.2 / printed p.8112, Experimental Section, 3.8 nm CdSe seed synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quasi-spherical cores in Figure 3A TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chemmater2017-cdse-cald-7b01873",
+                  "locator": "Main PDF p.4 / printed p.8114, Figure 3A caption and image"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-core-size",
+                "property": "core_diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "chen2014-jp500270d-cuznsns-x000::chen2014-jp500270d-cuznsns-x000-nc-product",
       "record_id": "chen2014-jp500270d-cuznsns-x000",
       "record_page_path": "records/chen2014-jp500270d-cuznsns-x000.html",
@@ -11868,6 +12885,1413 @@
               {
                 "measurement_id": "tem-diameter",
                 "property": "particle_size",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-27nm::huang2015-cdse-9aca-27nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-27nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-27nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 2.7 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 2.7 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-27nm-series",
+      "source_sample_label": "2.7 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 2.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-27nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-29nm::huang2015-cdse-9aca-29nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-29nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-29nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 2.9 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 2.9 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-29nm-series",
+      "source_sample_label": "2.9 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 2.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-29nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-31nm::huang2015-cdse-9aca-31nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-31nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-31nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 3.1 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 3.1 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-31nm-series",
+      "source_sample_label": "3.1 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 3.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-31nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-32nm::huang2015-cdse-9aca-32nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-32nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-32nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 3.2 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 3.2 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-32nm-series",
+      "source_sample_label": "3.2 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 3.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-32nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-37nm::huang2015-cdse-9aca-37nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-37nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-37nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 3.7 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 3.7 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-37nm-series",
+      "source_sample_label": "3.7 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 3.7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-37nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-41nm::huang2015-cdse-9aca-41nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-41nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-41nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 4.1 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 4.1 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-41nm-series",
+      "source_sample_label": "4.1 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 4.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-41nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "cm2015-5b03731-cdse-9aca-51nm::huang2015-cdse-9aca-51nm-series",
+      "record_id": "cm2015-5b03731-cdse-9aca-51nm",
+      "record_page_path": "records/cm2015-5b03731-cdse-9aca-51nm.html",
+      "source_group": "cm2015-5b03731-cdse-9aca",
+      "title": "Huang et al. (2015): 5.1 nm CdSe / 9-ACA ligand-exchange series",
+      "doi": "10.1021/acs.chemmater.5b03731",
+      "year": 2015,
+      "method": "Partial 9-ACA surface ligand exchange of ODPA-capped CdSe nanocrystals",
+      "recipe_label": "Huang et al. (2015): 5.1 nm CdSe / 9-ACA ligand-exchange series",
+      "sample_id": "huang2015-cdse-9aca-51nm-series",
+      "source_sample_label": "5.1 nm CdSe NC sensitizer / 9-ACA series",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cm2015-5b03731-cdse-9aca",
+            "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange",
+          "claim": null
+        },
+        {
+          "source_id": "cm2015-5b03731-cdse-9aca",
+          "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "Source-reported size; sizing method not specified",
+          "conditions": "Nominal CdSe NC sensitizer diameter; no post-exchange sizing technique assigned.",
+          "evidence": [
+            {
+              "source_id": "cm2015-5b03731-cdse-9aca",
+              "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "9-ACA-functionalized CdSe NCs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+              }
+            ],
+            "note": "Author label, no new phase measurement in the scoped paper."
+          },
+          "size": {
+            "value": 5.1,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "Source Table 1 labels CdSe NC sensitizer size; sizing method not stated in inspected main/SI.",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Particle shape unreported; no TEM in inspected scope."
+          },
+          "surface": {
+            "value": "9-ACA with retained native ODPA",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.2 / printed 7504, Experimental Section, ligand exchange"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "huang2015-cdse-9aca-51nm-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "hexane-dispersion",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cm2015-5b03731-cdse-9aca",
+                "locator": "Main PDF p.4 / printed 7506, Table 1 and footnotes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "cm2015-5b03731-cdse-9aca",
+                  "locator": "Main PDF p.1 / printed 7503, abstract and Introduction"
+                }
+              ],
+              "note": "Author phase label in the main text; no diffraction/atomic refinement in this paper."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No TEM or source-assigned particle shape in the main/SI scope; Figure 1a is conceptual."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "diameter",
+                "property": "diameter",
                 "field": "morphology.dimensions"
               }
             ]
@@ -17322,6 +19746,178 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "dierick2014-cuins2-cm502687p-odam::cis-odam-as-synthesized",
+      "record_id": "dierick2014-cuins2-cm502687p-odam",
+      "record_page_path": "records/dierick2014-cuins2-cm502687p-odam.html",
+      "source_group": "dierick2014-cuins2-cm502687p",
+      "title": "CuInS2 colloidal nanocrystals capped with 1-octadecylamine",
+      "doi": "10.1021/cm502687p",
+      "year": 2014,
+      "method": "Nitrogen-flushed colloidal heating-up synthesis",
+      "recipe_label": "CuInS2 colloidal nanocrystals capped with 1-octadecylamine",
+      "sample_id": "cis-odam-as-synthesized",
+      "source_sample_label": "CIS/ODAm as-synthesized NCs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CuInS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "dierick2014-cuins2-cm502687p",
+            "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals"
+          }
+        ],
+        "note": "Formula labels nanocrystal family; measured atomic ratios are separate."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "dierick2014-cuins2-cm502687p",
+          "locator": "Main PDF p.2 / printed p.5951, Experimental Methods, Nanocrystal Synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "dierick2014-cuins2-cm502687p",
+          "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "chalcopyrite CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dierick2014-cuins2-cm502687p",
+                "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals"
+              }
+            ],
+            "note": "XRD on an NC thin film; no atomic coordinates supplied."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "anisotropic tile-shaped NCs with hexagonal top surface",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dierick2014-cuins2-cm502687p",
+                "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dierick2014-cuins2-cm502687p",
+                "locator": "Main PDF p.2 / printed p.5951, Experimental Methods, Nanocrystal Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "1-octadecylamine capping",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dierick2014-cuins2-cm502687p",
+                "locator": "Main PDF p.2 / printed p.5951, Experimental Methods, Nanocrystal Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-odam-as-synthesized",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "toluene-stock",
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "dierick2014-cuins2-cm502687p",
+                "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals"
+              }
+            ],
+            "note": "Formula labels nanocrystal family; measured atomic ratios are separate."
+          },
+          "structure": {
+            "phase": {
+              "value": "chalcopyrite CuInS2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "dierick2014-cuins2-cm502687p",
+                  "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals"
+                }
+              ],
+              "note": "XRD on an NC thin film; no atomic coordinates supplied."
+            },
+            "morphology": {
+              "value": "anisotropic tile-shaped NCs with hexagonal top surface",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "dierick2014-cuins2-cm502687p",
+                  "locator": "Main PDF p.3 / printed p.5952, Figure 1A–D and Characterization of As-Synthesized CuInS2 Nanocrystals"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
