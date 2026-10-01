@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 555,
-    "source_groups": 133,
-    "records": 512,
+    "recipe_structure_rows": 556,
+    "source_groups": 134,
+    "records": 513,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -22928,6 +22928,236 @@
             "measurement_refs": [
               {
                 "measurement_id": "ag-nc-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "fanfair2005-bi-cg0502587-bi-seeds::fanfair2005-bi-cg0502587-bi-seeds-seed-cohort",
+      "record_id": "fanfair2005-bi-cg0502587-bi-seeds",
+      "record_page_path": "records/fanfair2005-bi-cg0502587-bi-seeds.html",
+      "source_group": "fanfair2005-bi-cg0502587",
+      "title": "Fanfair and Korgel (2005): nitrogen-protected Bi nanocrystal seeds",
+      "doi": "10.1021/cg0502587",
+      "year": 2005,
+      "method": "Room-temperature borohydride reduction in dioctyl ether with TOP",
+      "recipe_label": "Fanfair and Korgel (2005): nitrogen-protected Bi nanocrystal seeds",
+      "sample_id": "fanfair2005-bi-cg0502587-bi-seeds-seed-cohort",
+      "source_sample_label": "Bi nanocrystal seed cohort characterized in Figure 1; aliquot drying/storage state unreported",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Bi",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "fanfair2005-bi-cg0502587",
+            "locator": "Main PDF p.2 / printed 1972, Results, Bi Nanocrystals; Figure 1B XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "fanfair2005-bi-cg0502587",
+          "locator": "Main PDF p.1 / printed 1971, Experimental Section, Bismuth Nanocrystal Synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "fanfair2005-bi-cg0502587",
+          "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results and Figure 1 linkage",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "rhombohedral Bi",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results"
+              },
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.3 / printed 1973, Figure 1B caption"
+              }
+            ],
+            "note": "Source matches the measured powder XRD to JCPDS Card 44-1246; no specimen atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical nanocrystals with relatively broad size distribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results"
+              },
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.3 / printed 1973, Figure 1A caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "bi-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "Broad size distribution; few particles much larger than 20 nm",
+            "basis": "source-reported characteristic/average diameter",
+            "raw_text": "∼20 nm",
+            "evidence": [
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results; main PDF p.3 Figure 1 caption"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM and Scherrer analysis of XRD peak broadening",
+          "conditions": "Figure 1 seed cohort; source reports approximately 20 nm by TEM and approximately 20 nm by Scherrer peak width, without a measured SD. Exact specimen processing state (wet/precipitated/dried/stored) is unreported.",
+          "evidence": [
+            {
+              "source_id": "fanfair2005-bi-cg0502587",
+              "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results"
+            },
+            {
+              "source_id": "fanfair2005-bi-cg0502587",
+              "locator": "Main PDF p.3 / printed 1973, Figure 1 A/B caption"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Bi",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.1 / printed 1971, title, abstract and Bi Nanocrystal Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "The intended route specifies Bi metal but not a prospective crystal polymorph."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target diameter specified",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Spherical morphology is an observed result, not a specified target."
+          },
+          "surface": {
+            "value": "TOP-stabilized",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results"
+              }
+            ],
+            "note": "TOP is a preparation input and authors attribute steric stabilization to it; an exact surface coverage or bound pose is not measured."
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "fanfair2005-bi-cg0502587-bi-seeds-seed-cohort",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "bi-seed-cohort",
+          "composition": {
+            "value": "Bi",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fanfair2005-bi-cg0502587",
+                "locator": "Main PDF p.2 / printed 1972, Results, Bi Nanocrystals; Figure 1B XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "rhombohedral Bi",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "fanfair2005-bi-cg0502587",
+                  "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results"
+                },
+                {
+                  "source_id": "fanfair2005-bi-cg0502587",
+                  "locator": "Main PDF p.3 / printed 1973, Figure 1B caption"
+                }
+              ],
+              "note": "Source matches the measured powder XRD to JCPDS Card 44-1246; no specimen atomic coordinates."
+            },
+            "morphology": {
+              "value": "spherical nanocrystals with relatively broad size distribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "fanfair2005-bi-cg0502587",
+                  "locator": "Main PDF p.2 / printed 1972, Bi Nanocrystals Results"
+                },
+                {
+                  "source_id": "fanfair2005-bi-cg0502587",
+                  "locator": "Main PDF p.3 / printed 1973, Figure 1A caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "bi-diameter",
                 "property": "diameter",
                 "field": "morphology.dimensions"
               }

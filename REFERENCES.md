@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **153 primary source groups** · release `v5-bhatt-faf-20261001`. Records are not independent experiments.
+Dataset **0.41.2** · **154 primary source groups** · release `v5-fanfair-20261001`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -151,6 +151,8 @@ Dataset **0.41.2** · **153 primary source groups** · release `v5-bhatt-faf-202
 - Sanjay R. Dhage; S. P. Gaikwad; Violet Samuel; V. Ravi (2004). Synthesis of nanocrystalline SnO2 powder at 100°C. *Bulletin of Materials Science*, 27, 221–222. [10.1007/bf02708509](https://doi.org/10.1007/bf02708509). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=dhage2004-sno2-bf02708509).
 
 - Xun Wang; Jing Zhuang; Qing Peng; Yadong Li (2005). A general strategy for nanocrystal synthesis. *Nature*, 437, 121–124. [10.1038/nature03968](https://doi.org/10.1038/nature03968). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=wang2005-lss-nature03968).
+
+- Dayne D. Fanfair; Brian A. Korgel (2005). Bismuth Nanocrystal-Seeded III-V Semiconductor Nanowire Synthesis. [10.1021/cg0502587](https://doi.org/10.1021/cg0502587). Review scope remains stated in the linked website records.
 
 - Cynthia A. Stowell and Brian A. Korgel (2005). Iridium Nanocrystal Synthesis and Surface Coating-Dependent Catalytic Activity. *Nano Letters*, 5, 1203–1207. [10.1021/nl050648f](https://doi.org/10.1021/nl050648f). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=stowell2005).
 
@@ -447,5 +449,7 @@ Reference structures are distinguished from sample-resolved synthesis targets. P
 - [Monoclinic acanthite external bulk reference](https://doi.org/10.1524/zkri.1958.110.16.136). literature bulk reference.
 
 - [FCC Au external bulk reference](https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular539v1.pdf). constructed lattice reference.
+
+- [Bi rhombohedral bulk comparison (constructed from COD 9008576 and Thoft 1995)](https://www.crystallography.net/cod/9008576.html). locally constructed bulk reference.
 
 A citation does not grant reuse rights to third-party figures or source text. The separate release boundary gate controls public delivery.
