@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 663,
-    "source_groups": 147,
-    "records": 537,
+    "recipe_structure_rows": 684,
+    "source_groups": 151,
+    "records": 541,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -11582,6 +11582,158 @@
                 "field": "morphology.diameter"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-route::chan2007-cdse-ag2se-microfluidic-jp073474u-chip-xrd",
+      "record_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-route",
+      "record_page_path": "records/chan2007-cdse-ag2se-microfluidic-jp073474u-route.html",
+      "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+      "title": "Millisecond Kinetics of Nanocrystal Cation Exchange Using Microfluidic X-ray Absorption Spectroscopy",
+      "doi": "10.1021/jp073474u",
+      "year": 2007,
+      "method": "Hydrodynamically focused CdSe/Ag+ microfluidic cation exchange with in situ Se K-edge XAS; stopped-flow solution comparisons",
+      "recipe_label": "Millisecond Kinetics of Nanocrystal Cation Exchange Using Microfluidic X-ray Absorption Spectroscopy",
+      "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-chip-xrd",
+      "source_sample_label": "SI Figure S2 chip-reacted product, 2.8/5 mM",
+      "batch_id": null,
+      "parent_sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-precursor",
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+            "locator": "SI PDF p.4, Figures S2–S3 captions and plots"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "locator": "SI PDF p.4, Figures S2–S3 captions and plots",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "tetragonal Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+                "locator": "SI PDF p.4, Figures S2–S3 captions and plots"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se nanocrystals from CdSe nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+                "locator": "Main PDF p.2, Experimental, Device Design and Figure 1"
+              },
+              {
+                "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+                "locator": "Main PDF p.4, Figure 3 caption and Se K-edge spectra"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "tetragonal Ag2Se only for the separate 2.8 mM CdSe/5 mM AgClO4 chip-reacted SI Figure S2 specimen",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+                "locator": "SI PDF p.4, Figures S2–S3 captions and plots"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Product nanocrystal diameter is not directly measured in this paper.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "DDA is used to solubilize Ag2Se, but product ligand coverage and binding geometry are not measured."
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-chip-xrd",
+          "parent_sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-precursor",
+          "batch_id": null,
+          "material_state_id": "chip-xrd-product",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+                "locator": "SI PDF p.4, Figures S2–S3 captions and plots"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "tetragonal Ag2Se",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+                  "locator": "SI PDF p.4, Figures S2–S3 captions and plots"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -49625,6 +49777,1116 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route::ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "record_page_path": "records/ko2010-ag2te-pbte-artificial-atoms-nl100571m-route.html",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "title": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "doi": "10.1021/nl100571m",
+      "year": 2010,
+      "method": "SI-original Ag2Te NC synthesis, externally prepared PbTe NC input, three binary Ag2Te/PbTe formulations, cast and hydrazine-treated transport films",
+      "recipe_label": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+      "source_sample_label": "SI-synthesized Ag2Te NCs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.4, Figure S1 and caption, NC TEM/EDX"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.4, Figure S1 and caption, NC TEM/EDX",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "monodisperse colloidal nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.4, Figure S1 and caption, NC TEM/EDX"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te/PbTe NC solids at Ag2Te:PbTe particle-number ratios 1:100, 1:10 and 1:1, plus pure-component controls",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "glassy/Bernal-random-packing NC-solid architecture selected by design",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.1, Intro, source-defined disordered binary NC solid design"
+              }
+            ],
+            "note": "SI S2 loss of post-treatment SAXS peaks may also reflect reduced electron-density contrast; it does not uniquely establish disorder for every ratio."
+          },
+          "surface": {
+            "value": "hydrazine-treated NC-solid films",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ag2te-purified",
+          "composition": {
+            "value": "Ag2Te",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.4, Figure S1 and caption, NC TEM/EDX"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "monodisperse colloidal nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.4, Figure S1 and caption, NC TEM/EDX"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route::ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-001-film",
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "record_page_path": "records/ko2010-ag2te-pbte-artificial-atoms-nl100571m-route.html",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "title": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "doi": "10.1021/nl100571m",
+      "year": 2010,
+      "method": "SI-original Ag2Te NC synthesis, externally prepared PbTe NC input, three binary Ag2Te/PbTe formulations, cast and hydrazine-treated transport films",
+      "recipe_label": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-001-film",
+      "source_sample_label": "Ag2Te:PbTe 1:100 particle-ratio NC-solid category",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te/PbTe NC mixture",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "hydrazine-treated binary NC solid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te/PbTe NC solids at Ag2Te:PbTe particle-number ratios 1:100, 1:10 and 1:1, plus pure-component controls",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "glassy/Bernal-random-packing NC-solid architecture selected by design",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.1, Intro, source-defined disordered binary NC solid design"
+              }
+            ],
+            "note": "SI S2 loss of post-treatment SAXS peaks may also reflect reduced electron-density contrast; it does not uniquely establish disorder for every ratio."
+          },
+          "surface": {
+            "value": "hydrazine-treated NC-solid films",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-001-film",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "mix-001-film",
+          "composition": {
+            "value": "Ag2Te/PbTe NC mixture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "hydrazine-treated binary NC solid",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route::ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-01-film",
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "record_page_path": "records/ko2010-ag2te-pbte-artificial-atoms-nl100571m-route.html",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "title": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "doi": "10.1021/nl100571m",
+      "year": 2010,
+      "method": "SI-original Ag2Te NC synthesis, externally prepared PbTe NC input, three binary Ag2Te/PbTe formulations, cast and hydrazine-treated transport films",
+      "recipe_label": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-01-film",
+      "source_sample_label": "Ag2Te:PbTe 1:10 particle-ratio NC-solid category",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te/PbTe NC mixture",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "hydrazine-treated binary NC solid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te/PbTe NC solids at Ag2Te:PbTe particle-number ratios 1:100, 1:10 and 1:1, plus pure-component controls",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "glassy/Bernal-random-packing NC-solid architecture selected by design",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.1, Intro, source-defined disordered binary NC solid design"
+              }
+            ],
+            "note": "SI S2 loss of post-treatment SAXS peaks may also reflect reduced electron-density contrast; it does not uniquely establish disorder for every ratio."
+          },
+          "surface": {
+            "value": "hydrazine-treated NC-solid films",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-01-film",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "mix-01-film",
+          "composition": {
+            "value": "Ag2Te/PbTe NC mixture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "hydrazine-treated binary NC solid",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route::ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-1-film",
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "record_page_path": "records/ko2010-ag2te-pbte-artificial-atoms-nl100571m-route.html",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "title": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "doi": "10.1021/nl100571m",
+      "year": 2010,
+      "method": "SI-original Ag2Te NC synthesis, externally prepared PbTe NC input, three binary Ag2Te/PbTe formulations, cast and hydrazine-treated transport films",
+      "recipe_label": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-1-film",
+      "source_sample_label": "Ag2Te:PbTe 1:1 particle-ratio NC-solid category",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag2Te/PbTe NC mixture",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "hydrazine-treated binary NC solid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te/PbTe NC solids at Ag2Te:PbTe particle-number ratios 1:100, 1:10 and 1:1, plus pure-component controls",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "glassy/Bernal-random-packing NC-solid architecture selected by design",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.1, Intro, source-defined disordered binary NC solid design"
+              }
+            ],
+            "note": "SI S2 loss of post-treatment SAXS peaks may also reflect reduced electron-density contrast; it does not uniquely establish disorder for every ratio."
+          },
+          "surface": {
+            "value": "hydrazine-treated NC-solid films",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-1-film",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "mix-1-film",
+          "composition": {
+            "value": "Ag2Te/PbTe NC mixture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "hydrazine-treated binary NC solid",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route::ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-ag2te-film",
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "record_page_path": "records/ko2010-ag2te-pbte-artificial-atoms-nl100571m-route.html",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "title": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "doi": "10.1021/nl100571m",
+      "year": 2010,
+      "method": "SI-original Ag2Te NC synthesis, externally prepared PbTe NC input, three binary Ag2Te/PbTe formulations, cast and hydrazine-treated transport films",
+      "recipe_label": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-ag2te-film",
+      "source_sample_label": "pure Ag2Te NC-solid film category",
+      "batch_id": null,
+      "parent_sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+      "composition": {
+        "value": "Ag2Te NC solid",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "Main PDF p.4, Figure 3 and Results, Ag2Te NC optical/TEM and transport"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "Main PDF p.4, Figure 3 and Results, Ag2Te NC optical/TEM and transport",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "hydrazine-treated NC film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.4, Figure 3 and Results, Ag2Te NC optical/TEM and transport"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te/PbTe NC solids at Ag2Te:PbTe particle-number ratios 1:100, 1:10 and 1:1, plus pure-component controls",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "glassy/Bernal-random-packing NC-solid architecture selected by design",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.1, Intro, source-defined disordered binary NC solid design"
+              }
+            ],
+            "note": "SI S2 loss of post-treatment SAXS peaks may also reflect reduced electron-density contrast; it does not uniquely establish disorder for every ratio."
+          },
+          "surface": {
+            "value": "hydrazine-treated NC-solid films",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-ag2te-film",
+          "parent_sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+          "batch_id": null,
+          "material_state_id": "pure-ag2te-film",
+          "composition": {
+            "value": "Ag2Te NC solid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.4, Figure 3 and Results, Ag2Te NC optical/TEM and transport"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "hydrazine-treated NC film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "Main PDF p.4, Figure 3 and Results, Ag2Te NC optical/TEM and transport"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route::ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-pbte-film",
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "record_page_path": "records/ko2010-ag2te-pbte-artificial-atoms-nl100571m-route.html",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "title": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "doi": "10.1021/nl100571m",
+      "year": 2010,
+      "method": "SI-original Ag2Te NC synthesis, externally prepared PbTe NC input, three binary Ag2Te/PbTe formulations, cast and hydrazine-treated transport films",
+      "recipe_label": "Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms",
+      "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-pbte-film",
+      "source_sample_label": "undoped PbTe NC-solid film category",
+      "batch_id": null,
+      "parent_sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pbte-nc",
+      "composition": {
+        "value": "PbTe NC solid",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "Main PDF p.3, Figure 2 and caption, PbTe NC optical/TEM and transport"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+          },
+          {
+            "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+            "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "Main PDF p.3, Figure 2 and caption, PbTe NC optical/TEM and transport",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements",
+          "claim": null
+        },
+        {
+          "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "hydrazine-treated NC film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.3, Figure 2 and caption, PbTe NC optical/TEM and transport"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Te/PbTe NC solids at Ag2Te:PbTe particle-number ratios 1:100, 1:10 and 1:1, plus pure-component controls",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.5, Figure 4, Table 1 and Results, three Ag2Te/PbTe ratios"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "glassy/Bernal-random-packing NC-solid architecture selected by design",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.1, Intro, source-defined disordered binary NC solid design"
+              }
+            ],
+            "note": "SI S2 loss of post-treatment SAXS peaks may also reflect reduced electron-density contrast; it does not uniquely establish disorder for every ratio."
+          },
+          "surface": {
+            "value": "hydrazine-treated NC-solid films",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-pbte-film",
+          "parent_sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pbte-nc",
+          "batch_id": null,
+          "material_state_id": "pure-pbte-film",
+          "composition": {
+            "value": "PbTe NC solid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "Main PDF p.3, Figure 2 and caption, PbTe NC optical/TEM and transport"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+              },
+              {
+                "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "hydrazine-treated NC film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "Main PDF p.3, Figure 2 and caption, PbTe NC optical/TEM and transport"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.2, Synthesis and Device fabrication and measurements"
+                },
+                {
+                  "source_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+                  "locator": "SI PDF p.5, Figure S2 and caption, before/after hydrazine SAXS"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "kovacheva2002-limn2o4-0p5a::kovacheva2002-limn2o4-0p5a-product",
       "record_id": "kovacheva2002-limn2o4-0p5a",
       "record_page_path": "records/kovacheva2002-limn2o4-0p5a.html",
@@ -85343,6 +86605,573 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "routzahn2014-single-nc-exchange-nl4044289-route::routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+      "record_id": "routzahn2014-single-nc-exchange-nl4044289-route",
+      "record_page_path": "records/routzahn2014-single-nc-exchange-nl4044289-route.html",
+      "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+      "title": "Single-Nanocrystal Reaction Trajectories Reveal Sharp Cooperative Transitions",
+      "doi": "10.1021/nl4044289",
+      "year": 2014,
+      "method": "SI-described CdSe seed and CdS shell synthesis, ensemble methanolic AgNO3 titration, and immobilized single-nanocrystal Ag+ flow microscopy",
+      "recipe_label": "Single-Nanocrystal Reaction Trajectories Reveal Sharp Cooperative Transitions",
+      "sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+      "source_sample_label": "starting CdSe/CdS core/shell nanocrystals",
+      "batch_id": null,
+      "parent_sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-seed",
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "SI PDF p.3, Synthesis of core/shell CdSe/CdS nanocrystals"
+          },
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+          },
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "SI PDF p.8, Figure S1 core/shell starting-particle TEM"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "SI PDF p.3, Synthesis of core/shell CdSe/CdS nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion",
+          "claim": null
+        },
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "SI PDF p.8, Figure S1 core/shell starting-particle TEM",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CdSe/CdS in the 0%-exchange ensemble specimen",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "core/shell nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.3, Synthesis of core/shell CdSe/CdS nanocrystals"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.8, Figure S1 core/shell starting-particle TEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se/Ag2S from CdSe/CdS core/shell nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic Ag2Se and monoclinic Ag2S in final 107%-exchange ensemble titration specimen",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+              }
+            ],
+            "note": "Single-dot OFF states are optical assignments, not diffraction-resolved phases."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Final exchanged-product size is not directly reported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+          "parent_sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-seed",
+          "batch_id": null,
+          "material_state_id": "cdse-cds-core-shell",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.3, Synthesis of core/shell CdSe/CdS nanocrystals"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.8, Figure S1 core/shell starting-particle TEM"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CdSe/CdS in the 0%-exchange ensemble specimen",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+                },
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "core/shell nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "SI PDF p.3, Synthesis of core/shell CdSe/CdS nanocrystals"
+                },
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+                },
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "SI PDF p.8, Figure S1 core/shell starting-particle TEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "routzahn2014-single-nc-exchange-nl4044289-route::routzahn2014-single-nc-exchange-nl4044289-cdse-seed",
+      "record_id": "routzahn2014-single-nc-exchange-nl4044289-route",
+      "record_page_path": "records/routzahn2014-single-nc-exchange-nl4044289-route.html",
+      "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+      "title": "Single-Nanocrystal Reaction Trajectories Reveal Sharp Cooperative Transitions",
+      "doi": "10.1021/nl4044289",
+      "year": 2014,
+      "method": "SI-described CdSe seed and CdS shell synthesis, ensemble methanolic AgNO3 titration, and immobilized single-nanocrystal Ag+ flow microscopy",
+      "recipe_label": "Single-Nanocrystal Reaction Trajectories Reveal Sharp Cooperative Transitions",
+      "sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-seed",
+      "source_sample_label": "SI-synthesized CdSe seed nanocrystals",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "SI PDF p.2, Synthesis of CdSe nanocrystals and purification"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "SI PDF p.2, Synthesis of CdSe nanocrystals and purification",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "colloidal nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.2, Synthesis of CdSe nanocrystals and purification"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se/Ag2S from CdSe/CdS core/shell nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic Ag2Se and monoclinic Ag2S in final 107%-exchange ensemble titration specimen",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+              }
+            ],
+            "note": "Single-dot OFF states are optical assignments, not diffraction-resolved phases."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Final exchanged-product size is not directly reported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-seed",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cdse-seeds",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.2, Synthesis of CdSe nanocrystals and purification"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "colloidal nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "SI PDF p.2, Synthesis of CdSe nanocrystals and purification"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "routzahn2014-single-nc-exchange-nl4044289-route::routzahn2014-single-nc-exchange-nl4044289-ensemble-final",
+      "record_id": "routzahn2014-single-nc-exchange-nl4044289-route",
+      "record_page_path": "records/routzahn2014-single-nc-exchange-nl4044289-route.html",
+      "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+      "title": "Single-Nanocrystal Reaction Trajectories Reveal Sharp Cooperative Transitions",
+      "doi": "10.1021/nl4044289",
+      "year": 2014,
+      "method": "SI-described CdSe seed and CdS shell synthesis, ensemble methanolic AgNO3 titration, and immobilized single-nanocrystal Ag+ flow microscopy",
+      "recipe_label": "Single-Nanocrystal Reaction Trajectories Reveal Sharp Cooperative Transitions",
+      "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-final",
+      "source_sample_label": "final 107%-exchange ensemble cuvette product",
+      "batch_id": null,
+      "parent_sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+      "composition": {
+        "value": "Ag2Se/Ag2S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+          },
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "SI PDF p.4, Ensemble-scale cation exchange titration"
+          },
+          {
+            "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+            "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion",
+          "claim": null
+        },
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "SI PDF p.4, Ensemble-scale cation exchange titration",
+          "claim": null
+        },
+        {
+          "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+          "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "orthorhombic Ag2Se and monoclinic Ag2S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.4, Ensemble-scale cation exchange titration"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se/Ag2S from CdSe/CdS core/shell nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "orthorhombic Ag2Se and monoclinic Ag2S in final 107%-exchange ensemble titration specimen",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+              }
+            ],
+            "note": "Single-dot OFF states are optical assignments, not diffraction-resolved phases."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Final exchanged-product size is not directly reported.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-final",
+          "parent_sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+          "batch_id": null,
+          "material_state_id": "ensemble-final",
+          "composition": {
+            "value": "Ag2Se/Ag2S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.4, Ensemble-scale cation exchange titration"
+              },
+              {
+                "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "orthorhombic Ag2Se and monoclinic Ag2S",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "Main PDF p.2, Scheme 1, Figure 1 and main-text ensemble titration discussion"
+                },
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "SI PDF p.4, Ensemble-scale cation exchange titration"
+                },
+                {
+                  "source_id": "routzahn2014-single-nc-exchange-nl4044289",
+                  "locator": "SI PDF p.5, X-ray diffraction of 0% and 107% titration specimens"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "rusch2026-hi-c10::rusch2026-hi-c10-product",
       "record_id": "rusch2026-hi-c10",
       "record_page_path": "records/rusch2026-hi-c10.html",
@@ -118244,6 +120073,2528 @@
                 {
                   "source_id": "yao1998",
                   "locator": "Main PDF p. 2, printed p. 596, Preparation of CdS Nanocrystals/Polymer Hybrids"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+      "source_sample_label": "Ag2Se aerogel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-wet",
+      "composition": {
+        "value": "Ag2Se; EDS Ag:Se = 2:1, Cd peak absent",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.6, Figure S1 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Ag+ exchange and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Figure 1 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Figure 2 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Figure 3 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "body-centered cubic α-Ag2Se at room temperature",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              }
+            ],
+            "note": "Figure 2 B includes a reference crystal model; phase assignment comes from PXRD."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "monolithic pearl-necklace network of nanoscale particles; meso-to-macroporous",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.8, Figure S3 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-wet",
+          "batch_id": null,
+          "material_state_id": "ag2se-aerogel",
+          "composition": {
+            "value": "Ag2Se; EDS Ag:Se = 2:1, Cd peak absent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "body-centered cubic α-Ag2Se at room temperature",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Figure 2 and caption"
+                }
+              ],
+              "note": "Figure 2 B includes a reference crystal model; phase assignment comes from PXRD."
+            },
+            "morphology": {
+              "value": "monolithic pearl-necklace network of nanoscale particles; meso-to-macroporous",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Figure 1 and caption"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Figure 3 and caption"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.8, Figure S3 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-ag2se-wet",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-wet",
+      "source_sample_label": "Ag+ exchanged CdSe wet gel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "composition": {
+        "value": "Ag2Se",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Ag+ exchange and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Figure 1 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "black retained monolithic wet-gel framework",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-wet",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+          "batch_id": null,
+          "material_state_id": "ag2se-wet-gel",
+          "composition": {
+            "value": "Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "black retained monolithic wet-gel framework",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Figure 1 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-cdse-dry",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-dry",
+      "source_sample_label": "CdSe aerogel reference",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Figure 2 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Figure 3 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "hexagonal CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "pearl-necklace porous nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-dry",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+          "batch_id": null,
+          "material_state_id": "cdse-aerogel",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "hexagonal CdSe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Figure 2 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "pearl-necklace porous nanoparticle network",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Figure 3 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "source_sample_label": "monolithic CdSe wet gel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-mua-cdse",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Ag+ exchange and Figure 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Figure 1 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "orange monolithic wet gel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-mua-cdse",
+          "batch_id": null,
+          "material_state_id": "cdse-wet-gel",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "orange monolithic wet gel",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Figure 1 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-cuse-dry",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-dry",
+      "source_sample_label": "CuSe aerogel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-wet",
+      "composition": {
+        "value": "CuSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.9, Figure S5 and caption"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.10, Figure S6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.9, Figure S5 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.10, Figure S6 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.11, Figure S7 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "hexagonal CuSe by PXRD overlay",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "porous nanoparticle network in TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.11, Figure S7 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-dry",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-wet",
+          "batch_id": null,
+          "material_state_id": "cuse-aerogel",
+          "composition": {
+            "value": "CuSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.10, Figure S6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "hexagonal CuSe by PXRD overlay",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.9, Figure S5 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "porous nanoparticle network in TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.11, Figure S7 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-cuse-wet",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-wet",
+      "source_sample_label": "CuSe exchanged wet gel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "composition": {
+        "value": "CuSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "wet gel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-wet",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+          "batch_id": null,
+          "material_state_id": "cuse-wet-gel",
+          "composition": {
+            "value": "CuSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "wet gel",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-mua-cdse",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-mua-cdse",
+      "source_sample_label": "MUA-capped CdSe methanolic sol",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-topo-cdse",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "colloidal sol",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-mua-cdse",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-topo-cdse",
+          "batch_id": null,
+          "material_state_id": "mua-cdse-sol",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "colloidal sol",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-partial-wet",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-partial-wet",
+      "source_sample_label": "partially exchanged CdSe/Ag2Se wet gel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "composition": {
+        "value": "Ag2Se outer zone and CdSe core",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.1, Figure 1 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.1, Figure 1 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "black shell/orange core on sliced mm–cm monolith",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-partial-wet",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+          "batch_id": null,
+          "material_state_id": "partial-cdse-ag2se-gel",
+          "composition": {
+            "value": "Ag2Se outer zone and CdSe core",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "black shell/orange core on sliced mm–cm monolith",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+                },
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "Main PDF p.1, Figure 1 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-pbse-dry",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-dry",
+      "source_sample_label": "PbSe aerogel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-wet",
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.9, Figure S5 and caption"
+          },
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.10, Figure S6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.9, Figure S5 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.10, Figure S6 and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.11, Figure S7 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic PbSe by PXRD overlay",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "porous nanoparticle network in TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.11, Figure S7 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-dry",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-wet",
+          "batch_id": null,
+          "material_state_id": "pbse-aerogel",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.10, Figure S6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic PbSe by PXRD overlay",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.9, Figure S5 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "porous nanoparticle network in TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.11, Figure S7 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-pbse-wet",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-wet",
+      "source_sample_label": "PbSe exchanged wet gel",
+      "batch_id": null,
+      "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "wet gel",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-wet",
+          "parent_sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-wet",
+          "batch_id": null,
+          "material_state_id": "pbse-wet-gel",
+          "composition": {
+            "value": "PbSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "wet gel",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yao2009-ag2se-aerogel-ja900042y-route::yao2009-ag2se-aerogel-ja900042y-topo-cdse",
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "record_page_path": "records/yao2009-ag2se-aerogel-ja900042y-route.html",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "title": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "doi": "10.1021/ja900042y",
+      "year": 2009,
+      "method": "Cation exchange of monolithic CdSe nanocrystal wet gels followed by solvent exchange and supercritical CO2 drying",
+      "recipe_label": "Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions",
+      "sample_id": "yao2009-ag2se-aerogel-ja900042y-topo-cdse",
+      "source_sample_label": "TOPO-capped CdSe nanoparticles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yao2009-ag2se-aerogel-ja900042y",
+            "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yao2009-ag2se-aerogel-ja900042y",
+          "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "colloidal nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag2Se aerogel from CdSe gel, with PbSe/CuSe and partial Ag variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.3, Experimental Details II.1–3, drying and cation exchanges"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "α-Ag2Se body-centered cubic; PbSe cubic and CuSe hexagonal in SI variants",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 2 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.9, Figure S5 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 3.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "Scherrer crystallite size, not monolith dimension",
+            "basis": "",
+            "raw_text": "3.6 nm",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "monolithic porous pearl-necklace nanoparticle network",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Results, Figures 2–3 and Table 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Figure 1 and caption"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.2, Figure 3 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "residual thiolate-derived sulfur reported on Ag2Se",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "Main PDF p.1, Ag+ exchange and Figure 1"
+              },
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.6, Figure S1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-topo-cdse",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "topo-cdse-nc",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "colloidal nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yao2009-ag2se-aerogel-ja900042y",
+                  "locator": "SI PDF p.2, Experimental Details II.1, CdSe nanoparticles, ligand exchange and gelation"
                 }
               ],
               "note": ""

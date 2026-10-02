@@ -309,6 +309,62 @@ class BoundaryGuardTests(unittest.TestCase):
                     self.assertEqual(user_directed_display_error(changed, "mattersyn-site", denied),
                                      "user_directed_display_source_path_ineligible")
 
+    def test_fu_unnumbered_si_tem_exception_is_limited_to_one_pinned_crop(self):
+        path = "assets/source-figures/fu2009/si-figure-unnumbered-ag-tem.png"
+        digest = "0a10f305552758ac9ca26a08d781b2dc6ddd880801abc21ee6ad94d3e90a1793"
+        asset = user_directed_review_figure(path, b"synthetic metadata-only test", locator_id="si-figure-unnumbered-ag-tem", page=4)
+        asset["asset_hash"] = digest
+        asset["rights"]["user_direction"].update(
+            asset_hash=digest, paper_id="fu2009-qd-ag-biotin-chemcomm-b816736b", doi="10.1039/b816736b"
+        )
+        binding = asset["source_bindings"][0]
+        binding.update(doi="10.1039/b816736b", url="https://doi.org/10.1039/b816736b")
+        binding["locators"].update(
+            document_role="si",
+            source_sha256="3b015713c56170ab602b9398b220d85abe1bc207c011cd054826861453f21033",
+        )
+        binding["crop"] = {
+            "asset_sha256": digest,
+            "render_sha256": "f813589910538969a23f7ab3a21bda304cd325bc01ea5935789dd3eeea589641",
+            "crop_box": [340, 440, 1540, 1260],
+        }
+        asset["provenance_bindings"] = [{
+            "paper_id": "fu2009-qd-ag-biotin-chemcomm-b816736b",
+            "doi": "10.1039/b816736b",
+            "record_ids": ["fu2009-qd-ag-biotin-chemcomm-b816736b-route"],
+        }]
+        for repo, target in (("mattersyn-site", path), ("mattersyn", "recipe-atlas/static/" + path)):
+            self.assertIsNone(user_directed_display_error(asset, repo, target))
+        self.assertFalse(asset["rights"]["copyright_permission_verified"])
+
+        mutations = (
+            lambda a: a["rights"]["user_direction"].update(paper_id="other2009"),
+            lambda a: a["rights"]["user_direction"].update(doi="10.1000/other"),
+            lambda a: a.update(asset_hash="a" * 64),
+            lambda a: a["source_bindings"][0]["locators"].update(document_role="main"),
+            lambda a: a["source_bindings"][0]["locators"].update(page=3),
+            lambda a: a["source_bindings"][0]["locators"].update(id="Figure S4"),
+            lambda a: a["source_bindings"][0]["locators"].update(source_sha256="a" * 64),
+            lambda a: a["source_bindings"][0]["crop"].update(render_sha256="a" * 64),
+            lambda a: a["source_bindings"][0]["crop"].update(crop_box=[340, 440, 1541, 1260]),
+            lambda a: a["source_bindings"][0]["crop"].update(asset_sha256="a" * 64),
+            lambda a: a.update(provenance_bindings=[]),
+            lambda a: a["rights"].update(copyright_permission_verified=True),
+        )
+        for mutate in mutations:
+            changed = copy.deepcopy(asset)
+            mutate(changed)
+            self.assertIsNotNone(user_directed_display_error(changed, "mattersyn-site", path))
+        for denied in (
+            "assets/source-figures/fu2009/si-figure-unnumbered-other.png",
+            "assets/source-figures/other2009/si-figure-unnumbered-ag-tem.png",
+            "assets/page-renders/fu2009/si-figure-unnumbered-ag-tem.png",
+        ):
+            changed = copy.deepcopy(asset)
+            for delivery in changed["delivery_paths"]:
+                delivery["path"] = delivery["path"].replace(path, denied)
+            self.assertIsNotNone(user_directed_display_error(changed, "mattersyn-site", denied))
+
     def test_cited_scheme_for_reviewed_paper_preserves_exact_bytes_and_rights(self):
         path, raw = "assets/paper-reviews/tirosh2006/scheme-1.png", b"synthetic reviewed reaction scheme"
         asset = user_directed_review_figure(path, raw, locator_id="scheme-1", page=2)
@@ -939,6 +995,52 @@ class BoundaryGuardTests(unittest.TestCase):
             self.assertEqual(page.read_bytes(), original)
             self.assertTrue(manifest_path.is_file())
             self.assertTrue(report_path.is_file())
+
+
+class ScopedNamedCropTests(unittest.TestCase):
+    def test_main_scheme_and_table_require_exact_scoped_pins(self):
+        cases = [
+            ("assets/source-figures/routzahn2014/main-scheme-1.png", "routzahn2014-single-nc-exchange-nl4044289", "10.1021/nl4044289"),
+            ("assets/source-figures/ko2010/main-table-1.png", "ko2010-ag2te-pbte-artificial-atoms-nl100571m", "10.1021/nl100571m"),
+        ]
+        for path, paper_id, doi in cases:
+            with self.subTest(path=path):
+                raw = b"synthetic exact reviewed crop"
+                asset = user_directed_review_figure(path, raw, locator_id=Path(path).stem, page=2)
+                asset["rights"]["user_direction"].update(paper_id=paper_id, doi=doi)
+                binding = asset["source_bindings"][0]
+                binding.update(doi=doi, url="https://doi.org/" + doi)
+                binding["locators"].update(document_role="main", source_sha256="b" * 64)
+                binding["crop"] = {"asset_sha256": sha256(raw), "render_sha256": "c" * 64,
+                                   "crop_box": [10, 20, 110, 120]}
+                asset["provenance_bindings"] = [{"paper_id": paper_id, "doi": doi, "record_ids": [paper_id + "-route"]}]
+                for repo, target in (("mattersyn-site", path), ("mattersyn", "recipe-atlas/static/" + path)):
+                    self.assertIsNone(user_directed_display_error(asset, repo, target))
+                for mutate in (
+                    lambda a: a["source_bindings"][0]["locators"].update(document_role="si"),
+                    lambda a: a["source_bindings"][0]["locators"].update(id="main-figure-1"),
+                    lambda a: a["source_bindings"][0]["locators"].pop("source_sha256"),
+                    lambda a: a["source_bindings"][0]["crop"].update(render_sha256="bad"),
+                    lambda a: a["source_bindings"][0]["crop"].update(asset_sha256="d" * 64),
+                    lambda a: a.update(provenance_bindings=[]),
+                    lambda a: a["rights"]["user_direction"].update(doi="10.1021/wrong"),
+                ):
+                    changed = copy.deepcopy(asset)
+                    mutate(changed)
+                    self.assertIsNotNone(user_directed_display_error(changed, "mattersyn-site", path))
+                for denied in (
+                    path.replace("main-", "si-"), path.replace("source-figures", "page-renders"),
+                    path.replace("-1.png", "-1-private.png"), path.replace("-1.png", "-1-page.png"),
+                    path.replace("-1.png", "-1-render.png"), path.replace("-1.png", "-1-full.png"),
+                ):
+                    changed = copy.deepcopy(asset)
+                    for delivery in changed["delivery_paths"]:
+                        delivery["path"] = delivery["path"].replace(path, denied)
+                    changed["source_bindings"][0]["locators"]["id"] = Path(denied).stem
+                    reason = user_directed_display_error(changed, "mattersyn-site", denied)
+                    self.assertIsNotNone(reason)
+                    if "source-figures" in denied:
+                        self.assertEqual(reason, "user_directed_display_source_path_ineligible")
 
 
 if __name__ == "__main__":

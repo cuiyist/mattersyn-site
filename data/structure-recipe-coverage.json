@@ -17,12 +17,12 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 1666,
+    "audited_task_profile_missing": 1670,
     "explicit_sample_recipe_link_missing": 2,
-    "measured_label_not_approved": 9,
+    "measured_label_not_approved": 10,
     "no_sample_coordinate_asset": 1641,
     "source_review_required": 100,
-    "task_not_requested": 1642
+    "task_not_requested": 1645
   },
   "records": [
     {
@@ -3975,6 +3975,141 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-route",
+      "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+      "measured_product_assets": [
+        {
+          "asset_id": "chan-fig3-xas",
+          "url": "assets/source-figures/chan2007/main-figure-3.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-chip-xas",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "c18aa248430f690e76bf2589e18f5f32c95ada436f1eb23ef9bf3f48980448be",
+          "representation": "unclassified",
+          "label": "chan-fig3-xas",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "chan-fig4-xas",
+          "url": "assets/source-figures/chan2007/main-figure-4.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-chip-xas",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "b192b94e0693d4a2bae1fc6b6b6e6aa0a11940a2db43691fee2e77e9fbea67c1",
+          "representation": "unclassified",
+          "label": "chan-fig4-xas",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "chan-fig4-stopped",
+          "url": "assets/source-figures/chan2007/main-figure-4.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-sf-comparison",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "b192b94e0693d4a2bae1fc6b6b6e6aa0a11940a2db43691fee2e77e9fbea67c1",
+          "representation": "unclassified",
+          "label": "chan-fig4-stopped",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "chan-fig5-stopped",
+          "url": "assets/source-figures/chan2007/main-figure-5.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-sf-comparison",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "1a5bdd3b92ba8860d114c56428fc72db3accf1ab3a803e91b0c9f82f012b7575",
+          "representation": "unclassified",
+          "label": "chan-fig5-stopped",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "chan-fig6-dda",
+          "url": "assets/source-figures/chan2007/main-figure-6.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-dda-series",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "d1bd703e4cb5691d277c680f9354845da18e195dc8537e12a746ceb751228d75",
+          "representation": "unclassified",
+          "label": "chan-fig6-dda",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "chan-s2-precursor",
+          "url": "assets/source-figures/chan2007/si-figure-s2.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-precursor",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "20056bd8d1bc10de92819400ac87b7cfd244e729ca68f3ceed2c1db6117eb13b",
+          "representation": "unclassified",
+          "label": "chan-s2-precursor",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "chan-s2-product",
+          "url": "assets/source-figures/chan2007/si-figure-s2.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-chip-xrd",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "20056bd8d1bc10de92819400ac87b7cfd244e729ca68f3ceed2c1db6117eb13b",
+          "representation": "unclassified",
+          "label": "chan-s2-product",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "chan-s3-methanol",
+          "url": "assets/source-figures/chan2007/si-figure-s3.png",
+          "sample_id": "chan2007-cdse-ag2se-microfluidic-jp073474u-methanol-series",
+          "source_group": "chan2007-cdse-ag2se-microfluidic-jp073474u",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "3952d03bb7f2b768b24082bd5cfd32f77b61f9a0c4e4291adef7d91fafc4426f",
+          "representation": "unclassified",
+          "label": "chan-s3-methanol",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
           },
           {
             "code": "audited_task_profile_missing",
@@ -19054,6 +19189,227 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-route",
+      "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+      "measured_product_assets": [
+        {
+          "asset_id": "fig2-pbte-nc-tem",
+          "url": "assets/source-figures/ko2010/main-figure-2.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pbte-nc",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "734428d15a862ea96ec614da7a72cd719ec88876f0382654b62832b4ce018dd6",
+          "representation": "unclassified",
+          "label": "fig2-pbte-nc-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "fig2-pbte-film-transport",
+          "url": "assets/source-figures/ko2010/main-figure-2.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-pbte-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "734428d15a862ea96ec614da7a72cd719ec88876f0382654b62832b4ce018dd6",
+          "representation": "unclassified",
+          "label": "fig2-pbte-film-transport",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig3-ag2te-nc-tem",
+          "url": "assets/source-figures/ko2010/main-figure-3.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "60c1e1bdaafd69f8ec52aa8a6b349c6ab3f51f0b4afdb367fd05b5c8ce5be14d",
+          "representation": "unclassified",
+          "label": "fig3-ag2te-nc-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig3-ag2te-film-transport",
+          "url": "assets/source-figures/ko2010/main-figure-3.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-ag2te-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "60c1e1bdaafd69f8ec52aa8a6b349c6ab3f51f0b4afdb367fd05b5c8ce5be14d",
+          "representation": "unclassified",
+          "label": "fig3-ag2te-film-transport",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig4-mix-001-film",
+          "url": "assets/source-figures/ko2010/main-figure-4.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-001-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "deda0851b01d7cd82187e28e621befa8f53c2b3b16dab22c6e56552ced29db71",
+          "representation": "unclassified",
+          "label": "fig4-mix-001-film",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig4-mix-01-film",
+          "url": "assets/source-figures/ko2010/main-figure-4.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-01-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "deda0851b01d7cd82187e28e621befa8f53c2b3b16dab22c6e56552ced29db71",
+          "representation": "unclassified",
+          "label": "fig4-mix-01-film",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig4-mix-1-film",
+          "url": "assets/source-figures/ko2010/main-figure-4.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-1-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "deda0851b01d7cd82187e28e621befa8f53c2b3b16dab22c6e56552ced29db71",
+          "representation": "unclassified",
+          "label": "fig4-mix-1-film",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "table1-mix-001-film",
+          "url": "assets/source-figures/ko2010/main-table-1.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-001-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bf86ac865dff460c0b9d990a4f36e72c32adfdf5e839a146385e7e74b9c7d237",
+          "representation": "unclassified",
+          "label": "table1-mix-001-film",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "table1-mix-01-film",
+          "url": "assets/source-figures/ko2010/main-table-1.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-01-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bf86ac865dff460c0b9d990a4f36e72c32adfdf5e839a146385e7e74b9c7d237",
+          "representation": "unclassified",
+          "label": "table1-mix-01-film",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "table1-mix-1-film",
+          "url": "assets/source-figures/ko2010/main-table-1.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-mix-1-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bf86ac865dff460c0b9d990a4f36e72c32adfdf5e839a146385e7e74b9c7d237",
+          "representation": "unclassified",
+          "label": "table1-mix-1-film",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "sis1-pbte-tem",
+          "url": "assets/source-figures/ko2010/si-figure-s1.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pbte-nc",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "648490b8ece6532fa9cbc58e612d96b3cd8556c95a203f2a388f66aea6400831",
+          "representation": "unclassified",
+          "label": "sis1-pbte-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "sis1-ag2te-tem",
+          "url": "assets/source-figures/ko2010/si-figure-s1.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-ag2te-nc",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "648490b8ece6532fa9cbc58e612d96b3cd8556c95a203f2a388f66aea6400831",
+          "representation": "unclassified",
+          "label": "sis1-ag2te-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "sis2-pbte-packing",
+          "url": "assets/source-figures/ko2010/si-figure-s2.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-pbte-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "06b0b4f948b0375e745e20a0ff0726c894a3365337ab7464e6a91d30f425893e",
+          "representation": "unclassified",
+          "label": "sis2-pbte-packing",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "sis2-ag2te-packing",
+          "url": "assets/source-figures/ko2010/si-figure-s2.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-pure-ag2te-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "06b0b4f948b0375e745e20a0ff0726c894a3365337ab7464e6a91d30f425893e",
+          "representation": "unclassified",
+          "label": "sis2-ag2te-packing",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "sis2-mixed-packing",
+          "url": "assets/source-figures/ko2010/si-figure-s2.png",
+          "sample_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m-si-s2-mixed-film",
+          "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "06b0b4f948b0375e745e20a0ff0726c894a3365337ab7464e6a91d30f425893e",
+          "representation": "unclassified",
+          "label": "sis2-mixed-packing",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
           },
           {
             "code": "audited_task_profile_missing",
@@ -35314,6 +35670,188 @@
       }
     },
     {
+      "record_id": "routzahn2014-single-nc-exchange-nl4044289-route",
+      "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+      "measured_product_assets": [
+        {
+          "asset_id": "fig1-initial-xrd",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-initial-xrd",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig1-final-xrd",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-final",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-final-xrd",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig2-single-dot",
+          "url": "assets/source-figures/routzahn2014/main-figure-2.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-single-dot-flow",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "f171436fc2d9cdac3e6edcf0bb3ca2305f8c545994358efddcea20240062a4c2",
+          "representation": "unclassified",
+          "label": "fig2-single-dot",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig3-ag-series",
+          "url": "assets/source-figures/routzahn2014/main-figure-3.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ag-series",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "c8a07fe70e2680a615837b108cef1f80f268a4d445d1a305dfa22408eea0a4ce",
+          "representation": "unclassified",
+          "label": "fig3-ag-series",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "si-s1-starting-tem",
+          "url": "assets/source-figures/routzahn2014/si-figure-s1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ce30860572b5ac8425de310246cefe09c5d7c894179f5519a7b2b2e25592954c",
+          "representation": "unclassified",
+          "label": "si-s1-starting-tem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "si-s8-methanol-control",
+          "url": "assets/source-figures/routzahn2014/si-figure-s8.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-methanol-control",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "8df35aaa93360bfb29b08b22023460262c30c3d9a75a457fa18626906e63a5c8",
+          "representation": "unclassified",
+          "label": "si-s8-methanol-control",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "si-s9-uncorrected-optics",
+          "url": "assets/source-figures/routzahn2014/si-figure-s9.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-final",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "66b917795ef918a88aab637015bfac906abd4d756ded4c3be3e9fd9ec516da54",
+          "representation": "unclassified",
+          "label": "si-s9-uncorrected-optics",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig1-intermediate-21pct",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-21pct",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-intermediate-21pct",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig1-intermediate-35pct",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-35pct",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-intermediate-35pct",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig1-intermediate-48pct",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-48pct",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-intermediate-48pct",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig1-intermediate-60pct",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-60pct",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-intermediate-60pct",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "fig1-intermediate-80pct",
+          "url": "assets/source-figures/routzahn2014/main-figure-1.png",
+          "sample_id": "routzahn2014-single-nc-exchange-nl4044289-ensemble-80pct",
+          "source_group": "routzahn2014-single-nc-exchange-nl4044289",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "a9136e1d15c3c998ace22032c541b6cdb32d818b5dd0bc86c89e8651f167afdd",
+          "representation": "unclassified",
+          "label": "fig1-intermediate-80pct",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
       "record_id": "rusch2026-bi-oleate",
       "source_group": "rusch2026",
       "measured_product_assets": [],
@@ -48317,6 +48855,248 @@
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
           },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "yao2009-ag2se-aerogel-ja900042y-route",
+      "source_group": "yao2009-ag2se-aerogel-ja900042y",
+      "measured_product_assets": [
+        {
+          "asset_id": "yao2009-fig1-full",
+          "url": "assets/source-figures/yao2009/main-figure-1.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9c75d14710c5e96a0839c0b7d6356faf8bead8c12865ac305000a6430894fc40",
+          "representation": "unclassified",
+          "label": "yao2009-fig1-full",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-fig1-partial",
+          "url": "assets/source-figures/yao2009/main-figure-1.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-partial-wet",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9c75d14710c5e96a0839c0b7d6356faf8bead8c12865ac305000a6430894fc40",
+          "representation": "unclassified",
+          "label": "yao2009-fig1-partial",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-fig2-ag",
+          "url": "assets/source-figures/yao2009/main-figure-2.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "0a1d95807128c93ddef27d57bbb73db9d59c8d311cdff2e973ae1176a0648183",
+          "representation": "unclassified",
+          "label": "yao2009-fig2-ag",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-fig2-cd",
+          "url": "assets/source-figures/yao2009/main-figure-2.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "0a1d95807128c93ddef27d57bbb73db9d59c8d311cdff2e973ae1176a0648183",
+          "representation": "unclassified",
+          "label": "yao2009-fig2-cd",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-fig3-cd",
+          "url": "assets/source-figures/yao2009/main-figure-3.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "137b0eea3318251f56fad91d06df25bd78afe56d4332e8665e20b90ef70910eb",
+          "representation": "unclassified",
+          "label": "yao2009-fig3-cd",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-fig3-ag",
+          "url": "assets/source-figures/yao2009/main-figure-3.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "137b0eea3318251f56fad91d06df25bd78afe56d4332e8665e20b90ef70910eb",
+          "representation": "unclassified",
+          "label": "yao2009-fig3-ag",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s1-cd",
+          "url": "assets/source-figures/yao2009/si-figure-s1.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cdse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "cc0ebe3f11b156ce5d706c7cc22cd4efa926d2dcc111aaedd2dd2aeb7d6414ba",
+          "representation": "unclassified",
+          "label": "yao2009-s1-cd",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s1-ag",
+          "url": "assets/source-figures/yao2009/si-figure-s1.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "cc0ebe3f11b156ce5d706c7cc22cd4efa926d2dcc111aaedd2dd2aeb7d6414ba",
+          "representation": "unclassified",
+          "label": "yao2009-s1-ag",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s2-ag",
+          "url": "assets/source-figures/yao2009/si-figure-s2.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "390895b0ff0c29c0d0ca6533fbdb5d799682a8d68769ee469fb30e721d33a919",
+          "representation": "unclassified",
+          "label": "yao2009-s2-ag",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s3-ag",
+          "url": "assets/source-figures/yao2009/si-figure-s3.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "107d55e8d828a08c9f5f3bf8aab0c55620be4fd2e41e5686be70c746ff7b1c58",
+          "representation": "unclassified",
+          "label": "yao2009-s3-ag",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s4-ag",
+          "url": "assets/source-figures/yao2009/si-figure-s4.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-ag2se-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "0e20823801da3e9489627fbc56bb8fa5fb82b3a8902daa37e55f81de3ef89de5",
+          "representation": "unclassified",
+          "label": "yao2009-s4-ag",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s5-pb",
+          "url": "assets/source-figures/yao2009/si-figure-s5.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "6b4ab980e659c353b86ae678752ef98ed717cb56d2c7b466361415d17522f9a2",
+          "representation": "unclassified",
+          "label": "yao2009-s5-pb",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s5-cu",
+          "url": "assets/source-figures/yao2009/si-figure-s5.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "6b4ab980e659c353b86ae678752ef98ed717cb56d2c7b466361415d17522f9a2",
+          "representation": "unclassified",
+          "label": "yao2009-s5-cu",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s6-pb",
+          "url": "assets/source-figures/yao2009/si-figure-s6.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bbca64851e673564e9b61215a27b1d717a9a14dce0d31f93987079aa84cd6f69",
+          "representation": "unclassified",
+          "label": "yao2009-s6-pb",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s6-cu",
+          "url": "assets/source-figures/yao2009/si-figure-s6.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bbca64851e673564e9b61215a27b1d717a9a14dce0d31f93987079aa84cd6f69",
+          "representation": "unclassified",
+          "label": "yao2009-s6-cu",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s7-pb",
+          "url": "assets/source-figures/yao2009/si-figure-s7.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-pbse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec947b867f443bf4af2fd6c8aa1112148026e14dcefb307d0858abe8ea582d24",
+          "representation": "unclassified",
+          "label": "yao2009-s7-pb",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "yao2009-s7-cu",
+          "url": "assets/source-figures/yao2009/si-figure-s7.png",
+          "sample_id": "yao2009-ag2se-aerogel-ja900042y-cuse-dry",
+          "source_group": "yao2009-ag2se-aerogel-ja900042y",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec947b867f443bf4af2fd6c8aa1112148026e14dcefb307d0858abe8ea582d24",
+          "representation": "unclassified",
+          "label": "yao2009-s7-cu",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
           {
             "code": "audited_task_profile_missing",
             "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
