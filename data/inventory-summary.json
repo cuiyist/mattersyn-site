@@ -18,12 +18,12 @@
     "total_canonical_source_groups": 173,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
-    "formal_full_main_reviews_si_unverified": 105,
-    "formal_full_main_only_review_pages": 563,
+    "formal_full_main_reviews_si_unverified": 104,
+    "formal_full_main_only_review_pages": 554,
     "formal_full_si_reviews_main_unverified": 1,
     "formal_full_si_only_review_pages": 31,
-    "formal_main_and_selected_si_reviews": 1,
-    "formal_main_and_selected_si_review_pages": 20,
+    "formal_main_and_selected_si_reviews": 2,
+    "formal_main_and_selected_si_review_pages": 30,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 22,
@@ -6647,19 +6647,29 @@
       "title": "Colloidal Synthesis of (PbBr2)2(AMTP)2PbBr4 a Periodic Perovskite “Heterostructured” Nanocrystal",
       "year": 2024,
       "has_local_corpus_group": true,
-      "review_status": "full_supplied_main_review_si_unverified",
-      "review_scope": "All nine supplied main-article pages were inventoried, read and visually reviewed. Four heterostructure route records and two monolayer controls were independently audited against the source, with route-specific Figures 1–4 and 6 and qualified Figure 5 route-family context. Supporting information was not reviewed.",
+      "review_status": "full_main_and_selected_si_independently_reviewed",
+      "review_scope": "All nine supplied main-article pages were inventoried, read and visually reviewed. Four heterostructure route records and two monolayer controls were independently audited against the source, with route-specific Figures 1–4 and 6 and qualified Figure 5 route-family context. Supporting Information PDF p.18, Table S4 and its red-text footnote received formal text and visual page review for the protonated-route timing conflict. Text on SI pp.2–4 was consulted for context, but those and the other SI pages did not receive formal full-page review.",
       "documents": [
         {
           "role": "main",
           "page_count": 9,
           "all_text_read": true,
           "all_visually_reviewed": true
+        },
+        {
+          "role": "si",
+          "page_count": 18,
+          "pages_read": [
+            18
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "reading_method": "Only PDF p.18, Table S4 and its red-text footnote received formal text and visual page review; text on pp.2–4 was consulted as context, while those and the other SI pages were not fully reviewed"
         }
       ],
       "evidence_locator": "data/paper-reviews/massasa2024-cgd3c01472.json",
       "paper_review_url": "paper-review.html?id=massasa2024-cgd3c01472",
-      "si_status": "not_reviewed",
+      "si_status": "partially_reviewed",
       "main_status": "reviewed",
       "notes": [
         "The four precursor/solvent branches and two monolayer controls are distinct scoped records; source-specific quantities and unreported solvent-variant details remain separate.",
@@ -26446,7 +26456,7 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "18cd176945f60885b22779b142cdc505702d8a825116d3fa748a5f59a3a53693",
+    "reviewed_evidence_sha256": "ff4224e6709e942c1d86ee1b8a0e80eb81484ff1a51e5a6947c331074582f0ef",
     "record_ids_sha256": "b11d6a81cafe8298f25d7e7bb0de9624e2df50aeb91da3be5ed6723b40d620ba",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
