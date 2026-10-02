@@ -1,15 +1,15 @@
 {
   "status": "passed",
   "dataset_version": "0.41.2",
-  "records": 1662,
-  "recipe_records": 875,
+  "records": 1663,
+  "recipe_records": 876,
   "shared_procedures": 454,
   "independent_experiment_count": null,
-  "source_groups": 163,
-  "families": 205,
+  "source_groups": 164,
+  "families": 206,
   "eligible_by_task": {
     "precursor_selection": 95,
-    "partial_protocol": 130,
+    "partial_protocol": 131,
     "size_conditioned_recipe": 22,
     "exact_structure_recipe": 0,
     "success_prediction": 0,
@@ -31,7 +31,7 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 775,
+  "curated_recipes": 776,
   "contextual_observation_records": 333,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
@@ -53,9 +53,9 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 1662,
+      "audited_task_profile_missing": 1663,
       "explicit_sample_recipe_link_missing": 2,
-      "measured_label_not_approved": 7,
+      "measured_label_not_approved": 8,
       "no_sample_coordinate_asset": 1641,
       "source_review_required": 100,
       "task_not_requested": 1641
@@ -65,16 +65,16 @@
     "schema_version": "1.0",
     "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
     "counts": {
-      "recipe_structure_rows": 628,
-      "source_groups": 143,
-      "records": 533,
+      "recipe_structure_rows": 629,
+      "source_groups": 144,
+      "records": 534,
       "physical_samples_deduplicated": null
     },
     "measurement_property_policy": "data/structure-outcome-policy.json"
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 163,
+    "material_families": 164,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -91,6 +91,7 @@
       "(Sc2O3)0.08(ZrO2)0.92",
       "Ag",
       "Ag/Ag2Se",
+      "Ag/CQD",
       "Ag/Si",
       "Ag/SiO2",
       "Ag2S",
@@ -241,18 +242,18 @@
       "ZnSe:Cr",
       "ZrO2"
     ],
-    "contributing_papers": 163,
+    "contributing_papers": 164,
     "source_coverage": {
-      "total_contributing_papers": 163,
-      "reviewed_contributing_papers": 163,
+      "total_contributing_papers": 164,
+      "reviewed_contributing_papers": 164,
       "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
     },
-    "synthesis_structure_pairs": 628,
+    "synthesis_structure_pairs": 629,
     "more_comprehensive_pairs": 6,
-    "partial_pairs": 622,
+    "partial_pairs": 623,
     "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 1662,
+    "all_records": 1663,
     "experimental_series_rows": 100
   },
   "queue_count": 37,

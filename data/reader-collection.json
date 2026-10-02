@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 163,
+  "material_families": 164,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -17,6 +17,7 @@
     "(Sc2O3)0.08(ZrO2)0.92",
     "Ag",
     "Ag/Ag2Se",
+    "Ag/CQD",
     "Ag/Si",
     "Ag/SiO2",
     "Ag2S",
@@ -167,18 +168,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 163,
+  "contributing_papers": 164,
   "source_coverage": {
-    "total_contributing_papers": 163,
-    "reviewed_contributing_papers": 163,
+    "total_contributing_papers": 164,
+    "reviewed_contributing_papers": 164,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 628,
+  "synthesis_structure_pairs": 629,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 622,
+  "partial_pairs": 623,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1662,
+  "all_records": 1663,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -132269,6 +132270,413 @@
                   {
                     "source_id": "sahoo2010-cds-jp912103t",
                     "locator": "Main PDF p.1 / printed p.4199, Experimental, paragraph beginning CdS nanocrystals were synthesized"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "saikia2022-ag-cqd-njc-d1nj04039a-route::saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+      "record_id": "saikia2022-ag-cqd-njc-d1nj04039a-route",
+      "record_page_path": "records/saikia2022-ag-cqd-njc-d1nj04039a-route.html",
+      "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+      "title": "A novel rapid synthesis of highly stable silver nanoparticle/carbon quantum dot nanocomposites derived from low-grade coal feedstock",
+      "doi": "10.1039/d1nj04039a",
+      "year": 2022,
+      "method": "Aqueous CQD-mediated reduction of AgNO3 with optional NH4OH and ambiguous varied-input comparisons",
+      "recipe_label": "A novel rapid synthesis of highly stable silver nanoparticle/carbon quantum dot nanocomposites derived from low-grade coal feedstock",
+      "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+      "source_sample_label": "Ag/CQD nanocomposite after silver reduction",
+      "batch_id": null,
+      "parent_sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+      "composition": {
+        "value": "Ag nanoparticles on carbon quantum dots",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+            "locator": "Main PDF p.4, Results and Figure 2"
+          },
+          {
+            "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+            "locator": "Main PDF p.5, XRD Results and Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "locator": "Main PDF p.4, Results and Figure 2",
+          "claim": null
+        },
+        {
+          "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "locator": "Main PDF p.5, XRD Results and Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "polycrystalline fcc Ag diffraction with graphitic CQD contribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.4, Results and Figure 2"
+              },
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.5, XRD Results and Figure 3"
+              }
+            ],
+            "note": "The ~32.57° Ag-associated peak has an unresolved (112)/(122) plane-label conflict."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical, dispersed particles; 2–12 nm distribution with reported 4–6 nm average",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.4, Results and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag nanoparticle/carbon quantum dot composite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "CQDs function as reductant and stabilizer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "parent_sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+          "batch_id": null,
+          "material_state_id": "ag-cqd-product",
+          "composition": {
+            "value": "Ag nanoparticles on carbon quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.4, Results and Figure 2"
+              },
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.5, XRD Results and Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "polycrystalline fcc Ag diffraction with graphitic CQD contribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                  "locator": "Main PDF p.4, Results and Figure 2"
+                },
+                {
+                  "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                  "locator": "Main PDF p.5, XRD Results and Figure 3"
+                }
+              ],
+              "note": "The ~32.57° Ag-associated peak has an unresolved (112)/(122) plane-label conflict."
+            },
+            "morphology": {
+              "value": "spherical, dispersed particles; 2–12 nm distribution with reported 4–6 nm average",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                  "locator": "Main PDF p.4, Results and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cqd-feed",
+            "silver-nitrate",
+            "water"
+          ],
+          "fields": [
+            {
+              "material_id": "cqd-feed",
+              "pointer": "/materials/0/quantities/aliquot_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "aliquot of CQD stock",
+                "raw_text": "200 µL",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cqd-feed",
+              "pointer": "/materials/0/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10.79,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg/mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "CQD stock",
+                "raw_text": "10.79 mg mL−1",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "pointer": "/materials/1/quantities/charge_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 100,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "water before CQD addition",
+                "raw_text": "100 mL",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "silver-nitrate",
+              "pointer": "/materials/2/quantities/charge_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "AgNO3 stock aliquot",
+                "raw_text": "5 mL",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "silver-nitrate",
+              "pointer": "/materials/2/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3.42,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg/mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "AgNO3 stock",
+                "raw_text": "3.42 mg mL−1",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cqd-feed",
+              "stock_id": "cqd-stock",
+              "pointer": "/stocks/0/components/0/quantities/aliquot_volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 200,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "200 µL",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "silver-nitrate",
+              "stock_id": "agno3-stock",
+              "pointer": "/stocks/1/components/0/quantities/aliquot_volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5 mL",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "operation_id": "boil-water",
+              "pointer": "/operations/0/parameters/water_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 100,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "100 mL",
+                "evidence": [
+                  {
+                    "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                    "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
                   }
                 ],
                 "derivation": null

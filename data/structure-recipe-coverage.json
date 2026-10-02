@@ -17,9 +17,9 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 1662,
+    "audited_task_profile_missing": 1663,
     "explicit_sample_recipe_link_missing": 2,
-    "measured_label_not_approved": 7,
+    "measured_label_not_approved": 8,
     "no_sample_coordinate_asset": 1641,
     "source_review_required": 100,
     "task_not_requested": 1641
@@ -35319,6 +35319,175 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "saikia2022-ag-cqd-njc-d1nj04039a-route",
+      "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+      "measured_product_assets": [
+        {
+          "asset_id": "saikia2022-cqd-tem",
+          "url": "assets/source-figures/saikia2022/main-figure-1.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "8f32f0c32a056c52e5dbe12bad0b403fcae50ee7409f1201f7665960776f455f",
+          "representation": "unclassified",
+          "label": "saikia2022-cqd-tem",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "saikia2022-ag-cqd-tem",
+          "url": "assets/source-figures/saikia2022/main-figure-2.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "57f5eef6f84b78fc6153bd3a0e6a01e66abef22dab0e5e48ddd4f08f3635f825",
+          "representation": "unclassified",
+          "label": "saikia2022-ag-cqd-tem",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "saikia2022-ag-cqd-xrd",
+          "url": "assets/source-figures/saikia2022/main-figure-3.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "81ace436723ce8b74853b7da72b27712ba12882d52cb896f55c3006b49a3664a",
+          "representation": "unclassified",
+          "label": "saikia2022-ag-cqd-xrd",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "saikia2022-cqd-xrd-comparator",
+          "url": "assets/source-figures/saikia2022/main-figure-3.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "81ace436723ce8b74853b7da72b27712ba12882d52cb896f55c3006b49a3664a",
+          "representation": "unclassified",
+          "label": "saikia2022-cqd-xrd-comparator",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "saikia2022-ag-cqd-xps",
+          "url": "assets/source-figures/saikia2022/main-figure-4.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "18811d1ae5bfb353d6953a654391069858a195b7ac30652e58fbec92a5812c50",
+          "representation": "unclassified",
+          "label": "saikia2022-ag-cqd-xps",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "saikia2022-ag-cqd-ftir",
+          "url": "assets/source-figures/saikia2022/main-figure-5.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "fac041ad9b607f8ebc7e28a5754d605942a103b396b7e0e91e961d46b1ba8c15",
+          "representation": "unclassified",
+          "label": "saikia2022-ag-cqd-ftir",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "saikia2022-ag-cqd-optical",
+          "url": "assets/source-figures/saikia2022/main-figure-6.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7be3e17682563163da0bfb8a20ccf667cfa92e55e572fb9ab2c03f5f604c3880",
+          "representation": "unclassified",
+          "label": "saikia2022-ag-cqd-optical",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "saikia2022-nh4oh-optical",
+          "url": "assets/source-figures/saikia2022/main-figure-6b.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-nh4oh-branch",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "909585bf22ee9f101ef9db35e91efc85559bb70c5e87142d28019781ae9a2a15",
+          "representation": "unclassified",
+          "label": "saikia2022-nh4oh-optical",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "saikia2022-unassigned-series",
+          "url": "assets/source-figures/saikia2022/main-figure-6c.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-volume-series",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "686ac83eb5e497033ac7afbf23af1e3afb48d62ded7ff746bcb4f97f0ad58ae5",
+          "representation": "unclassified",
+          "label": "saikia2022-unassigned-series",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "saikia2022-zeta-cqd",
+          "url": "assets/source-figures/saikia2022/main-figure-7.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9520e8e4d4444a8ecb8a8a9104ea0c2e5bf499b3fda8cd76c002f4fd5dc669ef",
+          "representation": "unclassified",
+          "label": "saikia2022-zeta-cqd",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "saikia2022-zeta-ag-cqd",
+          "url": "assets/source-figures/saikia2022/main-figure-7.png",
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9520e8e4d4444a8ecb8a8a9104ea0c2e5bf499b3fda8cd76c002f4fd5dc669ef",
+          "representation": "unclassified",
+          "label": "saikia2022-zeta-ag-cqd",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
           },
           {
             "code": "audited_task_profile_missing",

@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 628,
-    "source_groups": 143,
-    "records": 533,
+    "recipe_structure_rows": 629,
+    "source_groups": 144,
+    "records": 534,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -83380,6 +83380,199 @@
               "status": "not_reported",
               "evidence": [],
               "note": "No direct particle morphology or TEM diameter reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "saikia2022-ag-cqd-njc-d1nj04039a-route::saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+      "record_id": "saikia2022-ag-cqd-njc-d1nj04039a-route",
+      "record_page_path": "records/saikia2022-ag-cqd-njc-d1nj04039a-route.html",
+      "source_group": "saikia2022-ag-cqd-njc-d1nj04039a",
+      "title": "A novel rapid synthesis of highly stable silver nanoparticle/carbon quantum dot nanocomposites derived from low-grade coal feedstock",
+      "doi": "10.1039/d1nj04039a",
+      "year": 2022,
+      "method": "Aqueous CQD-mediated reduction of AgNO3 with optional NH4OH and ambiguous varied-input comparisons",
+      "recipe_label": "A novel rapid synthesis of highly stable silver nanoparticle/carbon quantum dot nanocomposites derived from low-grade coal feedstock",
+      "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+      "source_sample_label": "Ag/CQD nanocomposite after silver reduction",
+      "batch_id": null,
+      "parent_sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+      "composition": {
+        "value": "Ag nanoparticles on carbon quantum dots",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+            "locator": "Main PDF p.4, Results and Figure 2"
+          },
+          {
+            "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+            "locator": "Main PDF p.5, XRD Results and Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis",
+          "claim": null
+        },
+        {
+          "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "locator": "Main PDF p.4, Results and Figure 2",
+          "claim": null
+        },
+        {
+          "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+          "locator": "Main PDF p.5, XRD Results and Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "polycrystalline fcc Ag diffraction with graphitic CQD contribution",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.4, Results and Figure 2"
+              },
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.5, XRD Results and Figure 3"
+              }
+            ],
+            "note": "The ~32.57° Ag-associated peak has an unresolved (112)/(122) plane-label conflict."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical, dispersed particles; 2–12 nm distribution with reported 4–6 nm average",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.4, Results and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag nanoparticle/carbon quantum dot composite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "CQDs function as reductant and stabilizer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.3, Experimental, Ag/CQD synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-ag-cqd",
+          "parent_sample_id": "saikia2022-ag-cqd-njc-d1nj04039a-cqd-input",
+          "batch_id": null,
+          "material_state_id": "ag-cqd-product",
+          "composition": {
+            "value": "Ag nanoparticles on carbon quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.4, Results and Figure 2"
+              },
+              {
+                "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                "locator": "Main PDF p.5, XRD Results and Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "polycrystalline fcc Ag diffraction with graphitic CQD contribution",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                  "locator": "Main PDF p.4, Results and Figure 2"
+                },
+                {
+                  "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                  "locator": "Main PDF p.5, XRD Results and Figure 3"
+                }
+              ],
+              "note": "The ~32.57° Ag-associated peak has an unresolved (112)/(122) plane-label conflict."
+            },
+            "morphology": {
+              "value": "spherical, dispersed particles; 2–12 nm distribution with reported 4–6 nm average",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "saikia2022-ag-cqd-njc-d1nj04039a",
+                  "locator": "Main PDF p.4, Results and Figure 2"
+                }
+              ],
+              "note": ""
             },
             "measurement_refs": []
           }
