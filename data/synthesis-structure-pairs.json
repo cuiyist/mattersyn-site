@@ -2,13 +2,741 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 563,
-    "source_groups": 136,
-    "records": 520,
+    "recipe_structure_rows": 577,
+    "source_groups": 139,
+    "records": 529,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
   "rows": [
+    {
+      "pair_row_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-1::acsami2021-1c07986-ag-nanocrystal-clusters-template-1-product",
+      "record_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-1",
+      "record_page_path": "records/acsami2021-1c07986-ag-nanocrystal-clusters-template-1.html",
+      "source_group": "acsami2021-1c07986-ag-nanocrystal-clusters",
+      "title": "Lin et al. (2021): Ag@Template-1 silver nanocrystal cluster",
+      "doi": "10.1021/acsami.1c07986",
+      "year": 2021,
+      "method": "Polymer-nanoreactor AgNO3/TBAB reduction",
+      "recipe_label": "Lin et al. (2021): Ag@Template-1 silver nanocrystal cluster",
+      "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-1-product",
+      "source_sample_label": "Ag@Template-1; Figure 2 a/e, Figure 3a/b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag nanocrystals in polymer cluster",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+            "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.3 / printed 39808, Ag@Template-1 preparation",
+          "claim": null
+        },
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.5 / printed 39810, Figure 2 panels a/e",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Metallic fcc Ag by XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately spherical cluster of Ag grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.5 / printed 39810, Figure 2 a,e TEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag nanocrystals within polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Polymer-stabilized Ag nanocrystal cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "PEO/PAA star-brush copolymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "Unimolecular copolymer nanoreactor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-1-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried",
+          "composition": {
+            "value": "Ag nanocrystals in polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Metallic fcc Ag by XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Approximately spherical cluster of Ag grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.5 / printed 39810, Figure 2 a,e TEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-2::acsami2021-1c07986-ag-nanocrystal-clusters-template-2-product",
+      "record_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-2",
+      "record_page_path": "records/acsami2021-1c07986-ag-nanocrystal-clusters-template-2.html",
+      "source_group": "acsami2021-1c07986-ag-nanocrystal-clusters",
+      "title": "Lin et al. (2021): Ag@Template-2 silver nanocrystal cluster",
+      "doi": "10.1021/acsami.1c07986",
+      "year": 2021,
+      "method": "Polymer-nanoreactor AgNO3/TBAB reduction",
+      "recipe_label": "Lin et al. (2021): Ag@Template-2 silver nanocrystal cluster",
+      "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-2-product",
+      "source_sample_label": "Ag@Template-2; Figure 2 b/f, Figure 3a/b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag nanocrystals in polymer cluster",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+            "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.3 / printed 39808, Ag@Template-2 preparation",
+          "claim": null
+        },
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.5 / printed 39810, Figure 2 panels b/f",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Metallic fcc Ag by XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately spherical cluster of Ag grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.5 / printed 39810, Figure 2 b,f TEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag nanocrystals within polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Polymer-stabilized Ag nanocrystal cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "PEO/PAA star-brush copolymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "Unimolecular copolymer nanoreactor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-2-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried",
+          "composition": {
+            "value": "Ag nanocrystals in polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Metallic fcc Ag by XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Approximately spherical cluster of Ag grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.5 / printed 39810, Figure 2 b,f TEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-3::acsami2021-1c07986-ag-nanocrystal-clusters-template-3-product",
+      "record_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-3",
+      "record_page_path": "records/acsami2021-1c07986-ag-nanocrystal-clusters-template-3.html",
+      "source_group": "acsami2021-1c07986-ag-nanocrystal-clusters",
+      "title": "Lin et al. (2021): Ag@Template-3 silver nanocrystal cluster",
+      "doi": "10.1021/acsami.1c07986",
+      "year": 2021,
+      "method": "Polymer-nanoreactor AgNO3/TBAB reduction",
+      "recipe_label": "Lin et al. (2021): Ag@Template-3 silver nanocrystal cluster",
+      "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-3-product",
+      "source_sample_label": "Ag@Template-3; Figure 2 c/g, Figure 3a/b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag nanocrystals in polymer cluster",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+            "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.3 / printed 39808, Ag@Template-3 preparation",
+          "claim": null
+        },
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.5 / printed 39810, Figure 2 panels c/g",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Metallic fcc Ag by XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately spherical cluster of Ag grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.5 / printed 39810, Figure 2 c,g TEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag nanocrystals within polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Polymer-stabilized Ag nanocrystal cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "PEO/PAA star-brush copolymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "Unimolecular copolymer nanoreactor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-3-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried",
+          "composition": {
+            "value": "Ag nanocrystals in polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Metallic fcc Ag by XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Approximately spherical cluster of Ag grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.5 / printed 39810, Figure 2 c,g TEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-4::acsami2021-1c07986-ag-nanocrystal-clusters-template-4-product",
+      "record_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-4",
+      "record_page_path": "records/acsami2021-1c07986-ag-nanocrystal-clusters-template-4.html",
+      "source_group": "acsami2021-1c07986-ag-nanocrystal-clusters",
+      "title": "Lin et al. (2021): Ag@Template-4 silver nanocrystal cluster",
+      "doi": "10.1021/acsami.1c07986",
+      "year": 2021,
+      "method": "Polymer-nanoreactor AgNO3/TBAB reduction",
+      "recipe_label": "Lin et al. (2021): Ag@Template-4 silver nanocrystal cluster",
+      "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-4-product",
+      "source_sample_label": "Ag@Template-4; Figure 2 d/h, Figure 3a/b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag nanocrystals in polymer cluster",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+            "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.3 / printed 39808, Ag@Template-4 preparation",
+          "claim": null
+        },
+        {
+          "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+          "locator": "Main PDF p.5 / printed 39810, Figure 2 panels d/h",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Metallic fcc Ag by XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Approximately spherical cluster of Ag grains",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.5 / printed 39810, Figure 2 d,h TEM"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag nanocrystals within polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Polymer-stabilized Ag nanocrystal cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "PEO/PAA star-brush copolymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.1 / printed 39806, abstract"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "Unimolecular copolymer nanoreactor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.3 / printed 39808, Ag@Template preparation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "acsami2021-1c07986-ag-nanocrystal-clusters-template-4-product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "dried",
+          "composition": {
+            "value": "Ag nanocrystals in polymer cluster",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                "locator": "Main PDF p.6 / printed 39811, Figure 3b XRD"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Metallic fcc Ag by XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.6 / printed 39811, Figure 3b"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Approximately spherical cluster of Ag grains",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "acsami2021-1c07986-ag-nanocrystal-clusters",
+                  "locator": "Main PDF p.5 / printed 39810, Figure 2 d,h TEM"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
     {
       "pair_row_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail::alam2012-cdse-cds-ica201110038-cdse-cds-head-tail-product",
       "record_id": "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
@@ -40061,6 +40789,1030 @@
                 {
                   "source_id": "kim2015-znmgo-cm503756q",
                   "locator": "Supplied main PDF p. 3, QD optical properties and Figure 1 discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison::klecha2009-ag-nanocrystal-plasma-la802989f-ac-5w",
+      "record_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison",
+      "record_page_path": "records/klecha2009-ag-nanocrystal-plasma-la802989f-comparison.html",
+      "source_group": "klecha2009-ag-nanocrystal-plasma-la802989f",
+      "title": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "doi": "10.1021/la802989f",
+      "year": 2009,
+      "method": "Reverse-micelle Ag colloid, ligand coating, substrate assembly, and oxygen-plasma comparison",
+      "recipe_label": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-ac-5w",
+      "source_sample_label": "AC-coated grid, 5 W / 5 s",
+      "batch_id": null,
+      "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+            "locator": "Main PDF p.2 / printed p.2825, Figure 1A,C and Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+          "locator": "Main PDF p.2 / printed p.2825, Figure 1A,C and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Short-range array forms larger coalesced objects",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Starting-colloid fcc claim belongs to a cited prior study, not a current-batch measurement."
+          },
+          "size": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "size-selected starting colloid mean",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dodecanethiol-coated Ag nanocrystals in 2D assemblies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "dodecanethiol-coated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-ac-5w",
+          "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+          "batch_id": null,
+          "material_state_id": "ac-5w",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Figure 1A,C and Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Short-range array forms larger coalesced objects",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison::klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "record_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison",
+      "record_page_path": "records/klecha2009-ag-nanocrystal-plasma-la802989f-comparison.html",
+      "source_group": "klecha2009-ag-nanocrystal-plasma-la802989f",
+      "title": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "doi": "10.1021/la802989f",
+      "year": 2009,
+      "method": "Reverse-micelle Ag colloid, ligand coating, substrate assembly, and oxygen-plasma comparison",
+      "recipe_label": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "source_sample_label": "size-selected dodecanethiol-coated Ag nanocrystals",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+            "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+          "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanocrystals, mean diameter 5.2 nm",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "colloid-mean-diameter",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "mean of size-selected Ag nanocrystals",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "source-reported size characterization, method unspecified here",
+          "conditions": "After unspecified size selection; dispersed in hexane",
+          "evidence": [
+            {
+              "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+              "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Starting-colloid fcc claim belongs to a cited prior study, not a current-batch measurement."
+          },
+          "size": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "size-selected starting colloid mean",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dodecanethiol-coated Ag nanocrystals in 2D assemblies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "dodecanethiol-coated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ag-hexane",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "The fcc assignment is attributed to a previous study, not measured for this exact starting batch in this article."
+            },
+            "morphology": {
+              "value": "Ag nanocrystals, mean diameter 5.2 nm",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "colloid-mean-diameter",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison::klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-b3",
+      "record_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison",
+      "record_page_path": "records/klecha2009-ag-nanocrystal-plasma-la802989f-comparison.html",
+      "source_group": "klecha2009-ag-nanocrystal-plasma-la802989f",
+      "title": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "doi": "10.1021/la802989f",
+      "year": 2009,
+      "method": "Reverse-micelle Ag colloid, ligand coating, substrate assembly, and oxygen-plasma comparison",
+      "recipe_label": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-b3",
+      "source_sample_label": "HOPG bilayer 3, 10 W / 5 s",
+      "batch_id": null,
+      "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+            "locator": "Main PDF p.2 / printed p.2825, Figure 2A,B,E,I and Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+          "locator": "Main PDF p.2 / printed p.2825, Figure 2A,B,E,I and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "fcc Ag for an imaged coalesced monocrystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.4 / printed p.2827, Results, interparticle spacing and coalesced-crystal discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Top layer coalesces, bottom layer only slightly modified",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Starting-colloid fcc claim belongs to a cited prior study, not a current-batch measurement."
+          },
+          "size": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "size-selected starting colloid mean",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dodecanethiol-coated Ag nanocrystals in 2D assemblies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "dodecanethiol-coated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-b3",
+          "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+          "batch_id": null,
+          "material_state_id": "hopg-10w-b3",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Figure 2A,B,E,I and Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "fcc Ag for an imaged coalesced monocrystal",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.4 / printed p.2827, Results, interparticle spacing and coalesced-crystal discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Top layer coalesces, bottom layer only slightly modified",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison::klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-m1",
+      "record_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison",
+      "record_page_path": "records/klecha2009-ag-nanocrystal-plasma-la802989f-comparison.html",
+      "source_group": "klecha2009-ag-nanocrystal-plasma-la802989f",
+      "title": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "doi": "10.1021/la802989f",
+      "year": 2009,
+      "method": "Reverse-micelle Ag colloid, ligand coating, substrate assembly, and oxygen-plasma comparison",
+      "recipe_label": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-m1",
+      "source_sample_label": "HOPG monolayer 1, high order, 10 W / 5 s",
+      "batch_id": null,
+      "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+            "locator": "Main PDF p.2 / printed p.2825, Figure 2A-C and Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+          "locator": "Main PDF p.2 / printed p.2825, Figure 2A-C and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mostly intact, with a few nanocrystals partially coalesced",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Starting-colloid fcc claim belongs to a cited prior study, not a current-batch measurement."
+          },
+          "size": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "size-selected starting colloid mean",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dodecanethiol-coated Ag nanocrystals in 2D assemblies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "dodecanethiol-coated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-m1",
+          "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+          "batch_id": null,
+          "material_state_id": "hopg-10w-m1",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Figure 2A-C and Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mostly intact, with a few nanocrystals partially coalesced",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison::klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-m2",
+      "record_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison",
+      "record_page_path": "records/klecha2009-ag-nanocrystal-plasma-la802989f-comparison.html",
+      "source_group": "klecha2009-ag-nanocrystal-plasma-la802989f",
+      "title": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "doi": "10.1021/la802989f",
+      "year": 2009,
+      "method": "Reverse-micelle Ag colloid, ligand coating, substrate assembly, and oxygen-plasma comparison",
+      "recipe_label": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-m2",
+      "source_sample_label": "HOPG monolayer 2, lower order, 10 W / 5 s",
+      "batch_id": null,
+      "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+            "locator": "Main PDF p.2 / printed p.2825, Figure 2A,B,D,H and Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+          "locator": "Main PDF p.2 / printed p.2825, Figure 2A,B,D,H and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "single-crystal Ag in specifically imaged coalesced object x",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.4 / printed p.2827, Figure 2H and x/y single-crystal discussion"
+              }
+            ],
+            "note": "Phase distribution across the remaining coalesced monolayer-2 objects was not measured."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Strong coalescence into large particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Starting-colloid fcc claim belongs to a cited prior study, not a current-batch measurement."
+          },
+          "size": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "size-selected starting colloid mean",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dodecanethiol-coated Ag nanocrystals in 2D assemblies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "dodecanethiol-coated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-10w-m2",
+          "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+          "batch_id": null,
+          "material_state_id": "hopg-10w-m2",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Figure 2A,B,D,H and Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "single-crystal Ag in specifically imaged coalesced object x",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.4 / printed p.2827, Figure 2H and x/y single-crystal discussion"
+                }
+              ],
+              "note": "Phase distribution across the remaining coalesced monolayer-2 objects was not measured."
+            },
+            "morphology": {
+              "value": "Strong coalescence into large particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison::klecha2009-ag-nanocrystal-plasma-la802989f-hopg-5w",
+      "record_id": "klecha2009-ag-nanocrystal-plasma-la802989f-comparison",
+      "record_page_path": "records/klecha2009-ag-nanocrystal-plasma-la802989f-comparison.html",
+      "source_group": "klecha2009-ag-nanocrystal-plasma-la802989f",
+      "title": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "doi": "10.1021/la802989f",
+      "year": 2009,
+      "method": "Reverse-micelle Ag colloid, ligand coating, substrate assembly, and oxygen-plasma comparison",
+      "recipe_label": "Klecha et al. (2009): dodecanethiol-coated Ag nanocrystal assembly and oxygen-plasma variants",
+      "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-5w",
+      "source_sample_label": "HOPG-coated grid, 5 W / 5 s",
+      "batch_id": null,
+      "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+            "locator": "Main PDF p.2 / printed p.2825, Figure 1B,D and Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+          "locator": "Main PDF p.2 / printed p.2825, Figure 1B,D and Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Long-range ordered mono-/bilayer assembly essentially unchanged",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Starting-colloid fcc claim belongs to a cited prior study, not a current-batch measurement."
+          },
+          "size": {
+            "value": 5.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "size-selected starting colloid mean",
+            "raw_text": "5.2 nm",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dodecanethiol-coated Ag nanocrystals in 2D assemblies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "dodecanethiol-coated",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.1 / printed p.2824, Experimental, Synthesis of Silver Nanoparticles"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-hopg-5w",
+          "parent_sample_id": "klecha2009-ag-nanocrystal-plasma-la802989f-colloid",
+          "batch_id": null,
+          "material_state_id": "hopg-5w",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                "locator": "Main PDF p.2 / printed p.2825, Figure 1B,D and Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Long-range ordered mono-/bilayer assembly essentially unchanged",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
                 }
               ],
               "note": ""
@@ -105623,6 +107375,910 @@
                 "measurement_id": "cdte-en180-a",
                 "property": "lattice_parameter_a",
                 "field": "crystal_structure.phase_lattice"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yuan2026-agbis2-cpt-0::yuan2026-agbis2-cpt-0-sample",
+      "record_id": "yuan2026-agbis2-cpt-0",
+      "record_page_path": "records/yuan2026-agbis2-cpt-0.html",
+      "source_group": "yuan2026-agbis2-nl5c06337",
+      "title": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 0% CPT substitution",
+      "doi": "10.1021/acs.nanolett.5c06337",
+      "year": 2026,
+      "method": "AgI/BiI3 in DMF/butylamine, CBT/CPT ligand-ratio control, DPhTA injection and methyl-acetate purification",
+      "recipe_label": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 0% CPT substitution",
+      "sample_id": "yuan2026-agbis2-cpt-0-sample",
+      "source_sample_label": "0% CPT AgBiS2 NC ink; Main Figure 2a TEM",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgBiS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yuan2026-agbis2-nl5c06337",
+            "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I",
+          "claim": null
+        },
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic AgBiS2 (PDF#21-1178)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              },
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "SI PDF p.7, Figure S4 XRD plot (0% and 75% CPT curves only)"
+              }
+            ],
+            "note": "Figure S4 plots 0% and 75% samples only."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-0-tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.08,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4.08 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "0% CPT, mean of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        },
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-0-tem-sd",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 0.67,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "0.67 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "0% CPT, dispersion of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": 4.08,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "TEM mean; reported standard deviation stored as separate measurement",
+            "basis": "",
+            "raw_text": "4.08 ± 0.67 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yuan2026-agbis2-cpt-0-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ink",
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic AgBiS2 (PDF#21-1178)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+                },
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "SI PDF p.7, Figure S4 XRD plot (0% and 75% CPT curves only)"
+                }
+              ],
+              "note": "Figure S4 plots 0% and 75% samples only."
+            },
+            "morphology": {
+              "value": "Nanocrystals with approximately rounded TEM projection",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+                }
+              ],
+              "note": "Shape is a qualitative interpretation of Figure 2 TEM, not a source-named morphology."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-0-tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-0-tem-sd",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yuan2026-agbis2-cpt-25::yuan2026-agbis2-cpt-25-sample",
+      "record_id": "yuan2026-agbis2-cpt-25",
+      "record_page_path": "records/yuan2026-agbis2-cpt-25.html",
+      "source_group": "yuan2026-agbis2-nl5c06337",
+      "title": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 25% CPT substitution",
+      "doi": "10.1021/acs.nanolett.5c06337",
+      "year": 2026,
+      "method": "AgI/BiI3 in DMF/butylamine, CBT/CPT ligand-ratio control, DPhTA injection and methyl-acetate purification",
+      "recipe_label": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 25% CPT substitution",
+      "sample_id": "yuan2026-agbis2-cpt-25-sample",
+      "source_sample_label": "25% CPT AgBiS2 NC ink; Main Figure 2b TEM",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgBiS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yuan2026-agbis2-nl5c06337",
+            "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I",
+          "claim": null
+        },
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-25-tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.93,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4.93 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "25% CPT, mean of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        },
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-25-tem-sd",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 0.59,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "0.59 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "25% CPT, dispersion of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": 4.93,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "TEM mean; reported standard deviation stored as separate measurement",
+            "basis": "",
+            "raw_text": "4.93 ± 0.59 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yuan2026-agbis2-cpt-25-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ink",
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Main text gives a study-wide cubic assignment, but SI Figure S4 plots only 0% and 75%; no sample-specific XRD curve for this ratio."
+            },
+            "morphology": {
+              "value": "Nanocrystals with approximately rounded TEM projection",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+                }
+              ],
+              "note": "Shape is a qualitative interpretation of Figure 2 TEM, not a source-named morphology."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-25-tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-25-tem-sd",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yuan2026-agbis2-cpt-50::yuan2026-agbis2-cpt-50-sample",
+      "record_id": "yuan2026-agbis2-cpt-50",
+      "record_page_path": "records/yuan2026-agbis2-cpt-50.html",
+      "source_group": "yuan2026-agbis2-nl5c06337",
+      "title": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 50% CPT substitution",
+      "doi": "10.1021/acs.nanolett.5c06337",
+      "year": 2026,
+      "method": "AgI/BiI3 in DMF/butylamine, CBT/CPT ligand-ratio control, DPhTA injection and methyl-acetate purification",
+      "recipe_label": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 50% CPT substitution",
+      "sample_id": "yuan2026-agbis2-cpt-50-sample",
+      "source_sample_label": "50% CPT AgBiS2 NC ink; Main Figure 2c TEM",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgBiS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yuan2026-agbis2-nl5c06337",
+            "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I",
+          "claim": null
+        },
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-50-tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.75,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4.75 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "50% CPT, mean of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        },
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-50-tem-sd",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 0.57,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "0.57 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "50% CPT, dispersion of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": 4.75,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "TEM mean; reported standard deviation stored as separate measurement",
+            "basis": "",
+            "raw_text": "4.75 ± 0.57 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yuan2026-agbis2-cpt-50-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ink",
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "Main text gives a study-wide cubic assignment, but SI Figure S4 plots only 0% and 75%; no sample-specific XRD curve for this ratio."
+            },
+            "morphology": {
+              "value": "Nanocrystals with approximately rounded TEM projection",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+                }
+              ],
+              "note": "Shape is a qualitative interpretation of Figure 2 TEM, not a source-named morphology."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-50-tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-50-tem-sd",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yuan2026-agbis2-cpt-75::yuan2026-agbis2-cpt-75-sample",
+      "record_id": "yuan2026-agbis2-cpt-75",
+      "record_page_path": "records/yuan2026-agbis2-cpt-75.html",
+      "source_group": "yuan2026-agbis2-nl5c06337",
+      "title": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 75% CPT substitution",
+      "doi": "10.1021/acs.nanolett.5c06337",
+      "year": 2026,
+      "method": "AgI/BiI3 in DMF/butylamine, CBT/CPT ligand-ratio control, DPhTA injection and methyl-acetate purification",
+      "recipe_label": "Yuan et al. (2026): AgBiS2 nanocrystal ink, 75% CPT substitution",
+      "sample_id": "yuan2026-agbis2-cpt-75-sample",
+      "source_sample_label": "75% CPT AgBiS2 NC ink; Main Figure 2d TEM",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "AgBiS2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yuan2026-agbis2-nl5c06337",
+            "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I",
+          "claim": null
+        },
+        {
+          "source_id": "yuan2026-agbis2-nl5c06337",
+          "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic AgBiS2 (PDF#21-1178)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              },
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "SI PDF p.7, Figure S4 XRD plot (0% and 75% CPT curves only)"
+              }
+            ],
+            "note": "Figure S4 plots 0% and 75% samples only."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-75-tem-mean",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.46,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4.46 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "75% CPT, mean of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        },
+        {
+          "measurement_id": "yuan2026-agbis2-cpt-75-tem-sd",
+          "property": "diameter_standard_deviation",
+          "descriptor_field": "morphology.distribution",
+          "value": {
+            "value": 0.47,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "0.47 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "75% CPT, dispersion of Figure 2 TEM size distribution",
+          "evidence": [
+            {
+              "source_id": "yuan2026-agbis2-nl5c06337",
+              "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "SI PDF p.2, Experimental Section: Synthesis of DS-AgBiS2 NC inks and purification step I"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": 4.46,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "TEM mean; reported standard deviation stored as separate measurement",
+            "basis": "",
+            "raw_text": "4.46 ± 0.47 nm",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yuan2026-agbis2-cpt-75-sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ink",
+          "composition": {
+            "value": "AgBiS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yuan2026-agbis2-nl5c06337",
+                "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic AgBiS2 (PDF#21-1178)",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+                },
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "SI PDF p.7, Figure S4 XRD plot (0% and 75% CPT curves only)"
+                }
+              ],
+              "note": "Figure S4 plots 0% and 75% samples only."
+            },
+            "morphology": {
+              "value": "Nanocrystals with approximately rounded TEM projection",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "yuan2026-agbis2-nl5c06337",
+                  "locator": "Main PDF p.2, Figure 2 and discussion of TEM sizes, GISAXS, XRD and 100% CPT stability"
+                }
+              ],
+              "note": "Shape is a qualitative interpretation of Figure 2 TEM, not a source-named morphology."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-75-tem-mean",
+                "property": "diameter",
+                "field": "morphology.dimensions"
+              },
+              {
+                "measurement_id": "yuan2026-agbis2-cpt-75-tem-sd",
+                "property": "diameter_standard_deviation",
+                "field": "morphology.distribution"
               }
             ]
           }

@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **156 primary source groups** · release `urban-sahoo-route-guard-20261001-r1`. Records are not independent experiments.
+Dataset **0.41.2** · **159 primary source groups** · release `acsami-yuan-klecha2009-20261001-r1`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -201,6 +201,8 @@ Dataset **0.41.2** · **156 primary source groups** · release `urban-sahoo-rout
 
 - V. K. Ivanov; O. S. Polezhaeva; D. O. Gil’; G. P. Kopitsa; Yu. D. Tret’yakov (2009). Hydrothermal Microwave Synthesis of Nanocrystalline Cerium Dioxide. *Doklady Chemistry*, 426, 131–133. [10.1134/S0012500809060056](https://doi.org/10.1134/S0012500809060056). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ivanov2009-ceo2-s0012500809060056).
 
+- E. Klecha; D. Ingert; M. Walls; M. P. Pileni (2009). Immunity of Coated Self-Ordered Silver Nanocrystals: A New Intrinsic Property Due to the Nanocrystal Ordering. [10.1021/la802989f](https://doi.org/10.1021/la802989f). Review scope remains stated in the linked website records.
+
 - Yuichi Nishino; Yuya Oaki; Hiroaki Imai (2009). Magnesium-Mediated Nanocrystalline Mosaics of Calcite. *Crystal Growth & Design*, 9, 223–226. [10.1021/cg800331a](https://doi.org/10.1021/cg800331a). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=nishino2009-calcite-cg800331a).
 
 - Chalita Ratanatawanate; Yuan Tao; Kenneth J. Balkus, Jr. (2009). Photocatalytic Activity of PbS Quantum Dot/TiO2 Nanotube Composites. *Journal of Physical Chemistry C*, 113, 10755–10760. [10.1021/jp903050h](https://doi.org/10.1021/jp903050h). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ratanatawanate2009-pbs-tio2-jp903050h).
@@ -297,6 +299,8 @@ Dataset **0.41.2** · **156 primary source groups** · release `urban-sahoo-rout
 
 - Yanyan Li; Parth Vashishtha; Zhicong Zhou; Zhi Li; Sunil B. Shivarudraiah; Chao Ma; Junkai Liu; Kam Sing Wong; Haibin Su; Jonathan E. Halpert (2020). Room Temperature Synthesis of Stable, Printable Cs3Cu2X5 (X = I, Br/I, Br, Br/Cl, Cl) Colloidal Nanocrystals with Near-Unity Quantum Yield Green Emitters (X = Cl). [10.1021/acs.chemmater.0c00280](https://doi.org/10.1021/acs.chemmater.0c00280). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2020cs3cu2x5).
 
+- Fangke Lin; Qianqian Qi; Junle Zhang; Wenjun Zhou; Jiahui Zhang; Peng Fu; Xiaomeng Zhang; Xiaoguang Qiao; Minying Liu; Xinchang Pang; Zhe Cui (2021). From Unimolecular Template to Silver Nanocrystal Clusters: An Effective Strategy to Balance Antibacterial Activity and Cytotoxicity. [10.1021/acsami.1c07986](https://doi.org/10.1021/acsami.1c07986). Review scope remains stated in the linked website records.
+
 - Linyuan Lian; Peng Zhang; Xiuwen Zhang; Qi Ye; Wei Qi; Long Zhao; Jianbo Gao; Daoli Zhang; Jianbing Zhang (2021). Realizing Near-Unity Quantum Efficiency of Zero-Dimensional Antimony Halides through Metal Halide Structural Modulation. *ACS Applied Materials & Interfaces*, 13, 58908–58915. [10.1021/acsami.1c18038](https://doi.org/10.1021/acsami.1c18038). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=lian2021).
 
 - E. M. Williamson; B. A. Tappan; L. Mora-Tamez; G. Barim; R. L. Brutchey (2021). Statistical Multiobjective Optimization of Thiospinel CoNi2S4 Nanocrystal Synthesis via Design of Experiments. *ACS Nano*, 15, 9422–9433. [10.1021/acsnano.1c00502](https://doi.org/10.1021/acsnano.1c00502). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=williamson2021).
@@ -318,6 +322,8 @@ Dataset **0.41.2** · **156 primary source groups** · release `urban-sahoo-rout
 - Fulvio Bellato; Michele Ferri; Dongxu Zhu; Thi-Hong-Hanh Le; Abinaya Annamalai; Martina Rizzo; Irene Martin; Luca Goldoni; Rosaria Brescia; Mirko Prato; Luca De Trizio; Ilka Kriegel; Liberato Manna (2024). Indium Arsenide Quantum Dot Derived Catalyst for Selective CO2 Electrochemical Reduction to Formate. *ACS Energy Letters*, 9, 1097–1102. [10.1021/acsenergylett.4c00295](https://doi.org/10.1021/acsenergylett.4c00295). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=bellato2024-inas-acsenergylett4c00295).
 
 - Nurwarrohman Andre Sasongko; Safira Arta Paramita; Jaeseong Heo; Eugene Park; Sebastian E. Reyes-Lillo; Joonkyung Jang; Myeongkee Park (2025). High-Temperature Photoluminescence Enhancement up to 350 K of Monophase α-FAPbI3 Quantum Dots Synthesized via Tailored Hot Injection. *The Journal of Physical Chemistry C*, 129, 15342–15350. [10.1021/acs.jpcc.5c05144](https://doi.org/10.1021/acs.jpcc.5c05144). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=sasongko2025).
+
+- Lin Yuan; Linlin Gao; Yang Li; Kunyuan Lu; Yang Liu; Jiajing Huo; Long Hu; Qing Zhang; Muhammad Zahir Iqbal; Yang Bai; Zeke Liu; Wanli Ma (2026). Coupling Design in the Direct Synthesis of AgBiS2 Nanocrystal Inks for Efficient and Eco-friendly Photovoltaics. [10.1021/acs.nanolett.5c06337](https://doi.org/10.1021/acs.nanolett.5c06337). Review scope remains stated in the linked website records.
 
 - Pascal Rusch; Ann Mary Antony; Meenakshi Pegu; Meysoun Jabrane; Gabriele Saleh; Arghyadeep Garai; Aswin Asaithambi; Simone Lauciello; Sergio Marras; Serena De Negri; Pavlo Solokha; Liberato Manna (2026). Nanocrystal Synthesis Derived Approach to Silver Bismuth Iodide Layered Double Perovskites with Aliphatic Amines: (CnH(2n+1)NH3)4AgBiI8. *Chemistry of Materials*, 38, 900–909. [10.1021/acs.chemmater.5c02845](https://doi.org/10.1021/acs.chemmater.5c02845). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=rusch2026).
 
