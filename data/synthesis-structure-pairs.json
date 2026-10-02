@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 622,
-    "source_groups": 142,
-    "records": 532,
+    "recipe_structure_rows": 628,
+    "source_groups": 143,
+    "records": 533,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -69027,6 +69027,1019 @@
                 "field": "crystal_structure.phase_lattice"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "munechika2011-qd-ag-nanoprism-lb-assembly::munechika2011-background-qd-film",
+      "record_id": "munechika2011-qd-ag-nanoprism-lb-assembly",
+      "record_page_path": "records/munechika2011-qd-ag-nanoprism-lb-assembly.html",
+      "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
+      "title": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "doi": "10.1021/nl2010127",
+      "year": 2011,
+      "method": "Langmuir–Blodgett transfer of preformed QDs followed by Ag nanoprism drop-casting",
+      "recipe_label": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "sample_id": "munechika2011-background-qd-film",
+      "source_sample_label": "Figure 1 background QDs away from NP5",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnS quantum-dot monolayer",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+            "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+          "locator": "Main PDF p.2 / printed 2726, Figure 1d/e and accompanying background-QD comparison",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.2, all QD films photoannealed before optical study",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Close-packed monolayer of preformed QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer decorated with Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.1 / printed 2725, paragraph beginning Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No phase measurement or specimen-specific atomic coordinates are reported for the assembled film."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target prism or QD diameter specified for this assembly",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Close-packed QD monolayer with dispersed triangular or truncated triangular Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Ligand identities of these particles are not stated in the inspected assembly method."
+          },
+          "host": {
+            "value": "ITO-coated glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.2, Sample substrate fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "munechika2011-background-qd-film",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "conditioned-ag-qd",
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific phase/coordinates are measured for the film."
+            },
+            "morphology": {
+              "value": "Close-packed monolayer of preformed QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                  "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "munechika2011-qd-ag-nanoprism-lb-assembly::munechika2011-np1-qd-ag-assembly",
+      "record_id": "munechika2011-qd-ag-nanoprism-lb-assembly",
+      "record_page_path": "records/munechika2011-qd-ag-nanoprism-lb-assembly.html",
+      "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
+      "title": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "doi": "10.1021/nl2010127",
+      "year": 2011,
+      "method": "Langmuir–Blodgett transfer of preformed QDs followed by Ag nanoprism drop-casting",
+      "recipe_label": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "sample_id": "munechika2011-np1-qd-ag-assembly",
+      "source_sample_label": "NP 1 in main Table 1 / SI Figure 6",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+            "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+          },
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+            "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.2, Sample substrate fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+          "locator": "Main PDF p.3 / printed 2727, Table 1 and note a",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.13, Supporting Information Figure 6 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanoprism on close-packed QD monolayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer decorated with Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.1 / printed 2725, paragraph beginning Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No phase measurement or specimen-specific atomic coordinates are reported for the assembled film."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target prism or QD diameter specified for this assembly",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Close-packed QD monolayer with dispersed triangular or truncated triangular Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Ligand identities of these particles are not stated in the inspected assembly method."
+          },
+          "host": {
+            "value": "ITO-coated glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.2, Sample substrate fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "munechika2011-np1-qd-ag-assembly",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "conditioned-ag-qd",
+          "composition": {
+            "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+              },
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific XRD/SAED phase or atom coordinates reported for this assembly."
+            },
+            "morphology": {
+              "value": "Ag nanoprism on close-packed QD monolayer",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                  "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+                }
+              ],
+              "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "munechika2011-qd-ag-nanoprism-lb-assembly::munechika2011-np2-qd-ag-assembly",
+      "record_id": "munechika2011-qd-ag-nanoprism-lb-assembly",
+      "record_page_path": "records/munechika2011-qd-ag-nanoprism-lb-assembly.html",
+      "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
+      "title": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "doi": "10.1021/nl2010127",
+      "year": 2011,
+      "method": "Langmuir–Blodgett transfer of preformed QDs followed by Ag nanoprism drop-casting",
+      "recipe_label": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "sample_id": "munechika2011-np2-qd-ag-assembly",
+      "source_sample_label": "NP 2 in main Table 1 / SI Figure 6",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+            "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+          },
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+            "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.2, Sample substrate fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+          "locator": "Main PDF p.3 / printed 2727, Table 1 and note a",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.13, Supporting Information Figure 6 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanoprism on close-packed QD monolayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer decorated with Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.1 / printed 2725, paragraph beginning Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No phase measurement or specimen-specific atomic coordinates are reported for the assembled film."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target prism or QD diameter specified for this assembly",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Close-packed QD monolayer with dispersed triangular or truncated triangular Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Ligand identities of these particles are not stated in the inspected assembly method."
+          },
+          "host": {
+            "value": "ITO-coated glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.2, Sample substrate fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "munechika2011-np2-qd-ag-assembly",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "conditioned-ag-qd",
+          "composition": {
+            "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+              },
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific XRD/SAED phase or atom coordinates reported for this assembly."
+            },
+            "morphology": {
+              "value": "Ag nanoprism on close-packed QD monolayer",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                  "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+                }
+              ],
+              "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "munechika2011-qd-ag-nanoprism-lb-assembly::munechika2011-np3-qd-ag-assembly",
+      "record_id": "munechika2011-qd-ag-nanoprism-lb-assembly",
+      "record_page_path": "records/munechika2011-qd-ag-nanoprism-lb-assembly.html",
+      "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
+      "title": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "doi": "10.1021/nl2010127",
+      "year": 2011,
+      "method": "Langmuir–Blodgett transfer of preformed QDs followed by Ag nanoprism drop-casting",
+      "recipe_label": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "sample_id": "munechika2011-np3-qd-ag-assembly",
+      "source_sample_label": "NP 3 in main Table 1 / SI Figure 6",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+            "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+          },
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+            "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.2, Sample substrate fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+          "locator": "Main PDF p.3 / printed 2727, Table 1 and note a",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.13, Supporting Information Figure 6 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanoprism on close-packed QD monolayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer decorated with Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.1 / printed 2725, paragraph beginning Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No phase measurement or specimen-specific atomic coordinates are reported for the assembled film."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target prism or QD diameter specified for this assembly",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Close-packed QD monolayer with dispersed triangular or truncated triangular Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Ligand identities of these particles are not stated in the inspected assembly method."
+          },
+          "host": {
+            "value": "ITO-coated glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.2, Sample substrate fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "munechika2011-np3-qd-ag-assembly",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "conditioned-ag-qd",
+          "composition": {
+            "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+              },
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific XRD/SAED phase or atom coordinates reported for this assembly."
+            },
+            "morphology": {
+              "value": "Ag nanoprism on close-packed QD monolayer",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                  "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+                }
+              ],
+              "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "munechika2011-qd-ag-nanoprism-lb-assembly::munechika2011-np4-qd-ag-assembly",
+      "record_id": "munechika2011-qd-ag-nanoprism-lb-assembly",
+      "record_page_path": "records/munechika2011-qd-ag-nanoprism-lb-assembly.html",
+      "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
+      "title": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "doi": "10.1021/nl2010127",
+      "year": 2011,
+      "method": "Langmuir–Blodgett transfer of preformed QDs followed by Ag nanoprism drop-casting",
+      "recipe_label": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "sample_id": "munechika2011-np4-qd-ag-assembly",
+      "source_sample_label": "NP 4 in main Table 1 / SI Figure 6",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+            "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+          },
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+            "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.2, Sample substrate fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+          "locator": "Main PDF p.3 / printed 2727, Table 1 and note a",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.13, Supporting Information Figure 6 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanoprism on close-packed QD monolayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer decorated with Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.1 / printed 2725, paragraph beginning Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No phase measurement or specimen-specific atomic coordinates are reported for the assembled film."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target prism or QD diameter specified for this assembly",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Close-packed QD monolayer with dispersed triangular or truncated triangular Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Ligand identities of these particles are not stated in the inspected assembly method."
+          },
+          "host": {
+            "value": "ITO-coated glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.2, Sample substrate fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "munechika2011-np4-qd-ag-assembly",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "conditioned-ag-qd",
+          "composition": {
+            "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+              },
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific XRD/SAED phase or atom coordinates reported for this assembly."
+            },
+            "morphology": {
+              "value": "Ag nanoprism on close-packed QD monolayer",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                  "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+                }
+              ],
+              "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "munechika2011-qd-ag-nanoprism-lb-assembly::munechika2011-np5-qd-ag-assembly",
+      "record_id": "munechika2011-qd-ag-nanoprism-lb-assembly",
+      "record_page_path": "records/munechika2011-qd-ag-nanoprism-lb-assembly.html",
+      "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
+      "title": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "doi": "10.1021/nl2010127",
+      "year": 2011,
+      "method": "Langmuir–Blodgett transfer of preformed QDs followed by Ag nanoprism drop-casting",
+      "recipe_label": "Munechika et al. (2011): CdSe/CdS/ZnS QD monolayer with Ag nanoprisms",
+      "sample_id": "munechika2011-np5-qd-ag-assembly",
+      "source_sample_label": "NP 5 in main Table 1 / SI Figure 6",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+            "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+          },
+          {
+            "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+            "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.2, Sample substrate fabrication",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+          "locator": "Main PDF p.3 / printed 2727, Table 1 and note a",
+          "claim": null
+        },
+        {
+          "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+          "locator": "SI PDF p.13, Supporting Information Figure 6 and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanoprism on close-packed QD monolayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS quantum-dot monolayer decorated with Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.1 / printed 2725, paragraph beginning Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No phase measurement or specimen-specific atomic coordinates are reported for the assembled film."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No target prism or QD diameter specified for this assembly",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Close-packed QD monolayer with dispersed triangular or truncated triangular Ag nanoprisms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.2 / printed 2726, Figure 1 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "Ligand identities of these particles are not stated in the inspected assembly method."
+          },
+          "host": {
+            "value": "ITO-coated glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.2, Sample substrate fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "munechika2011-np5-qd-ag-assembly",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "conditioned-ag-qd",
+          "composition": {
+            "value": "CdSe/CdS/ZnS QD monolayer with a single Ag nanoprism",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127",
+                "locator": "Main PDF p.3 / printed 2727, Table 1 and note a"
+              },
+              {
+                "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No specimen-specific XRD/SAED phase or atom coordinates reported for this assembly."
+            },
+            "morphology": {
+              "value": "Ag nanoprism on close-packed QD monolayer",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "munechika2011-qd-ag-nanoprism-nl2010127-si",
+                  "locator": "SI PDF p.13, Supporting Information Figure 6 and caption"
+                }
+              ],
+              "note": "SEM inset shows a prism; exact thickness was fitted in FDTD and is not a measurement."
+            },
+            "measurement_refs": []
           }
         }
       },
