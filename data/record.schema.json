@@ -63,6 +63,29 @@
             "phase_mixture",
             "unresolved"
           ]
+        },
+        "source_notation": {
+          "type": "string"
+        },
+        "shell_layers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "phase": {
+                "type": "string"
+              },
+              "monolayers": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "phase",
+              "monolayers"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [

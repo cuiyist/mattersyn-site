@@ -48,10 +48,10 @@
     },
     "literature_recipe_family_ids": 318,
     "primary_synthesis_recipe_family_ids": 256,
-    "public_material_hubs": 210,
-    "direct_synthesis_target_systems": 178,
+    "public_material_hubs": 205,
+    "direct_synthesis_target_systems": 173,
     "component_only_hubs": 32,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 234,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 229,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
@@ -156,16 +156,11 @@
       "CdS/polyurethane",
       "CdSe",
       "CdSe/CdS",
+      "CdSe/CdS/ZnS",
       "CdSe/CdS/ZnS + Ag",
-      "CdSe/CdS/ZnS/CdS/ZnS",
-      "CdSe/CdS2/ZnS/CdS",
-      "CdSe/CdS2/ZnS2",
-      "CdSe/CdS3/ZnS",
-      "CdSe/CdS4",
       "CdSe/ZnS",
-      "CdSe/ZnS/CdS3",
+      "CdSe/ZnS/CdS",
       "CdSe/ZnS/siloxane",
-      "CdSe/ZnS4",
       "CdSe/ZnSe",
       "CdSe/polythiophene",
       "CdTe",
@@ -1539,13 +1534,10 @@
         "Au",
         "Au/CdS",
         "CdSe",
-        "CdSe/CdS/ZnS/CdS/ZnS",
-        "CdSe/CdS2/ZnS/CdS",
-        "CdSe/CdS2/ZnS2",
-        "CdSe/CdS3/ZnS",
-        "CdSe/CdS4",
-        "CdSe/ZnS/CdS3",
-        "CdSe/ZnS4"
+        "CdSe/CdS",
+        "CdSe/CdS/ZnS",
+        "CdSe/ZnS",
+        "CdSe/ZnS/CdS"
       ],
       "record_ids": [
         "chemmater2017-cdse-cald-7b01873-au-cds-shell",
@@ -18301,9 +18293,10 @@
       "notes": [
         "The low-OA control reports CdSe/CdS plus separately nucleated CdS; not a clean additional core/shell synthesis."
       ],
-      "direct_synthesis_route_variant_count": 9,
+      "direct_synthesis_route_variant_count": 10,
       "direct_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
+        "chemmater2017-cdse-cald-7b01873-cds4-3p3",
         "dabbousi-1997-cds-overgrowth",
         "ghosh-2012-constant-s-variant",
         "ghosh-2012-optimized-shell-route",
@@ -18333,14 +18326,15 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 9,
+      "public_hub_route_contributions": 10,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 6,
+      "primary_reviewed_source_count": 7,
       "material_hub_id": "cdse-cds-34750d",
       "material_hub_url": "material.html?id=cdse-cds-34750d",
       "source_groups": [
         "alam2012-cdse-cds-ica201110038",
+        "chemmater2017-cdse-cald-7b01873",
         "dabbousi1997",
         "ghosh2012",
         "morrison2017",
@@ -18353,6 +18347,12 @@
           "doi": "10.1016/j.ica.2011.10.038",
           "url": "https://doi.org/10.1016/j.ica.2011.10.038",
           "title": "Asymmetric quantum dot growth via temperature cycling"
+        },
+        {
+          "source_group": "chemmater2017-cdse-cald-7b01873",
+          "doi": "10.1021/acs.chemmater.7b01873",
+          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
+          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
         },
         {
           "source_group": "dabbousi1997",
@@ -18387,6 +18387,7 @@
       ],
       "direct_route_recipe_family_ids": [
         "alam2012-cdse-cds-ica201110038-shell",
+        "chemmater2017-cdse-cald-7b01873",
         "dabbousi1997-core-shell",
         "ghosh2012-core-shell-parameter-study",
         "morrison2017-precursor-shell-study",
@@ -18429,6 +18430,45 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "CdSe/CdS/ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 4,
+      "direct_route_record_ids": [
+        "chemmater2017-cdse-cald-7b01873-cds-zns-cds-zns-3p3",
+        "chemmater2017-cdse-cald-7b01873-cds2-zns-cds-3p8",
+        "chemmater2017-cdse-cald-7b01873-cds2-zns2-3p3",
+        "chemmater2017-cdse-cald-7b01873-cds3-zns-3p8"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 4,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cdse-cds-zns-759020",
+      "material_hub_url": "material.html?id=cdse-cds-zns-759020",
+      "source_groups": [
+        "chemmater2017-cdse-cald-7b01873"
+      ],
+      "source_links": [
+        {
+          "source_group": "chemmater2017-cdse-cald-7b01873",
+          "doi": "10.1021/acs.chemmater.7b01873",
+          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
+          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "chemmater2017-cdse-cald-7b01873"
+      ]
+    },
+    {
       "material_system": "CdSe/CdS/ZnS + Ag",
       "notes": [],
       "direct_synthesis_route_variant_count": 1,
@@ -18462,186 +18502,6 @@
       ],
       "direct_route_recipe_family_ids": [
         "munechika2011-qd-ag-nanoprism-nl2010127"
-      ]
-    },
-    {
-      "material_system": "CdSe/CdS/ZnS/CdS/ZnS",
-      "notes": [],
-      "direct_synthesis_route_variant_count": 1,
-      "direct_route_record_ids": [
-        "chemmater2017-cdse-cald-7b01873-cds-zns-cds-zns-3p3"
-      ],
-      "contextual_control_count": 0,
-      "contextual_control_record_ids": [],
-      "contextual_observation_count": 0,
-      "contextual_observation_record_ids": [],
-      "procedure_count": 0,
-      "benchmark_row_count": 0,
-      "public_hub_exists": true,
-      "public_hub_component_only": false,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-cds-zns-cds-zns-d8a75e",
-      "material_hub_url": "material.html?id=cdse-cds-zns-cds-zns-d8a75e",
-      "source_groups": [
-        "chemmater2017-cdse-cald-7b01873"
-      ],
-      "source_links": [
-        {
-          "source_group": "chemmater2017-cdse-cald-7b01873",
-          "doi": "10.1021/acs.chemmater.7b01873",
-          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
-          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
-        }
-      ],
-      "direct_route_recipe_family_ids": [
-        "chemmater2017-cdse-cald-7b01873"
-      ]
-    },
-    {
-      "material_system": "CdSe/CdS2/ZnS/CdS",
-      "notes": [],
-      "direct_synthesis_route_variant_count": 1,
-      "direct_route_record_ids": [
-        "chemmater2017-cdse-cald-7b01873-cds2-zns-cds-3p8"
-      ],
-      "contextual_control_count": 0,
-      "contextual_control_record_ids": [],
-      "contextual_observation_count": 0,
-      "contextual_observation_record_ids": [],
-      "procedure_count": 0,
-      "benchmark_row_count": 0,
-      "public_hub_exists": true,
-      "public_hub_component_only": false,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-cds2-zns-cds-9787c9",
-      "material_hub_url": "material.html?id=cdse-cds2-zns-cds-9787c9",
-      "source_groups": [
-        "chemmater2017-cdse-cald-7b01873"
-      ],
-      "source_links": [
-        {
-          "source_group": "chemmater2017-cdse-cald-7b01873",
-          "doi": "10.1021/acs.chemmater.7b01873",
-          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
-          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
-        }
-      ],
-      "direct_route_recipe_family_ids": [
-        "chemmater2017-cdse-cald-7b01873"
-      ]
-    },
-    {
-      "material_system": "CdSe/CdS2/ZnS2",
-      "notes": [],
-      "direct_synthesis_route_variant_count": 1,
-      "direct_route_record_ids": [
-        "chemmater2017-cdse-cald-7b01873-cds2-zns2-3p3"
-      ],
-      "contextual_control_count": 0,
-      "contextual_control_record_ids": [],
-      "contextual_observation_count": 0,
-      "contextual_observation_record_ids": [],
-      "procedure_count": 0,
-      "benchmark_row_count": 0,
-      "public_hub_exists": true,
-      "public_hub_component_only": false,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-cds2-zns2-eeb2d8",
-      "material_hub_url": "material.html?id=cdse-cds2-zns2-eeb2d8",
-      "source_groups": [
-        "chemmater2017-cdse-cald-7b01873"
-      ],
-      "source_links": [
-        {
-          "source_group": "chemmater2017-cdse-cald-7b01873",
-          "doi": "10.1021/acs.chemmater.7b01873",
-          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
-          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
-        }
-      ],
-      "direct_route_recipe_family_ids": [
-        "chemmater2017-cdse-cald-7b01873"
-      ]
-    },
-    {
-      "material_system": "CdSe/CdS3/ZnS",
-      "notes": [],
-      "direct_synthesis_route_variant_count": 1,
-      "direct_route_record_ids": [
-        "chemmater2017-cdse-cald-7b01873-cds3-zns-3p8"
-      ],
-      "contextual_control_count": 0,
-      "contextual_control_record_ids": [],
-      "contextual_observation_count": 0,
-      "contextual_observation_record_ids": [],
-      "procedure_count": 0,
-      "benchmark_row_count": 0,
-      "public_hub_exists": true,
-      "public_hub_component_only": false,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-cds3-zns-30e81b",
-      "material_hub_url": "material.html?id=cdse-cds3-zns-30e81b",
-      "source_groups": [
-        "chemmater2017-cdse-cald-7b01873"
-      ],
-      "source_links": [
-        {
-          "source_group": "chemmater2017-cdse-cald-7b01873",
-          "doi": "10.1021/acs.chemmater.7b01873",
-          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
-          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
-        }
-      ],
-      "direct_route_recipe_family_ids": [
-        "chemmater2017-cdse-cald-7b01873"
-      ]
-    },
-    {
-      "material_system": "CdSe/CdS4",
-      "notes": [],
-      "direct_synthesis_route_variant_count": 1,
-      "direct_route_record_ids": [
-        "chemmater2017-cdse-cald-7b01873-cds4-3p3"
-      ],
-      "contextual_control_count": 0,
-      "contextual_control_record_ids": [],
-      "contextual_observation_count": 0,
-      "contextual_observation_record_ids": [],
-      "procedure_count": 0,
-      "benchmark_row_count": 0,
-      "public_hub_exists": true,
-      "public_hub_component_only": false,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-cds4-cb849e",
-      "material_hub_url": "material.html?id=cdse-cds4-cb849e",
-      "source_groups": [
-        "chemmater2017-cdse-cald-7b01873"
-      ],
-      "source_links": [
-        {
-          "source_group": "chemmater2017-cdse-cald-7b01873",
-          "doi": "10.1021/acs.chemmater.7b01873",
-          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
-          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
-        }
-      ],
-      "direct_route_recipe_family_ids": [
-        "chemmater2017-cdse-cald-7b01873"
       ]
     },
     {
@@ -18681,8 +18541,9 @@
     {
       "material_system": "CdSe/ZnS",
       "notes": [],
-      "direct_synthesis_route_variant_count": 3,
+      "direct_synthesis_route_variant_count": 4,
       "direct_route_record_ids": [
+        "chemmater2017-cdse-cald-7b01873-zns4-3p8",
         "dabbousi-1997-zns-overgrowth",
         "gerion-2001-mpa-exchange",
         "li2011-cdse-zns-mpa"
@@ -18711,21 +18572,28 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 4,
+      "public_hub_route_contributions": 5,
       "component_route_contribution_count": 1,
       "component_route_record_ids": [
         "gerion-2001-silica-silanization"
       ],
-      "primary_reviewed_source_count": 4,
+      "primary_reviewed_source_count": 5,
       "material_hub_id": "cdse-zns-2ec1c2",
       "material_hub_url": "material.html?id=cdse-zns-2ec1c2",
       "source_groups": [
+        "chemmater2017-cdse-cald-7b01873",
         "dabbousi1997",
         "gerion2001",
         "li2011-ac2019014",
         "owen2008-cdse-ja804414f"
       ],
       "source_links": [
+        {
+          "source_group": "chemmater2017-cdse-cald-7b01873",
+          "doi": "10.1021/acs.chemmater.7b01873",
+          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
+          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
+        },
         {
           "source_group": "dabbousi1997",
           "doi": "10.1021/jp971091y",
@@ -18752,6 +18620,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "chemmater2017-cdse-cald-7b01873",
         "dabbousi1997-core-shell",
         "gerion2001-water-soluble-cdse-zns",
         "li2011-qd-dna-au"
@@ -18793,7 +18662,7 @@
       "direct_route_recipe_family_ids": []
     },
     {
-      "material_system": "CdSe/ZnS/CdS3",
+      "material_system": "CdSe/ZnS/CdS",
       "notes": [],
       "direct_synthesis_route_variant_count": 1,
       "direct_route_record_ids": [
@@ -18811,8 +18680,8 @@
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-zns-cds3-07193f",
-      "material_hub_url": "material.html?id=cdse-zns-cds3-07193f",
+      "material_hub_id": "cdse-zns-cds-1d40df",
+      "material_hub_url": "material.html?id=cdse-zns-cds-1d40df",
       "source_groups": [
         "chemmater2017-cdse-cald-7b01873"
       ],
@@ -18867,42 +18736,6 @@
       ],
       "direct_route_recipe_family_ids": [
         "gerion2001-water-soluble-cdse-zns"
-      ]
-    },
-    {
-      "material_system": "CdSe/ZnS4",
-      "notes": [],
-      "direct_synthesis_route_variant_count": 1,
-      "direct_route_record_ids": [
-        "chemmater2017-cdse-cald-7b01873-zns4-3p8"
-      ],
-      "contextual_control_count": 0,
-      "contextual_control_record_ids": [],
-      "contextual_observation_count": 0,
-      "contextual_observation_record_ids": [],
-      "procedure_count": 0,
-      "benchmark_row_count": 0,
-      "public_hub_exists": true,
-      "public_hub_component_only": false,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
-      "material_hub_id": "cdse-zns4-d24dd9",
-      "material_hub_url": "material.html?id=cdse-zns4-d24dd9",
-      "source_groups": [
-        "chemmater2017-cdse-cald-7b01873"
-      ],
-      "source_links": [
-        {
-          "source_group": "chemmater2017-cdse-cald-7b01873",
-          "doi": "10.1021/acs.chemmater.7b01873",
-          "url": "https://doi.org/10.1021/acs.chemmater.7b01873",
-          "title": "Precise Engineering of Nanocrystal Shells via Colloidal Atomic Layer Deposition"
-        }
-      ],
-      "direct_route_recipe_family_ids": [
-        "chemmater2017-cdse-cald-7b01873"
       ]
     },
     {
