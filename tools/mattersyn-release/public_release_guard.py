@@ -12,6 +12,7 @@ import fnmatch
 import hashlib
 import json
 import re
+from functools import lru_cache
 from datetime import datetime
 from pathlib import Path, PurePosixPath
 from typing import Any
@@ -327,21 +328,45 @@ def user_directed_display_error(asset: dict[str, Any], repo: str, path: str) -> 
         site_path = path[len(prefix):]
     if direction.get("scope") == "display_source_figures_for_reviewed_papers":
         match = re.fullmatch(r"assets/paper-reviews/([a-z0-9][a-z0-9_-]*)/(figure|table|scheme)-([a-z0-9-]+)\.(?:png|jpe?g|webp)", site_path)
-        if asset.get("classification") != "source_figure" or not match:
+        # The older reviewed figure inventory also used a first-author/year
+        # directory and a printed Figure/Table number. Keep those exact crops
+        # without loosening the full-document or private-render exclusions.
+        legacy = re.fullmatch(r"assets/source-figures/([a-z]+[0-9]{4})/(figure|table)-((?:0?[1-9][0-9]?|s[1-9][0-9]?))(?:-[a-z0-9-]+)?\.(?:png|jpe?g|webp)", site_path)
+        if asset.get("classification") != "source_figure" or not (match or legacy):
             return "user_directed_display_source_path_ineligible"
         paper_id = direction.get("paper_id")
-        if not isinstance(paper_id, str) or paper_id != match.group(1):
+        if not isinstance(paper_id, str):
             return "user_directed_display_source_binding_missing"
-        expected_id = match.group(2) + "-" + match.group(3)
+        if match:
+            if paper_id != match.group(1):
+                return "user_directed_display_source_binding_missing"
+            expected_id = match.group(2) + "-" + match.group(3)
+        else:
+            surname = re.match(r"[a-z]+", paper_id)
+            year = re.search(r"[0-9]{4}", paper_id)
+            if not surname or not year or surname.group() + year.group() != legacy.group(1):
+                return "user_directed_display_source_binding_missing"
+            number = legacy.group(3)
+            expected_id = legacy.group(2).title() + " " + (number.upper() if number.startswith("s") else str(int(number)))
+            provenance = asset.get("provenance_bindings")
+            if not isinstance(provenance, list) or not any(
+                isinstance(item, dict) and item.get("paper_id") == paper_id
+                and item.get("doi") == direction.get("doi") and item.get("record_ids")
+                for item in provenance
+            ):
+                return "user_directed_display_source_binding_missing"
         source_matches = []
         for binding in bindings:
             if not isinstance(binding, dict) or binding.get("doi") != direction.get("doi"):
                 continue
             locators = binding.get("locators")
             if (isinstance(locators, dict)
-                    and locators.get("document_role") in {"main", "supporting_information"}
+                    and locators.get("document_role") in {"main", "supporting_information", "si"}
                     and isinstance(locators.get("page"), int) and locators["page"] > 0
-                    and locators.get("id") == expected_id):
+                    and locators.get("id") == expected_id
+                    and (not legacy or (re.fullmatch(r"[0-9a-f]{64}", str(locators.get("source_sha256", "")))
+                         and isinstance(binding.get("crop"), dict)
+                         and binding["crop"].get("asset_sha256") == digest))):
                 source_matches.append(binding)
         if len(source_matches) != 1 or not re.fullmatch(r"10\.\d{4,9}/\S+", str(direction.get("doi", ""))):
             return "user_directed_display_source_binding_missing"
@@ -464,7 +489,7 @@ _AUTHORED_TEXT_ORIGINS = {
 }
 
 
-def _object_source_text_state(obj: dict[str, Any]) -> bool | None:
+def _object_source_text_state(obj: dict[str, Any], normalized_keys=None) -> bool | None:
     for key in ("text_origin", "content_origin", "text_provenance", "content_provenance", "provenance"):
         if key in obj:
             origin = _normalize_origin(obj[key])
@@ -475,7 +500,7 @@ def _object_source_text_state(obj: dict[str, Any]) -> bool | None:
     # Some legacy snippet records carry a source-file hash and page locator but
     # no explicit origin field. Treat only the text in that evidence object as
     # source-derived; keep the page/hash locator and surrounding authored facts.
-    normalized = {re.sub(r"[^a-z0-9]+", "", str(key).casefold()) for key in obj}
+    normalized = normalized_keys if normalized_keys is not None else {re.sub(r"[^a-z0-9]+", "", str(key).casefold()) for key in obj}
     has_text = bool(normalized & {"text", "snippet", "excerpt", "body", "content"})
     has_source_hash = bool(normalized & {"sourcehash", "sourcefilehash", "sourcepdfhash", "sourcesha256", "sourcefilehashsha256"})
     has_page_locator = bool(normalized & {"page", "pdfpage", "pagenumber", "printedpage", "printedpagenumber"})
@@ -501,6 +526,44 @@ def _looks_local_path(value: str) -> bool:
     return count > 0
 
 
+# Pure lexical facts only: never source/measurement context, a content verdict,
+# policy, review, or rights. Exact immutable regex inputs are part of the key.
+_JSON_KEY_NORMALIZE_RE = re.compile(r"[^a-z0-9]+")
+_JSON_KEY_MEMO_MAX_ENTRIES = 4096
+_JSON_KEY_MEMO_MAX_CHARS = 128
+
+
+def _json_key_lexemes_uncached(value, normalizer, patterns):
+    normalized = normalizer.sub("", value.casefold())
+    result = value
+    count = 0
+    for pattern in patterns:
+        result, n = pattern.subn("[local path redacted]", result)
+        count += n
+    return normalized, count > 0
+
+
+_json_key_lexemes_cached = lru_cache(maxsize=_JSON_KEY_MEMO_MAX_ENTRIES)(_json_key_lexemes_uncached)
+
+
+def _json_key_lexemes(value):
+    # The caller uses this only for exact str keys. Long keys are checked fully
+    # but not retained, so cache memory is bounded in entries and input length.
+    patterns = (_FILE_URI_RE, _UNC_PATH_RE, _WINDOWS_PATH_RE, _POSIX_LOCAL_PATH_RE)
+    function = _json_key_lexemes_cached if len(value) <= _JSON_KEY_MEMO_MAX_CHARS else _json_key_lexemes_uncached
+    return function(value, _JSON_KEY_NORMALIZE_RE, patterns)
+
+
+def json_key_memo_state(*, clear=False):
+    """Read-only diagnostics, or explicit in-process test reset; no disk cache."""
+    if clear:
+        _json_key_lexemes_cached.cache_clear()
+    info = _json_key_lexemes_cached.cache_info()
+    return {"entries": info.currsize, "max_entries": info.maxsize,
+            "max_key_chars": _JSON_KEY_MEMO_MAX_CHARS,
+            "hits": info.hits, "misses": info.misses}
+
+
 _MEASUREMENT_CUE_KEYS = {
     "cellid", "numericvalue", "normalizedvalue", "value", "unit", "units", "unitstatus",
     "quantity", "quantityvalue", "parameter", "measurementname", "evidence", "transcriptionstatus",
@@ -521,8 +584,8 @@ class _UnsafeEmbeddedJson(ValueError):
     """A JSON-looking embedded payload could not be checked within bounds."""
 
 
-def _is_structured_measurement_object(obj: dict[str, Any]) -> bool:
-    normalized = {re.sub(r"[^a-z0-9]+", "", str(key).casefold()) for key in obj}
+def _is_structured_measurement_object(obj: dict[str, Any], normalized_keys=None) -> bool:
+    normalized = normalized_keys if normalized_keys is not None else {re.sub(r"[^a-z0-9]+", "", str(key).casefold()) for key in obj}
     cues = normalized & _MEASUREMENT_CUE_KEYS
     return "rawtext" in normalized and bool(cues) and (len(cues) >= 2 or bool(cues & {"numericvalue", "normalizedvalue", "cellid", "unitstatus", "evidence"}))
 
@@ -572,16 +635,21 @@ def _walk_json(value: Any, stats: dict[str, int], *, strict_paths: bool,
                declarative_schema: bool = False, schema_property_map: bool = False,
                embedded_json_depth: int = 0) -> Any:
     if isinstance(value, dict):
-        local_state = _object_source_text_state(value)
+        # A fresh set is shared only within this object; inherited context and
+        # measurement decisions are still recalculated for every object.
+        key_lexemes = {key: _json_key_lexemes(key) for key in value} if all(type(key) is str for key in value) else None
+        normalized_keys = {item[0] for item in key_lexemes.values()} if key_lexemes is not None else None
+        local_state = _object_source_text_state(value, normalized_keys)
         source_text_origin = inherited_source_text_origin if local_state is None else local_state
-        structured_measurement = _is_structured_measurement_object(value)
+        structured_measurement = _is_structured_measurement_object(value, normalized_keys)
         measurement_context = inherited_measurement_context or structured_measurement
         out = {}
         for key, item in value.items():
-            if isinstance(key, str) and _looks_local_path(key):
+            local_key = key_lexemes[key][1] if key_lexemes is not None else isinstance(key, str) and _looks_local_path(key)
+            if local_key:
                 stats["local_path_key_detected"] += 1
                 continue
-            normalized_key = re.sub(r"[^a-z0-9]+", "", str(key).casefold())
+            normalized_key = key_lexemes[key][0] if key_lexemes is not None else re.sub(r"[^a-z0-9]+", "", str(key).casefold())
             if normalized_key in _PRIVATE_TEXT_KEYS:
                 stats["source_text_fields_removed"] += 1
                 continue
@@ -671,7 +739,7 @@ def _unique_json_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
     return out
 
 
-def _sanitize_content(path: str, raw: bytes, config: dict[str, Any] | None = None, repo: str | None = None) -> tuple[bytes | None, str, dict[str, int]]:
+def _sanitize_content_uncached(path: str, raw: bytes, config: dict[str, Any] | None = None, repo: str | None = None) -> tuple[bytes | None, str, dict[str, int]]:
     ext = PurePosixPath(path).suffix.casefold()
     if raw.lstrip().startswith(b"%PDF-"):
         return None, "original_source_document_or_archive", {}
@@ -731,6 +799,93 @@ def _sanitize_content(path: str, raw: bytes, config: dict[str, Any] | None = Non
     if not _is_image(path):
         return None, "unclassified_binary_content", stats
     return raw, "unchanged", stats
+
+
+
+# This memo stores pure sanitation results, never release or review approvals.
+# Membership, byte hashes, staged modes, review rows and rights remain checked
+# by every caller. No cache is read from or written to disk.
+from collections import OrderedDict
+from threading import RLock
+
+_SANITATION_GUARD_VERSION = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+_SANITATION_MEMO = OrderedDict()
+_SANITATION_MEMO_LOCK = RLock()
+_SANITATION_MEMO_MAX_ENTRIES = 16384
+_SANITATION_MEMO_MAX_OUTPUT_BYTES = 16 * 1024 * 1024
+_SANITATION_MEMO_OUTPUT_BYTES = 0
+_SANITATION_MEMO_ENABLED = True
+_SANITATION_MEMO_HITS = 0
+_SANITATION_MEMO_MISSES = 0
+
+
+def sanitation_memo_state(*, clear=False, enabled=None):
+    """Local diagnostic/test control; changing it never approves a payload."""
+    global _SANITATION_MEMO_ENABLED, _SANITATION_MEMO_HITS
+    global _SANITATION_MEMO_MISSES, _SANITATION_MEMO_OUTPUT_BYTES
+    with _SANITATION_MEMO_LOCK:
+        if enabled is not None:
+            _SANITATION_MEMO_ENABLED = bool(enabled)
+        if clear:
+            _SANITATION_MEMO.clear()
+            _SANITATION_MEMO_HITS = _SANITATION_MEMO_MISSES = 0
+            _SANITATION_MEMO_OUTPUT_BYTES = 0
+        return {"enabled": _SANITATION_MEMO_ENABLED, "entries": len(_SANITATION_MEMO),
+                "hits": _SANITATION_MEMO_HITS, "misses": _SANITATION_MEMO_MISSES,
+                "retained_output_bytes": _SANITATION_MEMO_OUTPUT_BYTES}
+
+
+def _sanitation_context(config):
+    # Memoized JSON sanitation has no configuration-dependent behavior. These
+    # current pins only separate contexts further; every policy/rights gate is
+    # still evaluated outside the memo. Coordinate/text formats are uncached.
+    return None if config is None else (config.get("policy_sha256"),
+                                       config.get("asset_rights_registry_sha256"))
+
+
+def _sanitize_content(path, raw, config=None, repo=None):
+    global _SANITATION_MEMO_HITS, _SANITATION_MEMO_MISSES
+    global _SANITATION_MEMO_OUTPUT_BYTES
+    if not _SANITATION_MEMO_ENABLED or not isinstance(raw, bytes):
+        return _sanitize_content_uncached(path, raw, config, repo)
+    # Restrict the memo to the configuration-independent JSON branch. In
+    # particular CIF/SDF/XYZ with mutable exact COD exceptions always execute
+    # the original sanitizer: no raced or type-collapsed exception verdict can
+    # enter the memo or be inherited by a later call.
+    if PurePosixPath(path).suffix.casefold() not in {".json", ".jsonl", ".ndjson"}:
+        return _sanitize_content_uncached(path, raw, config, repo)
+    context = _sanitation_context(config)
+    try:
+        key = (_SANITATION_GUARD_VERSION, repo, path, sha256(raw), len(raw), context)
+        hash(key)
+    except TypeError:
+        return _sanitize_content_uncached(path, raw, config, repo)
+    with _SANITATION_MEMO_LOCK:
+        hit = _SANITATION_MEMO.get(key)
+        if hit is not None:
+            _SANITATION_MEMO.move_to_end(key)
+            _SANITATION_MEMO_HITS += 1
+            unchanged, output, reason, stats = hit
+            return (raw if unchanged else output), reason, dict(stats)
+        _SANITATION_MEMO_MISSES += 1
+    output, reason, stats = _sanitize_content_uncached(path, raw, config, repo)
+    unchanged = output is raw or output == raw
+    retained = None if unchanged else output
+    weight = len(retained) if isinstance(retained, bytes) else 0
+    if weight <= _SANITATION_MEMO_MAX_OUTPUT_BYTES:
+        value = (unchanged, retained, reason, tuple(stats.items()))
+        with _SANITATION_MEMO_LOCK:
+            former = _SANITATION_MEMO.pop(key, None)
+            if former and isinstance(former[1], bytes):
+                _SANITATION_MEMO_OUTPUT_BYTES -= len(former[1])
+            _SANITATION_MEMO[key] = value
+            _SANITATION_MEMO_OUTPUT_BYTES += weight
+            while (len(_SANITATION_MEMO) > _SANITATION_MEMO_MAX_ENTRIES
+                   or _SANITATION_MEMO_OUTPUT_BYTES > _SANITATION_MEMO_MAX_OUTPUT_BYTES):
+                _, evicted = _SANITATION_MEMO.popitem(last=False)
+                if isinstance(evicted[1], bytes):
+                    _SANITATION_MEMO_OUTPUT_BYTES -= len(evicted[1])
+    return output, reason, dict(stats)
 
 
 def history_project(kind: str, path: str, raw: bytes, config: dict[str, Any]) -> dict[str, Any]:

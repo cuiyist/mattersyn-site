@@ -1,12 +1,12 @@
 {
   "status": "passed",
   "dataset_version": "0.41.2",
-  "records": 1658,
-  "recipe_records": 871,
+  "records": 1661,
+  "recipe_records": 874,
   "shared_procedures": 454,
   "independent_experiment_count": null,
-  "source_groups": 159,
-  "families": 201,
+  "source_groups": 162,
+  "families": 204,
   "eligible_by_task": {
     "precursor_selection": 95,
     "partial_protocol": 130,
@@ -31,7 +31,7 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 771,
+  "curated_recipes": 774,
   "contextual_observation_records": 333,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
@@ -53,21 +53,21 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 1658,
+      "audited_task_profile_missing": 1661,
       "explicit_sample_recipe_link_missing": 2,
       "measured_label_not_approved": 7,
-      "no_sample_coordinate_asset": 1640,
+      "no_sample_coordinate_asset": 1641,
       "source_review_required": 100,
-      "task_not_requested": 1637
+      "task_not_requested": 1640
     }
   },
   "structure_outcome_coverage": {
     "schema_version": "1.0",
     "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
     "counts": {
-      "recipe_structure_rows": 577,
-      "source_groups": 139,
-      "records": 529,
+      "recipe_structure_rows": 622,
+      "source_groups": 142,
+      "records": 532,
       "physical_samples_deduplicated": null
     },
     "measurement_property_policy": "data/structure-outcome-policy.json"
@@ -240,18 +240,18 @@
       "ZnSe:Cr",
       "ZrO2"
     ],
-    "contributing_papers": 159,
+    "contributing_papers": 162,
     "source_coverage": {
-      "total_contributing_papers": 159,
-      "reviewed_contributing_papers": 159,
+      "total_contributing_papers": 162,
+      "reviewed_contributing_papers": 162,
       "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
     },
-    "synthesis_structure_pairs": 577,
+    "synthesis_structure_pairs": 622,
     "more_comprehensive_pairs": 6,
-    "partial_pairs": 571,
+    "partial_pairs": 616,
     "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 1658,
+    "all_records": 1661,
     "experimental_series_rows": 100
   },
   "queue_count": 37,

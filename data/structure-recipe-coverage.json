@@ -17,12 +17,12 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 1658,
+    "audited_task_profile_missing": 1661,
     "explicit_sample_recipe_link_missing": 2,
     "measured_label_not_approved": 7,
-    "no_sample_coordinate_asset": 1640,
+    "no_sample_coordinate_asset": 1641,
     "source_review_required": 100,
-    "task_not_requested": 1637
+    "task_not_requested": 1640
   },
   "records": [
     {
@@ -5313,6 +5313,45 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "choi1999-ag-nc-wire-ls-monolayer",
+      "source_group": "choi1999-ag-shadowmask-1-581831",
+      "measured_product_assets": [
+        {
+          "asset_id": "choi1999-figure-1-fe-sem",
+          "url": "assets/source-figures/choi1999/figure-1-ag-wire.png",
+          "sample_id": "choi1999-ag-wire-monolayer-on-pmma",
+          "source_group": "choi1999-ag-shadowmask-1-581831",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "351b5b9cbae1ef56d20c7f1fd0ee5b6d910a82c9316a7715b8d6eb6f69be3933",
+          "representation": "unclassified",
+          "label": "choi1999-figure-1-fe-sem",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
           },
           {
             "code": "audited_task_profile_missing",
@@ -18575,6 +18614,36 @@
       }
     },
     {
+      "record_id": "klecha2010-ag-2d-superlattice-jz100417s-matrix",
+      "source_group": "klecha2010-ag-2d-superlattice-jz100417s",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
       "record_id": "kovacheva2002-2a-battery-composite",
       "source_group": "kovacheva2002-limn2o4-b107669h",
       "measured_product_assets": [],
@@ -28287,6 +28356,201 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-matrix",
+      "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+      "measured_product_assets": [
+        {
+          "asset_id": "ouhenia2016-figure-01-c10-5-hexane-m1",
+          "url": "assets/source-figures/ouhenia2016/figure-01.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c10-5-hexane-m1",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "30d3851fa3dae7c41278840e946e780eea510c625444b19f60725ea77f898841",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-01-c10-5-hexane-m1",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-01-c10-5-toluene-m1",
+          "url": "assets/source-figures/ouhenia2016/figure-01.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c10-5-toluene-m1",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "30d3851fa3dae7c41278840e946e780eea510c625444b19f60725ea77f898841",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-01-c10-5-toluene-m1",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-02-c12-5-hexane-m1",
+          "url": "assets/source-figures/ouhenia2016/figure-02.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-5-hexane-m1",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "72084720c50c5f5e49171282f654db5d1d318b65728177c43b541a77db68a6de",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-02-c12-5-hexane-m1",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-02-c12-5-toluene-m1",
+          "url": "assets/source-figures/ouhenia2016/figure-02.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-5-toluene-m1",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "72084720c50c5f5e49171282f654db5d1d318b65728177c43b541a77db68a6de",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-02-c12-5-toluene-m1",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-03-figure3-m2",
+          "url": "assets/source-figures/ouhenia2016/figure-03.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-figure3-m2",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "28f3f85e102e4bb43f40243f9905190ea3c71c1a5bedd69d021118b4a7f8e709",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-03-figure3-m2",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-04-c12-6-lcem-hexane-toluene-40-60",
+          "url": "assets/source-figures/ouhenia2016/figure-04.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-6-lcem-hexane-toluene-40-60",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "b41f5c732016ed83c71acfb44fd072d242f54c2687c6bfb661c704b0ac89b127",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-04-c12-6-lcem-hexane-toluene-40-60",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-05-c12-6-lcem-hexane",
+          "url": "assets/source-figures/ouhenia2016/figure-05.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-6-lcem-hexane",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "29ae6a66bd4fe6c2b37c21b8f6a4420134ca93c85c8988e2bddd83054ad2b44e",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-05-c12-6-lcem-hexane",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-06-c12-6-cross-section",
+          "url": "assets/source-figures/ouhenia2016/figure-06.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-6-cross-section",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "f23c132405badd2a8c8fe9b81288ff2db0b8fc95aff56bd042c498428dd10f3b",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-06-c12-6-cross-section",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "ouhenia2016-figure-07-c12-6-cross-section",
+          "url": "assets/source-figures/ouhenia2016/figure-07.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-6-cross-section",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9182fa4d0d05a3563aec515117405b745905a8bf76495c834452be02d17ddb9d",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-07-c12-6-cross-section",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "ouhenia2016-figure-09-c12-5-washed-fig9",
+          "url": "assets/source-figures/ouhenia2016/figure-09.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-5-washed-fig9",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9820646a80ceb3f4bf4cb3c9378494c7ef46f023b3f3968f74787405513c4c13",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-09-c12-5-washed-fig9",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-09-c12-5-readd-fig9",
+          "url": "assets/source-figures/ouhenia2016/figure-09.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-5-readd-fig9",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9820646a80ceb3f4bf4cb3c9378494c7ef46f023b3f3968f74787405513c4c13",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-09-c12-5-readd-fig9",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-10-c12-5-washed-fig10",
+          "url": "assets/source-figures/ouhenia2016/figure-10.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-5-washed-fig10",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "e26a5c00367c84acf68029c66a8a9e7e3384cf16cc100f8b7a81879ccdcd2b56",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-10-c12-5-washed-fig10",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "ouhenia2016-figure-10-c12-5-readd-fig10",
+          "url": "assets/source-figures/ouhenia2016/figure-10.png",
+          "sample_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374-c12-5-readd-fig10",
+          "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "e26a5c00367c84acf68029c66a8a9e7e3384cf16cc100f8b7a81879ccdcd2b56",
+          "representation": "unclassified",
+          "label": "ouhenia2016-figure-10-c12-5-readd-fig10",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
           },
           {
             "code": "audited_task_profile_missing",
