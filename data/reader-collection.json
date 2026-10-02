@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 169,
+  "material_families": 178,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -35,6 +35,9 @@
     "AgInS2",
     "AgInTe2",
     "AgInTe2/ZnS",
+    "Ag–CoO",
+    "Ag–Eu:LaVO4",
+    "Ag–Fe3O4",
     "Ag–Te phase mixture",
     "Al",
     "AlN",
@@ -42,6 +45,11 @@
     "Au/CdS",
     "Au/SiO2",
     "Au@Ag2S",
+    "Au_xCu_(1-x)",
+    "Au–Ag",
+    "Au–Ag–Fe3O4",
+    "Au–Ag–TiO2",
+    "Au–TiO2",
     "BaTiO3",
     "Bi",
     "Bi2S3",
@@ -108,6 +116,7 @@
     "CuS + Cu1.8S",
     "CuSbS2",
     "Cu–Te phase mixture",
+    "Eu:LaVO4",
     "FAPbI3",
     "Fe3O4",
     "Fe90Zr7B3",
@@ -173,18 +182,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 171,
+  "contributing_papers": 173,
   "source_coverage": {
-    "total_contributing_papers": 171,
-    "reviewed_contributing_papers": 171,
+    "total_contributing_papers": 173,
+    "reviewed_contributing_papers": 173,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 684,
+  "synthesis_structure_pairs": 699,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 678,
+  "partial_pairs": 693,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1670,
+  "all_records": 1703,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -51271,6 +51280,1674 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "henkel2009-au-aucu-jp810979r-au-nanorod::henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+      "record_id": "henkel2009-au-aucu-jp810979r-au-nanorod",
+      "record_page_path": "records/henkel2009-au-aucu-jp810979r-au-nanorod.html",
+      "source_group": "henkel2009-au-aucu-jp810979r",
+      "title": "Henkel et al. (2009): Au seeded nanorod growth",
+      "doi": "10.1021/jp810979r",
+      "year": 2009,
+      "method": "Seeded aqueous CTAB nanorod growth with ascorbic acid",
+      "recipe_label": "Henkel et al. (2009): Au seeded nanorod growth",
+      "sample_id": "henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+      "source_sample_label": "Au rods in time-resolved SAXS/optical experiment",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "henkel2009-au-aucu-jp810979r",
+            "locator": "Main PDF p.2, Results and Discussion, Figures 1a and 2a,c"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "henkel2009-au-aucu-jp810979r",
+          "locator": "Main PDF p.2, Results and Discussion, Figures 1a and 2a,c",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "rod-shaped ensemble fitted by cylindrical SAXS form factor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, Figures 1a and 2a,c"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.1, Experimental Section, nanorod synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "rod-shaped, inferred from SAXS fits",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.3, Results, Figure 2 and cylinder form-factor discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "rod-dispersion",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, Figures 1a and 2a,c"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No product-specific diffraction/refinement in this main paper."
+            },
+            "morphology": {
+              "value": "rod-shaped ensemble fitted by cylindrical SAXS form factor",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "henkel2009-au-aucu-jp810979r",
+                  "locator": "Main PDF p.2, Results and Discussion, Figures 1a and 2a,c"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "aa",
+            "agno3",
+            "ctab",
+            "haucl4",
+            "seed-stock"
+          ],
+          "fields": [
+            {
+              "material_id": "haucl4",
+              "pointer": "/materials/0/quantities/growth_solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0005,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 × 10^-4 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "pointer": "/materials/1/quantities/growth_solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.10 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "agno3",
+              "pointer": "/materials/2/quantities/growth_solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4e-05,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "4.0 × 10^-5 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "aa",
+              "pointer": "/materials/3/quantities/growth_solution_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.00055,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.5 × 10^-4 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed-stock",
+              "pointer": "/materials/4/quantities/aliquot_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 12,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "12 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "operation_id": "prepare-au-growth",
+              "pointer": "/operations/0/parameters/haucl4_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.0005,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 × 10^-4 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "operation_id": "prepare-au-growth",
+              "pointer": "/operations/0/parameters/ctab_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.10 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "agno3",
+              "operation_id": "prepare-au-growth",
+              "pointer": "/operations/0/parameters/agno3_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 4e-05,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "4.0 × 10^-5 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "henkel2009-au-aucu-jp810979r-aucu-nanorod::henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+      "record_id": "henkel2009-au-aucu-jp810979r-aucu-nanorod",
+      "record_page_path": "records/henkel2009-au-aucu-jp810979r-aucu-nanorod.html",
+      "source_group": "henkel2009-au-aucu-jp810979r",
+      "title": "Henkel et al. (2009): Au–Cu seeded nanorod growth",
+      "doi": "10.1021/jp810979r",
+      "year": 2009,
+      "method": "Seeded aqueous CTAB nanorod growth with ascorbic acid",
+      "recipe_label": "Henkel et al. (2009): Au–Cu seeded nanorod growth",
+      "sample_id": "henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+      "source_sample_label": "Au_xCu_(1-x) rods in time-resolved SAXS/optical experiment",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au_xCu_(1-x); x not reported",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "henkel2009-au-aucu-jp810979r",
+            "locator": "Main PDF p.2, Results and Discussion, Figures 1b and 2b,d"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "henkel2009-au-aucu-jp810979r",
+          "locator": "Main PDF p.2, Results and Discussion, Figures 1b and 2b,d",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "rod-shaped ensemble fitted by cylindrical SAXS form factor",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, Figures 1b and 2b,d"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au_xCu_(1-x)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.1, Experimental Section, nanorod synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "rod-shaped, inferred from SAXS fits",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.3, Results, Figure 2 and cylinder form-factor discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "rod-dispersion",
+          "composition": {
+            "value": "Au_xCu_(1-x); x not reported",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, Figures 1b and 2b,d"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No product-specific diffraction/refinement in this main paper."
+            },
+            "morphology": {
+              "value": "rod-shaped ensemble fitted by cylindrical SAXS form factor",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "henkel2009-au-aucu-jp810979r",
+                  "locator": "Main PDF p.2, Results and Discussion, Figures 1b and 2b,d"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "aa",
+            "agno3",
+            "ctab",
+            "cucl2",
+            "haucl4",
+            "seed-stock",
+            "water"
+          ],
+          "fields": [
+            {
+              "material_id": "haucl4",
+              "pointer": "/materials/0/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "25 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "pointer": "/materials/0/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cucl2",
+              "pointer": "/materials/1/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "25 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cucl2",
+              "pointer": "/materials/1/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "pointer": "/materials/3/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "pointer": "/materials/3/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "agno3",
+              "pointer": "/materials/4/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "agno3",
+              "pointer": "/materials/4/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.04,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.04 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "aa",
+              "pointer": "/materials/5/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 52.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "52.5 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "aa",
+              "pointer": "/materials/5/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.0788,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.0788 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "seed-stock",
+              "pointer": "/materials/6/quantities/aliquot_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 12,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "12 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/haucl4_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "25 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/haucl4_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cucl2",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/cucl2_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "25 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cucl2",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/cucl2_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/water_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/ctab_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "operation_id": "prepare-aucu-growth",
+              "pointer": "/operations/0/parameters/ctab_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "agno3",
+              "operation_id": "reduce-aucu-growth",
+              "pointer": "/operations/1/parameters/agno3_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "agno3",
+              "operation_id": "reduce-aucu-growth",
+              "pointer": "/operations/1/parameters/agno3_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.04,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.04 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "aa",
+              "operation_id": "reduce-aucu-growth",
+              "pointer": "/operations/1/parameters/aa_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 52.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "52.5 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "aa",
+              "operation_id": "reduce-aucu-growth",
+              "pointer": "/operations/1/parameters/aa_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.0788,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.0788 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.2, Experimental Section, Synthesis of AuCu Nanoparticles"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "henkel2009-au-aucu-jp810979r-seed::henkel2009-au-aucu-jp810979r-au-seed-suspension",
+      "record_id": "henkel2009-au-aucu-jp810979r-seed",
+      "record_page_path": "records/henkel2009-au-aucu-jp810979r-seed.html",
+      "source_group": "henkel2009-au-aucu-jp810979r",
+      "title": "Henkel et al. (2009): Au seed suspension",
+      "doi": "10.1021/jp810979r",
+      "year": 2009,
+      "method": "NaBH4 reduction of HAuCl4 in aqueous CTAB",
+      "recipe_label": "Henkel et al. (2009): Au seed suspension",
+      "sample_id": "henkel2009-au-aucu-jp810979r-au-seed-suspension",
+      "source_sample_label": "small gold seeds",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "henkel2009-au-aucu-jp810979r",
+            "locator": "Main PDF p.2, Results and Discussion, preformed seed description"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "henkel2009-au-aucu-jp810979r",
+          "locator": "Main PDF p.2, Results and Discussion, preformed seed description",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "small particles, approximately 2–4 nm",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, preformed seed description"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.1, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": 2,
+            "maximum": 4,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "about 2–4 nm",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, preformed seed description"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "small seed particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, seed/rod description"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "henkel2009-au-aucu-jp810979r-au-seed-suspension",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "seed-suspension",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "henkel2009-au-aucu-jp810979r",
+                "locator": "Main PDF p.2, Results and Discussion, preformed seed description"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No product-specific diffraction/refinement in this main paper."
+            },
+            "morphology": {
+              "value": "small particles, approximately 2–4 nm",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "henkel2009-au-aucu-jp810979r",
+                  "locator": "Main PDF p.2, Results and Discussion, preformed seed description"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ctab",
+            "haucl4",
+            "nabh4",
+            "water"
+          ],
+          "fields": [
+            {
+              "material_id": "haucl4",
+              "pointer": "/materials/0/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "50 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "pointer": "/materials/0/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "pointer": "/materials/2/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "pointer": "/materials/2/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nabh4",
+              "pointer": "/materials/3/quantities/stock_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.60 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nabh4",
+              "pointer": "/materials/3/quantities/stock_concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.01,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.010 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "stock_id": "haucl4-stock",
+              "pointer": "/stocks/0/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "50 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "stock_id": "ctab-stock",
+              "pointer": "/stocks/1/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nabh4",
+              "stock_id": "nabh4-stock",
+              "pointer": "/stocks/2/components/0/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.60 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "operation_id": "combine-seed-solutions",
+              "pointer": "/operations/0/parameters/haucl4_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 50,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "50 µL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "haucl4",
+              "operation_id": "combine-seed-solutions",
+              "pointer": "/operations/0/parameters/haucl4_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "operation_id": "combine-seed-solutions",
+              "pointer": "/operations/0/parameters/water_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "operation_id": "combine-seed-solutions",
+              "pointer": "/operations/0/parameters/ctab_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 5.0,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5.0 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ctab",
+              "operation_id": "combine-seed-solutions",
+              "pointer": "/operations/0/parameters/ctab_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nabh4",
+              "operation_id": "reduce-seeds",
+              "pointer": "/operations/1/parameters/nabh4_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.60 mL",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nabh4",
+              "operation_id": "reduce-seeds",
+              "pointer": "/operations/1/parameters/nabh4_concentration",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.01,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.010 M",
+                "evidence": [
+                  {
+                    "source_id": "henkel2009-au-aucu-jp810979r",
+                    "locator": "Main PDF p.1, Experimental Section"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -192385,6 +194062,2609 @@
                   {
                     "source_id": "xu2002-scsz-tb00207x",
                     "locator": "Main PDF p. 2, Figure 1 and Figure 2a"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-coo-one-pot::xu2008-ag-coo",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-coo-one-pot",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-ag-coo-one-pot.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Ag–CoO one-pot hybrid nanocrystals",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Ag seed formation followed by Co2(CO)8 injection in o-dichlorobenzene",
+      "recipe_label": "Xu et al. (2008): Ag–CoO one-pot hybrid nanocrystals",
+      "sample_id": "xu2008-ag-coo",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag–CoO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "wurtzite CoO plate, as assigned by HRTEM/XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Ag nanocrystals arranged like petals around hexagonal CoO nanoplates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag–CoO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "wurtzite CoO plate, as assigned by HRTEM/XRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": 50,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": true,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "CoO nanoplate ~50 nm",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.6, CoO nanoplate size"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Ag nanocrystals arranged like petals around hexagonal CoO nanoplates",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-ag-coo",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Ag–CoO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "wurtzite CoO plate, as assigned by HRTEM/XRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Ag nanocrystals arranged like petals around hexagonal CoO nanoplates",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.3, Ag–CoO one-pot hybrid discussion and Figure 2f"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "agno3",
+            "co2co8",
+            "odcb",
+            "oleylamine"
+          ],
+          "fields": [
+            {
+              "material_id": "agno3",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 255,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 15,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "co2co8",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 540,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "odcb",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-nc::xu2008-ag-nc",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-nc",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-ag-nc.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Ag nanocrystal building blocks",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Oleylamine reduction of AgNO3 under N2",
+      "recipe_label": "Xu et al. (2008): Ag nanocrystal building blocks",
+      "sample_id": "xu2008-ag-nc",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Ag",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-ag-nc",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Ag",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "agno3",
+            "oleylamine"
+          ],
+          "fields": [
+            {
+              "material_id": "agno3",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 255,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 15,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Ag and Ag–CoO Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-c::xu2008-au-bilayer-island-c",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-c",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-c.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au bilayer with smaller pore islands, Figure 1c",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au bilayer with smaller pore islands, Figure 1c",
+      "sample_id": "xu2008-au-bilayer-island-c",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "bilayered superlattice walls with smaller islands in pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "bilayered superlattice walls with smaller islands in pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-bilayer-island-c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "bilayered superlattice walls with smaller islands in pores",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1c caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-d::xu2008-au-bilayer-island-d",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-d",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-d.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au bilayer with larger pore islands, Figure 1d",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au bilayer with larger pore islands, Figure 1d",
+      "sample_id": "xu2008-au-bilayer-island-d",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "bilayered superlattice walls with larger islands in pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "bilayered superlattice walls with larger islands in pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-bilayer-island-d",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "bilayered superlattice walls with larger islands in pores",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1d caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-e::xu2008-au-bilayer-island-e",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-e",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-e.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au bilayer with expanded pore islands, Figure 1e",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au bilayer with expanded pore islands, Figure 1e",
+      "sample_id": "xu2008-au-bilayer-island-e",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "bilayered superlattice walls with expanded islands in pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "bilayered superlattice walls with expanded islands in pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-bilayer-island-e",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "bilayered superlattice walls with expanded islands in pores",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1e caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-high-rh-bilayer::xu2008-au-high-rh-bilayer",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-high-rh-bilayer",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-high-rh-bilayer.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au high-humidity bilayer",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au high-humidity bilayer",
+      "sample_id": "xu2008-au-high-rh-bilayer",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "bilayer at some hexagonal lattice knots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "bilayer at some hexagonal lattice knots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-high-rh-bilayer",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "bilayer at some hexagonal lattice knots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1b caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-island-free-high-flow::xu2008-au-island-free-high-flow",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-island-free-high-flow",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-island-free-high-flow.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au island-free high-evaporation architecture",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au island-free high-evaporation architecture",
+      "sample_id": "xu2008-au-island-free-high-flow",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "island-free hierarchical porous architecture at faster evaporation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "island-free hierarchical porous architecture at faster evaporation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-island-free-high-flow",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "island-free hierarchical porous architecture at faster evaporation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1f caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-low-rh-fractal::xu2008-au-low-rh-fractal",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-low-rh-fractal",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-low-rh-fractal.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au low-humidity fractal",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au low-humidity fractal",
+      "sample_id": "xu2008-au-low-rh-fractal",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "fractal tree-patterned nanocrystal superlattice",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "fractal tree-patterned nanocrystal superlattice",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-low-rh-fractal",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "fractal tree-patterned nanocrystal superlattice",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1g caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-nc::xu2008-au-nc",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-nc",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-nc.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au nanocrystal building blocks",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Glucose/oleylamine hydrothermal Au nanocrystal synthesis",
+      "recipe_label": "Xu et al. (2008): Au nanocrystal building blocks",
+      "sample_id": "xu2008-au-nc",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.1, Fig.1i and Au building-block description"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.1, Fig.1i and Au building-block description",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "approximately monodisperse nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.1, Fig.1i and Au building-block description"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "m-1",
+          "property": "mean_diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 9.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "average diameter 9.8 nm",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.1, Figure 1i / Au building-block description"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM size distribution",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+              "locator": "Main PDF p.1, Figure 1i / Au building-block description"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.1, Fig.1i and Au building-block description"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "approximately monodisperse nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.1, Fig.1i and Au building-block description"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-nc",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.1, Fig.1i and Au building-block description"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "approximately monodisperse nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.1, Fig.1i and Au building-block description"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "m-1",
+                "property": "mean_diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ethanol",
+            "glucose",
+            "haucl4",
+            "oleylamine",
+            "water"
+          ],
+          "fields": [
+            {
+              "material_id": "haucl4",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Au Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "glucose",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Au Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 16,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Au Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleylamine",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Au Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 16,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, Au Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-porous-monolayer::xu2008-au-porous-monolayer",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-porous-monolayer",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-au-porous-monolayer.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): Au porous monolayer",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Humidity-controlled droplet self-assembly of preformed nanocrystals",
+      "recipe_label": "Xu et al. (2008): Au porous monolayer",
+      "sample_id": "xu2008-au-porous-monolayer",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "close-packed monolayer with hexagonal pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "close-packed monolayer with hexagonal pores",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-au-porous-monolayer",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "close-packed monolayer with hexagonal pores",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.2, Figure 1a caption and corresponding Results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-long-rods::xu2008-tio2-long-rods",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-long-rods",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-tio2-long-rods.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): TiO2 long rods",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Ti(OBu)4/oleate hydrothermal shape route",
+      "recipe_label": "Xu et al. (2008): TiO2 long rods",
+      "sample_id": "xu2008-tio2-long-rods",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.4, Figure 2m caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.4, Figure 2m caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "long TiO2 nanorods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.4, Figure 2m caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.4, Figure 2m caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "long TiO2 nanorods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.4, Figure 2m caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-tio2-long-rods",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.4, Figure 2m caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "long TiO2 nanorods",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.4, Figure 2m caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cyclohexane",
+            "oleic-acid",
+            "tibutoxide",
+            "triethylamine"
+          ],
+          "fields": [
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/0/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "triethylamine",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cyclohexane",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tibutoxide",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-rods::xu2008-tio2-short-rods",
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-rods",
+      "record_page_path": "records/xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-rods.html",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "title": "Xu et al. (2008): TiO2 short rods",
+      "doi": "10.1002/adma.200800215",
+      "year": 2008,
+      "method": "Ti(OBu)4/oleate hydrothermal shape route",
+      "recipe_label": "Xu et al. (2008): TiO2 short rods",
+      "sample_id": "xu2008-tio2-short-rods",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+            "locator": "Main PDF p.5, Figure 3a–c caption"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "locator": "Main PDF p.5, Figure 3a–c caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "short TiO2 nanorods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.5, Figure 3a–c caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.5, Figure 3a–c caption"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "short TiO2 nanorods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.5, Figure 3a–c caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xu2008-tio2-short-rods",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product-state",
+          "composition": {
+            "value": "TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                "locator": "Main PDF p.5, Figure 3a–c caption"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "short TiO2 nanorods",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                  "locator": "Main PDF p.5, Figure 3a–c caption"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cyclohexane",
+            "nh4hco3",
+            "oleic-acid",
+            "tibutoxide",
+            "triethylamine"
+          ],
+          "fields": [
+            {
+              "material_id": "oleic-acid",
+              "pointer": "/materials/0/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "triethylamine",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cyclohexane",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tibutoxide",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "nh4hco3",
+              "pointer": "/materials/5/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "xu2008-hierarchical-nc-assemblies-adma200800215",
+                    "locator": "Main PDF p.6, Experimental, TiO2 Nanocrystals"
                   }
                 ],
                 "derivation": null

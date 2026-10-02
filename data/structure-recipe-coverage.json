@@ -17,12 +17,12 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 1670,
-    "explicit_sample_recipe_link_missing": 2,
-    "measured_label_not_approved": 10,
-    "no_sample_coordinate_asset": 1641,
+    "audited_task_profile_missing": 1703,
+    "explicit_sample_recipe_link_missing": 19,
+    "measured_label_not_approved": 36,
+    "no_sample_coordinate_asset": 1646,
     "source_review_required": 100,
-    "task_not_requested": 1645
+    "task_not_requested": 1678
   },
   "records": [
     {
@@ -15318,6 +15318,166 @@
     {
       "record_id": "heath-1996-ge-unpatterned-growth-context",
       "source_group": "heath1996",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "henkel2009-au-aucu-jp810979r-au-nanorod",
+      "source_group": "henkel2009-au-aucu-jp810979r",
+      "measured_product_assets": [
+        {
+          "asset_id": "henkel2009-main-fig1-henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "url": "assets/source-figures/henkel2009/main-figure-1.png",
+          "sample_id": "henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "source_group": "henkel2009-au-aucu-jp810979r",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bf08ce9e811272f8e0a8bce1a5b6decc889e552db2adc57074d70f8a120f84f1",
+          "representation": "unclassified",
+          "label": "henkel2009-main-fig1-henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "henkel2009-main-fig2-henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "url": "assets/source-figures/henkel2009/main-figure-2.png",
+          "sample_id": "henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "source_group": "henkel2009-au-aucu-jp810979r",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "3eefa79d7e6dc273da58ef71b332660c627f34f661ced4e7faae2b03297de922",
+          "representation": "unclassified",
+          "label": "henkel2009-main-fig2-henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "henkel2009-main-fig3-henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "url": "assets/source-figures/henkel2009/main-figure-3.png",
+          "sample_id": "henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "source_group": "henkel2009-au-aucu-jp810979r",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "2b14d44ec3ac15fa309998992d154dc233ce03894fc85be0201e621243ab42dd",
+          "representation": "unclassified",
+          "label": "henkel2009-main-fig3-henkel2009-au-aucu-jp810979r-au-rod-ensemble",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "henkel2009-au-aucu-jp810979r-aucu-nanorod",
+      "source_group": "henkel2009-au-aucu-jp810979r",
+      "measured_product_assets": [
+        {
+          "asset_id": "henkel2009-main-fig1-henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "url": "assets/source-figures/henkel2009/main-figure-1.png",
+          "sample_id": "henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "source_group": "henkel2009-au-aucu-jp810979r",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "bf08ce9e811272f8e0a8bce1a5b6decc889e552db2adc57074d70f8a120f84f1",
+          "representation": "unclassified",
+          "label": "henkel2009-main-fig1-henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "henkel2009-main-fig2-henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "url": "assets/source-figures/henkel2009/main-figure-2.png",
+          "sample_id": "henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "source_group": "henkel2009-au-aucu-jp810979r",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "3eefa79d7e6dc273da58ef71b332660c627f34f661ced4e7faae2b03297de922",
+          "representation": "unclassified",
+          "label": "henkel2009-main-fig2-henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "henkel2009-main-fig3-henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "url": "assets/source-figures/henkel2009/main-figure-3.png",
+          "sample_id": "henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "source_group": "henkel2009-au-aucu-jp810979r",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "2b14d44ec3ac15fa309998992d154dc233ce03894fc85be0201e621243ab42dd",
+          "representation": "unclassified",
+          "label": "henkel2009-main-fig3-henkel2009-au-aucu-jp810979r-aucu-rod-ensemble",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "henkel2009-au-aucu-jp810979r-seed",
+      "source_group": "henkel2009-au-aucu-jp810979r",
       "measured_product_assets": [],
       "exact_structure_recipe": {
         "eligible": false,
@@ -47714,6 +47874,1355 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-coo-one-pot",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-ag-coo",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-coo-porous-assembly",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-ag-coo-porous-assembly",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-eu-lavo4-mixed",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-ag-eu-lavo4-mixed",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-fe3o4-mixed",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-ag-fe3o4-mixed",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-nc",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-ag-porous-assembly",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-ag-porous-assembly",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-ag-fe3o4-mixed",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-au-ag-fe3o4-mixed",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-ag-mixed",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-au-ag-mixed",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-ag-tio2-long",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-au-ag-tio2-long",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-ag-tio2-short",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-au-ag-tio2-short",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-c",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-bilayer-island-c",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-d",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-bilayer-island-d",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-bilayer-island-e",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-bilayer-island-e",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-high-rh-bilayer",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-high-rh-bilayer",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-island-free-high-flow",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-island-free-high-flow",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-low-rh-fractal",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-low-rh-fractal",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-nc",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-nc",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-porous-monolayer",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-1.png",
+          "sample_id": "xu2008-au-porous-monolayer",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "de7fb7d74aad394ebcb35ce7431f6a7b7eb4a917bea9e6e2d0bb6b00343d8434",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": true
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-au-tio2-mixed",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-au-tio2-mixed",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-eu-lavo4-nc",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-eu-lavo4-nc",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-fe3o4-nc",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-fe3o4-nc",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-dots",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-long-porous-assembly",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-tio2-long-porous-assembly",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-long-rods",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-double-layer",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-3.png",
+          "sample_id": "xu2008-tio2-short-double-layer",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7bcf0c83934e102a04c895f1296011266e99a635f6437b2034184ceddea81a8f",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-porous-assembly",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-2.png",
+          "sample_id": "xu2008-tio2-short-porous-assembly",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "ec98b7bb35c236e4db14c5ea08aa90a04574325f8f65bc212e7b82aa9b080df8",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-rods",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-ultrahumid",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-3.png",
+          "sample_id": "xu2008-tio2-short-ultrahumid",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7bcf0c83934e102a04c895f1296011266e99a635f6437b2034184ceddea81a8f",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-wafer-h",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-3.png",
+          "sample_id": "xu2008-tio2-short-wafer-h",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7bcf0c83934e102a04c895f1296011266e99a635f6437b2034184ceddea81a8f",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "xu2008-hierarchical-nc-assemblies-adma200800215-tio2-short-wafer-i",
+      "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+      "measured_product_assets": [
+        {
+          "asset_id": "source-figure",
+          "url": "assets/source-figures/xu2008/main-figure-3.png",
+          "sample_id": "xu2008-tio2-short-wafer-i",
+          "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7bcf0c83934e102a04c895f1296011266e99a635f6437b2034184ceddea81a8f",
+          "representation": "unclassified",
+          "label": "source-figure",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
           },
           {
             "code": "audited_task_profile_missing",

@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **171 primary source groups** · release `v5-batch-20261002-four-product-hubs-gate-fix`. Records are not independent experiments.
+Dataset **0.41.2** · **173 primary source groups** · release `v5-batch-20261002-henkel-xu-gold-dot-legend`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -197,6 +197,8 @@ Dataset **0.41.2** · **171 primary source groups** · release `v5-batch-2026100
 
 - Xiaohua Liu; Fan Zhang; Rui Huang; Caofeng Pan; Jing Zhu (2008). Capping Modes in PVP-Directed Silver Nanocrystal Growth: Multi-Twinned Nanorods versus Single-Crystalline Nano-Hexapods. [10.1021/cg701128b](https://doi.org/10.1021/cg701128b). Review scope remains stated in the linked website records.
 
+- Xiangxing Xu; Xun Wang; Amjad Nisar; Xin Liang; Jing Zhuang; Shi Hu; Yuan Zhuang (2008). Combinatorial Hierarchically Ordered 2D Architectures Self-assembled from Nanocrystal Building Blocks. [10.1002/adma.200800215](https://doi.org/10.1002/adma.200800215). Review scope remains stated in the linked website records.
+
 - Jonathan S. Owen; Jungwon Park; Paul-Emile Trudeau; A. Paul Alivisatos (2008). Reaction Chemistry and Ligand Exchange at Cadmium–Selenide Nanocrystal Surfaces. *Journal of the American Chemical Society*, 130, 12279–12281. [10.1021/ja804414f](https://doi.org/10.1021/ja804414f). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=owen2008-cdse-ja804414f).
 
 - Yue Wu, Cyrus Wadia, Wanli Ma, Bryce Sadtler, A. Paul Alivisatos (2008). Synthesis and Photovoltaic Application of Copper(I) Sulfide Nanocrystals. [10.1021/nl801817d](https://doi.org/10.1021/nl801817d). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=wu2008).
@@ -206,6 +208,8 @@ Dataset **0.41.2** · **171 primary source groups** · release `v5-batch-2026100
 - Minjie Li; Jianying Ouyang; Christopher I. Ratcliffe; Laetitia Pietri; Xiaohua Wu; Donald M. Leek; Igor Moudrakovski; Quan Lin; Bai Yang; Kui Yu (2009). CdS Magic-Sized Nanocrystals Exhibiting Bright Band Gap Photoemission via Thermodynamically Driven Formation. *ACS Nano*, 3, 3832–3838. [10.1021/nn9009455](https://doi.org/10.1021/nn9009455). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2009-nn9009455).
 
 - Qinghong Yao; Indika U. Arachchige; Stephanie L. Brock (2009). Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions. [10.1021/ja900042y](https://doi.org/10.1021/ja900042y). Review scope remains stated in the linked website records.
+
+- Andreas Henkel; Olaf Schubert; Anton Plech; Carsten Sönnichsen (2009). Growth Kinetic of a Rod-Shaped Metal Nanocrystal. [10.1021/jp810979r](https://doi.org/10.1021/jp810979r). Review scope remains stated in the linked website records.
 
 - V. K. Ivanov; O. S. Polezhaeva; D. O. Gil’; G. P. Kopitsa; Yu. D. Tret’yakov (2009). Hydrothermal Microwave Synthesis of Nanocrystalline Cerium Dioxide. *Doklady Chemistry*, 426, 131–133. [10.1134/S0012500809060056](https://doi.org/10.1134/S0012500809060056). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ivanov2009-ceo2-s0012500809060056).
 
