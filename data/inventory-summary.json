@@ -4,18 +4,18 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4276,
+    "local_paper_groups_indexed": 4278,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
-    "curated_library_additions": 100,
-    "canonical_records": 1703,
-    "reviewed_literature_records": 1603,
-    "reviewed_literature_source_groups": 172,
+    "curated_library_additions": 102,
+    "canonical_records": 1715,
+    "reviewed_literature_records": 1615,
+    "reviewed_literature_source_groups": 177,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 173,
+    "total_canonical_source_groups": 178,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
     "formal_full_main_reviews_si_unverified": 104,
@@ -26,42 +26,42 @@
     "formal_main_and_selected_si_review_pages": 30,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
-    "selected_recipe_figure_review_sources": 22,
-    "local_groups_without_canonical_records": 4103,
-    "synthesis_route_variant_records": 712,
+    "selected_recipe_figure_review_sources": 27,
+    "local_groups_without_canonical_records": 4100,
+    "synthesis_route_variant_records": 724,
     "contextual_control_variant_records": 66,
     "shared_preparation_workup_characterization_assay_procedures": 454,
-    "nonprocedure_literature_records": 1149,
+    "nonprocedure_literature_records": 1161,
     "literature_record_type_counts": {
       "experiment": 45,
-      "literature_protocol": 517,
+      "literature_protocol": 521,
       "observation": 333,
       "procedure": 454,
-      "protocol_variant": 254
+      "protocol_variant": 262
     },
     "canonical_record_type_counts": {
       "experiment": 145,
-      "literature_protocol": 517,
+      "literature_protocol": 521,
       "observation": 333,
       "procedure": 454,
-      "protocol_variant": 254
+      "protocol_variant": 262
     },
-    "literature_recipe_family_ids": 318,
-    "primary_synthesis_recipe_family_ids": 256,
-    "public_material_hubs": 205,
-    "direct_synthesis_target_systems": 173,
-    "component_only_hubs": 32,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 229,
+    "literature_recipe_family_ids": 323,
+    "primary_synthesis_recipe_family_ids": 261,
+    "public_material_hubs": 210,
+    "direct_synthesis_target_systems": 175,
+    "component_only_hubs": 35,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 231,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 333,
-    "recipe_or_control_literature_records": 778,
+    "recipe_or_control_literature_records": 790,
     "contextual_observation_family_ids": 86,
-    "source_checked_synthesis_structure_rows": 699,
-    "source_groups_with_synthesis_structure_rows": 153,
+    "source_checked_synthesis_structure_rows": 708,
+    "source_groups_with_synthesis_structure_rows": 156,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -119,6 +119,7 @@
       "AgBiS2",
       "AgGaS2",
       "AgInS2",
+      "AgInS2/ZnS",
       "AgInTe2",
       "AgInTe2/ZnS",
       "Ag–CoO",
@@ -158,6 +159,7 @@
       "CdSe/CdS",
       "CdSe/CdS/ZnS",
       "CdSe/CdS/ZnS + Ag",
+      "CdSe/CdS@poly(ionic liquid)",
       "CdSe/ZnS",
       "CdSe/ZnS/CdS",
       "CdSe/ZnS/siloxane",
@@ -279,6 +281,7 @@
       "Ag2S nanotube after air aging",
       "Ag2Te nanocrystals",
       "Ag2Te/PbTe mixed NC solids",
+      "AgInS2 core",
       "C",
       "Cs4PbBr6",
       "Cu-In-Ga-S",
@@ -302,7 +305,9 @@
       "SiO2 shell",
       "SiOx",
       "Te",
+      "Zn treatment",
       "Zn-Cu-In-S",
+      "ZnS shell",
       "ZnTe",
       "purchased CdSe/ZnS quantum dots"
     ],
@@ -5090,6 +5095,81 @@
       "source_checked_synthesis_structure_rows": 30
     },
     {
+      "source_group": "knowles2010-cdse-aniline-ja907253s",
+      "paper_id": "knowles2010-cdse-aniline-ja907253s",
+      "doi": "10.1021/ja907253s",
+      "url": "https://doi.org/10.1021/ja907253s",
+      "title": "Chemical Control of the Photoluminescence of CdSe Quantum Dot–Organic Complexes with a Series of Para-Substituted Aniline Ligands",
+      "year": 2010,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 1,
+      "review_scope": "Independent audit of accepted baseline synthesis, ligand-exposure branches, Figure 6 purification comparison and selected measurements. Main 10 pages and SI 11 pages read by full auditor; extraction scope is declared in the record, not a complete extraction of every characterization experiment. Inventory document fields describe admitted extraction coverage, while the independent auditor additionally read all 10 main and 11 SI pages.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        },
+        {
+          "role": "si",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            10
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm.json",
+      "paper_review_url": null,
+      "main_status": "scoped_synthesis_and_figures_independently_audited",
+      "si_status": "scoped_synthesis_and_figures_independently_audited",
+      "notes": [
+        "2.9 nm baseline recipe and TEM; no inferred phase or unit cell.",
+        "Separate 3.0/3.2 nm growth settings remain unknown.",
+        "Source-defined kinetic and ten-batch ensemble scopes remain distinct.",
+        "Presentation is pending independent projection and browser checks.",
+        "Publisher permission unverified."
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 16,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "knowles2010-cdse-aniline-ja907253s"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_ids": [
+        "knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm"
+      ],
+      "record_urls": {
+        "knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm": "records/knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
+    },
+    {
       "source_group": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
       "paper_id": "ko2010-ag2te-pbte-artificial-atoms-nl100571m",
       "doi": "10.1021/nl100571m",
@@ -9469,6 +9549,102 @@
       "source_checked_synthesis_structure_rows": 1
     },
     {
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "paper_id": "so2015-cuins2-chemmater5b03943",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "url": "https://doi.org/10.1021/acs.chemmater.5b03943",
+      "title": "Thiol-Free Synthesized Copper Indium Sulfide Nanocrystals as Optoelectronic Quantum Dot Solids",
+      "year": 2015,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 1,
+      "review_scope": "Independent audit of seven colloidal injection-temperature routes and zinc treatment with XRD/TEM/EDX/optical links. The full auditor read all nine main and nine SI pages, while the published contribution remains a selected colloidal synthesis scope; downstream film/device, MPA phase-transfer and ligand controls are inventoried but outside route records.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        },
+        {
+          "role": "si",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/so2015-cuins2-chemmater5b03943-injection-50c.json",
+      "paper_review_url": null,
+      "main_status": "selected_colloidal_methods_and_figures_independently_audited",
+      "si_status": "Selected colloidal synthesis scope independently audited against SI PDF pp.1–9; all Table S1 temperature and washing variants retained.",
+      "notes": [
+        "XRD coherent-domain values are not TEM diameters.",
+        "TEM distributions are source-reported only for 130 and 170 °C, with qualitative authored morphology only for 170 °C.",
+        "Zinc treatment does not prove a continuous abrupt ZnS shell; cubic/tetragonal assignment remains qualified.",
+        "Publisher source-figure permission unverified; independent projection/browser review pending."
+      ],
+      "main_review_scope_note": "Selected colloidal synthesis scope independently audited against main PDF pp.1–9; downstream film/device and phase-transfer branches remain outside this contribution.",
+      "canonical_record_count": 7,
+      "synthesis_route_variant_count": 7,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 49,
+      "record_type_counts": {
+        "protocol_variant": 7
+      },
+      "canonical_recipe_family_ids": [
+        "so2015-cuins2-chemmater5b03943"
+      ],
+      "direct_route_material_systems": [
+        "CuInS2"
+      ],
+      "record_ids": [
+        "so2015-cuins2-chemmater5b03943-injection-110c",
+        "so2015-cuins2-chemmater5b03943-injection-130c",
+        "so2015-cuins2-chemmater5b03943-injection-150c",
+        "so2015-cuins2-chemmater5b03943-injection-170c",
+        "so2015-cuins2-chemmater5b03943-injection-50c",
+        "so2015-cuins2-chemmater5b03943-injection-70c",
+        "so2015-cuins2-chemmater5b03943-injection-90c"
+      ],
+      "record_urls": {
+        "so2015-cuins2-chemmater5b03943-injection-110c": "records/so2015-cuins2-chemmater5b03943-injection-110c.html",
+        "so2015-cuins2-chemmater5b03943-injection-130c": "records/so2015-cuins2-chemmater5b03943-injection-130c.html",
+        "so2015-cuins2-chemmater5b03943-injection-150c": "records/so2015-cuins2-chemmater5b03943-injection-150c.html",
+        "so2015-cuins2-chemmater5b03943-injection-170c": "records/so2015-cuins2-chemmater5b03943-injection-170c.html",
+        "so2015-cuins2-chemmater5b03943-injection-50c": "records/so2015-cuins2-chemmater5b03943-injection-50c.html",
+        "so2015-cuins2-chemmater5b03943-injection-70c": "records/so2015-cuins2-chemmater5b03943-injection-70c.html",
+        "so2015-cuins2-chemmater5b03943-injection-90c": "records/so2015-cuins2-chemmater5b03943-injection-90c.html"
+      },
+      "source_checked_synthesis_structure_rows": 7
+    },
+    {
       "source_group": "sommer2020",
       "doi": "10.1021/acs.cgd.9b01519",
       "url": "https://doi.org/10.1021/acs.cgd.9b01519",
@@ -9886,6 +10062,74 @@
         "stowell-2005-ir-top-290c": "records/stowell-2005-ir-top-290c.html",
         "stowell-2005-ir-topb-270c": "records/stowell-2005-ir-topb-270c.html",
         "stowell-2005-ir-topb-recycling-assay": "records/stowell-2005-ir-topb-recycling-assay.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+      "paper_id": "sun2025-ais-zns-cusensor-acsanm5c02494",
+      "doi": "10.1021/acsanm.5c02494",
+      "url": "https://doi.org/10.1021/acsanm.5c02494",
+      "title": "Aqueous AgInS2/ZnS Quantum Dot-Based Fluorescent Probes for Highly Selective Detection of Cu(II) Ions",
+      "year": 2025,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope": "Independent deep audit of selected main pp.1-7, section 2.4, Scheme 1 and Figure 1; SI consulted as context but not extracted; main pp.8-10 and sensing assays are outside this nanocrystal synthesis scope.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/sun2025-ais-zns-cusensor-acsanm5c02494-ais-core-96c-45min.json",
+      "paper_review_url": null,
+      "si_status": "read_as_corroborating_context_not_extracted",
+      "main_status": "scoped_independently_audited",
+      "notes": [
+        "Method section and Scheme 1 disagree on core duration/order; preserve both as conflicts.",
+        "Three-addition PLQY and Figure 1d-f XRD/TEM sample identity are not asserted to be one exact batch.",
+        "The 35.62% optimized PLQY is general context; exact equivalence to the detailed core feed and 45 min growth is unestablished.",
+        "Publisher reuse permission remains unverified."
+      ],
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 5,
+      "record_type_counts": {
+        "literature_protocol": 1,
+        "protocol_variant": 1
+      },
+      "canonical_recipe_family_ids": [
+        "sun2025-ais-zns-cusensor-acsanm5c02494-aqueous"
+      ],
+      "direct_route_material_systems": [
+        "AgInS2",
+        "AgInS2/ZnS"
+      ],
+      "record_ids": [
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-core-96c-45min",
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions"
+      ],
+      "record_urls": {
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-core-96c-45min": "records/sun2025-ais-zns-cusensor-acsanm5c02494-ais-core-96c-45min.html",
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions": "records/sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -11298,6 +11542,74 @@
         "wehrenberg2002-pbse-general-route": "records/wehrenberg2002-pbse-general-route.html"
       },
       "source_checked_synthesis_structure_rows": 3
+    },
+    {
+      "source_group": "welch2020-qd-ionic-liquid-macromol0c00011",
+      "paper_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+      "doi": "10.1021/acs.macromol.0c00011",
+      "url": "https://doi.org/10.1021/acs.macromol.0c00011",
+      "title": "3D Volumetric Structural Hierarchy Induced by Colloidal Polymerization of a Quantum-Dot Ionic Liquid Monomer Conjugate",
+      "year": 2020,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 1,
+      "review_scope": "Independent source audit of selected main pp.1–10 scoped content, one quantified 10 wt% synthesis and separate comparison contexts. Main pp.11–12 references; SI not extracted. This is not a whole-paper-plus-SI claim.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 12,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt.json",
+      "paper_review_url": null,
+      "main_status": "scoped_synthesis_and_figures_independently_audited",
+      "si_status": "not_extracted_in_scoped_package_independent_auditor_context_only",
+      "notes": [
+        "One quantified 10 wt% recipe; 5,20,25 wt% observations are not additional quantified recipes.",
+        "Exact SILAR shell aliquots and free ionic-liquid-monomer synthesis are missing.",
+        "Methods/Figure1 conditions, counterions, OA identity and printed Mg2SO4 conflicts remain unresolved.",
+        "Canonical r3 status and administrative delta independently accepted; website delivery and publication are separate.",
+        "Publisher permission unverified."
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 7,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "welch2020-qd-ionic-liquid-macromol0c00011"
+      ],
+      "direct_route_material_systems": [
+        "CdSe/CdS@poly(ionic liquid)"
+      ],
+      "record_ids": [
+        "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt"
+      ],
+      "record_urls": {
+        "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt": "records/welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
     },
     {
       "source_group": "williamson2021",
@@ -12819,6 +13131,68 @@
         "zhang2000-cdse-jssc20008646-aqueous-room-temperature": "records/zhang2000-cdse-jssc20008646-aqueous-room-temperature.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "zhang2003-cdte-polymer-adma200304521",
+      "paper_id": "zhang2003-cdte-polymer-adma200304521",
+      "doi": "10.1002/adma.200304521",
+      "url": "https://doi.org/10.1002/adma.200304521",
+      "title": "From Water-Soluble CdTe Nanocrystals to Fluorescent Nanocrystal–Polymer Transparent Composites Using Polymerizable Surfactants",
+      "year": 2003,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope": "Independent full source audit of main pp.1–4 for the selected aqueous colloidal CdTe synthesis and four parent size-series observations; polymer-composite processing and composite-only structural outcomes excluded.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series.json",
+      "paper_review_url": null,
+      "si_status": "not_required_for_selected_main_scope",
+      "main_status": "all_main_pages_scoped_independently_audited",
+      "notes": [
+        "One generalized reflux recipe with four general-context outcomes; no size-specific reflux durations or charges are supplied.",
+        "Source concentration N and ambiguous source-name MPA retained; no molarity conversion or molecular connectivity inferred.",
+        "Table1 aqueous columns only are assigned; polymer/chloroform columns and composite TEM/SAED remain separate context.",
+        "Publisher reuse permission unverified.",
+        "Auditors inspected all four main pages, but the released scope excludes polymer processing and composite claims. The full-paper-coverage flags are not asserted for this scoped release."
+      ],
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 1,
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 12,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "zhang2003-cdte-polymer-adma200304521"
+      ],
+      "direct_route_material_systems": [
+        "CdTe"
+      ],
+      "record_ids": [
+        "zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series"
+      ],
+      "record_urls": {
+        "zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series": "records/zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "zhang2011-cm201400w-cu-zn-in-s",
@@ -15137,9 +15511,88 @@
     {
       "material_system": "AgInS2",
       "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "hu1999-agms2-agins2",
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-core-96c-45min"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 2,
+      "material_hub_id": "agins2-e015de",
+      "material_hub_url": "material.html?id=agins2-e015de",
+      "source_groups": [
+        "hu1999-agms2-a902218j",
+        "sun2025-ais-zns-cusensor-acsanm5c02494"
+      ],
+      "source_links": [
+        {
+          "source_group": "hu1999-agms2-a902218j",
+          "doi": "10.1039/a902218j",
+          "url": "https://doi.org/10.1039/a902218j",
+          "title": "Solvothermal reaction route to nanocrystalline semiconductors AgMS2 (M = Ga, In)"
+        },
+        {
+          "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+          "doi": "10.1021/acsanm.5c02494",
+          "url": "https://doi.org/10.1021/acsanm.5c02494",
+          "title": "Aqueous AgInS2/ZnS Quantum Dot-Based Fluorescent Probes for Highly Selective Detection of Cu(II) Ions"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "hu1999-agms2-a902218j",
+        "sun2025-ais-zns-cusensor-acsanm5c02494-aqueous"
+      ]
+    },
+    {
+      "material_system": "AgInS2 core",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": true,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 1,
+      "component_route_record_ids": [
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions"
+      ],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "agins2-core-199c44",
+      "material_hub_url": "material.html?id=agins2-core-199c44",
+      "source_groups": [
+        "sun2025-ais-zns-cusensor-acsanm5c02494"
+      ],
+      "source_links": [
+        {
+          "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+          "doi": "10.1021/acsanm.5c02494",
+          "url": "https://doi.org/10.1021/acsanm.5c02494",
+          "title": "Aqueous AgInS2/ZnS Quantum Dot-Based Fluorescent Probes for Highly Selective Detection of Cu(II) Ions"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "AgInS2/ZnS",
+      "notes": [],
       "direct_synthesis_route_variant_count": 1,
       "direct_route_record_ids": [
-        "hu1999-agms2-agins2"
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -15153,21 +15606,21 @@
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 1,
-      "material_hub_id": "agins2-e015de",
-      "material_hub_url": "material.html?id=agins2-e015de",
+      "material_hub_id": "agins2-zns-01ff69",
+      "material_hub_url": "material.html?id=agins2-zns-01ff69",
       "source_groups": [
-        "hu1999-agms2-a902218j"
+        "sun2025-ais-zns-cusensor-acsanm5c02494"
       ],
       "source_links": [
         {
-          "source_group": "hu1999-agms2-a902218j",
-          "doi": "10.1039/a902218j",
-          "url": "https://doi.org/10.1039/a902218j",
-          "title": "Solvothermal reaction route to nanocrystalline semiconductors AgMS2 (M = Ga, In)"
+          "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+          "doi": "10.1021/acsanm.5c02494",
+          "url": "https://doi.org/10.1021/acsanm.5c02494",
+          "title": "Aqueous AgInS2/ZnS Quantum Dot-Based Fluorescent Probes for Highly Selective Detection of Cu(II) Ions"
         }
       ],
       "direct_route_recipe_family_ids": [
-        "hu1999-agms2-a902218j"
+        "sun2025-ais-zns-cusensor-acsanm5c02494-aqueous"
       ]
     },
     {
@@ -17478,8 +17931,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 76,
-      "component_route_contribution_count": 27,
+      "public_hub_route_contributions": 77,
+      "component_route_contribution_count": 28,
       "component_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
         "besson-2002-copolymer-cds-loading",
@@ -17499,6 +17952,7 @@
         "munechika2011-qd-ag-nanoprism-lb-assembly",
         "nakonechnyi-2017-wz-cdse-cds-seeded-growth",
         "nakonechnyi-2017-zb-cdse-cds-seeded-growth",
+        "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt",
         "yao-1998-sample-a",
         "yao-1998-sample-b",
         "yao2015-cds-pbs-1-cycles",
@@ -17531,6 +17985,7 @@
         "veinot1997",
         "wang2001-cds-sonochemical",
         "wang2005-lss-nature03968",
+        "welch2020-qd-ionic-liquid-macromol0c00011",
         "yao1998",
         "yao2015acsami",
         "yu1998cde",
@@ -17644,6 +18099,12 @@
           "doi": "10.1038/nature03968",
           "url": "https://doi.org/10.1038/nature03968",
           "title": "A general strategy for nanocrystal synthesis"
+        },
+        {
+          "source_group": "welch2020-qd-ionic-liquid-macromol0c00011",
+          "doi": "10.1021/acs.macromol.0c00011",
+          "url": "https://doi.org/10.1021/acs.macromol.0c00011",
+          "title": "3D Volumetric Structural Hierarchy Induced by Colloidal Polymerization of a Quantum-Dot Ionic Liquid Monomer Conjugate"
         },
         {
           "source_group": "yao1998",
@@ -17900,7 +18361,7 @@
         "Before the Danek1996 addition: Seven direct routes: Murray3, Peng2, Nakonechnyi2. Public hub count13 also includes six CdSe-core-containing shell-growth records; those are not extra bare-CdSe recipes.",
         "Danek1996 adds three existing route IDs to this hub; the current route contribution count is 16. The shell-overgrowth route is distinct from the two matrix-film routes; component links do not create standalone CdSe or ZnSe synthesis recipes."
       ],
-      "direct_synthesis_route_variant_count": 57,
+      "direct_synthesis_route_variant_count": 58,
       "direct_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-large-seed-no-extra-top",
         "alam2012-cdse-cds-ica201110038-cdse-teardrop",
@@ -17934,6 +18395,7 @@
         "jasieniak2005-cdse-jp054289o-top215",
         "jasieniak2005-cdse-jp054289o-top469",
         "jasieniak2005-cdse-jp054289o-topse",
+        "knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm",
         "liu2004-cdse-polythiophene-ja0489184-cdse-nanorods",
         "murray-1993-cdse-method1",
         "murray-1993-cdse-method2",
@@ -18001,8 +18463,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 88,
-      "component_route_contribution_count": 31,
+      "public_hub_route_contributions": 90,
+      "component_route_contribution_count": 32,
       "component_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
         "dabbousi-1997-cds-overgrowth",
@@ -18034,9 +18496,10 @@
         "nakonechnyi-2017-zb-cdse-znse-100nmol",
         "nakonechnyi-2017-zb-cdse-znse-25nmol",
         "nakonechnyi-2017-zb-cdse-znse-50nmol",
+        "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt",
         "zhu-ja210312s-cdse-cds-six-ml"
       ],
-      "primary_reviewed_source_count": 23,
+      "primary_reviewed_source_count": 24,
       "material_hub_id": "cdse-d923c5",
       "material_hub_url": "cdse.html",
       "source_groups": [
@@ -18051,6 +18514,7 @@
         "gerion2001",
         "ghosh2012",
         "jasieniak2005-cdse-jp054289o",
+        "knowles2010-cdse-aniline-ja907253s",
         "li2011-ac2019014",
         "liu2004-cdse-polythiophene-ja0489184",
         "morrison2017",
@@ -18062,6 +18526,7 @@
         "peng1998",
         "peng2000",
         "wang2005-lss-nature03968",
+        "welch2020-qd-ionic-liquid-macromol0c00011",
         "xie1999-cdse-jssc19998179",
         "yang2005-anie200502279",
         "yu1998cde",
@@ -18136,6 +18601,12 @@
           "title": "Phosphine-Free Synthesis of CdSe Nanocrystals"
         },
         {
+          "source_group": "knowles2010-cdse-aniline-ja907253s",
+          "doi": "10.1021/ja907253s",
+          "url": "https://doi.org/10.1021/ja907253s",
+          "title": "Chemical Control of the Photoluminescence of CdSe Quantum Dot–Organic Complexes with a Series of Para-Substituted Aniline Ligands"
+        },
+        {
           "source_group": "li2011-ac2019014",
           "doi": "10.1021/ac2019014",
           "url": "https://doi.org/10.1021/ac2019014",
@@ -18202,6 +18673,12 @@
           "title": "A general strategy for nanocrystal synthesis"
         },
         {
+          "source_group": "welch2020-qd-ionic-liquid-macromol0c00011",
+          "doi": "10.1021/acs.macromol.0c00011",
+          "url": "https://doi.org/10.1021/acs.macromol.0c00011",
+          "title": "3D Volumetric Structural Hierarchy Induced by Colloidal Polymerization of a Quantum-Dot Ionic Liquid Monomer Conjugate"
+        },
+        {
           "source_group": "xie1999-cdse-jssc19998179",
           "doi": "10.1006/jssc.1999.8179",
           "url": "https://doi.org/10.1006/jssc.1999.8179",
@@ -18249,6 +18726,7 @@
         "ghosh2012-core-shell-parameter-study",
         "huang2015-cdse-9aca-size-series",
         "jasieniak2005-cdse-jp054289o",
+        "knowles2010-cdse-aniline-ja907253s",
         "liu2004-cdse-polythiophene-ja0489184",
         "murray1993-cdse",
         "nagy2012-core-surface-cell-study",
@@ -18512,6 +18990,42 @@
       ],
       "direct_route_recipe_family_ids": [
         "munechika2011-qd-ag-nanoprism-nl2010127"
+      ]
+    },
+    {
+      "material_system": "CdSe/CdS@poly(ionic liquid)",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cdse-cds-poly-ionic-liquid-3e0625",
+      "material_hub_url": "material.html?id=cdse-cds-poly-ionic-liquid-3e0625",
+      "source_groups": [
+        "welch2020-qd-ionic-liquid-macromol0c00011"
+      ],
+      "source_links": [
+        {
+          "source_group": "welch2020-qd-ionic-liquid-macromol0c00011",
+          "doi": "10.1021/acs.macromol.0c00011",
+          "url": "https://doi.org/10.1021/acs.macromol.0c00011",
+          "title": "3D Volumetric Structural Hierarchy Induced by Colloidal Polymerization of a Quantum-Dot Ionic Liquid Monomer Conjugate"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "welch2020-qd-ionic-liquid-macromol0c00011"
       ]
     },
     {
@@ -18852,11 +19366,12 @@
     {
       "material_system": "CdTe",
       "notes": [],
-      "direct_synthesis_route_variant_count": 3,
+      "direct_synthesis_route_variant_count": 4,
       "direct_route_record_ids": [
         "li2013-cdte-au-caspase3-am4029735-cdte-gsh",
         "yang2005-cdte-noninjection",
-        "yu1998-cdte-en-180c-12h"
+        "yu1998-cdte-en-180c-12h",
+        "zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -18866,19 +19381,20 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 4,
+      "public_hub_route_contributions": 5,
       "component_route_contribution_count": 1,
       "component_route_record_ids": [
         "banerjee-2003-growth"
       ],
-      "primary_reviewed_source_count": 3,
+      "primary_reviewed_source_count": 4,
       "material_hub_id": "cdte-c6e220",
       "material_hub_url": "material.html?id=cdte-c6e220",
       "source_groups": [
         "banerjee2003",
         "li2013-cdte-au-caspase3-am4029735",
         "yang2005-anie200502279",
-        "yu1998cde"
+        "yu1998cde",
+        "zhang2003-cdte-polymer-adma200304521"
       ],
       "source_links": [
         {
@@ -18904,12 +19420,19 @@
           "doi": "10.1021/cm980181s",
           "url": "https://doi.org/10.1021/cm980181s",
           "title": "A Novel Solventothermal Synthetic Route to Nanocrystalline CdE (E = S, Se, Te) and Morphological Control"
+        },
+        {
+          "source_group": "zhang2003-cdte-polymer-adma200304521",
+          "doi": "10.1002/adma.200304521",
+          "url": "https://doi.org/10.1002/adma.200304521",
+          "title": "From Water-Soluble CdTe Nanocrystals to Fluorescent Nanocrystal–Polymer Transparent Composites Using Polymerizable Surfactants"
         }
       ],
       "direct_route_recipe_family_ids": [
         "en180",
         "li2013-cdte-au-caspase3-am4029735",
-        "yang2005-noninjection"
+        "yang2005-noninjection",
+        "zhang2003-cdte-polymer-adma200304521"
       ]
     },
     {
@@ -20745,10 +21268,17 @@
     {
       "material_system": "CuInS2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 2,
+      "direct_synthesis_route_variant_count": 9,
       "direct_route_record_ids": [
         "dierick2014-cuins2-cm502687p-odam",
-        "dierick2014-cuins2-cm502687p-olam"
+        "dierick2014-cuins2-cm502687p-olam",
+        "so2015-cuins2-chemmater5b03943-injection-110c",
+        "so2015-cuins2-chemmater5b03943-injection-130c",
+        "so2015-cuins2-chemmater5b03943-injection-150c",
+        "so2015-cuins2-chemmater5b03943-injection-170c",
+        "so2015-cuins2-chemmater5b03943-injection-50c",
+        "so2015-cuins2-chemmater5b03943-injection-70c",
+        "so2015-cuins2-chemmater5b03943-injection-90c"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -20758,14 +21288,15 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 2,
+      "public_hub_route_contributions": 9,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 1,
+      "primary_reviewed_source_count": 2,
       "material_hub_id": "cuins2-5b1445",
       "material_hub_url": "material.html?id=cuins2-5b1445",
       "source_groups": [
-        "dierick2014-cuins2-cm502687p"
+        "dierick2014-cuins2-cm502687p",
+        "so2015-cuins2-chemmater5b03943"
       ],
       "source_links": [
         {
@@ -20773,10 +21304,17 @@
           "doi": "10.1021/cm502687p",
           "url": "https://doi.org/10.1021/cm502687p",
           "title": "Surface Chemistry of CuInS2 Colloidal Nanocrystals, Tight Binding of L-Type Ligands"
+        },
+        {
+          "source_group": "so2015-cuins2-chemmater5b03943",
+          "doi": "10.1021/acs.chemmater.5b03943",
+          "url": "https://doi.org/10.1021/acs.chemmater.5b03943",
+          "title": "Thiol-Free Synthesized Copper Indium Sulfide Nanocrystals as Optoelectronic Quantum Dot Solids"
         }
       ],
       "direct_route_recipe_family_ids": [
-        "dierick2014-cuins2-cm502687p"
+        "dierick2014-cuins2-cm502687p",
+        "so2015-cuins2-chemmater5b03943"
       ]
     },
     {
@@ -25456,6 +25994,46 @@
       ]
     },
     {
+      "material_system": "Zn treatment",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": true,
+      "public_hub_route_contributions": 7,
+      "component_route_contribution_count": 7,
+      "component_route_record_ids": [
+        "so2015-cuins2-chemmater5b03943-injection-110c",
+        "so2015-cuins2-chemmater5b03943-injection-130c",
+        "so2015-cuins2-chemmater5b03943-injection-150c",
+        "so2015-cuins2-chemmater5b03943-injection-170c",
+        "so2015-cuins2-chemmater5b03943-injection-50c",
+        "so2015-cuins2-chemmater5b03943-injection-70c",
+        "so2015-cuins2-chemmater5b03943-injection-90c"
+      ],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "zn-treatment-cd74f4",
+      "material_hub_url": "material.html?id=zn-treatment-cd74f4",
+      "source_groups": [
+        "so2015-cuins2-chemmater5b03943"
+      ],
+      "source_links": [
+        {
+          "source_group": "so2015-cuins2-chemmater5b03943",
+          "doi": "10.1021/acs.chemmater.5b03943",
+          "url": "https://doi.org/10.1021/acs.chemmater.5b03943",
+          "title": "Thiol-Free Synthesized Copper Indium Sulfide Nanocrystals as Optoelectronic Quantum Dot Solids"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
       "material_system": "Zn-Al precursor context",
       "notes": [],
       "direct_synthesis_route_variant_count": 0,
@@ -25940,6 +26518,40 @@
         "bhattacharya2023-aginte2-zns-ic3c03156",
         "chen2014-jp500270d-cuznsns"
       ]
+    },
+    {
+      "material_system": "ZnS shell",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": true,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 1,
+      "component_route_record_ids": [
+        "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions"
+      ],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "zns-shell-84d050",
+      "material_hub_url": "material.html?id=zns-shell-84d050",
+      "source_groups": [
+        "sun2025-ais-zns-cusensor-acsanm5c02494"
+      ],
+      "source_links": [
+        {
+          "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+          "doi": "10.1021/acsanm.5c02494",
+          "url": "https://doi.org/10.1021/acsanm.5c02494",
+          "title": "Aqueous AgInS2/ZnS Quantum Dot-Based Fluorescent Probes for Highly Selective Detection of Cu(II) Ions"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
     },
     {
       "material_system": "ZnS:Mn",
@@ -26456,8 +27068,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "ff4224e6709e942c1d86ee1b8a0e80eb81484ff1a51e5a6947c331074582f0ef",
-    "record_ids_sha256": "b11d6a81cafe8298f25d7e7bb0de9624e2df50aeb91da3be5ed6723b40d620ba",
+    "reviewed_evidence_sha256": "c23d2b3a9e8ee16b137e0e2a7eb446cc49ebb2d08f1538176effc1f8af72c8a3",
+    "record_ids_sha256": "847f139501b674e0bc849866be2eb564cd0f2fd21147bf4b2b91fdfbfc9d6d14",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

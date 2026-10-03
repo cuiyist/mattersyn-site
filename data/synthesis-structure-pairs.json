@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 699,
-    "source_groups": 153,
-    "records": 556,
+    "recipe_structure_rows": 708,
+    "source_groups": 156,
+    "records": 565,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -50215,6 +50215,158 @@
                 {
                   "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
                   "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm::knowles2010-cdse-aniline-ja907253s-2p9nm-core",
+      "record_id": "knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm",
+      "record_page_path": "records/knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm.html",
+      "source_group": "knowles2010-cdse-aniline-ja907253s",
+      "title": "Knowles et al. (2010): 2.9 nm CdSe synthesis, aniline exposure, and separate purification comparison",
+      "doi": "10.1021/ja907253s",
+      "year": 2010,
+      "method": "Cd-stearate/TOPSe hot injection; para-aniline exposure; source-bounded one/two MeOH comparison",
+      "recipe_label": "Knowles et al. (2010): 2.9 nm CdSe synthesis, aniline exposure, and separate purification comparison",
+      "sample_id": "knowles2010-cdse-aniline-ja907253s-2p9nm-core",
+      "source_sample_label": "2.9 nm CdSe QDs used for An/Br-An/OCF3-An/MeO-An PL studies",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "knowles2010-cdse-aniline-ja907253s",
+            "locator": "Main PDF p.3, CdSe QDs; SI PDF p.1, Synthesis of CdSe QDs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "knowles2010-cdse-aniline-ja907253s",
+          "locator": "SI PDF p.1 / printed S1, Synthesis of CdSe QDs; Main PDF p.3 / printed 1043, Figure 1A–B and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "uniformly spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "knowles2010-cdse-aniline-ja907253s",
+                "locator": "Main PDF p.3 / printed 1043, Figure 1A–B and caption"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "knowles2010-cdse-aniline-ja907253s",
+                "locator": "SI PDF p.1 / printed S1, Synthesis of CdSe QDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": 2.9,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "knowles2010-cdse-aniline-ja907253s",
+                "locator": "SI PDF p.1 / printed S1, Synthesis of CdSe QDs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "roughly spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "knowles2010-cdse-aniline-ja907253s",
+                "locator": "Main PDF p.3 / printed 1043, Figure 1A–B and caption"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "native ligands followed by alternative para-aniline exposure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "knowles2010-cdse-aniline-ja907253s",
+                "locator": "Main PDF p.3 / printed 1043, Experimental Methods"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "knowles2010-cdse-aniline-ja907253s-2p9nm-core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "red-pellet",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "knowles2010-cdse-aniline-ja907253s",
+                "locator": "Main PDF p.3, CdSe QDs; SI PDF p.1, Synthesis of CdSe QDs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "uniformly spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "knowles2010-cdse-aniline-ja907253s",
+                  "locator": "Main PDF p.3 / printed 1043, Figure 1A–B and caption"
                 }
               ],
               "note": ""
@@ -102179,6 +102331,1123 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-110c::cis-znoa-110c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-110c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-110c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 110 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 110 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-110c",
+      "source_sample_label": "CIS-Zn-OA, 110 °C injection",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-110c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-130c::cis-znoa-130c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-130c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-130c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 130 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 130 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-130c",
+      "source_sample_label": "CIS-Zn-OA, 130 °C injection",
+      "batch_id": null,
+      "parent_sample_id": "cis-core-130c",
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "TEM mean diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 2.4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "2.4",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "SI PDF p.5, FigureS6"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM/ImageJ histogram",
+          "conditions": "FigureS6 source-labelled temperature distribution.",
+          "evidence": [
+            {
+              "source_id": "so2015-cuins2-chemmater5b03943",
+              "locator": "SI PDF p.5, FigureS6"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-130c",
+          "parent_sample_id": "cis-core-130c",
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "TEM mean diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-150c::cis-znoa-150c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-150c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-150c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 150 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 150 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-150c",
+      "source_sample_label": "CIS-Zn-OA, 150 °C injection",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-150c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-170c::cis-znoa-170c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-170c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-170c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 170 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 170 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-170c",
+      "source_sample_label": "CIS-Zn-OA, 170 °C injection",
+      "batch_id": null,
+      "parent_sample_id": "cis-core-170c",
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "tem-diameter",
+          "property": "TEM mean diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.2,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "3.2",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "SI PDF p.5, FigureS6"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM/ImageJ histogram",
+          "conditions": "FigureS6 source-labelled temperature distribution.",
+          "evidence": [
+            {
+              "source_id": "so2015-cuins2-chemmater5b03943",
+              "locator": "SI PDF p.5, FigureS6"
+            }
+          ]
+        }
+      ],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-170c",
+          "parent_sample_id": "cis-core-170c",
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": "Compact, approximately equiaxed and locally faceted nanocrystals",
+              "status": "inferred",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3, Figure1c"
+                }
+              ],
+              "note": "Qualitative interpretation of the published TEM/HRTEM; illustration is not a measured 3D shape distribution."
+            },
+            "measurement_refs": [
+              {
+                "measurement_id": "tem-diameter",
+                "property": "TEM mean diameter",
+                "field": "morphology.dimensions"
+              }
+            ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-50c::cis-znoa-50c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-50c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-50c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 50 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 50 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-50c",
+      "source_sample_label": "CIS-Zn-OA, 50 °C injection",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-50c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-70c::cis-znoa-70c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-70c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-70c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 70 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 70 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-70c",
+      "source_sample_label": "CIS-Zn-OA, 70 °C injection",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-70c",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "so2015-cuins2-chemmater5b03943-injection-90c::cis-znoa-90c",
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-90c",
+      "record_page_path": "records/so2015-cuins2-chemmater5b03943-injection-90c.html",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "title": "So and Konstantatos (2015): 90 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "doi": "10.1021/acs.chemmater.5b03943",
+      "year": 2015,
+      "method": "Thiol-free TMS injection followed by isolated-core zinc-oleate treatment",
+      "recipe_label": "So and Konstantatos (2015): 90 °C injection CIS nanocrystals with zinc-oleate treatment",
+      "sample_id": "cis-znoa-90c",
+      "source_sample_label": "CIS-Zn-OA, 90 °C injection",
+      "batch_id": null,
+      "parent_sample_id": "cis-core-90c",
+      "composition": {
+        "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "so2015-cuins2-chemmater5b03943",
+            "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+          }
+        ],
+        "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "so2015-cuins2-chemmater5b03943",
+          "locator": "SI PDF p.2, Table S1; Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CuInS2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": "No prospective phase target is specified in recipe."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": "Zinc-oleate-treated colloid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.2 / printed8425, Experimental: Chemicals and synthesis of CIS-Zn-OA nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_applicable",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "cis-znoa-90c",
+          "parent_sample_id": "cis-core-90c",
+          "batch_id": null,
+          "material_state_id": "final-dispersion",
+          "composition": {
+            "value": "Cu-poor, indium-rich copper indium sulfide with zinc treatment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "so2015-cuins2-chemmater5b03943",
+                "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+              }
+            ],
+            "note": "CIS is the nominal identity; elemental stoichiometry is source-measured only for selected temperatures."
+          },
+          "structure": {
+            "phase": {
+              "value": "Authors favor cubic zincblende; XRD alone cannot clearly distinguish cubic from tetragonal. Raman is described as disordered copper-deficient CuAu-type CIS.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "so2015-cuins2-chemmater5b03943",
+                  "locator": "Main PDF p.3 / printed8426, Figure1a and Size and Crystallinity"
+                }
+              ],
+              "note": "Preferred source interpretation, not measured unit-cell coordinates; ZnS peaks overlap CIS. No definitive abrupt core–shell interface."
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "song-2024-znssete-msc-349::msc-349-condition-context",
       "record_id": "song-2024-znssete-msc-349",
       "record_page_path": "records/song-2024-znssete-msc-349.html",
@@ -114482,6 +115751,193 @@
                 "field": "morphology.dimensions"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt::welch2020-qd-ionic-liquid-macromol0c00011-10wt",
+      "record_id": "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt",
+      "record_page_path": "records/welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt.html",
+      "source_group": "welch2020-qd-ionic-liquid-macromol0c00011",
+      "title": "Welch et al. (2020): 10 wt% CdSe/CdS quantum-dot–poly(ionic liquid) composite",
+      "doi": "10.1021/acs.macromol.0c00011",
+      "year": 2020,
+      "method": "CdSe/CdS SILAR, ligand exchange and UV-initiated colloidal polymerization",
+      "recipe_label": "Welch et al. (2020): 10 wt% CdSe/CdS quantum-dot–poly(ionic liquid) composite",
+      "sample_id": "welch2020-qd-ionic-liquid-macromol0c00011-10wt",
+      "source_sample_label": "10 wt% QD–poly(IL) composite; Figures 2 orange, 3C, 5B–D",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS QDs embedded in poly(ionic liquid)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+            "locator": "Main PDF p.3 / printed 2824, 10 wt% composite method"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+          "locator": "Main PDF p.3 / printed 2824, 10 wt% charge, UV treatment",
+          "claim": null
+        },
+        {
+          "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+          "locator": "Main PDF p.5 / printed 2826, Figure 3C 10 wt% composite; main p.7 / printed 2828, Figure 5B–D 10 wt% assignments",
+          "claim": null
+        },
+        {
+          "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+          "locator": "Main PDF p.7 / printed 2828, Figure 5B–D caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "CdSe zinc-blende core and wurtzite CdS shell assigned by authors from WAXS peak comparison",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.7 / printed 2828, Figure 5B–D; 10 wt% composite/mesophase assignments"
+              }
+            ],
+            "note": "Author interpretation; external bulk cells are not measured sample coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Scattering model combines nominal ~10 nm QDs with ~21 nm-diameter, ~422 nm-long polymer cylinders and hexagonally perforated lamellae",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.5 / printed 2826, Figure 3C and native-QD SAXS size context; p.7 / printed 2828, Figure 5B–C; p.8 / printed 2829, cylinder-model discussion"
+              }
+            ],
+            "note": "Cylinder dimensions are model-derived; 10.3 nm SAXS diameter was measured on a native QD dispersion, and exact specimen/batch equivalence to the polymer composite is not established."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS QDs within poly(ionic liquid)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.3 / printed 2824, 10 wt% composite method"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "QD-filled cylindrical poly(ionic liquid) mesoscale architecture",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.1 / printed 2822, Abstract"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": "vinylimidazolium-functionalized CdSe/CdS QD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.3 / printed 2824, QD–IL conjugate"
+              }
+            ],
+            "note": ""
+          },
+          "host": {
+            "value": "structured poly(ionic liquid)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.1 / printed 2822, Abstract"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "welch2020-qd-ionic-liquid-macromol0c00011-10wt",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "composite",
+          "composition": {
+            "value": "CdSe/CdS QDs embedded in poly(ionic liquid)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                "locator": "Main PDF p.3 / printed 2824, 10 wt% composite method"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "CdSe zinc-blende core and wurtzite CdS shell assigned by authors from WAXS peak comparison",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                  "locator": "Main PDF p.7 / printed 2828, Figure 5B–D; 10 wt% composite/mesophase assignments"
+                }
+              ],
+              "note": "Author interpretation; external bulk cells are not measured sample coordinates."
+            },
+            "morphology": {
+              "value": "Scattering model combines nominal ~10 nm QDs with ~21 nm-diameter, ~422 nm-long polymer cylinders and hexagonally perforated lamellae",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "welch2020-qd-ionic-liquid-macromol0c00011",
+                  "locator": "Main PDF p.5 / printed 2826, Figure 3C and native-QD SAXS size context; p.7 / printed 2828, Figure 5B–C; p.8 / printed 2829, cylinder-model discussion"
+                }
+              ],
+              "note": "Cylinder dimensions are model-derived; 10.3 nm SAXS diameter was measured on a native QD dispersion, and exact specimen/batch equivalence to the polymer composite is not established."
+            },
+            "measurement_refs": []
           }
         }
       },

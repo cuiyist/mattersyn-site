@@ -17,12 +17,12 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 1703,
-    "explicit_sample_recipe_link_missing": 19,
-    "measured_label_not_approved": 36,
-    "no_sample_coordinate_asset": 1646,
+    "audited_task_profile_missing": 1715,
+    "explicit_sample_recipe_link_missing": 21,
+    "measured_label_not_approved": 38,
+    "no_sample_coordinate_asset": 1655,
     "source_review_required": 100,
-    "task_not_requested": 1678
+    "task_not_requested": 1690
   },
   "records": [
     {
@@ -19349,6 +19349,97 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "knowles2010-cdse-aniline-ja907253s-cdse-core-2p9nm",
+      "source_group": "knowles2010-cdse-aniline-ja907253s",
+      "measured_product_assets": [
+        {
+          "asset_id": "knowles-figure-1",
+          "url": "assets/paper-reviews/knowles2010-cdse-aniline-ja907253s/figure-1.png",
+          "sample_id": "knowles2010-cdse-aniline-ja907253s-2p9nm-core",
+          "source_group": "knowles2010-cdse-aniline-ja907253s",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "495e9f9dfa91088165c3b22ee3c3fdb8e24ca587cd53ea00992464f43d2911bf",
+          "representation": "unclassified",
+          "label": "knowles-figure-1",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "knowles-si-figure-s1",
+          "url": "assets/paper-reviews/knowles2010-cdse-aniline-ja907253s/figure-s1.png",
+          "sample_id": "knowles2010-cdse-aniline-ja907253s-2p9nm-core",
+          "source_group": "knowles2010-cdse-aniline-ja907253s",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "9cc87e3ddc9f0e888c1cb002fa479bbeee2e888c5ac11ec145012394d38652b3",
+          "representation": "unclassified",
+          "label": "knowles-si-figure-s1",
+          "eligible_as_measured_label": true,
+          "source_verified_explicit_recipe_link": true
+        },
+        {
+          "asset_id": "knowles-series-figure-2",
+          "url": "assets/paper-reviews/knowles2010-cdse-aniline-ja907253s/figure-2.png",
+          "sample_id": null,
+          "source_group": "knowles2010-cdse-aniline-ja907253s",
+          "sample_resolved": false,
+          "available": true,
+          "asset_sha256": "69ca6113a7b87cb8bcaf513921581ad6e5d50baf607a5dc2bf4c37f610e87e94",
+          "representation": "unclassified",
+          "label": "knowles-series-figure-2",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "knowles-figure-6-purification-optical-comparison",
+          "url": "assets/paper-reviews/knowles2010-cdse-aniline-ja907253s/figure-6-clean.png",
+          "sample_id": null,
+          "source_group": "knowles2010-cdse-aniline-ja907253s",
+          "sample_resolved": false,
+          "available": true,
+          "asset_sha256": "73a49c1fdb0a610fc60c50bdd88bd6df485327bc90b6d7945828ca5dfd275875",
+          "representation": "unclassified",
+          "label": "knowles-figure-6-purification-optical-comparison",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        },
+        {
+          "asset_id": "knowles-si-figure-s10-free-ligand-nmr",
+          "url": "assets/paper-reviews/knowles2010-cdse-aniline-ja907253s/figure-s10.png",
+          "sample_id": null,
+          "source_group": "knowles2010-cdse-aniline-ja907253s",
+          "sample_resolved": false,
+          "available": true,
+          "asset_sha256": "4d1a81f84389490e0fa70a3350507b59e348eed3d90b1fd059fa3b52391ad519",
+          "representation": "unclassified",
+          "label": "knowles-si-figure-s10-free-ligand-nmr",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
           },
           {
             "code": "audited_task_profile_missing",
@@ -40821,6 +40912,216 @@
       }
     },
     {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-110c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-130c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-150c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-170c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-50c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-70c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "so2015-cuins2-chemmater5b03943-injection-90c",
+      "source_group": "so2015-cuins2-chemmater5b03943",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
       "record_id": "sommer-2020-acs-route",
       "source_group": "sommer2020",
       "measured_product_assets": [],
@@ -42430,6 +42731,104 @@
           {
             "code": "no_sample_coordinate_asset",
             "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "sun2025-ais-zns-cusensor-acsanm5c02494-ais-core-96c-45min",
+      "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+      "measured_product_assets": [
+        {
+          "asset_id": "sun2025-main-figure1-core",
+          "url": "assets/source-figures/sun2025/main-figure-1.png",
+          "sample_id": "sun2025-ais-zns-cusensor-acsanm5c02494-ais-core",
+          "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7df2014fe6c3232a0053cc53dd3cca630c6abacf14d9ca2c58cdae3209a5e409",
+          "representation": "unclassified",
+          "label": "sun2025-main-figure1-core",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-three-additions",
+      "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+      "measured_product_assets": [
+        {
+          "asset_id": "sun2025-main-figure1-shell",
+          "url": "assets/source-figures/sun2025/main-figure-1.png",
+          "sample_id": "sun2025-ais-zns-cusensor-acsanm5c02494-ais-zns-optimized-characterization",
+          "source_group": "sun2025-ais-zns-cusensor-acsanm5c02494",
+          "sample_resolved": true,
+          "available": true,
+          "asset_sha256": "7df2014fe6c3232a0053cc53dd3cca630c6abacf14d9ca2c58cdae3209a5e409",
+          "representation": "unclassified",
+          "label": "sun2025-main-figure1-shell",
+          "eligible_as_measured_label": false,
+          "source_verified_explicit_recipe_link": false
+        }
+      ],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. The coordinate-bearing sample has no source-reviewed explicit recipe link. The available sample coordinates have not been approved as a measured training label. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "explicit_sample_recipe_link_missing",
+          "measured_label_not_approved",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "explicit_sample_recipe_link_missing",
+            "message": "The coordinate-bearing sample has no source-reviewed explicit recipe link."
+          },
+          {
+            "code": "measured_label_not_approved",
+            "message": "The available sample coordinates have not been approved as a measured training label."
           },
           {
             "code": "audited_task_profile_missing",
@@ -45667,6 +46066,36 @@
     {
       "record_id": "wehrenberg2002-pbse-general-route",
       "source_group": "wehrenberg2002-jp021187e",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "welch2020-qd-ionic-liquid-macromol0c00011-polyil-10wt",
+      "source_group": "welch2020-qd-ionic-liquid-macromol0c00011",
       "measured_product_assets": [],
       "exact_structure_recipe": {
         "eligible": false,
@@ -52328,6 +52757,36 @@
     {
       "record_id": "zhang2000-cdse-jssc20008646-aqueous-room-temperature",
       "source_group": "zhang2000-cdse-jssc20008646",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series",
+      "source_group": "zhang2003-cdte-polymer-adma200304521",
       "measured_product_assets": [],
       "exact_structure_recipe": {
         "eligible": false,

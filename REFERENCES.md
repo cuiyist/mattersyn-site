@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **173 primary source groups** · release `v5-massasa-urban-corrections-20261002`. Records are not independent experiments.
+Dataset **0.41.2** · **178 primary source groups** · release `full-audit-batch01-20261003`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -120,6 +120,8 @@ Dataset **0.41.2** · **173 primary source groups** · release `v5-massasa-urban
 
 - M. Venkatesan; S. Nawka; S. C. Pillai; J. M. D. Coey (2003). Enhanced magnetoresistance in nanocrystalline magnetite. *Journal of Applied Physics*, 93, 8023–8025. [10.1063/1.1555371](https://doi.org/10.1063/1.1555371). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=venkatesan2003-fe3o4-1555371).
 
+- Hao Zhang et al. (2003). From Water-Soluble CdTe Nanocrystals to Fluorescent Nanocrystal–Polymer Transparent Composites Using Polymerizable Surfactants. [10.1002/adma.200304521](https://doi.org/10.1002/adma.200304521). Review scope remains stated in the linked website records.
+
 - Sarbajit Banerjee; Stanislaus S. Wong (2003). In Situ Quantum Dot Growth on Multiwalled Carbon Nanotubes. *Journal of the American Chemical Society*, 125, 10342–10350. [10.1021/ja035980c](https://doi.org/10.1021/ja035980c). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=banerjee2003).
 
 - Dana A. Schwartz; Nick S. Norberg; Quyen P. Nguyen; Jason M. Parker; Daniel R. Gamelin (2003). Magnetic Quantum Dots: Synthesis, Spectroscopy, and Magnetism of Co2+- and Ni2+-Doped ZnO Nanocrystals. *Journal of the American Chemical Society*, 125, 13205–13218. [10.1021/ja036811v](https://doi.org/10.1021/ja036811v). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=schwartz2003).
@@ -222,6 +224,8 @@ Dataset **0.41.2** · **173 primary source groups** · release `v5-massasa-urban
 
 - Dong-Kyun Ko; Jeffrey J. Urban; Christopher B. Murray (2010). Carrier Distribution and Dynamics of Nanocrystal Solids Doped with Artificial Atoms. [10.1021/nl100571m](https://doi.org/10.1021/nl100571m). Review scope remains stated in the linked website records.
 
+- Kathryn E. Knowles; Daniel B. Tice; Eric A. McArthur; Gemma C. Solomon; Emily A. Weiss (2010). Chemical Control of the Photoluminescence of CdSe Quantum Dot–Organic Complexes with a Series of Para-Substituted Aniline Ligands. [10.1021/ja907253s](https://doi.org/10.1021/ja907253s). Review scope remains stated in the linked website records.
+
 - Shi Hu; Xun Wang (2010). Fullerene-like Colloidal Nanocrystal of Nickel Hydroxychloride. *Journal of the American Chemical Society*, 132, 9573–9575. [10.1021/ja103607q](https://doi.org/10.1021/ja103607q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=hu2010nichydroxychloride).
 
 - E. Klecha; D. Ingert; M. P. Pileni (2010). How the Level of Ordering of 2D Nanocrystal Superlattices Is Controlled by Their Deposition Mode. [10.1021/jz100417s](https://doi.org/10.1021/jz100417s). Review scope remains stated in the linked website records.
@@ -288,6 +292,8 @@ Dataset **0.41.2** · **173 primary source groups** · release `v5-massasa-urban
 
 - Jong-Hoon Kim; Chang-Yeol Han; Ki-Heon Lee; Ki-Seok An; Wooseok Song; Jiwan Kim; Min Suk Oh; Young Rag Do; Heesun Yang (2015). Performance Improvement of Quantum Dot-Light-Emitting Diodes Enabled by an Alloyed ZnMgO Nanoparticle Electron Transport Layer. *Chemistry of Materials*, 27, 197–204. [10.1021/cm503756q](https://doi.org/10.1021/cm503756q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=kim2015-znmgo-cm503756q).
 
+- David So; Gerasimos Konstantatos (2015). Thiol-Free Synthesized Copper Indium Sulfide Nanocrystals as Optoelectronic Quantum Dot Solids. [10.1021/acs.chemmater.5b03943](https://doi.org/10.1021/acs.chemmater.5b03943). Review scope remains stated in the linked website records.
+
 - S. Costanzo; G. Simon; J. Richardi; Ph. Colomban; I. Lisiecki (2016). Solvent Effects on Cobalt Nanocrystal Synthesis—A Facile Strategy To Control the Size of Co Nanocrystals. [10.1021/acs.jpcc.6b07293](https://doi.org/10.1021/acs.jpcc.6b07293). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=costanzo2016co).
 
 - K. Ouhenia-Ouadahi et al. (2016). Tuning the Growth Mode of 3D Silver Nanocrystal Superlattices by Triphenylphosphine. [10.1021/acs.chemmater.6b01374](https://doi.org/10.1021/acs.chemmater.6b01374). Review scope remains stated in the linked website records.
@@ -309,6 +315,8 @@ Dataset **0.41.2** · **173 primary source groups** · release `v5-massasa-urban
 - Avijit Saha; Siddhartha Sohoni; Ranjani Viswanatha (2019). Interface Modeling Leading to Giant Exchange Bias from the CoO/CoFe2O4 Quantum Dot Heterostructure. *Journal of Physical Chemistry C*, 123, 2421–2427. [10.1021/acs.jpcc.8b11124](https://doi.org/10.1021/acs.jpcc.8b11124). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=saha2019).
 
 - Voznyy, O.; Levina, L.; Fan, J. Z.; et al. (2019). Machine Learning Accelerates Discovery of Optimal Colloidal Quantum Dot Synthesis. [10.1021/acsnano.9b03864](https://doi.org/10.1021/acsnano.9b03864). Review scope remains stated in the linked website records.
+
+- Paul M. Welch; Timothy A. Dreier; Harsha D. Magurudeniya; Matthew G. Frith; Jan Ilavsky; Sönke Seifert; Aunik K. Rahman; Anis Rahman; Amita Joshi Singh; Bryan S. Ringstrand; Christina J. Hanson; Jennifer A. Hollingsworth; Millicent A. Firestone (2020). 3D Volumetric Structural Hierarchy Induced by Colloidal Polymerization of a Quantum-Dot Ionic Liquid Monomer Conjugate. [10.1021/acs.macromol.0c00011](https://doi.org/10.1021/acs.macromol.0c00011). Review scope remains stated in the linked website records.
 
 - Yiping Chen; Zuan Lin; Chenfang Miao; Qianqian Cai; Fenglan Li; Zongfu Zheng; Xinhua Lin; Yanjie Zheng; Shaohuang Weng (2020). A simple fluorescence assay for trypsin through a protamine-induced carbon quantum dot-quenching aggregation platform. *RSC Advances*, 26765–26770. [10.1039/d0ra03970e](https://doi.org/10.1039/d0ra03970e). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=chen2020-cqd-d0ra03970e).
 
@@ -343,6 +351,8 @@ Dataset **0.41.2** · **173 primary source groups** · release `v5-massasa-urban
 - Fulvio Bellato; Michele Ferri; Dongxu Zhu; Thi-Hong-Hanh Le; Abinaya Annamalai; Martina Rizzo; Irene Martin; Luca Goldoni; Rosaria Brescia; Mirko Prato; Luca De Trizio; Ilka Kriegel; Liberato Manna (2024). Indium Arsenide Quantum Dot Derived Catalyst for Selective CO2 Electrochemical Reduction to Formate. *ACS Energy Letters*, 9, 1097–1102. [10.1021/acsenergylett.4c00295](https://doi.org/10.1021/acsenergylett.4c00295). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=bellato2024-inas-acsenergylett4c00295).
 
 - Yoonjae Jung; Yoonhee Kim; Yeonhee Lee; Jiwoong Son; Mihye Lim; Jwa-Min Nam (2024). Selective Flocculation and H2O2-Free Oxidative Etching-Based Synthesis of Highly Monodisperse Ag Nanospheres for Uniform Quantum Dot Photoluminescence-Enhancing Plasmonic Cavity Applications. [10.1021/jacs.4c00073](https://doi.org/10.1021/jacs.4c00073). Review scope remains stated in the linked website records.
+
+- Zhiguo Sun; Yang Liu; Fuhua Wei; Yinchun Wu; Lannian Wei; Ying Tian; Yutao Zhang; Changting Wei (2025). Aqueous AgInS2/ZnS Quantum Dot-Based Fluorescent Probes for Highly Selective Detection of Cu(II) Ions. [10.1021/acsanm.5c02494](https://doi.org/10.1021/acsanm.5c02494). Review scope remains stated in the linked website records.
 
 - Nurwarrohman Andre Sasongko; Safira Arta Paramita; Jaeseong Heo; Eugene Park; Sebastian E. Reyes-Lillo; Joonkyung Jang; Myeongkee Park (2025). High-Temperature Photoluminescence Enhancement up to 350 K of Monophase α-FAPbI3 Quantum Dots Synthesized via Tailored Hot Injection. *The Journal of Physical Chemistry C*, 129, 15342–15350. [10.1021/acs.jpcc.5c05144](https://doi.org/10.1021/acs.jpcc.5c05144). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=sasongko2025).
 
