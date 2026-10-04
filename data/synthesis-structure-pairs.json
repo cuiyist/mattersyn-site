@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 783,
-    "source_groups": 168,
-    "records": 616,
+    "recipe_structure_rows": 802,
+    "source_groups": 171,
+    "records": 635,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -26515,6 +26515,157 @@
                 "field": "morphology.dimensions"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "gary2015-inp-5b00286-qd-50mg::qd-50mg",
+      "record_id": "gary2015-inp-5b00286-qd-50mg",
+      "record_page_path": "records/gary2015-inp-5b00286-qd-50mg.html",
+      "source_group": "gary2015-inp-5b00286",
+      "title": "Gary et al. (2015): QD growth from 50 mg MA MSCs at 400 °C",
+      "doi": "10.1021/acs.chemmater.5b00286",
+      "year": 2015,
+      "method": "QD growth from 50 mg MA MSCs at 400 °C",
+      "recipe_label": "Gary et al. (2015): QD growth from 50 mg MA MSCs at 400 °C",
+      "sample_id": "qd-50mg",
+      "source_sample_label": "qd-50mg",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InP quantum dots from 50mg MA MSC charge",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "gary2015-inp-5b00286",
+            "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "gary2015-inp-5b00286",
+          "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "gary2015-inp-5b00286",
+                "locator": "Main PDF p.7 / printed 1438, TEM description and Figure7C"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "gary2015-inp-5b00286",
+                "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "gary2015-inp-5b00286",
+                "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended exact size assigned",
+            "raw_text": "",
+            "basis": "",
+            "evidence": [
+              {
+                "source_id": "gary2015-inp-5b00286",
+                "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "gary2015-inp-5b00286",
+                "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "qd-50mg",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "InP quantum dots from 50mg MA MSC charge",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "gary2015-inp-5b00286",
+                "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "gary2015-inp-5b00286",
+                  "locator": "Main PDF p.6 / printed 1437, Figure7B labels and cluster-mass series"
+                }
+              ],
+              "note": "No exact crystal coordinates or phase assignment inferred from bulk-reference comparison."
+            },
+            "morphology": {
+              "value": "spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "gary2015-inp-5b00286",
+                  "locator": "Main PDF p.7 / printed 1438, TEM description and Figure7C"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -73785,6 +73936,2271 @@
                 {
                   "source_id": "matuhina2023",
                   "locator": "MAIN PDF p. 4 (printed 956), Figure2 sample profiles; source SHA256 9e1d2860f09d5eb835cb3c2595fcec92e4fe529d4fb4974e5b269edaa6a9d852"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbbr2-4p8::halide-pbbr2-4p8",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbbr2-4p8",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbbr2-4p8.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Lead(II) bromide 4.8kEq/120s SI comparison",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Lead(II) bromide 4.8kEq/120s SI comparison",
+      "sample_id": "halide-pbbr2-4p8",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+            "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+          "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "halide-pbbr2-4p8",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbbr2-5p7::halide-pbbr2-5p7",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbbr2-5p7",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbbr2-5p7.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Lead(II) bromide 5.7kEq/120s SI comparison",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Lead(II) bromide 5.7kEq/120s SI comparison",
+      "sample_id": "halide-pbbr2-5p7",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+            "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+          "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "halide-pbbr2-5p7",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbcl2-4p8::halide-pbcl2-4p8",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbcl2-4p8",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbcl2-4p8.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Lead(II) chloride 4.8kEq/120s SI comparison",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Lead(II) chloride 4.8kEq/120s SI comparison",
+      "sample_id": "halide-pbcl2-4p8",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+            "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+          "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "halide-pbcl2-4p8",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbcl2-5p7::halide-pbcl2-5p7",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbcl2-5p7",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbcl2-5p7.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Lead(II) chloride 5.7kEq/120s SI comparison",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Lead(II) chloride 5.7kEq/120s SI comparison",
+      "sample_id": "halide-pbcl2-5p7",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+            "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+          "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "halide-pbcl2-5p7",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbi2-4p8::halide-pbi2-4p8",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbi2-4p8",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbi2-4p8.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Lead(II) iodide 4.8kEq/120s SI comparison",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Lead(II) iodide 4.8kEq/120s SI comparison",
+      "sample_id": "halide-pbi2-4p8",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+            "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+          "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "halide-pbi2-4p8",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbi2-5p7::halide-pbi2-5p7",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbi2-5p7",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-halide-pbi2-5p7.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Lead(II) iodide 5.7kEq/120s SI comparison",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Lead(II) iodide 5.7kEq/120s SI comparison",
+      "sample_id": "halide-pbi2-5p7",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+            "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+          "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "halide-pbi2-5p7",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-si",
+                  "locator": "SI PDF pp.1–2, Effects of Halides and FigureS1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-optical-2p8-selective::optical-2p8-selective",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-optical-2p8-selective",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-optical-2p8-selective.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): 2.8kEqPbCl2 named selective-purified optical sample",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): 2.8kEqPbCl2 named selective-purified optical sample",
+      "sample_id": "optical-2p8-selective",
+      "source_sample_label": "Single DRD selected from2.8kEq size-selected sample",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.5–6, Figure7 and Single-DRD Spectroscopy"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.5–6, Figure7 and Single-DRD Spectroscopy",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Elongated tipped nanostructure; single imaged DRD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.5–6, Figure7 and Single-DRD Spectroscopy"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "optical-2p8-selective",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.5–6, Figure7 and Single-DRD Spectroscopy"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.5–6, Figure7 and Single-DRD Spectroscopy"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Elongated tipped nanostructure; single imaged DRD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.5–6, Figure7 and Single-DRD Spectroscopy"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-optical-4p2-selective::optical-4p2-selective",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-optical-4p2-selective",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-optical-4p2-selective.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): 4.2kEqPbCl2 named selective-purified optical sample",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): 4.2kEqPbCl2 named selective-purified optical sample",
+      "sample_id": "optical-4p2-selective",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "optical-4p2-selective",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-optical-4p2-standard::optical-4p2-standard",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-optical-4p2-standard",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-optical-4p2-standard.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): 4.2kEqPbCl2 named standard-purified optical sample",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): 4.2kEqPbCl2 named standard-purified optical sample",
+      "sample_id": "optical-4p2-standard",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "optical-4p2-standard",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-rod::rod",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-rod",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-rod.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): CdSe/CdS rods; literal source precursor conflict",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "hot injection and seeded growth",
+      "recipe_label": "Mittag et al. (2024): CdSe/CdS rods; literal source precursor conflict",
+      "sample_id": "rod",
+      "source_sample_label": "Source-labelled CdSe/CdS DRs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdSe core within rod-shaped CdS shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "rod",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "CdSe core within rod-shaped CdS shell",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-thick-series-selective::thick-series-selective",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-thick-series-selective",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-thick-series-selective.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Thicker-rod120s dose series; selective purification",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Thicker-rod120s dose series; selective purification",
+      "sample_id": "thick-series-selective",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "thick-series-selective",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-thick-series-standard::thick-series-standard",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-thick-series-standard",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-thick-series-standard.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Thicker-rod120s dose series; standard purification",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Thicker-rod120s dose series; standard purification",
+      "sample_id": "thick-series-standard",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "thick-series-standard",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.4–5, Figure6 and Optical Properties of DRD Ensembles"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-thin-dose-series::thin-dose-series",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-thin-dose-series",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-thin-dose-series.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): Thin-rod120s precursor-dose series,0.8–2.7kEq",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): Thin-rod120s precursor-dose series,0.8–2.7kEq",
+      "sample_id": "thin-dose-series",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.3–4, Figure4 and Yield Optimization"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.3–4, Figure4 and Yield Optimization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.3–4, Figure4 and Yield Optimization"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "thin-dose-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.3–4, Figure4 and Yield Optimization"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.3–4, Figure4 and Yield Optimization"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.3–4, Figure4 and Yield Optimization"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-time-1p1::time-1p1",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-time-1p1",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-time-1p1.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): 1.1kEqPbCl2 time-course reaction",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): 1.1kEqPbCl2 time-course reaction",
+      "sample_id": "time-1p1",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "time-1p1",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-time-2p0::time-2p0",
+      "record_id": "mittag2024-cdse-cds-pbs-chemmater4c02553-time-2p0",
+      "record_page_path": "records/mittag2024-cdse-cds-pbs-chemmater4c02553-time-2p0.html",
+      "source_group": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+      "title": "Mittag et al. (2024): 2.0kEqPbCl2 time-course reaction",
+      "doi": "10.1021/acs.chemmater.4c02553",
+      "year": 2024,
+      "method": "partial Cd-to-Pb cation exchange",
+      "recipe_label": "Mittag et al. (2024): 2.0kEqPbCl2 time-course reaction",
+      "sample_id": "time-2p0",
+      "source_sample_label": "DRD/DR/QD reaction-product context",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+            "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+          "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF p.7, printed10819, Synthesis of CdSe/CdS DRs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "time-2p0",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "quench-state",
+          "composition": {
+            "value": "CdSe/CdS/PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed population of tipped elongated DRDs, untipped DRs and spherical QDs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "mittag2024-cdse-cds-pbs-chemmater4c02553",
+                  "locator": "Main PDF pp.3–4, Figure3 and Yield Optimization"
                 }
               ],
               "note": ""
@@ -145409,6 +147825,459 @@
                 "field": "morphology.distribution"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2019-qd-au-9b03818-alp-gold::alp-gold",
+      "record_id": "zhang2019-qd-au-9b03818-alp-gold",
+      "record_page_path": "records/zhang2019-qd-au-9b03818-alp-gold.html",
+      "source_group": "zhang2019-qd-au-9b03818",
+      "title": "Zhang et al. (2019): Enzymatic core-shell QD-Au growth",
+      "doi": "10.1021/acs.analchem.9b03818",
+      "year": 2019,
+      "method": "Enzymatic core-shell QD-Au growth",
+      "recipe_label": "Zhang et al. (2019): Enzymatic core-shell QD-Au growth",
+      "sample_id": "alp-gold",
+      "source_sample_label": "ALP-grown QD-Au hybrid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/ZnS–Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2019-qd-au-9b03818",
+            "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2019-qd-au-9b03818",
+          "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdSe/ZnS QD, organic spacer gap and outer Au shell",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/ZnS–Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alp-gold",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "enzyme-growth-out",
+          "composition": {
+            "value": "CdSe/ZnS–Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2019-qd-au-9b03818",
+                  "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "CdSe/ZnS QD, organic spacer gap and outer Au shell",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2019-qd-au-9b03818",
+                  "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2019-qd-au-9b03818-gox-gold::gox-gold",
+      "record_id": "zhang2019-qd-au-9b03818-gox-gold",
+      "record_page_path": "records/zhang2019-qd-au-9b03818-gox-gold.html",
+      "source_group": "zhang2019-qd-au-9b03818",
+      "title": "Zhang et al. (2019): Enzymatic core-satellite QD-Au growth",
+      "doi": "10.1021/acs.analchem.9b03818",
+      "year": 2019,
+      "method": "Enzymatic core-satellite QD-Au growth",
+      "recipe_label": "Zhang et al. (2019): Enzymatic core-satellite QD-Au growth",
+      "sample_id": "gox-gold",
+      "source_sample_label": "GOX-grown QD-Au hybrid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/ZnS–Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2019-qd-au-9b03818",
+            "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2019-qd-au-9b03818",
+          "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdSe/ZnS QD with discrete Au satellites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/ZnS–Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.3, printed14076, conjugation, gold-growth methods and Figure1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "gox-gold",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "enzyme-growth-out",
+          "composition": {
+            "value": "CdSe/ZnS–Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2019-qd-au-9b03818",
+                  "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "CdSe/ZnS QD with discrete Au satellites",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2019-qd-au-9b03818",
+                  "locator": "Main PDF p.5, printed14078, Figure5 and hybrid characterization"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhang2019-qd-au-9b03818-silar::silar-qd",
+      "record_id": "zhang2019-qd-au-9b03818-silar",
+      "record_page_path": "records/zhang2019-qd-au-9b03818-silar.html",
+      "source_group": "zhang2019-qd-au-9b03818",
+      "title": "Zhang et al. (2019): SILAR ZnS shell growth on preformed CdSe cores",
+      "doi": "10.1021/acs.analchem.9b03818",
+      "year": 2019,
+      "method": "SILAR ZnS shell growth on preformed CdSe cores",
+      "recipe_label": "Zhang et al. (2019): SILAR ZnS shell growth on preformed CdSe cores",
+      "sample_id": "silar-qd",
+      "source_sample_label": "CdSe/ZnS shell-grown QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhang2019-qd-au-9b03818",
+            "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhang2019-qd-au-9b03818",
+          "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Core/shell CdSe/ZnS nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "silar-qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "extract-out",
+          "composition": {
+            "value": "CdSe/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhang2019-qd-au-9b03818",
+                "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2019-qd-au-9b03818",
+                  "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Core/shell CdSe/ZnS nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhang2019-qd-au-9b03818",
+                  "locator": "Main PDF p.2, printed14075, Experimental Section and Scheme1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
