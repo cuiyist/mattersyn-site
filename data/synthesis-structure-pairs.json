@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 713,
-    "source_groups": 158,
-    "records": 568,
+    "recipe_structure_rows": 717,
+    "source_groups": 160,
+    "records": 572,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -52694,6 +52694,308 @@
                 }
               ],
               "note": "Macroscopic recovered-powder description; individual crystallite/particle shape and size are not reported."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "krueger2005-cdse-ac0481912-mixed-shapes::mixed-preparation",
+      "record_id": "krueger2005-cdse-ac0481912-mixed-shapes",
+      "record_page_path": "records/krueger2005-cdse-ac0481912-mixed-shapes.html",
+      "source_group": "krueger2005-cdse-ac0481912",
+      "title": "Krueger et al. (2005): polydisperse CdSe dots, rods and tetrapods",
+      "doi": "10.1021/ac0481912",
+      "year": 2005,
+      "method": "Four selenium-stock injections in TOPO",
+      "recipe_label": "Krueger et al. (2005): polydisperse CdSe dots, rods and tetrapods",
+      "sample_id": "mixed-preparation",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "krueger2005-cdse-ac0481912",
+            "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "krueger2005-cdse-ac0481912",
+          "locator": "Main PDF p.2 / printed 3512, Experimental Section",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "dots, rods and tetrapods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "dots, rods and tetrapods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "mixed-preparation",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "mixed-decantate",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "krueger2005-cdse-ac0481912",
+                  "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "dots, rods and tetrapods",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "krueger2005-cdse-ac0481912",
+                  "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "krueger2005-cdse-ac0481912-ode-dots::typical-ode-dots",
+      "record_id": "krueger2005-cdse-ac0481912-ode-dots",
+      "record_page_path": "records/krueger2005-cdse-ac0481912-ode-dots.html",
+      "source_group": "krueger2005-cdse-ac0481912",
+      "title": "Krueger et al. (2005): CdSe dots in 1-octadecene",
+      "doi": "10.1021/ac0481912",
+      "year": 2005,
+      "method": "Hot injection in noncoordinating 1-octadecene",
+      "recipe_label": "Krueger et al. (2005): CdSe dots in 1-octadecene",
+      "sample_id": "typical-ode-dots",
+      "source_sample_label": null,
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "krueger2005-cdse-ac0481912",
+            "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "krueger2005-cdse-ac0481912",
+          "locator": "Main PDF p.2 / printed 3512, Experimental Section",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "typical-ode-dots",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "clear-nc-solution",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krueger2005-cdse-ac0481912",
+                "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "krueger2005-cdse-ac0481912",
+                  "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "krueger2005-cdse-ac0481912",
+                  "locator": "Main PDF p.2 / printed 3512, Experimental Section"
+                }
+              ],
+              "note": ""
             },
             "measurement_refs": []
           }
@@ -138145,6 +138447,308 @@
                 }
               ],
               "note": "Procedural glass specimen and Ti-foil comparison cannot be established as identical. Main comparison thickness is separately qualified, not assigned unambiguously to the glass specimen."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zou2004-cdse-ac049012j-pige-10ul::pige-10ul",
+      "record_id": "zou2004-cdse-ac049012j-pige-10ul",
+      "record_page_path": "records/zou2004-cdse-ac049012j-pige-10ul.html",
+      "source_group": "zou2004-cdse-ac049012j",
+      "title": "Zou and Ju (2004): 10 µL CdSe film on PIGE",
+      "doi": "10.1021/ac049012j",
+      "year": 2004,
+      "method": "drop deposition and slow drying",
+      "recipe_label": "Zou and Ju (2004): 10 µL CdSe film on PIGE",
+      "sample_id": "pige-10ul",
+      "source_sample_label": "10 µL film on PIGE",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zou2004-cdse-ac049012j",
+            "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2b"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zou2004-cdse-ac049012j",
+          "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2b",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "close-packed assembly of CdSe nanoparticles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2b"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "pige-10ul",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "film",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2b"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zou2004-cdse-ac049012j",
+                  "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2b"
+                }
+              ],
+              "note": "No crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "close-packed assembly of CdSe nanoparticles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zou2004-cdse-ac049012j",
+                  "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2b"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zou2004-cdse-ac049012j-pige-1ul::pige-1ul",
+      "record_id": "zou2004-cdse-ac049012j-pige-1ul",
+      "record_page_path": "records/zou2004-cdse-ac049012j-pige-1ul.html",
+      "source_group": "zou2004-cdse-ac049012j",
+      "title": "Zou and Ju (2004): 1 µL CdSe film on PIGE",
+      "doi": "10.1021/ac049012j",
+      "year": 2004,
+      "method": "drop deposition and slow drying",
+      "recipe_label": "Zou and Ju (2004): 1 µL CdSe film on PIGE",
+      "sample_id": "pige-1ul",
+      "source_sample_label": "1 µL film on PIGE",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zou2004-cdse-ac049012j",
+            "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zou2004-cdse-ac049012j",
+          "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "isolated CdSe nanoparticles in film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.2, printed 6872, Materials"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "pige-1ul",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "film",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zou2004-cdse-ac049012j",
+                "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zou2004-cdse-ac049012j",
+                  "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2a"
+                }
+              ],
+              "note": "No crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "isolated CdSe nanoparticles in film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zou2004-cdse-ac049012j",
+                  "locator": "Main PDF p.3, printed 6873, PL and SEM Characterizations and Figure 2a"
+                }
+              ],
+              "note": ""
             },
             "measurement_refs": []
           }
