@@ -4,18 +4,18 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4283,
+    "local_paper_groups_indexed": 4289,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
-    "curated_library_additions": 107,
-    "canonical_records": 1748,
-    "reviewed_literature_records": 1648,
-    "reviewed_literature_source_groups": 183,
+    "curated_library_additions": 113,
+    "canonical_records": 1840,
+    "reviewed_literature_records": 1740,
+    "reviewed_literature_source_groups": 189,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 184,
+    "total_canonical_source_groups": 190,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
     "formal_full_main_reviews_si_unverified": 104,
@@ -26,42 +26,42 @@
     "formal_main_and_selected_si_review_pages": 30,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
-    "selected_recipe_figure_review_sources": 33,
+    "selected_recipe_figure_review_sources": 39,
     "local_groups_without_canonical_records": 4099,
-    "synthesis_route_variant_records": 739,
-    "contextual_control_variant_records": 66,
-    "shared_preparation_workup_characterization_assay_procedures": 468,
-    "nonprocedure_literature_records": 1180,
+    "synthesis_route_variant_records": 770,
+    "contextual_control_variant_records": 79,
+    "shared_preparation_workup_characterization_assay_procedures": 514,
+    "nonprocedure_literature_records": 1226,
     "literature_record_type_counts": {
       "experiment": 45,
-      "literature_protocol": 531,
-      "observation": 337,
-      "procedure": 468,
-      "protocol_variant": 267
+      "literature_protocol": 556,
+      "observation": 339,
+      "procedure": 514,
+      "protocol_variant": 286
     },
     "canonical_record_type_counts": {
       "experiment": 145,
-      "literature_protocol": 531,
-      "observation": 337,
-      "procedure": 468,
-      "protocol_variant": 267
+      "literature_protocol": 556,
+      "observation": 339,
+      "procedure": 514,
+      "protocol_variant": 286
     },
-    "literature_recipe_family_ids": 329,
-    "primary_synthesis_recipe_family_ids": 267,
-    "public_material_hubs": 211,
-    "direct_synthesis_target_systems": 177,
+    "literature_recipe_family_ids": 335,
+    "primary_synthesis_recipe_family_ids": 273,
+    "public_material_hubs": 228,
+    "direct_synthesis_target_systems": 194,
     "component_only_hubs": 34,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 235,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 254,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
-    "contextual_observation_records": 337,
-    "recipe_or_control_literature_records": 805,
-    "contextual_observation_family_ids": 90,
-    "source_checked_synthesis_structure_rows": 717,
-    "source_groups_with_synthesis_structure_rows": 160,
+    "contextual_observation_records": 339,
+    "recipe_or_control_literature_records": 849,
+    "contextual_observation_family_ids": 92,
+    "source_checked_synthesis_structure_rows": 734,
+    "source_groups_with_synthesis_structure_rows": 164,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -156,9 +156,12 @@
       "CdS/polymer",
       "CdS/polyurethane",
       "CdSe",
+      "CdSe-ZnS",
       "CdSe/CdS",
+      "CdSe/CdS+CdTe/CdS/polymer",
       "CdSe/CdS/ZnS",
       "CdSe/CdS/ZnS + Ag",
+      "CdSe/CdS/polymer",
       "CdSe/CdS@poly(ionic liquid)",
       "CdSe/ZnS",
       "CdSe/ZnS/CdS",
@@ -166,6 +169,7 @@
       "CdSe/ZnSe",
       "CdSe/polythiophene",
       "CdTe",
+      "CdTe/CdS/polymer",
       "CdTe/CdSe",
       "CdTe/MWNT",
       "CeO2",
@@ -203,6 +207,8 @@
       "Eu:LaVO4",
       "FAPbI3",
       "Fe3O4",
+      "Fe3O4/CdSe",
+      "Fe3O4@Au",
       "Fe90Zr7B3",
       "FeIn2S4",
       "FePt/CdS",
@@ -234,6 +240,15 @@
       "Ni3S4 + Ni",
       "NiCl0.78(OH)1.22·xH2O",
       "NiS",
+      "PAMAM",
+      "PAMAM/CdSe-ZnS",
+      "PDDA/CNT",
+      "PS-(CdS)1",
+      "PS-(CdS)2",
+      "PS-(CdS)3",
+      "PS-(CdS)4",
+      "PS-(CdS)5",
+      "PVC/DOS",
       "PbS",
       "PbS/MEH-PPV",
       "PbS/TiO2",
@@ -242,8 +257,10 @@
       "PbTe",
       "PbTe+Ag2Te",
       "Pt",
+      "QD/poly(n-butyl acrylate)",
       "Si/SiOx",
       "SiO2",
+      "SiO2/CdTe",
       "Sn4P3",
       "SnO2",
       "SnO2/graphene",
@@ -274,7 +291,8 @@
       "Co–Pt study controls",
       "Fe",
       "OAM2PbBr4",
-      "Si"
+      "Si",
+      "SiO2/CdTe/Ab2/IgG/Ab1/PAB/Au"
     ],
     "component_only_public_hubs": [
       "Ag nanoparticle core",
@@ -397,6 +415,7 @@
       "PbSe reaction context",
       "Pd",
       "Pt",
+      "QD/polymer optodes",
       "Reagent inventory",
       "Rh",
       "Ru",
@@ -4857,6 +4876,233 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "jie2011-dendrimer-qd-ac200383z",
+      "paper_id": "jie2011-dendrimer-qd-ac200383z",
+      "doi": "10.1021/ac200383z",
+      "url": "https://doi.org/10.1021/ac200383z",
+      "title": "Versatile Electrochemiluminescence Assays for Cancer Cells Based on Dendrimer/CdSe-ZnS-Quantum Dot Nanoclusters",
+      "year": 2011,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "review_scope": "Main and SI preparation protocols, distinct DNA-conjugate contexts, selected material-characterization figures and sequence tables; no complete-paper Reader. Exact independent acceptance required before integration.",
+      "documents": [
+        {
+          "role": "main",
+          "sha256": "84bd35c967d49664c95801ca571b8851589ef1b58eb144a5825f3bbb5bb2e805",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Scoped material preparation and selected characterization; analytical assay sections excluded from complete-review status."
+        },
+        {
+          "role": "si",
+          "sha256": "52babf0b8dca3504921a87a14ba5e5a762e1db90f079da2c9de511d6a86cda87",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Scoped material preparation and selected characterization; analytical assay sections excluded from complete-review status."
+        }
+      ],
+      "evidence_locator": "data/records/jie2011-dendrimer-qd-ac200383z-qd-synthesis.json",
+      "paper_review_url": null,
+      "si_status": "scoped_independently_audited",
+      "main_status": "scoped_independently_audited",
+      "notes": [
+        "Cell handling and analytical dose-response/selectivity/mechanisms are outside materials-preparation scope.",
+        "Only selected preparation/material-characterization figures included; no complete-paper Reader.",
+        "Cited upstream papers not read; no inferred missing gold-particle synthesis."
+      ],
+      "canonical_record_count": 15,
+      "synthesis_route_variant_count": 5,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 10,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 7,
+      "record_type_counts": {
+        "literature_protocol": 5,
+        "procedure": 10
+      },
+      "canonical_recipe_family_ids": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ],
+      "direct_route_material_systems": [
+        "CdSe-ZnS",
+        "Fe3O4@Au",
+        "PAMAM",
+        "PAMAM/CdSe-ZnS",
+        "PDDA/CNT"
+      ],
+      "record_ids": [
+        "jie2011-dendrimer-qd-ac200383z-capture-electrode",
+        "jie2011-dendrimer-qd-ac200383z-cycle-mb1",
+        "jie2011-dendrimer-qd-ac200383z-cycle-mb2",
+        "jie2011-dendrimer-qd-ac200383z-dendrimer-nc",
+        "jie2011-dendrimer-qd-ac200383z-dendrimer-qd",
+        "jie2011-dendrimer-qd-ac200383z-dna-probe-s1",
+        "jie2011-dendrimer-qd-ac200383z-dna-probe-s2",
+        "jie2011-dendrimer-qd-ac200383z-fe3o4-au",
+        "jie2011-dendrimer-qd-ac200383z-mpa-exchange",
+        "jie2011-dendrimer-qd-ac200383z-ncqd-film",
+        "jie2011-dendrimer-qd-ac200383z-pdcnts",
+        "jie2011-dendrimer-qd-ac200383z-qd-film",
+        "jie2011-dendrimer-qd-ac200383z-qd-synthesis",
+        "jie2011-dendrimer-qd-ac200383z-signal-off-electrode",
+        "jie2011-dendrimer-qd-ac200383z-signal-on-mb"
+      ],
+      "record_urls": {
+        "jie2011-dendrimer-qd-ac200383z-capture-electrode": "records/jie2011-dendrimer-qd-ac200383z-capture-electrode.html",
+        "jie2011-dendrimer-qd-ac200383z-cycle-mb1": "records/jie2011-dendrimer-qd-ac200383z-cycle-mb1.html",
+        "jie2011-dendrimer-qd-ac200383z-cycle-mb2": "records/jie2011-dendrimer-qd-ac200383z-cycle-mb2.html",
+        "jie2011-dendrimer-qd-ac200383z-dendrimer-nc": "records/jie2011-dendrimer-qd-ac200383z-dendrimer-nc.html",
+        "jie2011-dendrimer-qd-ac200383z-dendrimer-qd": "records/jie2011-dendrimer-qd-ac200383z-dendrimer-qd.html",
+        "jie2011-dendrimer-qd-ac200383z-dna-probe-s1": "records/jie2011-dendrimer-qd-ac200383z-dna-probe-s1.html",
+        "jie2011-dendrimer-qd-ac200383z-dna-probe-s2": "records/jie2011-dendrimer-qd-ac200383z-dna-probe-s2.html",
+        "jie2011-dendrimer-qd-ac200383z-fe3o4-au": "records/jie2011-dendrimer-qd-ac200383z-fe3o4-au.html",
+        "jie2011-dendrimer-qd-ac200383z-mpa-exchange": "records/jie2011-dendrimer-qd-ac200383z-mpa-exchange.html",
+        "jie2011-dendrimer-qd-ac200383z-ncqd-film": "records/jie2011-dendrimer-qd-ac200383z-ncqd-film.html",
+        "jie2011-dendrimer-qd-ac200383z-pdcnts": "records/jie2011-dendrimer-qd-ac200383z-pdcnts.html",
+        "jie2011-dendrimer-qd-ac200383z-qd-film": "records/jie2011-dendrimer-qd-ac200383z-qd-film.html",
+        "jie2011-dendrimer-qd-ac200383z-qd-synthesis": "records/jie2011-dendrimer-qd-ac200383z-qd-synthesis.html",
+        "jie2011-dendrimer-qd-ac200383z-signal-off-electrode": "records/jie2011-dendrimer-qd-ac200383z-signal-off-electrode.html",
+        "jie2011-dendrimer-qd-ac200383z-signal-on-mb": "records/jie2011-dendrimer-qd-ac200383z-signal-on-mb.html"
+      },
+      "source_checked_synthesis_structure_rows": 4
+    },
+    {
+      "source_group": "jie2012-fe3o4-cdse-ac203261x",
+      "paper_id": "jie2012-fe3o4-cdse-ac203261x",
+      "doi": "10.1021/ac203261x",
+      "url": "https://doi.org/10.1021/ac203261x",
+      "title": "Novel Magnetic Fe3O4@CdSe Composite Quantum Dot-Based Electrochemiluminescence Detection of Thrombin by a Multiple DNA Cycle Amplification Strategy",
+      "year": 2012,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope": "Independently audited scoped main/SI preparation and selected evidence; no complete-paper Reader. Main1-7 and SI1-6 text and scoped visual review pinned privately. Analytical concentration series and serum recovery excluded.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        },
+        {
+          "role": "si",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/jie2012-fe3o4-cdse-ac203261x-composite.json",
+      "paper_review_url": null,
+      "si_status": "selected_related_SI_review",
+      "main_status": "scoped_independently_audited",
+      "notes": [
+        "Analytical thrombin concentration series, specificity controls, serum recovery (SI Table S2), response mechanisms and analytical performance statistics excluded.",
+        "Pure CdSe comparator has only same-condition statement, including Cd/Se ratio and reaction time; no independent charge/workup copied from magnetic composite.",
+        "No measured atomic coordinates, crystal phase or lattice assigned. Core/shell and bilayer descriptions remain author interpretations.",
+        "SI Table S1 molecular sequences are retained as identities; no measured DNA conformation or inferred cell-aptamer sequence.",
+        "SI p.3 lists purchased MPA and HDA, but no operational charge is given. They are not inserted into recipes or substituted for main-text DMSA and octadecylamine.",
+        "Scoped source review; no complete-paper Reader. Exact audit receipts remain private."
+      ],
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 14,
+      "synthesis_route_variant_count": 4,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 1,
+      "procedure_count": 9,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 7,
+      "record_type_counts": {
+        "literature_protocol": 4,
+        "observation": 1,
+        "procedure": 9
+      },
+      "canonical_recipe_family_ids": [
+        "jie2012-fe3o4-cdse-ac203261x"
+      ],
+      "direct_route_material_systems": [
+        "Au",
+        "Fe3O4",
+        "Fe3O4/CdSe"
+      ],
+      "record_ids": [
+        "jie2012-fe3o4-cdse-ac203261x-aptamer-hybrid",
+        "jie2012-fe3o4-cdse-ac203261x-aqueous",
+        "jie2012-fe3o4-cdse-ac203261x-au-hairpin",
+        "jie2012-fe3o4-cdse-ac203261x-cdse-control",
+        "jie2012-fe3o4-cdse-ac203261x-composite",
+        "jie2012-fe3o4-cdse-ac203261x-fe3o4",
+        "jie2012-fe3o4-cdse-ac203261x-gold",
+        "jie2012-fe3o4-cdse-ac203261x-imaging-qd",
+        "jie2012-fe3o4-cdse-ac203261x-mb1",
+        "jie2012-fe3o4-cdse-ac203261x-mb2",
+        "jie2012-fe3o4-cdse-ac203261x-qd-electrode",
+        "jie2012-fe3o4-cdse-ac203261x-quenched-electrode",
+        "jie2012-fe3o4-cdse-ac203261x-ramos-label",
+        "jie2012-fe3o4-cdse-ac203261x-target-challenge"
+      ],
+      "record_urls": {
+        "jie2012-fe3o4-cdse-ac203261x-aptamer-hybrid": "records/jie2012-fe3o4-cdse-ac203261x-aptamer-hybrid.html",
+        "jie2012-fe3o4-cdse-ac203261x-aqueous": "records/jie2012-fe3o4-cdse-ac203261x-aqueous.html",
+        "jie2012-fe3o4-cdse-ac203261x-au-hairpin": "records/jie2012-fe3o4-cdse-ac203261x-au-hairpin.html",
+        "jie2012-fe3o4-cdse-ac203261x-cdse-control": "records/jie2012-fe3o4-cdse-ac203261x-cdse-control.html",
+        "jie2012-fe3o4-cdse-ac203261x-composite": "records/jie2012-fe3o4-cdse-ac203261x-composite.html",
+        "jie2012-fe3o4-cdse-ac203261x-fe3o4": "records/jie2012-fe3o4-cdse-ac203261x-fe3o4.html",
+        "jie2012-fe3o4-cdse-ac203261x-gold": "records/jie2012-fe3o4-cdse-ac203261x-gold.html",
+        "jie2012-fe3o4-cdse-ac203261x-imaging-qd": "records/jie2012-fe3o4-cdse-ac203261x-imaging-qd.html",
+        "jie2012-fe3o4-cdse-ac203261x-mb1": "records/jie2012-fe3o4-cdse-ac203261x-mb1.html",
+        "jie2012-fe3o4-cdse-ac203261x-mb2": "records/jie2012-fe3o4-cdse-ac203261x-mb2.html",
+        "jie2012-fe3o4-cdse-ac203261x-qd-electrode": "records/jie2012-fe3o4-cdse-ac203261x-qd-electrode.html",
+        "jie2012-fe3o4-cdse-ac203261x-quenched-electrode": "records/jie2012-fe3o4-cdse-ac203261x-quenched-electrode.html",
+        "jie2012-fe3o4-cdse-ac203261x-ramos-label": "records/jie2012-fe3o4-cdse-ac203261x-ramos-label.html",
+        "jie2012-fe3o4-cdse-ac203261x-target-challenge": "records/jie2012-fe3o4-cdse-ac203261x-target-challenge.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "jung2024-ag-nanospheres-jacs4c00073",
       "paper_id": "jung2024-ag-nanospheres-jacs4c00073",
       "doi": "10.1021/jacs.4c00073",
@@ -6756,6 +7002,126 @@
       "source_checked_synthesis_structure_rows": 8
     },
     {
+      "source_group": "liu2015-cdte-nucleobases-ac503819e",
+      "paper_id": "liu2015-cdte-nucleobases-ac503819e",
+      "doi": "10.1021/ac503819e",
+      "title": "Exciton Energy Transfer-Based Quantum Dot Fluorescence Sensing Array: Chemical Noses for Discrimination of Different Nucleobases",
+      "year": 2015,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope": "All 8 main and 10SI pages:4growth variants plus scoped assay/aggregation/ICP contexts. No complete-paper Reader.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        },
+        {
+          "role": "si",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "record_ids": [
+        "liu2015-cdte-nucleobases-ac503819e-dmae-growth",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-normalized",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-rare",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-standard",
+        "liu2015-cdte-nucleobases-ac503819e-ma-growth",
+        "liu2015-cdte-nucleobases-ac503819e-ma-normalized",
+        "liu2015-cdte-nucleobases-ac503819e-ma-rare",
+        "liu2015-cdte-nucleobases-ac503819e-ma-standard",
+        "liu2015-cdte-nucleobases-ac503819e-nac-aggregation-4p5mm",
+        "liu2015-cdte-nucleobases-ac503819e-nac-growth",
+        "liu2015-cdte-nucleobases-ac503819e-nac-icp",
+        "liu2015-cdte-nucleobases-ac503819e-nac-normalized",
+        "liu2015-cdte-nucleobases-ac503819e-nac-rare",
+        "liu2015-cdte-nucleobases-ac503819e-nac-standard",
+        "liu2015-cdte-nucleobases-ac503819e-tga-growth",
+        "liu2015-cdte-nucleobases-ac503819e-tga-normalized",
+        "liu2015-cdte-nucleobases-ac503819e-tga-rare",
+        "liu2015-cdte-nucleobases-ac503819e-tga-standard"
+      ],
+      "record_urls": {
+        "liu2015-cdte-nucleobases-ac503819e-dmae-growth": "records/liu2015-cdte-nucleobases-ac503819e-dmae-growth.html",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-normalized": "records/liu2015-cdte-nucleobases-ac503819e-dmae-normalized.html",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-rare": "records/liu2015-cdte-nucleobases-ac503819e-dmae-rare.html",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-standard": "records/liu2015-cdte-nucleobases-ac503819e-dmae-standard.html",
+        "liu2015-cdte-nucleobases-ac503819e-ma-growth": "records/liu2015-cdte-nucleobases-ac503819e-ma-growth.html",
+        "liu2015-cdte-nucleobases-ac503819e-ma-normalized": "records/liu2015-cdte-nucleobases-ac503819e-ma-normalized.html",
+        "liu2015-cdte-nucleobases-ac503819e-ma-rare": "records/liu2015-cdte-nucleobases-ac503819e-ma-rare.html",
+        "liu2015-cdte-nucleobases-ac503819e-ma-standard": "records/liu2015-cdte-nucleobases-ac503819e-ma-standard.html",
+        "liu2015-cdte-nucleobases-ac503819e-nac-aggregation-4p5mm": "records/liu2015-cdte-nucleobases-ac503819e-nac-aggregation-4p5mm.html",
+        "liu2015-cdte-nucleobases-ac503819e-nac-growth": "records/liu2015-cdte-nucleobases-ac503819e-nac-growth.html",
+        "liu2015-cdte-nucleobases-ac503819e-nac-icp": "records/liu2015-cdte-nucleobases-ac503819e-nac-icp.html",
+        "liu2015-cdte-nucleobases-ac503819e-nac-normalized": "records/liu2015-cdte-nucleobases-ac503819e-nac-normalized.html",
+        "liu2015-cdte-nucleobases-ac503819e-nac-rare": "records/liu2015-cdte-nucleobases-ac503819e-nac-rare.html",
+        "liu2015-cdte-nucleobases-ac503819e-nac-standard": "records/liu2015-cdte-nucleobases-ac503819e-nac-standard.html",
+        "liu2015-cdte-nucleobases-ac503819e-tga-growth": "records/liu2015-cdte-nucleobases-ac503819e-tga-growth.html",
+        "liu2015-cdte-nucleobases-ac503819e-tga-normalized": "records/liu2015-cdte-nucleobases-ac503819e-tga-normalized.html",
+        "liu2015-cdte-nucleobases-ac503819e-tga-rare": "records/liu2015-cdte-nucleobases-ac503819e-tga-rare.html",
+        "liu2015-cdte-nucleobases-ac503819e-tga-standard": "records/liu2015-cdte-nucleobases-ac503819e-tga-standard.html"
+      },
+      "evidence_locator": "data/records/liu2015-cdte-nucleobases-ac503819e-tga-growth.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "scoped_independently_audited",
+      "notes": [
+        "No imported procedure from cited reference40 or any external source.",
+        "No measured core-size distribution, crystal phase, atomic coordinates or experimental ligand-binding geometry reported. SI3.4nm is an author absorption-based estimate using a spherical assumption, not a TEM or DLS core measurement.",
+        "Unreported gas flow, sulfuric-acid injection volume, numeric reflux temperature, vessel geometry, routine bulk purification and storage remain missing. SIcentrifugation/15%HNO3 applies only to NAC ICP-AES sample preparation.",
+        "Plot ordinates are not digitized. All360 numerical training-matrix values from SI TablesS3-S5 are retained as analytical replicates, not independent synthesis batches.",
+        "Physical batch/aliquot equivalence between synthesis, TEM,DLS,optical and ICP specimens is unreported. Product joins express source-named class/context only.",
+        "Main189ligands/QD versus SI193S/QD, firstabsorption570-575nm versus SI~578nm, DMAE hydrochloride identity versus Materials omission, and source0.5mmol versus0.5mM wording remain explicit conflicts."
+      ],
+      "url": "https://doi.org/10.1021/ac503819e",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 18,
+      "synthesis_route_variant_count": 4,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 14,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 502,
+      "record_type_counts": {
+        "literature_protocol": 4,
+        "procedure": 14
+      },
+      "canonical_recipe_family_ids": [
+        "liu2015-cdte-nucleobases-ac503819e"
+      ],
+      "direct_route_material_systems": [
+        "CdTe"
+      ],
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "lu1999-aln",
       "doi": "10.1246/cl.1999.1239",
       "url": "https://doi.org/10.1246/cl.1999.1239",
@@ -8360,6 +8726,90 @@
         "peng-2000-cdse-typical": "records/peng-2000-cdse-typical.html"
       },
       "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "qian2010-cdte-silica-ac100558t",
+      "paper_id": "qian2010-cdte-silica-ac100558t",
+      "doi": "10.1021/ac100558t",
+      "url": "https://doi.org/10.1021/ac100558t",
+      "title": "Versatile Immunosensor Using a Quantum Dot Coated Silica Nanosphere as a Label for Signal Amplification",
+      "year": 2010,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope": "Independently audited scoped main-text preparation and selected evidence; no complete-paper Reader. Pages 1-8 text and actual visuals pinned privately. Analytical dose-response/control series and cited upstream syntheses explicitly excluded.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/qian2010-cdte-silica-ac100558t-si-qd.json",
+      "paper_review_url": null,
+      "si_status": "not_available_in_screened_candidate_group",
+      "main_status": "scoped_independently_audited",
+      "notes": [
+        "Silica seed-growth synthesis cited to references 27,40,41, not operationally restated; CdTe QDs purchased. Upstream syntheses not reconstructed.",
+        "No SI in screened candidate group or local filename search. Figures S1-S6 not independently reviewed; main Scheme 1, Scheme 2, Table 1 and linked Results reviewed.",
+        "Analytical ECL/SWV/optical dose-response series, specificity controls, direct-QD/Ab2 assay comparator without restated preparation, sensing mechanisms, dissolution/stripping analysis, regeneration and stability testing excluded from material-preparation scope.",
+        "No phase, unit cell or measured atomic model assigned.",
+        "TEOS listed as purchased p.2 but no charge restated for cited silica synthesis; not added to APTS functionalization.",
+        "Scoped review; no complete-paper Reader. Exact audit receipts are retained privately."
+      ],
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 8,
+      "synthesis_route_variant_count": 4,
+      "contextual_control_count": 1,
+      "contextual_observation_count": 0,
+      "procedure_count": 3,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 22,
+      "record_type_counts": {
+        "literature_protocol": 2,
+        "procedure": 3,
+        "protocol_variant": 3
+      },
+      "canonical_recipe_family_ids": [
+        "qian2010-cdte-silica-ac100558t"
+      ],
+      "direct_route_material_systems": [
+        "SiO2",
+        "SiO2/CdTe"
+      ],
+      "record_ids": [
+        "qian2010-cdte-silica-ac100558t-ab1-au",
+        "qian2010-cdte-silica-ac100558t-amino-silica",
+        "qian2010-cdte-silica-ac100558t-bi-film",
+        "qian2010-cdte-silica-ac100558t-pab-au",
+        "qian2010-cdte-silica-ac100558t-sandwich-5ng",
+        "qian2010-cdte-silica-ac100558t-si-qd",
+        "qian2010-cdte-silica-ac100558t-si-qd-ab2-blocked",
+        "qian2010-cdte-silica-ac100558t-si-qd-ab2-unblocked"
+      ],
+      "record_urls": {
+        "qian2010-cdte-silica-ac100558t-ab1-au": "records/qian2010-cdte-silica-ac100558t-ab1-au.html",
+        "qian2010-cdte-silica-ac100558t-amino-silica": "records/qian2010-cdte-silica-ac100558t-amino-silica.html",
+        "qian2010-cdte-silica-ac100558t-bi-film": "records/qian2010-cdte-silica-ac100558t-bi-film.html",
+        "qian2010-cdte-silica-ac100558t-pab-au": "records/qian2010-cdte-silica-ac100558t-pab-au.html",
+        "qian2010-cdte-silica-ac100558t-sandwich-5ng": "records/qian2010-cdte-silica-ac100558t-sandwich-5ng.html",
+        "qian2010-cdte-silica-ac100558t-si-qd": "records/qian2010-cdte-silica-ac100558t-si-qd.html",
+        "qian2010-cdte-silica-ac100558t-si-qd-ab2-blocked": "records/qian2010-cdte-silica-ac100558t-si-qd-ab2-blocked.html",
+        "qian2010-cdte-silica-ac100558t-si-qd-ab2-unblocked": "records/qian2010-cdte-silica-ac100558t-si-qd-ab2-unblocked.html"
+      },
+      "source_checked_synthesis_structure_rows": 2
     },
     {
       "source_group": "qiu2006-ag-superlattice",
@@ -12157,6 +12607,94 @@
       "source_checked_synthesis_structure_rows": 1
     },
     {
+      "source_group": "xiang2011-cds-ps-ac200564r",
+      "paper_id": "xiang2011-cds-ps-ac200564r",
+      "doi": "10.1021/ac200564r",
+      "title": "Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens",
+      "year": 2011,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope": "Main-text preparation and linked evidence across five pages; no complete-paper Reader. Unsupported morphology illustration remains explicitly unassigned.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "record_ids": [
+        "xiang2011-cds-ps-ac200564r-biotin-cds",
+        "xiang2011-cds-ps-ac200564r-comparison-context",
+        "xiang2011-cds-ps-ac200564r-dna-assay",
+        "xiang2011-cds-ps-ac200564r-ps-cds-1",
+        "xiang2011-cds-ps-ac200564r-ps-cds-2",
+        "xiang2011-cds-ps-ac200564r-ps-cds-3",
+        "xiang2011-cds-ps-ac200564r-ps-cds-4",
+        "xiang2011-cds-ps-ac200564r-ps-cds-5",
+        "xiang2011-cds-ps-ac200564r-signaling-label",
+        "xiang2011-cds-ps-ac200564r-stv-cds",
+        "xiang2011-cds-ps-ac200564r-stv-ps"
+      ],
+      "record_urls": {
+        "xiang2011-cds-ps-ac200564r-biotin-cds": "records/xiang2011-cds-ps-ac200564r-biotin-cds.html",
+        "xiang2011-cds-ps-ac200564r-comparison-context": "records/xiang2011-cds-ps-ac200564r-comparison-context.html",
+        "xiang2011-cds-ps-ac200564r-dna-assay": "records/xiang2011-cds-ps-ac200564r-dna-assay.html",
+        "xiang2011-cds-ps-ac200564r-ps-cds-1": "records/xiang2011-cds-ps-ac200564r-ps-cds-1.html",
+        "xiang2011-cds-ps-ac200564r-ps-cds-2": "records/xiang2011-cds-ps-ac200564r-ps-cds-2.html",
+        "xiang2011-cds-ps-ac200564r-ps-cds-3": "records/xiang2011-cds-ps-ac200564r-ps-cds-3.html",
+        "xiang2011-cds-ps-ac200564r-ps-cds-4": "records/xiang2011-cds-ps-ac200564r-ps-cds-4.html",
+        "xiang2011-cds-ps-ac200564r-ps-cds-5": "records/xiang2011-cds-ps-ac200564r-ps-cds-5.html",
+        "xiang2011-cds-ps-ac200564r-signaling-label": "records/xiang2011-cds-ps-ac200564r-signaling-label.html",
+        "xiang2011-cds-ps-ac200564r-stv-cds": "records/xiang2011-cds-ps-ac200564r-stv-cds.html",
+        "xiang2011-cds-ps-ac200564r-stv-ps": "records/xiang2011-cds-ps-ac200564r-stv-ps.html"
+      },
+      "evidence_locator": "data/records/xiang2011-cds-ps-ac200564r-ps-cds-4.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "No related local SI available; no external sources imported.",
+      "notes": [
+        "CdS core synthesis only cited to reference31; external procedure not imported.",
+        "AOT,cysteamine hydrochloride and2-mercaptoethanesulfonate are listed reagents without an assigned operational role in the main method. No upstream use inferred.",
+        "No local related SI found; no source/model downloads.",
+        "No atomic-coordinate model, crystal phase, core diameter, shell thickness, raw curve digitization or absolute CdS layer-loading values inferred beyond stated author estimates.",
+        "Author prospect that more layers may lower LOD is not an observed result beyondn1–5."
+      ],
+      "url": "https://doi.org/10.1021/ac200564r",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 11,
+      "synthesis_route_variant_count": 5,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 6,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 31,
+      "record_type_counts": {
+        "literature_protocol": 5,
+        "procedure": 6
+      },
+      "canonical_recipe_family_ids": [
+        "xiang2011-cds-ps-ac200564r"
+      ],
+      "direct_route_material_systems": [
+        "PS-(CdS)1",
+        "PS-(CdS)2",
+        "PS-(CdS)3",
+        "PS-(CdS)4",
+        "PS-(CdS)5"
+      ],
+      "source_checked_synthesis_structure_rows": 1
+    },
+    {
       "source_group": "xie1999-cdse-jssc19998179",
       "doi": "10.1006/jssc.1999.8179",
       "url": "https://doi.org/10.1006/jssc.1999.8179",
@@ -12347,6 +12885,127 @@
         "xu2002-scsz-tb00207x-two-step-urea-150": "records/xu2002-scsz-tb00207x-two-step-urea-150.html"
       },
       "source_checked_synthesis_structure_rows": 9
+    },
+    {
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "paper_id": "xu2007-ac0701233-qd-polymer",
+      "doi": "10.1021/ac0701233",
+      "url": "https://doi.org/10.1021/ac0701233",
+      "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors",
+      "year": 2007,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "review_scope": "Quantified composite preparation and all source-reported compatibility/sensor variants; cited QD growth remains unresolved.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": false,
+          "all_visually_reviewed": false
+        }
+      ],
+      "evidence_locator": "data/records/xu2007-ac0701233-qd-polymer-qd1-workup.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "No matching local supplement found; main does not declare SI.",
+      "notes": [
+        "This is a scoped contribution, not a complete-paper Reader.",
+        "Source composition and identity conflicts retained.",
+        "Figure permission unverified."
+      ],
+      "canonical_record_count": 26,
+      "synthesis_route_variant_count": 9,
+      "contextual_control_count": 12,
+      "contextual_observation_count": 1,
+      "procedure_count": 4,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 42,
+      "record_type_counts": {
+        "literature_protocol": 5,
+        "observation": 1,
+        "procedure": 4,
+        "protocol_variant": 16
+      },
+      "canonical_recipe_family_ids": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "direct_route_material_systems": [
+        "CdSe/CdS+CdTe/CdS/polymer",
+        "CdSe/CdS/polymer",
+        "CdTe/CdS/polymer",
+        "PVC/DOS",
+        "QD/poly(n-butyl acrylate)"
+      ],
+      "record_ids": [
+        "xu2007-ac0701233-qd-polymer-acquisition",
+        "xu2007-ac0701233-qd-polymer-barcode-series",
+        "xu2007-ac0701233-qd-polymer-film-screen-mma-dma",
+        "xu2007-ac0701233-qd-polymer-film-screen-pba",
+        "xu2007-ac0701233-qd-polymer-film-screen-ps",
+        "xu2007-ac0701233-qd-polymer-film-screen-pu",
+        "xu2007-ac0701233-qd-polymer-film-screen-pvc-dos",
+        "xu2007-ac0701233-qd-polymer-mono-pba",
+        "xu2007-ac0701233-qd-polymer-mono-qd1-mma",
+        "xu2007-ac0701233-qd-polymer-mono-qd1-pvc",
+        "xu2007-ac0701233-qd-polymer-mono-qd2-mma",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-dmp",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-dos",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-npoe",
+        "xu2007-ac0701233-qd-polymer-qd1-workup",
+        "xu2007-ac0701233-qd-polymer-qd2-workup",
+        "xu2007-ac0701233-qd-polymer-sensor-measurement",
+        "xu2007-ac0701233-qd-polymer-sodium-14p1",
+        "xu2007-ac0701233-qd-polymer-sodium-18",
+        "xu2007-ac0701233-qd-polymer-sodium-8p8",
+        "xu2007-ac0701233-qd-polymer-sodium-control",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-chloroform",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-dcm",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-ethyl-acetate",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-thf",
+        "xu2007-ac0701233-qd-polymer-table1-context"
+      ],
+      "record_urls": {
+        "xu2007-ac0701233-qd-polymer-acquisition": "records/xu2007-ac0701233-qd-polymer-acquisition.html",
+        "xu2007-ac0701233-qd-polymer-barcode-series": "records/xu2007-ac0701233-qd-polymer-barcode-series.html",
+        "xu2007-ac0701233-qd-polymer-film-screen-mma-dma": "records/xu2007-ac0701233-qd-polymer-film-screen-mma-dma.html",
+        "xu2007-ac0701233-qd-polymer-film-screen-pba": "records/xu2007-ac0701233-qd-polymer-film-screen-pba.html",
+        "xu2007-ac0701233-qd-polymer-film-screen-ps": "records/xu2007-ac0701233-qd-polymer-film-screen-ps.html",
+        "xu2007-ac0701233-qd-polymer-film-screen-pu": "records/xu2007-ac0701233-qd-polymer-film-screen-pu.html",
+        "xu2007-ac0701233-qd-polymer-film-screen-pvc-dos": "records/xu2007-ac0701233-qd-polymer-film-screen-pvc-dos.html",
+        "xu2007-ac0701233-qd-polymer-mono-pba": "records/xu2007-ac0701233-qd-polymer-mono-pba.html",
+        "xu2007-ac0701233-qd-polymer-mono-qd1-mma": "records/xu2007-ac0701233-qd-polymer-mono-qd1-mma.html",
+        "xu2007-ac0701233-qd-polymer-mono-qd1-pvc": "records/xu2007-ac0701233-qd-polymer-mono-qd1-pvc.html",
+        "xu2007-ac0701233-qd-polymer-mono-qd2-mma": "records/xu2007-ac0701233-qd-polymer-mono-qd2-mma.html",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-dmp": "records/xu2007-ac0701233-qd-polymer-plasticizer-screen-dmp.html",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-dos": "records/xu2007-ac0701233-qd-polymer-plasticizer-screen-dos.html",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-npoe": "records/xu2007-ac0701233-qd-polymer-plasticizer-screen-npoe.html",
+        "xu2007-ac0701233-qd-polymer-qd1-workup": "records/xu2007-ac0701233-qd-polymer-qd1-workup.html",
+        "xu2007-ac0701233-qd-polymer-qd2-workup": "records/xu2007-ac0701233-qd-polymer-qd2-workup.html",
+        "xu2007-ac0701233-qd-polymer-sensor-measurement": "records/xu2007-ac0701233-qd-polymer-sensor-measurement.html",
+        "xu2007-ac0701233-qd-polymer-sodium-14p1": "records/xu2007-ac0701233-qd-polymer-sodium-14p1.html",
+        "xu2007-ac0701233-qd-polymer-sodium-18": "records/xu2007-ac0701233-qd-polymer-sodium-18.html",
+        "xu2007-ac0701233-qd-polymer-sodium-8p8": "records/xu2007-ac0701233-qd-polymer-sodium-8p8.html",
+        "xu2007-ac0701233-qd-polymer-sodium-control": "records/xu2007-ac0701233-qd-polymer-sodium-control.html",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-chloroform": "records/xu2007-ac0701233-qd-polymer-solvent-screen-chloroform.html",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-dcm": "records/xu2007-ac0701233-qd-polymer-solvent-screen-dcm.html",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-ethyl-acetate": "records/xu2007-ac0701233-qd-polymer-solvent-screen-ethyl-acetate.html",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-thf": "records/xu2007-ac0701233-qd-polymer-solvent-screen-thf.html",
+        "xu2007-ac0701233-qd-polymer-table1-context": "records/xu2007-ac0701233-qd-polymer-table1-context.html"
+      },
+      "source_checked_synthesis_structure_rows": 10
     },
     {
       "source_group": "xu2008-hierarchical-nc-assemblies-adma200800215",
@@ -16606,12 +17265,13 @@
     {
       "material_system": "Au",
       "notes": [],
-      "direct_synthesis_route_variant_count": 17,
+      "direct_synthesis_route_variant_count": 18,
       "direct_route_record_ids": [
         "au-silica-adfm200500603-gold-core",
         "chemmater2017-cdse-cald-7b01873-au-core-4nm",
         "henkel2009-au-aucu-jp810979r-au-nanorod",
         "jie2007-cds-au-ac062357c-au-citrate",
+        "jie2012-fe3o4-cdse-ac203261x-gold",
         "li2011-au-nabh4",
         "li2013-cdte-au-caspase3-am4029735-citrate-au",
         "li2013-cdte-au-caspase3-am4029735-peptide-au",
@@ -16636,11 +17296,11 @@
       "contextual_observation_record_ids": [
         "au-silica-adfm200500603-micelles"
       ],
-      "procedure_count": 9,
+      "procedure_count": 10,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 30,
+      "public_hub_route_contributions": 31,
       "component_route_contribution_count": 13,
       "component_route_record_ids": [
         "au-silica-adfm200500603-teos-0h",
@@ -16657,7 +17317,7 @@
         "yang2009-ag2s-au-b823320a-au-ag2s-2-1",
         "yang2009-ag2s-au-b823320a-au-ag2s-typical-unassigned"
       ],
-      "primary_reviewed_source_count": 10,
+      "primary_reviewed_source_count": 11,
       "material_hub_id": "au-3325c2",
       "material_hub_url": "material.html?id=au-3325c2",
       "source_groups": [
@@ -16665,6 +17325,7 @@
         "chemmater2017-cdse-cald-7b01873",
         "henkel2009-au-aucu-jp810979r",
         "jie2007-cds-au-ac062357c",
+        "jie2012-fe3o4-cdse-ac203261x",
         "li2011-ac2019014",
         "li2013-cdte-au-caspase3-am4029735",
         "sigman2004-auag-la035405m",
@@ -16696,6 +17357,12 @@
           "doi": "10.1021/ac062357c",
           "url": "https://doi.org/10.1021/ac062357c",
           "title": "CdS Nanocrystal-Based Electrochemiluminescence Biosensor for the Detection of Low-Density Lipoprotein by Increasing Sensitivity with Gold Nanoparticle Amplification"
+        },
+        {
+          "source_group": "jie2012-fe3o4-cdse-ac203261x",
+          "doi": "10.1021/ac203261x",
+          "url": "https://doi.org/10.1021/ac203261x",
+          "title": "Novel Magnetic Fe3O4@CdSe Composite Quantum Dot-Based Electrochemiluminescence Detection of Thrombin by a Multiple DNA Cycle Amplification Strategy"
         },
         {
           "source_group": "li2011-ac2019014",
@@ -16739,6 +17406,7 @@
         "chemmater2017-cdse-cald-7b01873",
         "henkel2009-au-aucu-jp810979r",
         "jie2007-cds-au-ac062357c",
+        "jie2012-fe3o4-cdse-ac203261x",
         "li2011-qd-dna-au",
         "li2013-cdte-au-caspase3-am4029735",
         "sigman2004-auag-la035405m-au",
@@ -18939,8 +19607,9 @@
         "nakonechnyi-2017-core-stability-top-s-only",
         "zhu-ja210312s-cdse-mv-comparator"
       ],
-      "contextual_observation_count": 27,
+      "contextual_observation_count": 28,
       "contextual_observation_record_ids": [
+        "jie2012-fe3o4-cdse-ac203261x-cdse-control",
         "krueger2005-cdse-ac0481912-thiol-series",
         "morrison-2017-starting-belt-reference",
         "nagy2012-apoptosis-ao-elisa",
@@ -19010,7 +19679,7 @@
         "zhong2007-cdte-cdse-jp0709407-sequential-growth-series",
         "zhu-ja210312s-cdse-cds-six-ml"
       ],
-      "primary_reviewed_source_count": 26,
+      "primary_reviewed_source_count": 27,
       "material_hub_id": "cdse-d923c5",
       "material_hub_url": "cdse.html",
       "source_groups": [
@@ -19025,6 +19694,7 @@
         "gerion2001",
         "ghosh2012",
         "jasieniak2005-cdse-jp054289o",
+        "jie2012-fe3o4-cdse-ac203261x",
         "knowles2010-cdse-aniline-ja907253s",
         "krueger2005-cdse-ac0481912",
         "li2011-ac2019014",
@@ -19113,6 +19783,12 @@
           "doi": "10.1021/jp054289o",
           "url": "https://doi.org/10.1021/jp054289o",
           "title": "Phosphine-Free Synthesis of CdSe Nanocrystals"
+        },
+        {
+          "source_group": "jie2012-fe3o4-cdse-ac203261x",
+          "doi": "10.1021/ac203261x",
+          "url": "https://doi.org/10.1021/ac203261x",
+          "title": "Novel Magnetic Fe3O4@CdSe Composite Quantum Dot-Based Electrochemiluminescence Detection of Thrombin by a Multiple DNA Cycle Amplification Strategy"
         },
         {
           "source_group": "knowles2010-cdse-aniline-ja907253s",
@@ -19311,6 +19987,42 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "CdSe-ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "jie2011-dendrimer-qd-ac200383z-qd-synthesis"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 2,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cdse-zns-2fcc37",
+      "material_hub_url": "material.html?id=cdse-zns-2fcc37",
+      "source_groups": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ],
+      "source_links": [
+        {
+          "source_group": "jie2011-dendrimer-qd-ac200383z",
+          "doi": "10.1021/ac200383z",
+          "url": "https://doi.org/10.1021/ac200383z",
+          "title": "Versatile Electrochemiluminescence Assays for Cancer Cells Based on Dendrimer/CdSe-ZnS-Quantum Dot Nanoclusters"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ]
+    },
+    {
       "material_system": "CdSe/CdS",
       "notes": [
         "The low-OA control reports CdSe/CdS plus separately nucleated CdS; not a clean additional core/shell synthesis."
@@ -19328,9 +20040,16 @@
         "nakonechnyi-2017-zb-cdse-cds-seeded-growth",
         "zhu-ja210312s-cdse-cds-six-ml"
       ],
-      "contextual_control_count": 3,
+      "contextual_control_count": 10,
       "contextual_control_record_ids": [
         "nakonechnyi-2017-zb-cdse-cds-low-oa-control",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-dmp",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-dos",
+        "xu2007-ac0701233-qd-polymer-plasticizer-screen-npoe",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-chloroform",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-dcm",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-ethyl-acetate",
+        "xu2007-ac0701233-qd-polymer-solvent-screen-thf",
         "zhu-ja210312s-cdse-cds-bq",
         "zhu-ja210312s-cdse-cds-mv"
       ],
@@ -19344,14 +20063,14 @@
         "morrison-2017-monolayer-characterization",
         "morrison-2017-thick-shell-characterization"
       ],
-      "procedure_count": 11,
+      "procedure_count": 12,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
       "public_hub_route_contributions": 10,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 7,
+      "primary_reviewed_source_count": 8,
       "material_hub_id": "cdse-cds-34750d",
       "material_hub_url": "material.html?id=cdse-cds-34750d",
       "source_groups": [
@@ -19361,6 +20080,7 @@
         "ghosh2012",
         "morrison2017",
         "nakonechnyi2017",
+        "xu2007-ac0701233-qd-polymer",
         "zhu2012-ja210312s-si"
       ],
       "source_links": [
@@ -19399,6 +20119,12 @@
           "doi": "10.1021/acs.chemmater.7b00354",
           "url": "https://doi.org/10.1021/acs.chemmater.7b00354",
           "title": "Mechanistic Insights in Seeded Growth Synthesis of Colloidal Core/Shell Quantum Dots"
+        },
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
         },
         {
           "source_group": "zhu2012-ja210312s-si",
@@ -19450,6 +20176,42 @@
         }
       ],
       "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "CdSe/CdS+CdTe/CdS/polymer",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xu2007-ac0701233-qd-polymer-barcode-series"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cdse-cds-cdte-cds-polymer-8ee745",
+      "material_hub_url": "material.html?id=cdse-cds-cdte-cds-polymer-8ee745",
+      "source_groups": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "source_links": [
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xu2007-ac0701233-qd-polymer"
+      ]
     },
     {
       "material_system": "CdSe/CdS/ZnS",
@@ -19524,6 +20286,52 @@
       ],
       "direct_route_recipe_family_ids": [
         "munechika2011-qd-ag-nanoprism-nl2010127"
+      ]
+    },
+    {
+      "material_system": "CdSe/CdS/polymer",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 5,
+      "direct_route_record_ids": [
+        "xu2007-ac0701233-qd-polymer-mono-qd1-mma",
+        "xu2007-ac0701233-qd-polymer-mono-qd1-pvc",
+        "xu2007-ac0701233-qd-polymer-sodium-14p1",
+        "xu2007-ac0701233-qd-polymer-sodium-18",
+        "xu2007-ac0701233-qd-polymer-sodium-8p8"
+      ],
+      "contextual_control_count": 5,
+      "contextual_control_record_ids": [
+        "xu2007-ac0701233-qd-polymer-film-screen-mma-dma",
+        "xu2007-ac0701233-qd-polymer-film-screen-pba",
+        "xu2007-ac0701233-qd-polymer-film-screen-ps",
+        "xu2007-ac0701233-qd-polymer-film-screen-pu",
+        "xu2007-ac0701233-qd-polymer-film-screen-pvc-dos"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 2,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 5,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cdse-cds-polymer-8a37b1",
+      "material_hub_url": "material.html?id=cdse-cds-polymer-8a37b1",
+      "source_groups": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "source_links": [
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xu2007-ac0701233-qd-polymer"
       ]
     },
     {
@@ -19900,10 +20708,14 @@
     {
       "material_system": "CdTe",
       "notes": [],
-      "direct_synthesis_route_variant_count": 5,
+      "direct_synthesis_route_variant_count": 9,
       "direct_route_record_ids": [
         "chen2010-jf101778t-cdte-aqueous-reflux",
         "li2013-cdte-au-caspase3-am4029735-cdte-gsh",
+        "liu2015-cdte-nucleobases-ac503819e-dmae-growth",
+        "liu2015-cdte-nucleobases-ac503819e-ma-growth",
+        "liu2015-cdte-nucleobases-ac503819e-nac-growth",
+        "liu2015-cdte-nucleobases-ac503819e-tga-growth",
         "yang2005-cdte-noninjection",
         "yu1998-cdte-en-180c-12h",
         "zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series"
@@ -19916,19 +20728,20 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 7,
+      "public_hub_route_contributions": 11,
       "component_route_contribution_count": 2,
       "component_route_record_ids": [
         "banerjee-2003-growth",
         "zhong2007-cdte-cdse-jp0709407-sequential-growth-series"
       ],
-      "primary_reviewed_source_count": 5,
+      "primary_reviewed_source_count": 6,
       "material_hub_id": "cdte-c6e220",
       "material_hub_url": "material.html?id=cdte-c6e220",
       "source_groups": [
         "banerjee2003",
         "chen2010-jf101778t-cdte",
         "li2013-cdte-au-caspase3-am4029735",
+        "liu2015-cdte-nucleobases-ac503819e",
         "yang2005-anie200502279",
         "yu1998cde",
         "zhang2003-cdte-polymer-adma200304521",
@@ -19952,6 +20765,12 @@
           "doi": "10.1021/am4029735",
           "url": "https://doi.org/10.1021/am4029735",
           "title": "Highly Sensitive Detection of Caspase-3 Activities via a Nonconjugated Gold Nanoparticle–Quantum Dot Pair Mediated by an Inner-Filter Effect"
+        },
+        {
+          "source_group": "liu2015-cdte-nucleobases-ac503819e",
+          "doi": "10.1021/ac503819e",
+          "url": "https://doi.org/10.1021/ac503819e",
+          "title": "Exciton Energy Transfer-Based Quantum Dot Fluorescence Sensing Array: Chemical Noses for Discrimination of Different Nucleobases"
         },
         {
           "source_group": "yang2005-anie200502279",
@@ -19982,8 +20801,45 @@
         "chen2010-jf101778t-cdte",
         "en180",
         "li2013-cdte-au-caspase3-am4029735",
+        "liu2015-cdte-nucleobases-ac503819e",
         "yang2005-noninjection",
         "zhang2003-cdte-polymer-adma200304521"
+      ]
+    },
+    {
+      "material_system": "CdTe/CdS/polymer",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xu2007-ac0701233-qd-polymer-mono-qd2-mma"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "cdte-cds-polymer-c46ecb",
+      "material_hub_url": "material.html?id=cdte-cds-polymer-c46ecb",
+      "source_groups": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "source_links": [
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xu2007-ac0701233-qd-polymer"
       ]
     },
     {
@@ -22293,7 +23149,7 @@
     {
       "material_system": "Fe3O4",
       "notes": [],
-      "direct_synthesis_route_variant_count": 9,
+      "direct_synthesis_route_variant_count": 10,
       "direct_route_record_ids": [
         "ge2007-fe3o4-cnc-141nm",
         "ge2007-fe3o4-cnc-174nm",
@@ -22301,6 +23157,7 @@
         "ge2007-fe3o4-cnc-53nm",
         "ge2007-fe3o4-cnc-71nm",
         "ge2007-fe3o4-cnc-93nm",
+        "jie2012-fe3o4-cdse-ac203261x-fe3o4",
         "tang2001-fe3o4-pld-350c",
         "venkatesan-2003-fe3o4-coprecipitation",
         "xu2008-hierarchical-nc-assemblies-adma200800215-fe3o4-nc"
@@ -22315,17 +23172,18 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 11,
+      "public_hub_route_contributions": 12,
       "component_route_contribution_count": 2,
       "component_route_record_ids": [
         "xu2008-hierarchical-nc-assemblies-adma200800215-ag-fe3o4-mixed",
         "xu2008-hierarchical-nc-assemblies-adma200800215-au-ag-fe3o4-mixed"
       ],
-      "primary_reviewed_source_count": 5,
+      "primary_reviewed_source_count": 6,
       "material_hub_id": "fe3o4-a36358",
       "material_hub_url": "material.html?id=fe3o4-a36358",
       "source_groups": [
         "ge2007-magnetite-anie200700197",
+        "jie2012-fe3o4-cdse-ac203261x",
         "tang2001-fe3o4-pld",
         "venkatesan2003-fe3o4-1555371",
         "wang2005-lss-nature03968",
@@ -22337,6 +23195,12 @@
           "doi": "10.1002/anie.200700197",
           "url": "https://doi.org/10.1002/anie.200700197",
           "title": "Superparamagnetic Magnetite Colloidal Nanocrystal Clusters"
+        },
+        {
+          "source_group": "jie2012-fe3o4-cdse-ac203261x",
+          "doi": "10.1021/ac203261x",
+          "url": "https://doi.org/10.1021/ac203261x",
+          "title": "Novel Magnetic Fe3O4@CdSe Composite Quantum Dot-Based Electrochemiluminescence Detection of Thrombin by a Multiple DNA Cycle Amplification Strategy"
         },
         {
           "source_group": "tang2001-fe3o4-pld",
@@ -22365,9 +23229,83 @@
       ],
       "direct_route_recipe_family_ids": [
         "ge2007-magnetite-anie200700197",
+        "jie2012-fe3o4-cdse-ac203261x",
         "tang2001-fe3o4-pld",
         "venkatesan2003-fe3o4-1555371",
         "xu2008-hierarchical-nc-assemblies-adma200800215-fe3o4-nc"
+      ]
+    },
+    {
+      "material_system": "Fe3O4/CdSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "jie2012-fe3o4-cdse-ac203261x-aqueous",
+        "jie2012-fe3o4-cdse-ac203261x-composite"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 2,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "fe3o4-cdse-0297f2",
+      "material_hub_url": "material.html?id=fe3o4-cdse-0297f2",
+      "source_groups": [
+        "jie2012-fe3o4-cdse-ac203261x"
+      ],
+      "source_links": [
+        {
+          "source_group": "jie2012-fe3o4-cdse-ac203261x",
+          "doi": "10.1021/ac203261x",
+          "url": "https://doi.org/10.1021/ac203261x",
+          "title": "Novel Magnetic Fe3O4@CdSe Composite Quantum Dot-Based Electrochemiluminescence Detection of Thrombin by a Multiple DNA Cycle Amplification Strategy"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "jie2012-fe3o4-cdse-ac203261x"
+      ]
+    },
+    {
+      "material_system": "Fe3O4@Au",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "jie2011-dendrimer-qd-ac200383z-fe3o4-au"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "fe3o4-au-4fe5c0",
+      "material_hub_url": "material.html?id=fe3o4-au-4fe5c0",
+      "source_groups": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ],
+      "source_links": [
+        {
+          "source_group": "jie2011-dendrimer-qd-ac200383z",
+          "doi": "10.1021/ac200383z",
+          "url": "https://doi.org/10.1021/ac200383z",
+          "title": "Versatile Electrochemiluminescence Assays for Cancer Cells Based on Dendrimer/CdSe-ZnS-Quantum Dot Nanoclusters"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "jie2011-dendrimer-qd-ac200383z"
       ]
     },
     {
@@ -24291,6 +25229,78 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "PAMAM",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "jie2011-dendrimer-qd-ac200383z-dendrimer-nc"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "pamam-7e2229",
+      "material_hub_url": "material.html?id=pamam-7e2229",
+      "source_groups": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ],
+      "source_links": [
+        {
+          "source_group": "jie2011-dendrimer-qd-ac200383z",
+          "doi": "10.1021/ac200383z",
+          "url": "https://doi.org/10.1021/ac200383z",
+          "title": "Versatile Electrochemiluminescence Assays for Cancer Cells Based on Dendrimer/CdSe-ZnS-Quantum Dot Nanoclusters"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ]
+    },
+    {
+      "material_system": "PAMAM/CdSe-ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "jie2011-dendrimer-qd-ac200383z-dendrimer-qd"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 1,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "pamam-cdse-zns-0406bc",
+      "material_hub_url": "material.html?id=pamam-cdse-zns-0406bc",
+      "source_groups": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ],
+      "source_links": [
+        {
+          "source_group": "jie2011-dendrimer-qd-ac200383z",
+          "doi": "10.1021/ac200383z",
+          "url": "https://doi.org/10.1021/ac200383z",
+          "title": "Versatile Electrochemiluminescence Assays for Cancer Cells Based on Dendrimer/CdSe-ZnS-Quantum Dot Nanoclusters"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ]
+    },
+    {
       "material_system": "PAn",
       "notes": [],
       "direct_synthesis_route_variant_count": 0,
@@ -24323,6 +25333,42 @@
         }
       ],
       "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "PDDA/CNT",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "jie2011-dendrimer-qd-ac200383z-pdcnts"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "pdda-cnt-02aee1",
+      "material_hub_url": "material.html?id=pdda-cnt-02aee1",
+      "source_groups": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ],
+      "source_links": [
+        {
+          "source_group": "jie2011-dendrimer-qd-ac200383z",
+          "doi": "10.1021/ac200383z",
+          "url": "https://doi.org/10.1021/ac200383z",
+          "title": "Versatile Electrochemiluminescence Assays for Cancer Cells Based on Dendrimer/CdSe-ZnS-Quantum Dot Nanoclusters"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "jie2011-dendrimer-qd-ac200383z"
+      ]
     },
     {
       "material_system": "PEG/PAMA",
@@ -24389,6 +25435,222 @@
         }
       ],
       "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "PS-(CdS)1",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xiang2011-cds-ps-ac200564r-ps-cds-1"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "ps-cds-1-153873",
+      "material_hub_url": "material.html?id=ps-cds-1-153873",
+      "source_groups": [
+        "xiang2011-cds-ps-ac200564r"
+      ],
+      "source_links": [
+        {
+          "source_group": "xiang2011-cds-ps-ac200564r",
+          "doi": "10.1021/ac200564r",
+          "url": "https://doi.org/10.1021/ac200564r",
+          "title": "Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xiang2011-cds-ps-ac200564r"
+      ]
+    },
+    {
+      "material_system": "PS-(CdS)2",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xiang2011-cds-ps-ac200564r-ps-cds-2"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "ps-cds-2-f73d7a",
+      "material_hub_url": "material.html?id=ps-cds-2-f73d7a",
+      "source_groups": [
+        "xiang2011-cds-ps-ac200564r"
+      ],
+      "source_links": [
+        {
+          "source_group": "xiang2011-cds-ps-ac200564r",
+          "doi": "10.1021/ac200564r",
+          "url": "https://doi.org/10.1021/ac200564r",
+          "title": "Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xiang2011-cds-ps-ac200564r"
+      ]
+    },
+    {
+      "material_system": "PS-(CdS)3",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xiang2011-cds-ps-ac200564r-ps-cds-3"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "ps-cds-3-1cd673",
+      "material_hub_url": "material.html?id=ps-cds-3-1cd673",
+      "source_groups": [
+        "xiang2011-cds-ps-ac200564r"
+      ],
+      "source_links": [
+        {
+          "source_group": "xiang2011-cds-ps-ac200564r",
+          "doi": "10.1021/ac200564r",
+          "url": "https://doi.org/10.1021/ac200564r",
+          "title": "Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xiang2011-cds-ps-ac200564r"
+      ]
+    },
+    {
+      "material_system": "PS-(CdS)4",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xiang2011-cds-ps-ac200564r-ps-cds-4"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "ps-cds-4-327e0a",
+      "material_hub_url": "material.html?id=ps-cds-4-327e0a",
+      "source_groups": [
+        "xiang2011-cds-ps-ac200564r"
+      ],
+      "source_links": [
+        {
+          "source_group": "xiang2011-cds-ps-ac200564r",
+          "doi": "10.1021/ac200564r",
+          "url": "https://doi.org/10.1021/ac200564r",
+          "title": "Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xiang2011-cds-ps-ac200564r"
+      ]
+    },
+    {
+      "material_system": "PS-(CdS)5",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xiang2011-cds-ps-ac200564r-ps-cds-5"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "ps-cds-5-a53c0c",
+      "material_hub_url": "material.html?id=ps-cds-5-a53c0c",
+      "source_groups": [
+        "xiang2011-cds-ps-ac200564r"
+      ],
+      "source_links": [
+        {
+          "source_group": "xiang2011-cds-ps-ac200564r",
+          "doi": "10.1021/ac200564r",
+          "url": "https://doi.org/10.1021/ac200564r",
+          "title": "Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xiang2011-cds-ps-ac200564r"
+      ]
+    },
+    {
+      "material_system": "PVC/DOS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xu2007-ac0701233-qd-polymer-sodium-control"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "pvc-dos-c66d35",
+      "material_hub_url": "material.html?id=pvc-dos-c66d35",
+      "source_groups": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "source_links": [
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xu2007-ac0701233-qd-polymer"
+      ]
     },
     {
       "material_system": "Pb",
@@ -25137,6 +26399,76 @@
       ]
     },
     {
+      "material_system": "QD/poly(n-butyl acrylate)",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "xu2007-ac0701233-qd-polymer-mono-pba"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "qd-poly-n-butyl-acrylate-1af0f4",
+      "material_hub_url": "material.html?id=qd-poly-n-butyl-acrylate-1af0f4",
+      "source_groups": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "source_links": [
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "xu2007-ac0701233-qd-polymer"
+      ]
+    },
+    {
+      "material_system": "QD/polymer optodes",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "xu2007-ac0701233-qd-polymer-table1-context"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "xu2007-ac0701233-qd-polymer"
+      ],
+      "source_links": [
+        {
+          "source_group": "xu2007-ac0701233-qd-polymer",
+          "doi": "10.1021/ac0701233",
+          "url": "https://doi.org/10.1021/ac0701233",
+          "title": "Multicolor Quantum Dot Encoding for Polymeric Particle-Based Optical Ion Sensors"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
       "material_system": "Reagent inventory",
       "notes": [],
       "direct_synthesis_route_variant_count": 0,
@@ -25540,9 +26872,10 @@
     {
       "material_system": "SiO2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 2,
+      "direct_synthesis_route_variant_count": 3,
       "direct_route_record_ids": [
         "besson-2002-ctab-silica-host",
+        "qian2010-cdte-silica-ac100558t-amino-silica",
         "wang1999-ag-mcm48-cm990228p-ps"
       ],
       "contextual_control_count": 0,
@@ -25553,7 +26886,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 11,
+      "public_hub_route_contributions": 12,
       "component_route_contribution_count": 9,
       "component_route_record_ids": [
         "au-silica-adfm200500603-teos-0h",
@@ -25566,12 +26899,13 @@
         "rodriguez2005-pbte-sio2-1-1887823-sandwich-series",
         "wang1999-ag-mcm48-cm990228p-ast"
       ],
-      "primary_reviewed_source_count": 2,
+      "primary_reviewed_source_count": 3,
       "material_hub_id": "sio2-2e57f7",
       "material_hub_url": "material.html?id=sio2-2e57f7",
       "source_groups": [
         "au-silica-adfm200500603",
         "besson2002",
+        "qian2010-cdte-silica-ac100558t",
         "rodriguez2005-pbte-sio2-1-1887823",
         "wang1999-ag-mcm48-cm990228p"
       ],
@@ -25589,6 +26923,12 @@
           "title": "3D Quantum Dot Lattice Inside Mesoporous Silica Films"
         },
         {
+          "source_group": "qian2010-cdte-silica-ac100558t",
+          "doi": "10.1021/ac100558t",
+          "url": "https://doi.org/10.1021/ac100558t",
+          "title": "Versatile Immunosensor Using a Quantum Dot Coated Silica Nanosphere as a Label for Signal Amplification"
+        },
+        {
           "source_group": "rodriguez2005-pbte-sio2-1-1887823",
           "doi": "10.1063/1.1887823",
           "url": "https://doi.org/10.1063/1.1887823",
@@ -25603,6 +26943,7 @@
       ],
       "direct_route_recipe_family_ids": [
         "besson2002-cds-mesoporous-silica",
+        "qian2010-cdte-silica-ac100558t",
         "wang1999-ag-mcm48-cm990228p"
       ]
     },
@@ -25636,6 +26977,78 @@
           "doi": "10.1021/jp305408p",
           "url": "https://doi.org/10.1021/jp305408p",
           "title": "Highly Controlled Plasmonic Emission Enhancement from Metal-Semiconductor Quantum Dot Complex Nanostructures"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "SiO2/CdTe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 3,
+      "direct_route_record_ids": [
+        "qian2010-cdte-silica-ac100558t-si-qd",
+        "qian2010-cdte-silica-ac100558t-si-qd-ab2-blocked",
+        "qian2010-cdte-silica-ac100558t-si-qd-ab2-unblocked"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 3,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "sio2-cdte-11671c",
+      "material_hub_url": "material.html?id=sio2-cdte-11671c",
+      "source_groups": [
+        "qian2010-cdte-silica-ac100558t"
+      ],
+      "source_links": [
+        {
+          "source_group": "qian2010-cdte-silica-ac100558t",
+          "doi": "10.1021/ac100558t",
+          "url": "https://doi.org/10.1021/ac100558t",
+          "title": "Versatile Immunosensor Using a Quantum Dot Coated Silica Nanosphere as a Label for Signal Amplification"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "qian2010-cdte-silica-ac100558t"
+      ]
+    },
+    {
+      "material_system": "SiO2/CdTe/Ab2/IgG/Ab1/PAB/Au",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 1,
+      "contextual_control_record_ids": [
+        "qian2010-cdte-silica-ac100558t-sandwich-5ng"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "qian2010-cdte-silica-ac100558t"
+      ],
+      "source_links": [
+        {
+          "source_group": "qian2010-cdte-silica-ac100558t",
+          "doi": "10.1021/ac100558t",
+          "url": "https://doi.org/10.1021/ac100558t",
+          "title": "Versatile Immunosensor Using a Quantum Dot Coated Silica Nanosphere as a Label for Signal Amplification"
         }
       ],
       "direct_route_recipe_family_ids": []
@@ -27712,8 +29125,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "9541c8b7dd0b37c84edc041b8c2a3eb9cd8d96e434c9d9da3d4320f43da39e64",
-    "record_ids_sha256": "79acc874276816fcd9b30d185044b90874e2bb920d28b1d5e5e42834ee24e9c6",
+    "reviewed_evidence_sha256": "d2ebfa9a2e5e8a2bb3c81057f2221f021ed8c29b5d4e5bb7055318a11acdda10",
+    "record_ids_sha256": "75fec651a7979fe156139420ffdd66710b68eb7cc47620a66488b8d169a120e1",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

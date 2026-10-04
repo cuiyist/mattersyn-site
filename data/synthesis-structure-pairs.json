@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 717,
-    "source_groups": 160,
-    "records": 572,
+    "recipe_structure_rows": 734,
+    "source_groups": 164,
+    "records": 589,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -39940,6 +39940,610 @@
                 }
               ],
               "note": "Main p.4 states all particles in the study were spherical by TEM; matched SI only images the A/B/C route families."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jie2011-dendrimer-qd-ac200383z-dendrimer-nc::pamam-nc",
+      "record_id": "jie2011-dendrimer-qd-ac200383z-dendrimer-nc",
+      "record_page_path": "records/jie2011-dendrimer-qd-ac200383z-dendrimer-nc.html",
+      "source_group": "jie2011-dendrimer-qd-ac200383z",
+      "title": "Jie et al. (2011): Cross-linked PAMAM nanoclusters",
+      "doi": "10.1021/ac200383z",
+      "year": 2011,
+      "method": "Cross-linked PAMAM nanoclusters",
+      "recipe_label": "Jie et al. (2011): Cross-linked PAMAM nanoclusters",
+      "sample_id": "pamam-nc",
+      "source_sample_label": "PAMAM nanoclusters",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PAMAM",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jie2011-dendrimer-qd-ac200383z",
+            "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jie2011-dendrimer-qd-ac200383z",
+          "locator": "Main PDF p.2 / printed 3874, Experimental Section",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanoclusters",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PAMAM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "pamam-nc",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-out",
+          "composition": {
+            "value": "PAMAM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z",
+                  "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "nanoclusters",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z",
+                  "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jie2011-dendrimer-qd-ac200383z-dendrimer-qd::nc-qd",
+      "record_id": "jie2011-dendrimer-qd-ac200383z-dendrimer-qd",
+      "record_page_path": "records/jie2011-dendrimer-qd-ac200383z-dendrimer-qd.html",
+      "source_group": "jie2011-dendrimer-qd-ac200383z",
+      "title": "Jie et al. (2011): CdSe-ZnS-loaded dendrimer nanoclusters",
+      "doi": "10.1021/ac200383z",
+      "year": 2011,
+      "method": "CdSe-ZnS-loaded dendrimer nanoclusters",
+      "recipe_label": "Jie et al. (2011): CdSe-ZnS-loaded dendrimer nanoclusters",
+      "sample_id": "nc-qd",
+      "source_sample_label": "Dendrimer NCs/QDs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PAMAM/CdSe-ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jie2011-dendrimer-qd-ac200383z",
+            "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jie2011-dendrimer-qd-ac200383z",
+          "locator": "Main PDF p.2 / printed 3874, Experimental Section",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "QD-loaded nanoclusters",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PAMAM/CdSe-ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "nc-qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "filter-redisperse-out",
+          "composition": {
+            "value": "PAMAM/CdSe-ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z",
+                  "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "QD-loaded nanoclusters",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z",
+                  "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jie2011-dendrimer-qd-ac200383z-fe3o4-au::fe3o4-au",
+      "record_id": "jie2011-dendrimer-qd-ac200383z-fe3o4-au",
+      "record_page_path": "records/jie2011-dendrimer-qd-ac200383z-fe3o4-au.html",
+      "source_group": "jie2011-dendrimer-qd-ac200383z",
+      "title": "Jie et al. (2011): Gold-particle-coated thiolated Fe3O4 beads",
+      "doi": "10.1021/ac200383z",
+      "year": 2011,
+      "method": "Gold-particle-coated thiolated Fe3O4 beads",
+      "recipe_label": "Jie et al. (2011): Gold-particle-coated thiolated Fe3O4 beads",
+      "sample_id": "fe3o4-au",
+      "source_sample_label": "Fe3O4@Au magnetic beads",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Fe3O4@Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jie2011-dendrimer-qd-ac200383z",
+            "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jie2011-dendrimer-qd-ac200383z",
+          "locator": "Main PDF p.2 / printed 3874, Experimental Section",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "source-described core-shell magnetic particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "Fe3O4@Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "fe3o4-au",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "magnet-wash-out",
+          "composition": {
+            "value": "Fe3O4@Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z",
+                "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z",
+                  "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "source-described core-shell magnetic particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z",
+                  "locator": "Main PDF p.2 / printed 3874, Experimental Section"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "jie2011-dendrimer-qd-ac200383z-pdcnts::pdcnts",
+      "record_id": "jie2011-dendrimer-qd-ac200383z-pdcnts",
+      "record_page_path": "records/jie2011-dendrimer-qd-ac200383z-pdcnts.html",
+      "source_group": "jie2011-dendrimer-qd-ac200383z",
+      "title": "Jie et al. (2011): PDDA-coated carbon nanotubes",
+      "doi": "10.1021/ac200383z",
+      "year": 2011,
+      "method": "PDDA-coated carbon nanotubes",
+      "recipe_label": "Jie et al. (2011): PDDA-coated carbon nanotubes",
+      "sample_id": "pdcnts",
+      "source_sample_label": "PDCNTs",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PDDA/CNT",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+            "locator": "SI PDF p.5, PDDA-CNT workup and signal-on probe preparation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+          "locator": "SI PDF p.5, PDDA-CNT workup and signal-on probe preparation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "polymer-coated carbon nanotubes",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                "locator": "SI PDF p.5, PDDA-CNT workup and signal-on probe preparation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PDDA/CNT",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                "locator": "SI PDF p.4, optimization, Figure S1 and PDDA-CNT preparation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                "locator": "SI PDF p.4, optimization, Figure S1 and PDDA-CNT preparation"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                "locator": "SI PDF p.4, optimization, Figure S1 and PDDA-CNT preparation"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                "locator": "SI PDF p.4, optimization, Figure S1 and PDDA-CNT preparation"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "pdcnts",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "clean-redisperse-out",
+          "composition": {
+            "value": "PDDA/CNT",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                "locator": "SI PDF p.5, PDDA-CNT workup and signal-on probe preparation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                  "locator": "SI PDF p.5, PDDA-CNT workup and signal-on probe preparation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "polymer-coated carbon nanotubes",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "jie2011-dendrimer-qd-ac200383z-si",
+                  "locator": "SI PDF p.5, PDDA-CNT workup and signal-on probe preparation"
+                }
+              ],
+              "note": ""
             },
             "measurement_refs": []
           }
@@ -83450,6 +84054,308 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "qian2010-cdte-silica-ac100558t-sandwich-5ng::sandwich-5ng",
+      "record_id": "qian2010-cdte-silica-ac100558t-sandwich-5ng",
+      "record_page_path": "records/qian2010-cdte-silica-ac100558t-sandwich-5ng.html",
+      "source_group": "qian2010-cdte-silica-ac100558t",
+      "title": "Qian et al. (2010): 5 ng/mL IgG Scheme 2 sandwich assembly",
+      "doi": "10.1021/ac100558t",
+      "year": 2010,
+      "method": "sequential immunoreaction",
+      "recipe_label": "Qian et al. (2010): 5 ng/mL IgG Scheme 2 sandwich assembly",
+      "sample_id": "sandwich-5ng",
+      "source_sample_label": "Scheme 2 microscopy specimen",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "Si/QD/Ab2 on immunomodified Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "qian2010-cdte-silica-ac100558t",
+            "locator": "Main PDF p.3, printed 6424, Sandwich Immunoassay and Scheme 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "qian2010-cdte-silica-ac100558t",
+          "locator": "Main PDF p.3, printed 6424, Sandwich Immunoassay and Scheme 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "surface-attached nanospheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Sandwich Immunoassay and Scheme 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SiO2/CdTe/Ab2/IgG/Ab1/PAB/Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sandwich-5ng",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "sandwich",
+          "composition": {
+            "value": "Si/QD/Ab2 on immunomodified Au",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Sandwich Immunoassay and Scheme 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "qian2010-cdte-silica-ac100558t",
+                  "locator": "Main PDF p.3, printed 6424, Sandwich Immunoassay and Scheme 2"
+                }
+              ],
+              "note": "No crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "surface-attached nanospheres",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "qian2010-cdte-silica-ac100558t",
+                  "locator": "Main PDF p.3, printed 6424, Sandwich Immunoassay and Scheme 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "qian2010-cdte-silica-ac100558t-si-qd::si-qd",
+      "record_id": "qian2010-cdte-silica-ac100558t-si-qd",
+      "record_page_path": "records/qian2010-cdte-silica-ac100558t-si-qd.html",
+      "source_group": "qian2010-cdte-silica-ac100558t",
+      "title": "Qian et al. (2010): CdTe QDs coated silica (Si/QD)",
+      "doi": "10.1021/ac100558t",
+      "year": 2010,
+      "method": "EDC-mediated QD attachment",
+      "recipe_label": "Qian et al. (2010): CdTe QDs coated silica (Si/QD)",
+      "sample_id": "si-qd",
+      "source_sample_label": "Si/QD",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdTe QDs on silica",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "qian2010-cdte-silica-ac100558t",
+            "locator": "Main PDF p.4, printed 6425, Synthesis of Si/QD/Ab2 Labels and Table 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "qian2010-cdte-silica-ac100558t",
+          "locator": "Main PDF p.4, printed 6425, Synthesis of Si/QD/Ab2 Labels and Table 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "QDs deposited on silica surface",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.4, printed 6425, Synthesis of Si/QD/Ab2 Labels and Table 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "SiO2/CdTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.3, printed 6424, Preparation of Si/QD and Si/QD/Ab2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "si-qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "si-qd",
+          "composition": {
+            "value": "CdTe QDs on silica",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "qian2010-cdte-silica-ac100558t",
+                "locator": "Main PDF p.4, printed 6425, Synthesis of Si/QD/Ab2 Labels and Table 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "qian2010-cdte-silica-ac100558t",
+                  "locator": "Main PDF p.4, printed 6425, Synthesis of Si/QD/Ab2 Labels and Table 1"
+                }
+              ],
+              "note": "No crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "QDs deposited on silica surface",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "qian2010-cdte-silica-ac100558t",
+                  "locator": "Main PDF p.4, printed 6425, Synthesis of Si/QD/Ab2 Labels and Table 1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "qiu2006-ag-superlattice-150c::qiu2006-ag-superlattice-150c-product",
       "record_id": "qiu2006-ag-superlattice-150c",
       "record_page_path": "records/qiu2006-ag-superlattice-150c.html",
@@ -116753,6 +117659,154 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "xiang2011-cds-ps-ac200564r-ps-cds-4::tem-n4",
+      "record_id": "xiang2011-cds-ps-ac200564r-ps-cds-4",
+      "record_page_path": "records/xiang2011-cds-ps-ac200564r-ps-cds-4.html",
+      "source_group": "xiang2011-cds-ps-ac200564r",
+      "title": "Xiang et al. (2011): PS-(CdS)4 layer-by-layer composite assembly",
+      "doi": "10.1021/ac200564r",
+      "year": 2011,
+      "method": "PS-(CdS)4 layer-by-layer composite assembly",
+      "recipe_label": "Xiang et al. (2011): PS-(CdS)4 layer-by-layer composite assembly",
+      "sample_id": "tem-n4",
+      "source_sample_label": "Figure 1B: PS-(CdS)4 TEM specimen",
+      "batch_id": null,
+      "parent_sample_id": "ps-cds-4",
+      "composition": {
+        "value": "PS-(CdS)4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xiang2011-cds-ps-ac200564r",
+            "locator": "Main PDF p.3 / printed 4304, Figure 1 and results discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xiang2011-cds-ps-ac200564r",
+          "locator": "Main PDF p.3 / printed 4304, Figure 1 and results discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Randomly distributed nonuniform assembled nanostructures on PS surfaces",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xiang2011-cds-ps-ac200564r",
+                "locator": "Main PDF p.3 / printed 4304, Figure 1 and results discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PS-(CdS)4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xiang2011-cds-ps-ac200564r",
+                "locator": "Main PDF p.2 / printed 4303, Preparation of the PS-(CdS)n and Signaling Probe Conjugated PS-(CdS)4 Assemblies"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": "Polystyrene bead scaffold",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xiang2011-cds-ps-ac200564r",
+                "locator": "Main PDF p.2, Preparation of the PS-(CdS)n Assemblies; p.3 Scheme1"
+              }
+            ],
+            "note": "Nominal0.2 um diameter belongs to the starting carboxyl PS scaffold, not a measured final composite diameter."
+          }
+        },
+        "observed_product": {
+          "sample_id": "tem-n4",
+          "parent_sample_id": "ps-cds-4",
+          "batch_id": null,
+          "material_state_id": "tem-n4-specimen",
+          "composition": {
+            "value": "PS-(CdS)4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xiang2011-cds-ps-ac200564r",
+                "locator": "Main PDF p.3 / printed 4304, Figure 1 and results discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No crystal phase or sample coordinates are assigned in the inspected source."
+            },
+            "morphology": {
+              "value": "Randomly distributed nonuniform assembled nanostructures on PS surfaces",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xiang2011-cds-ps-ac200564r",
+                  "locator": "Main PDF p.3 / printed 4304, Figure 1 and results discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "xie1999-cdse-solvothermal-120c-6h::xie1999-cdse-solvothermal-120c-6h-as-prepared-product",
       "record_id": "xie1999-cdse-solvothermal-120c-6h",
       "record_page_path": "records/xie1999-cdse-solvothermal-120c-6h.html",
@@ -118842,6 +119896,1516 @@
               "value": null,
               "status": "not_reported",
               "evidence": [],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-barcode-series::barcode-series",
+      "record_id": "xu2007-ac0701233-qd-polymer-barcode-series",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-barcode-series.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Dual-QD poly(MMA-DMA) barcode series",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Sonic casting of mixed QD1/QD2",
+      "recipe_label": "Xu and Bakker (2007): Dual-QD poly(MMA-DMA) barcode series",
+      "sample_id": "barcode-series",
+      "source_sample_label": "five representative spectra in Figure3 and composition series in Figure4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD1+QD2 in poly(MMA-DMA)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "microspheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS+CdTe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "barcode-series",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD1+QD2 in poly(MMA-DMA)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "microspheres",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.5, printed 3720, Results, dual-QD poly(MMA-DMA) microspheres; Figure3; continued p.6 Figure4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-film-screen-mma-dma::film-mma-dma",
+      "record_id": "xu2007-ac0701233-qd-polymer-film-screen-mma-dma",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-film-screen-mma-dma.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Five polymer matrix film preparations: Poly(MMA-DMA), decyl/dodecyl naming conflict",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Solvent casting of QD-loaded films",
+      "recipe_label": "Xu and Bakker (2007): Five polymer matrix film preparations: Poly(MMA-DMA), decyl/dodecyl naming conflict",
+      "sample_id": "film-mma-dma",
+      "source_sample_label": "Poly(MMA-DMA), decyl/dodecyl naming conflict",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD1/Poly(MMA-DMA), decyl/dodecyl naming conflict",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film-mma-dma",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD1/Poly(MMA-DMA), decyl/dodecyl naming conflict",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-film-screen-pba::film-pba",
+      "record_id": "xu2007-ac0701233-qd-polymer-film-screen-pba",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-film-screen-pba.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Five polymer matrix film preparations: Poly(n-butyl acrylate)",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Solvent casting of QD-loaded films",
+      "recipe_label": "Xu and Bakker (2007): Five polymer matrix film preparations: Poly(n-butyl acrylate)",
+      "sample_id": "film-pba",
+      "source_sample_label": "Poly(n-butyl acrylate)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD1/Poly(n-butyl acrylate)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film-pba",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD1/Poly(n-butyl acrylate)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-film-screen-ps::film-ps",
+      "record_id": "xu2007-ac0701233-qd-polymer-film-screen-ps",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-film-screen-ps.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Five polymer matrix film preparations: Polystyrene",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Solvent casting of QD-loaded films",
+      "recipe_label": "Xu and Bakker (2007): Five polymer matrix film preparations: Polystyrene",
+      "sample_id": "film-ps",
+      "source_sample_label": "Polystyrene",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD1/Polystyrene / DOS-plasticized matrix (5–10 wt% DOS)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+          }
+        ],
+        "note": "DOS percentage basis is retained as printed; no additional matrix charge inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film-ps",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD1/Polystyrene / DOS-plasticized matrix (5–10 wt% DOS)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": "DOS percentage basis is retained as printed; no additional matrix charge inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-film-screen-pu::film-pu",
+      "record_id": "xu2007-ac0701233-qd-polymer-film-screen-pu",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-film-screen-pu.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Five polymer matrix film preparations: Polyurethane (Tecoflex)",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Solvent casting of QD-loaded films",
+      "recipe_label": "Xu and Bakker (2007): Five polymer matrix film preparations: Polyurethane (Tecoflex)",
+      "sample_id": "film-pu",
+      "source_sample_label": "Polyurethane (Tecoflex)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD1/Polyurethane (Tecoflex) / DOS-plasticized matrix (5–10 wt% DOS)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+          }
+        ],
+        "note": "DOS percentage basis is retained as printed; no additional matrix charge inferred."
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film-pu",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD1/Polyurethane (Tecoflex) / DOS-plasticized matrix (5–10 wt% DOS)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": "DOS percentage basis is retained as printed; no additional matrix charge inferred."
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-film-screen-pvc-dos::film-pvc-dos",
+      "record_id": "xu2007-ac0701233-qd-polymer-film-screen-pvc-dos",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-film-screen-pvc-dos.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Five polymer matrix film preparations: PVC/DOS1:2 by mass",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Solvent casting of QD-loaded films",
+      "recipe_label": "Xu and Bakker (2007): Five polymer matrix film preparations: PVC/DOS1:2 by mass",
+      "sample_id": "film-pvc-dos",
+      "source_sample_label": "PVC/DOS1:2 by mass",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD1/PVC/DOS1:2 by mass",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film-pvc-dos",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD1/PVC/DOS1:2 by mass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, polymer film compatibility"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-mono-pba::mono-pba",
+      "record_id": "xu2007-ac0701233-qd-polymer-mono-pba",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-mono-pba.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): poly(n-butyl acrylate) mono-QD, exact QD type unresolved microspheres",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Sonic casting",
+      "recipe_label": "Xu and Bakker (2007): poly(n-butyl acrylate) mono-QD, exact QD type unresolved microspheres",
+      "sample_id": "mono-pba",
+      "source_sample_label": "poly(n-butyl acrylate) mono-QD, exact QD type unresolved",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD-encoded Poly(n-butyl acrylate)",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "uniform microspheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "QD/poly(n-butyl acrylate)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "mono-pba",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD-encoded Poly(n-butyl acrylate)",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "uniform microspheres",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-mono-qd1-mma::mono-qd1-mma",
+      "record_id": "xu2007-ac0701233-qd-polymer-mono-qd1-mma",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-mono-qd1-mma.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Figure2A microspheres",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Sonic casting",
+      "recipe_label": "Xu and Bakker (2007): Figure2A microspheres",
+      "sample_id": "mono-qd1-mma",
+      "source_sample_label": "Figure2A",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD-encoded Poly(MMA-DMA), decyl/dodecyl conflict",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "smooth spherical microspheres; uniform size and brightness",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "mono-qd1-mma",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD-encoded Poly(MMA-DMA), decyl/dodecyl conflict",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "smooth spherical microspheres; uniform size and brightness",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-mono-qd1-pvc::mono-qd1-pvc",
+      "record_id": "xu2007-ac0701233-qd-polymer-mono-qd1-pvc",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-mono-qd1-pvc.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): QD1 PVC/DOS, Results p4 microspheres",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Sonic casting",
+      "recipe_label": "Xu and Bakker (2007): QD1 PVC/DOS, Results p4 microspheres",
+      "sample_id": "mono-qd1-pvc",
+      "source_sample_label": "QD1 PVC/DOS, Results p4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD-encoded PVC/DOS1:2 mass ratio",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "uniform microspheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "mono-qd1-pvc",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD-encoded PVC/DOS1:2 mass ratio",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "uniform microspheres",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xu2007-ac0701233-qd-polymer-mono-qd2-mma::mono-qd2-mma",
+      "record_id": "xu2007-ac0701233-qd-polymer-mono-qd2-mma",
+      "record_page_path": "records/xu2007-ac0701233-qd-polymer-mono-qd2-mma.html",
+      "source_group": "xu2007-ac0701233-qd-polymer",
+      "title": "Xu and Bakker (2007): Figure2B microspheres",
+      "doi": "10.1021/ac0701233",
+      "year": 2007,
+      "method": "Sonic casting",
+      "recipe_label": "Xu and Bakker (2007): Figure2B microspheres",
+      "sample_id": "mono-qd2-mma",
+      "source_sample_label": "Figure2B",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "QD-encoded Poly(MMA-DMA), decyl/dodecyl conflict",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xu2007-ac0701233-qd-polymer",
+            "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xu2007-ac0701233-qd-polymer",
+          "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "smooth spherical microspheres; uniform size and brightness",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe/CdS/polymer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "No intended numeric size stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "mono-qd2-mma",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "product",
+          "composition": {
+            "value": "QD-encoded Poly(MMA-DMA), decyl/dodecyl conflict",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xu2007-ac0701233-qd-polymer",
+                "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
+              "note": "No sample-specific crystal phase assigned in this source."
+            },
+            "morphology": {
+              "value": "smooth spherical microspheres; uniform size and brightness",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xu2007-ac0701233-qd-polymer",
+                  "locator": "Main PDF p.4, printed 3719, Results, monochromatic microsphere preparation and sizes; Figure2 p.5"
+                }
+              ],
               "note": ""
             },
             "measurement_refs": []
