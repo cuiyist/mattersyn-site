@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 175,
+  "material_families": 177,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -80,6 +80,7 @@
     "CdSe/ZnSe",
     "CdSe/polythiophene",
     "CdTe",
+    "CdTe/CdSe",
     "CdTe/MWNT",
     "CeO2",
     "Co",
@@ -152,6 +153,7 @@
     "PbS/TiO2",
     "PbS/glass",
     "PbSe",
+    "PbTe",
     "PbTe+Ag2Te",
     "Pt",
     "Si/SiOx",
@@ -179,18 +181,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 178,
+  "contributing_papers": 181,
   "source_coverage": {
-    "total_contributing_papers": 178,
-    "reviewed_contributing_papers": 178,
+    "total_contributing_papers": 181,
+    "reviewed_contributing_papers": 181,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 708,
+  "synthesis_structure_pairs": 713,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 702,
+  "partial_pairs": 707,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 1715,
+  "all_records": 1726,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -146875,6 +146877,354 @@
       }
     },
     {
+      "pair_row_id": "rodriguez2005-pbte-sio2-1-1887823-11-bilayers::film-11",
+      "record_id": "rodriguez2005-pbte-sio2-1-1887823-11-bilayers",
+      "record_page_path": "records/rodriguez2005-pbte-sio2-1-1887823-11-bilayers.html",
+      "source_group": "rodriguez2005-pbte-sio2-1-1887823",
+      "title": "Rodríguez et al. (2005): 11 PbTe/SiO2 bilayers on Si (100)",
+      "doi": "10.1063/1.1887823",
+      "year": 2005,
+      "method": "Alternating pulsed laser deposition (PLD) of PbTe and plasma enhanced chemical vapor deposition (PECVD) of SiO2",
+      "recipe_label": "Rodríguez et al. (2005): 11 PbTe/SiO2 bilayers on Si (100)",
+      "sample_id": "film-11",
+      "source_sample_label": "11 bilayers; 40 s PLD / 50 s PECVD on Si (100)",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbTe QDs within SiO2 multilayer",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+            "locator": "Main PDF p.3, printed 113117-2, HRTEM results and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+          "locator": "Main PDF p.3, printed 113117-2, HRTEM results and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "face-centered-cubic (fcc) PbTe in SiO2 host",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, HRTEM results and Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbTe QDs embedded in SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, multilayer fabrication, left column below Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.2, printed 113117-1, experimental setup and deposition parameters, right column"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.2, printed 113117-1, experimental setup and deposition parameters, right column"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "layered structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, multilayer fabrication, left column below Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film-11",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "film-11",
+          "composition": {
+            "value": "PbTe QDs within SiO2 multilayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, HRTEM results and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "face-centered-cubic (fcc) PbTe in SiO2 host",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                  "locator": "Main PDF p.3, printed 113117-2, HRTEM results and Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                  "locator": "Main PDF p.3, printed 113117-2, HRTEM results and Figure 1"
+                }
+              ],
+              "note": "Layer geometry and measured particle diameters are separate observations; no explicit particle-shape class."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "rodriguez2005-pbte-sio2-1-1887823-sandwich-series::sandwich-30s",
+      "record_id": "rodriguez2005-pbte-sio2-1-1887823-sandwich-series",
+      "record_page_path": "records/rodriguez2005-pbte-sio2-1-1887823-sandwich-series.html",
+      "source_group": "rodriguez2005-pbte-sio2-1-1887823",
+      "title": "Rodríguez et al. (2005): PbTe sandwich specimens at 20, 30 and 40 s PLD",
+      "doi": "10.1063/1.1887823",
+      "year": 2005,
+      "method": "Alternating pulsed laser deposition (PLD) of PbTe and plasma enhanced chemical vapor deposition (PECVD) of SiO2",
+      "recipe_label": "Rodríguez et al. (2005): PbTe sandwich specimens at 20, 30 and 40 s PLD",
+      "sample_id": "sandwich-30s",
+      "source_sample_label": "Sandwich: 30 s PLD, position P",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbTe QDs between SiO2 layers on carbon/Cu grid",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+            "locator": "Main PDF p.3, printed 113117-2, sandwich preparation and ablation-time series; Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+          "locator": "Main PDF p.3, printed 113117-2, sandwich preparation and ablation-time series; Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "face-centered-cubic (fcc) PbTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, sandwich preparation and ablation-time series; Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbTe QDs embedded in SiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, multilayer fabrication, left column below Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.2, printed 113117-1, experimental setup and deposition parameters, right column"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.2, printed 113117-1, experimental setup and deposition parameters, right column"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "layered structure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, multilayer fabrication, left column below Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "sandwich-30s",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "sandwich-set",
+          "composition": {
+            "value": "PbTe QDs between SiO2 layers on carbon/Cu grid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                "locator": "Main PDF p.3, printed 113117-2, sandwich preparation and ablation-time series; Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "face-centered-cubic (fcc) PbTe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                  "locator": "Main PDF p.3, printed 113117-2, sandwich preparation and ablation-time series; Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "rodriguez2005-pbte-sio2-1-1887823",
+                  "locator": "Main PDF p.3, printed 113117-2, sandwich preparation and ablation-time series; Figure 2"
+                }
+              ],
+              "note": "Layer geometry and measured particle diameters are separate observations; no explicit particle-shape class."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "routzahn2014-single-nc-exchange-nl4044289-route::routzahn2014-single-nc-exchange-nl4044289-cdse-cds-start",
       "record_id": "routzahn2014-single-nc-exchange-nl4044289-route",
       "record_page_path": "records/routzahn2014-single-nc-exchange-nl4044289-route.html",
@@ -232012,6 +232362,1548 @@
                   {
                     "source_id": "zheng2012-ja210285p",
                     "locator": "Main PDF p. 2, Experimental: Synthesis of Cr(III)-Doped ZnSe DMSQDs"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhong2007-cdte-cdse-jp0709407-sequential-growth-series::zhong2007-cdte-cdse-jp0709407-first-se",
+      "record_id": "zhong2007-cdte-cdse-jp0709407-sequential-growth-series",
+      "record_page_path": "records/zhong2007-cdte-cdse-jp0709407-sequential-growth-series.html",
+      "source_group": "zhong2007-cdte-cdse-jp0709407",
+      "title": "Zhong et al. (2007): sequential CdTe seed and CdSe branch growth",
+      "doi": "10.1021/jp0709407",
+      "year": 2007,
+      "method": "sequential CdTe seed and CdSe branch growth",
+      "recipe_label": "Zhong et al. (2007): sequential CdTe seed and CdSe branch growth",
+      "sample_id": "zhong2007-cdte-cdse-jp0709407-first-se",
+      "source_sample_label": "Figure 1b / spectrum II: after first Se addition",
+      "batch_id": null,
+      "parent_sample_id": "zhong2007-cdte-cdse-jp0709407-seed",
+      "composition": {
+        "value": "CdTe–CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhong2007-cdte-cdse-jp0709407",
+            "locator": "Main PDF p.3 Figure 1b; p.4 Figure 6"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhong2007-cdte-cdse-jp0709407",
+          "locator": "Main PDF p.3 Figure 1b; p.4 Figure 6",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdSe nucleating on preformed CdTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.3 Figure 1b; p.4 Figure 6"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe–CdSe heterostructures",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Multiple-branched rods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.2 / printed 6539, section 3.1 synthesis/characterization"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhong2007-cdte-cdse-jp0709407-first-se",
+          "parent_sample_id": "zhong2007-cdte-cdse-jp0709407-seed",
+          "batch_id": null,
+          "material_state_id": "first-se-batch",
+          "composition": {
+            "value": "CdTe–CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.3 Figure 1b; p.4 Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No explicit crystal polytype assignment is made for this specimen."
+            },
+            "morphology": {
+              "value": "CdSe nucleating on preformed CdTe",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhong2007-cdte-cdse-jp0709407",
+                  "locator": "Main PDF p.3 Figure 1b; p.4 Figure 6"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cd-acetate",
+            "ode",
+            "opa",
+            "sa",
+            "se",
+            "te",
+            "top-se",
+            "top-te",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "sa",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.69,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "opa",
+              "pointer": "/materials/3/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.065,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-te",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/7/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Amount in the stated Se-precursor stock; split between the two injections is unresolved.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-se",
+              "pointer": "/materials/8/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.065,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-te",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "se-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Amount in the stated Se-precursor stock; split between the two injections is unresolved.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-se",
+              "stock_id": "se-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhong2007-cdte-cdse-jp0709407-sequential-growth-series::zhong2007-cdte-cdse-jp0709407-second-se",
+      "record_id": "zhong2007-cdte-cdse-jp0709407-sequential-growth-series",
+      "record_page_path": "records/zhong2007-cdte-cdse-jp0709407-sequential-growth-series.html",
+      "source_group": "zhong2007-cdte-cdse-jp0709407",
+      "title": "Zhong et al. (2007): sequential CdTe seed and CdSe branch growth",
+      "doi": "10.1021/jp0709407",
+      "year": 2007,
+      "method": "sequential CdTe seed and CdSe branch growth",
+      "recipe_label": "Zhong et al. (2007): sequential CdTe seed and CdSe branch growth",
+      "sample_id": "zhong2007-cdte-cdse-jp0709407-second-se",
+      "source_sample_label": "Figures 1c,d / spectrum III: after second Se addition",
+      "batch_id": null,
+      "parent_sample_id": "zhong2007-cdte-cdse-jp0709407-first-se",
+      "composition": {
+        "value": "CdTe–CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhong2007-cdte-cdse-jp0709407",
+            "locator": "Main PDF pp.2–4, Figures 1c,d and 2–4; section 3.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhong2007-cdte-cdse-jp0709407",
+          "locator": "Main PDF pp.2–4, Figures 1c,d and 2–4; section 3.1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "CdTe and CdSe components; no named polytype assigned",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.3 Figure 3 and XRD discussion"
+              }
+            ],
+            "note": "Bulk reference sticks do not constitute specimen-specific atomic coordinates."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Multiple-branched rods with about ten branches",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF pp.2–4, Figures 1c,d and 2–4; section 3.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe–CdSe heterostructures",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Multiple-branched rods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.2 / printed 6539, section 3.1 synthesis/characterization"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhong2007-cdte-cdse-jp0709407-second-se",
+          "parent_sample_id": "zhong2007-cdte-cdse-jp0709407-first-se",
+          "batch_id": null,
+          "material_state_id": "second-se-batch",
+          "composition": {
+            "value": "CdTe–CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF pp.2–4, Figures 1c,d and 2–4; section 3.1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "CdTe and CdSe components; no named polytype assigned",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhong2007-cdte-cdse-jp0709407",
+                  "locator": "Main PDF p.3 Figure 3 and XRD discussion"
+                }
+              ],
+              "note": "Bulk reference sticks do not constitute specimen-specific atomic coordinates."
+            },
+            "morphology": {
+              "value": "Multiple-branched rods with about ten branches",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhong2007-cdte-cdse-jp0709407",
+                  "locator": "Main PDF pp.2–4, Figures 1c,d and 2–4; section 3.1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cd-acetate",
+            "ode",
+            "opa",
+            "sa",
+            "se",
+            "te",
+            "top-se",
+            "top-te",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "sa",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.69,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "opa",
+              "pointer": "/materials/3/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.065,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-te",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/7/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Amount in the stated Se-precursor stock; split between the two injections is unresolved.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-se",
+              "pointer": "/materials/8/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.065,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-te",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "se-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Amount in the stated Se-precursor stock; split between the two injections is unresolved.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-se",
+              "stock_id": "se-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhong2007-cdte-cdse-jp0709407-sequential-growth-series::zhong2007-cdte-cdse-jp0709407-seed",
+      "record_id": "zhong2007-cdte-cdse-jp0709407-sequential-growth-series",
+      "record_page_path": "records/zhong2007-cdte-cdse-jp0709407-sequential-growth-series.html",
+      "source_group": "zhong2007-cdte-cdse-jp0709407",
+      "title": "Zhong et al. (2007): sequential CdTe seed and CdSe branch growth",
+      "doi": "10.1021/jp0709407",
+      "year": 2007,
+      "method": "sequential CdTe seed and CdSe branch growth",
+      "recipe_label": "Zhong et al. (2007): sequential CdTe seed and CdSe branch growth",
+      "sample_id": "zhong2007-cdte-cdse-jp0709407-seed",
+      "source_sample_label": "Figure 1a / spectrum I: CdTe before Se addition",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdTe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhong2007-cdte-cdse-jp0709407",
+            "locator": "Main PDF pp.2–3, Figure 1a and section 3.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhong2007-cdte-cdse-jp0709407",
+          "locator": "Main PDF pp.2–3, Figure 1a and section 3.1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Multiple-armed rods with one to four arms",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF pp.2–3, Figure 1a and section 3.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe–CdSe heterostructures",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Multiple-branched rods",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF p.2 / printed 6539, section 3.1 synthesis/characterization"
+              }
+            ],
+            "note": ""
+          },
+          "surface": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "host": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhong2007-cdte-cdse-jp0709407-seed",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "seed-batch",
+          "composition": {
+            "value": "CdTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhong2007-cdte-cdse-jp0709407",
+                "locator": "Main PDF pp.2–3, Figure 1a and section 3.1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": "No explicit crystal polytype assignment is made for this specimen."
+            },
+            "morphology": {
+              "value": "Multiple-armed rods with one to four arms",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhong2007-cdte-cdse-jp0709407",
+                  "locator": "Main PDF pp.2–3, Figure 1a and section 3.1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cd-acetate",
+            "ode",
+            "opa",
+            "sa",
+            "se",
+            "te",
+            "top-se",
+            "top-te",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "sa",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "topo",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-acetate",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.69,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "opa",
+              "pointer": "/materials/3/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.065,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-te",
+              "pointer": "/materials/5/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/6/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/7/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Amount in the stated Se-precursor stock; split between the two injections is unresolved.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-se",
+              "pointer": "/materials/8/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.065,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-te",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "stock_id": "te-stock",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "se-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Amount in the stated Se-precursor stock; split between the two injections is unresolved.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top-se",
+              "stock_id": "se-stock",
+              "pointer": "/stocks/1/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "zhong2007-cdte-cdse-jp0709407",
+                    "locator": "Main PDF p.2 / printed 6539, section 2.2 Synthesis"
                   }
                 ],
                 "derivation": null
