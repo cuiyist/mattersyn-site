@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 215,
+  "material_families": 219,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -69,6 +69,7 @@
     "Cd3P2",
     "CdE (E = S, Se, Te)",
     "CdS",
+    "CdS/CdSe",
     "CdS/HgS/CdS",
     "CdS/PbS",
     "CdS/SiO2",
@@ -97,6 +98,9 @@
     "CdTe/CdSe",
     "CdTe/MWNT",
     "CdTe/Mg-Al-LDH",
+    "CdTe/POSS/PU",
+    "CdTe/PU",
+    "CdTe/PU/POSS",
     "CdTeSe",
     "CeO2",
     "Co",
@@ -219,18 +223,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 208,
+  "contributing_papers": 210,
   "source_coverage": {
-    "total_contributing_papers": 208,
-    "reviewed_contributing_papers": 208,
+    "total_contributing_papers": 210,
+    "reviewed_contributing_papers": 210,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 809,
+  "synthesis_structure_pairs": 811,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 803,
+  "partial_pairs": 805,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 2273,
+  "all_records": 2333,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -179054,6 +179058,436 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "schneider2018-cdte-pu-poss-jpcc7b11027-poss-film-preparation::poss-film-preparation",
+      "record_id": "schneider2018-cdte-pu-poss-jpcc7b11027-poss-film-preparation",
+      "record_page_path": "records/schneider2018-cdte-pu-poss-jpcc7b11027-poss-film-preparation.html",
+      "source_group": "schneider2018-cdte-pu-poss-jpcc7b11027",
+      "title": "Schneider et al. (2018): CdTe/POSS/PU film fabrication",
+      "doi": "10.1021/acs.jpcc.7b11027",
+      "year": 2018,
+      "method": "CdTe/POSS/PU film fabrication",
+      "recipe_label": "Schneider et al. (2018): CdTe/POSS/PU film fabrication",
+      "sample_id": "poss-film-preparation",
+      "source_sample_label": "General CdTe/POSS/PU free-standing film",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdTe/POSS/PU",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+            "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+          },
+          {
+            "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+            "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+          "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films",
+          "claim": null
+        },
+        {
+          "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+          "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "free-standing flexible film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe/POSS/PU",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Independent intended size is not reported; measured sizes remain specimen observations.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "poss-film-preparation",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "s-free-film",
+          "composition": {
+            "value": "CdTe/POSS/PU",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+                },
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "free-standing flexible film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+                },
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "schneider2018-cdte-pu-poss-jpcc7b11027-pu-film-preparation::pu-film-preparation",
+      "record_id": "schneider2018-cdte-pu-poss-jpcc7b11027-pu-film-preparation",
+      "record_page_path": "records/schneider2018-cdte-pu-poss-jpcc7b11027-pu-film-preparation.html",
+      "source_group": "schneider2018-cdte-pu-poss-jpcc7b11027",
+      "title": "Schneider et al. (2018): CdTe/PU film fabrication",
+      "doi": "10.1021/acs.jpcc.7b11027",
+      "year": 2018,
+      "method": "CdTe/PU film fabrication",
+      "recipe_label": "Schneider et al. (2018): CdTe/PU film fabrication",
+      "sample_id": "pu-film-preparation",
+      "source_sample_label": "General CdTe/PU free-standing film",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdTe/PU",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+            "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+          },
+          {
+            "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+            "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+          "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films",
+          "claim": null
+        },
+        {
+          "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+          "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "free-standing flexible film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe/PU",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Independent intended size is not reported; measured sizes remain specimen observations.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "pu-film-preparation",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "s-free-film",
+          "composition": {
+            "value": "CdTe/PU",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+              },
+              {
+                "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+                },
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "free-standing flexible film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.2 / printed 13392, Fabrication of CdTe QD/PU/POSS Composite Films"
+                },
+                {
+                  "source_id": "schneider2018-cdte-pu-poss-jpcc7b11027",
+                  "locator": "Main PDF p.4 / printed 13394, Fabrication and Optical Characterization of CdTe QD/PU Composites"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
