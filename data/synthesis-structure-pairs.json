@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 806,
-    "source_groups": 172,
-    "records": 639,
+    "recipe_structure_rows": 809,
+    "source_groups": 173,
+    "records": 642,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -59895,6 +59895,473 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2024-msc-inznp-jpcc3c07189-qd-f360-0p26::qd",
+      "record_id": "lee2024-msc-inznp-jpcc3c07189-qd-f360-0p26",
+      "record_page_path": "records/lee2024-msc-inznp-jpcc3c07189-qd-f360-0p26.html",
+      "source_group": "lee2024-msc-inznp-jpcc3c07189",
+      "title": "Lee et al. (2024): F360 0.26 mM concentration variant",
+      "doi": "10.1021/acs.jpcc.3c07189",
+      "year": 2024,
+      "method": "F360 0.26 mM concentration variant",
+      "recipe_label": "Lee et al. (2024): F360 0.26 mM concentration variant",
+      "sample_id": "qd",
+      "source_sample_label": "InZnP QDs from 0.26 mM F360",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InZnP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2024-msc-inznp-jpcc3c07189",
+            "locator": "Main PDF p.7 / printed 1815, Figure 6"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2024-msc-inznp-jpcc3c07189",
+          "locator": "Main PDF p.7 / printed 1815, Figure 6",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Model concentration TEM description"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP:Zn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Intended exact size not stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "s-purified",
+          "composition": {
+            "value": "InZnP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                  "locator": "Main PDF p.7 / printed 1815, Figure 6"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                  "locator": "Main PDF p.7 / printed 1815, Model concentration TEM description"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2024-msc-inznp-jpcc3c07189-qd-f360-0p52::qd",
+      "record_id": "lee2024-msc-inznp-jpcc3c07189-qd-f360-0p52",
+      "record_page_path": "records/lee2024-msc-inznp-jpcc3c07189-qd-f360-0p52.html",
+      "source_group": "lee2024-msc-inznp-jpcc3c07189",
+      "title": "Lee et al. (2024): F360 0.52 mM concentration variant",
+      "doi": "10.1021/acs.jpcc.3c07189",
+      "year": 2024,
+      "method": "F360 0.52 mM concentration variant",
+      "recipe_label": "Lee et al. (2024): F360 0.52 mM concentration variant",
+      "sample_id": "qd",
+      "source_sample_label": "InZnP QDs from 0.52 mM F360",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InZnP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2024-msc-inznp-jpcc3c07189",
+            "locator": "Main PDF p.7 / printed 1815, Figure 6"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2024-msc-inznp-jpcc3c07189",
+          "locator": "Main PDF p.7 / printed 1815, Figure 6",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.6 / printed 1814, Model concentration TEM description"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP:Zn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Intended exact size not stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "s-purified",
+          "composition": {
+            "value": "InZnP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.7 / printed 1815, Figure 6"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                  "locator": "Main PDF p.7 / printed 1815, Figure 6"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                  "locator": "Main PDF p.6 / printed 1814, Model concentration TEM description"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "lee2024-msc-inznp-jpcc3c07189-qd-f393-0p52::qd",
+      "record_id": "lee2024-msc-inznp-jpcc3c07189-qd-f393-0p52",
+      "record_page_path": "records/lee2024-msc-inznp-jpcc3c07189-qd-f393-0p52.html",
+      "source_group": "lee2024-msc-inznp-jpcc3c07189",
+      "title": "Lee et al. (2024): F393 0.52 mM concentration variant",
+      "doi": "10.1021/acs.jpcc.3c07189",
+      "year": 2024,
+      "method": "F393 0.52 mM concentration variant",
+      "recipe_label": "Lee et al. (2024): F393 0.52 mM concentration variant",
+      "sample_id": "qd",
+      "source_sample_label": "InZnP QDs from 0.52 mM F393",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InZnP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lee2024-msc-inznp-jpcc3c07189",
+            "locator": "Main PDF p.4 / printed 1812, Figure 3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lee2024-msc-inznp-jpcc3c07189",
+          "locator": "Main PDF p.4 / printed 1812, Figure 3",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "zinc blende",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.5 / printed 1813, QD XRD peak assignment during0.52mM series"
+              }
+            ],
+            "note": "Broadened43.8° peak assigned to(220)."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.3 / printed 1811, Model concentration TEM description"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP:Zn",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.4 / printed 1812, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.4 / printed 1812, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Intended exact size not stated",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.4 / printed 1812, Figure 3"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.4 / printed 1812, Figure 3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "s-purified",
+          "composition": {
+            "value": "InZnP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                "locator": "Main PDF p.4 / printed 1812, Figure 3"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "zinc blende",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                  "locator": "Main PDF p.5 / printed 1813, QD XRD peak assignment during0.52mM series"
+                }
+              ],
+              "note": "Broadened43.8° peak assigned to(220)."
+            },
+            "morphology": {
+              "value": "spherical",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lee2024-msc-inznp-jpcc3c07189",
+                  "locator": "Main PDF p.3 / printed 1811, Model concentration TEM description"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
