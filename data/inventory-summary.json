@@ -10,12 +10,12 @@
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
     "curated_library_additions": 118,
-    "canonical_records": 2414,
-    "reviewed_literature_records": 2314,
-    "reviewed_literature_source_groups": 211,
+    "canonical_records": 2480,
+    "reviewed_literature_records": 2380,
+    "reviewed_literature_source_groups": 213,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 212,
+    "total_canonical_source_groups": 214,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
     "formal_full_main_reviews_si_unverified": 104,
@@ -26,42 +26,42 @@
     "formal_main_and_selected_si_review_pages": 30,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
-    "selected_recipe_figure_review_sources": 61,
-    "local_groups_without_canonical_records": 4082,
-    "synthesis_route_variant_records": 1006,
+    "selected_recipe_figure_review_sources": 63,
+    "local_groups_without_canonical_records": 4080,
+    "synthesis_route_variant_records": 1029,
     "contextual_control_variant_records": 83,
-    "shared_preparation_workup_characterization_assay_procedures": 754,
-    "nonprocedure_literature_records": 1560,
+    "shared_preparation_workup_characterization_assay_procedures": 794,
+    "nonprocedure_literature_records": 1586,
     "literature_record_type_counts": {
       "experiment": 45,
-      "literature_protocol": 793,
-      "observation": 433,
-      "procedure": 754,
+      "literature_protocol": 816,
+      "observation": 436,
+      "procedure": 794,
       "protocol_variant": 289
     },
     "canonical_record_type_counts": {
       "experiment": 145,
-      "literature_protocol": 793,
-      "observation": 433,
-      "procedure": 754,
+      "literature_protocol": 816,
+      "observation": 436,
+      "procedure": 794,
       "protocol_variant": 289
     },
-    "literature_recipe_family_ids": 360,
-    "primary_synthesis_recipe_family_ids": 298,
-    "public_material_hubs": 256,
-    "direct_synthesis_target_systems": 220,
+    "literature_recipe_family_ids": 362,
+    "primary_synthesis_recipe_family_ids": 300,
+    "public_material_hubs": 257,
+    "direct_synthesis_target_systems": 221,
     "component_only_hubs": 36,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 301,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 305,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
-    "contextual_observation_records": 433,
-    "recipe_or_control_literature_records": 1089,
-    "contextual_observation_family_ids": 106,
-    "source_checked_synthesis_structure_rows": 812,
-    "source_groups_with_synthesis_structure_rows": 175,
+    "contextual_observation_records": 436,
+    "recipe_or_control_literature_records": 1112,
+    "contextual_observation_family_ids": 107,
+    "source_checked_synthesis_structure_rows": 813,
+    "source_groups_with_synthesis_structure_rows": 176,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -304,6 +304,7 @@
       "ZnO:Ni",
       "ZnS",
       "ZnS:Mn",
+      "ZnS:Mn/ZnS",
       "ZnSSeTe",
       "ZnSTe",
       "ZnSe",
@@ -501,7 +502,10 @@
       "ZnSe",
       "ZnSeTe/ZnSSe/ZnSTe",
       "ZrO2",
-      "copper phthalocyanine"
+      "copper phthalocyanine",
+      "ligand1",
+      "saturated hydrocarbons",
+      "source chemical inventory"
     ],
     "excluded_precursor_procedure_identities": [
       "Fe–C–H–O",
@@ -3000,6 +3004,225 @@
         "deng-2010-cu2s-graphite-ce-8h": "records/deng-2010-cu2s-graphite-ce-8h.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+      "paper_id": "dhaene2019-ode-polymerization-nanolett9b03088",
+      "doi": "10.1021/acs.nanolett.9b03088",
+      "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+      "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis",
+      "year": 2019,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "review_scope": "Complete author and independent auditor reading of all seven main and ten SI pages: ODE polymerization controls, partial external-method NC syntheses and solvent substitutions, metal-oleate preparations, ligand exchanges, failed purification and measurement contexts. All missing external conditions and sample identities remain explicit.",
+      "documents": [
+        {
+          "role": "main",
+          "sha256": "9d52f9c0ea479200af39f11201e874d19e4c39259dab1f9104cbb5a574cc4b2e",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "author_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "author_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        },
+        {
+          "role": "si",
+          "sha256": "d23f08a2eb7b5796734146f68f14476611fac196f889f7e275f11499eb0ad30a",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "author_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "author_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/records/dhaene2019-ode-polymerization-nanolett9b03088-cds-ode.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "Matching screened-pass local SI: all ten pages actually read as text and original-page images by the author and independent auditor; scoped independent audit completed.",
+      "notes": [
+        "The author and independent auditor each actually read all seven main and ten SI pages as text and original-page images; their original source work is reused without claiming new reading.",
+        "Formal Reader remains scoped with a null paper_review_url; complete document reading is recorded truthfully.",
+        "External cited methods, missing numerical parameters and sample identities are not inferred."
+      ],
+      "canonical_record_count": 45,
+      "synthesis_route_variant_count": 10,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 3,
+      "procedure_count": 32,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 111,
+      "record_type_counts": {
+        "literature_protocol": 10,
+        "observation": 3,
+        "procedure": 32
+      },
+      "canonical_recipe_family_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088"
+      ],
+      "direct_route_material_systems": [
+        "CdS",
+        "CuInS2",
+        "Fe3O4",
+        "TiO2",
+        "ZnS:Mn/ZnS"
+      ],
+      "record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-cadmium-oleate",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-ligand1-exchange",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-saturated",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cuis-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cuis-saturated",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-hexadecane",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-octadecane",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-oleylamine",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-tetraglyme",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-saturated",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-stripping-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-stripping-saturated",
+        "dhaene2019-ode-polymerization-nanolett9b03088-iron-oleate",
+        "dhaene2019-ode-polymerization-nanolett9b03088-ligand1-reference",
+        "dhaene2019-ode-polymerization-nanolett9b03088-manganese-oleate",
+        "dhaene2019-ode-polymerization-nanolett9b03088-materials-provenance",
+        "dhaene2019-ode-polymerization-nanolett9b03088-method-nmr",
+        "dhaene2019-ode-polymerization-nanolett9b03088-method-sec",
+        "dhaene2019-ode-polymerization-nanolett9b03088-method-tem",
+        "dhaene2019-ode-polymerization-nanolett9b03088-ode-reference",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-100",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-120",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-160",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-as-received-degassed",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-ethanol",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-isopropanol",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-methyl-acetate",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-vacuum-distilled",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-320",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-acetonitrile-biphasic",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-methanol-biphasic",
+        "dhaene2019-ode-polymerization-nanolett9b03088-sec-purification-failure",
+        "dhaene2019-ode-polymerization-nanolett9b03088-solvent-selection",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-nmr-preparation",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-saturated",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zinc-oleate",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ligand1-exchange",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-saturated",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-stripping"
+      ],
+      "record_urls": {
+        "dhaene2019-ode-polymerization-nanolett9b03088-cadmium-oleate": "records/dhaene2019-ode-polymerization-nanolett9b03088-cadmium-oleate.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-ligand1-exchange": "records/dhaene2019-ode-polymerization-nanolett9b03088-cds-ligand1-exchange.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-cds-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-saturated": "records/dhaene2019-ode-polymerization-nanolett9b03088-cds-saturated.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cuis-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-cuis-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cuis-saturated": "records/dhaene2019-ode-polymerization-nanolett9b03088-cuis-saturated.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-hexadecane": "records/dhaene2019-ode-polymerization-nanolett9b03088-distill-hexadecane.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-octadecane": "records/dhaene2019-ode-polymerization-nanolett9b03088-distill-octadecane.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-distill-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-oleylamine": "records/dhaene2019-ode-polymerization-nanolett9b03088-distill-oleylamine.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-distill-tetraglyme": "records/dhaene2019-ode-polymerization-nanolett9b03088-distill-tetraglyme.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-saturated": "records/dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-saturated.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-stripping-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-stripping-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-stripping-saturated": "records/dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-stripping-saturated.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-iron-oleate": "records/dhaene2019-ode-polymerization-nanolett9b03088-iron-oleate.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-ligand1-reference": "records/dhaene2019-ode-polymerization-nanolett9b03088-ligand1-reference.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-manganese-oleate": "records/dhaene2019-ode-polymerization-nanolett9b03088-manganese-oleate.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-materials-provenance": "records/dhaene2019-ode-polymerization-nanolett9b03088-materials-provenance.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-method-nmr": "records/dhaene2019-ode-polymerization-nanolett9b03088-method-nmr.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-method-sec": "records/dhaene2019-ode-polymerization-nanolett9b03088-method-sec.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-method-tem": "records/dhaene2019-ode-polymerization-nanolett9b03088-method-tem.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-ode-reference": "records/dhaene2019-ode-polymerization-nanolett9b03088-ode-reference.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-100": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-100.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-120": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-120.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-160": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-160.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-240.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-as-received-degassed": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-240-as-received-degassed.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-ethanol": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-240-ethanol.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-isopropanol": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-240-isopropanol.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-methyl-acetate": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-240-methyl-acetate.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-240-vacuum-distilled": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-240-vacuum-distilled.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-320": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-320.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-acetonitrile-biphasic": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-acetonitrile-biphasic.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-poly-methanol-biphasic": "records/dhaene2019-ode-polymerization-nanolett9b03088-poly-methanol-biphasic.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-sec-purification-failure": "records/dhaene2019-ode-polymerization-nanolett9b03088-sec-purification-failure.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-solvent-selection": "records/dhaene2019-ode-polymerization-nanolett9b03088-solvent-selection.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-nmr-preparation": "records/dhaene2019-ode-polymerization-nanolett9b03088-tio2-nmr-preparation.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-tio2-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-saturated": "records/dhaene2019-ode-polymerization-nanolett9b03088-tio2-saturated.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zinc-oleate": "records/dhaene2019-ode-polymerization-nanolett9b03088-zinc-oleate.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ligand1-exchange": "records/dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ligand1-exchange.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ode": "records/dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ode.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-saturated": "records/dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-saturated.html",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-stripping": "records/dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-stripping.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "dhaene2022-main",
@@ -10605,6 +10828,165 @@
         "peng-2000-cdse-typical": "records/peng-2000-cdse-typical.html"
       },
       "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "prins2021-superfocusing-nanolett0c04813",
+      "paper_id": "prins2021-superfocusing-nanolett0c04813",
+      "doi": "10.1021/acs.nanolett.0c04813",
+      "url": "https://doi.org/10.1021/acs.nanolett.0c04813",
+      "title": "Extended Nucleation and Superfocusing in Colloidal Semiconductor Nanocrystal Synthesis",
+      "year": 2021,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope": "Source-scoped preparations and associated SAXS, microscopy and optical evidence from the complete 10-page main article and 32-page SI. CdSe, PbS and CdS routes, stocks, workup, separate laboratory benchmark, double-injection variants, single-injection controls and partial calibration preparations are distinct. Theoretical curves and reference structures are explicitly separated from measured specimens. No exact unreported batch, graph coordinate or atomic structure is reconstructed; no complete-paper Reader is claimed.",
+      "documents": [
+        {
+          "role": "main",
+          "document_id": "main",
+          "sha256": "d7ce0d4e99f3815966bdf65d9ac5fa2bb8152eb0fd6dc36e3d129f65a785e7e7",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "scope": "All admitted main pages actually read as text and images. Structured contribution is scoped to operational preparations and associated evidence; theoretical derivations are not synthetic recipes."
+        },
+        {
+          "role": "si",
+          "document_id": "si",
+          "sha256": "82a518233b0fcaba1a517739c33eab14f0a7643abf08e29a3d0e74bc7855bfbd",
+          "page_count": 32,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "scope": "All admitted si pages actually read as text and images. Structured contribution is scoped to operational preparations and associated evidence; theoretical derivations are not synthetic recipes."
+        }
+      ],
+      "evidence_locator": "data/records/prins2021-superfocusing-nanolett0c04813-cdse-saxs.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "selected_related_SI_review",
+      "notes": [
+        "All 10 main and 32 SI pages were actually read as text and images, including blank SI p.30 and reference pages. Structured extraction selects operational preparations and associated measured evidence; the full theoretical derivation is not reconstructed as synthetic recipes.",
+        "Cited external protocols, reference datasets and atomistic coordinates are not retrieved. Source-reported literature/model assumptions remain attributed; they do not establish a new measured phase or exact-batch cell.",
+        "No graph coordinates are digitized. Unlabeled individual aliquot values, calibration-run ratios and exact batch identifiers remain unknown. Complete selected plots preserve curve-level evidence.",
+        "Model-only main Figures 3 and 5, SI S4 and S6 are explicitly theoretical. Their simulated timing, rate parameters and concentrations are not laboratory instructions or measured sample results.",
+        "The two PL calibration syntheses are explicitly reported but their different oleic-acid ratios and per-color run assignments are unreported. They remain partial, separate preparations with common-method inheritance bounded.",
+        "Source figure permission is retained factually from the document; standalone SI reuse permission is unverified. Full pages, source text and extended source prose remain private.",
+        "Ethanol is listed in S1.1 but no reported operational charge uses it; no fictitious input is added."
+      ],
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 21,
+      "synthesis_route_variant_count": 13,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 8,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 33,
+      "record_type_counts": {
+        "literature_protocol": 13,
+        "procedure": 8
+      },
+      "canonical_recipe_family_ids": [
+        "prins2021-superfocusing-nanolett0c04813"
+      ],
+      "direct_route_material_systems": [
+        "CdS",
+        "CdSe",
+        "PbS"
+      ],
+      "record_ids": [
+        "prins2021-superfocusing-nanolett0c04813-cadmium-oleate-acetate",
+        "prins2021-superfocusing-nanolett0c04813-cadmium-oleate-oxide",
+        "prins2021-superfocusing-nanolett0c04813-cds-top-s",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-200",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-230",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-270",
+        "prins2021-superfocusing-nanolett0c04813-cdse-black-se-double",
+        "prins2021-superfocusing-nanolett0c04813-cdse-black-se-single",
+        "prins2021-superfocusing-nanolett0c04813-cdse-lab-benchmark",
+        "prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-1",
+        "prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-2",
+        "prins2021-superfocusing-nanolett0c04813-cdse-saxs",
+        "prins2021-superfocusing-nanolett0c04813-cdse-saxs-workup",
+        "prins2021-superfocusing-nanolett0c04813-cdse-single-230",
+        "prins2021-superfocusing-nanolett0c04813-cdse-stearate",
+        "prins2021-superfocusing-nanolett0c04813-cdse-stearate-aliquots",
+        "prins2021-superfocusing-nanolett0c04813-oda-pretreatment",
+        "prins2021-superfocusing-nanolett0c04813-pbs-thiourea",
+        "prins2021-superfocusing-nanolett0c04813-selenium-top-s1",
+        "prins2021-superfocusing-nanolett0c04813-top-s-stock",
+        "prins2021-superfocusing-nanolett0c04813-topo-pretreatment"
+      ],
+      "record_urls": {
+        "prins2021-superfocusing-nanolett0c04813-cadmium-oleate-acetate": "records/prins2021-superfocusing-nanolett0c04813-cadmium-oleate-acetate.html",
+        "prins2021-superfocusing-nanolett0c04813-cadmium-oleate-oxide": "records/prins2021-superfocusing-nanolett0c04813-cadmium-oleate-oxide.html",
+        "prins2021-superfocusing-nanolett0c04813-cds-top-s": "records/prins2021-superfocusing-nanolett0c04813-cds-top-s.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-200": "records/prins2021-superfocusing-nanolett0c04813-cdse-bimodal-200.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-230": "records/prins2021-superfocusing-nanolett0c04813-cdse-bimodal-230.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-270": "records/prins2021-superfocusing-nanolett0c04813-cdse-bimodal-270.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-black-se-double": "records/prins2021-superfocusing-nanolett0c04813-cdse-black-se-double.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-black-se-single": "records/prins2021-superfocusing-nanolett0c04813-cdse-black-se-single.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-lab-benchmark": "records/prins2021-superfocusing-nanolett0c04813-cdse-lab-benchmark.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-1": "records/prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-1.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-2": "records/prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-2.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-saxs": "records/prins2021-superfocusing-nanolett0c04813-cdse-saxs.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-saxs-workup": "records/prins2021-superfocusing-nanolett0c04813-cdse-saxs-workup.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-single-230": "records/prins2021-superfocusing-nanolett0c04813-cdse-single-230.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-stearate": "records/prins2021-superfocusing-nanolett0c04813-cdse-stearate.html",
+        "prins2021-superfocusing-nanolett0c04813-cdse-stearate-aliquots": "records/prins2021-superfocusing-nanolett0c04813-cdse-stearate-aliquots.html",
+        "prins2021-superfocusing-nanolett0c04813-oda-pretreatment": "records/prins2021-superfocusing-nanolett0c04813-oda-pretreatment.html",
+        "prins2021-superfocusing-nanolett0c04813-pbs-thiourea": "records/prins2021-superfocusing-nanolett0c04813-pbs-thiourea.html",
+        "prins2021-superfocusing-nanolett0c04813-selenium-top-s1": "records/prins2021-superfocusing-nanolett0c04813-selenium-top-s1.html",
+        "prins2021-superfocusing-nanolett0c04813-top-s-stock": "records/prins2021-superfocusing-nanolett0c04813-top-s-stock.html",
+        "prins2021-superfocusing-nanolett0c04813-topo-pretreatment": "records/prins2021-superfocusing-nanolett0c04813-topo-pretreatment.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
     },
     {
       "source_group": "qian2010-cdte-silica-ac100558t",
@@ -22306,7 +22688,7 @@
       "contextual_control_record_ids": [],
       "contextual_observation_count": 0,
       "contextual_observation_record_ids": [],
-      "procedure_count": 1,
+      "procedure_count": 2,
       "benchmark_row_count": 0,
       "public_hub_exists": false,
       "public_hub_component_only": null,
@@ -22317,9 +22699,16 @@
       "material_hub_id": null,
       "material_hub_url": null,
       "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "evans2010"
       ],
       "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        },
         {
           "source_group": "evans2010",
           "doi": "10.1021/ja103805s",
@@ -22472,7 +22861,7 @@
       "notes": [
         "Two no-seed control protocols carry this product identity in the canonical data, but are not published as independently complete synthesis routes. Public hub contributions are shell-growth components."
       ],
-      "direct_synthesis_route_variant_count": 90,
+      "direct_synthesis_route_variant_count": 93,
       "direct_route_record_ids": [
         "cds-phosphonate-control-275-250",
         "cds-polyurethane-la062210g-ligand-0p5",
@@ -22484,6 +22873,8 @@
         "cds-polyurethane-la062210g-water-0p45",
         "cds-polyurethane-la062210g-water-0p9",
         "cds-tetradecylphosphinate-275-250",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cds-saturated",
         "hamachi2017-cds-7b02861-cds-1a",
         "hamachi2017-cds-7b02861-cds-1b",
         "hamachi2017-cds-7b02861-cds-1c",
@@ -22528,6 +22919,7 @@
         "nagasaki-2004-biotin-cds",
         "nagasaki-2004-cho-cds",
         "park2016-supra-qd-6b01126-cds",
+        "prins2021-superfocusing-nanolett0c04813-cds-top-s",
         "sahoo2010-cds-jp912103t-as-prepared",
         "sellers2015-cds-cdse-amide-jpcc5b07504-cds-amide-atp",
         "sellers2015-cds-cdse-amide-jpcc5b07504-cds-nhs",
@@ -22593,11 +22985,11 @@
         "yang2016-biomineralized-cds-iecr6b03487-core-zincblende-lattice",
         "yao2015-seed-30min-morphology-context"
       ],
-      "procedure_count": 57,
+      "procedure_count": 58,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 120,
+      "public_hub_route_contributions": 123,
       "component_route_contribution_count": 30,
       "component_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
@@ -22631,7 +23023,7 @@
         "yao2015-planar-cds-pbs-6-cycles",
         "zhu-ja210312s-cdse-cds-six-ml"
       ],
-      "primary_reviewed_source_count": 20,
+      "primary_reviewed_source_count": 22,
       "material_hub_id": "cds-fad408",
       "material_hub_url": "material.html?id=cds-fad408",
       "source_groups": [
@@ -22640,6 +23032,7 @@
         "braun2001",
         "cds-polyurethane-la062210g",
         "dabbousi1997",
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "dhaene2022-main",
         "ghosh2012",
         "gu2004",
@@ -22652,6 +23045,7 @@
         "nagasaki2004",
         "nakonechnyi2017",
         "park2016-supra-qd-6b01126",
+        "prins2021-superfocusing-nanolett0c04813",
         "sahoo2010-cds-jp912103t",
         "sellers2015-cds-cdse-amide-jpcc5b07504",
         "shi2012-ac2033968-cds-carbon-paper",
@@ -22695,6 +23089,12 @@
           "doi": "10.1021/jp971091y",
           "url": "https://doi.org/10.1021/jp971091y",
           "title": "(CdSe)ZnS Core–Shell Quantum Dots: Synthesis and Characterization of a Size Series of Highly Luminescent Nanocrystallites"
+        },
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
         },
         {
           "source_group": "dhaene2022-main",
@@ -22767,6 +23167,12 @@
           "doi": "10.1021/acs.chemmater.6b01126",
           "url": "https://doi.org/10.1021/acs.chemmater.6b01126",
           "title": "Formation and Stepwise Self-Assembly of Cadmium Chalcogenide Nanocrystals to Colloidal Supra-Quantum Dots and the Superlattices"
+        },
+        {
+          "source_group": "prins2021-superfocusing-nanolett0c04813",
+          "doi": "10.1021/acs.nanolett.0c04813",
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04813",
+          "title": "Extended Nucleation and Superfocusing in Colloidal Semiconductor Nanocrystal Synthesis"
         },
         {
           "source_group": "sahoo2010-cds-jp912103t",
@@ -22843,6 +23249,7 @@
       ],
       "direct_route_recipe_family_ids": [
         "cds-polyurethane-la062210g",
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "dhaene2022-cds-phosphonate-control-with-top-s",
         "dhaene2022-cds-top-s-substitution-in-hot-injection-rod-protocol",
         "dien160",
@@ -22855,6 +23262,7 @@
         "li2009-cds-oleate",
         "nagasaki2004-aqueous-polymer-cds",
         "park2016-supra-qd-6b01126",
+        "prins2021-superfocusing-nanolett0c04813",
         "py160",
         "sahoo2010-cds-jp912103t",
         "sellers2015-cds-cdse-amide-jpcc5b07504",
@@ -23301,7 +23709,7 @@
         "Before the Danek1996 addition: Seven direct routes: Murray3, Peng2, Nakonechnyi2. Public hub count13 also includes six CdSe-core-containing shell-growth records; those are not extra bare-CdSe recipes.",
         "Danek1996 adds three existing route IDs to this hub; the current route contribution count is 16. The shell-overgrowth route is distinct from the two matrix-film routes; component links do not create standalone CdSe or ZnSe synthesis recipes."
       ],
-      "direct_synthesis_route_variant_count": 81,
+      "direct_synthesis_route_variant_count": 92,
       "direct_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-large-seed-no-extra-top",
         "alam2012-cdse-cds-ica201110038-cdse-teardrop",
@@ -23363,6 +23771,17 @@
         "peng-1998-cdse-focusing",
         "peng-2000-cdse-high-aspect",
         "peng-2000-cdse-typical",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-200",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-230",
+        "prins2021-superfocusing-nanolett0c04813-cdse-bimodal-270",
+        "prins2021-superfocusing-nanolett0c04813-cdse-black-se-double",
+        "prins2021-superfocusing-nanolett0c04813-cdse-black-se-single",
+        "prins2021-superfocusing-nanolett0c04813-cdse-lab-benchmark",
+        "prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-1",
+        "prins2021-superfocusing-nanolett0c04813-cdse-pl-calibration-2",
+        "prins2021-superfocusing-nanolett0c04813-cdse-saxs",
+        "prins2021-superfocusing-nanolett0c04813-cdse-single-230",
+        "prins2021-superfocusing-nanolett0c04813-cdse-stearate",
         "sellers2015-cds-cdse-amide-jpcc5b07504-cdse-atp",
         "sellers2015-cds-cdse-amide-jpcc5b07504-cdse-tdpa",
         "sellers2015-cds-cdse-amide-jpcc5b07504-cdse-tp",
@@ -23431,11 +23850,11 @@
         "wang2005-lss-cdse",
         "zou2004-cdse-ac049012j-aggregate-series"
       ],
-      "procedure_count": 38,
+      "procedure_count": 40,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 121,
+      "public_hub_route_contributions": 132,
       "component_route_contribution_count": 40,
       "component_route_record_ids": [
         "alam2012-cdse-cds-ica201110038-cdse-cds-head-tail",
@@ -23479,7 +23898,7 @@
         "zhong2007-cdte-cdse-jp0709407-sequential-growth-series",
         "zhu-ja210312s-cdse-cds-six-ml"
       ],
-      "primary_reviewed_source_count": 31,
+      "primary_reviewed_source_count": 32,
       "material_hub_id": "cdse-d923c5",
       "material_hub_url": "cdse.html",
       "source_groups": [
@@ -23510,6 +23929,7 @@
         "park2016-supra-qd-6b01126",
         "peng1998",
         "peng2000",
+        "prins2021-superfocusing-nanolett0c04813",
         "sellers2015-cds-cdse-amide-jpcc5b07504",
         "wang2005-lss-nature03968",
         "welch2020-qd-ionic-liquid-macromol0c00011",
@@ -23686,6 +24106,12 @@
           "title": "Shape control of CdSe nanocrystals"
         },
         {
+          "source_group": "prins2021-superfocusing-nanolett0c04813",
+          "doi": "10.1021/acs.nanolett.0c04813",
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04813",
+          "title": "Extended Nucleation and Superfocusing in Colloidal Semiconductor Nanocrystal Synthesis"
+        },
+        {
           "source_group": "sellers2015-cds-cdse-amide-jpcc5b07504",
           "doi": "10.1021/acs.jpcc.5b07504",
           "url": "https://doi.org/10.1021/acs.jpcc.5b07504",
@@ -23781,6 +24207,7 @@
         "park2016-supra-qd-6b01126",
         "peng1998-cdse-focusing",
         "peng2000-cdse",
+        "prins2021-superfocusing-nanolett0c04813",
         "py160",
         "sellers2015-cds-cdse-amide-jpcc5b07504",
         "xie1999-cdse-jssc19998179-solvothermal-en",
@@ -27024,8 +27451,10 @@
     {
       "material_system": "CuInS2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 9,
+      "direct_synthesis_route_variant_count": 11,
       "direct_route_record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-cuis-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-cuis-saturated",
         "dierick2014-cuins2-cm502687p-odam",
         "dierick2014-cuins2-cm502687p-olam",
         "so2015-cuins2-chemmater5b03943-injection-110c",
@@ -27044,17 +27473,24 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 9,
+      "public_hub_route_contributions": 11,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 2,
+      "primary_reviewed_source_count": 3,
       "material_hub_id": "cuins2-5b1445",
       "material_hub_url": "material.html?id=cuins2-5b1445",
       "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "dierick2014-cuins2-cm502687p",
         "so2015-cuins2-chemmater5b03943"
       ],
       "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        },
         {
           "source_group": "dierick2014-cuins2-cm502687p",
           "doi": "10.1021/cm502687p",
@@ -27069,6 +27505,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "dierick2014-cuins2-cm502687p",
         "so2015-cuins2-chemmater5b03943"
       ]
@@ -27462,8 +27899,10 @@
     {
       "material_system": "Fe3O4",
       "notes": [],
-      "direct_synthesis_route_variant_count": 10,
+      "direct_synthesis_route_variant_count": 12,
       "direct_route_record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-fe3o4-saturated",
         "ge2007-fe3o4-cnc-141nm",
         "ge2007-fe3o4-cnc-174nm",
         "ge2007-fe3o4-cnc-31nm",
@@ -27481,20 +27920,21 @@
       "contextual_observation_record_ids": [
         "wang2005-lss-fe3o4"
       ],
-      "procedure_count": 0,
+      "procedure_count": 2,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 12,
+      "public_hub_route_contributions": 14,
       "component_route_contribution_count": 2,
       "component_route_record_ids": [
         "xu2008-hierarchical-nc-assemblies-adma200800215-ag-fe3o4-mixed",
         "xu2008-hierarchical-nc-assemblies-adma200800215-au-ag-fe3o4-mixed"
       ],
-      "primary_reviewed_source_count": 6,
+      "primary_reviewed_source_count": 7,
       "material_hub_id": "fe3o4-a36358",
       "material_hub_url": "material.html?id=fe3o4-a36358",
       "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "ge2007-magnetite-anie200700197",
         "jie2012-fe3o4-cdse-ac203261x",
         "tang2001-fe3o4-pld",
@@ -27503,6 +27943,12 @@
         "xu2008-hierarchical-nc-assemblies-adma200800215"
       ],
       "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        },
         {
           "source_group": "ge2007-magnetite-anie200700197",
           "doi": "10.1002/anie.200700197",
@@ -27541,6 +27987,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "ge2007-magnetite-anie200700197",
         "jie2012-fe3o4-cdse-ac203261x",
         "tang2001-fe3o4-pld",
@@ -30761,7 +31208,7 @@
       "notes": [
         "Numeric benchmark only, one source. 100 selected rows include95 optical outcomes and5 source-coded failures; no reviewed synthesis hub."
       ],
-      "direct_synthesis_route_variant_count": 23,
+      "direct_synthesis_route_variant_count": 24,
       "direct_route_record_ids": [
         "basel-2020-pbs-hot-injection-80c",
         "choi2006-pbs-aptamer-ja066506k-tae",
@@ -30779,6 +31226,7 @@
         "mukherjee1996-pbs-bf00264103-table1-row-11",
         "mukherjee1996-pbs-bf00264103-table1-row-12",
         "mukherjee1996-pbs-bf00264103-table1-row-13",
+        "prins2021-superfocusing-nanolett0c04813-pbs-thiourea",
         "yao2015-pbs-hot-injection-120c",
         "yarema2017-underpressure-chemmater6b04789-pbs-large-6p25",
         "yarema2017-underpressure-chemmater6b04789-pbs-large-75",
@@ -30808,7 +31256,7 @@
       "benchmark_row_count": 100,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 38,
+      "public_hub_route_contributions": 39,
       "component_route_contribution_count": 15,
       "component_route_record_ids": [
         "dantas-2002-afm1",
@@ -30827,7 +31275,7 @@
         "yao2015-cds-pbs-7-cycles",
         "yao2015-planar-cds-pbs-6-cycles"
       ],
-      "primary_reviewed_source_count": 7,
+      "primary_reviewed_source_count": 8,
       "material_hub_id": "pbs-7e1774",
       "material_hub_url": "material.html?id=pbs-7e1774",
       "source_groups": [
@@ -30836,6 +31284,7 @@
         "dai2017-pbs-nio-analchem7b01557",
         "dantas2002",
         "mukherjee1996-pbs-bf00264103",
+        "prins2021-superfocusing-nanolett0c04813",
         "ratanatawanate2009-pbs-tio2-jp903050h",
         "voznyy2019",
         "wang2005-lss-nature03968",
@@ -30873,6 +31322,12 @@
           "doi": "10.1007/bf00264103",
           "url": "https://doi.org/10.1007/bf00264103",
           "title": "Synthesis of nanocrystalline PbS by a chemical route"
+        },
+        {
+          "source_group": "prins2021-superfocusing-nanolett0c04813",
+          "doi": "10.1021/acs.nanolett.0c04813",
+          "url": "https://doi.org/10.1021/acs.nanolett.0c04813",
+          "title": "Extended Nucleation and Superfocusing in Colloidal Semiconductor Nanocrystal Synthesis"
         },
         {
           "source_group": "ratanatawanate2009-pbs-tio2-jp903050h",
@@ -30916,6 +31371,7 @@
         "choi2006-pbs-aptamer-ja066506k",
         "dai2017-pbs-nio-analchem7b01557",
         "mukherjee1996-pbs-bf00264103",
+        "prins2021-superfocusing-nanolett0c04813",
         "yao2015-cds-pbs-source-study",
         "yarema2017-underpressure-chemmater6b04789-pbs"
       ]
@@ -32901,10 +33357,12 @@
     {
       "material_system": "TiO2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 35,
+      "direct_synthesis_route_variant_count": 37,
       "direct_route_record_ids": [
         "colfen2003-tio2-sample-1-acetic-acid",
         "colfen2003-tio2-sample-2-nitric-acid",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-tio2-saturated",
         "iwasaki1998-tio2-a1006660209934-run-01",
         "iwasaki1998-tio2-a1006660209934-run-02",
         "iwasaki1998-tio2-a1006660209934-run-03",
@@ -32946,11 +33404,11 @@
         "ratanatawanate2009-p25-comparator",
         "wang2005-lss-tio2"
       ],
-      "procedure_count": 26,
+      "procedure_count": 27,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 41,
+      "public_hub_route_contributions": 43,
       "component_route_contribution_count": 6,
       "component_route_record_ids": [
         "ratanatawanate2009-pbs-tio2-both",
@@ -32960,11 +33418,12 @@
         "xu2008-hierarchical-nc-assemblies-adma200800215-au-tio2-mixed",
         "yang2016-biomineralized-cds-iecr6b03487-solar-cell"
       ],
-      "primary_reviewed_source_count": 8,
+      "primary_reviewed_source_count": 9,
       "material_hub_id": "tio2-ce6bfd",
       "material_hub_url": "material.html?id=tio2-ce6bfd",
       "source_groups": [
         "colfen2003-tio2-la0347051",
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "iwasaki1998-tio2-a1006660209934",
         "liao2009-tio2-jp905720g",
         "ratanatawanate2009-pbs-tio2-jp903050h",
@@ -32980,6 +33439,12 @@
           "doi": "10.1021/la0347051",
           "url": "https://doi.org/10.1021/la0347051",
           "title": "Nanocrystal Surface Structure Analysis by Analytical Ultracentrifugation"
+        },
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
         },
         {
           "source_group": "iwasaki1998-tio2-a1006660209934",
@@ -33032,6 +33497,7 @@
       ],
       "direct_route_recipe_family_ids": [
         "colfen2003-tio2-la0347051",
+        "dhaene2019-ode-polymerization-nanolett9b03088",
         "iwasaki1998-tio2-a1006660209934",
         "liao2009-tio2-jp905720g-butanol",
         "liao2009-tio2-jp905720g-propanol",
@@ -33966,6 +34432,43 @@
       ]
     },
     {
+      "material_system": "ZnS:Mn/ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-ode",
+        "dhaene2019-ode-polymerization-nanolett9b03088-zns-mn-zns-saturated"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 2,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "zns-mn-zns-cfd31b",
+      "material_hub_url": "material.html?id=zns-mn-zns-cfd31b",
+      "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088"
+      ],
+      "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088"
+      ]
+    },
+    {
       "material_system": "ZnSSeTe",
       "notes": [],
       "direct_synthesis_route_variant_count": 5,
@@ -34417,6 +34920,40 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "ligand1",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-ligand1-reference"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088"
+      ],
+      "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
       "material_system": "purchased CdSe/ZnS quantum dots",
       "notes": [],
       "direct_synthesis_route_variant_count": 0,
@@ -34449,6 +34986,74 @@
         }
       ],
       "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "saturated hydrocarbons",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-solvent-selection"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088"
+      ],
+      "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "source chemical inventory",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "dhaene2019-ode-polymerization-nanolett9b03088-materials-provenance"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "dhaene2019-ode-polymerization-nanolett9b03088"
+      ],
+      "source_links": [
+        {
+          "source_group": "dhaene2019-ode-polymerization-nanolett9b03088",
+          "doi": "10.1021/acs.nanolett.9b03088",
+          "url": "https://doi.org/10.1021/acs.nanolett.9b03088",
+          "title": "The Trouble with ODE: Polymerization during Nanocrystal Synthesis"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
     }
   ],
   "benchmark_scope": {
@@ -34478,8 +35083,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "78d368fb65f3f8f5e90b633e38f7afa4c440a26a6283b1531cfe27d97d40ba01",
-    "record_ids_sha256": "86ddb90ab42a0d98fc33658c9a1465caf8fa16f5ec29451294d9876168c77663",
+    "reviewed_evidence_sha256": "b87adf1825845f1d824f26cb663717b7ff2521433e14b27d5256d99ef4943cf4",
+    "record_ids_sha256": "7f48b0ebbd9481d0e88906bb79ba0fc969a4970d41512a581fc2fa9cc8e77335",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }

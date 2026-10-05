@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 812,
-    "source_groups": 175,
-    "records": 645,
+    "recipe_structure_rows": 813,
+    "source_groups": 176,
+    "records": 646,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -94061,6 +94061,171 @@
                 {
                   "source_id": "park2016-supra-qd-6b01126",
                   "locator": "Main PDF p.5, printed 5333, surfactant controls and Figure 4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "prins2021-superfocusing-nanolett0c04813-cdse-stearate::stearate-cdse",
+      "record_id": "prins2021-superfocusing-nanolett0c04813-cdse-stearate",
+      "record_page_path": "records/prins2021-superfocusing-nanolett0c04813-cdse-stearate.html",
+      "source_group": "prins2021-superfocusing-nanolett0c04813",
+      "title": "Prins et al. (2021): CdSe from cadmium stearate with quantitative aliquots",
+      "doi": "10.1021/acs.nanolett.0c04813",
+      "year": 2021,
+      "method": "CdSe from cadmium stearate with quantitative aliquots",
+      "recipe_label": "Prins et al. (2021): CdSe from cadmium stearate with quantitative aliquots",
+      "sample_id": "stearate-cdse",
+      "source_sample_label": "Cadmium-stearate-route CdSe",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+            "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+          "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Zinc blende, literature-attributed for this synthesis",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasi-spherical, as attributed to prior studies",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stearate-cdse",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "stearate-quench-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Zinc blende, literature-attributed for this synthesis",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                  "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quasi-spherical, as attributed to prior studies",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "prins2021-superfocusing-nanolett0c04813-si",
+                  "locator": "SI PDF p.11, S3.1 CdSe nanocrystal synthesis"
                 }
               ],
               "note": ""
