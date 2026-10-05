@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 221,
+  "material_families": 223,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -151,6 +151,8 @@
     "In4Te3",
     "In66Si100Al92O384",
     "InAs",
+    "InAs/InP",
+    "InAsxP1−x/InP",
     "InOOH",
     "InP",
     "InP/ZnS",
@@ -225,18 +227,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 214,
+  "contributing_papers": 218,
   "source_coverage": {
-    "total_contributing_papers": 214,
-    "reviewed_contributing_papers": 214,
+    "total_contributing_papers": 218,
+    "reviewed_contributing_papers": 218,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 813,
+  "synthesis_structure_pairs": 824,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 807,
+  "partial_pairs": 818,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 2480,
+  "all_records": 2563,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -17870,6 +17872,1412 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi1::alloy",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi1",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi1.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): 88% As alloy segment after GI 1",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "88% As alloy segment after GI 1",
+      "recipe_label": "Bucci et al. (2024): 88% As alloy segment after GI 1",
+      "sample_id": "alloy",
+      "source_sample_label": "Figure 2 GI 1 alloy-growth population",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs0.88P0.12/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Predominantly downward growth",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAsxP1−x/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alloy",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-alloy-state",
+          "composition": {
+            "value": "InAs0.88P0.12/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Predominantly downward growth",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi2::alloy",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi2",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi2.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): 88% As alloy segment after GI 2",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "88% As alloy segment after GI 2",
+      "recipe_label": "Bucci et al. (2024): 88% As alloy segment after GI 2",
+      "sample_id": "alloy",
+      "source_sample_label": "Figure 2 GI 2 alloy-growth population",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs0.88P0.12/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Predominantly straight growth",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAsxP1−x/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "alloy",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-alloy-state",
+          "composition": {
+            "value": "InAs0.88P0.12/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Predominantly straight growth",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.3–4, Figure 2 and Section 3.2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-baseline::inas-control",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-baseline",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-baseline.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): GI 2 baseline with 10 min InAs growth",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "GI 2 baseline with 10 min InAs growth",
+      "recipe_label": "Bucci et al. (2024): GI 2 baseline with 10 min InAs growth",
+      "sample_id": "inas-control",
+      "source_sample_label": "Figure 3a pure-InAs control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Mixed straight, kinked and downward nanowires",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "inas-control",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-inas-state",
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Mixed straight, kinked and downward nanowires",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-low-as::inas-control",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-low-as",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-low-as.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): GI 2 with lower As precursor pressure",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "GI 2 with lower As precursor pressure",
+      "recipe_label": "Bucci et al. (2024): GI 2 with lower As precursor pressure",
+      "sample_id": "inas-control",
+      "source_sample_label": "Figure 3c pure-InAs control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Improved straight InAs growth",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "inas-control",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-inas-state",
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Improved straight InAs growth",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-no-gi::inas-control",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-no-gi",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-no-gi.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): Direct InAs growth without GI 2",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "Direct InAs growth without GI 2",
+      "recipe_label": "Bucci et al. (2024): Direct InAs growth without GI 2",
+      "sample_id": "inas-control",
+      "source_sample_label": "Figure 3b pure-InAs control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Improved straight InAs growth",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "inas-control",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-inas-state",
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Improved straight InAs growth",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-prefill::inas-control",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-prefill",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-prefill.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): GI 2 followed by In catalyst prefilling",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "GI 2 followed by In catalyst prefilling",
+      "recipe_label": "Bucci et al. (2024): GI 2 followed by In catalyst prefilling",
+      "sample_id": "inas-control",
+      "source_sample_label": "Figure 3d pure-InAs control",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAs/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Improved straight InAs growth",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "inas-control",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-inas-state",
+          "composition": {
+            "value": "InAs/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Improved straight InAs growth",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.4–5, Figure 3 and pure-InAs controls"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inp-stem::stem",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-inp-stem",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-inp-stem.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): Common InP nanowire stem growth",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "Common InP nanowire stem growth",
+      "recipe_label": "Bucci et al. (2024): Common InP nanowire stem growth",
+      "sample_id": "stem",
+      "source_sample_label": "Figure 1b,c InP nanowire stem",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "pure zincblende InP by HRTEM/FFT",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Slightly tapered nanowires with square cross sections; predominant ⟨100⟩ growth",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "stem",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-stem-state",
+          "composition": {
+            "value": "InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "pure zincblende InP by HRTEM/FFT",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Slightly tapered nanowires with square cross sections; predominant ⟨100⟩ growth",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF pp.2–3, Figure 1 and Section 3.1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "bucci2024-zincblende-qd-nanowires-acsami4c00615-inp-zincblende-reference"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-qd-nanowire-general::general-qd",
+      "record_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615-qd-nanowire-general",
+      "record_page_path": "records/bucci2024-zincblende-qd-nanowires-acsami4c00615-qd-nanowire-general.html",
+      "source_group": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+      "title": "Bucci et al. (2024): Optimized alloy-QD and InP-tip growth after GI 2",
+      "doi": "10.1021/acsami.4c00615",
+      "year": 2024,
+      "method": "Optimized alloy-QD and InP-tip growth after GI 2",
+      "recipe_label": "Bucci et al. (2024): Optimized alloy-QD and InP-tip growth after GI 2",
+      "sample_id": "general-qd",
+      "source_sample_label": "General embedded-QD nanowire protocol",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InAsxP1−x/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+            "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+          "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Tapered, square-cross-section InP nanowire with an embedded truncated-pyramid QD",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.5, Section 3.3 and Figure 4b; p.3, Section 3.1, for the tapered square-section InP stem"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InAsxP1−x/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "general-qd",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "grow-tip-state",
+          "composition": {
+            "value": "InAsxP1−x/InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF p.3, Section 3.1, steps (i)–(v)"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Tapered, square-cross-section InP nanowire with an embedded truncated-pyramid QD",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+                  "locator": "Main PDF p.5, Section 3.3 and Figure 4b; p.3, Section 3.1, for the tapered square-section InP stem"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -40853,6 +42261,651 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min::durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min--sample",
+      "record_id": "durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min",
+      "record_page_path": "records/durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min.html",
+      "source_group": "durmusoglu2020-pbs-taa-acsami0c06694",
+      "title": "Durmusoglu et al. (2020): Temperature-series PbS at 60 °C for 5 min",
+      "doi": "10.1021/acsami.0c06694",
+      "year": 2020,
+      "method": "Temperature-series PbS at 60 °C for 5 min",
+      "recipe_label": "Durmusoglu et al. (2020): Temperature-series PbS at 60 °C for 5 min",
+      "sample_id": "durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min--sample",
+      "source_sample_label": "60 °C / 5 min PbS temperature-series sample",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+            "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+          },
+          {
+            "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+            "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+          "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series",
+          "claim": null
+        },
+        {
+          "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+          "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasispherical particles are discussed for the PbS series; exact SI panel assignment is caption-bound.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.3, Figure S1 caption and printed panel letters"
+              }
+            ],
+            "note": "Figure S1 caption assigns c=60 °C, d=75 °C, e=90 °C; visible left/middle panel letters are d/c. The conflict is retained."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Independent target size is not specified for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "durmusoglu2020-pbs-taa-acsami0c06694-r07-60c-5min--product",
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                  "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+                },
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                  "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quasispherical particles are discussed for the PbS series; exact SI panel assignment is caption-bound.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                  "locator": "Main PDF p.4 / printed 36304, Section 3.1"
+                },
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                  "locator": "SI PDF p.3, Figure S1 caption and printed panel letters"
+                }
+              ],
+              "note": "Figure S1 caption assigns c=60 °C, d=75 °C, e=90 °C; visible left/middle panel letters are d/c. The conflict is retained."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min::durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min--sample",
+      "record_id": "durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min",
+      "record_page_path": "records/durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min.html",
+      "source_group": "durmusoglu2020-pbs-taa-acsami0c06694",
+      "title": "Durmusoglu et al. (2020): Temperature-series PbS at 75 °C for 5 min",
+      "doi": "10.1021/acsami.0c06694",
+      "year": 2020,
+      "method": "Temperature-series PbS at 75 °C for 5 min",
+      "recipe_label": "Durmusoglu et al. (2020): Temperature-series PbS at 75 °C for 5 min",
+      "sample_id": "durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min--sample",
+      "source_sample_label": "75 °C / 5 min PbS temperature-series sample",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+            "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+          },
+          {
+            "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+            "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+          "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series",
+          "claim": null
+        },
+        {
+          "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+          "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasispherical particles are discussed for the PbS series; exact SI panel assignment is caption-bound.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.3, Figure S1 caption and printed panel letters"
+              }
+            ],
+            "note": "Figure S1 caption assigns c=60 °C, d=75 °C, e=90 °C; visible left/middle panel letters are d/c. The conflict is retained."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Independent target size is not specified for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "durmusoglu2020-pbs-taa-acsami0c06694-r08-75c-5min--product",
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                  "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+                },
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                  "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quasispherical particles are discussed for the PbS series; exact SI panel assignment is caption-bound.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                  "locator": "Main PDF p.4 / printed 36304, Section 3.1"
+                },
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                  "locator": "SI PDF p.3, Figure S1 caption and printed panel letters"
+                }
+              ],
+              "note": "Figure S1 caption assigns c=60 °C, d=75 °C, e=90 °C; visible left/middle panel letters are d/c. The conflict is retained."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min::durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min--sample",
+      "record_id": "durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min",
+      "record_page_path": "records/durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min.html",
+      "source_group": "durmusoglu2020-pbs-taa-acsami0c06694",
+      "title": "Durmusoglu et al. (2020): Temperature-series PbS at 90 °C for 5 min",
+      "doi": "10.1021/acsami.0c06694",
+      "year": 2020,
+      "method": "Temperature-series PbS at 90 °C for 5 min",
+      "recipe_label": "Durmusoglu et al. (2020): Temperature-series PbS at 90 °C for 5 min",
+      "sample_id": "durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min--sample",
+      "source_sample_label": "90 °C / 5 min PbS temperature-series sample",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+            "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+          },
+          {
+            "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+            "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+          "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series",
+          "claim": null
+        },
+        {
+          "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+          "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quasispherical particles are discussed for the PbS series; exact SI panel assignment is caption-bound.",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.3, Figure S1 caption and printed panel letters"
+              }
+            ],
+            "note": "Figure S1 caption assigns c=60 °C, d=75 °C, e=90 °C; visible left/middle panel letters are d/c. The conflict is retained."
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Independent target size is not specified for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "durmusoglu2020-pbs-taa-acsami0c06694-r09-90c-5min--product",
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+              },
+              {
+                "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                  "locator": "SI PDF p.4, Particle Size Estimation; 5 min, 2:1:8 temperature series"
+                },
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                  "locator": "Main PDF p.4 / printed 36304, Section 3.1, temperature-dependent optical diameters"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Quasispherical particles are discussed for the PbS series; exact SI panel assignment is caption-bound.",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694",
+                  "locator": "Main PDF p.4 / printed 36304, Section 3.1"
+                },
+                {
+                  "source_id": "durmusoglu2020-pbs-taa-acsami0c06694-si",
+                  "locator": "SI PDF p.3, Figure S1 caption and printed panel letters"
+                }
+              ],
+              "note": "Figure S1 caption assigns c=60 °C, d=75 °C, e=90 °C; visible left/middle panel letters are d/c. The conflict is retained."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
