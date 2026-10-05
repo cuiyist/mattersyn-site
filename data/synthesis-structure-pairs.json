@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 811,
-    "source_groups": 174,
-    "records": 644,
+    "recipe_structure_rows": 812,
+    "source_groups": 175,
+    "records": 645,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -129688,6 +129688,198 @@
                 "field": "morphology.dimensions"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xie2015-cdse-cds-patterning-nanolett5b03068-general-patterning::general-patterning",
+      "record_id": "xie2015-cdse-cds-patterning-nanolett5b03068-general-patterning",
+      "record_page_path": "records/xie2015-cdse-cds-patterning-nanolett5b03068-general-patterning.html",
+      "source_group": "xie2015-cdse-cds-patterning-nanolett5b03068",
+      "title": "Xie et al. (2015): patterned-film assembly from pre-existing CdSe/CdS QDs",
+      "doi": "10.1021/acs.nanolett.5b03068",
+      "year": 2015,
+      "method": "EBL, LB transfer and lift-off of pre-existing CdSe/CdS QDs",
+      "recipe_label": "Xie et al. (2015): patterned-film assembly from pre-existing CdSe/CdS QDs",
+      "sample_id": "general-patterning",
+      "source_sample_label": "General patterned CdSe/CdS QD monolayer",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS core/shell QDs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+            "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+          },
+          {
+            "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+            "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+          "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material",
+          "claim": null
+        },
+        {
+          "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+          "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Patterned QD film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+              },
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+              },
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+              },
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Pattern feature size is separate from individual QD size; context-specific values are below.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+              },
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Patterned QD film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+              },
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "general-patterning",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "s-general-patterning",
+          "composition": {
+            "value": "CdSe/CdS core/shell QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+              },
+              {
+                "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                  "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+                },
+                {
+                  "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                  "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+                }
+              ],
+              "note": "No crystal phase or atomic structure is reported."
+            },
+            "morphology": {
+              "value": "Patterned QD film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                  "locator": "MAIN PDF p.2 / printed 7482, Experimental processing scheme and QD material"
+                },
+                {
+                  "source_id": "xie2015-cdse-cds-patterning-nanolett5b03068",
+                  "locator": "MAIN PDF p.3 / printed 7483, Optimized lift-off and nanoscale patterning"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },

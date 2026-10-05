@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **210 primary source groups** · release `full-audit-batch09-sellers-schneider-20261005`. Records are not independent experiments.
+Dataset **0.41.2** · **212 primary source groups** · release `full-audit-batch10-20261005`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -325,6 +325,8 @@ Dataset **0.41.2** · **210 primary source groups** · release `full-audit-batch
 
 - Zhiyuan Huang; Xin Li; Benjamin D. Yip; Justin M. Rubalcava; Christopher J. Bardeen; Ming L. Tang (2015). Nanocrystal Size and Quantum Yield in the Upconversion of Green to Violet Light with CdSe and Anthracene Derivatives. *Chemistry of Materials*, 7503–7507. [10.1021/acs.chemmater.5b03731](https://doi.org/10.1021/acs.chemmater.5b03731). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=cm2015-5b03731-cdse-9aca).
 
+- Weiqiang Xie; Raquel Gomes; Tangi Aubert; Suzanne Bisschop; Yunpeng Zhu; Zeger Hens; Edouard Brainis; Dries Van Thourhout (2015). Nanoscale and Single-Dot Patterning of Colloidal Quantum Dots. [10.1021/acs.nanolett.5b03068](https://doi.org/10.1021/acs.nanolett.5b03068). Review scope remains stated in the linked website records.
+
 - Xudong Yao; Shangjing Liu; Yajing Chang; Guopeng Li; Longfei Mi; Xiaoming Wang; Yang Jiang (2015). PbS Quantum-Dot Depleted Heterojunction Solar Cells Employing CdS Nanorod Arrays as the Electron Acceptor with Enhanced Efficiency. *ACS Applied Materials & Interfaces*, 7, 23117–23123. [10.1021/acsami.5b06857](https://doi.org/10.1021/acsami.5b06857). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=yao2015acsami).
 
 - Jong-Hoon Kim; Chang-Yeol Han; Ki-Heon Lee; Ki-Seok An; Wooseok Song; Jiwan Kim; Min Suk Oh; Young Rag Do; Heesun Yang (2015). Performance Improvement of Quantum Dot-Light-Emitting Diodes Enabled by an Alloyed ZnMgO Nanoparticle Electron Transport Layer. *Chemistry of Materials*, 27, 197–204. [10.1021/cm503756q](https://doi.org/10.1021/cm503756q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=kim2015-znmgo-cm503756q).
@@ -428,6 +430,8 @@ Dataset **0.41.2** · **210 primary source groups** · release `full-audit-batch
 - Lin Yuan; Linlin Gao; Yang Li; Kunyuan Lu; Yang Liu; Jiajing Huo; Long Hu; Qing Zhang; Muhammad Zahir Iqbal; Yang Bai; Zeke Liu; Wanli Ma (2026). Coupling Design in the Direct Synthesis of AgBiS2 Nanocrystal Inks for Efficient and Eco-friendly Photovoltaics. [10.1021/acs.nanolett.5c06337](https://doi.org/10.1021/acs.nanolett.5c06337). Review scope remains stated in the linked website records.
 
 - Pascal Rusch; Ann Mary Antony; Meenakshi Pegu; Meysoun Jabrane; Gabriele Saleh; Arghyadeep Garai; Aswin Asaithambi; Simone Lauciello; Sergio Marras; Serena De Negri; Pavlo Solokha; Liberato Manna (2026). Nanocrystal Synthesis Derived Approach to Silver Bismuth Iodide Layered Double Perovskites with Aliphatic Amines: (CnH(2n+1)NH3)4AgBiI8. *Chemistry of Materials*, 38, 900–909. [10.1021/acs.chemmater.5c02845](https://doi.org/10.1021/acs.chemmater.5c02845). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=rusch2026).
+
+- Yixiao Huang; Hezixuan Zhang; Yuchen Zhu; Jiaqi Hu; Zijun Zhao; Yikang Yang; Jianguo Tang; Zhonglin Du (2026). Reductant-Activated Indium Phosphide Magic-Sized Clusters for Dual-Path Synthesis of Bright Blue Emitters and Narrow-Band Quantum Dots. [10.1021/acs.nanolett.6c01798](https://doi.org/10.1021/acs.nanolett.6c01798). Review scope remains stated in the linked website records.
 
 ## Additional contextual sources
 
