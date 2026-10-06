@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **218 primary source groups** · release `full-audit-batch12-20261005`. Records are not independent experiments.
+Dataset **0.41.2** · **220 primary source groups** · release `full-audit-batch13-20261006`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -327,6 +327,8 @@ Dataset **0.41.2** · **218 primary source groups** · release `full-audit-batch
 
 - Weiqiang Xie; Raquel Gomes; Tangi Aubert; Suzanne Bisschop; Yunpeng Zhu; Zeger Hens; Edouard Brainis; Dries Van Thourhout (2015). Nanoscale and Single-Dot Patterning of Colloidal Quantum Dots. [10.1021/acs.nanolett.5b03068](https://doi.org/10.1021/acs.nanolett.5b03068). Review scope remains stated in the linked website records.
 
+- Sayantan Mazumdar; Muthusamy Tamilselvan; Aninda J. Bhattacharyya (2015). Optimizing Photovoltaic Response by Tuning Light-Harvesting Nanocrystal Shape Synthesized Using a Quick Liquid–Gas Phase Reaction. [10.1021/acsami.5b08595](https://doi.org/10.1021/acsami.5b08595). Review scope remains stated in the linked website records.
+
 - Xudong Yao; Shangjing Liu; Yajing Chang; Guopeng Li; Longfei Mi; Xiaoming Wang; Yang Jiang (2015). PbS Quantum-Dot Depleted Heterojunction Solar Cells Employing CdS Nanorod Arrays as the Electron Acceptor with Enhanced Efficiency. *ACS Applied Materials & Interfaces*, 7, 23117–23123. [10.1021/acsami.5b06857](https://doi.org/10.1021/acsami.5b06857). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=yao2015acsami).
 
 - Jong-Hoon Kim; Chang-Yeol Han; Ki-Heon Lee; Ki-Seok An; Wooseok Song; Jiwan Kim; Min Suk Oh; Young Rag Do; Heesun Yang (2015). Performance Improvement of Quantum Dot-Light-Emitting Diodes Enabled by an Alloyed ZnMgO Nanoparticle Electron Transport Layer. *Chemistry of Materials*, 27, 197–204. [10.1021/cm503756q](https://doi.org/10.1021/cm503756q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=kim2015-znmgo-cm503756q).
@@ -350,6 +352,8 @@ Dataset **0.41.2** · **218 primary source groups** · release `full-audit-batch
 - K. Ouhenia-Ouadahi et al. (2016). Tuning the Growth Mode of 3D Silver Nanocrystal Superlattices by Triphenylphosphine. [10.1021/acs.chemmater.6b01374](https://doi.org/10.1021/acs.chemmater.6b01374). Review scope remains stated in the linked website records.
 
 - Calynn E. Morrison; Fudong Wang; Nigam P. Rath; Brian M. Wieliczka; Richard A. Loomis; William E. Buhro (2017). Cadmium Bis(phenyldithiocarbamate) as a Nanocrystal Shell-Growth Precursor. *Inorganic Chemistry*, 56, 12920–12929. [10.1021/acs.inorgchem.7b01711](https://doi.org/10.1021/acs.inorgchem.7b01711). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=morrison2017).
+
+- Jin Hyuck Heo; Min Hyuk Jang; Min Ho Lee; Dong Hee Shin; Do Hun Kim; Sang Hwa Moon; Sang Wook Kim; Bum Jun Park; Sang Hyuk Im (2017). High-Performance Solid-State PbS Quantum Dot-Sensitized Solar Cells Prepared by Introduction of Hybrid Perovskite Interlayer. [10.1021/acsami.7b12046](https://doi.org/10.1021/acsami.7b12046). Review scope remains stated in the linked website records.
 
 - Wen-Xia Dai; Ling Zhang; Wei-Wei Zhao; Xiao-Dong Yu; Jing-Juan Xu; Hong-Yuan Chen (2017). Hybrid PbS Quantum Dot/Nanoporous NiO Film Nanostructure: Preparation, Characterization, and Application for a Self-Powered Cathodic Photoelectrochemical Biosensor. [10.1021/acs.analchem.7b01557](https://doi.org/10.1021/acs.analchem.7b01557). Review scope remains stated in the linked website records.
 

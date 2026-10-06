@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 824,
-    "source_groups": 178,
-    "records": 657,
+    "recipe_structure_rows": 825,
+    "source_groups": 179,
+    "records": 658,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -35657,6 +35657,200 @@
                 {
                   "source_id": "henkel2009-au-aucu-jp810979r",
                   "locator": "Main PDF p.2, Results and Discussion, preformed seed description"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "heo2017-pbs-perovskite-acsami7b12046-r02-pbs15::heo2017-pbs-perovskite-acsami7b12046-r02-pbs15--sample",
+      "record_id": "heo2017-pbs-perovskite-acsami7b12046-r02-pbs15",
+      "record_page_path": "records/heo2017-pbs-perovskite-acsami7b12046-r02-pbs15.html",
+      "source_group": "heo2017-pbs-perovskite-acsami7b12046",
+      "title": "Heo et al. (2017): PbS QDs-15 by spin-SPAER",
+      "doi": "10.1021/acsami.7b12046",
+      "year": 2017,
+      "method": "PbS QDs-15 by spin-SPAER",
+      "recipe_label": "Heo et al. (2017): PbS QDs-15 by spin-SPAER",
+      "sample_id": "heo2017-pbs-perovskite-acsami7b12046-r02-pbs15--sample",
+      "source_sample_label": "PbS QDs-15 on mp-TiO2",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS QDs on mp-TiO2/bl-TiO2/FTO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+            "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15"
+          },
+          {
+            "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+            "locator": "SI PDF p.2 / S-2, Device fabrication"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+          "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15",
+          "claim": null
+        },
+        {
+          "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+          "locator": "SI PDF p.2 / S-2, Device fabrication",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "PbS diffraction peaks together with TiO2 and FTO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.3 / 41106, Figure 3a and XRD discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Meso-pores remain after PbS deposition; supported nanocrystals shown by TEM",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.2 / 41105, Figure2b–d"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS/TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15"
+              },
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+                "locator": "SI PDF p.2 / S-2, Device fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15"
+              },
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+                "locator": "SI PDF p.2 / S-2, Device fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this source context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15"
+              },
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+                "locator": "SI PDF p.2 / S-2, Device fabrication"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15"
+              },
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+                "locator": "SI PDF p.2 / S-2, Device fabrication"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "heo2017-pbs-perovskite-acsami7b12046-r02-pbs15--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "heo2017-pbs-perovskite-acsami7b12046-r02-pbs15--pbs15-film",
+          "composition": {
+            "value": "PbS QDs on mp-TiO2/bl-TiO2/FTO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                "locator": "Main PDF p.2 / 41105, Spin-SPAER typical cycle and PbS QDs-15"
+              },
+              {
+                "source_id": "heo2017-pbs-perovskite-acsami7b12046-si",
+                "locator": "SI PDF p.2 / S-2, Device fabrication"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "PbS diffraction peaks together with TiO2 and FTO",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                  "locator": "Main PDF p.3 / 41106, Figure 3a and XRD discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Meso-pores remain after PbS deposition; supported nanocrystals shown by TEM",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "heo2017-pbs-perovskite-acsami7b12046",
+                  "locator": "Main PDF p.2 / 41105, Figure2b–d"
                 }
               ],
               "note": ""
