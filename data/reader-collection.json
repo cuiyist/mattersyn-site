@@ -238,18 +238,18 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 225,
+  "contributing_papers": 227,
   "source_coverage": {
-    "total_contributing_papers": 225,
-    "reviewed_contributing_papers": 225,
+    "total_contributing_papers": 227,
+    "reviewed_contributing_papers": 227,
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 826,
+  "synthesis_structure_pairs": 839,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 820,
+  "partial_pairs": 833,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 2778,
+  "all_records": 2855,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -146687,6 +146687,2876 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-core::core",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-core",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-core.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Wurtzite CdSe core synthesis",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Wurtzite CdSe core synthesis",
+      "recipe_label": "Nguyen et al. (2024): Wurtzite CdSe core synthesis",
+      "sample_id": "core",
+      "source_sample_label": "Wurtzite CdSe cores",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "store-state",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "nguyen2024-colossal-cdse-cds-acsnano4c06961-cdse-wurtzite-reference"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cdo",
+            "odpa",
+            "se",
+            "top",
+            "topo"
+          ],
+          "fields": [
+            {
+              "material_id": "topo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "3 g",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdo",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.06,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.06 g",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "odpa",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.28,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.28 g",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/hot_addition_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "pointer": "/materials/3/quantities/selenium_feed_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.4 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "pointer": "/materials/4/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.058,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.058 g",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "se",
+              "stock_id": "se-top-feed",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.058,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.058 g",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "stock_id": "se-top-feed",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.4 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "top",
+              "operation_id": "se-feed",
+              "pointer": "/operations/4/parameters/top_volume",
+              "binding_basis": "exact material ID in parameter key and operation inputs",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.4 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Wurtzite CdSe QDs"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-30::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-30",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-30.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Direct shell growth to a 30-ML target",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Direct shell growth to a 30-ML target",
+      "recipe_label": "Nguyen et al. (2024): Direct shell growth to a 30-ML target",
+      "sample_id": "product",
+      "source_sample_label": "CdSe30CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Hexagonal projections with sharp corners and flat facets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "purify-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Hexagonal projections with sharp corners and flat facets",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-oleate",
+            "cdse-core",
+            "octanethiol",
+            "ode"
+          ],
+          "fields": [
+            {
+              "material_id": "cdse-core",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": null,
+                "minimum": 5,
+                "maximum": 100,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "typical printed loading range",
+                "basis": "",
+                "raw_text": "5–100 nmol",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cdse-core",
+              "pointer": "/materials/0/quantities/dispersion_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": null,
+                "minimum": 0.0048,
+                "maximum": 0.96,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "alternative printed volume range; not reconciled with concentration",
+                "basis": "",
+                "raw_text": "0.0048–0.96 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "pointer": "/materials/2/quantities/initial_volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "6 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oleate",
+              "pointer": "/materials/3/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octanethiol",
+              "pointer": "/materials/4/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ode",
+              "operation_id": "ode-vacuum",
+              "pointer": "/operations/0/parameters/volume",
+              "binding_basis": "single operation input is this material; generic charge field",
+              "quantity": {
+                "value": 6,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "6 mL",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-failed-40::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-failed-40",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-failed-40.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Failed direct 40-ML target",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Failed direct 40-ML target",
+      "recipe_label": "Nguyen et al. (2024): Failed direct 40-ML target",
+      "sample_id": "product",
+      "source_sample_label": "Direct 40-ML target",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.3, direct-growth comparison paragraph"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.3, direct-growth comparison paragraph",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Significant twinning, instability and high polydispersity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "direct-control-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, direct-growth comparison paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Significant twinning, instability and high polydispersity",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, direct-growth comparison paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-failed-50::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-failed-50",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-direct-failed-50.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Failed direct 50-ML target",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Failed direct 50-ML target",
+      "recipe_label": "Nguyen et al. (2024): Failed direct 50-ML target",
+      "sample_id": "product",
+      "source_sample_label": "Direct 50-ML target",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.3, direct-growth comparison paragraph"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.3, direct-growth comparison paragraph",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Significant twinning, instability and high polydispersity",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "direct-control-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, direct-growth comparison paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, direct-growth comparison paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Significant twinning, instability and high polydispersity",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, direct-growth comparison paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-50p3::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-50p3",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-50p3.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Facet reconstruction from 50 to 50.3 nominal ML",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Facet reconstruction from 50 to 50.3 nominal ML",
+      "recipe_label": "Nguyen et al. (2024): Facet reconstruction from 50 to 50.3 nominal ML",
+      "sample_id": "product",
+      "source_sample_label": "CdSe50.3CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "More faceted and sharper projections than the rounded parent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "partial-shell-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "More faceted and sharper projections than the rounded parent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-50p6::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-50p6",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-50p6.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Facet reconstruction from 50 to 50.6 nominal ML",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Facet reconstruction from 50 to 50.6 nominal ML",
+      "recipe_label": "Nguyen et al. (2024): Facet reconstruction from 50 to 50.6 nominal ML",
+      "sample_id": "product",
+      "source_sample_label": "CdSe50.6CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "More faceted and sharper projections than the rounded parent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "partial-shell-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "More faceted and sharper projections than the rounded parent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-51::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-51",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-facet-51.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Facet reconstruction from 50 to 51 nominal ML",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Facet reconstruction from 50 to 51 nominal ML",
+      "recipe_label": "Nguyen et al. (2024): Facet reconstruction from 50 to 51 nominal ML",
+      "sample_id": "product",
+      "source_sample_label": "CdSe51CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "More faceted and sharper projections than the rounded parent",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "partial-shell-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "More faceted and sharper projections than the rounded parent",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.7–8, Structural Rounding and Flat Facet Reconstruction, Figure 7"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-purified-02::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-purified-02",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-purified-02.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Purified 100-ML parent with 0.2 M feeds",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Purified 100-ML parent with 0.2 M feeds",
+      "recipe_label": "Nguyen et al. (2024): Purified 100-ML parent with 0.2 M feeds",
+      "sample_id": "product",
+      "source_sample_label": "CdSemCdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Predominantly islanded large particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "post-shell-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Predominantly islanded large particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-oleate",
+            "octanethiol"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oleate",
+              "pointer": "/materials/1/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octanethiol",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-purified-04::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-purified-04",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-purified-04.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Purified 100-ML parent with 0.4 M feeds",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Purified 100-ML parent with 0.4 M feeds",
+      "recipe_label": "Nguyen et al. (2024): Purified 100-ML parent with 0.4 M feeds",
+      "sample_id": "product",
+      "source_sample_label": "CdSenCdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Large particles with fewer rough surfaces and small adhering particles",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "post-shell-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Large particles with fewer rough surfaces and small adhering particles",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-oleate",
+            "octanethiol"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oleate",
+              "pointer": "/materials/1/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.4 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octanethiol",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.4 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-step-100::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-step-100",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-step-100.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Stepwise shell growth from 80 to 100 ML",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Stepwise shell growth from 80 to 100 ML",
+      "recipe_label": "Nguyen et al. (2024): Stepwise shell growth from 80 to 100 ML",
+      "sample_id": "product",
+      "source_sample_label": "CdSe100CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Diamond-like projections",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "characterization-portion-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Diamond-like projections",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-oleate",
+            "octanethiol"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oleate",
+              "pointer": "/materials/1/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octanethiol",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-step-50::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-step-50",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-step-50.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Stepwise shell growth from 30 to 50 ML",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Stepwise shell growth from 30 to 50 ML",
+      "recipe_label": "Nguyen et al. (2024): Stepwise shell growth from 30 to 50 ML",
+      "sample_id": "product",
+      "source_sample_label": "CdSe50CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Rounded projections",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "characterization-portion-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Rounded projections",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-oleate",
+            "octanethiol"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oleate",
+              "pointer": "/materials/1/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octanethiol",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-step-80::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-step-80",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-step-80.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Stepwise shell growth from 50 to 80 ML",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Stepwise shell growth from 50 to 80 ML",
+      "recipe_label": "Nguyen et al. (2024): Stepwise shell growth from 50 to 80 ML",
+      "sample_id": "product",
+      "source_sample_label": "CdSe80CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Diamond-like projections",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "characterization-portion-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Diamond-like projections",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF p.3, Synthesis of Colossal QDs; p.10, Stepwise Shelling; p.2, Figure 1a"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cadmium-oleate",
+            "octanethiol"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oleate",
+              "pointer": "/materials/1/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octanethiol",
+              "pointer": "/materials/2/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "M",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 M",
+                "evidence": [
+                  {
+                    "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                    "locator": "Main PDF p.10, Experimental Methods, Direct Shelling of CdSe with CdS"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-target-115::product",
+      "record_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961-target-115",
+      "record_page_path": "records/nguyen2024-colossal-cdse-cds-acsnano4c06961-target-115.html",
+      "source_group": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+      "title": "Nguyen et al. (2024): Unpurified 100-ML portion plus 15-ML target",
+      "doi": "10.1021/acsnano.4c06961",
+      "year": 2024,
+      "method": "Unpurified 100-ML portion plus 15-ML target",
+      "recipe_label": "Nguyen et al. (2024): Unpurified 100-ML portion plus 15-ML target",
+      "sample_id": "product",
+      "source_sample_label": "CdSe115CdS",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+            "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+          "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Instability and island/nanorod formation",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "product",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "post-shell-state",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Instability and island/nanorod formation",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "nguyen2024-colossal-cdse-cds-acsnano4c06961",
+                  "locator": "Main PDF pp.3–4, shelling beyond 100 ML and Figure 2"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
