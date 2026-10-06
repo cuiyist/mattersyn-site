@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 839,
-    "source_groups": 181,
-    "records": 672,
+    "recipe_structure_rows": 845,
+    "source_groups": 182,
+    "records": 678,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -89894,6 +89894,1095 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ondry2021-2d-superlattices-acsnano0c07202-cds-silar::ondry2021-2d-superlattices-acsnano0c07202-cds-silar--sample",
+      "record_id": "ondry2021-2d-superlattices-acsnano0c07202-cds-silar",
+      "record_page_path": "records/ondry2021-2d-superlattices-acsnano0c07202-cds-silar.html",
+      "source_group": "ondry2021-2d-superlattices-acsnano0c07202",
+      "title": "Ondry et al. (2021): Six-cycle CdS SILAR attachment",
+      "doi": "10.1021/acsnano.0c07202",
+      "year": 2021,
+      "method": "Six-cycle CdS SILAR attachment",
+      "recipe_label": "Ondry et al. (2021): Six-cycle CdS SILAR attachment",
+      "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-cds-silar--sample",
+      "source_sample_label": "Six-monolayer CdS SILAR superlattice",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS with CdS interparticle bridges",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+          },
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment",
+          "claim": null
+        },
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type epitaxial bridging assignment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Attached hexagonal QD superlattice",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": "Not reported for this context."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": "Not reported for this context."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-cds-silar--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ondry2021-2d-superlattices-acsnano0c07202-cds-silar--attached-film",
+          "composition": {
+            "value": "CdSe/CdS with CdS interparticle bridges",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type epitaxial bridging assignment",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Attached hexagonal QD superlattice",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell::ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell--sample",
+      "record_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell",
+      "record_page_path": "records/ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell.html",
+      "source_group": "ondry2021-2d-superlattices-acsnano0c07202",
+      "title": "Ondry et al. (2021): Nominal six-monolayer CdS shell growth",
+      "doi": "10.1021/acsnano.0c07202",
+      "year": 2021,
+      "method": "Nominal six-monolayer CdS shell growth",
+      "recipe_label": "Ondry et al. (2021): Nominal six-monolayer CdS shell growth",
+      "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell--sample",
+      "source_sample_label": "Nominal six-monolayer CdS-shell CdSe/CdS particles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Hexagonal-prism-shaped core-shell nanoplatelets; {11̅00} facets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "note": "Not reported for this context."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "note": "Not reported for this context."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-cds-shell--stored-shells",
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Hexagonal-prism-shaped core-shell nanoplatelets; {11̅00} facets",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.8 / printed p.2258, Methods, {11̅00}-terminated hexagon-shaped CdSe/CdS core-shell nanoplatelets"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds::ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds--sample",
+      "record_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds",
+      "record_page_path": "records/ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds.html",
+      "source_group": "ondry2021-2d-superlattices-acsnano0c07202",
+      "title": "Ondry et al. (2021): Wurtzite CdSe seed synthesis",
+      "doi": "10.1021/acsnano.0c07202",
+      "year": 2021,
+      "method": "Wurtzite CdSe seed synthesis",
+      "recipe_label": "Ondry et al. (2021): Wurtzite CdSe seed synthesis",
+      "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds--sample",
+      "source_sample_label": "Typical CdSe seed cores",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+              }
+            ],
+            "note": "Not reported for this context."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+              }
+            ],
+            "note": "Not reported for this context."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ondry2021-2d-superlattices-acsnano0c07202-cdse-seeds--purified-cores",
+          "composition": {
+            "value": "CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.8 / printed p.2258, Methods, Wurtzite CdSe Seeds"
+                }
+              ],
+              "note": "Not reported for this context."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ondry2021-2d-superlattices-acsnano0c07202-hg-exchange::ondry2021-2d-superlattices-acsnano0c07202-hg-exchange--sample",
+      "record_id": "ondry2021-2d-superlattices-acsnano0c07202-hg-exchange",
+      "record_page_path": "records/ondry2021-2d-superlattices-acsnano0c07202-hg-exchange.html",
+      "source_group": "ondry2021-2d-superlattices-acsnano0c07202",
+      "title": "Ondry et al. (2021): Mercury exchange of the copper intermediate",
+      "doi": "10.1021/acsnano.0c07202",
+      "year": 2021,
+      "method": "Mercury exchange of the copper intermediate",
+      "recipe_label": "Ondry et al. (2021): Mercury exchange of the copper intermediate",
+      "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-hg-exchange--sample",
+      "source_sample_label": "Mercury-exchanged superlattice",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "HgSe/HgS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-like assignment in main Results / Figure 6, not a supplied atomic coordinate model",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.6 / printed p.2256, Results, Cation Exchange: wurtzite-like HgSe/HgS assignment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.7 / printed p.2257, Figure 6d-h: HgSe/HgS diffraction and HRTEM/FT"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "HgSe/HgS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+              }
+            ],
+            "note": "Not reported for this context."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+              }
+            ],
+            "note": "Not reported for this context."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-hg-exchange--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ondry2021-2d-superlattices-acsnano0c07202-hg-exchange--hg-array",
+          "composition": {
+            "value": "HgSe/HgS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-like assignment in main Results / Figure 6, not a supplied atomic coordinate model",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.6 / printed p.2256, Results, Cation Exchange: wurtzite-like HgSe/HgS assignment"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.7 / printed p.2257, Figure 6d-h: HgSe/HgS diffraction and HRTEM/FT"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.9 / printed p.2259, Methods, Cation Exchange Reactions"
+                }
+              ],
+              "note": "Not reported for this context."
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ondry2021-2d-superlattices-acsnano0c07202-native-assembly::ondry2021-2d-superlattices-acsnano0c07202-native-assembly--sample",
+      "record_id": "ondry2021-2d-superlattices-acsnano0c07202-native-assembly",
+      "record_page_path": "records/ondry2021-2d-superlattices-acsnano0c07202-native-assembly.html",
+      "source_group": "ondry2021-2d-superlattices-acsnano0c07202",
+      "title": "Ondry et al. (2021): Liquid-subphase monolayer assembly",
+      "doi": "10.1021/acsnano.0c07202",
+      "year": 2021,
+      "method": "Liquid-subphase monolayer assembly",
+      "recipe_label": "Ondry et al. (2021): Liquid-subphase monolayer assembly",
+      "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-native-assembly--sample",
+      "source_sample_label": "Native oleate-separated assembly",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS monolayer superlattice",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+          },
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly",
+          "claim": null
+        },
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite nanocrystals in a hexagonal superlattice",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Monolayer of hexagonal prisms; c-axis perpendicular to substrate",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              }
+            ],
+            "note": "Not reported for this context."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              }
+            ],
+            "note": "Not reported for this context."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-native-assembly--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ondry2021-2d-superlattices-acsnano0c07202-native-assembly--native-film",
+          "composition": {
+            "value": "CdSe/CdS monolayer superlattice",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite nanocrystals in a hexagonal superlattice",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Monolayer of hexagonal prisms; c-axis perpendicular to substrate",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.8 / printed p.2258, Methods, Nanocrystal Assembly"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.3 / printed p.2253, Figure 2a and native assembly discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "ondry2021-2d-superlattices-acsnano0c07202-zns-silar::ondry2021-2d-superlattices-acsnano0c07202-zns-silar--sample",
+      "record_id": "ondry2021-2d-superlattices-acsnano0c07202-zns-silar",
+      "record_page_path": "records/ondry2021-2d-superlattices-acsnano0c07202-zns-silar.html",
+      "source_group": "ondry2021-2d-superlattices-acsnano0c07202",
+      "title": "Ondry et al. (2021): Six-cycle ZnS SILAR attachment",
+      "doi": "10.1021/acsnano.0c07202",
+      "year": 2021,
+      "method": "Six-cycle ZnS SILAR attachment",
+      "recipe_label": "Ondry et al. (2021): Six-cycle ZnS SILAR attachment",
+      "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-zns-silar--sample",
+      "source_sample_label": "Six-monolayer ZnS SILAR superlattice",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS with ZnS interparticle bridges",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+          },
+          {
+            "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+            "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment",
+          "claim": null
+        },
+        {
+          "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+          "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Wurtzite-type epitaxial bridging assignment",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Attached hexagonal QD superlattice",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": "Not reported for this context."
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "Not reported for this context.",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": "Not reported for this context."
+          }
+        },
+        "observed_product": {
+          "sample_id": "ondry2021-2d-superlattices-acsnano0c07202-zns-silar--sample",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "ondry2021-2d-superlattices-acsnano0c07202-zns-silar--attached-film",
+          "composition": {
+            "value": "CdSe/CdS with ZnS interparticle bridges",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+              },
+              {
+                "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Wurtzite-type epitaxial bridging assignment",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Attached hexagonal QD superlattice",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.9 / printed p.2259, Methods, SILAR Attachment"
+                },
+                {
+                  "source_id": "ondry2021-2d-superlattices-acsnano0c07202",
+                  "locator": "Main PDF p.3 / printed p.2253, Figure 2: six-monolayer SILAR sample classes"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
