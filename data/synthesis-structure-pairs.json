@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 825,
-    "source_groups": 179,
-    "records": 658,
+    "recipe_structure_rows": 826,
+    "source_groups": 180,
+    "records": 659,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -154140,6 +154140,157 @@
                 "field": "crystal_structure.coherence_length"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhou2022-inp-multishell-acsanm2c04509-inp-core::core",
+      "record_id": "zhou2022-inp-multishell-acsanm2c04509-inp-core",
+      "record_page_path": "records/zhou2022-inp-multishell-acsanm2c04509-inp-core.html",
+      "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+      "title": "Zhou et al. (2022): InP core synthesis and HF treatment",
+      "doi": "10.1021/acsanm.2c04509",
+      "year": 2022,
+      "method": "InP core synthesis and HF treatment",
+      "recipe_label": "Zhou et al. (2022): InP core synthesis and HF treatment",
+      "sample_id": "core",
+      "source_sample_label": "Worked InP core preparation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+            "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+          "locator": "Main PDF p.3, Section 2.1.1, InP Core",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Spherical cores as described in the method",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [
+              {
+                "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "core",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "core-purify-state",
+          "composition": {
+            "value": "InP",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                  "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Spherical cores as described in the method",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhou2022-inp-multishell-acsanm2c04509",
+                  "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },

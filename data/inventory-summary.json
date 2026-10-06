@@ -10,12 +10,12 @@
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
     "curated_library_additions": 119,
-    "canonical_records": 2609,
-    "reviewed_literature_records": 2509,
-    "reviewed_literature_source_groups": 219,
+    "canonical_records": 2715,
+    "reviewed_literature_records": 2615,
+    "reviewed_literature_source_groups": 222,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 220,
+    "total_canonical_source_groups": 223,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
     "formal_full_main_reviews_si_unverified": 104,
@@ -26,42 +26,42 @@
     "formal_main_and_selected_si_review_pages": 30,
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
-    "selected_recipe_figure_review_sources": 69,
-    "local_groups_without_canonical_records": 4075,
-    "synthesis_route_variant_records": 1050,
-    "contextual_control_variant_records": 83,
-    "shared_preparation_workup_characterization_assay_procedures": 879,
-    "nonprocedure_literature_records": 1630,
+    "selected_recipe_figure_review_sources": 72,
+    "local_groups_without_canonical_records": 4072,
+    "synthesis_route_variant_records": 1066,
+    "contextual_control_variant_records": 85,
+    "shared_preparation_workup_characterization_assay_procedures": 924,
+    "nonprocedure_literature_records": 1691,
     "literature_record_type_counts": {
       "experiment": 45,
-      "literature_protocol": 837,
-      "observation": 459,
-      "procedure": 879,
+      "literature_protocol": 855,
+      "observation": 502,
+      "procedure": 924,
       "protocol_variant": 289
     },
     "canonical_record_type_counts": {
       "experiment": 145,
-      "literature_protocol": 837,
-      "observation": 459,
-      "procedure": 879,
+      "literature_protocol": 855,
+      "observation": 502,
+      "procedure": 924,
       "protocol_variant": 289
     },
-    "literature_recipe_family_ids": 368,
-    "primary_synthesis_recipe_family_ids": 306,
-    "public_material_hubs": 260,
-    "direct_synthesis_target_systems": 223,
+    "literature_recipe_family_ids": 371,
+    "primary_synthesis_recipe_family_ids": 309,
+    "public_material_hubs": 269,
+    "direct_synthesis_target_systems": 232,
     "component_only_hubs": 37,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 319,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 333,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
-    "contextual_observation_records": 459,
-    "recipe_or_control_literature_records": 1133,
-    "contextual_observation_family_ids": 110,
-    "source_checked_synthesis_structure_rows": 825,
-    "source_groups_with_synthesis_structure_rows": 179,
+    "contextual_observation_records": 502,
+    "recipe_or_control_literature_records": 1151,
+    "contextual_observation_family_ids": 112,
+    "source_checked_synthesis_structure_rows": 826,
+    "source_groups_with_synthesis_structure_rows": 180,
     "deduplicated_physical_sample_outcomes": null,
     "reviewed_literature_experimental_rows": 38
   },
@@ -232,6 +232,8 @@
       "Fe–O",
       "GdFeO3",
       "Ge/Si",
+      "IZO",
+      "IZO/PbS",
       "In2O3",
       "In2O3:Sn",
       "In4Te3",
@@ -242,8 +244,12 @@
       "InOOH",
       "InP",
       "InP/ZnS",
+      "InP/ZnSe/ZnS",
       "InP/ZnSeS",
       "InP:Zn",
+      "InZnP",
+      "InZnP/ZnMgSe",
+      "InZnP/ZnMgSe/ZnS",
       "Ir",
       "La2(MoO4)3:Yb,Er",
       "Li2Bi4Ti3O12",
@@ -301,7 +307,10 @@
       "Zn3P2",
       "ZnAl2O4",
       "ZnGa2O4",
+      "ZnMgSe",
+      "ZnMgSe/ZnS",
       "ZnO",
+      "ZnO/PbS",
       "ZnO:Co",
       "ZnO:Ni",
       "ZnS",
@@ -443,13 +452,20 @@
       "ITO",
       "ITO/PDDA",
       "ITO/PMAEMA",
+      "IZO/PbS",
       "In66Si100Al92O384",
       "InAs",
       "InCl3 / oleylamine",
       "InP",
       "InP analytical models",
       "InP → InP/ZnSeS",
+      "InP/ZnMgSe",
+      "InP/ZnS/ZnSe/MgSe",
+      "InP/ZnSe",
       "InP:Zn",
+      "InZnP",
+      "InZnP/ZnMgSe",
+      "InZnP/ZnMgSe/ZnS",
       "Ir",
       "La(OH)3",
       "La2(MoO4)3:Yb,Er",
@@ -459,6 +475,7 @@
       "MAPbI3/Al2O3",
       "MAPbI3/TiO2",
       "Mg-Al-LDH",
+      "MgSe",
       "Mn:ZnO",
       "NMR contexts",
       "NaYF4",
@@ -512,7 +529,11 @@
       "YbF3",
       "Zn-Al precursor context",
       "ZnAl2O4",
+      "ZnMgSe",
+      "ZnMgSe/ZnS",
       "ZnO",
+      "ZnO/IZO/PbS",
+      "ZnO/PbS",
       "ZnO:Co",
       "ZnSSeTe",
       "ZnSe",
@@ -10292,6 +10313,204 @@
       "source_checked_synthesis_structure_rows": 13
     },
     {
+      "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+      "paper_id": "mulder2020-inznp-znmgse-acsanm0c00583",
+      "doi": "10.1021/acsanm.0c00583",
+      "url": "https://doi.org/10.1021/acsanm.0c00583",
+      "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications",
+      "year": 2020,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "review_scope": "The author and independent auditor each read all nine main and eight SI pages as text and original-page images: InZnP core and ZnMgSe/ZnS preparations, four distinct source sample families, Mg feed versus measured ratios, reference bulk data, failed controls, scale-up and characterization. External cited full recipes and unprinted curve values are excluded.",
+      "documents": [
+        {
+          "role": "main",
+          "sha256": "add970005a579d28d0a23a4979e0fc19caf0472ef62f97976ea3845228ef9f26",
+          "page_count": 9,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "author_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "author_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        },
+        {
+          "role": "si",
+          "sha256": "e7d895e9f539e7ecee702a6a7b7d06beb2dfe0933d4468517bc79e6ee67ae38f",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "author_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "author_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/records/mulder2020-inznp-znmgse-acsanm0c00583-r01.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "Matching eight-page local SI read as text and original-page images by the author and independent auditor; scoped independent audit completed.",
+      "notes": [
+        "The author and independent auditor each read all nine main and eight SI pages as text and original-page images; prior reading is reused without claiming a new read; preparation routes, four sample families, controls and referenced bulk contexts remain distinct.",
+        "Formal Reader is scoped; full document reading does not establish external-reference access."
+      ],
+      "canonical_record_count": 35,
+      "synthesis_route_variant_count": 6,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 28,
+      "procedure_count": 1,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 165,
+      "record_type_counts": {
+        "literature_protocol": 6,
+        "observation": 28,
+        "procedure": 1
+      },
+      "canonical_recipe_family_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "direct_route_material_systems": [
+        "InZnP",
+        "InZnP/ZnMgSe",
+        "InZnP/ZnMgSe/ZnS",
+        "ZnMgSe",
+        "ZnMgSe/ZnS"
+      ],
+      "record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r01",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r02",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r03",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r04",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r05",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r06",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r07",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r08",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r09",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r10",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r11",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r12",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r13",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r14",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r15",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r16",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r17",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r18",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r19",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r20",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r21",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r22",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r23",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r24",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r25",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r26",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r27",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r28",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r29",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r30",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r31",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r32",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r33",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r34",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r35"
+      ],
+      "record_urls": {
+        "mulder2020-inznp-znmgse-acsanm0c00583-r01": "records/mulder2020-inznp-znmgse-acsanm0c00583-r01.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r02": "records/mulder2020-inznp-znmgse-acsanm0c00583-r02.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r03": "records/mulder2020-inznp-znmgse-acsanm0c00583-r03.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r04": "records/mulder2020-inznp-znmgse-acsanm0c00583-r04.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r05": "records/mulder2020-inznp-znmgse-acsanm0c00583-r05.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r06": "records/mulder2020-inznp-znmgse-acsanm0c00583-r06.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r07": "records/mulder2020-inznp-znmgse-acsanm0c00583-r07.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r08": "records/mulder2020-inznp-znmgse-acsanm0c00583-r08.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r09": "records/mulder2020-inznp-znmgse-acsanm0c00583-r09.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r10": "records/mulder2020-inznp-znmgse-acsanm0c00583-r10.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r11": "records/mulder2020-inznp-znmgse-acsanm0c00583-r11.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r12": "records/mulder2020-inznp-znmgse-acsanm0c00583-r12.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r13": "records/mulder2020-inznp-znmgse-acsanm0c00583-r13.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r14": "records/mulder2020-inznp-znmgse-acsanm0c00583-r14.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r15": "records/mulder2020-inznp-znmgse-acsanm0c00583-r15.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r16": "records/mulder2020-inznp-znmgse-acsanm0c00583-r16.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r17": "records/mulder2020-inznp-znmgse-acsanm0c00583-r17.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r18": "records/mulder2020-inznp-znmgse-acsanm0c00583-r18.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r19": "records/mulder2020-inznp-znmgse-acsanm0c00583-r19.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r20": "records/mulder2020-inznp-znmgse-acsanm0c00583-r20.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r21": "records/mulder2020-inznp-znmgse-acsanm0c00583-r21.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r22": "records/mulder2020-inznp-znmgse-acsanm0c00583-r22.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r23": "records/mulder2020-inznp-znmgse-acsanm0c00583-r23.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r24": "records/mulder2020-inznp-znmgse-acsanm0c00583-r24.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r25": "records/mulder2020-inznp-znmgse-acsanm0c00583-r25.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r26": "records/mulder2020-inznp-znmgse-acsanm0c00583-r26.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r27": "records/mulder2020-inznp-znmgse-acsanm0c00583-r27.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r28": "records/mulder2020-inznp-znmgse-acsanm0c00583-r28.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r29": "records/mulder2020-inznp-znmgse-acsanm0c00583-r29.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r30": "records/mulder2020-inznp-znmgse-acsanm0c00583-r30.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r31": "records/mulder2020-inznp-znmgse-acsanm0c00583-r31.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r32": "records/mulder2020-inznp-znmgse-acsanm0c00583-r32.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r33": "records/mulder2020-inznp-znmgse-acsanm0c00583-r33.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r34": "records/mulder2020-inznp-znmgse-acsanm0c00583-r34.html",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r35": "records/mulder2020-inznp-znmgse-acsanm0c00583-r35.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "munechika2011-qd-ag-nanoprism-nl2010127",
       "paper_id": "munechika2011-qd-ag-nanoprism-nl2010127",
       "doi": "10.1021/nl2010127",
@@ -11072,6 +11291,210 @@
         "owen2008-cdse-ja804414f-xps": "records/owen2008-cdse-ja804414f-xps.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+      "paper_id": "paliwal2018-pbs-microwave-acsanm8b01194",
+      "doi": "10.1021/acsanm.8b01194",
+      "url": "https://doi.org/10.1021/acsanm.8b01194",
+      "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors",
+      "year": 2018,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "review_scope": "The author and independent auditor each read all ten main and eleven SI pages as text and original-page images. Microwave PbS route, intermediate aggregates, power alternatives, ZnO/IZO preparation, device coating variants, characterization specimens, hot-injection comparison and source conflicts are scoped separately. Cited external full recipes, introductory literature-only background values and unprinted curve values are excluded.",
+      "documents": [
+        {
+          "role": "main",
+          "sha256": "e3a811c614a998d796931bc0759e779c1b5bcb463856611b27fb45d336e40e19",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "author_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "author_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        },
+        {
+          "role": "si",
+          "sha256": "6b73386795004c6769f4bf655abd25756542c0d44fcfbfe9f3caf60568ef46f7",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "author_text_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "author_visual_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true
+        }
+      ],
+      "evidence_locator": "data/records/paliwal2018-pbs-microwave-acsanm8b01194-r01-mw-route.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "Matching eleven-page local SI read as text and original-page images by the author and independent auditor; scoped independent audit completed.",
+      "notes": [
+        "The author and independent auditor each read all ten main and eleven SI pages as text and original-page images; prior reading is reused without claiming a new read; intermediate/final PbS, physical analytical specimens, oxide/device variants, controls and conflicting figure captions remain distinct.",
+        "Formal Reader is scoped; full document reading does not establish external-reference access."
+      ],
+      "canonical_record_count": 32,
+      "synthesis_route_variant_count": 7,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 15,
+      "procedure_count": 10,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 133,
+      "record_type_counts": {
+        "literature_protocol": 7,
+        "observation": 15,
+        "procedure": 10
+      },
+      "canonical_recipe_family_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ],
+      "direct_route_material_systems": [
+        "IZO",
+        "IZO/PbS",
+        "PbS",
+        "ZnO",
+        "ZnO/PbS"
+      ],
+      "record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r01-mw-route",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r02-first-aggregate",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r03-dls-30w",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r04-dls-40w",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r05-dls-50w",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r06-zno-sol",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r07-izo-sol",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r08-zno-general-film",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r09-izo-general-film",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r10-zno-xrd",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r11-izo-xrd",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r12-sem-first",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r13-sem-final",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r14-tem-final",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r15-hrtem-first",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r16-glass-clean",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r17-si-clean",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r18-pc-1coat",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r19-pc-2coat",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r20-pc-3coat",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r21-hot-injection-control",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r22-pt-coating",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r23-pc-spectra",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r24-pc-stability",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r25-pc-transient",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r26-pt-intensity",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r27-pt-transient",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r28-ftir-undried",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r29-ftir-dried",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r30-source-models",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r31-edx-table",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r32-final-spectra"
+      ],
+      "record_urls": {
+        "paliwal2018-pbs-microwave-acsanm8b01194-r01-mw-route": "records/paliwal2018-pbs-microwave-acsanm8b01194-r01-mw-route.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r02-first-aggregate": "records/paliwal2018-pbs-microwave-acsanm8b01194-r02-first-aggregate.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r03-dls-30w": "records/paliwal2018-pbs-microwave-acsanm8b01194-r03-dls-30w.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r04-dls-40w": "records/paliwal2018-pbs-microwave-acsanm8b01194-r04-dls-40w.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r05-dls-50w": "records/paliwal2018-pbs-microwave-acsanm8b01194-r05-dls-50w.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r06-zno-sol": "records/paliwal2018-pbs-microwave-acsanm8b01194-r06-zno-sol.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r07-izo-sol": "records/paliwal2018-pbs-microwave-acsanm8b01194-r07-izo-sol.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r08-zno-general-film": "records/paliwal2018-pbs-microwave-acsanm8b01194-r08-zno-general-film.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r09-izo-general-film": "records/paliwal2018-pbs-microwave-acsanm8b01194-r09-izo-general-film.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r10-zno-xrd": "records/paliwal2018-pbs-microwave-acsanm8b01194-r10-zno-xrd.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r11-izo-xrd": "records/paliwal2018-pbs-microwave-acsanm8b01194-r11-izo-xrd.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r12-sem-first": "records/paliwal2018-pbs-microwave-acsanm8b01194-r12-sem-first.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r13-sem-final": "records/paliwal2018-pbs-microwave-acsanm8b01194-r13-sem-final.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r14-tem-final": "records/paliwal2018-pbs-microwave-acsanm8b01194-r14-tem-final.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r15-hrtem-first": "records/paliwal2018-pbs-microwave-acsanm8b01194-r15-hrtem-first.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r16-glass-clean": "records/paliwal2018-pbs-microwave-acsanm8b01194-r16-glass-clean.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r17-si-clean": "records/paliwal2018-pbs-microwave-acsanm8b01194-r17-si-clean.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r18-pc-1coat": "records/paliwal2018-pbs-microwave-acsanm8b01194-r18-pc-1coat.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r19-pc-2coat": "records/paliwal2018-pbs-microwave-acsanm8b01194-r19-pc-2coat.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r20-pc-3coat": "records/paliwal2018-pbs-microwave-acsanm8b01194-r20-pc-3coat.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r21-hot-injection-control": "records/paliwal2018-pbs-microwave-acsanm8b01194-r21-hot-injection-control.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r22-pt-coating": "records/paliwal2018-pbs-microwave-acsanm8b01194-r22-pt-coating.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r23-pc-spectra": "records/paliwal2018-pbs-microwave-acsanm8b01194-r23-pc-spectra.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r24-pc-stability": "records/paliwal2018-pbs-microwave-acsanm8b01194-r24-pc-stability.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r25-pc-transient": "records/paliwal2018-pbs-microwave-acsanm8b01194-r25-pc-transient.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r26-pt-intensity": "records/paliwal2018-pbs-microwave-acsanm8b01194-r26-pt-intensity.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r27-pt-transient": "records/paliwal2018-pbs-microwave-acsanm8b01194-r27-pt-transient.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r28-ftir-undried": "records/paliwal2018-pbs-microwave-acsanm8b01194-r28-ftir-undried.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r29-ftir-dried": "records/paliwal2018-pbs-microwave-acsanm8b01194-r29-ftir-dried.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r30-source-models": "records/paliwal2018-pbs-microwave-acsanm8b01194-r30-source-models.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r31-edx-table": "records/paliwal2018-pbs-microwave-acsanm8b01194-r31-edx-table.html",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r32-final-spectra": "records/paliwal2018-pbs-microwave-acsanm8b01194-r32-final-spectra.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "park2016-supra-qd-6b01126",
@@ -18906,6 +19329,173 @@
         "zhou1995-nh4no3-electrochemical-control": "records/zhou1995-nh4no3-electrochemical-control.html"
       },
       "source_checked_synthesis_structure_rows": 2
+    },
+    {
+      "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+      "paper_id": "zhou2022-inp-multishell-acsanm2c04509",
+      "doi": "10.1021/acsanm.2c04509",
+      "url": "https://doi.org/10.1021/acsanm.2c04509",
+      "title": "Nonblinking Core–Multishell InP/ZnSe/ZnS Quantum Dot Bioconjugates for Super-resolution Imaging",
+      "year": 2022,
+      "has_local_corpus_group": true,
+      "review_status": "selected_recipe_and_figure_review",
+      "review_scope": "Source-scoped InP core and InP/ZnSe/ZnS multishell preparation, ligand transfer, streptavidin/chitosan coupling, biological specimen preparation, and distinct source-reported characterization and control contexts. All eleven main and four matching supporting-information pages were read as text and images. Printed ambiguities, unspecified preparation settings, and unknown physical batch joins remain explicit. This is not a complete laboratory SOP or a full-paper narrative Reader.",
+      "documents": [
+        {
+          "role": "main",
+          "document_id": "main",
+          "sha256": "679a2023a872b767281eb61695ab0c5e5c54979e357871600bc9b56d50c04fcd",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "scope": "Source-scoped InP core and InP/ZnSe/ZnS multishell preparation, ligand transfer, streptavidin/chitosan coupling, biological specimen preparation, and distinct source-reported characterization and control contexts. All eleven main and four matching supporting-information pages were read as text and images. Printed ambiguities, unspecified preparation settings, and unknown physical batch joins remain explicit. This is not a complete laboratory SOP or a full-paper narrative Reader."
+        },
+        {
+          "role": "si",
+          "document_id": "si",
+          "sha256": "9e9298eb2b137ee90a977790786c38925c6a14542788ae2434dc33d5d4079298",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "all_text_read": true,
+          "all_visually_reviewed": true,
+          "scope": "Source-scoped InP core and InP/ZnSe/ZnS multishell preparation, ligand transfer, streptavidin/chitosan coupling, biological specimen preparation, and distinct source-reported characterization and control contexts. All eleven main and four matching supporting-information pages were read as text and images. Printed ambiguities, unspecified preparation settings, and unknown physical batch joins remain explicit. This is not a complete laboratory SOP or a full-paper narrative Reader."
+        }
+      ],
+      "evidence_locator": "data/records/zhou2022-inp-multishell-acsanm2c04509-inp-core.json",
+      "paper_review_url": null,
+      "main_status": "scoped_independently_audited",
+      "si_status": "partially_reviewed",
+      "notes": [
+        "No cited-paper preparation or unstated correction of the printed mol quantities is imported. Selenium feed formulation, several HF charges, purification details, and exact representative-sample batch joins are not reported.",
+        "The existing matching non-held SI is used for characterization support under explicit related-companion authorization; its standalone no_target_recipe screening outcome is preserved privately.",
+        "Graphically reported time-series specimens do not imply fully quantified separate synthesis batches. No unprinted graph points or raw fluorescence traces are digitized.",
+        "Biological feature sizes and optical reconstruction resolutions are distinct from QD particle dimensions. Commercial antibodies, proteins, polymers, media, buffers and cells do not have invented complete molecular models.",
+        "No measured atomic coordinates or composite interface structure is supplied. Any bulk cell or molecular geometry is a qualified reference, not a measurement of these samples.",
+        "Full source pages, extracted text and bibliography remain private. ACS source-figure excerpt reuse permission is not established by this author package.",
+        "MSIM theoretical equations are read as source context, not converted into new synthesis recipes or measured training labels. Source-reported fitted outcomes and their technique scopes remain available."
+      ],
+      "review_scope_kind": "scoped_independent_audit",
+      "review_scope_contract_version": 2,
+      "canonical_record_count": 39,
+      "synthesis_route_variant_count": 3,
+      "contextual_control_count": 2,
+      "contextual_observation_count": 0,
+      "procedure_count": 34,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 95,
+      "record_type_counts": {
+        "literature_protocol": 5,
+        "procedure": 34
+      },
+      "canonical_recipe_family_ids": [
+        "zhou2022-inp-multishell-acsanm2c04509"
+      ],
+      "direct_route_material_systems": [
+        "InP",
+        "InP/ZnSe/ZnS"
+      ],
+      "record_ids": [
+        "zhou2022-inp-multishell-acsanm2c04509-alexa488-stability",
+        "zhou2022-inp-multishell-acsanm2c04509-alexa647-optical",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-10ms",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-200ms",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-5ms",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-base",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-without-hf",
+        "zhou2022-inp-multishell-acsanm2c04509-chitosan-acetate",
+        "zhou2022-inp-multishell-acsanm2c04509-chitosan-conjugate",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1mm",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1nm",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1pm",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1um",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-control",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-15min",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-1min",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-20min",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-25min",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-5min",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-core",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-coloc",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-dnd2h",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-dnd30",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-qd",
+        "zhou2022-inp-multishell-acsanm2c04509-microtubules",
+        "zhou2022-inp-multishell-acsanm2c04509-mitochondria",
+        "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer",
+        "zhou2022-inp-multishell-acsanm2c04509-multishell",
+        "zhou2022-inp-multishell-acsanm2c04509-representative-tem",
+        "zhou2022-inp-multishell-acsanm2c04509-sa-conjugate",
+        "zhou2022-inp-multishell-acsanm2c04509-sa-optical",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-multishell10",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse10",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse20",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse30",
+        "zhou2022-inp-multishell-acsanm2c04509-uv-appearance",
+        "zhou2022-inp-multishell-acsanm2c04509-xrd-inp",
+        "zhou2022-inp-multishell-acsanm2c04509-xrd-inp-znse",
+        "zhou2022-inp-multishell-acsanm2c04509-xrd-multishell"
+      ],
+      "record_urls": {
+        "zhou2022-inp-multishell-acsanm2c04509-alexa488-stability": "records/zhou2022-inp-multishell-acsanm2c04509-alexa488-stability.html",
+        "zhou2022-inp-multishell-acsanm2c04509-alexa647-optical": "records/zhou2022-inp-multishell-acsanm2c04509-alexa647-optical.html",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-10ms": "records/zhou2022-inp-multishell-acsanm2c04509-blinking-hf-10ms.html",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-200ms": "records/zhou2022-inp-multishell-acsanm2c04509-blinking-hf-200ms.html",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-5ms": "records/zhou2022-inp-multishell-acsanm2c04509-blinking-hf-5ms.html",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-hf-base": "records/zhou2022-inp-multishell-acsanm2c04509-blinking-hf-base.html",
+        "zhou2022-inp-multishell-acsanm2c04509-blinking-without-hf": "records/zhou2022-inp-multishell-acsanm2c04509-blinking-without-hf.html",
+        "zhou2022-inp-multishell-acsanm2c04509-chitosan-acetate": "records/zhou2022-inp-multishell-acsanm2c04509-chitosan-acetate.html",
+        "zhou2022-inp-multishell-acsanm2c04509-chitosan-conjugate": "records/zhou2022-inp-multishell-acsanm2c04509-chitosan-conjugate.html",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1mm": "records/zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1mm.html",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1nm": "records/zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1nm.html",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1pm": "records/zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1pm.html",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1um": "records/zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-1um.html",
+        "zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-control": "records/zhou2022-inp-multishell-acsanm2c04509-cytotoxicity-control.html",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-15min": "records/zhou2022-inp-multishell-acsanm2c04509-inp-abs-15min.html",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-1min": "records/zhou2022-inp-multishell-acsanm2c04509-inp-abs-1min.html",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-20min": "records/zhou2022-inp-multishell-acsanm2c04509-inp-abs-20min.html",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-25min": "records/zhou2022-inp-multishell-acsanm2c04509-inp-abs-25min.html",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-abs-5min": "records/zhou2022-inp-multishell-acsanm2c04509-inp-abs-5min.html",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-core": "records/zhou2022-inp-multishell-acsanm2c04509-inp-core.html",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-coloc": "records/zhou2022-inp-multishell-acsanm2c04509-lysosome-coloc.html",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-dnd2h": "records/zhou2022-inp-multishell-acsanm2c04509-lysosome-dnd2h.html",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-dnd30": "records/zhou2022-inp-multishell-acsanm2c04509-lysosome-dnd30.html",
+        "zhou2022-inp-multishell-acsanm2c04509-lysosome-qd": "records/zhou2022-inp-multishell-acsanm2c04509-lysosome-qd.html",
+        "zhou2022-inp-multishell-acsanm2c04509-microtubules": "records/zhou2022-inp-multishell-acsanm2c04509-microtubules.html",
+        "zhou2022-inp-multishell-acsanm2c04509-mitochondria": "records/zhou2022-inp-multishell-acsanm2c04509-mitochondria.html",
+        "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer": "records/zhou2022-inp-multishell-acsanm2c04509-mpa-transfer.html",
+        "zhou2022-inp-multishell-acsanm2c04509-multishell": "records/zhou2022-inp-multishell-acsanm2c04509-multishell.html",
+        "zhou2022-inp-multishell-acsanm2c04509-representative-tem": "records/zhou2022-inp-multishell-acsanm2c04509-representative-tem.html",
+        "zhou2022-inp-multishell-acsanm2c04509-sa-conjugate": "records/zhou2022-inp-multishell-acsanm2c04509-sa-conjugate.html",
+        "zhou2022-inp-multishell-acsanm2c04509-sa-optical": "records/zhou2022-inp-multishell-acsanm2c04509-sa-optical.html",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-multishell10": "records/zhou2022-inp-multishell-acsanm2c04509-shell-optical-multishell10.html",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse10": "records/zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse10.html",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse20": "records/zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse20.html",
+        "zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse30": "records/zhou2022-inp-multishell-acsanm2c04509-shell-optical-znse30.html",
+        "zhou2022-inp-multishell-acsanm2c04509-uv-appearance": "records/zhou2022-inp-multishell-acsanm2c04509-uv-appearance.html",
+        "zhou2022-inp-multishell-acsanm2c04509-xrd-inp": "records/zhou2022-inp-multishell-acsanm2c04509-xrd-inp.html",
+        "zhou2022-inp-multishell-acsanm2c04509-xrd-inp-znse": "records/zhou2022-inp-multishell-acsanm2c04509-xrd-inp-znse.html",
+        "zhou2022-inp-multishell-acsanm2c04509-xrd-multishell": "records/zhou2022-inp-multishell-acsanm2c04509-xrd-multishell.html"
+      },
+      "source_checked_synthesis_structure_rows": 1
     },
     {
       "source_group": "zhu2012-ja210312s-si",
@@ -29509,6 +30099,81 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "IZO",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r09-izo-general-film"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 2,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "izo-f0a5e2",
+      "material_hub_url": "material.html?id=izo-f0a5e2",
+      "source_groups": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ],
+      "source_links": [
+        {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ]
+    },
+    {
+      "material_system": "IZO/PbS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r22-pt-coating"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 2,
+      "contextual_observation_record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r26-pt-intensity",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r27-pt-transient"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "izo-pbs-53f0b7",
+      "material_hub_url": "material.html?id=izo-pbs-53f0b7",
+      "source_groups": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ],
+      "source_links": [
+        {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ]
+    },
+    {
       "material_system": "In",
       "notes": [],
       "direct_synthesis_route_variant_count": 0,
@@ -29974,7 +30639,7 @@
     {
       "material_system": "InP",
       "notes": [],
-      "direct_synthesis_route_variant_count": 97,
+      "direct_synthesis_route_variant_count": 98,
       "direct_route_record_ids": [
         "basel-2020-inp-as-made-hot-injection-270c",
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-inp-stem",
@@ -30072,7 +30737,8 @@
         "parvizian2023-inp-jchemed2c01167-core-large",
         "parvizian2023-inp-jchemed2c01167-core-medium",
         "parvizian2023-inp-jchemed2c01167-core-small-sec",
-        "tessier2015-inp-incl3-reference1"
+        "tessier2015-inp-incl3-reference1",
+        "zhou2022-inp-multishell-acsanm2c04509-inp-core"
       ],
       "contextual_control_count": 2,
       "contextual_control_record_ids": [
@@ -30099,12 +30765,12 @@
         "gary2015-inp-5b00286-rejected-well-model",
         "gary2015-inp-5b00286-two-step-mechanism"
       ],
-      "procedure_count": 32,
+      "procedure_count": 38,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 107,
-      "component_route_contribution_count": 10,
+      "public_hub_route_contributions": 110,
+      "component_route_contribution_count": 12,
       "component_route_record_ids": [
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi1",
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-alloy-gi2",
@@ -30115,9 +30781,11 @@
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-qd-nanowire-general",
         "huang2026-reductant-inp-nanolett6c01798-msc-nr-derived-qd-comparison",
         "huang2026-reductant-inp-nanolett6c01798-msc-r-core-shell",
-        "jung2024-ag-nanospheres-jacs4c00073-route"
+        "jung2024-ag-nanospheres-jacs4c00073-route",
+        "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer",
+        "zhou2022-inp-multishell-acsanm2c04509-multishell"
       ],
-      "primary_reviewed_source_count": 10,
+      "primary_reviewed_source_count": 11,
       "material_hub_id": "inp-9eb58d",
       "material_hub_url": "material.html?id=inp-9eb58d",
       "source_groups": [
@@ -30131,7 +30799,8 @@
         "jung2024-ag-nanospheres-jacs4c00073",
         "larson2023-inp-edta-chemmater3c01309",
         "parvizian2023-inp-jchemed2c01167",
-        "tessier2015"
+        "tessier2015",
+        "zhou2022-inp-multishell-acsanm2c04509"
       ],
       "source_links": [
         {
@@ -30199,6 +30868,12 @@
           "doi": "10.1021/acs.chemmater.5b02138",
           "url": "https://doi.org/10.1021/acs.chemmater.5b02138",
           "title": "Economic and Size-Tunable Synthesis of InP/ZnE (E = S, Se) Colloidal Quantum Dots."
+        },
+        {
+          "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+          "doi": "10.1021/acsanm.2c04509",
+          "url": "https://doi.org/10.1021/acsanm.2c04509",
+          "title": "Nonblinking Core–Multishell InP/ZnSe/ZnS Quantum Dot Bioconjugates for Super-resolution Imaging"
         }
       ],
       "direct_route_recipe_family_ids": [
@@ -30211,7 +30886,8 @@
         "huang2026-reductant-inp-nanolett6c01798",
         "larson2023-inp-edta-chemmater3c01309",
         "parvizian2023-inp-jchemed2c01167",
-        "tessier2015-inp-aminophosphine"
+        "tessier2015-inp-aminophosphine",
+        "zhou2022-inp-multishell-acsanm2c04509"
       ]
     },
     {
@@ -30283,6 +30959,40 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "InP/ZnMgSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r26"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
       "material_system": "InP/ZnS",
       "notes": [],
       "direct_synthesis_route_variant_count": 3,
@@ -30318,6 +31028,121 @@
       ],
       "direct_route_recipe_family_ids": [
         "parvizian2023-inp-jchemed2c01167"
+      ]
+    },
+    {
+      "material_system": "InP/ZnS/ZnSe/MgSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r32"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "InP/ZnSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r24"
+      ],
+      "procedure_count": 4,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583",
+        "zhou2022-inp-multishell-acsanm2c04509"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        },
+        {
+          "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+          "doi": "10.1021/acsanm.2c04509",
+          "url": "https://doi.org/10.1021/acsanm.2c04509",
+          "title": "Nonblinking Core–Multishell InP/ZnSe/ZnS Quantum Dot Bioconjugates for Super-resolution Imaging"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "InP/ZnSe/ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer",
+        "zhou2022-inp-multishell-acsanm2c04509-multishell"
+      ],
+      "contextual_control_count": 2,
+      "contextual_control_record_ids": [
+        "zhou2022-inp-multishell-acsanm2c04509-chitosan-conjugate",
+        "zhou2022-inp-multishell-acsanm2c04509-sa-conjugate"
+      ],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 10,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "inp-znse-zns-7cb063",
+      "material_hub_url": "material.html?id=inp-znse-zns-7cb063",
+      "source_groups": [
+        "zhou2022-inp-multishell-acsanm2c04509"
+      ],
+      "source_links": [
+        {
+          "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+          "doi": "10.1021/acsanm.2c04509",
+          "url": "https://doi.org/10.1021/acsanm.2c04509",
+          "title": "Nonblinking Core–Multishell InP/ZnSe/ZnS Quantum Dot Bioconjugates for Super-resolution Imaging"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "zhou2022-inp-multishell-acsanm2c04509"
       ]
     },
     {
@@ -30427,6 +31252,136 @@
       ],
       "direct_route_recipe_family_ids": [
         "lee2024-msc-inznp-jpcc3c07189"
+      ]
+    },
+    {
+      "material_system": "InZnP",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r01"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 3,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r07",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r22",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r23"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "inznp-1f80b8",
+      "material_hub_url": "material.html?id=inznp-1f80b8",
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ]
+    },
+    {
+      "material_system": "InZnP/ZnMgSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r04"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 5,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r12",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r13",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r14",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r15",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r29"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "inznp-znmgse-0918a8",
+      "material_hub_url": "material.html?id=inznp-znmgse-0918a8",
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ]
+    },
+    {
+      "material_system": "InZnP/ZnMgSe/ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r05",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r06"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 10,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r16",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r17",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r18",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r19",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r20",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r21",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r30",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r31",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r34",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r35"
+      ],
+      "procedure_count": 1,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "inznp-znmgse-zns-0cb754",
+      "material_hub_url": "material.html?id=inznp-znmgse-zns-0cb754",
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
       ]
     },
     {
@@ -30958,6 +31913,40 @@
       "direct_route_recipe_family_ids": [
         "dong2013-cdte-ldh-ac400041t"
       ]
+    },
+    {
+      "material_system": "MgSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r25"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
     },
     {
       "material_system": "Mn:ZnO",
@@ -32471,7 +33460,7 @@
       "notes": [
         "Numeric benchmark only, one source. 100 selected rows include95 optical outcomes and5 source-coded failures; no reviewed synthesis hub."
       ],
-      "direct_synthesis_route_variant_count": 28,
+      "direct_synthesis_route_variant_count": 29,
       "direct_route_record_ids": [
         "basel-2020-pbs-hot-injection-80c",
         "choi2006-pbs-aptamer-ja066506k-tae",
@@ -32493,6 +33482,7 @@
         "mukherjee1996-pbs-bf00264103-table1-row-11",
         "mukherjee1996-pbs-bf00264103-table1-row-12",
         "mukherjee1996-pbs-bf00264103-table1-row-13",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r01-mw-route",
         "prins2021-superfocusing-nanolett0c04813-pbs-thiourea",
         "yao2015-pbs-hot-injection-120c",
         "yarema2017-underpressure-chemmater6b04789-pbs-large-6p25",
@@ -32504,7 +33494,7 @@
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
-      "contextual_observation_count": 15,
+      "contextual_observation_count": 23,
       "contextual_observation_record_ids": [
         "choi2006-pbs-aptamer-ja066506k-bsa-interference",
         "choi2006-pbs-aptamer-ja066506k-cd",
@@ -32520,13 +33510,21 @@
         "durmusoglu2020-pbs-taa-acsami0c06694-r10-size-series",
         "durmusoglu2020-pbs-taa-acsami0c06694-r11-multigram",
         "durmusoglu2020-pbs-taa-acsami0c06694-r29-production-cost",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r02-first-aggregate",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r03-dls-30w",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r04-dls-40w",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r05-dls-50w",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r14-tem-final",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r15-hrtem-first",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r31-edx-table",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r32-final-spectra",
         "wang2005-lss-pbs"
       ],
-      "procedure_count": 12,
+      "procedure_count": 16,
       "benchmark_row_count": 100,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 43,
+      "public_hub_route_contributions": 44,
       "component_route_contribution_count": 15,
       "component_route_record_ids": [
         "dantas-2002-afm1",
@@ -32545,7 +33543,7 @@
         "yao2015-cds-pbs-7-cycles",
         "yao2015-planar-cds-pbs-6-cycles"
       ],
-      "primary_reviewed_source_count": 9,
+      "primary_reviewed_source_count": 10,
       "material_hub_id": "pbs-7e1774",
       "material_hub_url": "material.html?id=pbs-7e1774",
       "source_groups": [
@@ -32555,6 +33553,7 @@
         "dantas2002",
         "durmusoglu2020-pbs-taa-acsami0c06694",
         "mukherjee1996-pbs-bf00264103",
+        "paliwal2018-pbs-microwave-acsanm8b01194",
         "prins2021-superfocusing-nanolett0c04813",
         "ratanatawanate2009-pbs-tio2-jp903050h",
         "voznyy2019",
@@ -32599,6 +33598,12 @@
           "doi": "10.1007/bf00264103",
           "url": "https://doi.org/10.1007/bf00264103",
           "title": "Synthesis of nanocrystalline PbS by a chemical route"
+        },
+        {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
         },
         {
           "source_group": "prins2021-superfocusing-nanolett0c04813",
@@ -32649,6 +33654,7 @@
         "dai2017-pbs-nio-analchem7b01557",
         "durmusoglu2020-pbs-taa-acsami0c06694",
         "mukherjee1996-pbs-bf00264103",
+        "paliwal2018-pbs-microwave-acsanm8b01194",
         "prins2021-superfocusing-nanolett0c04813",
         "yao2015-cds-pbs-source-study",
         "yarema2017-underpressure-chemmater6b04789-pbs"
@@ -33755,7 +34761,7 @@
       ],
       "contextual_observation_count": 0,
       "contextual_observation_record_ids": [],
-      "procedure_count": 0,
+      "procedure_count": 1,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": true,
@@ -33775,6 +34781,7 @@
       "source_groups": [
         "heath1996",
         "littau1993",
+        "paliwal2018-pbs-microwave-acsanm8b01194",
         "stiger1999"
       ],
       "source_links": [
@@ -33789,6 +34796,12 @@
           "doi": "10.1021/j100108a019",
           "url": "https://doi.org/10.1021/j100108a019",
           "title": "A Luminescent Silicon Nanocrystal Colloid via a High-Temperature Aerosol Reaction"
+        },
+        {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
         },
         {
           "source_group": "stiger1999",
@@ -35547,9 +36560,89 @@
       ]
     },
     {
+      "material_system": "ZnMgSe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r02"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 2,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r27",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r28"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "znmgse-522dbd",
+      "material_hub_url": "material.html?id=znmgse-522dbd",
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ]
+    },
+    {
+      "material_system": "ZnMgSe/ZnS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r03"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 4,
+      "contextual_observation_record_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583-r08",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r09",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r10",
+        "mulder2020-inznp-znmgse-acsanm0c00583-r11"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "znmgse-zns-cebe60",
+      "material_hub_url": "material.html?id=znmgse-zns-cebe60",
+      "source_groups": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ],
+      "source_links": [
+        {
+          "source_group": "mulder2020-inznp-znmgse-acsanm0c00583",
+          "doi": "10.1021/acsanm.0c00583",
+          "url": "https://doi.org/10.1021/acsanm.0c00583",
+          "title": "Developing Lattice Matched ZnMgSe Shells on InZnP Quantum Dots for Phosphor Applications"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "mulder2020-inznp-znmgse-acsanm0c00583"
+      ]
+    },
+    {
       "material_system": "ZnO",
       "notes": [],
-      "direct_synthesis_route_variant_count": 9,
+      "direct_synthesis_route_variant_count": 10,
       "direct_route_record_ids": [
         "durmusoglu2020-pbs-taa-acsami0c06694-r14-zno",
         "fu-2007-zno-s1",
@@ -35558,6 +36651,7 @@
         "fu-2007-zno-s4",
         "kim2015-znmgo-cm503756q-x0",
         "makarov2003-zno-a1024049203327-gel-decomposition",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r08-zno-general-film",
         "peng2021-roomtemp-pbse-acsami1c13723-zno-nanoparticles",
         "schwartz-2003-zno-route"
       ],
@@ -35575,14 +36669,14 @@
         "schwartz-2003-source-context",
         "schwartz-2003-topo-optical-comparisons"
       ],
-      "procedure_count": 15,
+      "procedure_count": 17,
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 9,
+      "public_hub_route_contributions": 10,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
-      "primary_reviewed_source_count": 6,
+      "primary_reviewed_source_count": 7,
       "material_hub_id": "zno-cf05e2",
       "material_hub_url": "material.html?id=zno-cf05e2",
       "source_groups": [
@@ -35590,6 +36684,7 @@
         "fu2007",
         "kim2015-znmgo-cm503756q",
         "makarov2003-zno-a1024049203327",
+        "paliwal2018-pbs-microwave-acsanm8b01194",
         "peng2021-roomtemp-pbse-acsami1c13723",
         "schwartz2003"
       ],
@@ -35619,6 +36714,12 @@
           "title": "Mass Spectrometric Study of Nanocrystalline ZnO Vaporization"
         },
         {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
+        },
+        {
           "source_group": "peng2021-roomtemp-pbse-acsami1c13723",
           "doi": "10.1021/acsami.1c13723",
           "url": "https://doi.org/10.1021/acsami.1c13723",
@@ -35636,8 +36737,86 @@
         "fu2007-zno-aqueous-dea-oa",
         "kim2015-znmgo-cm503756q-x0",
         "makarov2003-zno-a1024049203327",
+        "paliwal2018-pbs-microwave-acsanm8b01194",
         "peng2021-roomtemp-pbse-acsami1c13723",
         "schwartz2003-zno-doping"
+      ]
+    },
+    {
+      "material_system": "ZnO/IZO/PbS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 1,
+      "contextual_observation_record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r30-source-models"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": false,
+      "public_hub_component_only": null,
+      "public_hub_route_contributions": 0,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": null,
+      "material_hub_url": null,
+      "source_groups": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ],
+      "source_links": [
+        {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "ZnO/PbS",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 3,
+      "direct_route_record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r18-pc-1coat",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r19-pc-2coat",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r20-pc-3coat"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 4,
+      "contextual_observation_record_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194-r21-hot-injection-control",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r23-pc-spectra",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r24-pc-stability",
+        "paliwal2018-pbs-microwave-acsanm8b01194-r25-pc-transient"
+      ],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 3,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 1,
+      "material_hub_id": "zno-pbs-daa959",
+      "material_hub_url": "material.html?id=zno-pbs-daa959",
+      "source_groups": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
+      ],
+      "source_links": [
+        {
+          "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
+          "doi": "10.1021/acsanm.8b01194",
+          "url": "https://doi.org/10.1021/acsanm.8b01194",
+          "title": "Microwave-Polyol Synthesis of Sub-10-nm PbS Nanocrystals for Metal Oxide/Nanocrystal Heterojunction Photodetectors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "paliwal2018-pbs-microwave-acsanm8b01194"
       ]
     },
     {
@@ -35732,8 +36911,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 28,
-      "component_route_contribution_count": 26,
+      "public_hub_route_contributions": 30,
+      "component_route_contribution_count": 28,
       "component_route_record_ids": [
         "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z10",
         "bhattacharya2023-aginte2-zns-ic3c03156-ait85-z5",
@@ -35760,7 +36939,9 @@
         "zhang2019-qd-au-9b03818-gox-gold",
         "zhang2019-qd-au-9b03818-lipid-transfer",
         "zhang2019-qd-au-9b03818-polymer-plh",
-        "zhang2019-qd-au-9b03818-silar"
+        "zhang2019-qd-au-9b03818-silar",
+        "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer",
+        "zhou2022-inp-multishell-acsanm2c04509-multishell"
       ],
       "primary_reviewed_source_count": 2,
       "material_hub_id": "zns-b01883",
@@ -35776,7 +36957,8 @@
         "munechika2011-qd-ag-nanoprism-nl2010127",
         "song2024inorgchem4c02738",
         "yang2016-biomineralized-cds-iecr6b03487",
-        "zhang2019-qd-au-9b03818"
+        "zhang2019-qd-au-9b03818",
+        "zhou2022-inp-multishell-acsanm2c04509"
       ],
       "source_links": [
         {
@@ -35844,6 +37026,12 @@
           "doi": "10.1021/acs.analchem.9b03818",
           "url": "https://doi.org/10.1021/acs.analchem.9b03818",
           "title": "Enzymatic Preparation of Plasmonic-Fluorescent Quantum Dot-Gold Hybrid Nanoprobes for Sensitive Detection of Glucose and Alkaline Phosphatase and Dual-Modality Cell Imaging"
+        },
+        {
+          "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+          "doi": "10.1021/acsanm.2c04509",
+          "url": "https://doi.org/10.1021/acsanm.2c04509",
+          "title": "Nonblinking Core–Multishell InP/ZnSe/ZnS Quantum Dot Bioconjugates for Super-resolution Imaging"
         }
       ],
       "direct_route_recipe_family_ids": [
@@ -36062,8 +37250,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 14,
-      "component_route_contribution_count": 13,
+      "public_hub_route_contributions": 16,
+      "component_route_contribution_count": 15,
       "component_route_record_ids": [
         "danek-1996-bare-dot-film",
         "danek-1996-overcoated-dot-film",
@@ -36077,7 +37265,9 @@
         "song-2024-znssete-msc-349",
         "song-2024-znssete-msc-350",
         "song-2024-znssete-msc-355",
-        "song-2024-znssete-qd-conversion-from-msc-348"
+        "song-2024-znssete-qd-conversion-from-msc-348",
+        "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer",
+        "zhou2022-inp-multishell-acsanm2c04509-multishell"
       ],
       "primary_reviewed_source_count": 4,
       "material_hub_id": "znse-930698",
@@ -36088,7 +37278,8 @@
         "nakonechnyi2017",
         "song2024inorgchem4c02738",
         "wang2005-lss-nature03968",
-        "zheng2012-ja210285p"
+        "zheng2012-ja210285p",
+        "zhou2022-inp-multishell-acsanm2c04509"
       ],
       "source_links": [
         {
@@ -36126,6 +37317,12 @@
           "doi": "10.1021/ja210285p",
           "url": "https://doi.org/10.1021/ja210285p",
           "title": "Evidence of a ZnCr2Se4 Spinel Inclusion at the Core of a Cr-Doped ZnSe Quantum Dot"
+        },
+        {
+          "source_group": "zhou2022-inp-multishell-acsanm2c04509",
+          "doi": "10.1021/acsanm.2c04509",
+          "url": "https://doi.org/10.1021/acsanm.2c04509",
+          "title": "Nonblinking Core–Multishell InP/ZnSe/ZnS Quantum Dot Bioconjugates for Super-resolution Imaging"
         }
       ],
       "direct_route_recipe_family_ids": [
@@ -36574,8 +37771,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "ff73e1acce0b91980d6cb6f1ddc35826f89880b6ef1aa6f827a60c5dc267822f",
-    "record_ids_sha256": "cd1509c19015d65ddd4baf36a847c4eca0381c128bcb6657c5522301714df97d",
+    "reviewed_evidence_sha256": "eb17e2133f6b93aa9003f644a24b71c5906b4a033abfbf3bd247775015d1e449",
+    "record_ids_sha256": "defa4947cc614254a7f3ba469da70424b636c45c459c4c3448d9ac94fc8e3896",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }
