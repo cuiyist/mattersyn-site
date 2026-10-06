@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **227 primary source groups** · release `full-audit-batch16-20261006`. Records are not independent experiments.
+Dataset **0.41.2** · **229 primary source groups** · release `full-audit-batch17-20261006`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -316,6 +316,8 @@ Dataset **0.41.2** · **227 primary source groups** · release `full-audit-batch
 
 - Jianbo Liu; Gui Li; Xiaohai Yang; Kemin Wang; Li Li; Wei Liu; Xing Shi; Yali Guo (2015). Exciton Energy Transfer-Based Quantum Dot Fluorescence Sensing Array: Chemical Noses for Discrimination of Different Nucleobases. [10.1021/ac503819e](https://doi.org/10.1021/ac503819e). Review scope remains stated in the linked website records.
 
+- Minglu Liu; Yuanyu Ma; Robert Y. Wang (2015). Modifying Thermal Transport in Colloidal Nanocrystal Solids with Surface Chemistry. [10.1021/acsnano.5b05085](https://doi.org/10.1021/acsnano.5b05085). Review scope remains stated in the linked website records.
+
 - Yating Zhang; Mingxuan Cao; Xiaoxian Song; Jianlong Wang; Yongli Che; Haitao Dai; Xin Ding; Guizhong Zhang; Jianquan Yao (2015). Multiheterojunction Phototransistors Based on Graphene–PbSe Quantum Dot Hybrids. [10.1021/acs.jpcc.5b07318](https://doi.org/10.1021/acs.jpcc.5b07318). Review scope remains stated in the linked website records.
 
 - Zhiyuan Huang; Xin Li; Benjamin D. Yip; Justin M. Rubalcava; Christopher J. Bardeen; Ming L. Tang (2015). Nanocrystal Size and Quantum Yield in the Upconversion of Green to Violet Light with CdSe and Anthracene Derivatives. *Chemistry of Materials*, 7503–7507. [10.1021/acs.chemmater.5b03731](https://doi.org/10.1021/acs.chemmater.5b03731). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=cm2015-5b03731-cdse-9aca).
@@ -339,6 +341,8 @@ Dataset **0.41.2** · **227 primary source groups** · release `full-audit-batch
 - Dylan C. Gary; Maxwell W. Terban; Simon J. L. Billinge; Brandi M. Cossairt (2015). Two-Step Nucleation and Growth of InP Quantum Dots via Magic-Sized Cluster Intermediates. [10.1021/acs.chemmater.5b00286](https://doi.org/10.1021/acs.chemmater.5b00286). Review scope remains stated in the linked website records.
 
 - Zhou Yang; Li Lu; Christopher J. Kiely; Bryan W. Berger; Steven McIntosh (2016). Biomineralized CdS Quantum Dot Nanocrystals: Optimizing Synthesis Conditions and Improving Functional Properties by Surface Modification. [10.1021/acs.iecr.6b03487](https://doi.org/10.1021/acs.iecr.6b03487). Review scope remains stated in the linked website records.
+
+- Ayelet Teitelboim; Dan Oron (2016). Broadband Near-Infrared to Visible Upconversion in Quantum Dot−Quantum Well Heterostructures. [10.1021/acsnano.5b05329](https://doi.org/10.1021/acsnano.5b05329). Review scope remains stated in the linked website records.
 
 - Juwon Park; Sanghwa Jeong; Jiwon Bang; Bomi Kim; Hyunmi Doh; Seungho Cho; Sungjae Hwang; Sungjee Kim (2016). Formation and Stepwise Self-Assembly of Cadmium Chalcogenide Nanocrystals to Colloidal Supra-Quantum Dots and the Superlattices. [10.1021/acs.chemmater.6b01126](https://doi.org/10.1021/acs.chemmater.6b01126). Review scope remains stated in the linked website records.
 
