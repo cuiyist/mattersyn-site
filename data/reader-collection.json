@@ -67834,21 +67834,218 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": true,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -68023,21 +68220,218 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": true,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -68212,21 +68606,218 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": true,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -68377,22 +68968,219 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -68543,22 +69331,219 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -68709,22 +69694,219 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -68875,22 +70057,219 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "elemental-selenium",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.744,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.744 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "elemental-selenium",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.4 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "se-precursor-stock",
+              "pointer": "/stocks/1/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 80,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "80 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -69065,21 +70444,145 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": false,
+          "quantified_recipe_and_ordered_conditions": true,
           "reported_phase": true,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
-          "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
-          "material_ids": [],
-          "fields": [],
+          "material_ids": [
+            "cadmium-oxide",
+            "octadecene",
+            "oleic-acid"
+          ],
+          "fields": [
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 1.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.2 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-oxide",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 9.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "9.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 30,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "30 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "oleic-acid",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 106,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "106 mmol",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "octadecene",
+              "stock_id": "cd-precursor-stock",
+              "pointer": "/stocks/0/components/2/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 120,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "120 g",
+                "evidence": [
+                  {
+                    "source_id": "jasieniak2005-cdse-jp054289o",
+                    "locator": "Main PDF p.1 / printed 20665, Experimental Details, cadmium-oleate and ODE/Se stock preparation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -80798,7 +82301,12 @@
       "recipe_link_evidence": [
         {
           "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-          "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion",
+          "locator": "Main PDF p.3 / printed p.1618, oxygen-plasma route generalization and thesis reference 36",
+          "claim": null
+        },
+        {
+          "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+          "locator": "Main PDF p.2 / printed p.1617, Figure 1A–B, Ag-C10/octane before/after oxygen plasma",
           "claim": null
         }
       ],
@@ -80811,7 +82319,11 @@
             "evidence": [
               {
                 "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion"
+                "locator": "Main PDF p.3 / printed p.1618, oxygen-plasma route generalization and thesis reference 36"
+              },
+              {
+                "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                "locator": "Main PDF p.2 / printed p.1617, Figure 1A–B, Ag-C10/octane before/after oxygen plasma"
               }
             ],
             "note": ""
@@ -80921,7 +82433,11 @@
               "evidence": [
                 {
                   "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                  "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion"
+                  "locator": "Main PDF p.3 / printed p.1618, oxygen-plasma route generalization and thesis reference 36"
+                },
+                {
+                  "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                  "locator": "Main PDF p.2 / printed p.1617, Figure 1A–B, Ag-C10/octane before/after oxygen plasma"
                 }
               ],
               "note": ""
@@ -81969,7 +83485,12 @@
       "recipe_link_evidence": [
         {
           "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-          "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion",
+          "locator": "Main PDF p.3 / printed p.1618, oxygen-plasma route generalization and thesis reference 36",
+          "claim": null
+        },
+        {
+          "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+          "locator": "SI PDF p.2, Figure SI2A–B and caption, Ag-C12/decane before/after 10 W for 5 s oxygen plasma",
           "claim": null
         }
       ],
@@ -81982,7 +83503,11 @@
             "evidence": [
               {
                 "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion"
+                "locator": "Main PDF p.3 / printed p.1618, oxygen-plasma route generalization and thesis reference 36"
+              },
+              {
+                "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                "locator": "SI PDF p.2, Figure SI2A–B and caption, Ag-C12/decane before/after 10 W for 5 s oxygen plasma"
               }
             ],
             "note": ""
@@ -82092,7 +83617,11 @@
               "evidence": [
                 {
                   "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                  "locator": "Main PDF p.3 / printed p.1618, Results, Figure 2 spacing and annealing/plasma discussion"
+                  "locator": "Main PDF p.3 / printed p.1618, oxygen-plasma route generalization and thesis reference 36"
+                },
+                {
+                  "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                  "locator": "SI PDF p.2, Figure SI2A–B and caption, Ag-C12/decane before/after 10 W for 5 s oxygen plasma"
                 }
               ],
               "note": ""
@@ -82704,7 +84233,11 @@
         "evidence": [
           {
             "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-            "locator": "Main PDF p.4 / printed p.1619, Figure 4A-C and one-drop Results"
+            "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+          },
+          {
+            "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+            "locator": "Main PDF p.5 / printed p.1620, Figure 4A–C caption, one colloid drop"
           }
         ],
         "note": ""
@@ -82713,7 +84246,12 @@
       "recipe_link_evidence": [
         {
           "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-          "locator": "Main PDF p.4 / printed p.1619, Figure 4A-C and one-drop Results",
+          "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose",
+          "claim": null
+        },
+        {
+          "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+          "locator": "Main PDF p.5 / printed p.1620, Figure 4A–C caption, one colloid drop",
           "claim": null
         }
       ],
@@ -82726,7 +84264,11 @@
             "evidence": [
               {
                 "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                "locator": "Main PDF p.4 / printed p.1619, Figure 4A-C and one-drop Results"
+                "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+              },
+              {
+                "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                "locator": "Main PDF p.5 / printed p.1620, Figure 4A–C caption, one colloid drop"
               }
             ],
             "note": ""
@@ -82818,7 +84360,11 @@
             "evidence": [
               {
                 "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                "locator": "Main PDF p.4 / printed p.1619, Figure 4A-C and one-drop Results"
+                "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+              },
+              {
+                "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                "locator": "Main PDF p.5 / printed p.1620, Figure 4A–C caption, one colloid drop"
               }
             ],
             "note": ""
@@ -82836,7 +84382,11 @@
               "evidence": [
                 {
                   "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                  "locator": "Main PDF p.4 / printed p.1619, Figure 4A-C and one-drop Results"
+                  "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+                },
+                {
+                  "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                  "locator": "Main PDF p.5 / printed p.1620, Figure 4A–C caption, one colloid drop"
                 }
               ],
               "note": ""
@@ -83076,7 +84626,11 @@
         "evidence": [
           {
             "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-            "locator": "Main PDF p.4 / printed p.1619, Figure 4D-F and control Results"
+            "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+          },
+          {
+            "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+            "locator": "Main PDF p.5 / printed p.1620, Figure 4D–F caption, one colloid drop followed by pure hexane"
           }
         ],
         "note": ""
@@ -83085,7 +84639,12 @@
       "recipe_link_evidence": [
         {
           "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-          "locator": "Main PDF p.4 / printed p.1619, Figure 4D-F and control Results",
+          "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose",
+          "claim": null
+        },
+        {
+          "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+          "locator": "Main PDF p.5 / printed p.1620, Figure 4D–F caption, one colloid drop followed by pure hexane",
           "claim": null
         }
       ],
@@ -83098,7 +84657,11 @@
             "evidence": [
               {
                 "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                "locator": "Main PDF p.4 / printed p.1619, Figure 4D-F and control Results"
+                "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+              },
+              {
+                "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                "locator": "Main PDF p.5 / printed p.1620, Figure 4D–F caption, one colloid drop followed by pure hexane"
               }
             ],
             "note": ""
@@ -83190,7 +84753,11 @@
             "evidence": [
               {
                 "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                "locator": "Main PDF p.4 / printed p.1619, Figure 4D-F and control Results"
+                "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+              },
+              {
+                "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                "locator": "Main PDF p.5 / printed p.1620, Figure 4D–F caption, one colloid drop followed by pure hexane"
               }
             ],
             "note": ""
@@ -83208,7 +84775,11 @@
               "evidence": [
                 {
                   "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
-                  "locator": "Main PDF p.4 / printed p.1619, Figure 4D-F and control Results"
+                  "locator": "Main PDF p.4 / printed p.1619, one-colloid-drop and pure-solvent redrop Results prose"
+                },
+                {
+                  "source_id": "klecha2010-ag-2d-superlattice-jz100417s",
+                  "locator": "Main PDF p.5 / printed p.1620, Figure 4D–F caption, one colloid drop followed by pure hexane"
                 }
               ],
               "note": ""
@@ -134875,6 +136446,30 @@
               }
             },
             {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
               "material_id": "agno3",
               "operation_id": "prepare-agcl-colloid",
               "pointer": "/operations/0/parameters/agno3_mass",
@@ -135737,6 +137332,30 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "100 μL",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
                 "evidence": [
                   {
                     "source_id": "naiki2013-ag-sio2-qd-jp305408p",
@@ -136619,6 +138238,30 @@
               }
             },
             {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
               "material_id": "agno3",
               "operation_id": "prepare-agcl-colloid",
               "pointer": "/operations/0/parameters/agno3_mass",
@@ -137481,6 +139124,30 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "100 μL",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
                 "evidence": [
                   {
                     "source_id": "naiki2013-ag-sio2-qd-jp305408p",
@@ -138363,6 +140030,30 @@
               }
             },
             {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
               "material_id": "agno3",
               "operation_id": "prepare-agcl-colloid",
               "pointer": "/operations/0/parameters/agno3_mass",
@@ -139225,6 +140916,30 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "100 μL",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
                 "evidence": [
                   {
                     "source_id": "naiki2013-ag-sio2-qd-jp305408p",
@@ -140120,6 +141835,30 @@
               }
             },
             {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
               "material_id": "agno3",
               "operation_id": "prepare-agcl-colloid",
               "pointer": "/operations/0/parameters/agno3_mass",
@@ -140995,6 +142734,30 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "100 μL",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
                 "evidence": [
                   {
                     "source_id": "naiki2013-ag-sio2-qd-jp305408p",
@@ -141890,6 +143653,30 @@
               }
             },
             {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
               "material_id": "agno3",
               "operation_id": "prepare-agcl-colloid",
               "pointer": "/operations/0/parameters/agno3_mass",
@@ -142775,6 +144562,30 @@
               }
             },
             {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
               "material_id": "agno3",
               "operation_id": "prepare-agcl-colloid",
               "pointer": "/operations/0/parameters/agno3_mass",
@@ -143650,6 +145461,30 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "100 μL",
+                "evidence": [
+                  {
+                    "source_id": "naiki2013-ag-sio2-qd-jp305408p",
+                    "locator": "Main PDF p.2, Experimental Sections 2-1 and 2-2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ascorbic-acid",
+              "stock_id": "mixed-reductant-aqueous",
+              "pointer": "/stocks/7/components/0/quantities/mass",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2800,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2800 mg",
                 "evidence": [
                   {
                     "source_id": "naiki2013-ag-sio2-qd-jp305408p",
