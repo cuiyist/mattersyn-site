@@ -22174,7 +22174,7 @@
             {
               "material_id": "dda",
               "operation_id": "prepare-dda-stocks",
-              "pointer": "/operations/2/parameters/dda_molarity",
+              "pointer": "/operations/6/parameters/dda_molarity",
               "binding_basis": "exact material ID in parameter key and operation inputs",
               "quantity": {
                 "value": 232,
@@ -70424,71 +70424,23 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": true,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -70514,54 +70466,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -70576,54 +70480,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -70809,13 +70665,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -70823,58 +70680,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -70900,54 +70708,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -70962,54 +70722,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -71195,13 +70907,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -71209,58 +70922,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -71286,54 +70950,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -71348,54 +70964,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -71581,13 +71149,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -71595,58 +71164,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -71672,54 +71192,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -71734,54 +71206,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -71967,13 +71391,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -71981,58 +71406,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -72058,54 +71434,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -72120,54 +71448,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -72372,71 +71652,23 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": true,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -72462,54 +71694,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -72524,54 +71708,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -72674,7 +71810,7 @@
             "derivation": null
           },
           "technique": "TEM size histogram",
-          "conditions": "",
+          "conditions": "SI p.3 gives the TEM instrument set: Hitachi 7600 at 100 kV, Libra 120 energy-filtering TEM, and JEOL JEM-F200-TFEG high-resolution TEM; it does not allocate every panel to one instrument.",
           "evidence": [
             {
               "source_id": "jung2024-ag-nanospheres-jacs4c00073",
@@ -72814,70 +71950,22 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": true,
           "reported_morphology": true,
           "reported_dimensions": true,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -72903,54 +71991,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -72965,54 +72005,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -73198,13 +72190,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -73212,58 +72205,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -73289,54 +72233,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -73351,54 +72247,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -73584,13 +72432,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -73598,58 +72447,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -73675,54 +72475,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -73737,54 +72489,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -73970,13 +72674,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -73984,58 +72689,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -74061,54 +72717,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -74123,54 +72731,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -74356,13 +72916,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -74370,58 +72931,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -74447,54 +72959,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -74509,54 +72973,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -74742,13 +73158,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -74756,58 +73173,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -74833,54 +73201,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -74895,54 +73215,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -75128,13 +73400,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -75142,58 +73415,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -75219,54 +73443,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -75281,54 +73457,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -75514,13 +73642,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -75528,58 +73657,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -75605,54 +73685,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -75667,54 +73699,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -75900,13 +73884,14 @@
       "documentation": {
         "category": "partial",
         "checks": {
-          "quantified_recipe_and_ordered_conditions": true,
+          "quantified_recipe_and_ordered_conditions": false,
           "reported_phase": false,
           "reported_morphology": true,
           "reported_dimensions": false,
           "reference_unit_cell_available": false
         },
         "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
           "reference_unit_cell_available"
@@ -75914,58 +73899,9 @@
         "reference_ids": [],
         "quantified_input_evidence": {
           "material_ids": [
-            "ctac",
             "water"
           ],
           "fields": [
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 10,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "10 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "make-seeds",
-              "pointer": "/operations/0/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 0.5,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "0.5 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, seed paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
             {
               "material_id": "water",
               "operation_id": "grow-ag-shapes",
@@ -75991,54 +73927,6 @@
               }
             },
             {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "grow-ag-shapes",
-              "pointer": "/operations/1/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, growth paragraph"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
               "material_id": "water",
               "operation_id": "etch-ag-spheres",
               "pointer": "/operations/4/parameters/water_volume",
@@ -76053,54 +73941,6 @@
                 "qualifier": "",
                 "basis": "",
                 "raw_text": "7.42 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_volume",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 1.25,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mL",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "1.25 mL",
-                "evidence": [
-                  {
-                    "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
-                    "locator": "SI PDF p.1, oxidative etching"
-                  }
-                ],
-                "derivation": null
-              }
-            },
-            {
-              "material_id": "ctac",
-              "operation_id": "etch-ag-spheres",
-              "pointer": "/operations/4/parameters/ctac_concentration",
-              "binding_basis": "exact material ID in parameter key and operation inputs",
-              "quantity": {
-                "value": 100,
-                "minimum": null,
-                "maximum": null,
-                "unit": "mM",
-                "status": "reported",
-                "approximate": false,
-                "qualifier": "",
-                "basis": "",
-                "raw_text": "100 mM",
                 "evidence": [
                   {
                     "source_id": "jung2024-ag-nanospheres-jacs4c00073-si",
@@ -80124,7 +77964,7 @@
             "evidence": [
               {
                 "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
-                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion, 10 W HOPG outcomes; Figure 2E on main PDF p.3 / printed p.2826"
               }
             ],
             "note": ""
@@ -80234,7 +78074,7 @@
               "evidence": [
                 {
                   "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
-                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion, 10 W HOPG outcomes; Figure 2E on main PDF p.3 / printed p.2826"
                 }
               ],
               "note": ""
@@ -80309,7 +78149,7 @@
             "evidence": [
               {
                 "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
-                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion, 10 W HOPG outcomes; Figure 2C on main PDF p.3 / printed p.2826"
               }
             ],
             "note": ""
@@ -80414,7 +78254,7 @@
               "evidence": [
                 {
                   "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
-                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion, 10 W HOPG outcomes; Figure 2C on main PDF p.3 / printed p.2826"
                 }
               ],
               "note": ""
@@ -80504,7 +78344,7 @@
             "evidence": [
               {
                 "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
-                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                "locator": "Main PDF p.2 / printed p.2825, Results and Discussion, 10 W HOPG outcomes; Figure 2D on main PDF p.3 / printed p.2826"
               }
             ],
             "note": ""
@@ -80614,7 +78454,7 @@
               "evidence": [
                 {
                   "source_id": "klecha2009-ag-nanocrystal-plasma-la802989f",
-                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion; Figure 1 caption and RIE Experimental Conditions"
+                  "locator": "Main PDF p.2 / printed p.2825, Results and Discussion, 10 W HOPG outcomes; Figure 2D on main PDF p.3 / printed p.2826"
                 }
               ],
               "note": ""
