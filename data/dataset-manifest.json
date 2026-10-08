@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "dataset_version": "0.41.2",
-  "record_count": 2965,
-  "group_count": 231,
+  "record_count": 2968,
+  "group_count": 234,
   "families": [
     "9-ACA-functionalized CdSe nanocrystals",
     "Ag colloidal nanocrystal superlattices",
@@ -75,6 +75,7 @@
     "CdSe nanocrystal synthesis and surface-reaction chemistry",
     "CdSe nanocrystals",
     "CdSe quantum dots",
+    "CdSe quantum-dot-sensitized titania films",
     "CdSe/CdS quantum dots and electron-acceptor complexes",
     "CdSe/CdS quantum-dot–poly(ionic liquid) composite",
     "CdSe/CdS/PbS cation-exchange heterostructures",
@@ -239,6 +240,7 @@
     "Surface-functionalized II–VI quantum dots",
     "Surface-functionalized semiconductor nanocrystals",
     "Surface-oxidized silicon colloids",
+    "Suspensible cubic-phase CdS nanocrystals",
     "TBAI-only device architecture comparison",
     "Ternary alloyed zinc chalcogenide MSC series",
     "Ternary alloyed zinc chalcogenide conversion",
@@ -300,6 +302,7 @@
     "molecular precursor reference context",
     "nickel sulfide nanocrystals",
     "optical and calculated reference contexts",
+    "perovskite/lead-sulfide quantum-dot heterostructures",
     "phosphonic-acid ligand reference",
     "polyol silver nanocrystal rods and nanohexapods",
     "quantum-dot coated gold nanosphere",
@@ -188362,6 +188365,173 @@
       "pair_ids": []
     },
     {
+      "record_id": "yaman2017-cdse-silica-p25-acsomega7b00839-primary-silica-route",
+      "title": "Yaman et al. (2017): CdSe–silica sensitization of mesoporous P25, primary 5 mL route",
+      "formula": "CdSe–SiO2–TiO2",
+      "family": "CdSe quantum-dot-sensitized titania films",
+      "method": "Molten-salt-assisted self-assembly followed by gas conversion",
+      "record_type": "literature_protocol",
+      "source_year": 2017,
+      "source_doi": "10.1021/acsomega.7b00839",
+      "revision": 2,
+      "record_sha256": "cd2d583474f9b00b25f3252facc4b64f3a9e6ee416aefa0e6017a653cd0c5e17",
+      "recipe_signature": "dd2b7e3a5dafb475e7ece0398d122396d4f19fe03a8e6ee42c6fcbfabfcb0062",
+      "group_id": "group-ec76869932ea",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yaman2017-cdse-silica-p25-acsomega7b00839-primary-silica-route.json",
+      "page_url": "records/yaman2017-cdse-silica-p25-acsomega7b00839-primary-silica-route.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "pending_variants": [
+        {
+          "id": "ethanol-variants",
+          "label": "Alternative 1, 3 and 10 mL precursor formulations; conflicting 2.5 mL comparator label",
+          "source_locators": [
+            "Main PDF p.7, Experimental silica formulation",
+            "Main PDF pp.3–4, Figures 2 and 4",
+            "SI PDF p.1, Figure S1"
+          ]
+        },
+        {
+          "id": "multiple-loading",
+          "label": "Repeated silica-precursor loading and calcination",
+          "source_locators": [
+            "Main PDF p.4, multiple-loading paragraph",
+            "Main PDF p.6, Figure 7 and Table 1",
+            "SI PDF p.2, Figure S2",
+            "SI PDF p.4, Figure S4b"
+          ]
+        },
+        {
+          "id": "thick-support",
+          "label": "Thick doctor-blade meso-P25 substrate preparation",
+          "source_locators": [
+            "Main PDF p.7, Preparation of Mesoporous Titania Films, second paragraph"
+          ]
+        },
+        {
+          "id": "titanate-route",
+          "label": "CdTiO3 precursor and CdSe–TiO2–P25 branch",
+          "source_locators": [
+            "Main PDF p.5, Synthesis of meso-CdTiO3–P25",
+            "Main PDF pp.7–8, corresponding Experimental subsections"
+          ]
+        },
+        {
+          "id": "mn-doped-silica",
+          "label": "Mn(II)-modified silica precursor and sensitizer",
+          "source_locators": [
+            "Main PDF p.7, Mn(II)-Doped Cadmium Oxide–Silica–Titania Films",
+            "Main PDF pp.6–7, Table 1 and discussion"
+          ]
+        },
+        {
+          "id": "mn-doped-titanate",
+          "label": "Mn(II)-modified titanate precursor and sensitizer",
+          "source_locators": [
+            "Main PDF pp.7–8, Mn(II)-Doped Cadmium Titanate–Titania Films"
+          ]
+        },
+        {
+          "id": "etched-silica",
+          "label": "HF silica removal and etched CdSe–P25 comparator",
+          "source_locators": [
+            "Main PDF p.7, first paragraph",
+            "Main PDF p.6, Table 1"
+          ]
+        },
+        {
+          "id": "p25-free-controls",
+          "label": "P25-free CdO–SiO2 and CdTiO3 comparison films",
+          "source_locators": [
+            "Main PDF p.5, reactivity comparison and Figure 6 discussion"
+          ]
+        },
+        {
+          "id": "atmosphere-controls",
+          "label": "Bare-titania atmosphere controls and selenium removal comparisons",
+          "source_locators": [
+            "Main PDF p.5, oxygen/water and Se(0) discussion",
+            "SI PDF p.5, Figure S6"
+          ]
+        },
+        {
+          "id": "raman-aging",
+          "label": "Green-laser exposure and decomposition series",
+          "source_locators": [
+            "Main PDF pp.5–6, Response to Green Laser; Figure 6"
+          ]
+        },
+        {
+          "id": "sorption-series",
+          "label": "N2 sorption and BJH pore-size comparisons",
+          "source_locators": [
+            "Main PDF p.4, Figure 3 and sorption discussion",
+            "SI PDF p.4, Figure S4"
+          ]
+        },
+        {
+          "id": "device-finishing",
+          "label": "ZnS treatment, cathode/electrolyte, device assembly and solar-cell performance",
+          "source_locators": [
+            "Main PDF p.8, Preparation of the CE, ZnS Treatments and Installation of the QDSSC",
+            "Main PDF p.6, Figure 7 and Table 1"
+          ]
+        }
+      ],
+      "components": [
+        "CdSe–SiO2–TiO2"
+      ],
+      "pair_ids": []
+    },
+    {
       "record_id": "yang1994-life5o8-peg-series",
       "title": "Yang et al. (1994): PEG-gel synthesis and seven reported LiFe5O8 crystal-size outcomes",
       "formula": "LiFe5O8",
@@ -194577,6 +194747,175 @@
       "pair_ids": []
     },
     {
+      "record_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1",
+      "title": "Yang et al.(2023): room-temperature CsPbBr3-PbS heterostructure, Pb/S1:1 core route",
+      "formula": "CsPbBr3-PbS",
+      "family": "perovskite/lead-sulfide quantum-dot heterostructures",
+      "method": "Room-temperature in-situ sulfur treatment of amine-free CsPbBr3 QDs",
+      "record_type": "literature_protocol",
+      "source_year": 2023,
+      "source_doi": "10.1021/acsphotonics.3c01099",
+      "revision": 2,
+      "record_sha256": "f0751565617381ccb3f30acdd1888b89589cc41e122d52d3439a43d9bb6591ed",
+      "recipe_signature": "6332186a6d11c828220bf7eb8c968cd8743454d274ce233aa591068922abdc39",
+      "group_id": "group-d7fb85426b1b",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": false,
+          "reason": "No identified synthesis precursor set."
+        },
+        "partial_protocol": {
+          "eligible": false,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1.json",
+      "page_url": "records/yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1.html",
+      "missing_field_count": 4,
+      "collection": "reviewed_literature",
+      "pending_variants": [
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-3",
+          "label": "Pb/S1:3 heterostructure variant",
+          "source_locators": [
+            "Main PDF p.7 / printed p.4311, Synthesis of CsPbBr3-PbS Heterostructures",
+            "Main PDF p.3 / printed p.4307, Figure2"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-5",
+          "label": "Pb/S1:5 heterostructure variant",
+          "source_locators": [
+            "Main PDF p.7 / printed p.4311, Synthesis of CsPbBr3-PbS Heterostructures",
+            "Main PDF p.3 / printed p.4307, Figure2"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-10",
+          "label": "Pb/S1:10 heterostructure variant",
+          "source_locators": [
+            "Main PDF p.7 / printed p.4311, Synthesis of CsPbBr3-PbS Heterostructures",
+            "Main PDF p.3 / printed p.4307, Figure2"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-30",
+          "label": "Pb/S1:30 heterostructure and optimized carrier-transfer variant",
+          "source_locators": [
+            "Main PDF p.7 / printed p.4311, Synthesis of CsPbBr3-PbS Heterostructures",
+            "Main PDF p.4 / printed p.4308, Figure3",
+            "Main PDF p.5 / printed p.4309, carrier-transfer results"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-40",
+          "label": "Excess-sulfur Pb/S1:40 comparison",
+          "source_locators": [
+            "Main PDF p.5 / printed p.4309, discussion citing FigureS23",
+            "Main PDF p.8 / printed p.4312, Supporting Information description"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-cspbbr3-control",
+          "label": "60min CsPbBr3 control and its figure-specific results",
+          "source_locators": [
+            "Main PDF p.7 / printed p.4311, Synthesis of CsPbBr3 QDs",
+            "Main PDF p.2 / printed p.4306, Figure1b"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pbs-control",
+          "label": "Standalone PbS synthesis and1:30 imaging control",
+          "source_locators": [
+            "Main PDF p.7 / printed p.4311, Synthesis of PbS QDs"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-alternate-sources",
+          "label": "TOPO-S and N,N-diphenylthiourea sulfur-source exploration",
+          "source_locators": [
+            "Main PDF p.3 / printed p.4307, Results and Discussion, citing FiguresS1-S2"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-aging-etching",
+          "label": "Ten-day quiescence and reconstruction/etching studies",
+          "source_locators": [
+            "Main PDF p.5 / printed p.4309, discussion citing FiguresS15-S19 and NoteS3"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-spectral-series",
+          "label": "Detailed optical, thin-film, XPS and kinetic series",
+          "source_locators": [
+            "Main PDF p.3 / printed p.4307, Figure2",
+            "Main PDF p.4 / printed p.4308, Figure3 and discussion citing FiguresS7-S13",
+            "Main PDF p.5 / printed p.4309, discussion citing FiguresS14-S28"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-stability",
+          "label": "Long-term illumination stability comparisons",
+          "source_locators": [
+            "Main PDF p.6 / printed p.4310, discussion citing FiguresS29-S30"
+          ]
+        },
+        {
+          "id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-patterned-devices",
+          "label": "PMMA patterns and SWIR imaging preparations",
+          "source_locators": [
+            "Main PDF p.6 / printed p.4310, Figure4",
+            "Main PDF p.7 / printed p.4311, Characterization, SWIR imaging preparation"
+          ]
+        }
+      ],
+      "components": [
+        "CsPbBr3",
+        "PbS"
+      ],
+      "pair_ids": [
+        "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1::yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1--figure1cd-specimen"
+      ]
+    },
+    {
       "record_id": "yao-1998-absorption",
       "title": "Yao et al. (1998) · Single-particle absorption microspectroscopy",
       "formula": "CdS/polymer",
@@ -199247,6 +199586,217 @@
       "pair_ids": [
         "yu1998-cdte-en-180c-12h::cdte-en180-tem",
         "yu1998-cdte-en-180c-12h::cdte-en180-xrd"
+      ]
+    },
+    {
+      "record_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core",
+      "title": "Yu et al. (2018): suspensible cubic CdS nanocrystals",
+      "formula": "CdS",
+      "family": "Suspensible cubic-phase CdS nanocrystals",
+      "method": "Aqueous precipitation in sulfur-rich Na2S/Na2SO3 solution",
+      "record_type": "literature_protocol",
+      "source_year": 2018,
+      "source_doi": "10.1021/acssuschemeng.8b00398",
+      "revision": 1,
+      "record_sha256": "416898c4037a137748c21ae9abc8dbade79c87228f51a0d7af22e2c056be2714",
+      "recipe_signature": "8e988ab03249280e5b86f99881a839c9527d68cf1108bede3cae00734fbffe9f",
+      "group_id": "group-014635607490",
+      "split": "train",
+      "eligibility": {
+        "precursor_selection": {
+          "eligible": true,
+          "reason": "Reviewed synthesis precursors are identified."
+        },
+        "partial_protocol": {
+          "eligible": true,
+          "reason": "Preserve missing fields; this is literature protocol supervision, not a complete SOP."
+        },
+        "size_conditioned_recipe": {
+          "eligible": false,
+          "reason": "Requires an explicitly linked quantitative diameter; author-derived size remains labeled."
+        },
+        "success_prediction": {
+          "eligible": false,
+          "reason": "Literature and heterogeneous historical failure markers do not establish a calibrated success model."
+        },
+        "optical_outcome": {
+          "eligible": false,
+          "reason": "Published numeric optical benchmark with explicit row linkage. Failure placeholders are excluded from continuous targets."
+        },
+        "exact_structure_recipe": {
+          "eligible": false,
+          "reason": "Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+          "reason_codes": [
+            "task_not_requested",
+            "no_sample_coordinate_asset",
+            "audited_task_profile_missing"
+          ],
+          "reasons": [
+            {
+              "code": "task_not_requested",
+              "message": "Exact structure–recipe training has not been requested for this record."
+            },
+            {
+              "code": "no_sample_coordinate_asset",
+              "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+            },
+            {
+              "code": "audited_task_profile_missing",
+              "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+            }
+          ],
+          "profile_id": null,
+          "selected_asset_ids": []
+        }
+      },
+      "record_url": "data/records/yu2018-cds-nanocrystals-acssuschemeng8b00398-core.json",
+      "page_url": "records/yu2018-cds-nanocrystals-acssuschemeng8b00398-core.html",
+      "missing_field_count": 7,
+      "collection": "reviewed_literature",
+      "pending_variants": [
+        {
+          "id": "hydrothermal-cds",
+          "label": "c-CdS-180 °C hydrothermal branch",
+          "source_locators": [
+            "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal (second paragraph)",
+            "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals (final paragraph; Figure S2 citation)"
+          ]
+        },
+        {
+          "id": "stoichiometric-aggregates",
+          "label": "c-CdS-AG stoichiometric precipitation control",
+          "source_locators": [
+            "Main PDF p.2 (printed p.5514), Preparation of Traditional Hexagonal CdS Photocatalysts",
+            "Main PDF pp.3–4 (printed pp.5515–5516), Figure 1B, Figure 2D–E and Figure S3 citation"
+          ]
+        },
+        {
+          "id": "calcined-hexagonal",
+          "label": "h-CdS calcined comparator",
+          "source_locators": [
+            "Main PDF p.2 (printed p.5514), Preparation of Traditional Hexagonal CdS Photocatalysts",
+            "Main PDF pp.3–4 (printed pp.5515–5516), Figure 1B, Figure 2D–E and Figure S3 citation"
+          ]
+        },
+        {
+          "id": "three-wash-aggregation",
+          "label": "Three-wash aggregation and redispersion comparison",
+          "source_locators": [
+            "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals (Figure S1 citation)"
+          ]
+        },
+        {
+          "id": "wash-zero",
+          "label": "Separated without washing, sample (1)",
+          "source_locators": [
+            "Main PDF p.5 (printed p.5517), three-sample washing paragraph and Figure 4A–B caption"
+          ]
+        },
+        {
+          "id": "wash-once",
+          "label": "Gentle wash once, sample (2)",
+          "source_locators": [
+            "Main PDF p.5 (printed p.5517), three-sample washing paragraph and Figure 4A–B caption"
+          ]
+        },
+        {
+          "id": "wash-three",
+          "label": "Gentle wash three times, sample (3)",
+          "source_locators": [
+            "Main PDF p.5 (printed p.5517), three-sample washing paragraph and Figure 4A–B caption"
+          ]
+        },
+        {
+          "id": "cadmium-sulfate",
+          "label": "CdSO4 precursor variant",
+          "source_locators": [
+            "Main PDF p.6 (printed p.5518), Photocatalytic Performance and Mechanism, different-Cd-precursor paragraph citing Figure S5"
+          ]
+        },
+        {
+          "id": "cadmium-chloride",
+          "label": "CdCl2 precursor variant",
+          "source_locators": [
+            "Main PDF p.6 (printed p.5518), Photocatalytic Performance and Mechanism, different-Cd-precursor paragraph citing Figure S5"
+          ]
+        },
+        {
+          "id": "cadmium-acetate",
+          "label": "Cd(CH3COO)2 precursor variant",
+          "source_locators": [
+            "Main PDF p.6 (printed p.5518), Photocatalytic Performance and Mechanism, different-Cd-precursor paragraph citing Figure S5"
+          ]
+        },
+        {
+          "id": "sulfide-sulfite-series",
+          "label": "S2−/SO3²− concentration series",
+          "source_locators": [
+            "Main PDF p.7 (printed p.5519), first results column, Figure S6 citation"
+          ]
+        },
+        {
+          "id": "lactic-acid-medium",
+          "label": "Lactic-acid sacrificial medium and electrode assessment",
+          "source_locators": [
+            "Main PDF p.7 (printed p.5519), Figure S7 citation",
+            "Main PDF p.8 (printed p.5520), Figure 9B,D and caption"
+          ]
+        },
+        {
+          "id": "zns-analogue",
+          "label": "ZnS analogue and traditional ZnS comparator",
+          "source_locators": [
+            "Main PDF p.8 (printed p.5520), first results paragraph, Figure S9 citation",
+            "Main PDF p.9 (printed p.5521), Supporting Information contents"
+          ]
+        },
+        {
+          "id": "pt-h-cds",
+          "label": "Pt/h-CdS",
+          "source_locators": [
+            "Main PDF p.7 (printed p.5519), Figure 8A–B and caption",
+            "Main PDF p.8 (printed p.5520), Pt-loading paragraphs"
+          ]
+        },
+        {
+          "id": "pt-c-cds-nc",
+          "label": "Pt/c-CdS-NC",
+          "source_locators": [
+            "Main PDF p.7 (printed p.5519), Figure 8A–B and caption",
+            "Main PDF p.8 (printed p.5520), Pt-loading paragraphs"
+          ]
+        },
+        {
+          "id": "pt-c-cds-ag",
+          "label": "Pt/c-CdS-AG",
+          "source_locators": [
+            "Main PDF p.7 (printed p.5519), Figure 8A–B and caption",
+            "Main PDF p.8 (printed p.5520), Pt-loading paragraphs"
+          ]
+        },
+        {
+          "id": "fto-electrodes",
+          "label": "FTO-coated CdS photoelectrochemical specimens",
+          "source_locators": [
+            "Main PDF p.3 (printed p.5515), Photoelectrochemical Measurements",
+            "Main PDF p.8 (printed p.5520), Figure 9"
+          ]
+        },
+        {
+          "id": "additional-characterization-performance",
+          "label": "Additional optical, surface and photocatalytic measurements; illumination and cycling conditions",
+          "source_locators": [
+            "Main PDF p.2 (printed p.5514), Characterization and Photocatalytic H2-Evolution Activity",
+            "Main PDF pp.5–8 (printed pp.5517–5520), Figures 3–9 and Figure S4/S8 citations"
+          ]
+        }
+      ],
+      "components": [
+        "CdS"
+      ],
+      "pair_ids": [
+        "yu2018-cds-nanocrystals-acssuschemeng8b00398-core::yu2018-cds-nanocrystals-acssuschemeng8b00398-core-characterization-isolate",
+        "yu2018-cds-nanocrystals-acssuschemeng8b00398-core::yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension"
       ]
     },
     {

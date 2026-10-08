@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 845,
-    "source_groups": 182,
-    "records": 678,
+    "recipe_structure_rows": 848,
+    "source_groups": 184,
+    "records": 680,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -143484,6 +143484,207 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1::yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1--figure1cd-specimen",
+      "record_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1",
+      "record_page_path": "records/yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1.html",
+      "source_group": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+      "title": "Yang et al.(2023): room-temperature CsPbBr3-PbS heterostructure, Pb/S1:1 core route",
+      "doi": "10.1021/acsphotonics.3c01099",
+      "year": 2023,
+      "method": "Room-temperature in-situ sulfur treatment of amine-free CsPbBr3 QDs",
+      "recipe_label": "Yang et al.(2023): room-temperature CsPbBr3-PbS heterostructure, Pb/S1:1 core route",
+      "sample_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1--figure1cd-specimen",
+      "source_sample_label": "Figure 1c-d: Pb/S1:1 heterostructure",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CsPbBr3-PbS heterostructure; Pb/S feed molar ratio1:1",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+            "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption"
+          },
+          {
+            "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+            "locator": "Main PDF p.4 / printed p.4308, Results and Discussion: TEM and HRTEM structure assignment"
+          },
+          {
+            "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+            "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+          "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption",
+          "claim": null
+        },
+        {
+          "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+          "locator": "Main PDF p.4 / printed p.4308, Results and Discussion: TEM and HRTEM structure assignment",
+          "claim": null
+        },
+        {
+          "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+          "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "PbS quantum-dot domains on CsPbBr3 quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption"
+              },
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.4 / printed p.4308, Results and Discussion: TEM and HRTEM structure assignment"
+              },
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CsPbBr3-PbS heterostructure, Pb/S feed1:1",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "All-colloidal quantum-dot heterostructure",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099-pb-s-1-1--figure1cd-specimen",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "CsPbBr3-PbS heterostructure; Pb/S feed molar ratio1:1",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption"
+              },
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.4 / printed p.4308, Results and Discussion: TEM and HRTEM structure assignment"
+              },
+              {
+                "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                  "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption"
+                },
+                {
+                  "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                  "locator": "Main PDF p.4 / printed p.4308, Results and Discussion: TEM and HRTEM structure assignment"
+                },
+                {
+                  "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                  "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+                }
+              ],
+              "note": "No unique constituent polymorph is assigned by this core extraction."
+            },
+            "morphology": {
+              "value": "PbS quantum-dot domains on CsPbBr3 quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                  "locator": "Main PDF p.2 / printed p.4306, Figure1c-d and caption"
+                },
+                {
+                  "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                  "locator": "Main PDF p.4 / printed p.4308, Results and Discussion: TEM and HRTEM structure assignment"
+                },
+                {
+                  "source_id": "yang2023-cspbbr3-pbs-acsphotonics3c01099",
+                  "locator": "Main PDF p.7 / printed p.4311, Experimental Details: stock preparations, CsPbBr3 synthesis, CsPbBr3-PbS synthesis and purification"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "yao-1998-sample-a::sample-a",
       "record_id": "yao-1998-sample-a",
       "record_page_path": "records/yao-1998-sample-a.html",
@@ -150597,6 +150798,356 @@
                 "field": "crystal_structure.phase_lattice"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core::yu2018-cds-nanocrystals-acssuschemeng8b00398-core-characterization-isolate",
+      "record_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core",
+      "record_page_path": "records/yu2018-cds-nanocrystals-acssuschemeng8b00398-core.html",
+      "source_group": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+      "title": "Yu et al. (2018): suspensible cubic CdS nanocrystals",
+      "doi": "10.1021/acssuschemeng.8b00398",
+      "year": 2018,
+      "method": "Aqueous precipitation in sulfur-rich Na2S/Na2SO3 solution",
+      "recipe_label": "Yu et al. (2018): suspensible cubic CdS nanocrystals",
+      "sample_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-characterization-isolate",
+      "source_sample_label": "c-CdS-NC",
+      "batch_id": null,
+      "parent_sample_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension",
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+            "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+          "locator": "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal",
+          "claim": null
+        },
+        {
+          "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+          "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+          "locator": "Main PDF p.4 (printed p.5516), Figure 2A-C and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": "Figure 2A; JCPDS Card No.90-0440."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdS nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Suspensible nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-characterization-isolate",
+          "parent_sample_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension",
+          "batch_id": null,
+          "material_state_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-characterization-isolate",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CdS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                  "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+                }
+              ],
+              "note": "Figure 2A; JCPDS Card No.90-0440."
+            },
+            "morphology": {
+              "value": "CdS nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                  "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core::yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension",
+      "record_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core",
+      "record_page_path": "records/yu2018-cds-nanocrystals-acssuschemeng8b00398-core.html",
+      "source_group": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+      "title": "Yu et al. (2018): suspensible cubic CdS nanocrystals",
+      "doi": "10.1021/acssuschemeng.8b00398",
+      "year": 2018,
+      "method": "Aqueous precipitation in sulfur-rich Na2S/Na2SO3 solution",
+      "recipe_label": "Yu et al. (2018): suspensible cubic CdS nanocrystals",
+      "sample_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension",
+      "source_sample_label": "As-prepared suspensible c-CdS-NC",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+            "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+          "locator": "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal",
+          "claim": null
+        },
+        {
+          "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+          "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals",
+          "claim": null
+        },
+        {
+          "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+          "locator": "Main PDF p.4 (printed p.5516), Figure 2A-C and caption",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "Cubic CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": "Authors assign the named product using ex situ XRD/TEM in Figure 2A-C, not an in situ phase measurement."
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Suspensible CdS nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": "Cubic CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.2 (printed p.5514), Experimental Section, Preparation of Suspensible Cubic-Phase CdS Nanocrystal"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Suspensible nanocrystals",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398-core-suspension",
+          "composition": {
+            "value": "CdS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "Cubic CdS",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                  "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+                }
+              ],
+              "note": "Authors assign the named product using ex situ XRD/TEM in Figure 2A-C, not an in situ phase measurement."
+            },
+            "morphology": {
+              "value": "Suspensible CdS nanocrystals",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yu2018-cds-nanocrystals-acssuschemeng8b00398",
+                  "locator": "Main PDF p.3 (printed p.5515), Results and Discussion, Strategy for the Facile Synthesis of Suspensible Cubic-Phase CdS Nanocrystals"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
