@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 243,
+  "material_families": 246,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -87,11 +87,14 @@
     "CdSe/CdS+CdTe/CdS/polymer",
     "CdSe/CdS/CdS",
     "CdSe/CdS/PbS",
+    "CdSe/CdS/ZnO",
     "CdSe/CdS/ZnS",
     "CdSe/CdS/ZnS + Ag",
     "CdSe/CdS/polymer",
     "CdSe/CdS@poly(ionic liquid)",
+    "CdSe/PerCA4",
     "CdSe/ZnS",
+    "CdSe/ZnS-chitosan",
     "CdSe/ZnS/CdS",
     "CdSe/ZnS/siloxane",
     "CdSe/ZnSe",
@@ -247,11 +250,11 @@
     "ZnSe:Cr",
     "ZrO2"
   ],
-  "contributing_papers": 238,
+  "contributing_papers": 243,
   "source_coverage": {
-    "total_contributing_papers": 238,
-    "reviewed_contributing_papers": 238,
-    "audited_contributing_papers": 238,
+    "total_contributing_papers": 243,
+    "reviewed_contributing_papers": 243,
+    "audited_contributing_papers": 243,
     "machine_extracted_contributing_papers": 0,
     "audited_primary_dois": [
       "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
@@ -358,6 +361,7 @@
       "10.1021/acsnano.5b05329",
       "10.1021/acsnano.5b06433",
       "10.1021/acsnano.8b05032",
+      "10.1021/acsnano.8b06468",
       "10.1021/acsnano.9b03864",
       "10.1021/acsomega.7b00839",
       "10.1021/acsomega.9b04448",
@@ -365,9 +369,13 @@
       "10.1021/acssuschemeng.2c02981",
       "10.1021/acssuschemeng.8b00398",
       "10.1021/am100605a",
+      "10.1021/am100982p",
       "10.1021/am200520q",
+      "10.1021/am300590a",
       "10.1021/am301048m",
       "10.1021/am301787q",
+      "10.1021/am301960h",
+      "10.1021/am3029766",
       "10.1021/am4029735",
       "10.1021/cg0502587",
       "10.1021/cg701128b",
@@ -495,12 +503,12 @@
     ],
     "count_definition": "Distinct primary source identifiers among papers represented in regular material pages. Each paper counts once regardless of recipe variants; supporting citations do not add papers."
   },
-  "synthesis_structure_pairs": 854,
+  "synthesis_structure_pairs": 864,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 848,
+  "partial_pairs": 858,
   "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 2975,
+  "all_records": 2984,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -76823,6 +76831,1670 @@
       }
     },
     {
+      "pair_row_id": "kim2013-cdse-cds-zno-am301960h-array::core-array",
+      "record_id": "kim2013-cdse-cds-zno-am301960h-array",
+      "record_page_path": "records/kim2013-cdse-cds-zno-am301960h-array.html",
+      "source_group": "kim2013-cdse-cds-zno-am301960h",
+      "title": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "doi": "10.1021/am301960h",
+      "year": 2013,
+      "method": "ZnO solution growth followed by CdS SILAR and CdSe chemical bath deposition",
+      "recipe_label": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "sample_id": "core-array",
+      "source_sample_label": "Core CdSe/CdS/ZnO array before polymer infiltration",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnO on ITO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2013-cdse-cds-zno-am301960h",
+            "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2013-cdse-cds-zno-am301960h",
+          "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Quantum-dot-sensitized ZnO nanowire array",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnO on ITO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdSe/CdS sensitized ZnO nanowire array",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "core-array",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "vacuum-dry-state",
+          "composition": {
+            "value": "CdSe/CdS/ZnO on ITO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                }
+              ],
+              "note": "No phase name assigned; indexed FFT labels are not expanded into an inferred polymorph."
+            },
+            "morphology": {
+              "value": "Quantum-dot-sensitized ZnO nanowire array",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "kim2013-am301960h-zno-wurtzite-comparison",
+          "kim2013-am301960h-cds-wurtzite-comparison",
+          "kim2013-am301960h-cds-zinc-blende-comparison",
+          "kim2013-am301960h-cdse-wurtzite-comparison",
+          "kim2013-am301960h-cdse-zinc-blende-ideal-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonium-hydroxide",
+            "cadmium-acetate-dihydrate",
+            "sodium-selenosulfate",
+            "water",
+            "zinc-nitrate-hexahydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "zinc-nitrate-hexahydrate",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 100,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "100 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-acetate-dihydrate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.5 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sodium-selenosulfate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.25 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 150,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "150 μL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "20 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2013-cdse-cds-zno-am301960h-array::fig1-cds",
+      "record_id": "kim2013-cdse-cds-zno-am301960h-array",
+      "record_page_path": "records/kim2013-cdse-cds-zno-am301960h-array.html",
+      "source_group": "kim2013-cdse-cds-zno-am301960h",
+      "title": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "doi": "10.1021/am301960h",
+      "year": 2013,
+      "method": "ZnO solution growth followed by CdS SILAR and CdSe chemical bath deposition",
+      "recipe_label": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "sample_id": "fig1-cds",
+      "source_sample_label": "Figure 1b CdS/ZnO array",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/ZnO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2013-cdse-cds-zno-am301960h",
+            "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2013-cdse-cds-zno-am301960h",
+          "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdS coated ZnO nanowires",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnO on ITO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdSe/CdS sensitized ZnO nanowire array",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "fig1-cds",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "repeat-silar-state",
+          "composition": {
+            "value": "CdS/ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+                }
+              ],
+              "note": "No phase name assigned; indexed FFT labels are not expanded into an inferred polymorph."
+            },
+            "morphology": {
+              "value": "CdS coated ZnO nanowires",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "kim2013-am301960h-zno-wurtzite-comparison",
+          "kim2013-am301960h-cds-wurtzite-comparison",
+          "kim2013-am301960h-cds-zinc-blende-comparison",
+          "kim2013-am301960h-cdse-wurtzite-comparison",
+          "kim2013-am301960h-cdse-zinc-blende-ideal-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonium-hydroxide",
+            "cadmium-acetate-dihydrate",
+            "sodium-selenosulfate",
+            "water",
+            "zinc-nitrate-hexahydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "zinc-nitrate-hexahydrate",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 100,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "100 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-acetate-dihydrate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.5 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sodium-selenosulfate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.25 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 150,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "150 μL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "20 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2013-cdse-cds-zno-am301960h-array::fig1-cdse",
+      "record_id": "kim2013-cdse-cds-zno-am301960h-array",
+      "record_page_path": "records/kim2013-cdse-cds-zno-am301960h-array.html",
+      "source_group": "kim2013-cdse-cds-zno-am301960h",
+      "title": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "doi": "10.1021/am301960h",
+      "year": 2013,
+      "method": "ZnO solution growth followed by CdS SILAR and CdSe chemical bath deposition",
+      "recipe_label": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "sample_id": "fig1-cdse",
+      "source_sample_label": "Figure 1c CdSe/CdS/ZnO array",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/CdS/ZnO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2013-cdse-cds-zno-am301960h",
+            "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2013-cdse-cds-zno-am301960h",
+          "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Rough and bumpy sensitized nanowires",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnO on ITO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdSe/CdS sensitized ZnO nanowire array",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "fig1-cdse",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "cdse-cbd-state",
+          "composition": {
+            "value": "CdSe/CdS/ZnO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+                }
+              ],
+              "note": "No phase name assigned; indexed FFT labels are not expanded into an inferred polymorph."
+            },
+            "morphology": {
+              "value": "Rough and bumpy sensitized nanowires",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "kim2013-am301960h-zno-wurtzite-comparison",
+          "kim2013-am301960h-cds-wurtzite-comparison",
+          "kim2013-am301960h-cds-zinc-blende-comparison",
+          "kim2013-am301960h-cdse-wurtzite-comparison",
+          "kim2013-am301960h-cdse-zinc-blende-ideal-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonium-hydroxide",
+            "cadmium-acetate-dihydrate",
+            "sodium-selenosulfate",
+            "water",
+            "zinc-nitrate-hexahydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "zinc-nitrate-hexahydrate",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 100,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "100 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-acetate-dihydrate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.5 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sodium-selenosulfate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.25 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 150,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "150 μL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "20 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2013-cdse-cds-zno-am301960h-array::fig1-zno",
+      "record_id": "kim2013-cdse-cds-zno-am301960h-array",
+      "record_page_path": "records/kim2013-cdse-cds-zno-am301960h-array.html",
+      "source_group": "kim2013-cdse-cds-zno-am301960h",
+      "title": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "doi": "10.1021/am301960h",
+      "year": 2013,
+      "method": "ZnO solution growth followed by CdS SILAR and CdSe chemical bath deposition",
+      "recipe_label": "Grow CdSe/CdS sensitizers on ZnO nanowire arrays",
+      "sample_id": "fig1-zno",
+      "source_sample_label": "Figure 1a bare ZnO array",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "ZnO on buffered ITO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2013-cdse-cds-zno-am301960h",
+            "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2013-cdse-cds-zno-am301960h",
+          "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Nanowire array",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/CdS/ZnO on ITO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdSe/CdS sensitized ZnO nanowire array",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "fig1-zno",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "ZnO on buffered ITO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-cdse-cds-zno-am301960h",
+                "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+                }
+              ],
+              "note": "No phase name assigned; indexed FFT labels are not expanded into an inferred polymorph."
+            },
+            "morphology": {
+              "value": "Nanowire array",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-cdse-cds-zno-am301960h",
+                  "locator": "Main PDF p.2 (printed 269), Figure 1a–c caption and adjacent fabrication Results"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "kim2013-am301960h-zno-wurtzite-comparison",
+          "kim2013-am301960h-cds-wurtzite-comparison",
+          "kim2013-am301960h-cds-zinc-blende-comparison",
+          "kim2013-am301960h-cdse-wurtzite-comparison",
+          "kim2013-am301960h-cdse-zinc-blende-ideal-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ammonium-hydroxide",
+            "cadmium-acetate-dihydrate",
+            "sodium-selenosulfate",
+            "water",
+            "zinc-nitrate-hexahydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "zinc-nitrate-hexahydrate",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/1/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "zno-bath",
+              "pointer": "/stocks/0/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 100,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "100 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cadmium-acetate-dihydrate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/0/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.5 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "sodium-selenosulfate",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/1/quantities/amount",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 0.25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.25 mmol",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ammonium-hydroxide",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/2/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 150,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "150 μL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "water",
+              "stock_id": "cdse-bath",
+              "pointer": "/stocks/3/components/3/quantities/volume",
+              "binding_basis": "explicit stock-component material_id",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Deionized water charge, not final reaction volume",
+                "raw_text": "20 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-cdse-cds-zno-am301960h",
+                    "locator": "Main PDF p.2 (printed 269), Experimental Section, Fabrication of CdSe/CdS/ZnO Heterojunction Nanowire Arrays"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd::kim2013-pbs-ionic-liquid-am3029766-pbs-qd--prepared-qds",
+      "record_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd",
+      "record_page_path": "records/kim2013-pbs-ionic-liquid-am3029766-pbs-qd.html",
+      "source_group": "kim2013-pbs-ionic-liquid-am3029766",
+      "title": "Kim et al. (2013): PbS quantum dots by rapid sulfur-precursor injection",
+      "doi": "10.1021/am3029766",
+      "year": 2013,
+      "method": "Rapid injection of sulfur precursor into a prepared lead-precursor mixture",
+      "recipe_label": "Kim et al. (2013): PbS quantum dots by rapid sulfur-precursor injection",
+      "sample_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--prepared-qds",
+      "source_sample_label": "prepared PbS nanoparticles",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+            "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+          "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                "locator": "Main PDF p.1 / printed p.1757, Section 2.1 Materials, opening sentence"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                "locator": "Main PDF p.2 / printed p.1758, Section 3 Results and Discussion, opening paragraph and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "quantum dots",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                "locator": "Main PDF p.2 / printed p.1758, Section 3 Results and Discussion, opening paragraph and Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--prepared-qds",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--isolated-qds",
+          "composition": {
+            "value": "PbS",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                  "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "quantum dots",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                  "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "pbs-rocksalt-cod-9013403"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--hmds",
+            "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--oa",
+            "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--octane",
+            "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--ode",
+            "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--pbo"
+          ],
+          "fields": [
+            {
+              "material_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--pbo",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.47,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.47 g",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                    "locator": "Main PDF p.1 / printed p.1757, Section 2.1 Materials, opening sentence"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--oa",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 g",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                    "locator": "Main PDF p.1 / printed p.1757, Section 2.1 Materials, opening sentence"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--ode",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 g",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                    "locator": "Main PDF p.1 / printed p.1757, Section 2.1 Materials, opening sentence"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--hmds",
+              "pointer": "/materials/3/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 180,
+                "minimum": null,
+                "maximum": null,
+                "unit": "uL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "180 μL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                    "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "kim2013-pbs-ionic-liquid-am3029766-pbs-qd--octane",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5 mL",
+                "evidence": [
+                  {
+                    "source_id": "kim2013-pbs-ionic-liquid-am3029766",
+                    "locator": "Main PDF p.2 / printed p.1758, Section 2.1 Materials, synthesis and washing continuation"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "kim2015-znmgo-cm503756q-cigs::kim2015-znmgo-cm503756q-cigs-product",
       "record_id": "kim2015-znmgo-cm503756q-cigs",
       "record_page_path": "records/kim2015-znmgo-cm503756q-cigs.html",
@@ -111472,6 +113144,515 @@
                   {
                     "source_id": "liao2009-tio2-jp905720g",
                     "locator": "Supplied main PDF p. 2, Sections2.1–2.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol::lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--figure3-specimen",
+      "record_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol",
+      "record_page_path": "records/lin2011-chitosan-qd-am100982p-hybrid-4p2nmol.html",
+      "source_group": "lin2011-chitosan-qd-am100982p",
+      "title": "Lin et al.(2011): primary 4.2nmol CS-QD hybrid nanospheres",
+      "doi": "10.1021/am100982p",
+      "year": 2011,
+      "method": "Ethanol-aided counterion complexation, glutaraldehyde crosslinking and dialysis",
+      "recipe_label": "Lin et al.(2011): primary 4.2nmol CS-QD hybrid nanospheres",
+      "sample_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--figure3-specimen",
+      "source_sample_label": "CS-QD hybrid nanospheres in Figure3",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "chitosan matrix containing multiple CdSe/ZnS QDs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lin2011-chitosan-qd-am100982p",
+            "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lin2011-chitosan-qd-am100982p",
+          "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "spherical outline and uniform size",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CS-QD hybrid nanospheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--figure3-specimen",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "chitosan matrix containing multiple CdSe/ZnS QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "lin2011-chitosan-qd-am100982p",
+                  "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "spherical outline and uniform size",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lin2011-chitosan-qd-am100982p",
+                  "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "lin2011-cdse-wz-bulk-comparison",
+          "lin2011-cdse-zb-ideal-comparison",
+          "lin2011-zns-zb-bulk-comparison",
+          "lin2011-zns-wz-bulk-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--aqueous-qd",
+            "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--chitosan",
+            "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--water-cs"
+          ],
+          "fields": [
+            {
+              "material_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--chitosan",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lin2011-chitosan-qd-am100982p",
+                    "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--water-cs",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lin2011-chitosan-qd-am100982p",
+                    "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--aqueous-qd",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Source particle amount for aqueous QD feed, not Cd/Se atomic amount.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lin2011-chitosan-qd-am100982p",
+                    "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol::lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--prepared-hybrid",
+      "record_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol",
+      "record_page_path": "records/lin2011-chitosan-qd-am100982p-hybrid-4p2nmol.html",
+      "source_group": "lin2011-chitosan-qd-am100982p",
+      "title": "Lin et al.(2011): primary 4.2nmol CS-QD hybrid nanospheres",
+      "doi": "10.1021/am100982p",
+      "year": 2011,
+      "method": "Ethanol-aided counterion complexation, glutaraldehyde crosslinking and dialysis",
+      "recipe_label": "Lin et al.(2011): primary 4.2nmol CS-QD hybrid nanospheres",
+      "sample_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--prepared-hybrid",
+      "source_sample_label": "CS-QD hybrid nanospheres,primary4.2nmol-QD preparation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "chitosan-encapsulated CdSe/ZnS QDs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "lin2011-chitosan-qd-am100982p",
+            "locator": "Main PDF p.3 / printed p.997, Preparation of CS-QD Hybrid Nanospheres continued"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lin2011-chitosan-qd-am100982p",
+          "locator": "Main PDF p.3 / printed p.997, Preparation of CS-QD Hybrid Nanospheres continued",
+          "claim": null
+        },
+        {
+          "source_id": "lin2011-chitosan-qd-am100982p",
+          "locator": "Main PDF p.4 / printed p.998, Results, selected4.2nmol QD loading and Figure3 microscopy",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "hybrid nanospheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.3 / printed p.997, Preparation of CS-QD Hybrid Nanospheres continued"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CS-QD hybrid nanospheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--prepared-hybrid",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--dialyze-state",
+          "composition": {
+            "value": "chitosan-encapsulated CdSe/ZnS QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2011-chitosan-qd-am100982p",
+                "locator": "Main PDF p.3 / printed p.997, Preparation of CS-QD Hybrid Nanospheres continued"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "lin2011-chitosan-qd-am100982p",
+                  "locator": "Main PDF p.3 / printed p.997, Preparation of CS-QD Hybrid Nanospheres continued"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "hybrid nanospheres",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "lin2011-chitosan-qd-am100982p",
+                  "locator": "Main PDF p.3 / printed p.997, Preparation of CS-QD Hybrid Nanospheres continued"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "lin2011-cdse-wz-bulk-comparison",
+          "lin2011-cdse-zb-ideal-comparison",
+          "lin2011-zns-zb-bulk-comparison",
+          "lin2011-zns-wz-bulk-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--aqueous-qd",
+            "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--chitosan",
+            "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--water-cs"
+          ],
+          "fields": [
+            {
+              "material_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--chitosan",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 25,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lin2011-chitosan-qd-am100982p",
+                    "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--water-cs",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 8,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lin2011-chitosan-qd-am100982p",
+                    "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "lin2011-chitosan-qd-am100982p-hybrid-4p2nmol--aqueous-qd",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "nmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Source particle amount for aqueous QD feed, not Cd/Se atomic amount.",
+                "raw_text": "",
+                "evidence": [
+                  {
+                    "source_id": "lin2011-chitosan-qd-am100982p",
+                    "locator": "Main PDF p.2 / printed p.996, Preparation of CS-QD Hybrid Nanospheres"
                   }
                 ],
                 "derivation": null
@@ -208218,6 +210399,262 @@
       }
     },
     {
+      "pair_row_id": "sun2018-cdte-platelets-acsnano8b06468-platelets::platelets-16h",
+      "record_id": "sun2018-cdte-platelets-acsnano8b06468-platelets",
+      "record_page_path": "records/sun2018-cdte-platelets-acsnano8b06468-platelets.html",
+      "source_group": "sun2018-cdte-platelets-acsnano8b06468",
+      "title": "CdTe quantum platelets: optimized 3:7 amines, 100 °C, 16 h",
+      "doi": "10.1021/acsnano.8b06468",
+      "year": 2018,
+      "method": "Colloidal synthesis",
+      "recipe_label": "CdTe quantum platelets: optimized 3:7 amines, 100 °C, 16 h",
+      "sample_id": "platelets-16h",
+      "source_sample_label": "16 h optimized 3:7 platelet product",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdTe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+            "locator": "Main PDF p.2, Figure 2a,b and 16 h optimized 3:7 amine paragraph"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+          "locator": "Main PDF p.2, Figure 2a,b and 16 h optimized 3:7 amine paragraph",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Rectangular quantum platelets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                "locator": "Main PDF p.2, Figure 2a,b and 16 h optimized 3:7 amine paragraph"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                "locator": "Main PDF p.6, Synthesis of CdTe Quantum Platelets and (CdTe)13 Nanoclusters, 100 °C platelet branch"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Quantum platelets",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                "locator": "Main PDF p.2, Figure 2a,b and 16 h optimized 3:7 amine paragraph"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "platelets-16h",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "redisperse-state",
+          "composition": {
+            "value": "CdTe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                "locator": "Main PDF p.2, Figure 2a,b and 16 h optimized 3:7 amine paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Rectangular quantum platelets",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                  "locator": "Main PDF p.2, Figure 2a,b and 16 h optimized 3:7 amine paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "sun2018-cdte-zb-bulk-comparison",
+          "sun2018-cdte-wz-ideal-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "cd-feed",
+            "te-feed"
+          ],
+          "fields": [
+            {
+              "material_id": "cd-feed",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.639,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.639 g",
+                "evidence": [
+                  {
+                    "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                    "locator": "Main PDF p.6, Synthesis of CdTe Quantum Platelets and (CdTe)13 Nanoclusters, 100 °C platelet branch"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "cd-feed",
+              "pointer": "/materials/0/quantities/cdcl2_amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "CdCl2 in stock",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                    "locator": "Main PDF p.6, Synthesis of CdTe Quantum Platelets and (CdTe)13 Nanoclusters, 100 °C platelet branch"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te-feed",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.308,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.308 g",
+                "evidence": [
+                  {
+                    "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                    "locator": "Main PDF p.6, Synthesis of CdTe Quantum Platelets and (CdTe)13 Nanoclusters, 100 °C platelet branch"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "te-feed",
+              "pointer": "/materials/1/quantities/te_amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.3,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "Te in stock",
+                "raw_text": "0.3 mmol",
+                "evidence": [
+                  {
+                    "source_id": "sun2018-cdte-platelets-acsnano8b06468",
+                    "locator": "Main PDF p.6, Synthesis of CdTe Quantum Platelets and (CdTe)13 Nanoclusters, 100 °C platelet branch"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "tan2006-ag-ag2se-jp0616011-ag-seed::tan2006-ag-ag2se-jp0616011-ag-seed-sample",
       "record_id": "tan2006-ag-ag2se-jp0616011-ag-seed",
       "record_page_path": "records/tan2006-ag-ag2se-jp0616011-ag-seed.html",
@@ -219535,6 +221972,441 @@
                   {
                     "source_id": "venkatesan2003-fe3o4-1555371",
                     "locator": "Main PDF p. 2, printed p. 8023, Section II. Experiment"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "vercelli2012-cdse-perylene-am300590a-multilayer::film",
+      "record_id": "vercelli2012-cdse-perylene-am300590a-multilayer",
+      "record_page_path": "records/vercelli2012-cdse-perylene-am300590a-multilayer.html",
+      "source_group": "vercelli2012-cdse-perylene-am300590a",
+      "title": "Assemble CdSe/PerCA4 multilayers on PVBH-primed ITO",
+      "doi": "10.1021/am300590a",
+      "year": 2012,
+      "method": "Layer-by-layer deposition",
+      "recipe_label": "Assemble CdSe/PerCA4 multilayers on PVBH-primed ITO",
+      "sample_id": "film",
+      "source_sample_label": "Generic CdSe/PerCA4 multilayer preparation",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdSe/PerCA4 on PVBH-primed ITO-glass",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "vercelli2012-cdse-perylene-am300590a",
+            "locator": "Main PDF p.3, Section 3.2, CdSe/PerCA4 Multilayers and Figure 1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "vercelli2012-cdse-perylene-am300590a",
+          "locator": "Main PDF p.3, Section 3.2, CdSe/PerCA4 Multilayers and Figure 1",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Multilayer film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.3, Section 3.2, CdSe/PerCA4 Multilayers and Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdSe/PerCA4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.2, Section 2.2, Substrates and Multilayer Film Formation"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "Alternating organic/CdSe nanocrystal multilayer film",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.3, Section 3.2, CdSe/PerCA4 Multilayers and Figure 1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "film",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "repeat-state",
+          "composition": {
+            "value": "CdSe/PerCA4 on PVBH-primed ITO-glass",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.3, Section 3.2, CdSe/PerCA4 Multilayers and Figure 1"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Multilayer film",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "vercelli2012-cdse-perylene-am300590a",
+                  "locator": "Main PDF p.3, Section 3.2, CdSe/PerCA4 Multilayers and Figure 1"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": true
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions"
+        ],
+        "reference_ids": [
+          "vercelli2012-cdse-wz-bulk-comparison",
+          "vercelli2012-cdse-zb-ideal-comparison"
+        ],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "vercelli2012-cdse-perylene-am300590a-perca4::solid",
+      "record_id": "vercelli2012-cdse-perylene-am300590a-perca4",
+      "record_page_path": "records/vercelli2012-cdse-perylene-am300590a-perca4.html",
+      "source_group": "vercelli2012-cdse-perylene-am300590a",
+      "title": "Prepare the PerCA4 bis(tetrabutylammonium) linker",
+      "doi": "10.1021/am300590a",
+      "year": 2012,
+      "method": "Linker precursor synthesis",
+      "recipe_label": "Prepare the PerCA4 bis(tetrabutylammonium) linker",
+      "sample_id": "solid",
+      "source_sample_label": "PerCA4 orange solid",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PerCA4 H-bridged dianion bis(tetrabutylammonium) salt",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "vercelli2012-cdse-perylene-am300590a",
+            "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "vercelli2012-cdse-perylene-am300590a",
+          "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "Orange solid",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PerCA4",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "not reported",
+            "evidence": [],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "solid",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "evaporate-state",
+          "composition": {
+            "value": "PerCA4 H-bridged dianion bis(tetrabutylammonium) salt",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "vercelli2012-cdse-perylene-am300590a",
+                "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [],
+              "note": ""
+            },
+            "morphology": {
+              "value": "Orange solid",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "vercelli2012-cdse-perylene-am300590a",
+                  "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ethanol",
+            "ptcda",
+            "tbaoh"
+          ],
+          "fields": [
+            {
+              "material_id": "ptcda",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mg",
+                "evidence": [
+                  {
+                    "source_id": "vercelli2012-cdse-perylene-am300590a",
+                    "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ptcda",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.025,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.025 mmol",
+                "evidence": [
+                  {
+                    "source_id": "vercelli2012-cdse-perylene-am300590a",
+                    "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tbaoh",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 13,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "13 mg",
+                "evidence": [
+                  {
+                    "source_id": "vercelli2012-cdse-perylene-am300590a",
+                    "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "tbaoh",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.05,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.05 mmol",
+                "evidence": [
+                  {
+                    "source_id": "vercelli2012-cdse-perylene-am300590a",
+                    "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "ethanol",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mL",
+                "evidence": [
+                  {
+                    "source_id": "vercelli2012-cdse-perylene-am300590a",
+                    "locator": "Main PDF p.2, Section 2.1, Synthesis of PerCA4"
                   }
                 ],
                 "derivation": null
