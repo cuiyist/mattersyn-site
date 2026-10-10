@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **243 primary source groups** · release `accepted-five-data-visuals-20261010-r3`. Records are not independent experiments.
+Dataset **0.41.2** · **244 primary source groups** · release `accepted-cdse-core-legacy-corrections-20261010-r1`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -160,6 +160,8 @@ Dataset **0.41.2** · **243 primary source groups** · release `accepted-five-da
 - Nick S. Norberg; Kevin R. Kittilstved; James E. Amonette; Ravi K. Kukkadapu; Dana A. Schwartz; Daniel R. Gamelin (2004). Synthesis of Colloidal Mn2+:ZnO Quantum Dots and High-TC Ferromagnetic Nanocrystalline Thin Films. *Journal of the American Chemical Society*, 126, 9387–9398. [10.1021/ja048427j](https://doi.org/10.1021/ja048427j). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=norberg2004).
 
 - Sanjay R. Dhage; S. P. Gaikwad; Violet Samuel; V. Ravi (2004). Synthesis of nanocrystalline SnO2 powder at 100°C. *Bulletin of Materials Science*, 27, 221–222. [10.1007/bf02708509](https://doi.org/10.1007/bf02708509). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=dhage2004-sno2-bf02708509).
+
+- Dengguo Wu; Martin E. Kordesch; P. Gregory Van Patten (2005). A New Class of Capping Ligands for CdSe Nanocrystal Synthesis. [10.1021/cm050799j](https://doi.org/10.1021/cm050799j). Review scope remains stated in the linked website records.
 
 - Xun Wang; Jing Zhuang; Qing Peng; Yadong Li (2005). A general strategy for nanocrystal synthesis. *Nature*, 437, 121–124. [10.1038/nature03968](https://doi.org/10.1038/nature03968). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=wang2005-lss-nature03968).
 
