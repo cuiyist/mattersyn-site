@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "definition": "One source-reviewed canonical recipe record linked explicitly to one identified product sample, with source-backed composition and at least one source-backed product phase, morphology, or allowlisted sample-specific structural measurement. Atomic coordinates are not required. Multiple structural measurements enrich one row. Cross-record physical-sample deduplication has not been completed; row and paper counts are not independent batch counts.",
   "counts": {
-    "recipe_structure_rows": 848,
-    "source_groups": 184,
-    "records": 680,
+    "recipe_structure_rows": 854,
+    "source_groups": 188,
+    "records": 684,
     "physical_samples_deduplicated": null
   },
   "measurement_property_policy": "data/structure-outcome-policy.json",
@@ -46989,6 +46989,157 @@
                 {
                   "source_id": "jung2024-ag-nanospheres-jacs4c00073",
                   "locator": "Main PDF p.2, Results and Figure 1b"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "khatun2012-qd-lhd-am301048m-cdte-cdse::khatun2012-qd-lhd-am301048m-cdte-cdse--qd-prepared",
+      "record_id": "khatun2012-qd-lhd-am301048m-cdte-cdse",
+      "record_page_path": "records/khatun2012-qd-lhd-am301048m-cdte-cdse.html",
+      "source_group": "khatun2012-qd-lhd-am301048m",
+      "title": "Khatun et al. (2012): near-IR CdTe/CdSe quantum dots",
+      "doi": "10.1021/am301048m",
+      "year": 2012,
+      "method": "Khatun et al. (2012): near-IR CdTe/CdSe quantum dots",
+      "recipe_label": "Khatun et al. (2012): near-IR CdTe/CdSe quantum dots",
+      "sample_id": "khatun2012-qd-lhd-am301048m-cdte-cdse--qd-prepared",
+      "source_sample_label": "prepared near-infrared CdTe/CdSe quantum dots",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdTe/CdSe core-shell QDs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "khatun2012-qd-lhd-am301048m",
+            "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "khatun2012-qd-lhd-am301048m",
+          "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "core/shell nanospheres",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "khatun2012-qd-lhd-am301048m",
+                "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdTe/CdSe",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "khatun2012-qd-lhd-am301048m",
+                "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "khatun2012-qd-lhd-am301048m",
+                "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "khatun2012-qd-lhd-am301048m",
+                "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "khatun2012-qd-lhd-am301048m",
+                "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "khatun2012-qd-lhd-am301048m-cdte-cdse--qd-prepared",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": "khatun2012-qd-lhd-am301048m-cdte-cdse--purified-qd",
+          "composition": {
+            "value": "CdTe/CdSe core-shell QDs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "khatun2012-qd-lhd-am301048m",
+                "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "khatun2012-qd-lhd-am301048m",
+                  "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "core/shell nanospheres",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "khatun2012-qd-lhd-am301048m",
+                  "locator": "Main PDF p.2 / printed p.3881, Section 2.3, near-infrared quantum-dot synthesis"
                 }
               ],
               "note": ""
@@ -134971,6 +135122,330 @@
       "cross_record_sample_deduplication": "not_assessed"
     },
     {
+      "pair_row_id": "xie2010-cds-tnta-am100605a-sonication-15cycles::xie2010-cds-tnta-am100605a-sonication-15cycles--figure1-substrate",
+      "record_id": "xie2010-cds-tnta-am100605a-sonication-15cycles",
+      "record_page_path": "records/xie2010-cds-tnta-am100605a-sonication-15cycles.html",
+      "source_group": "xie2010-cds-tnta-am100605a",
+      "title": "Xie et al.(2010):15-cycle sonication-CdS/TNTAs core route",
+      "doi": "10.1021/am100605a",
+      "year": 2010,
+      "method": "Sonication-assisted sequential chemical bath deposition on anodized and crystallized TiO2 nanotube arrays",
+      "recipe_label": "Xie et al.(2010):15-cycle sonication-CdS/TNTAs core route",
+      "sample_id": "xie2010-cds-tnta-am100605a-sonication-15cycles--figure1-substrate",
+      "source_sample_label": "TNTAs in Figure1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "TiO2 nanotube arrays on Ti",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xie2010-cds-tnta-am100605a",
+            "locator": "Main PDF p.2 / printed p.2911, Figure1 and Section3.1 TNTA dimensions"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xie2010-cds-tnta-am100605a",
+          "locator": "Main PDF p.2 / printed p.2911, Figure1 and Section3.1 TNTA dimensions",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "self-organized nanotube arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Figure1 and Section3.1 TNTA dimensions"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS quantum-dot-sensitized TiO2 nanotube arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdS QDs decorating TiO2 nanotube arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xie2010-cds-tnta-am100605a-sonication-15cycles--figure1-substrate",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "TiO2 nanotube arrays on Ti",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Figure1 and Section3.1 TNTA dimensions"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "xie2010-cds-tnta-am100605a",
+                  "locator": "Main PDF p.2 / printed p.2911, Figure1 and Section3.1 TNTA dimensions"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "self-organized nanotube arrays",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie2010-cds-tnta-am100605a",
+                  "locator": "Main PDF p.2 / printed p.2911, Figure1 and Section3.1 TNTA dimensions"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "xie2010-cds-tnta-am100605a-sonication-15cycles::xie2010-cds-tnta-am100605a-sonication-15cycles--figure3-s2-specimen",
+      "record_id": "xie2010-cds-tnta-am100605a-sonication-15cycles",
+      "record_page_path": "records/xie2010-cds-tnta-am100605a-sonication-15cycles.html",
+      "source_group": "xie2010-cds-tnta-am100605a",
+      "title": "Xie et al.(2010):15-cycle sonication-CdS/TNTAs core route",
+      "doi": "10.1021/am100605a",
+      "year": 2010,
+      "method": "Sonication-assisted sequential chemical bath deposition on anodized and crystallized TiO2 nanotube arrays",
+      "recipe_label": "Xie et al.(2010):15-cycle sonication-CdS/TNTAs core route",
+      "sample_id": "xie2010-cds-tnta-am100605a-sonication-15cycles--figure3-s2-specimen",
+      "source_sample_label": "sonication-CdS/TNTAs in Figure3b-d and FigureS2b",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS and TiO2 with Ti substrate; EDS identifies Ti,O,Cd,S",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xie2010-cds-tnta-am100605a",
+            "locator": "Main PDF p.3 / printed p.2912, Figure3b-d and Section3.1 TEM/HRTEM/EDS"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xie2010-cds-tnta-am100605a",
+          "locator": "Main PDF p.3 / printed p.2912, Figure3b-d and Section3.1 TEM/HRTEM/EDS",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "hexagonal CdS and anatase TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.3 / printed p.2912, Section3.1 XRD assignment and FigureS2 reference"
+              },
+              {
+                "source_id": "xie2010-cds-tnta-am100605a-si",
+                "locator": "SI PDF p.1, FigureS2 XRD and caption"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdS QDs deposited inside TNTAs",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.3 / printed p.2912, Figure3b-d and Section3.1 TEM/HRTEM/EDS"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS quantum-dot-sensitized TiO2 nanotube arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdS QDs decorating TiO2 nanotube arrays",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.2 / printed p.2911, Section2.3 Synthesis of CdS-Sensitized TNTAs"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "xie2010-cds-tnta-am100605a-sonication-15cycles--figure3-s2-specimen",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "CdS and TiO2 with Ti substrate; EDS identifies Ti,O,Cd,S",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "xie2010-cds-tnta-am100605a",
+                "locator": "Main PDF p.3 / printed p.2912, Figure3b-d and Section3.1 TEM/HRTEM/EDS"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "hexagonal CdS and anatase TiO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie2010-cds-tnta-am100605a",
+                  "locator": "Main PDF p.3 / printed p.2912, Section3.1 XRD assignment and FigureS2 reference"
+                },
+                {
+                  "source_id": "xie2010-cds-tnta-am100605a-si",
+                  "locator": "SI PDF p.1, FigureS2 XRD and caption"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "CdS QDs deposited inside TNTAs",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "xie2010-cds-tnta-am100605a",
+                  "locator": "Main PDF p.3 / printed p.2912, Figure3b-d and Section3.1 TEM/HRTEM/EDS"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
       "pair_row_id": "xie2015-cdse-cds-patterning-nanolett5b03068-general-patterning::general-patterning",
       "record_id": "xie2015-cdse-cds-patterning-nanolett5b03068-general-patterning",
       "record_page_path": "records/xie2015-cdse-cds-patterning-nanolett5b03068-general-patterning.html",
@@ -143478,6 +143953,157 @@
                 "field": "morphology.diameter"
               }
             ]
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "yang2012-pbs-cb-am301787q-sample-c-ce::yang2012-pbs-cb-am301787q-sample-c-ce--characterized-film",
+      "record_id": "yang2012-pbs-cb-am301787q-sample-c-ce",
+      "record_page_path": "records/yang2012-pbs-cb-am301787q-sample-c-ce.html",
+      "source_group": "yang2012-pbs-cb-am301787q",
+      "title": "Yang et al. (2012): Sample C 10:1 PbS/carbon-black counter electrode",
+      "doi": "10.1021/am301787q",
+      "year": 2012,
+      "method": "Yang et al. (2012): Sample C 10:1 PbS/carbon-black counter electrode",
+      "recipe_label": "Yang et al. (2012): Sample C 10:1 PbS/carbon-black counter electrode",
+      "sample_id": "yang2012-pbs-cb-am301787q-sample-c-ce--characterized-film",
+      "source_sample_label": "Sample C 10:1 film in Figure 2c and Table 1",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "PbS/CB with PVDF binder on FTO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yang2012-pbs-cb-am301787q",
+            "locator": "Main PDF p.3 / printed p.6164, Figure 2 and complete caption; Main PDF p.3 / printed p.6164, Table 1, Sample C row"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yang2012-pbs-cb-am301787q",
+          "locator": "Main PDF p.3 / printed p.6164, Figure 2 and complete caption; Main PDF p.3 / printed p.6164, Table 1, Sample C row",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "small PbS particles adhered on a carbon-black framework",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2012-pbs-cb-am301787q",
+                "locator": "Main PDF p.3 / printed p.6164, Figure 2 and complete caption; Main PDF p.3 / printed p.6164, Table 1, Sample C row"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "PbS/CB/PVDF on FTO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2012-pbs-cb-am301787q",
+                "locator": "Main PDF p.2 / printed p.6163, Experimental, Preparation of PbS/CB Composite Counter Electrode"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yang2012-pbs-cb-am301787q",
+                "locator": "Main PDF p.2 / printed p.6163, Experimental, Preparation of PbS/CB Composite Counter Electrode"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "yang2012-pbs-cb-am301787q",
+                "locator": "Main PDF p.2 / printed p.6163, Experimental, Preparation of PbS/CB Composite Counter Electrode"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "yang2012-pbs-cb-am301787q",
+                "locator": "Main PDF p.2 / printed p.6163, Experimental, Preparation of PbS/CB Composite Counter Electrode"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "yang2012-pbs-cb-am301787q-sample-c-ce--characterized-film",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "PbS/CB with PVDF binder on FTO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yang2012-pbs-cb-am301787q",
+                "locator": "Main PDF p.3 / printed p.6164, Figure 2 and complete caption; Main PDF p.3 / printed p.6164, Table 1, Sample C row"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "yang2012-pbs-cb-am301787q",
+                  "locator": "Main PDF p.3 / printed p.6164, Figure 2 and complete caption; Main PDF p.3 / printed p.6164, Table 1, Sample C row"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "small PbS particles adhered on a carbon-black framework",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "yang2012-pbs-cb-am301787q",
+                  "locator": "Main PDF p.3 / printed p.6164, Figure 2 and complete caption; Main PDF p.3 / printed p.6164, Table 1, Sample C row"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
           }
         }
       },
@@ -157957,6 +158583,330 @@
                 {
                   "source_id": "zhou2022-inp-multishell-acsanm2c04509",
                   "locator": "Main PDF p.3, Section 2.1.1, InP Core"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4::zhu2011-microwave-cds-tio2-am200520q-electrode4--characterized-electrode4",
+      "record_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4",
+      "record_page_path": "records/zhu2011-microwave-cds-tio2-am200520q-electrode4.html",
+      "source_group": "zhu2011-microwave-cds-tio2-am200520q",
+      "title": "Zhu et al. (2011): microwave-deposited CdS/TiO2 electrode 4",
+      "doi": "10.1021/am200520q",
+      "year": 2011,
+      "method": "Microwave assisted chemical bath deposition on a screen-printed TiO2 bilayer electrode",
+      "recipe_label": "Zhu et al. (2011): microwave-deposited CdS/TiO2 electrode 4",
+      "sample_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4--characterized-electrode4",
+      "source_sample_label": "electrode 4 in Figures 1g, 2, 3b-c and 4",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "CdS/TiO2 electrode",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+            "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+          "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic CdS and anatase TiO2",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion"
+              },
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.3 / printed p.1474, Figure 4 and final XRD paragraph"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "CdS nanocrystallites connected to TiO2 crystallites",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS-sensitized TiO2 photoanode",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdS QDs on mesoporous TiO2 electrode",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4--characterized-electrode4",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "CdS/TiO2 electrode",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": "cubic CdS and anatase TiO2",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                  "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion"
+                },
+                {
+                  "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                  "locator": "Main PDF p.3 / printed p.1474, Figure 4 and final XRD paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "CdS nanocrystallites connected to TiO2 crystallites",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                  "locator": "Main PDF p.3 / printed p.1474, Figure 3b-c and electrode 4 HRTEM/SAED discussion"
+                }
+              ],
+              "note": ""
+            },
+            "measurement_refs": []
+          }
+        }
+      },
+      "cross_record_sample_deduplication": "not_assessed"
+    },
+    {
+      "pair_row_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4::zhu2011-microwave-cds-tio2-am200520q-electrode4--substrate-figure1",
+      "record_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4",
+      "record_page_path": "records/zhu2011-microwave-cds-tio2-am200520q-electrode4.html",
+      "source_group": "zhu2011-microwave-cds-tio2-am200520q",
+      "title": "Zhu et al. (2011): microwave-deposited CdS/TiO2 electrode 4",
+      "doi": "10.1021/am200520q",
+      "year": 2011,
+      "method": "Microwave assisted chemical bath deposition on a screen-printed TiO2 bilayer electrode",
+      "recipe_label": "Zhu et al. (2011): microwave-deposited CdS/TiO2 electrode 4",
+      "sample_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4--substrate-figure1",
+      "source_sample_label": "as-prepared TiO2 electrode in Figure 1a-c",
+      "batch_id": null,
+      "parent_sample_id": null,
+      "composition": {
+        "value": "NC/MC TiO2 bilayer on FTO",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+            "locator": "Main PDF p.2 / printed p.1473, Experimental Section, first paragraph and Results final paragraph"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+          "locator": "Main PDF p.2 / printed p.1473, Experimental Section, first paragraph and Results final paragraph",
+          "claim": null
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "NC transparent underlayer and MC scattering overlayer",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, first paragraph and Results final paragraph"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "structure_descriptor_v02": {
+        "schema_version": "mattersyn.structure/0.2",
+        "mapping_status": "partial_canonical_projection",
+        "intended_target": {
+          "composition": {
+            "value": "CdS-sensitized TiO2 photoanode",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "note": ""
+          },
+          "phase": {
+            "value": null,
+            "status": "not_reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "note": ""
+          },
+          "size": {
+            "value": null,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "not_reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "derivation": null
+          },
+          "morphology": {
+            "value": "CdS QDs on mesoporous TiO2 electrode",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, MACBD preparation paragraph and electrode numbering"
+              }
+            ],
+            "note": ""
+          }
+        },
+        "observed_product": {
+          "sample_id": "zhu2011-microwave-cds-tio2-am200520q-electrode4--substrate-figure1",
+          "parent_sample_id": null,
+          "batch_id": null,
+          "material_state_id": null,
+          "composition": {
+            "value": "NC/MC TiO2 bilayer on FTO",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                "locator": "Main PDF p.2 / printed p.1473, Experimental Section, first paragraph and Results final paragraph"
+              }
+            ],
+            "note": ""
+          },
+          "structure": {
+            "phase": {
+              "value": null,
+              "status": "not_reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                  "locator": "Main PDF p.2 / printed p.1473, Experimental Section, first paragraph and Results final paragraph"
+                }
+              ],
+              "note": ""
+            },
+            "morphology": {
+              "value": "NC transparent underlayer and MC scattering overlayer",
+              "status": "reported",
+              "evidence": [
+                {
+                  "source_id": "zhu2011-microwave-cds-tio2-am200520q",
+                  "locator": "Main PDF p.2 / printed p.1473, Experimental Section, first paragraph and Results final paragraph"
                 }
               ],
               "note": ""

@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **234 primary source groups** · release `fasttrack20261008-accepted-three-font-recovery`. Records are not independent experiments.
+Dataset **0.41.2** · **238 primary source groups** · release `accepted-four-visuals-20261009-r1`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -258,6 +258,8 @@ Dataset **0.41.2** · **234 primary source groups** · release `fasttrack2026100
 
 - Shiva Adireddy; Cuikun Lin; Baobao Cao; Weilie Zhou; Gabriel Caruntu (2010). Solution-Based Growth of Monodisperse Cube-Like BaTiO3 Colloidal Nanocrystals. *Chemistry of Materials*, 22, 1946–1948. [10.1021/cm9038768](https://doi.org/10.1021/cm9038768). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=batio3-2010-cm9038768).
 
+- Yi Xie, Ghafar Ali, Seung Hwa Yoo, and Sung Oh Cho (2010). Sonication-Assisted Synthesis of CdS Quantum-Dot-Sensitized TiO2 Nanotube Arrays with Enhanced Photoelectrochemical and Photocatalytic Activity. [10.1021/am100605a](https://doi.org/10.1021/am100605a). Review scope remains stated in the linked website records.
+
 - Jordan W. Thomson; Ludovico Cademartiri; Mark MacDonald; Srebri Petrov; Gianluca Calestani; Peng Zhang; Geoffrey A. Ozin (2010). Ultrathin Bi2S3 Nanowires: Surface and Core Structure at the Cluster-Nanocrystal Transition. [10.1021/ja101908k](https://doi.org/10.1021/ja101908k). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=thomson2010ja101908k).
 
 - Jing Qian; Chunyan Zhang; Xiaodong Cao; Songqin Liu (2010). Versatile Immunosensor Using a Quantum Dot Coated Silica Nanosphere as a Label for Signal Amplification. [10.1021/ac100558t](https://doi.org/10.1021/ac100558t). Review scope remains stated in the linked website records.
@@ -265,6 +267,8 @@ Dataset **0.41.2** · **234 primary source groups** · release `fasttrack2026100
 - Jie Zhang; Renguo Xie; Wensheng Yang (2011). A Simple Route for Highly Luminescent Quaternary Cu-Zn-In-S Nanocrystal Emitters. *Chemistry of Materials*, 23, 3357–3361. [10.1021/cm201400w](https://doi.org/10.1021/cm201400w). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhang2011-cm201400w-cu-zn-in-s).
 
 - Ming Li; Qiaoyi Wang; Xiaodong Shi; Lawrence A. Hornak; Nianqiang Wu (2011). Detection of Mercury(II) by Quantum Dot/DNA/Gold Nanoparticle Ensemble Based Nanosensor Via Nanometal Surface Energy Transfer. *Analytical Chemistry*, 83, 7061–7065. [10.1021/ac2019014](https://doi.org/10.1021/ac2019014). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2011-ac2019014).
+
+- Guang Zhu, Likun Pan, Tao Xu, and Zhuo Sun (2011). One-Step Synthesis of CdS Sensitized TiO2 Photoanodes for Quantum Dot-Sensitized Solar Cells by Microwave Assisted Chemical Bath Deposition Method. [10.1021/am200520q](https://doi.org/10.1021/am200520q). Review scope remains stated in the linked website records.
 
 - Yun Xiang; Haixia Zhang; Bingying Jiang; Yaqin Chai; Ruo Yuan (2011). Quantum Dot Layer-by-Layer Assemblies as Signal Amplification Labels for Ultrasensitive Electronic Detection of Uropathogens. [10.1021/ac200564r](https://doi.org/10.1021/ac200564r). Review scope remains stated in the linked website records.
 
@@ -278,6 +282,8 @@ Dataset **0.41.2** · **234 primary source groups** · release `fasttrack2026100
 
 - Rabeka Alam; Mathew M. Maye (2012). Asymmetric quantum dot growth via temperature cycling. *Inorganica Chimica Acta*, 380, 114–117. [10.1016/j.ica.2011.10.038](https://doi.org/10.1016/j.ica.2011.10.038). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=alam2012-cdse-cds-ica201110038).
 
+- Yueyong Yang, Lifeng Zhu, Huicheng Sun, Xiaoming Huang, Yanhong Luo, Dongmei Li, and Qingbo Meng (2012). Composite Counter Electrode Based on Nanoparticulate PbS and Carbon Black: Towards Quantum Dot-Sensitized Solar Cells with Both High Efficiency and Stability. [10.1021/am301787q](https://doi.org/10.1021/am301787q). Review scope remains stated in the linked website records.
+
 - Amber Nagy; Andrea Steinbrück; Jun Gao; Norman Doggett; Jennifer A. Hollingsworth; Rashi Iyer (2012). Comprehensive Analysis of the Effects of CdSe Quantum Dot Size, Surface Charge, and Functionalization on Primary Human Lung Cells. *ACS Nano*, 6, 4748–4762. [10.1021/nn204886b](https://doi.org/10.1021/nn204886b). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=nagy2012nn204886b).
 
 - Weiwei Zheng; Kedar Singh; Zhenxing Wang; Joshua T. Wright; Johan van Tol; Naresh S. Dalal; Robert W. Meulenberg; Geoffrey F. Strouse (2012). Evidence of a ZnCr2Se4 Spinel Inclusion at the Core of a Cr-Doped ZnSe Quantum Dot. *Journal of the American Chemical Society*, 134, 5577–5585. [10.1021/ja210285p](https://doi.org/10.1021/ja210285p). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zheng2012-ja210285p).
@@ -285,6 +291,8 @@ Dataset **0.41.2** · **234 primary source groups** · release `fasttrack2026100
 - Yagnaseni Ghosh; Benjamin D. Mangum; Joanna L. Casson; Darrick J. Williams; Han Htoon; Jennifer A. Hollingsworth (2012). New Insights into the Complexities of Shell Growth and the Strong Influence of Particle Volume in Nonblinking “Giant” Core/Shell Nanocrystal Quantum Dots. *Journal of the American Chemical Society*, 134, 9634–9643. [10.1021/ja212032q](https://doi.org/10.1021/ja212032q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ghosh2012).
 
 - Guifen Jie; Jinxin Yuan (2012). Novel Magnetic Fe3O4@CdSe Composite Quantum Dot-Based Electrochemiluminescence Detection of Thrombin by a Multiple DNA Cycle Amplification Strategy. [10.1021/ac203261x](https://doi.org/10.1021/ac203261x). Review scope remains stated in the linked website records.
+
+- Zehedina Khatun, Md Nurunnabi, Kwang Jae Cho, and Yong-kyu Lee (2012). Oral Delivery of Near-Infrared Quantum Dot Loaded Micelles for Noninvasive Biomedical Imaging. [10.1021/am301048m](https://doi.org/10.1021/am301048m). Review scope remains stated in the linked website records.
 
 - Chuan-Guo Shi; Xia Shan; Zhong-Qin Pan; Jing-Juan Xu; Chang Lu; Ning Bao; Hai-Ying Gu (2012). Quantum Dot (QD)-Modified Carbon Tape Electrodes for Reproducible Electrochemiluminescence (ECL) Emission on a Paper-Based Platform. [10.1021/ac2033968](https://doi.org/10.1021/ac2033968). Review scope remains stated in the linked website records.
 
@@ -613,5 +621,7 @@ Reference structures are distinguished from sample-resolved synthesis targets. P
 - [Bi rhombohedral bulk comparison (constructed from COD 9008576 and Thoft 1995)](https://www.crystallography.net/cod/9008576.html). locally constructed bulk reference.
 
 - [Qualified ideal zinc-blende CdSe bulk reference](https://doi.org/10.1063/1.101033). constructed lattice reference.
+
+- [Bulk anatase TiO2 component reference](https://www.crystallography.net/cod/9015929.html). literature bulk reference.
 
 A citation does not grant reuse rights to third-party figures or source text. The separate release boundary gate controls public delivery.
