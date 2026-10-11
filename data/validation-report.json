@@ -1,12 +1,12 @@
 {
   "status": "passed",
   "dataset_version": "0.41.2",
-  "records": 2985,
-  "recipe_records": 1402,
+  "records": 3005,
+  "recipe_records": 1422,
   "shared_procedures": 1018,
   "independent_experiment_count": null,
-  "source_groups": 244,
-  "families": 336,
+  "source_groups": 257,
+  "families": 344,
   "eligible_by_task": {
     "precursor_selection": 97,
     "partial_protocol": 139,
@@ -31,7 +31,7 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 1302,
+  "curated_recipes": 1322,
   "contextual_observation_records": 565,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
@@ -53,12 +53,12 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 2985,
+      "audited_task_profile_missing": 3005,
       "explicit_sample_recipe_link_missing": 21,
       "measured_label_not_approved": 38,
-      "no_sample_coordinate_asset": 2925,
-      "source_review_required": 100,
-      "task_not_requested": 2960
+      "no_sample_coordinate_asset": 2945,
+      "source_review_required": 120,
+      "task_not_requested": 2980
     }
   },
   "structure_outcome_coverage": {
@@ -74,7 +74,7 @@
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 246,
+    "material_families": 252,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -145,6 +145,7 @@
       "Cd3P2",
       "CdE (E = S, Se, Te)",
       "CdS",
+      "CdS-PMPS-co-PMMA hybrids",
       "CdS/CdSe",
       "CdS/HgS/CdS",
       "CdS/PbS",
@@ -175,6 +176,7 @@
       "CdSe/ZnS–Au",
       "CdSe/polythiophene",
       "CdSe–SiO2–TiO2",
+      "CdSe–ZnS",
       "CdTe",
       "CdTe/CdS/polymer",
       "CdTe/CdSe",
@@ -193,11 +195,13 @@
       "CoO/CoFe2O4",
       "CoPt3",
       "CoS",
+      "Cs1−xRbxPbBr3",
       "Cs3Cu2Cl5",
       "Cs4PbBr6/CsPbBr3",
       "CsMnCl3",
       "CsPbBr3",
       "CsPbBr3-PbS",
+      "CsPbBr3−PbxBiySz",
       "Cu-Zn-In-S",
       "Cu1.8S",
       "Cu12Sb4S13",
@@ -322,14 +326,16 @@
       "ZnSTe",
       "ZnSe",
       "ZnSe:Cr",
+      "ZnTe/CdS",
+      "ZnTe/CdSe",
       "ZrO2"
     ],
-    "contributing_papers": 244,
+    "contributing_papers": 257,
     "source_coverage": {
-      "total_contributing_papers": 244,
+      "total_contributing_papers": 257,
       "reviewed_contributing_papers": 244,
       "audited_contributing_papers": 244,
-      "machine_extracted_contributing_papers": 0,
+      "machine_extracted_contributing_papers": 13,
       "audited_primary_dois": [
         "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
         "10.1002/adfm.200500603",
@@ -576,7 +582,21 @@
         "10.1246/cl.2001.344",
         "10.1246/cl.2006.1210"
       ],
-      "source_extracted_primary_dois": [],
+      "source_extracted_primary_dois": [
+        "10.1002/adfm.200600955",
+        "10.1002/adma.200501523",
+        "10.1002/smll.200600298",
+        "10.1006/jcis.2000.6894",
+        "10.1007/s00396-009-2037-9",
+        "10.1007/s10853-006-7461-3",
+        "10.1007/s10971-006-9120-1",
+        "10.1021/acs.chemmater.3c02503",
+        "10.1021/acs.chemmater.4c00011",
+        "10.1021/acs.chemmater.5c00408",
+        "10.1021/acs.chemmater.9b03709",
+        "10.1021/acsami.0c20349",
+        "10.1021/acsami.1c06627"
+      ],
       "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
     },
     "synthesis_structure_pairs": 864,
@@ -584,7 +604,7 @@
     "partial_pairs": 858,
     "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 2985,
+    "all_records": 3005,
     "experimental_series_rows": 100
   },
   "queue_count": 37,

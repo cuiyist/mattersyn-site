@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cells-20261010`. Records are not independent experiments.
+Dataset **0.41.2** · **257 primary source groups** · release `simple-batch01-20261011`. Records are not independent experiments.
 
 - Haiming Zhu; Nianhui Song; William Rodríguez-Córdoba; Tianquan Lian (year unrecorded). Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information. *Journal of the American Chemical Society*. [10.1021/ja210312s](https://doi.org/10.1021/ja210312s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhu2012-ja210312s-si).
 
@@ -76,6 +76,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 - Qingyi Lu; Junqing Hu; Kaibin Tang; Yitai Qian; Guien Zhou; Xianming Liu (1999). The Solvothermal Synthesis for Nanocrystalline FeIn2S4 at Low Temperature. *Chemistry Letters*, 481–482. [10.1246/cl.1999.481](https://doi.org/10.1246/cl.1999.481). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=lu1999-fein2s4).
 
 - Yi Xie; Zhengping Qiao; Meng Chen; Yingjie Zhu; Yitai Qian (1999). γ-Irradiation Route to Nanocrystalline Lead Selenide. *Chemistry Letters*, 875–876. [10.1246/cl.1999.875](https://doi.org/10.1246/cl.1999.875). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=xie1999-pbse-gamma).
+
+- Richard Kho, Claudia L. Torres-Martínez, and Rajesh K. Mehra (2000). A Simple Colloidal Synthesis for Gram-Quantity Production of Water-Soluble ZnS Nanocrystal Powders. [10.1006/jcis.2000.6894](https://doi.org/10.1006/jcis.2000.6894). Review scope remains stated in the linked website records.
 
 - Weixin Zhang; Cheng Wang; Lei Zhang; Xiaoming Zhang; Xianming Liu; Kaibin Tang; Yitai Qian (2000). Room Temperature Synthesis of Cubic Nanocrystalline CdSe in Aqueous Solution. *Journal of Solid State Chemistry*, 151, 241–244. [10.1006/jssc.2000.8646](https://doi.org/10.1006/jssc.2000.8646). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhang2000-cdse-jssc20008646).
 
@@ -183,7 +185,15 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 
 - Hua Tan; Shuping Li; Wai Yip Fan (2006). Core-Shell and Hollow Nanocrystal Formation via Small Molecule Surface Photodissociation; Ag@Ag2Se as an Example. *Journal of Physical Chemistry B*, 110, 15812–15816. [10.1021/jp0616011](https://doi.org/10.1021/jp0616011). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=tan2006-ag-ag2se-jp0616011).
 
+- Renguo Xie, Ute Kolb, and Thomas Basch (2006). Design and Synthesis of Colloidal Nanocrystal Heterostructures with Tetrapod Morphology. [10.1002/smll.200600298](https://doi.org/10.1002/smll.200600298). Review scope remains stated in the linked website records.
+
+- R. R. Gadipalli · L. A. Martin · B. Heckman · J. G. Story · M. F. Bertino · P. Fraundorf · S. Guha · N. Leventis (2006). Infra red quantum dot photolithography. [10.1007/s10971-006-9120-1](https://doi.org/10.1007/s10971-006-9120-1). Review scope remains stated in the linked website records.
+
+- A. M. P. G. de la Torre, M. A. Correa-Duarte, M. A. El-Sayed (2006). Linear CdTe–CNT Composites with Tunable Photoluminescence via Electrostatic Self-Assembly and Silica Spacers. [10.1002/adma.200501523](https://doi.org/10.1002/adma.200501523). Review scope remains stated in the linked website records.
+
 - Einat Tirosh; Gabriel Shemer; Gil Markovich (2006). Optimizing Cobalt Ferrite Nanocrystal Synthesis Using a Magneto-optical Probe. *Chemistry of Materials*, 18, 465–470. [10.1021/cm052401p](https://doi.org/10.1021/cm052401p). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=tirosh2006).
+
+- A. VADIVEL MURUGAN, OH YEE HENG, V. RAVI, ANNA MARAJU KASI VISWANATH, V. SAAMINATHAN (2006). Photoluminescence properties of nanocrystalline ZnS on nanoporous silicon. [10.1007/s10853-006-7461-3](https://doi.org/10.1007/s10853-006-7461-3). Review scope remains stated in the linked website records.
 
 - T. Qiu; X. L. Wu; Y. C. Cheng; G. G. Siu; Paul K. Chu (2006). Silver nanocrystal superlattices: Self-assembly and optical emission. *Applied Physics Letters*, 88. [10.1063/1.2192645](https://doi.org/10.1063/1.2192645). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=qiu2006-ag-superlattice).
 
@@ -194,6 +204,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 - Hongyou Fan; Adam Wright; John Gabaldon; Adrian Rodriguez; C. Jeffrey Brinker; Ying-Bing Jiang (2006). Three-Dimensionally Ordered Gold Nanocrystal/Silica Superlattice Thin Films Synthesized via Sol–Gel Self-Assembly. *Advanced Functional Materials*, 16, 891–895. [10.1002/adfm.200500603](https://doi.org/10.1002/adfm.200500603). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=au-silica-adfm200500603).
 
 - Guifen Jie; Bo Liu; Hongcheng Pan; Jun-Jie Zhu; Hong-Yuan Chen (2007). CdS Nanocrystal-Based Electrochemiluminescence Biosensor for the Detection of Low-Density Lipoprotein by Increasing Sensitivity with Gold Nanoparticle Amplification. [10.1021/ac062357c](https://doi.org/10.1021/ac062357c). Review scope remains stated in the linked website records.
+
+- Jacek Jasieniak, Jessica Pacifico, Raffaella Signorini, Alessandro Chiasera, Maurizio Ferrari, Alessandro Martucci, Paul Mulvaney (2007). Luminescence and Amplified Stimulated Emission in CdSe–ZnS-Nanocrystal-Doped TiO2 and ZrO2 Waveguides. [10.1002/adfm.200600955](https://doi.org/10.1002/adfm.200600955). Review scope remains stated in the linked website records.
 
 - Emory M. Chan; Matthew A. Marcus; Sirine Fakra; Mariam ElNaggar; Richard A. Mathies; A. Paul Alivisatos (2007). Millisecond Kinetics of Nanocrystal Cation Exchange Using Microfluidic X-ray Absorption Spectroscopy. [10.1021/jp073474u](https://doi.org/10.1021/jp073474u). Review scope remains stated in the linked website records.
 
@@ -222,6 +234,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 - S. Stankov; Y. Z. Yue; M. Miglierini; B. Sepiol; I. Sergueev; A. I. Chumakov; L. Hu; P. Svec; R. Rüffer (2008). Vibrational Properties of Nanograins and Interfaces in Nanocrystalline Materials. *Physical Review Letters*, 100, 235503. [10.1103/PhysRevLett.100.235503](https://doi.org/10.1103/PhysRevLett.100.235503). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=stankov2008-fe90zr7b3).
 
 - Minjie Li; Jianying Ouyang; Christopher I. Ratcliffe; Laetitia Pietri; Xiaohua Wu; Donald M. Leek; Igor Moudrakovski; Quan Lin; Bai Yang; Kui Yu (2009). CdS Magic-Sized Nanocrystals Exhibiting Bright Band Gap Photoemission via Thermodynamically Driven Formation. *ACS Nano*, 3, 3832–3838. [10.1021/nn9009455](https://doi.org/10.1021/nn9009455). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2009-nn9009455).
+
+- Cai-Feng Wang & Yu-Peng Cheng & Ji-Yi Wang & Dong Zhang & Lin-Rui Hou & Li Chen & Su Chen (2009). Controllable fabrication of nanocrystal-polymer hybrids via the catalytic chain transfer polymerization process. [10.1007/s00396-009-2037-9](https://doi.org/10.1007/s00396-009-2037-9). Review scope remains stated in the linked website records.
 
 - Qinghong Yao; Indika U. Arachchige; Stephanie L. Brock (2009). Expanding the Repertoire of Chalcogenide Nanocrystal Networks: Ag2Se Gels and Aerogels by Cation Exchange Reactions. [10.1021/ja900042y](https://doi.org/10.1021/ja900042y). Review scope remains stated in the linked website records.
 
@@ -403,6 +417,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 
 - Baowei Zhang, Luca Goldoni, Juliette Zito, Zhiya Dang, Guilherme Almeida, Francesco Zaccaria, Jur de Wit, Ivan Infante, Luca De Trizio, Liberato Manna (2019). Alkyl Phosphonic Acids Deliver CsPbBr3 Nanocrystals with High Photoluminescence Quantum Yield and Truncated Octahedron Shape. [10.1021/acs.chemmater.9b03529](https://doi.org/10.1021/acs.chemmater.9b03529). Review scope remains stated in the linked website records.
 
+- Je-Ruei Wen, Benjamin J. Roman, Freddy A. Rodriguez Ortiz, Noel Mireles Villegas, Nicholas Porcellino, and Matthew Sheldon (2019). Chemical Availability of Bromide Dictates CsPbBr3 Nanocrystal Growth. [10.1021/acs.chemmater.9b03709](https://doi.org/10.1021/acs.chemmater.9b03709). Review scope remains stated in the linked website records.
+
 - Artur Feld; Agnes Weimer; Andreas Kornowski; Naomi Winckelmans; Jan-Philip Merkl; Hauke Kloust; Robert Zierold; Christian Schmidtke; Theo Schotten; Maria Riedner; Sara Bals; Horst Weller (2019). Chemistry of Shape-Controlled Iron Oxide Nanocrystal Formation. [10.1021/acsnano.8b05032](https://doi.org/10.1021/acsnano.8b05032). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=feld2019).
 
 - Max R. Friedfeld; Dane A. Johnson; Brandi M. Cossairt (2019). Conversion of InP Clusters to Quantum Dots. *Inorganic Chemistry*, 58, 803–810. [10.1021/acs.inorgchem.8b02945](https://doi.org/10.1021/acs.inorgchem.8b02945). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=friedfeld2019).
@@ -439,9 +455,13 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 
 - P. Tim Prins; Federico Montanarella; Kim Dümbgen; Yolanda Justo; Johanna C. van der Bok; Stijn O. M. Hinterding; Jaco J. Geuchies; Jorick Maes; Kim De Nolf; Sander Deelen; Hans Meijer; Thomas Zinn; Andrei V. Petukhov; Freddy T. Rabouw; Celso De Mello Donega; Daniel Vanmaekelbergh; Zeger Hens (2021). Extended Nucleation and Superfocusing in Colloidal Semiconductor Nanocrystal Synthesis. [10.1021/acs.nanolett.0c04813](https://doi.org/10.1021/acs.nanolett.0c04813). Review scope remains stated in the linked website records.
 
+- Hao Dong, Shefiu Kareem, Jian Ruan, Peng Gao, Xuedong Zhou, Xiaoqing Liu, Xiujian Zhao, Yi Xie, Xiao Gong (2021). Facile Ligand-Free Solvent Evaporation and Water-Triggered Recrystallization for Stable CsPb2Br5-Embedded Pb(OH)Br Nanomaterials. [10.1021/acsami.1c06627](https://doi.org/10.1021/acsami.1c06627). Review scope remains stated in the linked website records.
+
 - Yan-Fei He; Jian-Wei Chen; Chang-Zhi An; Xiao-Lin Hou; Zi-Tao Zhong; Chao-Qing Li; Wei Chen; Bo Liu; Yuan-Di Zhao (2021). Fluorescence Characteristics of CdTe Quantum Dot Colloids below the Freezing Point. [10.1021/acs.jpcc.1c02085](https://doi.org/10.1021/acs.jpcc.1c02085). Review scope remains stated in the linked website records.
 
 - Fangke Lin; Qianqian Qi; Junle Zhang; Wenjun Zhou; Jiahui Zhang; Peng Fu; Xiaomeng Zhang; Xiaoguang Qiao; Minying Liu; Xinchang Pang; Zhe Cui (2021). From Unimolecular Template to Silver Nanocrystal Clusters: An Effective Strategy to Balance Antibacterial Activity and Cytotoxicity. [10.1021/acsami.1c07986](https://doi.org/10.1021/acsami.1c07986). Review scope remains stated in the linked website records.
+
+- Huicheng Hu, Min Chen, Nan Yao, Linzhong Wu, Qixuan Zhong, Bin Song, Muhan Cao, Qiao Zhang (2021). Highly Stable CsPbBr3 Colloidal Nanocrystal Clusters as Photocatalysts in Polar Solvents. [10.1021/acsami.0c20349](https://doi.org/10.1021/acsami.0c20349). Review scope remains stated in the linked website records.
 
 - Linyuan Lian; Peng Zhang; Xiuwen Zhang; Qi Ye; Wei Qi; Long Zhao; Jianbo Gao; Daoli Zhang; Jianbing Zhang (2021). Realizing Near-Unity Quantum Efficiency of Zero-Dimensional Antimony Halides through Metal Halide Structural Modulation. *ACS Applied Materials & Interfaces*, 13, 58908–58915. [10.1021/acsami.1c18038](https://doi.org/10.1021/acsami.1c18038). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=lian2021).
 
@@ -461,6 +481,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 
 - Debadrita Bhattacharya; Arin Bhakat; Tushar Debnath (2023). Breaking AgInTe2 Quantum Dot Chain to Fabricate AgInTe2–ZnS Janus Nanocrystals. *Inorganic Chemistry*, 20219–20227. [10.1021/acs.inorgchem.3c03156](https://doi.org/10.1021/acs.inorgchem.3c03156). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=bhattacharya2023-aginte2-zns-ic3c03156).
 
+- Pascal Rusch, Stefano Toso, Yurii P. Ivanov, Sergio Marras, Giorgio Divitini, Liberato Manna (2023). CsPbBr3−PbxBiySz NC Heterostructures: A Cluster-Based Approach to Perovskite−Chalcogenide Heterostructures. [10.1021/acs.chemmater.3c02503](https://doi.org/10.1021/acs.chemmater.3c02503). Review scope remains stated in the linked website records.
+
 - Yongge Yang et al. (2023). In Situ Room-Temperature Synthesis of All-Colloidal Quantum Dot CsPbBr3-PbS Heterostructures. [10.1021/acsphotonics.3c01099](https://doi.org/10.1021/acsphotonics.3c01099). Review scope remains stated in the linked website records.
 
 - Helen Larson; Brandi M. Cossairt (2023). Indium−Poly(carboxylic acid) Ligand Interactions Modify InP Quantum Dot Nucleation and Growth. [10.1021/acs.chemmater.3c01309](https://doi.org/10.1021/acs.chemmater.3c01309). Review scope remains stated in the linked website records.
@@ -474,6 +496,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 - Vincent Mittag; Sebastian Schüttler; Christian Strelow; Tobias Kipp; Alf Mews (2024). CdSe-Dot/CdS-Rod/PbS-Dot Nanocrystals by Partial Cation Exchange Reaction. [10.1021/acs.chemmater.4c02553](https://doi.org/10.1021/acs.chemmater.4c02553). Review scope remains stated in the linked website records.
 
 - Emma H. Massasa; Lotte T. J. Kortstee; Rachel Lifer; Saar Shaek; Boaz Pokroy; Ivano E. Castelli; Yehonadav Bekenstein (2024). Colloidal Synthesis of (PbBr2)2(AMTP)2PbBr4 a Periodic Perovskite “Heterostructured” Nanocrystal. *Crystal Growth & Design*, 24, 3237–3245. [10.1021/acs.cgd.3c01472](https://doi.org/10.1021/acs.cgd.3c01472). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=massasa2024-cgd3c01472).
+
+- Pui Kei Ko, Dezhang Chen, C.-H. Angus Li, Christopher Chang Sing Chan, Aleksandr Sergeev, Pengbo Ding, Davy Lam, Boyu Ouyang, Liang Guo, Kam Sing Wong, and Jonathan E. Halpert (2024). Color Tuning in Cesium Lead Halide Nanocrystals via A-Site Substitution as an Alternative Method for Achieving Spectrally Stable Blue Perovskite Nanocrystal Light-Emitting Diodes. [10.1021/acs.chemmater.4c00011](https://doi.org/10.1021/acs.chemmater.4c00011). Review scope remains stated in the linked website records.
 
 - Hao A. Nguyen; Benjamin F. Hammel; David Sharp; Jessica Kline; Griffin Schwartz; Samantha Harvey; Emily Nishiwaki; Soren F. Sandeno; David S. Ginger; Arka Majumdar; Sadegh Yazdi; Gordana Dukovic; Brandi M. Cossairt (2024). Colossal Core/Shell CdSe/CdS Quantum Dot Emitters. [10.1021/acsnano.4c06961](https://doi.org/10.1021/acsnano.4c06961). Review scope remains stated in the linked website records.
 
@@ -490,6 +514,8 @@ Dataset **0.41.2** · **244 primary source groups** · release `simple-unit-cell
 - Pankaj Sharma; Harshita Mottan; Nishima Wangoo; Rohit K. Sharma (2025). Au Nanocluster/CdTe Quantum Dot-Based Hybrid Quantum Cluster Dots for Energy Transfer-Driven Fluorescence Enhancement and Charge Transport: Implications for Bioimaging and Optoelectronic Applications. [10.1021/acsanm.5c03294](https://doi.org/10.1021/acsanm.5c03294). Review scope remains stated in the linked website records.
 
 - Nurwarrohman Andre Sasongko; Safira Arta Paramita; Jaeseong Heo; Eugene Park; Sebastian E. Reyes-Lillo; Joonkyung Jang; Myeongkee Park (2025). High-Temperature Photoluminescence Enhancement up to 350 K of Monophase α-FAPbI3 Quantum Dots Synthesized via Tailored Hot Injection. *The Journal of Physical Chemistry C*, 129, 15342–15350. [10.1021/acs.jpcc.5c05144](https://doi.org/10.1021/acs.jpcc.5c05144). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=sasongko2025).
+
+- Rajdeep Das, Souvik Banerjee, Diptam Nasipuri, Narayan Pradhan (2025). Synthesis of Epitaxial CsPbBr3−PbTe Nanocrystal Heterostructures. [10.1021/acs.chemmater.5c00408](https://doi.org/10.1021/acs.chemmater.5c00408). Review scope remains stated in the linked website records.
 
 - Lin Yuan; Linlin Gao; Yang Li; Kunyuan Lu; Yang Liu; Jiajing Huo; Long Hu; Qing Zhang; Muhammad Zahir Iqbal; Yang Bai; Zeke Liu; Wanli Ma (2026). Coupling Design in the Direct Synthesis of AgBiS2 Nanocrystal Inks for Efficient and Eco-friendly Photovoltaics. [10.1021/acs.nanolett.5c06337](https://doi.org/10.1021/acs.nanolett.5c06337). Review scope remains stated in the linked website records.
 
