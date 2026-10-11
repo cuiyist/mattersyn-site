@@ -6,7 +6,7 @@
   "shared_procedures": 1018,
   "independent_experiment_count": null,
   "source_groups": 411,
-  "families": 416,
+  "families": 414,
   "eligible_by_task": {
     "precursor_selection": 97,
     "partial_protocol": 139,
@@ -74,7 +74,7 @@
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 309,
+    "material_families": 307,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -201,6 +201,7 @@
       "CdTe/POSS/PU",
       "CdTe/PU",
       "CdTe/PU/POSS",
+      "CdTe/SP1 protein assembly",
       "CdTeSe",
       "CeO2",
       "Co",
@@ -330,9 +331,6 @@
       "PbTe+Ag2Te",
       "Pt",
       "QD/poly(n-butyl acrylate)",
-      "SP1-QD1",
-      "SP1-QD2",
-      "SP1-QD3",
       "Si",
       "Si/SiOx",
       "Si/ZnS",
@@ -810,10 +808,12 @@
       ],
       "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
     },
-    "synthesis_structure_pairs": 864,
+    "synthesis_structure_pairs": 1148,
+    "audited_synthesis_structure_pairs": 864,
+    "source_extracted_record_pairs": 284,
     "more_comprehensive_pairs": 6,
-    "partial_pairs": 858,
-    "count_definition": "One source-supported recipe/condition variant linked to one identified product with structural evidence. Different conditions producing separately characterized samples count separately. Multiple measurements of that same record/sample do not add pairs. Cross-paper physical-sample deduplication is not complete.",
+    "partial_pairs": 1142,
+    "count_definition": "Audited recipe/sample rows retain their existing definition and identifiers. The display also includes one row per additional source-linked record, including supporting and assembly records. Missing product or structural details remain blank. Multiple measurements do not add rows. This display count does not grant training eligibility or establish independent physical batches.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
     "all_records": 3269,
     "experimental_series_rows": 100

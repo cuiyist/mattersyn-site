@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **411 primary source groups** · release `simple-batch05-caption-repair-r4-20261011`. Records are not independent experiments.
+Dataset **0.41.2** · **411 primary source groups** · release `simple-neutral-display-20261011`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1021_jp0039520. [10.1021/jp0039520](https://doi.org/10.1021/jp0039520). Review scope remains stated in the linked website records.
 
@@ -448,11 +448,11 @@ Dataset **0.41.2** · **411 primary source groups** · release `simple-batch05-c
 
 - Ming Li; Qiaoyi Wang; Xiaodong Shi; Lawrence A. Hornak; Nianqiang Wu (2011). Detection of Mercury(II) by Quantum Dot/DNA/Gold Nanoparticle Ensemble Based Nanosensor Via Nanometal Surface Energy Transfer. *Analytical Chemistry*, 83, 7061–7065. [10.1021/ac2019014](https://doi.org/10.1021/ac2019014). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=li2011-ac2019014).
 
+- Bhupendra B. Srivastava; Santanu Jana; Narayan Pradhan (2011). Doping Cu in Semiconductor Nanocrystals: Some Old and Some New Physical Insights. [10.1021/ja1089809](https://doi.org/10.1021/ja1089809). Review scope remains stated in the linked website records.
+
 - Zhao Huang, Yaxin Lu, Rajeev Majithia, Jigar Shah, Karen Meissner, Kevin S. Matthews, and Sarah E. Bondos (2011). Hierarchical Self-Assembly of Protein−Nanoparticle Composite Materials. [10.1021/bm200889k](https://doi.org/10.1021/bm200889k). Review scope remains stated in the linked website records.
 
 - Maksym Yarema, Stefan Pichler, Mykhailo Sytnyk, Robert Seyrkammer, Rainer T. Lechner, Gerhard Fritz-Popovski, Dorota Jarzab, Krisztina Szendrei, Roland Resel, Oleksandra Korovyanko, Maria Antonietta Loi, Oskar Paris, G€unter Hesser, and Wolfgang Heiss (2011). Infrared Emitting and Photoconducting Colloidal Silver Chalcogenide Nanocrystal Quantum Dots from a Silylamide-Promoted Synthesis. [10.1021/nn2001118](https://doi.org/10.1021/nn2001118). Review scope remains stated in the linked website records.
-
-- B.B.S., S.J., N.P. (2011). Journal of the American Chemical Society. [10.1021/ja1089809](https://doi.org/10.1021/ja1089809). Review scope remains stated in the linked website records.
 
 - Guang Zhu, Likun Pan, Tao Xu, and Zhuo Sun (2011). One-Step Synthesis of CdS Sensitized TiO2 Photoanodes for Quantum Dot-Sensitized Solar Cells by Microwave Assisted Chemical Bath Deposition Method. [10.1021/am200520q](https://doi.org/10.1021/am200520q). Review scope remains stated in the linked website records.
 
@@ -550,8 +550,6 @@ Dataset **0.41.2** · **411 primary source groups** · release `simple-batch05-c
 
 - Aaron T. Fafarman et al. (2014). Air-Stable, Nanostructured Electronic and Plasmonic Materials from Solution-Processable, Silver Nanocrystal Building Blocks. *ACS Nano*. [10.1021/nn406461p](https://doi.org/10.1021/nn406461p). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=fafarman2014-ag-nc-films-nn406461p).
 
-- UNIV OF CHICAGO (2014). Chemistry of Materials. [10.1021/cm501595u](https://doi.org/10.1021/cm501595u). Review scope remains stated in the linked website records.
-
 - Xiaoyong Liang, Yuping Ren, Sai Bai, Na Zhang, Xingliang Dai, Xin Wang, Haiping He, Chuanhong Jin, Zhizhen Ye, Qi Chen, Liwei Chen, Jianpu Wang, Yizheng Jin (2014). Colloidal Indium-Doped Zinc Oxide Nanocrystals with Tunable Work Function: Rational Synthesis and Optoelectronic Applications. [10.1021/cm502812c](https://doi.org/10.1021/cm502812c). Review scope remains stated in the linked website records.
 
 - Askhat N. Jumabekov,† Timothy D. Siegler,†,‡ Niklas Cordes,† Dana D. Medina,† Daniel Böhm,† Pelle Garbus,† Simone Meroni,† Laurence M. Peter,§ and Thomas Bein*,† (2014). Comparison of Solid-State Quantum-Dot-Sensitized Solar Cells with ex Situ and in Situ Grown PbS Quantum Dots. [10.1021/jp5051904](https://doi.org/10.1021/jp5051904). Review scope remains stated in the linked website records.
@@ -566,11 +564,11 @@ Dataset **0.41.2** · **411 primary source groups** · release `simple-batch05-c
 
 - not reported (2014). Fabrication of CdS/CdSe@ZnO NRA photoanodes for flexible quantum dot sensitized solar cells. [10.1039/c4ta02052a](https://doi.org/10.1039/c4ta02052a). Review scope remains stated in the linked website records.
 
-- Miao et al. (2014). Hierarchical Self-Assembly of Protein Nanorings and Quantum Dots for Light-Harvesting Applications. [10.1021/nn500414u](https://doi.org/10.1021/nn500414u). Review scope remains stated in the linked website records.
-
 - zhongxh@ecust.edu.cn (2014). High-Efficiency Green Quantum Dot Solar Cells Based on CIS/ZnS Core/Shell QD Sensitizer. [10.1021/ja504310w](https://doi.org/10.1021/ja504310w). Review scope remains stated in the linked website records.
 
 - Troy K. Townsend, Woojun Yoon, Edward E. Foos, and Joseph G. Tischler (2014). Impact of Nanocrystal Spray Deposition on Inorganic Solar Cells. [10.1021/am501235v](https://doi.org/10.1021/am501235v). Review scope remains stated in the linked website records.
+
+- Darren C. J. Neo; Cheng Cheng; Samuel D. Stranks; Simon M. Fairclough; Judy S. Kim; Angus I. Kirkland; Jason M. Smith; Henry J. Snaith; Hazel E. Assender; Andrew A. R. Watt (2014). Influence of Shell Thickness and Surface Passivation on PbS/CdS Core/Shell Colloidal Quantum Dot Solar Cells. [10.1021/cm501595u](https://doi.org/10.1021/cm501595u). Review scope remains stated in the linked website records.
 
 - Dylan C. Gary; Benjamin A. Glassy; Brandi M. Cossairt (2014). Investigation of Indium Phosphide Quantum Dot Nucleation and Growth Utilizing Triarylsilylphosphine Precursors. *Chemistry of Materials*, 26, 1734-1744. [10.1021/cm500102q](https://doi.org/10.1021/cm500102q). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=gary-cossairt-2014).
 
@@ -587,6 +585,8 @@ Dataset **0.41.2** · **411 primary source groups** · release `simple-batch05-c
 - Natalia Kholmicheva, Pavel Moroz, Upendra Rijal, Ebin Bastola, Prakash Uprety, Geethika Liyanage, Anton Razgoniaev, Alexis D. Ostrowski, and Mikhail Zamkov (2014). Plasmonic Nanocrystal Solar Cells Utilizing Strongly Confined Radiation. [10.1021/nn505375n](https://doi.org/10.1021/nn505375n). Review scope remains stated in the linked website records.
 
 - QIN ET AL. (2014). QIN ET AL. VOL. 8 ’ NO. 1 ’ 283–291 ’ 2014. [10.1021/nn403893b](https://doi.org/10.1021/nn403893b). Review scope remains stated in the linked website records.
+
+- Lu Miao; Jishu Han; Hao Zhang; Linlu Zhao; Chengye Si; Xiyu Zhang; Chunxi Hou; Quan Luo; Jiayun Xu; Junqiu Liu (2014). Quantum-Dot-Induced Self-Assembly of Cricoid Protein for Light Harvesting. [10.1021/nn500414u](https://doi.org/10.1021/nn500414u). Review scope remains stated in the linked website records.
 
 - Karthik Ramasamy; Hunter Sims; William H. Butler; Arunava Gupta (2014). Selective Nanocrystal Synthesis and Calculated Electronic Structure of All Four Phases of Copper-Antimony-Sulfide. [10.1021/cm5005642](https://doi.org/10.1021/cm5005642). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ramasamy2014cusb).
 
