@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 410,
+  "material_families": 418,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -120,6 +120,7 @@
     "CdSe/CdS/CdZnS",
     "CdSe/CdS/CdZnS/ZnS",
     "CdSe/CdS/CdxZn1−xS/ZnS",
+    "CdSe/CdS/CdxZnyS/ZnS",
     "CdSe/CdS/PbS",
     "CdSe/CdS/ZnO",
     "CdSe/CdS/ZnS",
@@ -212,6 +213,7 @@
     "CuS + Cu1.8S",
     "CuSbS2",
     "Cu–Te phase mixture",
+    "DFENCE QD structure",
     "Eu:LaVO4",
     "FAPbI3",
     "Fe3O4",
@@ -223,6 +225,7 @@
     "FePt/CdS",
     "Fe–O",
     "Functionalized Silicon Quantum Dots (FSQDs)",
+    "GaInAs/InP",
     "GdFeO3",
     "Ge/Si",
     "HgS",
@@ -248,6 +251,7 @@
     "InAs:Mn",
     "InAsxP1−x/InP",
     "InGaAs",
+    "InGaAs/GaAs",
     "InGaP",
     "InGaP/ZnSeS/ZnS",
     "InOOH",
@@ -330,6 +334,10 @@
     "Pt",
     "QD/poly(n-butyl acrylate)",
     "QDMM@SiO2",
+    "QDSC-1",
+    "QDSC-2",
+    "QDSC-3",
+    "QDSC-4",
     "SQS (silica microspheres encapsulating a homogeneous QD layer)",
     "Si",
     "Si/SiOx",
@@ -414,12 +422,12 @@
     "γ-Fe2O3/HgS",
     "γ-Fe2O3/ZnS"
   ],
-  "contributing_papers": 819,
+  "contributing_papers": 845,
   "source_coverage": {
-    "total_contributing_papers": 819,
+    "total_contributing_papers": 845,
     "reviewed_contributing_papers": 244,
     "audited_contributing_papers": 244,
-    "machine_extracted_contributing_papers": 575,
+    "machine_extracted_contributing_papers": 601,
     "audited_primary_dois": [
       "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
       "10.1002/adfm.200500603",
@@ -676,6 +684,7 @@
       "10.1002/anie.200600545",
       "10.1002/anie.200703648",
       "10.1002/crat.200410534",
+      "10.1002/elps.201000260",
       "10.1002/masy.200850807",
       "10.1002/pip.452",
       "10.1002/pola.23816",
@@ -689,6 +698,7 @@
       "10.1002/smll.200600218",
       "10.1002/smll.200600298",
       "10.1002/smll.200600558",
+      "10.1002/smll.201000897",
       "10.1006/jcis.2000.6894",
       "10.1007/s00339-003-2503-z",
       "10.1007/s00339-010-6005-5",
@@ -775,6 +785,7 @@
       "10.1021/am501235v",
       "10.1021/am5012782",
       "10.1021/am5033567",
+      "10.1021/am503517s",
       "10.1021/am503580j",
       "10.1021/am504536a",
       "10.1021/am505130a",
@@ -857,6 +868,7 @@
       "10.1021/ja504310w",
       "10.1021/ja509019k",
       "10.1021/ja710437r",
+      "10.1021/ja711379k",
       "10.1021/ja800040c",
       "10.1021/ja8033075",
       "10.1021/ja803325b",
@@ -871,6 +883,7 @@
       "10.1021/jacs.0c10916",
       "10.1021/jacs.4c11172",
       "10.1021/jacs.5b04765",
+      "10.1021/jacs.5c16293",
       "10.1021/jacs.5c23366",
       "10.1021/jacs.6b09065",
       "10.1021/jacs.6c03275",
@@ -939,6 +952,7 @@
       "10.1021/jp410599q",
       "10.1021/jp4110773",
       "10.1021/jp411214n",
+      "10.1021/jp411221q",
       "10.1021/jp4113816",
       "10.1021/jp4118369",
       "10.1021/jp5005242",
@@ -982,6 +996,7 @@
       "10.1021/la200509z",
       "10.1021/la202892h",
       "10.1021/la300515a",
+      "10.1021/la301477e",
       "10.1021/la3027573",
       "10.1021/la303812y",
       "10.1021/la504139m",
@@ -990,6 +1005,7 @@
       "10.1021/la703655v",
       "10.1021/la703812t",
       "10.1021/la8022985",
+      "10.1021/la802936h",
       "10.1021/la901056d",
       "10.1021/la903415n",
       "10.1021/la904474h",
@@ -998,8 +1014,10 @@
       "10.1021/ma9006285",
       "10.1021/mz300427d",
       "10.1021/nl0155126",
+      "10.1021/nl015520m",
       "10.1021/nl025767z",
       "10.1021/nl034206k",
+      "10.1021/nl050017l",
       "10.1021/nl052417e",
       "10.1021/nl061054v",
       "10.1021/nl061165u",
@@ -1060,6 +1078,7 @@
       "10.1021/nn303769h",
       "10.1021/nn3045215",
       "10.1021/nn3052428",
+      "10.1021/nn305259g",
       "10.1021/nn401657n",
       "10.1021/nn4017845",
       "10.1021/nn4021983",
@@ -1135,6 +1154,7 @@
       "10.1039/d2na00734g",
       "10.1039/d4mh01182a",
       "10.1039/d4tc01805b",
+      "10.1063/1.104891",
       "10.1063/1.110838",
       "10.1063/1.112568",
       "10.1063/1.115504",
@@ -1144,6 +1164,7 @@
       "10.1063/1.121719",
       "10.1063/1.121906",
       "10.1063/1.122991",
+      "10.1063/1.124851",
       "10.1063/1.126759",
       "10.1063/1.1336554",
       "10.1063/1.1374235",
@@ -1160,6 +1181,7 @@
       "10.1063/1.1525396",
       "10.1063/1.1530717",
       "10.1063/1.1539279",
+      "10.1063/1.1542940",
       "10.1063/1.1543647",
       "10.1063/1.1598289",
       "10.1063/1.1598645",
@@ -1169,11 +1191,13 @@
       "10.1063/1.1763979",
       "10.1063/1.1769077",
       "10.1063/1.1781361",
+      "10.1063/1.1795364",
       "10.1063/1.1808472",
       "10.1063/1.1834987",
       "10.1063/1.1840098",
       "10.1063/1.1863445",
       "10.1063/1.1985969",
+      "10.1063/1.2007860",
       "10.1063/1.2011768",
       "10.1063/1.2081123",
       "10.1063/1.2133904",
@@ -1184,21 +1208,27 @@
       "10.1063/1.2202195",
       "10.1063/1.2233554",
       "10.1063/1.2234817",
+      "10.1063/1.2337537",
       "10.1063/1.2354448",
       "10.1063/1.2358847",
+      "10.1063/1.2388139",
       "10.1063/1.2402744",
+      "10.1063/1.2787883",
       "10.1063/1.2798251",
       "10.1063/1.2817951",
       "10.1063/1.2821121",
+      "10.1063/1.2825425",
       "10.1063/1.2906121",
       "10.1063/1.2917800",
       "10.1063/1.2927496",
+      "10.1063/1.2949084",
       "10.1063/1.2966341",
       "10.1063/1.2968211",
       "10.1063/1.2973399",
       "10.1063/1.2993178",
       "10.1063/1.3028070",
       "10.1063/1.3050332",
+      "10.1063/1.3093692",
       "10.1063/1.3100196",
       "10.1063/1.3111445",
       "10.1063/1.3117221",
@@ -1207,12 +1237,16 @@
       "10.1063/1.3204669",
       "10.1063/1.3233926",
       "10.1063/1.3245305",
+      "10.1063/1.3427392",
       "10.1063/1.3429226",
+      "10.1063/1.3486014",
       "10.1063/1.3530466",
+      "10.1063/1.366452",
       "10.1063/1.370578",
       "10.1063/1.373573",
       "10.1063/1.46441",
       "10.1071/ch03120",
+      "10.1103/physrevb.66.201302",
       "10.1103/physrevb.66.205312",
       "10.1103/physrevb.69.045301",
       "10.1103/physrevb.70.195327",
@@ -1245,14 +1279,14 @@
     ],
     "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
   },
-  "synthesis_structure_pairs": 1748,
+  "synthesis_structure_pairs": 1781,
   "audited_synthesis_structure_pairs": 864,
-  "source_extracted_record_pairs": 884,
+  "source_extracted_record_pairs": 917,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 1742,
+  "partial_pairs": 1775,
   "count_definition": "Audited recipe/sample rows retain their existing definition and identifiers. The display also includes one row per additional source-linked record, including supporting and assembly records. Missing product or structural details remain blank. Multiple measurements do not add rows. This display count does not grant training eligibility or establish independent physical batches.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 3869,
+  "all_records": 3902,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -289578,6 +289612,61 @@
       }
     },
     {
+      "pair_row_id": "boberl2008-1-2949084-hgte-qds-with-size-of-4-nm-1::display",
+      "record_id": "boberl2008-1-2949084-hgte-qds-with-size-of-4-nm-1",
+      "record_page_path": "records/boberl2008-1-2949084-hgte-qds-with-size-of-4-nm-1.html",
+      "source_group": "boberl2008-1-2949084",
+      "title": "M. Böberl (2008): HgTe QDs with size of 4 nm",
+      "doi": "10.1063/1.2949084",
+      "year": 2008,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "M. Böberl (2008): HgTe QDs with size of 4 nm",
+      "sample_id": "boberl2008-1-2949084-hgte-qds-with-size-of-4-nm-1--product",
+      "source_sample_label": "HgTe QDs with size of 4 nm",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "boberl2008-1-2949084",
+          "locator": "Main PDF"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "bolinger2006-anie-200600545-cdse-topo-qd-hybrid-vesicles-hvs-1::display",
       "record_id": "bolinger2006-anie-200600545-cdse-topo-qd-hybrid-vesicles-hvs-1",
       "record_page_path": "records/bolinger2006-anie-200600545-cdse-topo-qd-hybrid-vesicles-hvs-1.html",
@@ -295841,6 +295930,216 @@
       }
     },
     {
+      "pair_row_id": "chen2008-ja711379k-cdse-11cds-6cdxznys-2zns-g-nqds-2::display",
+      "record_id": "chen2008-ja711379k-cdse-11cds-6cdxznys-2zns-g-nqds-2",
+      "record_page_path": "records/chen2008-ja711379k-cdse-11cds-6cdxznys-2zns-g-nqds-2.html",
+      "source_group": "chen2008-ja711379k",
+      "title": "Yongfen Chen (2008): CdSe/11CdS-6CdxZnyS-2ZnS g-NQDs",
+      "doi": "10.1021/ja711379k",
+      "year": 2008,
+      "method": "SILAR",
+      "recipe_label": "Yongfen Chen (2008): CdSe/11CdS-6CdxZnyS-2ZnS g-NQDs",
+      "sample_id": "chen2008-ja711379k-cdse-11cds-6cdxznys-2zns-g-nqds-2--product",
+      "source_sample_label": "CdSe/11CdS-6CdxZnyS-2ZnS g-NQDs",
+      "composition": {
+        "value": "CdSe/CdS/CdxZnyS/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2008-ja711379k",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2008-ja711379k",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "faceted",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2008-ja711379k",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "chen2008-ja711379k-cdse-11cds-6cdxznys-2zns-g-nqds-2--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 18.3,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "18.3 nm",
+            "evidence": [
+              {
+                "source_id": "chen2008-ja711379k",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "chen2008-ja711379k",
+              "locator": "Main PDF p.1"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2008-ja711379k-cdse-19cds-g-nqds-1::display",
+      "record_id": "chen2008-ja711379k-cdse-19cds-g-nqds-1",
+      "record_page_path": "records/chen2008-ja711379k-cdse-19cds-g-nqds-1.html",
+      "source_group": "chen2008-ja711379k",
+      "title": "Yongfen Chen (2008): CdSe/19CdS g-NQDs",
+      "doi": "10.1021/ja711379k",
+      "year": 2008,
+      "method": "SILAR",
+      "recipe_label": "Yongfen Chen (2008): CdSe/19CdS g-NQDs",
+      "sample_id": "chen2008-ja711379k-cdse-19cds-g-nqds-1--product",
+      "source_sample_label": "CdSe/19CdS g-NQDs",
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2008-ja711379k",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2008-ja711379k",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "faceted",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2008-ja711379k",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "chen2008-ja711379k-cdse-19cds-g-nqds-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 15.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "15.5 nm",
+            "evidence": [
+              {
+                "source_id": "chen2008-ja711379k",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "chen2008-ja711379k",
+              "locator": "Main PDF p.1"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "chen2009-1-3117221-oa-capped-cdse-qd-3-nm-1::display",
       "record_id": "chen2009-1-3117221-oa-capped-cdse-qd-3-nm-1",
       "record_page_path": "records/chen2009-1-3117221-oa-capped-cdse-qd-3-nm-1.html",
@@ -296225,6 +296524,80 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "chen2010-elps-201000260-cdte-cds-core-shell-quantum-dots-qd-capp-1::display",
+      "record_id": "chen2010-elps-201000260-cdte-cds-core-shell-quantum-dots-qd-capp-1",
+      "record_page_path": "records/chen2010-elps-201000260-cdte-cds-core-shell-quantum-dots-qd-capp-1.html",
+      "source_group": "chen2010-elps-201000260",
+      "title": "Q. Chen and Y. Fung (2010): CdTe/CdS core/shell quantum dots (QD) capped with MPA",
+      "doi": "10.1002/elps.201000260",
+      "year": 2010,
+      "method": "Other",
+      "recipe_label": "Q. Chen and Y. Fung (2010): CdTe/CdS core/shell quantum dots (QD) capped with MPA",
+      "sample_id": "chen2010-elps-201000260-cdte-cds-core-shell-quantum-dots-qd-capp-1--product",
+      "source_sample_label": "CdTe/CdS core/shell quantum dots (QD) capped with MPA",
+      "composition": {
+        "value": "CdTe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "chen2010-elps-201000260",
+            "locator": "Main PDF p.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "chen2010-elps-201000260",
+          "locator": "Main PDF p.3"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "chen2010-elps-201000260",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -298749,6 +299122,198 @@
       }
     },
     {
+      "pair_row_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1::display",
+      "record_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1",
+      "record_page_path": "records/choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1.html",
+      "source_group": "choi2014-jp411221q",
+      "title": "Youngwoo Choi (2014): CdSe/CdS/ZnO NW (Se0.5)",
+      "doi": "10.1021/jp411221q",
+      "year": 2014,
+      "method": "Chemical bath deposition (CBD)",
+      "recipe_label": "Youngwoo Choi (2014): CdSe/CdS/ZnO NW (Se0.5)",
+      "sample_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--product",
+      "source_sample_label": "CdSe/CdS/ZnO NW (Se0.5)",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "choi2014-jp411221q",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "choi2014-jp411221q",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "zinc blende",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "choi2014-jp411221q",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanowire",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "choi2014-jp411221q",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "6.5 nm",
+            "evidence": [
+              {
+                "source_id": "choi2014-jp411221q",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "choi2014-jp411221q",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--ammonium-hydroxide",
+            "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--cadmium-acetate-dihydrate",
+            "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--sodium-selenosulphite"
+          ],
+          "fields": [
+            {
+              "material_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--cadmium-acetate-dihydrate",
+              "pointer": "/materials/0/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mM",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "5 mM",
+                "evidence": [
+                  {
+                    "source_id": "choi2014-jp411221q",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--sodium-selenosulphite",
+              "pointer": "/materials/1/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mM",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.5 mM",
+                "evidence": [
+                  {
+                    "source_id": "choi2014-jp411221q",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "choi2014-jp411221q-cdse-cds-zno-nw-se0-5-1--ammonium-hydroxide",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 150,
+                "minimum": null,
+                "maximum": null,
+                "unit": "µL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "150 µL",
+                "evidence": [
+                  {
+                    "source_id": "choi2014-jp411221q",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "choi2017-s41598-017-00669-9-pbs-qd-ink-1::display",
       "record_id": "choi2017-s41598-017-00669-9-pbs-qd-ink-1",
       "record_page_path": "records/choi2017-s41598-017-00669-9-pbs-qd-ink-1.html",
@@ -299096,6 +299661,124 @@
           "quantified_recipe_and_ordered_conditions",
           "reported_phase",
           "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "cihan2013-nn305259g-cdse-cds-core-shell-quantum-dots-qds-wit-1::display",
+      "record_id": "cihan2013-nn305259g-cdse-cds-core-shell-quantum-dots-qds-wit-1",
+      "record_page_path": "records/cihan2013-nn305259g-cdse-cds-core-shell-quantum-dots-qds-wit-1.html",
+      "source_group": "cihan2013-nn305259g",
+      "title": "Ahmet Fatih Cihan (2013): CdSe/CdS core/shell quantum dots (QDs) with a core radius of ca. 1.22 nm and shell thickness of ca. 1.4 nm",
+      "doi": "10.1021/nn305259g",
+      "year": 2013,
+      "method": "SILAR",
+      "recipe_label": "Ahmet Fatih Cihan (2013): CdSe/CdS core/shell quantum dots (QDs) with a core radius of ca. 1.22 nm and shell thickness of ca. 1.4 nm",
+      "sample_id": "cihan2013-nn305259g-cdse-cds-core-shell-quantum-dots-qds-wit-1--product",
+      "source_sample_label": "CdSe/CdS core/shell quantum dots (QDs) with a core radius of ca. 1.22 nm and shell thickness of ca. 1.4 nm",
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "cihan2013-nn305259g",
+            "locator": "Main PDF p.9"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "cihan2013-nn305259g",
+          "locator": "Main PDF p.9"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cihan2013-nn305259g",
+                "locator": "Main PDF p.9"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "cihan2013-nn305259g",
+                "locator": "Main PDF p.9"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "cihan2013-nn305259g-cdse-cds-core-shell-quantum-dots-qds-wit-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 1.22,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "1.22 nm",
+            "evidence": [
+              {
+                "source_id": "cihan2013-nn305259g",
+                "locator": "Main PDF p.9"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "cihan2013-nn305259g",
+              "locator": "Main PDF p.9"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -302568,6 +303251,80 @@
       }
     },
     {
+      "pair_row_id": "djie2006-1-2337537-ingaas-gaas-qd-c-1::display",
+      "record_id": "djie2006-1-2337537-ingaas-gaas-qd-c-1",
+      "record_page_path": "records/djie2006-1-2337537-ingaas-gaas-qd-c-1.html",
+      "source_group": "djie2006-1-2337537",
+      "title": "H. S. Djie and B. S Ooia (2006): InGaAs/GaAs QD-C",
+      "doi": "10.1063/1.2337537",
+      "year": 2006,
+      "method": "Laser irradiation",
+      "recipe_label": "H. S. Djie and B. S Ooia (2006): InGaAs/GaAs QD-C",
+      "sample_id": "djie2006-1-2337537-ingaas-gaas-qd-c-1--product",
+      "source_sample_label": "InGaAs/GaAs QD-C",
+      "composition": {
+        "value": "InGaAs/GaAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "djie2006-1-2337537",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "djie2006-1-2337537",
+          "locator": "Main PDF p.3"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "quantum dot",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "djie2006-1-2337537",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "dong2021-acsami-1c06627-as-evaporated-cspbbr3-and-cs4pbbr6-embed-1::display",
       "record_id": "dong2021-acsami-1c06627-as-evaporated-cspbbr3-and-cs4pbbr6-embed-1",
       "record_page_path": "records/dong2021-acsami-1c06627-as-evaporated-cspbbr3-and-cs4pbbr6-embed-1.html",
@@ -304566,6 +305323,257 @@
       }
     },
     {
+      "pair_row_id": "fan2005-nl050017l-cdse-cds-qd-micelles-1::display",
+      "record_id": "fan2005-nl050017l-cdse-cds-qd-micelles-1",
+      "record_page_path": "records/fan2005-nl050017l-cdse-cds-qd-micelles-1.html",
+      "source_group": "fan2005-nl050017l",
+      "title": "Hongyou Fan (2005): CdSe/CdS QD micelles",
+      "doi": "10.1021/nl050017l",
+      "year": 2005,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "Hongyou Fan (2005): CdSe/CdS QD micelles",
+      "sample_id": "fan2005-nl050017l-cdse-cds-qd-micelles-1--product",
+      "source_sample_label": "CdSe/CdS QD micelles",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "fan2005-nl050017l",
+          "locator": "Main PDF"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1::display",
+      "record_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1",
+      "record_page_path": "records/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1.html",
+      "source_group": "fasoli2008-1-2825425",
+      "title": "A. Fasoli (2008): CdSe nanostructures nucleated from spherical nanocrystal seeds (s-NCs)",
+      "doi": "10.1063/1.2825425",
+      "year": 2008,
+      "method": "Vapor-phase",
+      "recipe_label": "A. Fasoli (2008): CdSe nanostructures nucleated from spherical nanocrystal seeds (s-NCs)",
+      "sample_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1--product",
+      "source_sample_label": "CdSe nanostructures nucleated from spherical nanocrystal seeds (s-NCs)",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "fasoli2008-1-2825425",
+            "locator": "Main PDF p.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "fasoli2008-1-2825425",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "rod",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fasoli2008-1-2825425",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "5 nm",
+            "evidence": [
+              {
+                "source_id": "fasoli2008-1-2825425",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "fasoli2008-1-2825425",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2::display",
+      "record_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2",
+      "record_page_path": "records/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2.html",
+      "source_group": "fasoli2008-1-2825425",
+      "title": "A. Fasoli (2008): CdSe nanostructures nucleated from tetrapod-shaped nanocrystal seeds (t-NCs)",
+      "doi": "10.1063/1.2825425",
+      "year": 2008,
+      "method": "Vapor-phase",
+      "recipe_label": "A. Fasoli (2008): CdSe nanostructures nucleated from tetrapod-shaped nanocrystal seeds (t-NCs)",
+      "sample_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2--product",
+      "source_sample_label": "CdSe nanostructures nucleated from tetrapod-shaped nanocrystal seeds (t-NCs)",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "fasoli2008-1-2825425",
+            "locator": "Main PDF p.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "fasoli2008-1-2825425",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "5 nm",
+            "evidence": [
+              {
+                "source_id": "fasoli2008-1-2825425",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "fasoli2008-1-2825425",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "feng2013-nl304066h-cr2-doped-znse-nanowires-1::display",
       "record_id": "feng2013-nl304066h-cr2-doped-znse-nanowires-1",
       "record_page_path": "records/feng2013-nl304066h-cr2-doped-znse-nanowires-1.html",
@@ -304905,6 +305913,66 @@
         },
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "galeuchet1991-1-104891-gainas-inp-quantum-dot-arrays-1::display",
+      "record_id": "galeuchet1991-1-104891-gainas-inp-quantum-dot-arrays-1",
+      "record_page_path": "records/galeuchet1991-1-104891-gainas-inp-quantum-dot-arrays-1.html",
+      "source_group": "galeuchet1991-1-104891",
+      "title": "Yvan D. Galeuchet (1991): GaInAs/InP quantum dot arrays",
+      "doi": "10.1063/1.104891",
+      "year": 1991,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "Yvan D. Galeuchet (1991): GaInAs/InP quantum dot arrays",
+      "sample_id": "galeuchet1991-1-104891-gainas-inp-quantum-dot-arrays-1--product",
+      "source_sample_label": "GaInAs/InP quantum dot arrays",
+      "composition": {
+        "value": "GaInAs/InP",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "galeuchet1991-1-104891",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "galeuchet1991-1-104891",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -305704,6 +306772,111 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ge2001-nl015520m-cdse-nanocrystal-aggregates-1::display",
+      "record_id": "ge2001-nl015520m-cdse-nanocrystal-aggregates-1",
+      "record_page_path": "records/ge2001-nl015520m-cdse-nanocrystal-aggregates-1.html",
+      "source_group": "ge2001-nl015520m",
+      "title": "Guanglu Ge and Louis E. Brus (2001): CdSe nanocrystal aggregates",
+      "doi": "10.1021/nl015520m",
+      "year": 2001,
+      "method": "Organometallic",
+      "recipe_label": "Guanglu Ge and Louis E. Brus (2001): CdSe nanocrystal aggregates",
+      "sample_id": "ge2001-nl015520m-cdse-nanocrystal-aggregates-1--product",
+      "source_sample_label": "CdSe nanocrystal aggregates",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ge2001-nl015520m",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ge2001-nl015520m",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "disk",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ge2001-nl015520m",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "ge2001-nl015520m-cdse-nanocrystal-aggregates-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4 nm",
+            "evidence": [
+              {
+                "source_id": "ge2001-nl015520m",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ge2001-nl015520m",
+              "locator": "Main PDF p.1"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -307074,6 +308247,313 @@
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
           "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "guimard2010-1-3427392-qdsc-1-1::display",
+      "record_id": "guimard2010-1-3427392-qdsc-1-1",
+      "record_page_path": "records/guimard2010-1-3427392-qdsc-1-1.html",
+      "source_group": "guimard2010-1-3427392",
+      "title": "Denis Guimard (2010): QDSC-1",
+      "doi": "10.1063/1.3427392",
+      "year": 2010,
+      "method": "Metal organic chemical vapor deposition",
+      "recipe_label": "Denis Guimard (2010): QDSC-1",
+      "sample_id": "guimard2010-1-3427392-qdsc-1-1--product",
+      "source_sample_label": "QDSC-1",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "guimard2010-1-3427392",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guimard2010-1-3427392",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "guimard2010-1-3427392-qdsc-1-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4 nm",
+            "evidence": [
+              {
+                "source_id": "guimard2010-1-3427392",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "guimard2010-1-3427392",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "guimard2010-1-3427392-qdsc-2-2::display",
+      "record_id": "guimard2010-1-3427392-qdsc-2-2",
+      "record_page_path": "records/guimard2010-1-3427392-qdsc-2-2.html",
+      "source_group": "guimard2010-1-3427392",
+      "title": "Denis Guimard (2010): QDSC-2",
+      "doi": "10.1063/1.3427392",
+      "year": 2010,
+      "method": "Metal organic chemical vapor deposition",
+      "recipe_label": "Denis Guimard (2010): QDSC-2",
+      "sample_id": "guimard2010-1-3427392-qdsc-2-2--product",
+      "source_sample_label": "QDSC-2",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "guimard2010-1-3427392",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guimard2010-1-3427392",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "guimard2010-1-3427392-qdsc-3-3::display",
+      "record_id": "guimard2010-1-3427392-qdsc-3-3",
+      "record_page_path": "records/guimard2010-1-3427392-qdsc-3-3.html",
+      "source_group": "guimard2010-1-3427392",
+      "title": "Denis Guimard (2010): QDSC-3",
+      "doi": "10.1063/1.3427392",
+      "year": 2010,
+      "method": "Metal organic chemical vapor deposition",
+      "recipe_label": "Denis Guimard (2010): QDSC-3",
+      "sample_id": "guimard2010-1-3427392-qdsc-3-3--product",
+      "source_sample_label": "QDSC-3",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "guimard2010-1-3427392",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guimard2010-1-3427392",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "guimard2010-1-3427392-qdsc-4-4::display",
+      "record_id": "guimard2010-1-3427392-qdsc-4-4",
+      "record_page_path": "records/guimard2010-1-3427392-qdsc-4-4.html",
+      "source_group": "guimard2010-1-3427392",
+      "title": "Denis Guimard (2010): QDSC-4",
+      "doi": "10.1063/1.3427392",
+      "year": 2010,
+      "method": "Metal organic chemical vapor deposition",
+      "recipe_label": "Denis Guimard (2010): QDSC-4",
+      "sample_id": "guimard2010-1-3427392-qdsc-4-4--product",
+      "source_sample_label": "QDSC-4",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "guimard2010-1-3427392",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guimard2010-1-3427392",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
@@ -309740,6 +311220,97 @@
       }
     },
     {
+      "pair_row_id": "hikmet2003-1-1542940-cdse-zns-coreshell-nanocrystals-1::display",
+      "record_id": "hikmet2003-1-1542940-cdse-zns-coreshell-nanocrystals-1",
+      "record_page_path": "records/hikmet2003-1-1542940-cdse-zns-coreshell-nanocrystals-1.html",
+      "source_group": "hikmet2003-1-1542940",
+      "title": "R. A. M. Hikmet (2003): CdSe/ZnS core–shell nanocrystals",
+      "doi": "10.1063/1.1542940",
+      "year": 2003,
+      "method": "Hot injection",
+      "recipe_label": "R. A. M. Hikmet (2003): CdSe/ZnS core–shell nanocrystals",
+      "sample_id": "hikmet2003-1-1542940-cdse-zns-coreshell-nanocrystals-1--product",
+      "source_sample_label": "CdSe/ZnS core–shell nanocrystals",
+      "composition": {
+        "value": "CdSe/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hikmet2003-1-1542940",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hikmet2003-1-1542940",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "hikmet2003-1-1542940-cdse-zns-coreshell-nanocrystals-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "5.6 nm",
+            "evidence": [
+              {
+                "source_id": "hikmet2003-1-1542940",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "hikmet2003-1-1542940",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "ho2013-am403173n-green-cdsezns-qds-1::display",
       "record_id": "ho2013-am403173n-green-cdsezns-qds-1",
       "record_page_path": "records/ho2013-am403173n-green-cdsezns-qds-1.html",
@@ -310382,6 +311953,97 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "hoshino2008-la802936h-cdse-zns-core-shell-nanoparticles-with-d-1::display",
+      "record_id": "hoshino2008-la802936h-cdse-zns-core-shell-nanoparticles-with-d-1",
+      "record_page_path": "records/hoshino2008-la802936h-cdse-zns-core-shell-nanoparticles-with-d-1.html",
+      "source_group": "hoshino2008-la802936h",
+      "title": "Kazunori Hoshino (2008): CdSe/ZnS core-shell nanoparticles with diameter of 9.8 nm",
+      "doi": "10.1021/la802936h",
+      "year": 2008,
+      "method": "Langmuir-Schaefer",
+      "recipe_label": "Kazunori Hoshino (2008): CdSe/ZnS core-shell nanoparticles with diameter of 9.8 nm",
+      "sample_id": "hoshino2008-la802936h-cdse-zns-core-shell-nanoparticles-with-d-1--product",
+      "source_sample_label": "CdSe/ZnS core-shell nanoparticles with diameter of 9.8 nm",
+      "composition": {
+        "value": "CdSe/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hoshino2008-la802936h",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hoshino2008-la802936h",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "hoshino2008-la802936h-cdse-zns-core-shell-nanoparticles-with-d-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 9.8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "9.8 nm",
+            "evidence": [
+              {
+                "source_id": "hoshino2008-la802936h",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "hoshino2008-la802936h",
+              "locator": "Main PDF p.1"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -317585,6 +319247,111 @@
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "jeon2012-la301477e-cdse-quantum-dot-interlayer-1::display",
+      "record_id": "jeon2012-la301477e-cdse-quantum-dot-interlayer-1",
+      "record_page_path": "records/jeon2012-la301477e-cdse-quantum-dot-interlayer-1.html",
+      "source_group": "jeon2012-la301477e",
+      "title": "Ji Hye Jeon (2012): CdSe quantum dot interlayer",
+      "doi": "10.1021/la301477e",
+      "year": 2012,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "Ji Hye Jeon (2012): CdSe quantum dot interlayer",
+      "sample_id": "jeon2012-la301477e-cdse-quantum-dot-interlayer-1--product",
+      "source_sample_label": "CdSe quantum dot interlayer",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "jeon2012-la301477e",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "jeon2012-la301477e",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "jeon2012-la301477e",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "jeon2012-la301477e-cdse-quantum-dot-interlayer-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 3.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "3 nm",
+            "evidence": [
+              {
+                "source_id": "jeon2012-la301477e",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "jeon2012-la301477e",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -325900,6 +327667,80 @@
         },
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1::display",
+      "record_id": "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1",
+      "record_page_path": "records/krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1.html",
+      "source_group": "krzyzewski2002-physrevb-66-201302",
+      "title": "T. J. Krzyzewski (2002): InAs/GaAs(001) quantum dots",
+      "doi": "10.1103/physrevb.66.201302",
+      "year": 2002,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "T. J. Krzyzewski (2002): InAs/GaAs(001) quantum dots",
+      "sample_id": "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1--product",
+      "source_sample_label": "InAs/GaAs(001) quantum dots",
+      "composition": {
+        "value": "InAs/GaAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "krzyzewski2002-physrevb-66-201302",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "krzyzewski2002-physrevb-66-201302",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "krzyzewski2002-physrevb-66-201302",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -335687,6 +337528,153 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ma1999-1-124851-nanocrystalline-silicon-embedded-in-sio2-1::display",
+      "record_id": "ma1999-1-124851-nanocrystalline-silicon-embedded-in-sio2-1",
+      "record_page_path": "records/ma1999-1-124851-nanocrystalline-silicon-embedded-in-sio2-1.html",
+      "source_group": "ma1999-1-124851",
+      "title": "Zhixun Ma (1999): nanocrystalline silicon embedded in SiO2 matrix",
+      "doi": "10.1063/1.124851",
+      "year": 1999,
+      "method": "Plasma enhanced chemical vapor deposition",
+      "recipe_label": "Zhixun Ma (1999): nanocrystalline silicon embedded in SiO2 matrix",
+      "sample_id": "ma1999-1-124851-nanocrystalline-silicon-embedded-in-sio2-1--product",
+      "source_sample_label": "nanocrystalline silicon embedded in SiO2 matrix",
+      "composition": {
+        "value": "Si",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ma1999-1-124851",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ma1999-1-124851",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "ma2025-jacs-5c16293-pb68se28o8-tbba-64-1::display",
+      "record_id": "ma2025-jacs-5c16293-pb68se28o8-tbba-64-1",
+      "record_page_path": "records/ma2025-jacs-5c16293-pb68se28o8-tbba-64-1.html",
+      "source_group": "ma2025-jacs-5c16293",
+      "title": "Fuyan Ma and Chenjie Zeng (2025): Pb68Se28O8(TBBA)64",
+      "doi": "10.1021/jacs.5c16293",
+      "year": 2025,
+      "method": "Cation exchange",
+      "recipe_label": "Fuyan Ma and Chenjie Zeng (2025): Pb68Se28O8(TBBA)64",
+      "sample_id": "ma2025-jacs-5c16293-pb68se28o8-tbba-64-1--product",
+      "source_sample_label": "Pb68Se28O8(TBBA)64",
+      "composition": {
+        "value": "PbSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ma2025-jacs-5c16293",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ma2025-jacs-5c16293",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "rock-salt",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ma2025-jacs-5c16293",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "octahedral",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ma2025-jacs-5c16293",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -351491,6 +353479,137 @@
       }
     },
     {
+      "pair_row_id": "ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1::display",
+      "record_id": "ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1",
+      "record_page_path": "records/ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1.html",
+      "source_group": "ren2014-am503517s",
+      "title": "Meiling Ren (2014): CdSe/ZnS quantum dot beads (QBs)",
+      "doi": "10.1021/am503517s",
+      "year": 2014,
+      "method": "Microemulsion",
+      "recipe_label": "Meiling Ren (2014): CdSe/ZnS quantum dot beads (QBs)",
+      "sample_id": "ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1--product",
+      "source_sample_label": "CdSe/ZnS quantum dot beads (QBs)",
+      "composition": {
+        "value": "CdSe/ZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "ren2014-am503517s",
+            "locator": "Main PDF p.4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "ren2014-am503517s",
+          "locator": "Main PDF p.4"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "ren2014-am503517s",
+                "locator": "Main PDF p.4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 247,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "247 nm",
+            "evidence": [
+              {
+                "source_id": "ren2014-am503517s",
+                "locator": "Main PDF p.4"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "SEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "ren2014-am503517s",
+              "locator": "Main PDF p.4"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1--cdse-zns-qds"
+          ],
+          "fields": [
+            {
+              "material_id": "ren2014-am503517s-cdse-zns-quantum-dot-beads-qbs-1--cdse-zns-qds",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mg",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "20 mg",
+                "evidence": [
+                  {
+                    "source_id": "ren2014-am503517s",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "richter2005-1-2081123-hgte-ps-composite-tubes-1::display",
       "record_id": "richter2005-1-2081123-hgte-ps-composite-tubes-1",
       "record_page_path": "records/richter2005-1-2081123-hgte-ps-composite-tubes-1.html",
@@ -353724,6 +355843,162 @@
       }
     },
     {
+      "pair_row_id": "sablon2010-1-3486014-conventional-qd-structure-2::display",
+      "record_id": "sablon2010-1-3486014-conventional-qd-structure-2",
+      "record_page_path": "records/sablon2010-1-3486014-conventional-qd-structure-2.html",
+      "source_group": "sablon2010-1-3486014",
+      "title": "K. A. Sablon (2010): Conventional QD structure",
+      "doi": "10.1063/1.3486014",
+      "year": 2010,
+      "method": "Molecular beam epitaxy",
+      "recipe_label": "K. A. Sablon (2010): Conventional QD structure",
+      "sample_id": "sablon2010-1-3486014-conventional-qd-structure-2--product",
+      "source_sample_label": "Conventional QD structure",
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "sablon2010-1-3486014",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sablon2010-1-3486014",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "self-assembled",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sablon2010-1-3486014",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanodot",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sablon2010-1-3486014",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "sablon2010-1-3486014-dfence-qd-structure-1::display",
+      "record_id": "sablon2010-1-3486014-dfence-qd-structure-1",
+      "record_page_path": "records/sablon2010-1-3486014-dfence-qd-structure-1.html",
+      "source_group": "sablon2010-1-3486014",
+      "title": "K. A. Sablon (2010): DFENCE QD structure",
+      "doi": "10.1063/1.3486014",
+      "year": 2010,
+      "method": "Molecular beam epitaxy",
+      "recipe_label": "K. A. Sablon (2010): DFENCE QD structure",
+      "sample_id": "sablon2010-1-3486014-dfence-qd-structure-1--product",
+      "source_sample_label": "DFENCE QD structure",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "sablon2010-1-3486014",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanodot",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "sablon2010-1-3486014",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "saha2014-ja509019k-cds-zava-gel-1::display",
       "record_id": "saha2014-ja509019k-cds-zava-gel-1",
       "record_page_path": "records/saha2014-ja509019k-cds-zava-gel-1.html",
@@ -355240,6 +357515,157 @@
       }
     },
     {
+      "pair_row_id": "schlamp1997-1-366452-25-5-cdse-cds-2::display",
+      "record_id": "schlamp1997-1-366452-25-5-cdse-cds-2",
+      "record_page_path": "records/schlamp1997-1-366452-25-5-cdse-cds-2.html",
+      "source_group": "schlamp1997-1-366452",
+      "title": "M. C. Schlamp (1997): (25, 5)CdSe(CdS)",
+      "doi": "10.1063/1.366452",
+      "year": 1997,
+      "method": "Other",
+      "recipe_label": "M. C. Schlamp (1997): (25, 5)CdSe(CdS)",
+      "sample_id": "schlamp1997-1-366452-25-5-cdse-cds-2--product",
+      "source_sample_label": "(25, 5)CdSe(CdS)",
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "schlamp1997-1-366452",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "schlamp1997-1-366452",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "schlamp1997-1-366452-34-7-cdse-cds-1::display",
+      "record_id": "schlamp1997-1-366452-34-7-cdse-cds-1",
+      "record_page_path": "records/schlamp1997-1-366452-34-7-cdse-cds-1.html",
+      "source_group": "schlamp1997-1-366452",
+      "title": "M. C. Schlamp (1997): (34, 7)CdSe(CdS)",
+      "doi": "10.1063/1.366452",
+      "year": 1997,
+      "method": "Other",
+      "recipe_label": "M. C. Schlamp (1997): (34, 7)CdSe(CdS)",
+      "sample_id": "schlamp1997-1-366452-34-7-cdse-cds-1--product",
+      "source_sample_label": "(34, 7)CdSe(CdS)",
+      "composition": {
+        "value": "CdSe/CdS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "schlamp1997-1-366452",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "schlamp1997-1-366452",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "schlamp1997-1-366452-34-7-cdse-cds-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 34,
+            "minimum": null,
+            "maximum": null,
+            "unit": "Å",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "34 Å",
+            "evidence": [
+              {
+                "source_id": "schlamp1997-1-366452",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "schlamp1997-1-366452",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "schornbaum2013-cm401202t-pbse-swnt-hybrid-1::display",
       "record_id": "schornbaum2013-cm401202t-pbse-swnt-hybrid-1",
       "record_page_path": "records/schornbaum2013-cm401202t-pbse-swnt-hybrid-1.html",
@@ -355899,6 +358325,66 @@
         },
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "seravalli2005-1-2007860-inas-ingaas-gaas-quantum-dot-qd-nanostru-1::display",
+      "record_id": "seravalli2005-1-2007860-inas-ingaas-gaas-quantum-dot-qd-nanostru-1",
+      "record_page_path": "records/seravalli2005-1-2007860-inas-ingaas-gaas-quantum-dot-qd-nanostru-1.html",
+      "source_group": "seravalli2005-1-2007860",
+      "title": "L. Seravalli (2005): InAs/InGaAs/GaAs quantum dot (QD) nanostructures",
+      "doi": "10.1063/1.2007860",
+      "year": 2005,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "L. Seravalli (2005): InAs/InGaAs/GaAs quantum dot (QD) nanostructures",
+      "sample_id": "seravalli2005-1-2007860-inas-ingaas-gaas-quantum-dot-qd-nanostru-1--product",
+      "source_sample_label": "InAs/InGaAs/GaAs quantum dot (QD) nanostructures",
+      "composition": {
+        "value": "InAs/InGaAs/GaAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "seravalli2005-1-2007860",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "seravalli2005-1-2007860",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
           "reported_dimensions",
           "reference_unit_cell_available"
         ],
@@ -360396,6 +362882,80 @@
         },
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "song2007-1-2787883-p-type-si-nanocrystals-embedded-in-a-sic-1::display",
+      "record_id": "song2007-1-2787883-p-type-si-nanocrystals-embedded-in-a-sic-1",
+      "record_page_path": "records/song2007-1-2787883-p-type-si-nanocrystals-embedded-in-a-sic-1.html",
+      "source_group": "song2007-1-2787883",
+      "title": "Dengyuan Song (2007): p-type Si nanocrystals embedded in a SiC matrix on an n-type crystalline Si substrate",
+      "doi": "10.1063/1.2787883",
+      "year": 2007,
+      "method": "Sputtering",
+      "recipe_label": "Dengyuan Song (2007): p-type Si nanocrystals embedded in a SiC matrix on an n-type crystalline Si substrate",
+      "sample_id": "song2007-1-2787883-p-type-si-nanocrystals-embedded-in-a-sic-1--product",
+      "source_sample_label": "p-type Si nanocrystals embedded in a SiC matrix on an n-type crystalline Si substrate",
+      "composition": {
+        "value": "Si",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "song2007-1-2787883",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "song2007-1-2787883",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystalline",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "song2007-1-2787883",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -368360,6 +370920,80 @@
       }
     },
     {
+      "pair_row_id": "walters2004-1-1795364-silicon-optical-nanocrystal-memory-devic-1::display",
+      "record_id": "walters2004-1-1795364-silicon-optical-nanocrystal-memory-devic-1",
+      "record_page_path": "records/walters2004-1-1795364-silicon-optical-nanocrystal-memory-devic-1.html",
+      "source_group": "walters2004-1-1795364",
+      "title": "R. J. Walters; P. G. Kik; J. D. Casperson; H. A. Atwater; R. Lindstedt; M. Giorgi; G. Bourianoff (2004): silicon optical nanocrystal memory device",
+      "doi": "10.1063/1.1795364",
+      "year": 2004,
+      "method": "Ion implantation and annealing",
+      "recipe_label": "R. J. Walters; P. G. Kik; J. D. Casperson; H. A. Atwater; R. Lindstedt; M. Giorgi; G. Bourianoff (2004): silicon optical nanocrystal memory device",
+      "sample_id": "walters2004-1-1795364-silicon-optical-nanocrystal-memory-devic-1--product",
+      "source_sample_label": "silicon optical nanocrystal memory device",
+      "composition": {
+        "value": "Si",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "walters2004-1-1795364",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "walters2004-1-1795364",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanocrystal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "walters2004-1-1795364",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "wang1999-ja9832414-bi2se3-3::display",
       "record_id": "wang1999-ja9832414-bi2se3-3",
       "record_page_path": "records/wang1999-ja9832414-bi2se3-3.html",
@@ -375141,6 +377775,66 @@
       }
     },
     {
+      "pair_row_id": "xiong2010-smll-201000897-pbs-qd-p3ht-monolayer-1::display",
+      "record_id": "xiong2010-smll-201000897-pbs-qd-p3ht-monolayer-1",
+      "record_page_path": "records/xiong2010-smll-201000897-pbs-qd-p3ht-monolayer-1.html",
+      "source_group": "xiong2010-smll-201000897",
+      "title": "Shisheng Xiong (2010): PbS QD/P3HT monolayer",
+      "doi": "10.1002/smll.201000897",
+      "year": 2010,
+      "method": "Interfacial evaporation induced self-assembly (EISA)",
+      "recipe_label": "Shisheng Xiong (2010): PbS QD/P3HT monolayer",
+      "sample_id": "xiong2010-smll-201000897-pbs-qd-p3ht-monolayer-1--product",
+      "source_sample_label": "PbS QD/P3HT monolayer",
+      "composition": {
+        "value": "PbS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "xiong2010-smll-201000897",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "xiong2010-smll-201000897",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "xu2012-am300877v-ncsi-mpm1-1::display",
       "record_id": "xu2012-am300877v-ncsi-mpm1-1",
       "record_page_path": "records/xu2012-am300877v-ncsi-mpm1-1.html",
@@ -376704,6 +379398,111 @@
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yoon2009-1-3093692-cdte-nanocrystals-1::display",
+      "record_id": "yoon2009-1-3093692-cdte-nanocrystals-1",
+      "record_page_path": "records/yoon2009-1-3093692-cdte-nanocrystals-1.html",
+      "source_group": "yoon2009-1-3093692",
+      "title": "C. J. Yoon (2009): CdTe nanocrystals",
+      "doi": "10.1063/1.3093692",
+      "year": 2009,
+      "method": "Other",
+      "recipe_label": "C. J. Yoon (2009): CdTe nanocrystals",
+      "sample_id": "yoon2009-1-3093692-cdte-nanocrystals-1--product",
+      "source_sample_label": "CdTe nanocrystals",
+      "composition": {
+        "value": "CdTe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yoon2009-1-3093692",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yoon2009-1-3093692",
+          "locator": "Main PDF p.3"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yoon2009-1-3093692",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "yoon2009-1-3093692-cdte-nanocrystals-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 6.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "6 nm",
+            "evidence": [
+              {
+                "source_id": "yoon2009-1-3093692",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yoon2009-1-3093692",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -384101,6 +386900,80 @@
               }
             }
           ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "zhu2006-1-2388139-inas-gaas-quantum-dot-qd-sample-1::display",
+      "record_id": "zhu2006-1-2388139-inas-gaas-quantum-dot-qd-sample-1",
+      "record_page_path": "records/zhu2006-1-2388139-inas-gaas-quantum-dot-qd-sample-1.html",
+      "source_group": "zhu2006-1-2388139",
+      "title": "J. Zhu (2006): InAs/GaAs quantum dot (QD) sample",
+      "doi": "10.1063/1.2388139",
+      "year": 2006,
+      "method": "Molecular-beam-epitaxy",
+      "recipe_label": "J. Zhu (2006): InAs/GaAs quantum dot (QD) sample",
+      "sample_id": "zhu2006-1-2388139-inas-gaas-quantum-dot-qd-sample-1--product",
+      "source_sample_label": "InAs/GaAs quantum dot (QD) sample",
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "zhu2006-1-2388139",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "zhu2006-1-2388139",
+          "locator": "Main PDF p.3"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "island",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "zhu2006-1-2388139",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
