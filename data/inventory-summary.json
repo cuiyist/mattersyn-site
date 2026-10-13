@@ -4,18 +4,18 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4722,
+    "local_paper_groups_indexed": 4748,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
-    "curated_library_additions": 546,
-    "canonical_records": 3826,
-    "reviewed_literature_records": 3726,
-    "reviewed_literature_source_groups": 790,
+    "curated_library_additions": 572,
+    "canonical_records": 3869,
+    "reviewed_literature_records": 3769,
+    "reviewed_literature_source_groups": 818,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 791,
+    "total_canonical_source_groups": 819,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
     "formal_full_main_reviews_si_unverified": 104,
@@ -27,38 +27,38 @@
     "legacy_main_article_reviews_si_unverified": 2,
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 93,
-    "local_groups_without_canonical_records": 3931,
-    "synthesis_route_variant_records": 1997,
+    "local_groups_without_canonical_records": 3929,
+    "synthesis_route_variant_records": 2040,
     "contextual_control_variant_records": 108,
     "shared_preparation_workup_characterization_assay_procedures": 1018,
-    "nonprocedure_literature_records": 2708,
+    "nonprocedure_literature_records": 2751,
     "literature_record_type_counts": {
       "experiment": 45,
-      "literature_protocol": 1796,
+      "literature_protocol": 1839,
       "observation": 565,
       "procedure": 1018,
       "protocol_variant": 302
     },
     "canonical_record_type_counts": {
       "experiment": 145,
-      "literature_protocol": 1796,
+      "literature_protocol": 1839,
       "observation": 565,
       "procedure": 1018,
       "protocol_variant": 302
     },
-    "literature_recipe_family_ids": 1237,
-    "primary_synthesis_recipe_family_ids": 1175,
-    "public_material_hubs": 482,
-    "direct_synthesis_target_systems": 408,
+    "literature_recipe_family_ids": 1280,
+    "primary_synthesis_recipe_family_ids": 1218,
+    "public_material_hubs": 484,
+    "direct_synthesis_target_systems": 410,
     "component_only_hubs": 74,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 522,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 524,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 565,
-    "recipe_or_control_literature_records": 2105,
+    "recipe_or_control_literature_records": 2148,
     "contextual_observation_family_ids": 118,
     "source_checked_synthesis_structure_rows": 864,
     "source_groups_with_synthesis_structure_rows": 193,
@@ -421,6 +421,8 @@
       "Si/SiOx",
       "Si/ZnS",
       "Si/ZnSe",
+      "SiGe",
+      "SiNCs",
       "SiO2",
       "SiO2/CdTe",
       "Silicon Quantum Dots (SQDs)",
@@ -1183,6 +1185,128 @@
       ],
       "record_urls": {
         "agne2003-1-1598289-11-nm-zno-in-1": "records/agne2003-1-1598289-11-nm-zno-in-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "akahane2008-1-2968211",
+      "paper_id": "akahane2008-1-2968211",
+      "doi": "10.1063/1.2968211",
+      "url": "https://doi.org/10.1063/1.2968211",
+      "title": "Highly stacked quantum-dot laser fabricated using a strain compensation technique",
+      "year": 2008,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1": "records/akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "al-s11082-006-0037-2",
+      "paper_id": "al-s11082-006-0037-2",
+      "doi": "10.1007/s11082-006-0037-2",
+      "url": "https://doi.org/10.1007/s11082-006-0037-2",
+      "title": "Carrier Dynamics and Saturation Effect in (113)B InAs/InP Quantum Dot Lasers",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            3,
+            4,
+            5,
+            8
+          ],
+          "actual_pages_text_read": [
+            3,
+            4,
+            5,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1": "records/al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -4430,6 +4554,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "anthony2012-nl300164z",
+      "paper_id": "anthony2012-nl300164z",
+      "doi": "10.1021/nl300164z",
+      "url": "https://doi.org/10.1021/nl300164z",
+      "title": "An All-Gas-Phase Approach for the Fabrication of Silicon Nanocrystal Light-Emitting Devices",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1"
+      ],
+      "direct_route_material_systems": [
+        "SiNCs"
+      ],
+      "record_urls": {
+        "anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1": "records/anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "antony2014-ie402911w",
       "paper_id": "antony2014-ie402911w",
       "doi": "10.1021/ie402911w",
@@ -4710,6 +4896,71 @@
         "au-silica-adfm200500603-teos-characterization": "records/au-silica-adfm200500603-teos-characterization.html"
       },
       "source_checked_synthesis_structure_rows": 4
+    },
+    {
+      "source_group": "author2013-nl400113t",
+      "paper_id": "author2013-nl400113t",
+      "doi": "10.1021/nl400113t",
+      "url": "https://doi.org/10.1021/nl400113t",
+      "title": "Two-Photon Photoemission Study of Competing Auger and Surface-Mediated Relaxation of Hot Electrons in CdSe Quantum Dot Solids",
+      "year": 2013,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            3,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            3,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "author2013-nl400113t-cdse-qds-capped-with-hexanedithiol-2",
+        "author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "author2013-nl400113t-cdse-qds-capped-with-hexanedithiol-2",
+        "author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_urls": {
+        "author2013-nl400113t-cdse-qds-capped-with-hexanedithiol-2": "records/author2013-nl400113t-cdse-qds-capped-with-hexanedithiol-2.html",
+        "author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1": "records/author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "b-b-s2011-ja1089809",
@@ -5117,6 +5368,82 @@
       "record_urls": {
         "banerjee2009-jp9019574-cds-mn-zns-qdots-1": "records/banerjee2009-jp9019574-cds-mn-zns-qdots-1.html",
         "banerjee2009-jp9019574-qdl-dopamine-conjugated-qdots-2": "records/banerjee2009-jp9019574-qdl-dopamine-conjugated-qdots-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "bang2011-nn204350w",
+      "paper_id": "bang2011-nn204350w",
+      "doi": "10.1021/nn204350w",
+      "url": "https://doi.org/10.1021/nn204350w",
+      "title": "CdSe Quantum Dot–Fullerene Hybrid Nanocomposite for Solar Energy Conversion: Electron Transfer and Photoelectrochemistry",
+      "year": 2011,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1",
+        "bang2011-nn204350w-cdse-qd-medium-c60-nanocomposite-2",
+        "bang2011-nn204350w-cdse-qd-small-c60-nanocomposite-3"
+      ],
+      "canonical_record_count": 3,
+      "synthesis_route_variant_count": 3,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 3,
+      "record_type_counts": {
+        "literature_protocol": 3
+      },
+      "canonical_recipe_family_ids": [
+        "bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1",
+        "bang2011-nn204350w-cdse-qd-medium-c60-nanocomposite-2",
+        "bang2011-nn204350w-cdse-qd-small-c60-nanocomposite-3"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_urls": {
+        "bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1": "records/bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1.html",
+        "bang2011-nn204350w-cdse-qd-medium-c60-nanocomposite-2": "records/bang2011-nn204350w-cdse-qd-medium-c60-nanocomposite-2.html",
+        "bang2011-nn204350w-cdse-qd-small-c60-nanocomposite-3": "records/bang2011-nn204350w-cdse-qd-small-c60-nanocomposite-3.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -11006,6 +11333,76 @@
       "source_checked_synthesis_structure_rows": 2
     },
     {
+      "source_group": "cooke2006-physrevb-73-193311",
+      "paper_id": "cooke2006-physrevb-73-193311",
+      "doi": "10.1103/physrevb.73.193311",
+      "url": "https://doi.org/10.1103/physrevb.73.193311",
+      "title": "Transient terahertz conductivity in photoexcited silicon nanocrystal films",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": true,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1000-c-2",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1100-c-3",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1"
+      ],
+      "canonical_record_count": 3,
+      "synthesis_route_variant_count": 3,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 3
+      },
+      "canonical_recipe_family_ids": [
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1000-c-2",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1100-c-3",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1"
+      ],
+      "direct_route_material_systems": [
+        "Si"
+      ],
+      "record_urls": {
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1000-c-2": "records/cooke2006-physrevb-73-193311-si-nc-film-ta-1000-c-2.html",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1100-c-3": "records/cooke2006-physrevb-73-193311-si-nc-film-ta-1100-c-3.html",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1": "records/cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "cordones2014-jp406369a",
       "paper_id": "cordones2014-jp406369a",
       "doi": "10.1021/jp406369a",
@@ -13925,6 +14322,66 @@
         "evers2010-nl102705p-au-nanocrystals-3": "records/evers2010-nl102705p-au-nanocrystals-3.html",
         "evers2010-nl102705p-cdse-nanocrystals-5-8-nm-effective-diame-2": "records/evers2010-nl102705p-cdse-nanocrystals-5-8-nm-effective-diame-2.html",
         "evers2010-nl102705p-pbse-nanocrystals-11-0-nm-effective-diam-1": "records/evers2010-nl102705p-pbse-nanocrystals-11-0-nm-effective-diam-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "eyink2004-1-1771671",
+      "paper_id": "eyink2004-1-1771671",
+      "doi": "10.1116/1.1771671",
+      "url": "https://doi.org/10.1116/1.1771671",
+      "title": "Planar InAs growth on GaAs(001) and subsequent quantum dot formation by a surface induced morphological instability",
+      "year": 2004,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1": "records/eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -18272,6 +18729,78 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "holy2009-physrevb-79-035324",
+      "paper_id": "holy2009-physrevb-79-035324",
+      "doi": "10.1103/physrevb.79.035324",
+      "url": "https://doi.org/10.1103/physrevb.79.035324",
+      "title": "X-ray diffraction investigation of a three-dimensional Si/SiGe quantum dot crystal",
+      "year": 2009,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1"
+      ],
+      "direct_route_material_systems": [
+        "SiGe"
+      ],
+      "record_urls": {
+        "holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1": "records/holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "hongye2006-s11458-006-0053-6",
       "paper_id": "hongye2006-s11458-006-0053-6",
       "doi": "10.1007/s11458-006-0053-6",
@@ -19533,6 +20062,66 @@
       ],
       "record_urls": {
         "hughes2014-ja413026h-pbse-qd-dimer-1": "records/hughes2014-ja413026h-pbse-qd-dimer-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "huh2006-1-2191409",
+      "paper_id": "huh2006-1-2191409",
+      "doi": "10.1063/1.2191409",
+      "url": "https://doi.org/10.1063/1.2191409",
+      "title": "Effects of Ag/indium tin oxide contact to a SiC doping layer on performance of Si nanocrystal light-emitting diodes",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1"
+      ],
+      "direct_route_material_systems": [
+        "Si"
+      ],
+      "record_urls": {
+        "huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1": "records/huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -21425,6 +22014,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "ji2003-1-1530717",
+      "paper_id": "ji2003-1-1530717",
+      "doi": "10.1063/1.1530717",
+      "url": "https://doi.org/10.1063/1.1530717",
+      "title": "InAs/GaAs quantum dot intermixing induced by proton implantation",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ji2003-1-1530717-inas-gaas-quantum-dots-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1": "records/ji2003-1-1530717-inas-gaas-quantum-dots-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "jiang2010-nn100076f",
       "paper_id": "jiang2010-nn100076f",
       "doi": "10.1021/nn100076f",
@@ -22991,6 +23642,71 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "kapetanakis2002-1-1470262",
+      "paper_id": "kapetanakis2002-1-1470262",
+      "doi": "10.1063/1.1470262",
+      "url": "https://doi.org/10.1063/1.1470262",
+      "title": "Room-temperature single-electron charging phenomena in large-area nanocrystal memory obtained by low-energy ion beam synthesis",
+      "year": 2002,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-high-dose-2",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-high-dose-2",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1"
+      ],
+      "direct_route_material_systems": [
+        "Si"
+      ],
+      "record_urls": {
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-high-dose-2": "records/kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-high-dose-2.html",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1": "records/kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "kathirgamanathan2018-c8ra08136k",
       "paper_id": "kathirgamanathan2018-c8ra08136k",
       "doi": "10.1039/c8ra08136k",
@@ -23204,6 +23920,70 @@
       "record_urls": {
         "keeble2009-jp9044429-cds-meh-ppv-1": "records/keeble2009-jp9044429-cds-meh-ppv-1.html",
         "keeble2009-jp9044429-pbs-meh-ppv-2": "records/keeble2009-jp9044429-pbs-meh-ppv-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "kelley2021-acsaelm-0c01107",
+      "paper_id": "kelley2021-acsaelm-0c01107",
+      "doi": "10.1021/acsaelm.0c01107",
+      "url": "https://doi.org/10.1021/acsaelm.0c01107",
+      "title": "Photoconductive Thin Films Composed of Environmentally Benign AgBiS2 Nanocrystal Inks Obtained through a Rapid Phase Transfer Process",
+      "year": 2021,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kelley2021-acsaelm-0c01107-agbis2-ink-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kelley2021-acsaelm-0c01107-agbis2-ink-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "kelley2021-acsaelm-0c01107-agbis2-ink-1"
+      ],
+      "direct_route_material_systems": [
+        "AgBiS2"
+      ],
+      "record_urls": {
+        "kelley2021-acsaelm-0c01107-agbis2-ink-1": "records/kelley2021-acsaelm-0c01107-agbis2-ink-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -24755,6 +25535,66 @@
         "klecha2010-ag-2d-superlattice-jz100417s-matrix": "records/klecha2010-ag-2d-superlattice-jz100417s-matrix.html"
       },
       "source_checked_synthesis_structure_rows": 30
+    },
+    {
+      "source_group": "klem2008-1-2917800",
+      "paper_id": "klem2008-1-2917800",
+      "doi": "10.1063/1.2917800",
+      "url": "https://doi.org/10.1063/1.2917800",
+      "title": "Impact of dithiol treatment and air annealing on the conductivity, mobility, and hole density in PbS colloidal quantum dot solids",
+      "year": 2008,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1"
+      ],
+      "direct_route_material_systems": [
+        "PbS"
+      ],
+      "record_urls": {
+        "klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1": "records/klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "kloper2007-jp0708906",
@@ -28856,6 +29696,67 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "liang2007-1-2821121",
+      "paper_id": "liang2007-1-2821121",
+      "doi": "10.1063/1.2821121",
+      "url": "https://doi.org/10.1063/1.2821121",
+      "title": "Optical properties of patterned InAs quantum dot ensembles grown on GaAs nanopyramids",
+      "year": 2007,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1",
+        "liang2007-1-2821121-sample-b-inas-quantum-dot-pairs-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1",
+        "liang2007-1-2821121-sample-b-inas-quantum-dot-pairs-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1": "records/liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1.html",
+        "liang2007-1-2821121-sample-b-inas-quantum-dot-pairs-2": "records/liang2007-1-2821121-sample-b-inas-quantum-dot-pairs-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "liang2012-nl300524j",
       "paper_id": "liang2012-nl300524j",
       "doi": "10.1021/nl300524j",
@@ -30768,6 +31669,68 @@
         "lopez-dominguez2024-acs-cgd-3c01273-batio3-ncs-3": "records/lopez-dominguez2024-acs-cgd-3c01273-batio3-ncs-3.html",
         "lopez-dominguez2024-acs-cgd-3c01273-bazro3-ncs-1": "records/lopez-dominguez2024-acs-cgd-3c01273-bazro3-ncs-1.html",
         "lopez-dominguez2024-acs-cgd-3c01273-srzro3-ncs-4": "records/lopez-dominguez2024-acs-cgd-3c01273-srzro3-ncs-4.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "lu1999-1-590681",
+      "paper_id": "lu1999-1-590681",
+      "doi": "10.1116/1.590681",
+      "url": "https://doi.org/10.1116/1.590681",
+      "title": "Microstructure characterization of oxidized nanocrystalline Si:H film by transmission electron microscopy",
+      "year": 1999,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            3,
+            5
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1"
+      ],
+      "direct_route_material_systems": [
+        "Si"
+      ],
+      "record_urls": {
+        "lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1": "records/lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -36077,6 +37040,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "otobe1998-1-120973",
+      "paper_id": "otobe1998-1-120973",
+      "doi": "10.1063/1.120973",
+      "url": "https://doi.org/10.1063/1.120973",
+      "title": "Observation of the single electron charging effect in nanocrystalline silicon at room temperature using atomic force microscopy",
+      "year": 1998,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1"
+      ],
+      "direct_route_material_systems": [
+        "Si"
+      ],
+      "record_urls": {
+        "otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1": "records/otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "otto2012-nl3027444",
       "paper_id": "otto2012-nl3027444",
       "doi": "10.1021/nl3027444",
@@ -36660,6 +37685,64 @@
       ],
       "record_urls": {
         "pal2012-nl203620f-cdse-16cds-g-nqds-1": "records/pal2012-nl203620f-cdse-16cds-g-nqds-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "pala2006-1-2193466",
+      "paper_id": "pala2006-1-2193466",
+      "doi": "10.1063/1.2193466",
+      "url": "https://doi.org/10.1063/1.2193466",
+      "title": "Characteristics of high-operating-temperature InAs/GaAs quantum-dot infrared detectors",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1": "records/pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -40781,6 +41864,68 @@
       "source_checked_synthesis_structure_rows": 1
     },
     {
+      "source_group": "richter2005-1-2081123",
+      "paper_id": "richter2005-1-2081123",
+      "doi": "10.1063/1.2081123",
+      "url": "https://doi.org/10.1063/1.2081123",
+      "title": "Quantum dot emitters in two-dimensional photonic crystals of macroporous silicon",
+      "year": 2005,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/richter2005-1-2081123-hgte-ps-composite-tubes-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "richter2005-1-2081123-hgte-ps-composite-tubes-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "richter2005-1-2081123-hgte-ps-composite-tubes-1"
+      ],
+      "direct_route_material_systems": [
+        "HgTe"
+      ],
+      "record_urls": {
+        "richter2005-1-2081123-hgte-ps-composite-tubes-1": "records/richter2005-1-2081123-hgte-ps-composite-tubes-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "rizzo2014-am500110x",
       "paper_id": "rizzo2014-am500110x",
       "doi": "10.1021/am500110x",
@@ -44071,6 +45216,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "sheldon2009-nl902186v",
+      "paper_id": "sheldon2009-nl902186v",
+      "doi": "10.1021/nl902186v",
+      "url": "https://doi.org/10.1021/nl902186v",
+      "title": "Enhanced Semiconductor Nanocrystal Conductance via Solution Grown Contacts",
+      "year": 2009,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/sheldon2009-nl902186v-cdse-nanorods-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "sheldon2009-nl902186v-cdse-nanorods-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "sheldon2009-nl902186v-cdse-nanorods-1"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_urls": {
+        "sheldon2009-nl902186v-cdse-nanorods-1": "records/sheldon2009-nl902186v-cdse-nanorods-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "shen1998-1-590068",
       "paper_id": "shen1998-1-590068",
       "doi": "10.1116/1.590068",
@@ -44133,6 +45340,85 @@
       "record_urls": {
         "shen1998-1-590068-inas-quantum-dots-1": "records/shen1998-1-590068-inas-quantum-dots-1.html",
         "shen1998-1-590068-inp-quantum-dots-2": "records/shen1998-1-590068-inp-quantum-dots-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "shen2001-1-1385916",
+      "paper_id": "shen2001-1-1385916",
+      "doi": "10.1116/1.1385916",
+      "url": "https://doi.org/10.1116/1.1385916",
+      "title": "Self-assembled quantum dot transformations via anion exchange",
+      "year": 2001,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-3",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6"
+      ],
+      "canonical_record_count": 6,
+      "synthesis_route_variant_count": 6,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 6
+      },
+      "canonical_recipe_family_ids": [
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-3",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1": "records/shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1.html",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2": "records/shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2.html",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-3": "records/shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-3.html",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4": "records/shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4.html",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5": "records/shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5.html",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6": "records/shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -49028,6 +50314,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "tokranov2003-1-1598645",
+      "paper_id": "tokranov2003-1-1598645",
+      "doi": "10.1063/1.1598645",
+      "url": "https://doi.org/10.1063/1.1598645",
+      "title": "Enhanced thermal stability of laser diodes with shape-engineered quantum dot medium",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1": "records/tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "torre2006-adma-200501523",
       "paper_id": "torre2006-adma-200501523",
       "doi": "10.1002/adma.200501523",
@@ -51012,6 +52360,71 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "wang2008-anie-200703648",
+      "paper_id": "wang2008-anie-200703648",
+      "doi": "10.1002/anie.200703648",
+      "url": "https://doi.org/10.1002/anie.200703648",
+      "title": "Quantum Dot Bioconjugation during Core–Shell Synthesis",
+      "year": 2008,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/wang2008-anie-200703648-g-qd-c1-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "wang2008-anie-200703648-g-qd-c1-1",
+        "wang2008-anie-200703648-r-qd-c2-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "wang2008-anie-200703648-g-qd-c1-1",
+        "wang2008-anie-200703648-r-qd-c2-2"
+      ],
+      "direct_route_material_systems": [
+        "CdSe@ZnS"
+      ],
+      "record_urls": {
+        "wang2008-anie-200703648-g-qd-c1-1": "records/wang2008-anie-200703648-g-qd-c1-1.html",
+        "wang2008-anie-200703648-r-qd-c2-2": "records/wang2008-anie-200703648-r-qd-c2-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "wang2008-s10832-007-9288-y",
       "paper_id": "wang2008-s10832-007-9288-y",
       "doi": "10.1007/s10832-007-9288-y",
@@ -52713,6 +54126,66 @@
         "wuister2004-yagce-b401299b-urea-fuel": "records/wuister2004-yagce-b401299b-urea-fuel.html"
       },
       "source_checked_synthesis_structure_rows": 1
+    },
+    {
+      "source_group": "x2006-s11671-006-9003-y",
+      "paper_id": "x2006-s11671-006-9003-y",
+      "doi": "10.1007/s11671-006-9003-y",
+      "url": "https://doi.org/10.1007/s11671-006-9003-y",
+      "title": "Guided self-assembly of lateral InAs/GaAs quantum-dot molecules for single molecule spectroscopy",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/x2006-s11671-006-9003-y-inas-qdms-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "x2006-s11671-006-9003-y-inas-qdms-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "x2006-s11671-006-9003-y-inas-qdms-1"
+      ],
+      "direct_route_material_systems": [
+        "InGaAs"
+      ],
+      "record_urls": {
+        "x2006-s11671-006-9003-y-inas-qdms-1": "records/x2006-s11671-006-9003-y-inas-qdms-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "x2010-s11671-010-9632-z",
@@ -57074,6 +58547,72 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "yu2006-1-2192288",
+      "paper_id": "yu2006-1-2192288",
+      "doi": "10.1063/1.2192288",
+      "url": "https://doi.org/10.1063/1.2192288",
+      "title": "Electronic transport of n-type CdSe quantum dot films: Effect of film treatment",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3,
+            4,
+            6,
+            8
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            6,
+            8
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_urls": {
+        "yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1": "records/yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "yu2009-jp903199y",
       "paper_id": "yu2009-jp903199y",
       "doi": "10.1021/jp903199y",
@@ -58362,6 +59901,70 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "zhang2009-b914213d",
+      "paper_id": "zhang2009-b914213d",
+      "doi": "10.1039/b914213d",
+      "url": "https://doi.org/10.1039/b914213d",
+      "title": "Manipulation of semiconductor nanocrystal growth in polymer soft solids",
+      "year": 2009,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2009-b914213d-cdteps-composite-films-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2009-b914213d-cdteps-composite-films-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "zhang2009-b914213d-cdteps-composite-films-1"
+      ],
+      "direct_route_material_systems": [
+        "CdTe"
+      ],
+      "record_urls": {
+        "zhang2009-b914213d-cdteps-composite-films-1": "records/zhang2009-b914213d-cdteps-composite-films-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "zhang2010-jp1025152",
       "paper_id": "zhang2010-jp1025152",
       "doi": "10.1021/jp1025152",
@@ -59421,6 +61024,76 @@
       "source_checked_synthesis_structure_rows": 6
     },
     {
+      "source_group": "zheng2019-2-0171906jss",
+      "paper_id": "zheng2019-2-0171906jss",
+      "doi": "10.1149/2.0171906jss",
+      "url": "https://doi.org/10.1149/2.0171906jss",
+      "title": "The High Performance of Quantum Dot Sensitized Solar Cells Co-Sensitized with Mixed-Joint CdS and ZnS Quantum Dots",
+      "year": 2019,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            3,
+            6
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zheng2019-2-0171906jss-cds-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zheng2019-2-0171906jss-cds-qds-1",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3",
+        "zheng2019-2-0171906jss-zns-qds-2"
+      ],
+      "canonical_record_count": 3,
+      "synthesis_route_variant_count": 3,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 3
+      },
+      "canonical_recipe_family_ids": [
+        "zheng2019-2-0171906jss-cds-qds-1",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3",
+        "zheng2019-2-0171906jss-zns-qds-2"
+      ],
+      "direct_route_material_systems": [
+        "CdS",
+        "CdS/ZnS",
+        "ZnS"
+      ],
+      "record_urls": {
+        "zheng2019-2-0171906jss-cds-qds-1": "records/zheng2019-2-0171906jss-cds-qds-1.html",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3": "records/zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3.html",
+        "zheng2019-2-0171906jss-zns-qds-2": "records/zheng2019-2-0171906jss-zns-qds-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "zhong2007-cdte-cdse-jp0709407",
       "paper_id": "zhong2007-cdte-cdse-jp0709407",
       "doi": "10.1021/jp0709407",
@@ -59700,6 +61373,66 @@
         "zhou1995-nh4no3-electrochemical-control": "records/zhou1995-nh4no3-electrochemical-control.html"
       },
       "source_checked_synthesis_structure_rows": 2
+    },
+    {
+      "source_group": "zhou2009-1-3204669",
+      "paper_id": "zhou2009-1-3204669",
+      "doi": "10.1063/1.3204669",
+      "url": "https://doi.org/10.1063/1.3204669",
+      "title": "Electron transport in surface oxidized Si nanocrystal ensembles with thin film transistor structure",
+      "year": 2009,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1"
+      ],
+      "direct_route_material_systems": [
+        "Si"
+      ],
+      "record_urls": {
+        "zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1": "records/zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "zhou2014-am505130a",
@@ -60343,6 +62076,76 @@
         "zhu2013-tio2-ja401334j-time-8h": "records/zhu2013-tio2-ja401334j-time-8h.html"
       },
       "source_checked_synthesis_structure_rows": 3
+    },
+    {
+      "source_group": "zidek2012-ja3029679",
+      "paper_id": "zidek2012-ja3029679",
+      "doi": "10.1021/ja3029679",
+      "url": "https://doi.org/10.1021/ja3029679",
+      "title": "Electron Transfer in Quantum-Dot-Sensitized ZnO Nanowires: Ultrafast Time-Resolved Absorption and Terahertz Study",
+      "year": 2012,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_urls": {
+        "zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1": "records/zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "zillner2012-jp303766d",
@@ -62373,8 +64176,9 @@
     {
       "material_system": "AgBiS2",
       "notes": [],
-      "direct_synthesis_route_variant_count": 4,
+      "direct_synthesis_route_variant_count": 5,
       "direct_route_record_ids": [
+        "kelley2021-acsaelm-0c01107-agbis2-ink-1",
         "yuan2026-agbis2-cpt-0",
         "yuan2026-agbis2-cpt-25",
         "yuan2026-agbis2-cpt-50",
@@ -62390,16 +64194,23 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 4,
+      "public_hub_route_contributions": 5,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 1,
       "material_hub_id": "agbis2-eff046",
       "material_hub_url": "material.html?id=agbis2-eff046",
       "source_groups": [
+        "kelley2021-acsaelm-0c01107",
         "yuan2026-agbis2-nl5c06337"
       ],
       "source_links": [
+        {
+          "source_group": "kelley2021-acsaelm-0c01107",
+          "doi": "10.1021/acsaelm.0c01107",
+          "url": "https://doi.org/10.1021/acsaelm.0c01107",
+          "title": "Photoconductive Thin Films Composed of Environmentally Benign AgBiS2 Nanocrystal Inks Obtained through a Rapid Phase Transfer Process"
+        },
         {
           "source_group": "yuan2026-agbis2-nl5c06337",
           "doi": "10.1021/acs.nanolett.5c06337",
@@ -62408,6 +64219,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "kelley2021-acsaelm-0c01107-agbis2-ink-1",
         "yuan2026-agbis2-nl5c06337"
       ]
     },
@@ -66097,7 +67909,7 @@
       "notes": [
         "Two no-seed control protocols carry this product identity in the canonical data, but are not published as independently complete synthesis routes. Public hub contributions are shell-growth components."
       ],
-      "direct_synthesis_route_variant_count": 140,
+      "direct_synthesis_route_variant_count": 141,
       "direct_route_record_ids": [
         "11994-1-46441-cds-nanocrystalline-materials-1",
         "al2011-j-electacta-2011-02-071-cds-qd-sensitized-zn2sno4-electrode-3",
@@ -66238,7 +68050,8 @@
         "yu2018-cds-nanocrystals-acssuschemeng8b00398-core",
         "yusuf2007-la7002904-3d-photonic-array-of-qdcms-3",
         "yusuf2007-la7002904-bc-qd-1",
-        "yusuf2007-la7002904-qdcm-2"
+        "yusuf2007-la7002904-qdcm-2",
+        "zheng2019-2-0171906jss-cds-qds-1"
       ],
       "contextual_control_count": 4,
       "contextual_control_record_ids": [
@@ -66272,8 +68085,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 246,
-      "component_route_contribution_count": 106,
+      "public_hub_route_contributions": 248,
+      "component_route_contribution_count": 107,
       "component_route_record_ids": [
         "1-1863445-cds-zns-nc-silica-composite-film-1",
         "al2003-jp0278364-cdse-cds-core-shell-nanocrystals-1",
@@ -66379,6 +68192,7 @@
         "zhang2014-am505371g-cdse-cds-au-qd-au-coresatellite-hncs-ass-1",
         "zhang2019-jacs-9b06932-cdse-cds-dot-platelet-2d-nanocrystals-1",
         "zhao2006-nl052417e-cdse-cds-qds-1",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3",
         "zhu-ja210312s-cdse-cds-six-ml",
         "zhu2011-microwave-cds-tio2-am200520q-electrode4"
       ],
@@ -66512,6 +68326,7 @@
         "zhang2014-am505371g",
         "zhang2019-jacs-9b06932",
         "zhao2006-nl052417e",
+        "zheng2019-2-0171906jss",
         "zhu2011-microwave-cds-tio2-am200520q",
         "zhu2012-ja210312s-si"
       ],
@@ -67273,6 +69088,12 @@
           "title": "Efficient CdSe/CdS Quantum Dot Light-Emitting Diodes Using a Thermally Polymerized Hole Transport Layer"
         },
         {
+          "source_group": "zheng2019-2-0171906jss",
+          "doi": "10.1149/2.0171906jss",
+          "url": "https://doi.org/10.1149/2.0171906jss",
+          "title": "The High Performance of Quantum Dot Sensitized Solar Cells Co-Sensitized with Mixed-Joint CdS and ZnS Quantum Dots"
+        },
+        {
           "source_group": "zhu2011-microwave-cds-tio2-am200520q",
           "doi": "10.1021/am200520q",
           "url": "https://doi.org/10.1021/am200520q",
@@ -67353,7 +69174,8 @@
         "yu2018-cds-nanocrystals-acssuschemeng8b00398",
         "yusuf2007-la7002904-3d-photonic-array-of-qdcms-3",
         "yusuf2007-la7002904-bc-qd-1",
-        "yusuf2007-la7002904-qdcm-2"
+        "yusuf2007-la7002904-qdcm-2",
+        "zheng2019-2-0171906jss-cds-qds-1"
       ]
     },
     {
@@ -67831,10 +69653,11 @@
     {
       "material_system": "CdS/ZnS",
       "notes": [],
-      "direct_synthesis_route_variant_count": 2,
+      "direct_synthesis_route_variant_count": 3,
       "direct_route_record_ids": [
         "1-1863445-cds-zns-nc-silica-composite-film-1",
-        "yang2016-biomineralized-cds-iecr6b03487-zns-shell"
+        "yang2016-biomineralized-cds-iecr6b03487-zns-shell",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -67847,7 +69670,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 2,
+      "public_hub_route_contributions": 3,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 1,
@@ -67855,7 +69678,8 @@
       "material_hub_url": "material.html?id=cds-zns-7e2c28",
       "source_groups": [
         "1-1863445",
-        "yang2016-biomineralized-cds-iecr6b03487"
+        "yang2016-biomineralized-cds-iecr6b03487",
+        "zheng2019-2-0171906jss"
       ],
       "source_links": [
         {
@@ -67869,11 +69693,18 @@
           "doi": "10.1021/acs.iecr.6b03487",
           "url": "https://doi.org/10.1021/acs.iecr.6b03487",
           "title": "Biomineralized CdS Quantum Dot Nanocrystals: Optimizing Synthesis Conditions and Improving Functional Properties by Surface Modification"
+        },
+        {
+          "source_group": "zheng2019-2-0171906jss",
+          "doi": "10.1149/2.0171906jss",
+          "url": "https://doi.org/10.1149/2.0171906jss",
+          "title": "The High Performance of Quantum Dot Sensitized Solar Cells Co-Sensitized with Mixed-Joint CdS and ZnS Quantum Dots"
         }
       ],
       "direct_route_recipe_family_ids": [
         "1-1863445-cds-zns-nc-silica-composite-film-1",
-        "yang2016-biomineralized-cds-iecr6b03487"
+        "yang2016-biomineralized-cds-iecr6b03487",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3"
       ]
     },
     {
@@ -68216,7 +70047,7 @@
         "Before the Danek1996 addition: Seven direct routes: Murray3, Peng2, Nakonechnyi2. Public hub count13 also includes six CdSe-core-containing shell-growth records; those are not extra bare-CdSe recipes.",
         "Danek1996 adds three existing route IDs to this hub; the current route contribution count is 16. The shell-overgrowth route is distinct from the two matrix-film routes; component links do not create standalone CdSe or ZnSe synthesis recipes."
       ],
-      "direct_synthesis_route_variant_count": 208,
+      "direct_synthesis_route_variant_count": 216,
       "direct_route_record_ids": [
         "achermann2003-jp036497r-octylamine-capped-cdse-nqds-1",
         "al2010-jp909310a-cdse-msqd-family-395-2",
@@ -68227,6 +70058,11 @@
         "al2013-nn403132x-cdse-nanowires-nws-1",
         "alam2012-cdse-cds-ica201110038-cdse-large-seed-no-extra-top",
         "alam2012-cdse-cds-ica201110038-cdse-teardrop",
+        "author2013-nl400113t-cdse-qds-capped-with-hexanedithiol-2",
+        "author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1",
+        "bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1",
+        "bang2011-nn204350w-cdse-qd-medium-c60-nanocomposite-2",
+        "bang2011-nn204350w-cdse-qd-small-c60-nanocomposite-3",
         "basel-2020-cdse-hot-injection-150c",
         "battaglia2005-ja0437297-cdse-zns-cdse-dual-quantum-systems-1",
         "biju2005-jp050424l-cdse-qd-clusters-1",
@@ -68387,6 +70223,7 @@
         "sellers2015-cds-cdse-amide-jpcc5b07504-cdse-tdpa",
         "sellers2015-cds-cdse-amide-jpcc5b07504-cdse-tp",
         "shallcross2009-nn900735y-ligand-capped-cdse-nanocrystal-diffracti-1",
+        "sheldon2009-nl902186v-cdse-nanorods-1",
         "shen2014-jp410599q-cdse-qds-capped-with-top-1",
         "shepherd2012-jp306255g-cdse-qds-capped-with-11-mercaptoundecano-3",
         "shepherd2012-jp306255g-cdse-qds-capped-with-3-mercaptopropionic-2",
@@ -68414,11 +70251,13 @@
         "yu1998-cdse-en-160c-12h",
         "yu1998-cdse-py-160c-12h",
         "yu2003-cm034081k-cdse-nanocrystals-2",
+        "yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1",
         "yun2014-am500026a-cdse-qds-1",
         "zhang2000-cdse-jssc20008646-aqueous-room-temperature",
         "zhang2014-jp4113816-cdse-qdcepo4-tb-nanowire-heterostructure-1",
         "zhou2014-am505130a-cdse-qds-modified-with-1-4-benzenedithio-1",
         "zhu-ja210312s-cdse-core",
+        "zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1",
         "zillner2012-jp303766d-cdse-qds-4-5-nm-with-pyridine-surfactant-3",
         "zou2004-cdse-ac049012j-pige-10ul",
         "zou2004-cdse-ac049012j-pige-12p5ul",
@@ -68477,8 +70316,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 380,
-      "component_route_contribution_count": 172,
+      "public_hub_route_contributions": 390,
+      "component_route_contribution_count": 174,
       "component_route_record_ids": [
         "a2021-j-cap-2021-07-001-cdse-zns-qds-1",
         "achermann2003-jp036497r-topo-top-capped-cdse-zns-core-shell-nqds-2",
@@ -68626,6 +70465,8 @@
         "travert-branger2011-la200509z-cdse-zns-nanocrystals-encapsulated-in-po-1",
         "tribu2009-pssb-200880670-cdse-qd-in-znse-nanowire-1",
         "uehara2009-jnn-2009-j050-zns-cdse-zns-core-shell-shell-1",
+        "wang2008-anie-200703648-g-qd-c1-1",
+        "wang2008-anie-200703648-r-qd-c2-2",
         "wang2009-s10853-008-3138-4-mps-capped-cdse-zns-core-shell-qds-1",
         "wang2012-jp210062x-cdse-zns-qds-1",
         "wang2013-nn3045215-520-nm-cdse-cds-zns-qd-barcodes-1",
@@ -68674,6 +70515,8 @@
         "al2014-nn502588k",
         "alam2012-cdse-cds-ica201110038",
         "algar2008-la703812t",
+        "author2013-nl400113t",
+        "bang2011-nn204350w",
         "basel2020",
         "battaglia2005-ja0437297",
         "bestel2013-bc400157z",
@@ -68818,6 +70661,7 @@
         "schill2006-nl061054v",
         "sellers2015-cds-cdse-amide-jpcc5b07504",
         "shallcross2009-nn900735y",
+        "sheldon2009-nl902186v",
         "shen2014-jp410599q",
         "sheng2014-nn502121t",
         "shepherd2012-jp306255g",
@@ -68838,6 +70682,7 @@
         "wang1999-ja9832414",
         "wang2004-jmr-2004-0420",
         "wang2005-lss-nature03968",
+        "wang2008-anie-200703648",
         "wang2009-s10853-008-3138-4",
         "wang2012-jp210062x",
         "wang2013-nn3045215",
@@ -68853,6 +70698,7 @@
         "yang2014-am503580j",
         "yu1998cde",
         "yu2003-cm034081k",
+        "yu2006-1-2192288",
         "yun2014-am500026a",
         "zane2014-jp504755a",
         "zhang2000-cdse-jssc20008646",
@@ -68865,6 +70711,7 @@
         "zhong2009-ja903722d",
         "zhou2014-am505130a",
         "zhu2012-ja210312s-si",
+        "zidek2012-ja3029679",
         "zillner2012-jp303766d",
         "zou2004-cdse-ac049012j"
       ],
@@ -68970,6 +70817,18 @@
           "doi": "10.1021/la703812t",
           "url": "https://doi.org/10.1021/la703812t",
           "title": "Multidentate Ligands To Immobilize CdSe/ZnS Quantum Dots"
+        },
+        {
+          "source_group": "author2013-nl400113t",
+          "doi": "10.1021/nl400113t",
+          "url": "https://doi.org/10.1021/nl400113t",
+          "title": "Two-Photon Photoemission Study of Competing Auger and Surface-Mediated Relaxation of Hot Electrons in CdSe Quantum Dot Solids"
+        },
+        {
+          "source_group": "bang2011-nn204350w",
+          "doi": "10.1021/nn204350w",
+          "url": "https://doi.org/10.1021/nn204350w",
+          "title": "CdSe Quantum Dot–Fullerene Hybrid Nanocomposite for Solar Energy Conversion: Electron Transfer and Photoelectrochemistry"
         },
         {
           "source_group": "basel2020",
@@ -69836,6 +71695,12 @@
           "title": "Efficient CdSe Nanocrystal Diffraction Gratings Prepared by Microcontact Molding"
         },
         {
+          "source_group": "sheldon2009-nl902186v",
+          "doi": "10.1021/nl902186v",
+          "url": "https://doi.org/10.1021/nl902186v",
+          "title": "Enhanced Semiconductor Nanocrystal Conductance via Solution Grown Contacts"
+        },
+        {
           "source_group": "shen2014-jp410599q",
           "doi": "10.1021/jp410599q",
           "url": "https://doi.org/10.1021/jp410599q",
@@ -69956,6 +71821,12 @@
           "title": "A general strategy for nanocrystal synthesis"
         },
         {
+          "source_group": "wang2008-anie-200703648",
+          "doi": "10.1002/anie.200703648",
+          "url": "https://doi.org/10.1002/anie.200703648",
+          "title": "Quantum Dot Bioconjugation during Core–Shell Synthesis"
+        },
+        {
           "source_group": "wang2009-s10853-008-3138-4",
           "doi": "10.1007/s10853-008-3138-4",
           "url": "https://doi.org/10.1007/s10853-008-3138-4",
@@ -70046,6 +71917,12 @@
           "title": "Experimental Determination of the Extinction Coefficient of CdTe, CdSe, and CdS Nanocrystals"
         },
         {
+          "source_group": "yu2006-1-2192288",
+          "doi": "10.1063/1.2192288",
+          "url": "https://doi.org/10.1063/1.2192288",
+          "title": "Electronic transport of n-type CdSe quantum dot films: Effect of film treatment"
+        },
+        {
           "source_group": "yun2014-am500026a",
           "doi": "10.1021/am500026a",
           "url": "https://doi.org/10.1021/am500026a",
@@ -70118,6 +71995,12 @@
           "title": "Wave Function Engineering for Efficient Extraction of up to Nineteen Electrons from One CdSe/CdS Quasi-Type II Quantum Dot — supporting information"
         },
         {
+          "source_group": "zidek2012-ja3029679",
+          "doi": "10.1021/ja3029679",
+          "url": "https://doi.org/10.1021/ja3029679",
+          "title": "Electron Transfer in Quantum-Dot-Sensitized ZnO Nanowires: Ultrafast Time-Resolved Absorption and Terahertz Study"
+        },
+        {
           "source_group": "zillner2012-jp303766d",
           "doi": "10.1021/jp303766d",
           "url": "https://doi.org/10.1021/jp303766d",
@@ -70139,6 +72022,11 @@
         "al2010-la904474h-q-cdse-3-4-nm-2",
         "al2013-nn403132x-cdse-nanowires-nws-1",
         "alam2012-cdse-cds-ica201110038-core",
+        "author2013-nl400113t-cdse-qds-capped-with-hexanedithiol-2",
+        "author2013-nl400113t-cdse-qds-capped-with-oleic-acid-1",
+        "bang2011-nn204350w-cdse-qd-large-c60-nanocomposite-1",
+        "bang2011-nn204350w-cdse-qd-medium-c60-nanocomposite-2",
+        "bang2011-nn204350w-cdse-qd-small-c60-nanocomposite-3",
         "basel2020-cdse",
         "battaglia2005-ja0437297-cdse-zns-cdse-dual-quantum-systems-1",
         "biju2005-jp050424l-cdse-qd-clusters-1",
@@ -70253,6 +72141,7 @@
         "rowland2015-nmat4231-5-ml-cdse-npl-2",
         "sellers2015-cds-cdse-amide-jpcc5b07504",
         "shallcross2009-nn900735y-ligand-capped-cdse-nanocrystal-diffracti-1",
+        "sheldon2009-nl902186v-cdse-nanorods-1",
         "shen2014-jp410599q-cdse-qds-capped-with-top-1",
         "shepherd2012-jp306255g-cdse-qds-capped-with-11-mercaptoundecano-3",
         "shepherd2012-jp306255g-cdse-qds-capped-with-3-mercaptopropionic-2",
@@ -70272,11 +72161,13 @@
         "xie1999-cdse-jssc19998179-solvothermal-en",
         "yang2005-noninjection",
         "yu2003-cm034081k-cdse-nanocrystals-2",
+        "yu2006-1-2192288-cdse-nanocrystal-thin-film-treated-with-1",
         "yun2014-am500026a-cdse-qds-1",
         "zhang2000-cdse-jssc20008646",
         "zhang2014-jp4113816-cdse-qdcepo4-tb-nanowire-heterostructure-1",
         "zhou2014-am505130a-cdse-qds-modified-with-1-4-benzenedithio-1",
         "zhu-ja210312s-cdse",
+        "zidek2012-ja3029679-cdse-qds-3-1-nm-on-zno-nws-1",
         "zillner2012-jp303766d-cdse-qds-4-5-nm-with-pyridine-surfactant-3",
         "zou2004-cdse-ac049012j"
       ]
@@ -72713,10 +74604,12 @@
     {
       "material_system": "CdSe@ZnS",
       "notes": [],
-      "direct_synthesis_route_variant_count": 3,
+      "direct_synthesis_route_variant_count": 5,
       "direct_route_record_ids": [
         "al2014-nn500852g-cdse-zns-qds-1",
         "bullen2004-b315332k-cdse-zns-core-shell-particles-in-zro2sio-3",
+        "wang2008-anie-200703648-g-qd-c1-1",
+        "wang2008-anie-200703648-r-qd-c2-2",
         "wang2009-s10853-008-3138-4-mps-capped-cdse-zns-core-shell-qds-1"
       ],
       "contextual_control_count": 0,
@@ -72727,7 +74620,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 3,
+      "public_hub_route_contributions": 5,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 0,
@@ -72736,6 +74629,7 @@
       "source_groups": [
         "al2014-nn500852g",
         "bullen2004-b315332k",
+        "wang2008-anie-200703648",
         "wang2009-s10853-008-3138-4"
       ],
       "source_links": [
@@ -72752,6 +74646,12 @@
           "title": "Incorporation of a highly luminescent semiconductor quantum dot in ZrO2–SiO2 hybrid sol–gel glass film"
         },
         {
+          "source_group": "wang2008-anie-200703648",
+          "doi": "10.1002/anie.200703648",
+          "url": "https://doi.org/10.1002/anie.200703648",
+          "title": "Quantum Dot Bioconjugation during Core–Shell Synthesis"
+        },
+        {
           "source_group": "wang2009-s10853-008-3138-4",
           "doi": "10.1007/s10853-008-3138-4",
           "url": "https://doi.org/10.1007/s10853-008-3138-4",
@@ -72761,6 +74661,8 @@
       "direct_route_recipe_family_ids": [
         "al2014-nn500852g-cdse-zns-qds-1",
         "bullen2004-b315332k-cdse-zns-core-shell-particles-in-zro2sio-3",
+        "wang2008-anie-200703648-g-qd-c1-1",
+        "wang2008-anie-200703648-r-qd-c2-2",
         "wang2009-s10853-008-3138-4-mps-capped-cdse-zns-core-shell-qds-1"
       ]
     },
@@ -73125,7 +75027,7 @@
     {
       "material_system": "CdTe",
       "notes": [],
-      "direct_synthesis_route_variant_count": 65,
+      "direct_synthesis_route_variant_count": 66,
       "direct_route_record_ids": [
         "al-s12645-010-0003-3-cdte-folic-acid-nanoconjugates-1",
         "al2011-nn201455a-cdte-qds-1",
@@ -73191,6 +75093,7 @@
         "zhang2006-1-2354448-dot-shaped-cdte-ncs-1",
         "zhang2006-1-2354448-rod-shaped-cdte-ncs-2",
         "zhang2006-1-2354448-tetrapod-shaped-cdte-ncs-3",
+        "zhang2009-b914213d-cdteps-composite-films-1",
         "zhou2014-nn5040444-cdte-nc-self-assembly-materials-1"
       ],
       "contextual_control_count": 0,
@@ -73207,7 +75110,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 92,
+      "public_hub_route_contributions": 93,
       "component_route_contribution_count": 27,
       "component_route_record_ids": [
         "al2009-ja807874e-cdse-cdte-tetrapods-4",
@@ -73299,6 +75202,7 @@
         "zhang2003-cdte-polymer-adma200304521",
         "zhang2005-cm050260l",
         "zhang2006-1-2354448",
+        "zhang2009-b914213d",
         "zhong2007-cdte-cdse-jp0709407",
         "zhong2009-ja903722d",
         "zhou2014-nn5040444"
@@ -73647,6 +75551,12 @@
           "title": "Formation of CdTe nanostructures with dot, rod, and tetrapod shapes"
         },
         {
+          "source_group": "zhang2009-b914213d",
+          "doi": "10.1039/b914213d",
+          "url": "https://doi.org/10.1039/b914213d",
+          "title": "Manipulation of semiconductor nanocrystal growth in polymer soft solids"
+        },
+        {
           "source_group": "zhong2007-cdte-cdse-jp0709407",
           "doi": "10.1021/jp0709407",
           "url": "https://doi.org/10.1021/jp0709407",
@@ -73722,6 +75632,7 @@
         "zhang2006-1-2354448-dot-shaped-cdte-ncs-1",
         "zhang2006-1-2354448-rod-shaped-cdte-ncs-2",
         "zhang2006-1-2354448-tetrapod-shaped-cdte-ncs-3",
+        "zhang2009-b914213d-cdteps-composite-films-1",
         "zhou2014-nn5040444-cdte-nc-self-assembly-materials-1"
       ]
     },
@@ -78512,8 +80423,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": true,
-      "public_hub_route_contributions": 26,
-      "component_route_contribution_count": 26,
+      "public_hub_route_contributions": 28,
+      "component_route_contribution_count": 28,
       "component_route_record_ids": [
         "al2006-pssa-200622106-sample-a-1",
         "al2006-pssa-200622106-sample-b-2",
@@ -78527,6 +80438,7 @@
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
@@ -78534,6 +80446,7 @@
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-high-den-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-lower-de-2",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-five-1",
@@ -78553,12 +80466,14 @@
         "chia2009-1-3245305",
         "clarke2010-1-3429226",
         "howe2005-1-2133904",
+        "ji2003-1-1530717",
         "krause2005-physrevb-72-085339",
         "kulbachinskii2003-pssc-200303073",
         "lin2006-1-2234817",
         "mazur2002-1-1510157",
         "mi2005-1-1985969",
         "pal2001-1-1382855",
+        "pala2006-1-2193466",
         "passow2006-pssc-200671556",
         "salhi2006-1-2402744",
         "stewart2003-1-1609634",
@@ -78609,6 +80524,12 @@
           "title": "Quantiﬁcation of segregation and strain effects in InAs/GaAs quantum dot growth"
         },
         {
+          "source_group": "ji2003-1-1530717",
+          "doi": "10.1063/1.1530717",
+          "url": "https://doi.org/10.1063/1.1530717",
+          "title": "InAs/GaAs quantum dot intermixing induced by proton implantation"
+        },
+        {
           "source_group": "krause2005-physrevb-72-085339",
           "doi": "10.1103/physrevb.72.085339",
           "url": "https://doi.org/10.1103/physrevb.72.085339",
@@ -78643,6 +80564,12 @@
           "doi": "10.1063/1.1382855",
           "url": "https://doi.org/10.1063/1.1382855",
           "title": "Structural characterization of InAs/GaAs quantum-dot nanostructures"
+        },
+        {
+          "source_group": "pala2006-1-2193466",
+          "doi": "10.1063/1.2193466",
+          "url": "https://doi.org/10.1063/1.2193466",
+          "title": "Characteristics of high-operating-temperature InAs/GaAs quantum-dot infrared detectors"
         },
         {
           "source_group": "passow2006-pssc-200671556",
@@ -78990,11 +80917,12 @@
     {
       "material_system": "HgTe",
       "notes": [],
-      "direct_synthesis_route_variant_count": 3,
+      "direct_synthesis_route_variant_count": 4,
       "direct_route_record_ids": [
         "al2003-cm031003o-ps-pe3-hgte-nc-2-pe2-colloidal-crystals-1",
         "chen2017-acsnano-7b00972-hgte-qds-2080-nm-pl-peak-1",
-        "rath2005-physrevb-72-205410-hgte-nanocrystalline-thin-films-1"
+        "rath2005-physrevb-72-205410-hgte-nanocrystalline-thin-films-1",
+        "richter2005-1-2081123-hgte-ps-composite-tubes-1"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -79004,7 +80932,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 4,
+      "public_hub_route_contributions": 5,
       "component_route_contribution_count": 1,
       "component_route_record_ids": [
         "al2003-cm031003o-tio2-hgte-composite-inverse-opals-2"
@@ -79015,7 +80943,8 @@
       "source_groups": [
         "al2003-cm031003o",
         "chen2017-acsnano-7b00972",
-        "rath2005-physrevb-72-205410"
+        "rath2005-physrevb-72-205410",
+        "richter2005-1-2081123"
       ],
       "source_links": [
         {
@@ -79035,12 +80964,19 @@
           "doi": "10.1103/physrevb.72.205410",
           "url": "https://doi.org/10.1103/physrevb.72.205410",
           "title": "Surface characterization and electronic structure of HgTe nanocrystalline thin films"
+        },
+        {
+          "source_group": "richter2005-1-2081123",
+          "doi": "10.1063/1.2081123",
+          "url": "https://doi.org/10.1063/1.2081123",
+          "title": "Quantum dot emitters in two-dimensional photonic crystals of macroporous silicon"
         }
       ],
       "direct_route_recipe_family_ids": [
         "al2003-cm031003o-ps-pe3-hgte-nc-2-pe2-colloidal-crystals-1",
         "chen2017-acsnano-7b00972-hgte-qds-2080-nm-pl-peak-1",
-        "rath2005-physrevb-72-205410-hgte-nanocrystalline-thin-films-1"
+        "rath2005-physrevb-72-205410-hgte-nanocrystalline-thin-films-1",
+        "richter2005-1-2081123-hgte-ps-composite-tubes-1"
       ]
     },
     {
@@ -79610,8 +81546,10 @@
     {
       "material_system": "InAs",
       "notes": [],
-      "direct_synthesis_route_variant_count": 41,
+      "direct_synthesis_route_variant_count": 53,
       "direct_route_record_ids": [
+        "akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1",
+        "al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1",
         "al2002-1-1476069-inas-quantum-dots-qds-grown-at-0-009-ml-2",
         "al2002-1-1476069-inas-quantum-dots-qds-grown-at-0-009-ml-3",
         "al2002-1-1476069-inas-quantum-dots-qds-grown-at-0-15-ml-s-1",
@@ -79624,6 +81562,7 @@
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-15ga0-2",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-20ga0-3",
         "el-emawy2003-1-1543647-inas-qds-grown-on-5-ml-of-in0-15ga0-85as-1",
+        "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1",
         "gong2002-1-1516637-inas-quantum-dots-on-in0-35ga0-65as-temp-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-2",
@@ -79634,6 +81573,8 @@
         "lian1998-1-121719-inas-quantum-dots-in-gaas-quantum-well-s-2",
         "lian1998-1-121719-inas-quantum-dots-in-gaas-quantum-well-s-3",
         "liang2004-1-1834987-inas-quantum-dot-array-1",
+        "liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1",
+        "liang2007-1-2821121-sample-b-inas-quantum-dot-pairs-2",
         "lippen2005-1-1840098-inas-qd-molecules-on-ten-period-sl-templ-1",
         "liu2006-1-2202195-1-32-m-inas-quantum-dot-laser-with-five-1",
         "mano2002-1-1503872-inas-quantum-dot-arrays-on-in-ga-as-gaas-1",
@@ -79644,6 +81585,12 @@
         "selcuk2009-1-3167813-single-inas-quantum-dot-arrays-1",
         "semenova2008-1-2927496-inas-quantum-dots-qds-embedded-in-in0-42-1",
         "shen1998-1-590068-inas-quantum-dots-1",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-3",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-6-ml-gaas-i-1",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-72-ml-gaas-2",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-84-ml-gaas-3",
@@ -79652,7 +81599,8 @@
         "talalaeva2004-1-1769077-inas-quantum-dot-molecules-qdms-with-5-n-1",
         "talapin2002-ja0123599-inas-nanocrystals-3",
         "tamang2016-acs-chemmater-6b03585-inas-nanoclusters-1",
-        "tamang2016-acs-chemmater-6b03585-inas-qds-5-79-0-43-nm-3"
+        "tamang2016-acs-chemmater-6b03585-inas-qds-5-79-0-43-nm-3",
+        "tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1"
       ],
       "contextual_control_count": 1,
       "contextual_control_record_ids": [
@@ -79674,8 +81622,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 76,
-      "component_route_contribution_count": 35,
+      "public_hub_route_contributions": 90,
+      "component_route_contribution_count": 37,
       "component_route_record_ids": [
         "al2006-pssa-200622106-sample-a-1",
         "al2006-pssa-200622106-sample-b-2",
@@ -79695,6 +81643,7 @@
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
         "hwang2003-pssc-200303088-5-layer-inas-inp-quantum-dot-qd-stack-1",
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
@@ -79703,6 +81652,7 @@
         "mcginley2004-physrevb-69-045301-inas-cdse-core-shell-nanocrystals-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-high-den-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-lower-de-2",
         "saint-girons2006-1-2185008-inas-inp-001-quantum-dots-qds-1",
@@ -79717,6 +81667,8 @@
       "material_hub_id": "inas-a2e691",
       "material_hub_url": "material.html?id=inas-a2e691",
       "source_groups": [
+        "akahane2008-1-2968211",
+        "al-s11082-006-0037-2",
         "al2002-1-1476069",
         "al2006-pssa-200622106",
         "al2009-pssc-200881722",
@@ -79733,16 +81685,19 @@
         "das2016-acs-chemmater-6b01577",
         "dybiec2004-1-1763979",
         "el-emawy2003-1-1543647",
+        "eyink2004-1-1771671",
         "gong2002-1-1516637",
         "hakkarainen2013-j-jcrysgro-2012-12-099",
         "howe2005-1-2133904",
         "hwang2003-pssc-200303088",
         "ishikawa1998-1-581060",
+        "ji2003-1-1530717",
         "krause2005-physrevb-72-085339",
         "kulbachinskii2003-pssc-200303073",
         "lee2001-1-1336554",
         "lian1998-1-121719",
         "liang2004-1-1834987",
+        "liang2007-1-2821121",
         "lin2006-1-2234817",
         "lippen2005-1-1840098",
         "liu2006-1-2202195",
@@ -79752,6 +81707,7 @@
         "mi2005-1-1985969",
         "mi2006-1-2358847",
         "pal2001-1-1382855",
+        "pala2006-1-2193466",
         "passow2006-pssc-200671556",
         "peng1998",
         "saint-girons2006-1-2185008",
@@ -79761,6 +81717,7 @@
         "selcuk2009-1-3167813",
         "semenova2008-1-2927496",
         "shen1998-1-590068",
+        "shen2001-1-1385916",
         "sritirawisarn2008-1-2993178",
         "stewart2003-1-1609634",
         "strom2007-s11671-007-9040-1",
@@ -79768,9 +81725,22 @@
         "talapin2002-ja0123599",
         "tamang2016-acs-chemmater-6b03585",
         "tang2002-1-1467961",
+        "tokranov2003-1-1598645",
         "yeh2002-1-1445269"
       ],
       "source_links": [
+        {
+          "source_group": "akahane2008-1-2968211",
+          "doi": "10.1063/1.2968211",
+          "url": "https://doi.org/10.1063/1.2968211",
+          "title": "Highly stacked quantum-dot laser fabricated using a strain compensation technique"
+        },
+        {
+          "source_group": "al-s11082-006-0037-2",
+          "doi": "10.1007/s11082-006-0037-2",
+          "url": "https://doi.org/10.1007/s11082-006-0037-2",
+          "title": "Carrier Dynamics and Saturation Effect in (113)B InAs/InP Quantum Dot Lasers"
+        },
         {
           "source_group": "al2002-1-1476069",
           "doi": "10.1063/1.1476069",
@@ -79868,6 +81838,12 @@
           "title": "Formation trends in quantum dot growth using metalorganic chemical vapor deposition"
         },
         {
+          "source_group": "eyink2004-1-1771671",
+          "doi": "10.1116/1.1771671",
+          "url": "https://doi.org/10.1116/1.1771671",
+          "title": "Planar InAs growth on GaAs(001) and subsequent quantum dot formation by a surface induced morphological instability"
+        },
+        {
           "source_group": "gong2002-1-1516637",
           "doi": "10.1063/1.1516637",
           "url": "https://doi.org/10.1063/1.1516637",
@@ -79898,6 +81874,12 @@
           "title": "Self-organized quantum dots and quantum dot lasers (invited)"
         },
         {
+          "source_group": "ji2003-1-1530717",
+          "doi": "10.1063/1.1530717",
+          "url": "https://doi.org/10.1063/1.1530717",
+          "title": "InAs/GaAs quantum dot intermixing induced by proton implantation"
+        },
+        {
           "source_group": "krause2005-physrevb-72-085339",
           "doi": "10.1103/physrevb.72.085339",
           "url": "https://doi.org/10.1103/physrevb.72.085339",
@@ -79926,6 +81908,12 @@
           "doi": "10.1063/1.1834987",
           "url": "https://doi.org/10.1063/1.1834987",
           "title": "A growth pathway for highly ordered quantum dot arrays"
+        },
+        {
+          "source_group": "liang2007-1-2821121",
+          "doi": "10.1063/1.2821121",
+          "url": "https://doi.org/10.1063/1.2821121",
+          "title": "Optical properties of patterned InAs quantum dot ensembles grown on GaAs nanopyramids"
         },
         {
           "source_group": "lin2006-1-2234817",
@@ -79982,6 +81970,12 @@
           "title": "Structural characterization of InAs/GaAs quantum-dot nanostructures"
         },
         {
+          "source_group": "pala2006-1-2193466",
+          "doi": "10.1063/1.2193466",
+          "url": "https://doi.org/10.1063/1.2193466",
+          "title": "Characteristics of high-operating-temperature InAs/GaAs quantum-dot infrared detectors"
+        },
+        {
           "source_group": "passow2006-pssc-200671556",
           "doi": "10.1002/pssc.200671556",
           "url": "https://doi.org/10.1002/pssc.200671556",
@@ -80036,6 +82030,12 @@
           "title": "Modification of quantum dot properties via surface exchange and annealing: Substrate temperature effects"
         },
         {
+          "source_group": "shen2001-1-1385916",
+          "doi": "10.1116/1.1385916",
+          "url": "https://doi.org/10.1116/1.1385916",
+          "title": "Self-assembled quantum dot transformations via anion exchange"
+        },
+        {
           "source_group": "sritirawisarn2008-1-2993178",
           "doi": "10.1063/1.2993178",
           "url": "https://doi.org/10.1063/1.2993178",
@@ -80078,6 +82078,12 @@
           "title": "Integral and fractional charge filling in a InAs/GaAs quantum dot p–i–n diode by capacitance–voltage measurement"
         },
         {
+          "source_group": "tokranov2003-1-1598645",
+          "doi": "10.1063/1.1598645",
+          "url": "https://doi.org/10.1063/1.1598645",
+          "title": "Enhanced thermal stability of laser diodes with shape-engineered quantum dot medium"
+        },
+        {
           "source_group": "yeh2002-1-1445269",
           "doi": "10.1063/1.1445269",
           "url": "https://doi.org/10.1063/1.1445269",
@@ -80085,6 +82091,8 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1",
+        "al-s11082-006-0037-2-inas-inp-113-b-dc-qd-sample-1",
         "al2002-1-1476069-inas-quantum-dots-qds-grown-at-0-009-ml-2",
         "al2002-1-1476069-inas-quantum-dots-qds-grown-at-0-009-ml-3",
         "al2002-1-1476069-inas-quantum-dots-qds-grown-at-0-15-ml-s-1",
@@ -80097,6 +82105,7 @@
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-15ga0-2",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-20ga0-3",
         "el-emawy2003-1-1543647-inas-qds-grown-on-5-ml-of-in0-15ga0-85as-1",
+        "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1",
         "gong2002-1-1516637-inas-quantum-dots-on-in0-35ga0-65as-temp-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-2",
@@ -80107,6 +82116,8 @@
         "lian1998-1-121719-inas-quantum-dots-in-gaas-quantum-well-s-2",
         "lian1998-1-121719-inas-quantum-dots-in-gaas-quantum-well-s-3",
         "liang2004-1-1834987-inas-quantum-dot-array-1",
+        "liang2007-1-2821121-sample-a-inas-quantum-dot-clusters-1",
+        "liang2007-1-2821121-sample-b-inas-quantum-dot-pairs-2",
         "lippen2005-1-1840098-inas-qd-molecules-on-ten-period-sl-templ-1",
         "liu2006-1-2202195-1-32-m-inas-quantum-dot-laser-with-five-1",
         "mano2002-1-1503872-inas-quantum-dot-arrays-on-in-ga-as-gaas-1",
@@ -80117,6 +82128,12 @@
         "selcuk2009-1-3167813-single-inas-quantum-dot-arrays-1",
         "semenova2008-1-2927496-inas-quantum-dots-qds-embedded-in-in0-42-1",
         "shen1998-1-590068-inas-quantum-dots-1",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2",
+        "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-3",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5",
+        "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-6-ml-gaas-i-1",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-72-ml-gaas-2",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-84-ml-gaas-3",
@@ -80125,7 +82142,8 @@
         "talalaeva2004-1-1769077-inas-quantum-dot-molecules-qdms-with-5-n-1",
         "talapin2002-ja0123599-inas-nanocrystals-3",
         "tamang2016-acs-chemmater-6b03585-inas-nanoclusters-1",
-        "tamang2016-acs-chemmater-6b03585-inas-qds-5-79-0-43-nm-3"
+        "tamang2016-acs-chemmater-6b03585-inas-qds-5-79-0-43-nm-3",
+        "tokranov2003-1-1598645-truncated-inas-quantum-dots-qds-with-6-n-1"
       ]
     },
     {
@@ -80167,7 +82185,7 @@
     {
       "material_system": "InAs/GaAs",
       "notes": [],
-      "direct_synthesis_route_variant_count": 23,
+      "direct_synthesis_route_variant_count": 25,
       "direct_route_record_ids": [
         "al2006-pssa-200622106-sample-a-1",
         "al2006-pssa-200622106-sample-b-2",
@@ -80180,6 +82198,7 @@
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
@@ -80187,6 +82206,7 @@
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-high-den-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-lower-de-2",
         "stewart2003-1-1609634-30-stack-inas-gaas-quantum-dot-infrared-1",
@@ -80201,7 +82221,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 23,
+      "public_hub_route_contributions": 25,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 0,
@@ -80215,12 +82235,14 @@
         "chia2009-1-3245305",
         "clarke2010-1-3429226",
         "howe2005-1-2133904",
+        "ji2003-1-1530717",
         "krause2005-physrevb-72-085339",
         "kulbachinskii2003-pssc-200303073",
         "lin2006-1-2234817",
         "mazur2002-1-1510157",
         "mi2005-1-1985969",
         "pal2001-1-1382855",
+        "pala2006-1-2193466",
         "passow2006-pssc-200671556",
         "stewart2003-1-1609634",
         "tang2002-1-1467961",
@@ -80270,6 +82292,12 @@
           "title": "Quantiﬁcation of segregation and strain effects in InAs/GaAs quantum dot growth"
         },
         {
+          "source_group": "ji2003-1-1530717",
+          "doi": "10.1063/1.1530717",
+          "url": "https://doi.org/10.1063/1.1530717",
+          "title": "InAs/GaAs quantum dot intermixing induced by proton implantation"
+        },
+        {
           "source_group": "krause2005-physrevb-72-085339",
           "doi": "10.1103/physrevb.72.085339",
           "url": "https://doi.org/10.1103/physrevb.72.085339",
@@ -80304,6 +82332,12 @@
           "doi": "10.1063/1.1382855",
           "url": "https://doi.org/10.1063/1.1382855",
           "title": "Structural characterization of InAs/GaAs quantum-dot nanostructures"
+        },
+        {
+          "source_group": "pala2006-1-2193466",
+          "doi": "10.1063/1.2193466",
+          "url": "https://doi.org/10.1063/1.2193466",
+          "title": "Characteristics of high-operating-temperature InAs/GaAs quantum-dot infrared detectors"
         },
         {
           "source_group": "passow2006-pssc-200671556",
@@ -80342,6 +82376,7 @@
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "ji2003-1-1530717-inas-gaas-quantum-dots-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
@@ -80349,6 +82384,7 @@
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
+        "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-high-den-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-lower-de-2",
         "stewart2003-1-1609634-30-stack-inas-gaas-quantum-dot-infrared-1",
@@ -80749,9 +82785,10 @@
     {
       "material_system": "InGaAs",
       "notes": [],
-      "direct_synthesis_route_variant_count": 1,
+      "direct_synthesis_route_variant_count": 2,
       "direct_route_record_ids": [
-        "ishikawa1998-1-581060-ale-mode-grown-quantum-dots-2"
+        "ishikawa1998-1-581060-ale-mode-grown-quantum-dots-2",
+        "x2006-s11671-006-9003-y-inas-qdms-1"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -80761,7 +82798,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 3,
+      "public_hub_route_contributions": 4,
       "component_route_contribution_count": 2,
       "component_route_record_ids": [
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-five-1",
@@ -80772,7 +82809,8 @@
       "material_hub_url": "material.html?id=ingaas-2dd8f1",
       "source_groups": [
         "ishikawa1998-1-581060",
-        "salhi2006-1-2402744"
+        "salhi2006-1-2402744",
+        "x2006-s11671-006-9003-y"
       ],
       "source_links": [
         {
@@ -80786,10 +82824,17 @@
           "doi": "10.1063/1.2402744",
           "url": "https://doi.org/10.1063/1.2402744",
           "title": "Enhanced modal gain of multilayer InAs/InGaAs/GaAs quantum dot lasers emitting at 1300 nm"
+        },
+        {
+          "source_group": "x2006-s11671-006-9003-y",
+          "doi": "10.1007/s11671-006-9003-y",
+          "url": "https://doi.org/10.1007/s11671-006-9003-y",
+          "title": "Guided self-assembly of lateral InAs/GaAs quantum-dot molecules for single molecule spectroscopy"
         }
       ],
       "direct_route_recipe_family_ids": [
-        "ishikawa1998-1-581060-ale-mode-grown-quantum-dots-2"
+        "ishikawa1998-1-581060-ale-mode-grown-quantum-dots-2",
+        "x2006-s11671-006-9003-y-inas-qdms-1"
       ]
     },
     {
@@ -84937,7 +86982,7 @@
       "notes": [
         "Numeric benchmark only, one source. 100 selected rows include95 optical outcomes and5 source-coded failures; no reviewed synthesis hub."
       ],
-      "direct_synthesis_route_variant_count": 102,
+      "direct_synthesis_route_variant_count": 103,
       "direct_route_record_ids": [
         "al2011-nn103303q-pbs-nc-film-2",
         "al2011-nn203728t-pbs-nanocrystals-capped-with-c18-oleic-a-1",
@@ -84976,6 +87021,7 @@
         "keeble2009-jp9044429-pbs-meh-ppv-2",
         "kim2013-pbs-ionic-liquid-am3029766-pbs-qd",
         "kim2014-cm502763z-pbs-nanocrystals-5-5-nm-1",
+        "klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1",
         "koh2011-nl202578g-pbs-nanocubes-1",
         "li2010-cm903648c-155-nm-pbs-cncs-1",
         "li2010-cm903648c-180-nm-pbs-cncs-2",
@@ -85090,7 +87136,7 @@
       "benchmark_row_count": 100,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 131,
+      "public_hub_route_contributions": 132,
       "component_route_contribution_count": 29,
       "component_route_record_ids": [
         "al2014-cm501739h-pbs-cds-core-shell-nanocrystals-1",
@@ -85161,6 +87207,7 @@
         "kim2013-pbs-ionic-liquid-am3029766",
         "kim2014-cm502763z",
         "kinder2011-ja208670r",
+        "klem2008-1-2917800",
         "koh2011-nl202578g",
         "li2010-cm903648c",
         "lifshitz2006-jp0644356",
@@ -85412,6 +87459,12 @@
           "doi": "10.1021/ja208670r",
           "url": "https://doi.org/10.1021/ja208670r",
           "title": "Fabrication of All-Inorganic Nanocrystal Solids through Matrix Encapsulation of Nanocrystal Arrays"
+        },
+        {
+          "source_group": "klem2008-1-2917800",
+          "doi": "10.1063/1.2917800",
+          "url": "https://doi.org/10.1063/1.2917800",
+          "title": "Impact of dithiol treatment and air annealing on the conductivity, mobility, and hole density in PbS colloidal quantum dot solids"
         },
         {
           "source_group": "koh2011-nl202578g",
@@ -85725,6 +87778,7 @@
         "keeble2009-jp9044429-pbs-meh-ppv-2",
         "kim2013-pbs-ionic-liquid-am3029766-pbs-qd",
         "kim2014-cm502763z-pbs-nanocrystals-5-5-nm-1",
+        "klem2008-1-2917800-pbs-colloidal-quantum-dot-cqd-films-1",
         "koh2011-nl202578g-pbs-nanocubes-1",
         "li2010-cm903648c-155-nm-pbs-cncs-1",
         "li2010-cm903648c-180-nm-pbs-cncs-2",
@@ -88052,17 +90106,25 @@
         "Littau1993: Oxide-layer information remains within Si/SiOx; no standalone SiOx synthesis or separate oxide material page is counted.",
         "Heath1996 adds two Ge/Si routes in which Si is the substrate. These do not become isolated Si syntheses or intrinsic Si property labels. The five component links refer to five existing route IDs across two sources."
       ],
-      "direct_synthesis_route_variant_count": 19,
+      "direct_synthesis_route_variant_count": 28,
       "direct_route_record_ids": [
         "al2010-la102983c-c11-functionalized-si-ncs-1",
         "al2010-la102983c-c3-functionalized-si-ncs-4",
         "al2010-la102983c-c5-functionalized-si-ncs-3",
         "al2010-la102983c-c7-functionalized-si-ncs-2",
         "choi2007-la062906-h-terminated-si-nanocrystals-1",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1000-c-2",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1100-c-3",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1",
         "fukuda1997-1-118816-si-quantum-dot-1",
+        "huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-high-dose-2",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1",
         "le2019-acsomega-8b03459-si-qd-cluster-a-p-2-1",
         "lechner2008-1-2973399-boron-doped-silicon-nanocrystals-si-ncs-1",
         "lechner2008-1-2973399-phosphorus-doped-silicon-nanocrystals-si-2",
+        "lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1",
+        "otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1",
         "rafiq2008-1-3050332-sinc-film-with-8-nm-diameter-si-nanocrys-1",
         "sharma2019-acssuschemeng-8b05345-si-qds-1",
         "terada2022-acssuschemeng-1c04985-decyl-passivated-siqds-1",
@@ -88072,7 +90134,8 @@
         "x2011-jp109301d-si-ncs-fragmented-in-ethanol-1",
         "x2011-jp109301d-si-ncs-fragmented-in-water-2",
         "xu2012-am300877v-ncsi-mpm1-1",
-        "xu2012-am300877v-ncsi-mpm2-2"
+        "xu2012-am300877v-ncsi-mpm2-2",
+        "zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1"
       ],
       "contextual_control_count": 2,
       "contextual_control_record_ids": [
@@ -88085,7 +90148,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 28,
+      "public_hub_route_contributions": 37,
       "component_route_contribution_count": 9,
       "component_route_record_ids": [
         "heath-1996-ge-100nm-wells",
@@ -88104,12 +90167,17 @@
       "source_groups": [
         "al2010-la102983c",
         "choi2007-la062906",
+        "cooke2006-physrevb-73-193311",
         "fukuda1997-1-118816",
         "heath1996",
         "hu2004-1-1808472",
+        "huh2006-1-2191409",
+        "kapetanakis2002-1-1470262",
         "le2019-acsomega-8b03459",
         "lechner2008-1-2973399",
         "littau1993",
+        "lu1999-1-590681",
+        "otobe1998-1-120973",
         "paliwal2018-pbs-microwave-acsanm8b01194",
         "rafiq2008-1-3050332",
         "sharma2019-acssuschemeng-8b05345",
@@ -88119,7 +90187,8 @@
         "wei2012-jp210080k",
         "x2010-s11671-010-9632-z",
         "x2011-jp109301d",
-        "xu2012-am300877v"
+        "xu2012-am300877v",
+        "zhou2009-1-3204669"
       ],
       "source_links": [
         {
@@ -88133,6 +90202,12 @@
           "doi": "10.1021/la062906+",
           "url": "https://doi.org/10.1021/la062906+",
           "title": "Photoassisted Tuning of Silicon Nanocrystal Photoluminescence"
+        },
+        {
+          "source_group": "cooke2006-physrevb-73-193311",
+          "doi": "10.1103/physrevb.73.193311",
+          "url": "https://doi.org/10.1103/physrevb.73.193311",
+          "title": "Transient terahertz conductivity in photoexcited silicon nanocrystal films"
         },
         {
           "source_group": "fukuda1997-1-118816",
@@ -88153,6 +90228,18 @@
           "title": "Si/ZnS and Si/ZnSe core/shell nanocrystal structures"
         },
         {
+          "source_group": "huh2006-1-2191409",
+          "doi": "10.1063/1.2191409",
+          "url": "https://doi.org/10.1063/1.2191409",
+          "title": "Effects of Ag/indium tin oxide contact to a SiC doping layer on performance of Si nanocrystal light-emitting diodes"
+        },
+        {
+          "source_group": "kapetanakis2002-1-1470262",
+          "doi": "10.1063/1.1470262",
+          "url": "https://doi.org/10.1063/1.1470262",
+          "title": "Room-temperature single-electron charging phenomena in large-area nanocrystal memory obtained by low-energy ion beam synthesis"
+        },
+        {
           "source_group": "le2019-acsomega-8b03459",
           "doi": "10.1021/acsomega.8b03459",
           "url": "https://doi.org/10.1021/acsomega.8b03459",
@@ -88169,6 +90256,18 @@
           "doi": "10.1021/j100108a019",
           "url": "https://doi.org/10.1021/j100108a019",
           "title": "A Luminescent Silicon Nanocrystal Colloid via a High-Temperature Aerosol Reaction"
+        },
+        {
+          "source_group": "lu1999-1-590681",
+          "doi": "10.1116/1.590681",
+          "url": "https://doi.org/10.1116/1.590681",
+          "title": "Microstructure characterization of oxidized nanocrystalline Si:H film by transmission electron microscopy"
+        },
+        {
+          "source_group": "otobe1998-1-120973",
+          "doi": "10.1063/1.120973",
+          "url": "https://doi.org/10.1063/1.120973",
+          "title": "Observation of the single electron charging effect in nanocrystalline silicon at room temperature using atomic force microscopy"
         },
         {
           "source_group": "paliwal2018-pbs-microwave-acsanm8b01194",
@@ -88229,6 +90328,12 @@
           "doi": "10.1021/am300877v",
           "url": "https://doi.org/10.1021/am300877v",
           "title": "Photoluminescent Silicon Nanocrystal-Based Multifunctional Carrier for pH-Regulated Drug Delivery"
+        },
+        {
+          "source_group": "zhou2009-1-3204669",
+          "doi": "10.1063/1.3204669",
+          "url": "https://doi.org/10.1063/1.3204669",
+          "title": "Electron transport in surface oxidized Si nanocrystal ensembles with thin film transistor structure"
         }
       ],
       "direct_route_recipe_family_ids": [
@@ -88237,10 +90342,18 @@
         "al2010-la102983c-c5-functionalized-si-ncs-3",
         "al2010-la102983c-c7-functionalized-si-ncs-2",
         "choi2007-la062906-h-terminated-si-nanocrystals-1",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1000-c-2",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-1100-c-3",
+        "cooke2006-physrevb-73-193311-si-nc-film-ta-900-c-1",
         "fukuda1997-1-118816-si-quantum-dot-1",
+        "huh2006-1-2191409-nc-si-embedded-in-silicon-nitride-film-1",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-high-dose-2",
+        "kapetanakis2002-1-1470262-si-nanocrystals-in-gate-oxide-low-dose-1-1",
         "le2019-acsomega-8b03459-si-qd-cluster-a-p-2-1",
         "lechner2008-1-2973399-boron-doped-silicon-nanocrystals-si-ncs-1",
         "lechner2008-1-2973399-phosphorus-doped-silicon-nanocrystals-si-2",
+        "lu1999-1-590681-oxidized-nanocrystalline-si-h-film-1",
+        "otobe1998-1-120973-surface-oxidized-nanocrystalline-silicon-1",
         "rafiq2008-1-3050332-sinc-film-with-8-nm-diameter-si-nanocrys-1",
         "sharma2019-acssuschemeng-8b05345-si-qds-1",
         "terada2022-acssuschemeng-1c04985-decyl-passivated-siqds-1",
@@ -88250,7 +90363,8 @@
         "x2011-jp109301d-si-ncs-fragmented-in-ethanol-1",
         "x2011-jp109301d-si-ncs-fragmented-in-water-2",
         "xu2012-am300877v-ncsi-mpm1-1",
-        "xu2012-am300877v-ncsi-mpm2-2"
+        "xu2012-am300877v-ncsi-mpm2-2",
+        "zhou2009-1-3204669-surface-oxidized-si-nanocrystals-1"
       ]
     },
     {
@@ -88366,6 +90480,78 @@
       ],
       "direct_route_recipe_family_ids": [
         "hu2004-1-1808472-si-znse-core-shell-nanocrystal-structure-2"
+      ]
+    },
+    {
+      "material_system": "SiGe",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "sige-93d686",
+      "material_hub_url": "material.html?id=sige-93d686",
+      "source_groups": [
+        "holy2009-physrevb-79-035324"
+      ],
+      "source_links": [
+        {
+          "source_group": "holy2009-physrevb-79-035324",
+          "doi": "10.1103/physrevb.79.035324",
+          "url": "https://doi.org/10.1103/physrevb.79.035324",
+          "title": "X-ray diffraction investigation of a three-dimensional Si/SiGe quantum dot crystal"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "holy2009-physrevb-79-035324-3d-sige-quantum-dot-crystal-1"
+      ]
+    },
+    {
+      "material_system": "SiNCs",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "sincs-88e04b",
+      "material_hub_url": "material.html?id=sincs-88e04b",
+      "source_groups": [
+        "anthony2012-nl300164z"
+      ],
+      "source_links": [
+        {
+          "source_group": "anthony2012-nl300164z",
+          "doi": "10.1021/nl300164z",
+          "url": "https://doi.org/10.1021/nl300164z",
+          "title": "An All-Gas-Phase Approach for the Fabrication of Silicon Nanocrystal Light-Emitting Devices"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "anthony2012-nl300164z-plasma-synthesized-silicon-nanocrystals-1"
       ]
     },
     {
@@ -91677,7 +93863,7 @@
       "notes": [
         "Shell-component context only; this page does not claim an isolated ZnS synthesis."
       ],
-      "direct_synthesis_route_variant_count": 18,
+      "direct_synthesis_route_variant_count": 19,
       "direct_route_record_ids": [
         "al2013-nn402844m-zns-nanoparticles-2",
         "banerjee2005-ja054907e-zns-nanocrystals-on-m1-peptide-nanotubes-1",
@@ -91696,7 +93882,8 @@
         "reda2010-jmr-2010-0077-zns-nanoparticles-2",
         "stam2014-nl4046069-hexagonal-bifrustum-shaped-zns-nanocryst-2",
         "stam2014-nl4046069-hexagonal-bipyramid-shaped-zns-nanocryst-1",
-        "text2011-ac201016c-mn2-doped-zns-cys-mn-zns-cys-qds-1"
+        "text2011-ac201016c-mn2-doped-zns-cys-mn-zns-cys-qds-1",
+        "zheng2019-2-0171906jss-zns-qds-2"
       ],
       "contextual_control_count": 0,
       "contextual_control_record_ids": [],
@@ -91709,8 +93896,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 144,
-      "component_route_contribution_count": 126,
+      "public_hub_route_contributions": 148,
+      "component_route_contribution_count": 129,
       "component_route_record_ids": [
         "1-1863445-cds-zns-nc-silica-composite-film-1",
         "a2021-j-cap-2021-07-001-cdse-zns-qds-1",
@@ -91817,6 +94004,8 @@
         "tian2014-am5033567-cdse-zns-coreshell-qds-1",
         "travert-branger2011-la200509z-cdse-zns-nanocrystals-encapsulated-in-po-1",
         "uehara2009-jnn-2009-j050-zns-cdse-zns-core-shell-shell-1",
+        "wang2008-anie-200703648-g-qd-c1-1",
+        "wang2008-anie-200703648-r-qd-c2-2",
         "wang2009-s10853-008-3138-4-mps-capped-cdse-zns-core-shell-qds-1",
         "wang2012-jp210062x-cdse-zns-qds-1",
         "wang2013-nn3045215-520-nm-cdse-cds-zns-qd-barcodes-1",
@@ -91836,6 +94025,7 @@
         "zhang2019-qd-au-9b03818-lipid-transfer",
         "zhang2019-qd-au-9b03818-polymer-plh",
         "zhang2019-qd-au-9b03818-silar",
+        "zheng2019-2-0171906jss-mixed-joint-cds-zns-qds-3",
         "zhou2022-inp-multishell-acsanm2c04509-mpa-transfer",
         "zhou2022-inp-multishell-acsanm2c04509-multishell"
       ],
@@ -91928,6 +94118,7 @@
         "tian2014-am5033567",
         "travert-branger2011-la200509z",
         "uehara2009-jnn-2009-j050",
+        "wang2008-anie-200703648",
         "wang2009-s10853-008-3138-4",
         "wang2012-jp210062x",
         "wang2013-nn3045215",
@@ -91941,6 +94132,7 @@
         "yu2010-la904488w",
         "zane2014-jp504755a",
         "zhang2019-qd-au-9b03818",
+        "zheng2019-2-0171906jss",
         "zhou2022-inp-multishell-acsanm2c04509"
       ],
       "source_links": [
@@ -92455,6 +94647,12 @@
           "title": "Preparation of ZnS/CdSe/ZnS Quantum Dot Quantum Well by Using a Microfluidic Reactor"
         },
         {
+          "source_group": "wang2008-anie-200703648",
+          "doi": "10.1002/anie.200703648",
+          "url": "https://doi.org/10.1002/anie.200703648",
+          "title": "Quantum Dot Bioconjugation during Core–Shell Synthesis"
+        },
+        {
           "source_group": "wang2009-s10853-008-3138-4",
           "doi": "10.1007/s10853-008-3138-4",
           "url": "https://doi.org/10.1007/s10853-008-3138-4",
@@ -92533,6 +94731,12 @@
           "title": "Enzymatic Preparation of Plasmonic-Fluorescent Quantum Dot-Gold Hybrid Nanoprobes for Sensitive Detection of Glucose and Alkaline Phosphatase and Dual-Modality Cell Imaging"
         },
         {
+          "source_group": "zheng2019-2-0171906jss",
+          "doi": "10.1149/2.0171906jss",
+          "url": "https://doi.org/10.1149/2.0171906jss",
+          "title": "The High Performance of Quantum Dot Sensitized Solar Cells Co-Sensitized with Mixed-Joint CdS and ZnS Quantum Dots"
+        },
+        {
           "source_group": "zhou2022-inp-multishell-acsanm2c04509",
           "doi": "10.1021/acsanm.2c04509",
           "url": "https://doi.org/10.1021/acsanm.2c04509",
@@ -92557,7 +94761,8 @@
         "reda2010-jmr-2010-0077-zns-nanoparticles-2",
         "stam2014-nl4046069-hexagonal-bifrustum-shaped-zns-nanocryst-2",
         "stam2014-nl4046069-hexagonal-bipyramid-shaped-zns-nanocryst-1",
-        "text2011-ac201016c-mn2-doped-zns-cys-mn-zns-cys-qds-1"
+        "text2011-ac201016c-mn2-doped-zns-cys-mn-zns-cys-qds-1",
+        "zheng2019-2-0171906jss-zns-qds-2"
       ]
     },
     {
@@ -94871,8 +97076,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "b732e1cfc9502c0f518064a383caf46d748efdc127a3fdf32ee5bbcb7a5d001c",
-    "record_ids_sha256": "c551dd6ece0b3bbff47422cf4efb27718f35d07168292c89b9bce54a264c09e5",
+    "reviewed_evidence_sha256": "ae00e2bb5de33c712336862d12332cb6e2a4c043290972772985c462aab670a6",
+    "record_ids_sha256": "802062067819d7c9e2cfa7399737b745e98c0558f734b3b7d1ce3ea1278446e0",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }
