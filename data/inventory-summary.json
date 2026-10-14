@@ -4,18 +4,18 @@
   "summary": {
     "candidate_groups_without_local_documents": 394,
     "local_document_files_indexed": 7373,
-    "local_paper_groups_indexed": 4902,
+    "local_paper_groups_indexed": 4935,
     "paper_candidate_groups_total": 4570,
     "unique_document_content_hashes": 6857,
     "historical_augmented_library_groups": 4214,
     "frozen_intake_local_paper_groups": 4176,
-    "curated_library_additions": 726,
-    "canonical_records": 4109,
-    "reviewed_literature_records": 4009,
-    "reviewed_literature_source_groups": 981,
+    "curated_library_additions": 759,
+    "canonical_records": 4154,
+    "reviewed_literature_records": 4054,
+    "reviewed_literature_source_groups": 1014,
     "published_benchmark_rows": 100,
     "published_benchmark_source_groups": 1,
-    "total_canonical_source_groups": 982,
+    "total_canonical_source_groups": 1015,
     "formal_full_main_and_matched_si_reviews": 41,
     "formal_full_review_pages": 793,
     "formal_full_main_reviews_si_unverified": 104,
@@ -28,37 +28,37 @@
     "legacy_main_pages_inspected": 13,
     "selected_recipe_figure_review_sources": 93,
     "local_groups_without_canonical_records": 3920,
-    "synthesis_route_variant_records": 2280,
+    "synthesis_route_variant_records": 2325,
     "contextual_control_variant_records": 108,
     "shared_preparation_workup_characterization_assay_procedures": 1018,
-    "nonprocedure_literature_records": 2991,
+    "nonprocedure_literature_records": 3036,
     "literature_record_type_counts": {
       "experiment": 45,
-      "literature_protocol": 2079,
+      "literature_protocol": 2124,
       "observation": 565,
       "procedure": 1018,
       "protocol_variant": 302
     },
     "canonical_record_type_counts": {
       "experiment": 145,
-      "literature_protocol": 2079,
+      "literature_protocol": 2124,
       "observation": 565,
       "procedure": 1018,
       "protocol_variant": 302
     },
-    "literature_recipe_family_ids": 1520,
-    "primary_synthesis_recipe_family_ids": 1458,
-    "public_material_hubs": 525,
-    "direct_synthesis_target_systems": 440,
-    "component_only_hubs": 85,
-    "all_nonprocedure_literature_product_identity_categories_including_controls": 554,
+    "literature_recipe_family_ids": 1565,
+    "primary_synthesis_recipe_family_ids": 1503,
+    "public_material_hubs": 533,
+    "direct_synthesis_target_systems": 445,
+    "component_only_hubs": 88,
+    "all_nonprocedure_literature_product_identity_categories_including_controls": 559,
     "independent_experiment_count": null,
     "full_corpus_distinct_synthesized_material_count": null,
     "full_corpus_recipe_count": null,
     "verified_exact_structure_recipe_pairs": 0,
     "exact_coordinate_training_ready_records": 0,
     "contextual_observation_records": 565,
-    "recipe_or_control_literature_records": 2388,
+    "recipe_or_control_literature_records": 2433,
     "contextual_observation_family_ids": 118,
     "source_checked_synthesis_structure_rows": 864,
     "source_groups_with_synthesis_structure_rows": 193,
@@ -332,6 +332,8 @@
       "In4Te3",
       "In66Si100Al92O384",
       "InAs",
+      "InAs/AlAs",
+      "InAs/AlGaAs",
       "InAs/CdSe",
       "InAs/GaAs",
       "InAs/GaAs/AlAs",
@@ -351,6 +353,7 @@
       "InP",
       "InP-ZnS",
       "InP/GaP",
+      "InP/In0.5Al0.3Ga0.2P",
       "InP/ZnS",
       "InP/ZnSe/ZnS",
       "InP/ZnSeS",
@@ -358,6 +361,8 @@
       "InP@ZnSeS",
       "InP−InAsP",
       "InSb",
+      "InSb/GaSb",
+      "InSb/InAs",
       "InZnP",
       "InZnP/ZnMgSe",
       "InZnP/ZnMgSe/ZnS",
@@ -553,6 +558,7 @@
       "Ag2Te/PbTe mixed NC solids",
       "AgInS2 core",
       "AlAs",
+      "AlGaAs",
       "Au source context",
       "C1",
       "CIS",
@@ -579,12 +585,14 @@
       "GaAs",
       "GaInAs",
       "GaP",
+      "GaSb",
       "Ge",
       "III",
       "In",
       "In(Zn)P",
       "In0.15Al0.25Ga0.60As",
       "In0.15Ga0.85As",
+      "In0.5Al0.3Ga0.2P",
       "InAsP",
       "InAsxP1−x",
       "LaVO4",
@@ -8855,6 +8863,66 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "cao2000-1-126693",
+      "paper_id": "cao2000-1-126693",
+      "doi": "10.1063/1.126693",
+      "url": "https://doi.org/10.1063/1.126693",
+      "title": "Optically pumped InAs quantum dot microdisk lasers",
+      "year": 2000,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1": "records/cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "cao2004-ja0459678",
       "paper_id": "cao2004-ja0459678",
       "doi": "10.1021/ja0459678",
@@ -9186,6 +9254,66 @@
       ],
       "record_urls": {
         "carnes2000-la991498p-nc-zno-1": "records/carnes2000-la991498p-nc-zno-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "carrington2008-1-2976551",
+      "paper_id": "carrington2008-1-2976551",
+      "doi": "10.1063/1.2976551",
+      "url": "https://doi.org/10.1063/1.2976551",
+      "title": "Room temperature midinfrared electroluminescence from InSb/InAs quantum dot light emitting diodes",
+      "year": 2008,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1"
+      ],
+      "direct_route_material_systems": [
+        "InSb/InAs"
+      ],
+      "record_urls": {
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1": "records/carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -10529,6 +10657,64 @@
         "chemmater2017-cdse-cald-7b01873-zns4-3p8": "records/chemmater2017-cdse-cald-7b01873-zns4-3p8.html"
       },
       "source_checked_synthesis_structure_rows": 5
+    },
+    {
+      "source_group": "chen2001-1-1356430",
+      "paper_id": "chen2001-1-1356430",
+      "doi": "10.1063/1.1356430",
+      "url": "https://doi.org/10.1063/1.1356430",
+      "title": "Normal incidence InAs/AlxGa1−xAs quantum dot infrared photodetectors with undoped active region",
+      "year": 2001,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/AlGaAs"
+      ],
+      "record_urls": {
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1": "records/chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "chen2002-nl025767z",
@@ -11895,6 +12081,71 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "child2003-physrevb-68-165307",
+      "paper_id": "child2003-physrevb-68-165307",
+      "doi": "10.1103/physrevb.68.165307",
+      "url": "https://doi.org/10.1103/physrevb.68.165307",
+      "title": "Far-infrared modulated photoluminescence spectroscopy of InSb/GaSb quantum dot structures",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 2,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2"
+      ],
+      "direct_route_material_systems": [
+        "InSb/GaSb"
+      ],
+      "record_urls": {
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1": "records/child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1.html",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2": "records/child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "chilla2008-physrevlett-100-057403",
       "paper_id": "chilla2008-physrevlett-100-057403",
       "doi": "10.1103/physrevlett.100.057403",
@@ -12833,6 +13084,67 @@
       ],
       "record_urls": {
         "choi2017-s41598-017-00669-9-pbs-qd-ink-1": "records/choi2017-s41598-017-00669-9-pbs-qd-ink-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "chou2005-1-1900730",
+      "paper_id": "chou2005-1-1900730",
+      "doi": "10.1116/1.1900730",
+      "url": "https://doi.org/10.1116/1.1900730",
+      "title": "High-performance 30-period quantum-dot infrared photodetector",
+      "year": 2005,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1": "records/chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1.html",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2": "records/chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -16925,6 +17237,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "fafard1999-1-124854",
+      "paper_id": "fafard1999-1-124854",
+      "doi": "10.1063/1.124854",
+      "url": "https://doi.org/10.1063/1.124854",
+      "title": "Evolution of the energy levels in quantum dot ensembles with different densities",
+      "year": 1999,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/fafard1999-1-124854-inas-gaas-quantum-dots-qds-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "fafard1999-1-124854-inas-gaas-quantum-dots-qds-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "fafard1999-1-124854-inas-gaas-quantum-dots-qds-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "fafard1999-1-124854-inas-gaas-quantum-dots-qds-1": "records/fafard1999-1-124854-inas-gaas-quantum-dots-qds-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "fafarman2014-ag-nc-films-nn406461p",
       "paper_id": "fafarman2014-ag-nc-films-nn406461p",
       "doi": "10.1021/nn406461p",
@@ -17219,6 +17593,68 @@
       "record_urls": {
         "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1": "records/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-spher-1.html",
         "fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2": "records/fasoli2008-1-2825425-cdse-nanostructures-nucleated-from-tetra-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "fekete2006-1-2168025",
+      "paper_id": "fekete2006-1-2168025",
+      "doi": "10.1063/1.2168025",
+      "url": "https://doi.org/10.1063/1.2168025",
+      "title": "Temperature dependence of the coupling between n-type δ-doping region and quantum dot assemblies",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            2,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1": "records/fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -19226,6 +19662,67 @@
       "source_checked_synthesis_structure_rows": 3
     },
     {
+      "source_group": "gilfert2010-1-3428956",
+      "paper_id": "gilfert2010-1-3428956",
+      "doi": "10.1063/1.3428956",
+      "url": "https://doi.org/10.1063/1.3428956",
+      "title": "Influence of the As2/As4 growth modes on the formation of quantum dot-like InAs islands grown on InAlGaAs/InP (100)",
+      "year": 2010,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/gilfert2010-1-3428956-inas-quantum-dashes-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "gilfert2010-1-3428956-inas-quantum-dashes-1",
+        "gilfert2010-1-3428956-inas-quantum-dots-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "gilfert2010-1-3428956-inas-quantum-dashes-1",
+        "gilfert2010-1-3428956-inas-quantum-dots-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "gilfert2010-1-3428956-inas-quantum-dashes-1": "records/gilfert2010-1-3428956-inas-quantum-dashes-1.html",
+        "gilfert2010-1-3428956-inas-quantum-dots-2": "records/gilfert2010-1-3428956-inas-quantum-dots-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "gong2002-1-1516637",
       "paper_id": "gong2002-1-1516637",
       "doi": "10.1063/1.1516637",
@@ -19784,6 +20281,73 @@
         "guimard2010-1-3427392-qdsc-2-2": "records/guimard2010-1-3427392-qdsc-2-2.html",
         "guimard2010-1-3427392-qdsc-3-3": "records/guimard2010-1-3427392-qdsc-3-3.html",
         "guimard2010-1-3427392-qdsc-4-4": "records/guimard2010-1-3427392-qdsc-4-4.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "guo2001-1-1388209",
+      "paper_id": "guo2001-1-1388209",
+      "doi": "10.1116/1.1388209",
+      "url": "https://doi.org/10.1116/1.1388209",
+      "title": "Effects of Be on the II–VI/GaAs interface and on CdSe quantum dot formation",
+      "year": 2001,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/guo2001-1-1388209-cdse-qds-on-znbese-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "guo2001-1-1388209-cdse-qds-on-znbese-1",
+        "guo2001-1-1388209-cdse-qds-on-znse-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 2,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "guo2001-1-1388209-cdse-qds-on-znbese-1",
+        "guo2001-1-1388209-cdse-qds-on-znse-2"
+      ],
+      "direct_route_material_systems": [
+        "CdSe"
+      ],
+      "record_urls": {
+        "guo2001-1-1388209-cdse-qds-on-znbese-1": "records/guo2001-1-1388209-cdse-qds-on-znbese-1.html",
+        "guo2001-1-1388209-cdse-qds-on-znse-2": "records/guo2001-1-1388209-cdse-qds-on-znse-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -23108,6 +23672,64 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "huang2005-1-2008271",
+      "paper_id": "huang2005-1-2008271",
+      "doi": "10.1116/1.2008271",
+      "url": "https://doi.org/10.1116/1.2008271",
+      "title": "Temperature dependence of carrier dynamics for InAs∕GaAs quantum dot infrared photodetectors",
+      "year": 2005,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1": "records/huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "huang2008-jp710778s",
       "paper_id": "huang2008-jp710778s",
       "doi": "10.1021/jp710778s",
@@ -23819,6 +24441,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "ide2004-1-1787157",
+      "paper_id": "ide2004-1-1787157",
+      "doi": "10.1063/1.1787157",
+      "url": "https://doi.org/10.1063/1.1787157",
+      "title": "Lasing characteristics of InAs quantum-dot microdisk from 3K to room temperature",
+      "year": 2004,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1": "records/ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "igarashi2001-zns-mn-a1011445009443",
       "doi": "10.1023/A:1011445009443",
       "url": "https://doi.org/10.1023/A:1011445009443",
@@ -24420,6 +25104,68 @@
       "record_urls": {
         "ishikawa1998-1-581060-ale-mode-grown-quantum-dots-2": "records/ishikawa1998-1-581060-ale-mode-grown-quantum-dots-2.html",
         "ishikawa1998-1-581060-s-k-mode-grown-quantum-dots-1": "records/ishikawa1998-1-581060-s-k-mode-grown-quantum-dots-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "ishikawa2000-1-125691",
+      "paper_id": "ishikawa2000-1-125691",
+      "doi": "10.1063/1.125691",
+      "url": "https://doi.org/10.1063/1.125691",
+      "title": "Site-controlled InAs single quantum-dot structures on GaAs surfaces patterned by in situ electron-beam lithography",
+      "year": 2000,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ishikawa2000-1-125691-inas-single-quantum-dot-array-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ishikawa2000-1-125691-inas-single-quantum-dot-array-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ishikawa2000-1-125691-inas-single-quantum-dot-array-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "ishikawa2000-1-125691-inas-single-quantum-dot-array-1": "records/ishikawa2000-1-125691-inas-single-quantum-dot-array-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -29739,6 +30485,66 @@
       ],
       "record_urls": {
         "kioseoglou2008-physrevlett-101-227203-inas-quantum-dots-1": "records/kioseoglou2008-physrevlett-101-227203-inas-quantum-dots-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "kiravittaya2006-1-2168494",
+      "paper_id": "kiravittaya2006-1-2168494",
+      "doi": "10.1063/1.2168494",
+      "url": "https://doi.org/10.1063/1.2168494",
+      "title": "Photoluminescence from seeded three-dimensional InAs∕GaAs quantum-dot crystals",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/kiravittaya2006-1-2168494-qdc11-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "kiravittaya2006-1-2168494-qdc11-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "kiravittaya2006-1-2168494-qdc11-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "kiravittaya2006-1-2168494-qdc11-1": "records/kiravittaya2006-1-2168494-qdc11-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -35396,6 +36202,64 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "lin2003-1-1594285",
+      "paper_id": "lin2003-1-1594285",
+      "doi": "10.1063/1.1594285",
+      "url": "https://doi.org/10.1063/1.1594285",
+      "title": "Transport characteristics of InAs/GaAs quantum-dot infrared photodetectors",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2
+          ],
+          "actual_pages_text_read": [
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1": "records/lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "lin2006-1-2234817",
       "paper_id": "lin2006-1-2234817",
       "doi": "10.1063/1.2234817",
@@ -35976,6 +36840,129 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "lippen2005-1-1994256",
+      "paper_id": "lippen2005-1-1994256",
+      "doi": "10.1063/1.1994256",
+      "url": "https://doi.org/10.1063/1.1994256",
+      "title": "Self-Organized Lattice of Ordered Quantum Dot Molecules",
+      "year": 2005,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 3,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1": "records/lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "lippen2007-physrevb-75-115414",
+      "paper_id": "lippen2007-physrevb-75-115414",
+      "doi": "10.1103/physrevb.75.115414",
+      "url": "https://doi.org/10.1103/physrevb.75.115414",
+      "title": "Extended electron states in lateral quantum dot molecules investigated with photoluminescence",
+      "year": 2007,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            1,
+            2
+          ],
+          "actual_pages_text_read": [
+            1,
+            2
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1": "records/lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1.html",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-2": "records/lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "littau1993",
       "doi": "10.1021/j100108a019",
       "url": "https://doi.org/10.1021/j100108a019",
@@ -36050,6 +37037,73 @@
         "littau-1993-si-tem-characterization": "records/littau-1993-si-tem-characterization.html",
         "littau-1993-si-time-resolved-pl": "records/littau-1993-si-time-resolved-pl.html",
         "littau-1993-si-xrd-characterization": "records/littau-1993-si-xrd-characterization.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "liu2001-1-1337649",
+      "paper_id": "liu2001-1-1337649",
+      "doi": "10.1063/1.1337649",
+      "url": "https://doi.org/10.1063/1.1337649",
+      "title": "Quantum dot infrared photodetectors",
+      "year": 2001,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liu2001-1-1337649-inas-gaas-qdip-sample-a-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2"
+      ],
+      "canonical_record_count": 3,
+      "synthesis_route_variant_count": 3,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 3
+      },
+      "canonical_recipe_family_ids": [
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs/AlGaAs",
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3": "records/liu2001-1-1337649-inas-algaas-qdip-sample-c-3.html",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1": "records/liu2001-1-1337649-inas-gaas-qdip-sample-a-1.html",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2": "records/liu2001-1-1337649-inas-gaas-qdip-sample-b-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -36348,6 +37402,71 @@
       ],
       "record_urls": {
         "liu2006-1-2202195-1-32-m-inas-quantum-dot-laser-with-five-1": "records/liu2006-1-2202195-1-32-m-inas-quantum-dot-laser-with-five-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "liu2006-1-2336998",
+      "paper_id": "liu2006-1-2336998",
+      "doi": "10.1063/1.2336998",
+      "url": "https://doi.org/10.1063/1.2336998",
+      "title": "p -doped 1.3μm InAs∕GaAs quantum-dot laser with a low threshold current density and high differential efficiency",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1": "records/liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1.html",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2": "records/liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -38117,6 +39236,71 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "mackowski2004-physrevb-69-205325",
+      "paper_id": "mackowski2004-physrevb-69-205325",
+      "doi": "10.1103/physrevb.69.205325",
+      "url": "https://doi.org/10.1103/physrevb.69.205325",
+      "title": "Impact of carrier redistribution on the photoluminescence of CdTe self-assembled quantum dot ensembles",
+      "year": 2004,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 11,
+          "pages_read": [
+            1,
+            3,
+            5
+          ],
+          "actual_pages_text_read": [
+            1,
+            3,
+            5
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-4-ml-nominal-thickne-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 2,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-4-ml-nominal-thickne-2"
+      ],
+      "direct_route_material_systems": [
+        "CdTe"
+      ],
+      "record_urls": {
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1": "records/mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1.html",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-4-ml-nominal-thickne-2": "records/mackowski2004-physrevb-69-205325-cdte-qd-sample-with-4-ml-nominal-thickne-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "mahapatra2007-1-2798251",
       "paper_id": "mahapatra2007-1-2798251",
       "doi": "10.1063/1.2798251",
@@ -39327,6 +40511,70 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "mazur2005-1-2039271",
+      "paper_id": "mazur2005-1-2039271",
+      "doi": "10.1063/1.2039271",
+      "url": "https://doi.org/10.1063/1.2039271",
+      "title": "Tailoring of high-temperature photoluminescence in InAs∕GaAs bilayer quantum dot structures",
+      "year": 2005,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 7,
+          "pages_read": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1": "records/mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "mazur2008-1-2872781",
       "paper_id": "mazur2008-1-2872781",
       "doi": "10.1063/1.2872781",
@@ -39905,6 +41153,71 @@
       ],
       "record_urls": {
         "mikulec2000-ja991249n-cd1-xmnxse-qds-1": "records/mikulec2000-ja991249n-cd1-xmnxse-qds-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "milekhin2004-physrevb-70-085314",
+      "paper_id": "milekhin2004-physrevb-70-085314",
+      "doi": "10.1103/physrevb.70.085314",
+      "url": "https://doi.org/10.1103/physrevb.70.085314",
+      "title": "Interface phonons in InAs and AlAs quantum dot structures",
+      "year": 2004,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 5,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/milekhin2004-physrevb-70-085314-sample-a-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "milekhin2004-physrevb-70-085314-sample-a-1",
+        "milekhin2004-physrevb-70-085314-sample-b-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "milekhin2004-physrevb-70-085314-sample-a-1",
+        "milekhin2004-physrevb-70-085314-sample-b-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs/AlAs"
+      ],
+      "record_urls": {
+        "milekhin2004-physrevb-70-085314-sample-a-1": "records/milekhin2004-physrevb-70-085314-sample-a-1.html",
+        "milekhin2004-physrevb-70-085314-sample-b-2": "records/milekhin2004-physrevb-70-085314-sample-b-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -44104,6 +45417,66 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "ouattara2006-1-2245195",
+      "paper_id": "ouattara2006-1-2245195",
+      "doi": "10.1063/1.2245195",
+      "url": "https://doi.org/10.1063/1.2245195",
+      "title": "A cross-sectional scanning tunneling microscopy study of a quantum dot infrared photodetector structure",
+      "year": 2006,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/InGaAs"
+      ],
+      "record_urls": {
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1": "records/ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
       "paper_id": "ouhenia-ouadahi2016-ag-superlattices-cm6b01374",
       "doi": "10.1021/acs.chemmater.6b01374",
@@ -46600,6 +47973,66 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "petitprez2000-1-591411",
+      "paper_id": "petitprez2000-1-591411",
+      "doi": "10.1116/1.591411",
+      "url": "https://doi.org/10.1116/1.591411",
+      "title": "Strain relaxation-induced modifications of the optical properties of self-assembled InAs quantum dot superlattices",
+      "year": 2000,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/petitprez2000-1-591411-inas-quantum-dot-superlattices-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "petitprez2000-1-591411-inas-quantum-dot-superlattices-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "petitprez2000-1-591411-inas-quantum-dot-superlattices-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "petitprez2000-1-591411-inas-quantum-dot-superlattices-1": "records/petitprez2000-1-591411-inas-quantum-dot-superlattices-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "peveler2016-cdse-zns-sensor-array-acsnano5b06433",
       "paper_id": "peveler2016-cdse-zns-sensor-array-acsnano5b06433",
       "doi": "10.1021/acsnano.5b06433",
@@ -47996,6 +49429,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "qi2003-physrevb-68-125319",
+      "paper_id": "qi2003-physrevb-68-125319",
+      "doi": "10.1103/physrevb.68.125319",
+      "url": "https://doi.org/10.1103/physrevb.68.125319",
+      "title": "Optical anisotropy in individual CdS quantum dot ensembles",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 6,
+          "pages_read": [
+            1,
+            2,
+            4
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2"
+      ],
+      "direct_route_material_systems": [
+        "CdS"
+      ],
+      "record_urls": {
+        "qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2": "records/qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "qian2008-1-2889446",
       "paper_id": "qian2008-1-2889446",
       "doi": "10.1063/1.2889446",
@@ -48140,6 +49635,68 @@
         "qian2010-cdte-silica-ac100558t-si-qd-ab2-unblocked": "records/qian2010-cdte-silica-ac100558t-si-qd-ab2-unblocked.html"
       },
       "source_checked_synthesis_structure_rows": 2
+    },
+    {
+      "source_group": "qiu2001-1-1421428",
+      "paper_id": "qiu2001-1-1421428",
+      "doi": "10.1063/1.1421428",
+      "url": "https://doi.org/10.1063/1.1421428",
+      "title": "High-performance InAs quantum-dot lasers near 1.3 μm",
+      "year": 2001,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1": "records/qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "qiu2003-1-1606501",
@@ -50837,6 +52394,68 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "ryou2001-1-1382622",
+      "paper_id": "ryou2001-1-1382622",
+      "doi": "10.1063/1.1382622",
+      "url": "https://doi.org/10.1063/1.1382622",
+      "title": "Photopumped red-emitting InP/In0.5Al0.3Ga0.2P self-assembled quantum dot heterostructure lasers grown by metalorganic chemical vapor deposition",
+      "year": 2001,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1"
+      ],
+      "direct_route_material_systems": [
+        "InP/In0.5Al0.3Ga0.2P"
+      ],
+      "record_urls": {
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1": "records/ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "s-g-pawar-1-3530466",
       "paper_id": "s-g-pawar-1-3530466",
       "doi": "10.1063/1.3530466",
@@ -52639,6 +54258,79 @@
       "source_checked_synthesis_structure_rows": 3
     },
     {
+      "source_group": "sears2007-1-2409612",
+      "paper_id": "sears2007-1-2409612",
+      "doi": "10.1063/1.2409612",
+      "url": "https://doi.org/10.1063/1.2409612",
+      "title": "Modeling and characterization of InAs∕GaAs quantum dot lasers grown using metal organic chemical vapor deposition",
+      "year": 2007,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 10,
+          "pages_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs/GaAs"
+      ],
+      "record_urls": {
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2": "records/sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2.html",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1": "records/sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "segets2012-nn303130d",
       "paper_id": "segets2012-nn303130d",
       "doi": "10.1021/nn303130d",
@@ -53688,6 +55380,71 @@
         "sharma2025-au-cdte-qcd-acsanm5c03294-xps": "records/sharma2025-au-cdte-qcd-acsanm5c03294-xps.html",
         "sharma2025-au-cdte-qcd-acsanm5c03294-xrd": "records/sharma2025-au-cdte-qcd-acsanm5c03294-xrd.html",
         "sharma2025-au-cdte-qcd-acsanm5c03294-zeta": "records/sharma2025-au-cdte-qcd-acsanm5c03294-zeta.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "shchekin2000-1-127012",
+      "paper_id": "shchekin2000-1-127012",
+      "doi": "10.1063/1.127012",
+      "url": "https://doi.org/10.1063/1.127012",
+      "title": "Discrete energy level separation and the threshold temperature dependence of quantum dot lasers",
+      "year": 2000,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-two-stack-2"
+      ],
+      "canonical_record_count": 2,
+      "synthesis_route_variant_count": 2,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 2,
+      "record_type_counts": {
+        "literature_protocol": 2
+      },
+      "canonical_recipe_family_ids": [
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-two-stack-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1": "records/shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1.html",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-two-stack-2": "records/shchekin2000-1-127012-inas-quantum-dot-qd-laser-two-stack-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -55748,6 +57505,68 @@
         "song-2024-znste-qd-conversion-context": "records/song-2024-znste-qd-conversion-context.html"
       },
       "source_checked_synthesis_structure_rows": 4
+    },
+    {
+      "source_group": "songmuang2003-1-1569992",
+      "paper_id": "songmuang2003-1-1569992",
+      "doi": "10.1063/1.1569992",
+      "url": "https://doi.org/10.1063/1.1569992",
+      "title": "Formation of lateral quantum dot molecules around self-assembled nanoholes",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1": "records/songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
     },
     {
       "source_group": "sorescu2004-in2o3-jmsc01603fc",
@@ -65287,6 +67106,68 @@
       "source_checked_synthesis_structure_rows": 1
     },
     {
+      "source_group": "xin2003-1-1582229",
+      "paper_id": "xin2003-1-1582229",
+      "doi": "10.1063/1.1582229",
+      "url": "https://doi.org/10.1063/1.1582229",
+      "title": "InAs quantum-dot GaAs-based lasers grown on AlGaAsSb metamorphic buffers",
+      "year": 2003,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            1,
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/xin2003-1-1582229-inas-quantum-dot-laser-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "xin2003-1-1582229-inas-quantum-dot-laser-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "xin2003-1-1582229-inas-quantum-dot-laser-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "xin2003-1-1582229-inas-quantum-dot-laser-1": "records/xin2003-1-1582229-inas-quantum-dot-laser-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "xiong2010-smll-201000897",
       "paper_id": "xiong2010-smll-201000897",
       "doi": "10.1002/smll.201000897",
@@ -67965,6 +69846,66 @@
       "source_checked_synthesis_structure_rows": 0
     },
     {
+      "source_group": "ye2002-1-1517750",
+      "paper_id": "ye2002-1-1517750",
+      "doi": "10.1063/1.1517750",
+      "url": "https://doi.org/10.1063/1.1517750",
+      "title": "InAs quantum dot infrared photodetectors with In0.15Ga0.85As strain-relief cap layers",
+      "year": 2002,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 8,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1": "records/ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
       "source_group": "ye2005-1-1949215",
       "paper_id": "ye2005-1-1949215",
       "doi": "10.1116/1.1949215",
@@ -68023,6 +69964,68 @@
       ],
       "record_urls": {
         "ye2005-1-1949215-inas-gaas-quantum-dot-superlattices-sls-1": "records/ye2005-1-1949215-inas-gaas-quantum-dot-superlattices-sls-1.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "yeh2000-1-126097",
+      "paper_id": "yeh2000-1-126097",
+      "doi": "10.1063/1.126097",
+      "url": "https://doi.org/10.1063/1.126097",
+      "title": "Matrix dependence of strain-induced wavelength shift in self-assembled InAs quantum-dot heterostructures",
+      "year": 2000,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_text_read": [
+            2,
+            3,
+            4
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 0,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2": "records/yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -69844,6 +71847,66 @@
       ],
       "record_urls": {
         "zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series": "records/zhang2003-cdte-polymer-adma200304521-aqueous-cdte-reflux-series.html"
+      },
+      "source_checked_synthesis_structure_rows": 0
+    },
+    {
+      "source_group": "zhang2005-1-1923176",
+      "paper_id": "zhang2005-1-1923176",
+      "doi": "10.1063/1.1923176",
+      "url": "https://doi.org/10.1063/1.1923176",
+      "title": "High-detectivity InAs quantum-dot infrared photodetectors grown on InP by metal–organic chemical–vapor deposition",
+      "year": 2005,
+      "has_local_corpus_group": false,
+      "review_status": "source_extracted",
+      "review_scope": "Synthesis and product pages of the main text, read by the extraction pipeline. Not a whole-paper reading and not an expert review.",
+      "documents": [
+        {
+          "role": "main",
+          "page_count": 4,
+          "pages_read": [
+            2,
+            3
+          ],
+          "actual_pages_text_read": [
+            2,
+            3
+          ],
+          "actual_pages_visually_read": [],
+          "all_text_read": false,
+          "all_visually_reviewed": false,
+          "scope": "Pages selected automatically as describing the synthesis and the product."
+        }
+      ],
+      "evidence_locator": "data/records/zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1.json",
+      "paper_review_url": null,
+      "main_status": "extracted_not_expert_reviewed",
+      "si_status": "not_read",
+      "notes": [
+        "Extracted from the paper by the MatterSyn pipeline. Each value is tied to a quote found in the paper and was produced by two separate local-model extraction passes that agree. It has not been independently audited."
+      ],
+      "record_ids": [
+        "zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1"
+      ],
+      "canonical_record_count": 1,
+      "synthesis_route_variant_count": 1,
+      "contextual_control_count": 0,
+      "contextual_observation_count": 0,
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "experimental_row_count": 0,
+      "measurement_entry_count": 1,
+      "record_type_counts": {
+        "literature_protocol": 1
+      },
+      "canonical_recipe_family_ids": [
+        "zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1"
+      ],
+      "direct_route_material_systems": [
+        "InAs"
+      ],
+      "record_urls": {
+        "zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1": "records/zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1.html"
       },
       "source_checked_synthesis_structure_rows": 0
     },
@@ -75258,16 +77321,19 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": true,
-      "public_hub_route_contributions": 1,
-      "component_route_contribution_count": 1,
+      "public_hub_route_contributions": 3,
+      "component_route_contribution_count": 3,
       "component_route_record_ids": [
-        "chakrabarti2004-1-1755709-sl-dwell-qdip-2"
+        "chakrabarti2004-1-1755709-sl-dwell-qdip-2",
+        "milekhin2004-physrevb-70-085314-sample-a-1",
+        "milekhin2004-physrevb-70-085314-sample-b-2"
       ],
       "primary_reviewed_source_count": 0,
       "material_hub_id": "alas-e889fb",
       "material_hub_url": "material.html?id=alas-e889fb",
       "source_groups": [
-        "chakrabarti2004-1-1755709"
+        "chakrabarti2004-1-1755709",
+        "milekhin2004-physrevb-70-085314"
       ],
       "source_links": [
         {
@@ -75275,6 +77341,54 @@
           "doi": "10.1116/1.1755709",
           "url": "https://doi.org/10.1116/1.1755709",
           "title": "Heterostructures for achieving large responsivity in InAs/GaAs quantum dot infrared photodetectors"
+        },
+        {
+          "source_group": "milekhin2004-physrevb-70-085314",
+          "doi": "10.1103/physrevb.70.085314",
+          "url": "https://doi.org/10.1103/physrevb.70.085314",
+          "title": "Interface phonons in InAs and AlAs quantum dot structures"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "AlGaAs",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": true,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 2,
+      "component_route_record_ids": [
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1",
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3"
+      ],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "algaas-d54541",
+      "material_hub_url": "material.html?id=algaas-d54541",
+      "source_groups": [
+        "chen2001-1-1356430",
+        "liu2001-1-1337649"
+      ],
+      "source_links": [
+        {
+          "source_group": "chen2001-1-1356430",
+          "doi": "10.1063/1.1356430",
+          "url": "https://doi.org/10.1063/1.1356430",
+          "title": "Normal incidence InAs/AlxGa1−xAs quantum dot infrared photodetectors with undoped active region"
+        },
+        {
+          "source_group": "liu2001-1-1337649",
+          "doi": "10.1063/1.1337649",
+          "url": "https://doi.org/10.1063/1.1337649",
+          "title": "Quantum dot infrared photodetectors"
         }
       ],
       "direct_route_recipe_family_ids": []
@@ -78406,7 +80520,7 @@
       "notes": [
         "Two no-seed control protocols carry this product identity in the canonical data, but are not published as independently complete synthesis routes. Public hub contributions are shell-growth components."
       ],
-      "direct_synthesis_route_variant_count": 149,
+      "direct_synthesis_route_variant_count": 150,
       "direct_route_record_ids": [
         "11994-1-46441-cds-nanocrystalline-materials-1",
         "al2004-jp0360671-cds-nanoparticles-1",
@@ -78499,6 +80613,7 @@
         "prins2021-superfocusing-nanolett0c04813-cds-top-s",
         "provided2006-crat-200410534-cds-nanocrystallites-sample-s1-1",
         "provided2006-crat-200410534-cds-nanocrystallites-sample-s2-2",
+        "qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2",
         "reda2010-jmr-2010-0077-cds-nanoparticles-1",
         "ruberu2012-nn301182h-cds-nanorods-2",
         "saha2014-ja509019k-cds-zava-gel-1",
@@ -78590,7 +80705,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 267,
+      "public_hub_route_contributions": 268,
       "component_route_contribution_count": 118,
       "component_route_record_ids": [
         "1-1863445-cds-zns-nc-silica-composite-film-1",
@@ -78812,6 +80927,7 @@
         "park2016-supra-qd-6b01126",
         "prins2021-superfocusing-nanolett0c04813",
         "provided2006-crat-200410534",
+        "qi2003-physrevb-68-125319",
         "qu2012-ja306651x",
         "reda2010-jmr-2010-0077",
         "ruberu2012-nn301182h",
@@ -79440,6 +81556,12 @@
           "title": "Electrical and optical properties of CdS nanocrystallites with thiophenol capping"
         },
         {
+          "source_group": "qi2003-physrevb-68-125319",
+          "doi": "10.1103/physrevb.68.125319",
+          "url": "https://doi.org/10.1103/physrevb.68.125319",
+          "title": "Optical anisotropy in individual CdS quantum dot ensembles"
+        },
+        {
           "source_group": "qu2012-ja306651x",
           "doi": "10.1021/ja306651x",
           "url": "https://doi.org/10.1021/ja306651x",
@@ -79783,6 +81905,7 @@
         "provided2006-crat-200410534-cds-nanocrystallites-sample-s1-1",
         "provided2006-crat-200410534-cds-nanocrystallites-sample-s2-2",
         "py160",
+        "qi2003-physrevb-68-125319-rod-shaped-cds-qd-ensembles-2",
         "reda2010-jmr-2010-0077-cds-nanoparticles-1",
         "ruberu2012-nn301182h-cds-nanorods-2",
         "saha2014-ja509019k-cds-zava-gel-1",
@@ -80691,7 +82814,7 @@
         "Before the Danek1996 addition: Seven direct routes: Murray3, Peng2, Nakonechnyi2. Public hub count13 also includes six CdSe-core-containing shell-growth records; those are not extra bare-CdSe recipes.",
         "Danek1996 adds three existing route IDs to this hub; the current route contribution count is 16. The shell-overgrowth route is distinct from the two matrix-film routes; component links do not create standalone CdSe or ZnSe synthesis recipes."
       ],
-      "direct_synthesis_route_variant_count": 239,
+      "direct_synthesis_route_variant_count": 241,
       "direct_route_record_ids": [
         "achermann2003-jp036497r-octylamine-capped-cdse-nqds-1",
         "al2010-jp909310a-cdse-msqd-family-395-2",
@@ -80758,6 +82881,8 @@
         "ghosh-2012-core-standard-route",
         "guijarro2009-jp808091d-cdse-qds-direct-adsorption-1",
         "guijarro2009-jp808091d-cdse-qds-mpa-mediated-adsorption-2",
+        "guo2001-1-1388209-cdse-qds-on-znbese-1",
+        "guo2001-1-1388209-cdse-qds-on-znse-2",
         "hansen2014-jz5001193-cdse-qds-3-1-nm-attached-to-zno-nanowire-1",
         "heinemann2009-adfm-200900852-cdse-nanocrystals-1",
         "hens2002-1-1525396-cdse-nanocrystals-linked-via-hdt-to-au-1-1",
@@ -80983,7 +83108,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 449,
+      "public_hub_route_contributions": 451,
       "component_route_contribution_count": 210,
       "component_route_record_ids": [
         "a2021-j-cap-2021-07-001-cdse-zns-qds-1",
@@ -81276,6 +83401,7 @@
         "ghosh2012",
         "gooding2008-nn7003469",
         "guijarro2009-jp808091d",
+        "guo2001-1-1388209",
         "guo2012-jp210949v",
         "halpert2009-jp8099169",
         "han2011-cm2021593",
@@ -81909,6 +84035,12 @@
           "doi": "10.1021/jp808091d",
           "url": "https://doi.org/10.1021/jp808091d",
           "title": "CdSe Quantum Dot-Sensitized TiO2 Electrodes: Effect of Quantum Dot Coverage and Mode of Attachment"
+        },
+        {
+          "source_group": "guo2001-1-1388209",
+          "doi": "10.1116/1.1388209",
+          "url": "https://doi.org/10.1116/1.1388209",
+          "title": "Effects of Be on the II–VI/GaAs interface and on CdSe quantum dot formation"
         },
         {
           "source_group": "guo2012-jp210949v",
@@ -83059,6 +85191,8 @@
         "ghosh2012-core-shell-parameter-study",
         "guijarro2009-jp808091d-cdse-qds-direct-adsorption-1",
         "guijarro2009-jp808091d-cdse-qds-mpa-mediated-adsorption-2",
+        "guo2001-1-1388209-cdse-qds-on-znbese-1",
+        "guo2001-1-1388209-cdse-qds-on-znse-2",
         "hansen2014-jz5001193-cdse-qds-3-1-nm-attached-to-zno-nanowire-1",
         "heinemann2009-adfm-200900852-cdse-nanocrystals-1",
         "hens2002-1-1525396-cdse-nanocrystals-linked-via-hdt-to-au-1-1",
@@ -86462,7 +88596,7 @@
     {
       "material_system": "CdTe",
       "notes": [],
-      "direct_synthesis_route_variant_count": 79,
+      "direct_synthesis_route_variant_count": 81,
       "direct_route_record_ids": [
         "al-s12645-010-0003-3-cdte-folic-acid-nanoconjugates-1",
         "al2006-ja061608w-green-emitting-cdte-qds-gqds-3",
@@ -86501,6 +88635,8 @@
         "liu2015-cdte-nucleobases-ac503819e-ma-growth",
         "liu2015-cdte-nucleobases-ac503819e-nac-growth",
         "liu2015-cdte-nucleobases-ac503819e-tga-growth",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-4-ml-nominal-thickne-2",
         "manna2003-nmat902-cdte-tetrapods-1",
         "osovsky2005-jp0526795-cdte-ca-ncs-1",
         "osovsky2005-jp0526795-cdte-tga-ncs-2",
@@ -86558,7 +88694,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 110,
+      "public_hub_route_contributions": 112,
       "component_route_contribution_count": 31,
       "component_route_record_ids": [
         "al2009-ja807874e-cdse-cdte-tetrapods-4",
@@ -86632,6 +88768,7 @@
         "lan2009-b817000b",
         "li2013-cdte-au-caspase3-am4029735",
         "liu2015-cdte-nucleobases-ac503819e",
+        "mackowski2004-physrevb-69-205325",
         "manna2003-nmat902",
         "osovsky2005-jp0526795",
         "osovsky2007-jp071979e",
@@ -86880,6 +89017,12 @@
           "doi": "10.1021/ac503819e",
           "url": "https://doi.org/10.1021/ac503819e",
           "title": "Exciton Energy Transfer-Based Quantum Dot Fluorescence Sensing Array: Chemical Noses for Discrimination of Different Nucleobases"
+        },
+        {
+          "source_group": "mackowski2004-physrevb-69-205325",
+          "doi": "10.1103/physrevb.69.205325",
+          "url": "https://doi.org/10.1103/physrevb.69.205325",
+          "title": "Impact of carrier redistribution on the photoluminescence of CdTe self-assembled quantum dot ensembles"
         },
         {
           "source_group": "manna2003-nmat902",
@@ -87136,6 +89279,8 @@
         "lan2009-b817000b-tio2-3-pdda-qdcdte-3-fto-1",
         "li2013-cdte-au-caspase3-am4029735",
         "liu2015-cdte-nucleobases-ac503819e",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-2-ml-nominal-thickne-1",
+        "mackowski2004-physrevb-69-205325-cdte-qd-sample-with-4-ml-nominal-thickne-2",
         "manna2003-nmat902-cdte-tetrapods-1",
         "osovsky2005-jp0526795-cdte-ca-ncs-1",
         "osovsky2005-jp0526795-cdte-tga-ncs-2",
@@ -92072,8 +94217,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": true,
-      "public_hub_route_contributions": 54,
-      "component_route_contribution_count": 54,
+      "public_hub_route_contributions": 66,
+      "component_route_contribution_count": 66,
       "component_route_record_ids": [
         "al2006-pssa-200622106-sample-a-1",
         "al2006-pssa-200622106-sample-b-2",
@@ -92093,23 +94238,33 @@
         "chan2007-1-2733992-sample-h-8",
         "chen2014-ph500162a-inas-gaas-qd-sld-on-si-substrate-1",
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-qds-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-with-ingaas-alloy-2",
         "djie2006-1-2337537-ingaas-gaas-qd-c-1",
         "fafard1999-1-124253-inas-gaas-quantum-dot-stacks-with-indium-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1",
         "ilahi2003-pssa-200306681-s1-ds-10-ml-1",
         "ilahi2003-pssa-200306681-s3-ds-30-ml-2",
         "ji2003-1-1530717-inas-gaas-quantum-dots-1",
+        "kiravittaya2006-1-2168494-qdc11-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1",
         "lin2006-1-2234817-inas-gaas-quantum-dot-structure-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2",
         "liu2004-1-1773378-5-layer-inas-gaas-qd-structure-with-50-n-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2",
         "liu2007-1-2434156-p-doped-ten-layer-inas-ingaas-gaas-quant-1",
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "nuntawong2005-1-1926413-inas-gaas-quantum-dot-qd-laser-with-4-ml-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
@@ -92121,6 +94276,8 @@
         "sabarinathan2002-1-1521249-inas-gaas-quantum-dot-photonic-crystal-m-1",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-five-1",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-seve-2",
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1",
         "seravalli2005-1-2007860-inas-ingaas-gaas-quantum-dot-qd-nanostru-1",
         "stewart2003-1-1609634-30-stack-inas-gaas-quantum-dot-infrared-1",
         "stiff2001-1-1385584-inas-gaas-quantum-dot-detector-1",
@@ -92140,20 +94297,27 @@
         "chan2007-1-2733992",
         "chen2014-ph500162a",
         "chia2009-1-3245305",
+        "chou2005-1-1900730",
         "clarke2010-1-3429226",
         "dasika2009-1-3243688",
         "djie2006-1-2337537",
         "fafard1999-1-124253",
         "howe2005-1-2133904",
+        "huang2005-1-2008271",
         "ilahi2003-pssa-200306681",
         "ji2003-1-1530717",
+        "kiravittaya2006-1-2168494",
         "krause2005-physrevb-72-085339",
         "krzyzewski2002-physrevb-66-201302",
         "kulbachinskii2003-pssc-200303073",
+        "lin2003-1-1594285",
         "lin2006-1-2234817",
+        "liu2001-1-1337649",
         "liu2004-1-1773378",
+        "liu2006-1-2336998",
         "liu2007-1-2434156",
         "mazur2002-1-1510157",
+        "mazur2005-1-2039271",
         "mi2005-1-1985969",
         "nuntawong2005-1-1926413",
         "pal2001-1-1382855",
@@ -92163,6 +94327,7 @@
         "ray2006-1-2365387",
         "sabarinathan2002-1-1521249",
         "salhi2006-1-2402744",
+        "sears2007-1-2409612",
         "seravalli2005-1-2007860",
         "stewart2003-1-1609634",
         "stiff2001-1-1385584",
@@ -92209,6 +94374,12 @@
           "title": "Thermal runaway and optical efficiency in InAs/GaAs quantum dot lasers"
         },
         {
+          "source_group": "chou2005-1-1900730",
+          "doi": "10.1116/1.1900730",
+          "url": "https://doi.org/10.1116/1.1900730",
+          "title": "High-performance 30-period quantum-dot infrared photodetector"
+        },
+        {
           "source_group": "clarke2010-1-3429226",
           "doi": "10.1063/1.3429226",
           "url": "https://doi.org/10.1063/1.3429226",
@@ -92239,6 +94410,12 @@
           "title": "Quantiﬁcation of segregation and strain effects in InAs/GaAs quantum dot growth"
         },
         {
+          "source_group": "huang2005-1-2008271",
+          "doi": "10.1116/1.2008271",
+          "url": "https://doi.org/10.1116/1.2008271",
+          "title": "Temperature dependence of carrier dynamics for InAs∕GaAs quantum dot infrared photodetectors"
+        },
+        {
           "source_group": "ilahi2003-pssa-200306681",
           "doi": "10.1002/pssa.200306681",
           "url": "https://doi.org/10.1002/pssa.200306681",
@@ -92249,6 +94426,12 @@
           "doi": "10.1063/1.1530717",
           "url": "https://doi.org/10.1063/1.1530717",
           "title": "InAs/GaAs quantum dot intermixing induced by proton implantation"
+        },
+        {
+          "source_group": "kiravittaya2006-1-2168494",
+          "doi": "10.1063/1.2168494",
+          "url": "https://doi.org/10.1063/1.2168494",
+          "title": "Photoluminescence from seeded three-dimensional InAs∕GaAs quantum-dot crystals"
         },
         {
           "source_group": "krause2005-physrevb-72-085339",
@@ -92269,16 +94452,34 @@
           "title": "Persistent photoconductivity in quantum dot layers in InAs/GaAs structures"
         },
         {
+          "source_group": "lin2003-1-1594285",
+          "doi": "10.1063/1.1594285",
+          "url": "https://doi.org/10.1063/1.1594285",
+          "title": "Transport characteristics of InAs/GaAs quantum-dot infrared photodetectors"
+        },
+        {
           "source_group": "lin2006-1-2234817",
           "doi": "10.1063/1.2234817",
           "url": "https://doi.org/10.1063/1.2234817",
           "title": "Combined optical and electrical studies of the effects of annealing on the intrinsic states and deep levels in a self-assembled InAs quantum-dot structure"
         },
         {
+          "source_group": "liu2001-1-1337649",
+          "doi": "10.1063/1.1337649",
+          "url": "https://doi.org/10.1063/1.1337649",
+          "title": "Quantum dot infrared photodetectors"
+        },
+        {
           "source_group": "liu2004-1-1773378",
           "doi": "10.1063/1.1773378",
           "url": "https://doi.org/10.1063/1.1773378",
           "title": "Influences of the spacer layer growth temperature on multilayer InAs∕GaAs quantum dot structures"
+        },
+        {
+          "source_group": "liu2006-1-2336998",
+          "doi": "10.1063/1.2336998",
+          "url": "https://doi.org/10.1063/1.2336998",
+          "title": "p -doped 1.3μm InAs∕GaAs quantum-dot laser with a low threshold current density and high differential efficiency"
         },
         {
           "source_group": "liu2007-1-2434156",
@@ -92291,6 +94492,12 @@
           "doi": "10.1063/1.1510157",
           "url": "https://doi.org/10.1063/1.1510157",
           "title": "Photoluminescence study of carrier transfer among vertically aligned double-stacked InAs/GaAs quantum dot layers"
+        },
+        {
+          "source_group": "mazur2005-1-2039271",
+          "doi": "10.1063/1.2039271",
+          "url": "https://doi.org/10.1063/1.2039271",
+          "title": "Tailoring of high-temperature photoluminescence in InAs∕GaAs bilayer quantum dot structures"
         },
         {
           "source_group": "mi2005-1-1985969",
@@ -92345,6 +94552,12 @@
           "doi": "10.1063/1.2402744",
           "url": "https://doi.org/10.1063/1.2402744",
           "title": "Enhanced modal gain of multilayer InAs/InGaAs/GaAs quantum dot lasers emitting at 1300 nm"
+        },
+        {
+          "source_group": "sears2007-1-2409612",
+          "doi": "10.1063/1.2409612",
+          "url": "https://doi.org/10.1063/1.2409612",
+          "title": "Modeling and characterization of InAs∕GaAs quantum dot lasers grown using metal organic chemical vapor deposition"
         },
         {
           "source_group": "seravalli2005-1-2007860",
@@ -92492,6 +94705,41 @@
           "doi": "10.1002/pssc.200881722",
           "url": "https://doi.org/10.1002/pssc.200881722",
           "title": "First step to Si photonics: synthesis of quantum dot light‐emitters on GaP substrate by MBE"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
+      "material_system": "GaSb",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": true,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 2,
+      "component_route_record_ids": [
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2"
+      ],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "gasb-a21210",
+      "material_hub_url": "material.html?id=gasb-a21210",
+      "source_groups": [
+        "child2003-physrevb-68-165307"
+      ],
+      "source_links": [
+        {
+          "source_group": "child2003-physrevb-68-165307",
+          "doi": "10.1103/physrevb.68.165307",
+          "url": "https://doi.org/10.1103/physrevb.68.165307",
+          "title": "Far-infrared modulated photoluminescence spectroscopy of InSb/GaSb quantum dot structures"
         }
       ],
       "direct_route_recipe_family_ids": []
@@ -93264,6 +95512,40 @@
       "direct_route_recipe_family_ids": []
     },
     {
+      "material_system": "In0.5Al0.3Ga0.2P",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 0,
+      "direct_route_record_ids": [],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": true,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 1,
+      "component_route_record_ids": [
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1"
+      ],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "in0-5al0-3ga0-2p-0dea5d",
+      "material_hub_url": "material.html?id=in0-5al0-3ga0-2p-0dea5d",
+      "source_groups": [
+        "ryou2001-1-1382622"
+      ],
+      "source_links": [
+        {
+          "source_group": "ryou2001-1-1382622",
+          "doi": "10.1063/1.1382622",
+          "url": "https://doi.org/10.1063/1.1382622",
+          "title": "Photopumped red-emitting InP/In0.5Al0.3Ga0.2P self-assembled quantum dot heterostructure lasers grown by metalorganic chemical vapor deposition"
+        }
+      ],
+      "direct_route_recipe_family_ids": []
+    },
+    {
       "material_system": "In1−xGaxAs",
       "notes": [],
       "direct_synthesis_route_variant_count": 1,
@@ -93515,7 +95797,7 @@
     {
       "material_system": "InAs",
       "notes": [],
-      "direct_synthesis_route_variant_count": 84,
+      "direct_synthesis_route_variant_count": 102,
       "direct_route_record_ids": [
         "aivaliotis2007-1-2753727-inas-on-gasb-gaas-quantum-dots-1",
         "akahane2008-1-2968211-30-layer-stacked-inas-qd-laser-structure-1",
@@ -93529,18 +95811,24 @@
         "bellato2024-inas-olam",
         "borgstrom2001-1-1374235-inas-quantum-dot-stacks-embedded-in-inp-1",
         "borgstrom2003-1-1632542-inas-quantum-dot-stack-1",
+        "cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1",
         "das2016-acs-chemmater-6b01577-inas-quantum-dots-1",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-15ga0-1",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-15ga0-2",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-20ga0-3",
         "el-emawy2003-1-1543647-inas-qds-grown-on-5-ml-of-in0-15ga0-85as-1",
         "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1",
+        "fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1",
         "finnie2002-1-1515912-inas-quantum-dots-on-gaas-100-1",
+        "gilfert2010-1-3428956-inas-quantum-dashes-1",
+        "gilfert2010-1-3428956-inas-quantum-dots-2",
         "gong2002-1-1516637-inas-quantum-dots-on-in0-35ga0-65as-temp-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-2",
         "hakkarainen2013-j-jcrysgro-2012-12-099-saqds-3",
+        "ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1",
         "ishikawa1998-1-581060-s-k-mode-grown-quantum-dots-1",
+        "ishikawa2000-1-125691-inas-single-quantum-dot-array-1",
         "kioseoglou2008-physrevlett-101-227203-inas-quantum-dots-1",
         "kita2007-1-2436633-inas-quantum-dot-qd-embedded-in-gaas-mat-1",
         "laurent2005-1-2103397-single-quantum-dot-embedded-in-a-two-dim-1",
@@ -93557,6 +95845,9 @@
         "lippen2004-1-1771460-inas-quantum-dot-qd-groups-on-gaas-311-b-1",
         "lippen2005-1-1840098-inas-qd-molecules-on-ten-period-sl-templ-1",
         "lippen2005-1-1942510-inas-qd-molecules-on-in-ga-as-gaas-sl-te-1",
+        "lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-2",
         "liu2006-1-2202195-1-32-m-inas-quantum-dot-laser-with-five-1",
         "mano2002-1-1503872-inas-quantum-dot-arrays-on-in-ga-as-gaas-1",
         "mi2006-1-2358847-metamorphic-inas-tunnel-injection-quantu-1",
@@ -93566,6 +95857,8 @@
         "ohmori2005-1-1926308-sample-b-2",
         "patella2008-1-3040327-inas-quantum-dots-in-100-nm-diameter-nan-1",
         "peng-1998-inas-focusing",
+        "petitprez2000-1-591411-inas-quantum-dot-superlattices-1",
+        "qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1",
         "qiu2003-1-1606501-inas-quantum-dot-qd-laser-on-001-inp-sub-1",
         "sablon2010-1-3486014-conventional-qd-structure-2",
         "saucedo-zeni2004-1-1705577-inas-quantum-dots-qds-on-gaas-100-surfac-1",
@@ -93573,6 +95866,8 @@
         "selcuk2009-1-3167813-single-inas-quantum-dot-arrays-1",
         "semenova2008-1-2927496-inas-quantum-dots-qds-embedded-in-in0-42-1",
         "seravalli2003-1-1566463-inas-quantum-dots-embedded-in-in0-15ga0-1",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-two-stack-2",
         "shen1998-1-590068-inas-quantum-dots-1",
         "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1",
         "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2",
@@ -93580,6 +95875,7 @@
         "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4",
         "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5",
         "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6",
+        "songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-6-ml-gaas-i-1",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-72-ml-gaas-2",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-84-ml-gaas-3",
@@ -93594,12 +95890,16 @@
         "ulloa2007-1-2741608-inas-gaas-quantum-dots-qds-capped-with-g-1",
         "ulloa2007-1-2741608-inas-gaas-quantum-dots-qds-capped-with-g-2",
         "x2010-pssc-200983861-inas-qds-capped-with-ingaas-strain-reduc-1",
+        "xin2003-1-1582229-inas-quantum-dot-laser-1",
         "xu2005-1-1842861-inas-quantum-dot-molecules-qdms-1",
         "yang2003-1-1530728-inas-site-controlled-quantum-dots-scqds-1",
         "yang2003-1-1530728-inas-site-controlled-quantum-dots-scqds-2",
         "yang2003-1-1530728-inas-site-controlled-quantum-dots-scqds-3",
+        "ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1",
+        "yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2",
         "zhang2003-1-1629803-inas-quantum-dots-capped-with-gaas-layer-1",
         "zhang2003-1-1629803-inas-quantum-dots-capped-with-ganas-stra-2",
+        "zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1",
         "zhu2006-1-2388139-inas-gaas-quantum-dot-qd-sample-1"
       ],
       "contextual_control_count": 1,
@@ -93622,8 +95922,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 152,
-      "component_route_contribution_count": 68,
+      "public_hub_route_contributions": 188,
+      "component_route_contribution_count": 86,
       "component_route_record_ids": [
         "al2006-pssa-200622106-sample-a-1",
         "al2006-pssa-200622106-sample-b-2",
@@ -93634,6 +95934,7 @@
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-low-as",
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-no-gi",
         "bucci2024-zincblende-qd-nanowires-acsami4c00615-inas-prefill",
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1",
         "chakrabarti2004-1-1755709-70-layer-inas-gaas-qdip-1",
         "chakrabarti2004-1-1755709-sl-dwell-qdip-2",
         "chakrabarti2011-s00339-010-6005-5-bilayer-inas-gaas-quantum-dot-structure-1",
@@ -93646,13 +95947,17 @@
         "chan2007-1-2733992-sample-f-6",
         "chan2007-1-2733992-sample-g-7",
         "chan2007-1-2733992-sample-h-8",
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1",
         "chen2014-ph500162a-inas-gaas-qd-sld-on-si-substrate-1",
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-qds-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-with-ingaas-alloy-2",
         "fafard1999-1-124253-inas-gaas-quantum-dot-stacks-with-indium-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1",
         "hwang2003-pssc-200303088-5-layer-inas-inp-quantum-dot-qd-stack-1",
         "ilahi2003-pssa-200306681-s1-ds-10-ml-1",
         "ilahi2003-pssa-200306681-s3-ds-30-ml-2",
@@ -93660,18 +95965,29 @@
         "kim2002-1-1517710-inas-in0-15ga0-85as-quantum-dots-qds-wit-1",
         "kim2002-1-1517710-inas-in0-15ga0-85as-quantum-dots-qds-wit-2",
         "kim2002-1-1517710-inas-in0-15ga0-85as-quantum-dots-qds-wit-3",
+        "kiravittaya2006-1-2168494-qdc11-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1",
         "lin2006-1-2234817-inas-gaas-quantum-dot-structure-1",
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2",
         "liu2004-1-1773378-5-layer-inas-gaas-qd-structure-with-50-n-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2",
         "liu2007-1-2434156-p-doped-ten-layer-inas-ingaas-gaas-quant-1",
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1",
         "mazur2008-1-2872781-inas-inp-quantum-dots-qds-1",
         "mcginley2004-physrevb-69-045301-inas-cdse-core-shell-nanocrystals-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
+        "milekhin2004-physrevb-70-085314-sample-a-1",
+        "milekhin2004-physrevb-70-085314-sample-b-2",
         "nuntawong2005-1-1926413-inas-gaas-quantum-dot-qd-laser-with-4-ml-1",
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
         "pala2006-1-2193466-50-period-inas-gaas-quantum-dot-device-w-1",
         "passow2006-pssc-200671556-inas-gaas-quantum-dots-qds-with-high-den-1",
@@ -93684,6 +96000,8 @@
         "saint-girons2006-1-2233554-inas-inp-quantum-dots-with-a-5-nm-inp-ca-1",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-five-1",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-seve-2",
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1",
         "seravalli2005-1-2007860-inas-ingaas-gaas-quantum-dot-qd-nanostru-1",
         "stewart2003-1-1609634-30-stack-inas-gaas-quantum-dot-infrared-1",
         "stiff2001-1-1385584-inas-gaas-quantum-dot-detector-1",
@@ -93711,11 +96029,15 @@
         "borgstrom2001-1-1374235",
         "borgstrom2003-1-1632542",
         "bucci2024-zincblende-qd-nanowires-acsami4c00615",
+        "cao2000-1-126693",
+        "carrington2008-1-2976551",
         "chakrabarti2004-1-1755709",
         "chakrabarti2011-s00339-010-6005-5",
         "chan2007-1-2733992",
+        "chen2001-1-1356430",
         "chen2014-ph500162a",
         "chia2009-1-3245305",
+        "chou2005-1-1900730",
         "clarke2010-1-3429226",
         "das2016-acs-chemmater-6b01577",
         "dasika2009-1-3243688",
@@ -93723,16 +96045,22 @@
         "el-emawy2003-1-1543647",
         "eyink2004-1-1771671",
         "fafard1999-1-124253",
+        "fekete2006-1-2168025",
         "finnie2002-1-1515912",
+        "gilfert2010-1-3428956",
         "gong2002-1-1516637",
         "hakkarainen2013-j-jcrysgro-2012-12-099",
         "howe2005-1-2133904",
+        "huang2005-1-2008271",
         "hwang2003-pssc-200303088",
+        "ide2004-1-1787157",
         "ilahi2003-pssa-200306681",
         "ishikawa1998-1-581060",
+        "ishikawa2000-1-125691",
         "ji2003-1-1530717",
         "kim2002-1-1517710",
         "kioseoglou2008-physrevlett-101-227203",
+        "kiravittaya2006-1-2168494",
         "kita2007-1-2436633",
         "krause2005-physrevb-72-085339",
         "krzyzewski2002-physrevb-66-201302",
@@ -93743,30 +96071,40 @@
         "lian1998-1-121719",
         "liang2004-1-1834987",
         "liang2007-1-2821121",
+        "lin2003-1-1594285",
         "lin2006-1-2234817",
         "lippen2004-1-1771460",
         "lippen2005-1-1840098",
         "lippen2005-1-1942510",
+        "lippen2005-1-1994256",
+        "lippen2007-physrevb-75-115414",
+        "liu2001-1-1337649",
         "liu2004-1-1773378",
         "liu2006-1-2202195",
+        "liu2006-1-2336998",
         "liu2007-1-2434156",
         "mano2002-1-1503872",
         "mazur2002-1-1510157",
+        "mazur2005-1-2039271",
         "mazur2008-1-2872781",
         "mcginley2004-physrevb-69-045301",
         "mi2005-1-1985969",
         "mi2006-1-2358847",
+        "milekhin2004-physrevb-70-085314",
         "miska2005-1-1865332",
         "mukhametzhanov1999-1-124284",
         "nuntawong2005-1-1926413",
         "ohmori2005-1-1926308",
+        "ouattara2006-1-2245195",
         "pal2001-1-1382855",
         "pala2006-1-2193466",
         "passow2006-pssc-200671556",
         "passow2007-1-2779270",
         "patella2008-1-3040327",
         "peng1998",
+        "petitprez2000-1-591411",
         "provided2005-pssa-200460325",
+        "qiu2001-1-1421428",
         "qiu2003-1-1606501",
         "ray2006-1-2365387",
         "sabarinathan2002-1-1521249",
@@ -93775,12 +96113,15 @@
         "saint-girons2006-1-2233554",
         "salhi2006-1-2402744",
         "saucedo-zeni2004-1-1705577",
+        "sears2007-1-2409612",
         "selcuk2009-1-3167813",
         "semenova2008-1-2927496",
         "seravalli2003-1-1566463",
         "seravalli2005-1-2007860",
+        "shchekin2000-1-127012",
         "shen1998-1-590068",
         "shen2001-1-1385916",
+        "songmuang2003-1-1569992",
         "sritirawisarn2008-1-2993178",
         "stewart2003-1-1609634",
         "stiff2001-1-1385584",
@@ -93794,12 +96135,16 @@
         "touskova2002-1-1480118",
         "ulloa2007-1-2741608",
         "x2010-pssc-200983861",
+        "xin2003-1-1582229",
         "xu2005-1-1842861",
         "yamamoto2011-pssc-201000476",
         "yang2003-1-1530728",
+        "ye2002-1-1517750",
         "ye2005-1-1949215",
+        "yeh2000-1-126097",
         "yeh2002-1-1445269",
         "zhang2003-1-1629803",
+        "zhang2005-1-1923176",
         "zhu2006-1-2388139"
       ],
       "source_links": [
@@ -93882,6 +96227,18 @@
           "title": "Zincblende InAsxP1−x/InP Quantum Dot Nanowires for Telecom Wavelength Emission"
         },
         {
+          "source_group": "cao2000-1-126693",
+          "doi": "10.1063/1.126693",
+          "url": "https://doi.org/10.1063/1.126693",
+          "title": "Optically pumped InAs quantum dot microdisk lasers"
+        },
+        {
+          "source_group": "carrington2008-1-2976551",
+          "doi": "10.1063/1.2976551",
+          "url": "https://doi.org/10.1063/1.2976551",
+          "title": "Room temperature midinfrared electroluminescence from InSb/InAs quantum dot light emitting diodes"
+        },
+        {
           "source_group": "chakrabarti2004-1-1755709",
           "doi": "10.1116/1.1755709",
           "url": "https://doi.org/10.1116/1.1755709",
@@ -93900,6 +96257,12 @@
           "title": "Characterization of excitonic features in self-assembled InAs/GaAs quantum dot superlattice structures via surface photovoltage spectroscopy"
         },
         {
+          "source_group": "chen2001-1-1356430",
+          "doi": "10.1063/1.1356430",
+          "url": "https://doi.org/10.1063/1.1356430",
+          "title": "Normal incidence InAs/AlxGa1−xAs quantum dot infrared photodetectors with undoped active region"
+        },
+        {
           "source_group": "chen2014-ph500162a",
           "doi": "10.1021/ph500162a",
           "url": "https://doi.org/10.1021/ph500162a",
@@ -93910,6 +96273,12 @@
           "doi": "10.1063/1.3245305",
           "url": "https://doi.org/10.1063/1.3245305",
           "title": "Thermal runaway and optical efficiency in InAs/GaAs quantum dot lasers"
+        },
+        {
+          "source_group": "chou2005-1-1900730",
+          "doi": "10.1116/1.1900730",
+          "url": "https://doi.org/10.1116/1.1900730",
+          "title": "High-performance 30-period quantum-dot infrared photodetector"
         },
         {
           "source_group": "clarke2010-1-3429226",
@@ -93954,10 +96323,22 @@
           "title": "Lasing in quantum-dot ensembles with sharp adjustable electronic shells"
         },
         {
+          "source_group": "fekete2006-1-2168025",
+          "doi": "10.1063/1.2168025",
+          "url": "https://doi.org/10.1063/1.2168025",
+          "title": "Temperature dependence of the coupling between n-type δ-doping region and quantum dot assemblies"
+        },
+        {
           "source_group": "finnie2002-1-1515912",
           "doi": "10.1116/1.1515912",
           "url": "https://doi.org/10.1116/1.1515912",
           "title": "Reflection high-energy electron diffraction observation of the dynamics of semiconductor quantum dot formation and decay"
+        },
+        {
+          "source_group": "gilfert2010-1-3428956",
+          "doi": "10.1063/1.3428956",
+          "url": "https://doi.org/10.1063/1.3428956",
+          "title": "Influence of the As2/As4 growth modes on the formation of quantum dot-like InAs islands grown on InAlGaAs/InP (100)"
         },
         {
           "source_group": "gong2002-1-1516637",
@@ -93978,10 +96359,22 @@
           "title": "Quantiﬁcation of segregation and strain effects in InAs/GaAs quantum dot growth"
         },
         {
+          "source_group": "huang2005-1-2008271",
+          "doi": "10.1116/1.2008271",
+          "url": "https://doi.org/10.1116/1.2008271",
+          "title": "Temperature dependence of carrier dynamics for InAs∕GaAs quantum dot infrared photodetectors"
+        },
+        {
           "source_group": "hwang2003-pssc-200303088",
           "doi": "10.1002/pssc.200303088",
           "url": "https://doi.org/10.1002/pssc.200303088",
           "title": "Optical properties of InAs/InP quantum dot stack grown by metalorganic chemical vapor deposition"
+        },
+        {
+          "source_group": "ide2004-1-1787157",
+          "doi": "10.1063/1.1787157",
+          "url": "https://doi.org/10.1063/1.1787157",
+          "title": "Lasing characteristics of InAs quantum-dot microdisk from 3K to room temperature"
         },
         {
           "source_group": "ilahi2003-pssa-200306681",
@@ -93994,6 +96387,12 @@
           "doi": "10.1116/1.581060",
           "url": "https://doi.org/10.1116/1.581060",
           "title": "Self-organized quantum dots and quantum dot lasers (invited)"
+        },
+        {
+          "source_group": "ishikawa2000-1-125691",
+          "doi": "10.1063/1.125691",
+          "url": "https://doi.org/10.1063/1.125691",
+          "title": "Site-controlled InAs single quantum-dot structures on GaAs surfaces patterned by in situ electron-beam lithography"
         },
         {
           "source_group": "ji2003-1-1530717",
@@ -94012,6 +96411,12 @@
           "doi": "10.1103/physrevlett.101.227203",
           "url": "https://doi.org/10.1103/physrevlett.101.227203",
           "title": "Intershell Exchange and Sequential Electrically Injected Spin Populations of InAs Quantum-Dot Shell States"
+        },
+        {
+          "source_group": "kiravittaya2006-1-2168494",
+          "doi": "10.1063/1.2168494",
+          "url": "https://doi.org/10.1063/1.2168494",
+          "title": "Photoluminescence from seeded three-dimensional InAs∕GaAs quantum-dot crystals"
         },
         {
           "source_group": "kita2007-1-2436633",
@@ -94074,6 +96479,12 @@
           "title": "Optical properties of patterned InAs quantum dot ensembles grown on GaAs nanopyramids"
         },
         {
+          "source_group": "lin2003-1-1594285",
+          "doi": "10.1063/1.1594285",
+          "url": "https://doi.org/10.1063/1.1594285",
+          "title": "Transport characteristics of InAs/GaAs quantum-dot infrared photodetectors"
+        },
+        {
           "source_group": "lin2006-1-2234817",
           "doi": "10.1063/1.2234817",
           "url": "https://doi.org/10.1063/1.2234817",
@@ -94098,6 +96509,24 @@
           "title": "Ordering of quantum dot molecules by self-organization"
         },
         {
+          "source_group": "lippen2005-1-1994256",
+          "doi": "10.1063/1.1994256",
+          "url": "https://doi.org/10.1063/1.1994256",
+          "title": "Self-Organized Lattice of Ordered Quantum Dot Molecules"
+        },
+        {
+          "source_group": "lippen2007-physrevb-75-115414",
+          "doi": "10.1103/physrevb.75.115414",
+          "url": "https://doi.org/10.1103/physrevb.75.115414",
+          "title": "Extended electron states in lateral quantum dot molecules investigated with photoluminescence"
+        },
+        {
+          "source_group": "liu2001-1-1337649",
+          "doi": "10.1063/1.1337649",
+          "url": "https://doi.org/10.1063/1.1337649",
+          "title": "Quantum dot infrared photodetectors"
+        },
+        {
           "source_group": "liu2004-1-1773378",
           "doi": "10.1063/1.1773378",
           "url": "https://doi.org/10.1063/1.1773378",
@@ -94108,6 +96537,12 @@
           "doi": "10.1063/1.2202195",
           "url": "https://doi.org/10.1063/1.2202195",
           "title": "Pinholelike defects in multistack 1.3 µm InAs quantum dot laser"
+        },
+        {
+          "source_group": "liu2006-1-2336998",
+          "doi": "10.1063/1.2336998",
+          "url": "https://doi.org/10.1063/1.2336998",
+          "title": "p -doped 1.3μm InAs∕GaAs quantum-dot laser with a low threshold current density and high differential efficiency"
         },
         {
           "source_group": "liu2007-1-2434156",
@@ -94126,6 +96561,12 @@
           "doi": "10.1063/1.1510157",
           "url": "https://doi.org/10.1063/1.1510157",
           "title": "Photoluminescence study of carrier transfer among vertically aligned double-stacked InAs/GaAs quantum dot layers"
+        },
+        {
+          "source_group": "mazur2005-1-2039271",
+          "doi": "10.1063/1.2039271",
+          "url": "https://doi.org/10.1063/1.2039271",
+          "title": "Tailoring of high-temperature photoluminescence in InAs∕GaAs bilayer quantum dot structures"
         },
         {
           "source_group": "mazur2008-1-2872781",
@@ -94152,6 +96593,12 @@
           "title": "Growth and characteristics of ultralow threshold 1.45 µm metamorphic InAs tunnel injection quantum dot lasers on GaAs"
         },
         {
+          "source_group": "milekhin2004-physrevb-70-085314",
+          "doi": "10.1103/physrevb.70.085314",
+          "url": "https://doi.org/10.1103/physrevb.70.085314",
+          "title": "Interface phonons in InAs and AlAs quantum dot structures"
+        },
+        {
           "source_group": "miska2005-1-1865332",
           "doi": "10.1063/1.1865332",
           "url": "https://doi.org/10.1063/1.1865332",
@@ -94174,6 +96621,12 @@
           "doi": "10.1116/1.1926308",
           "url": "https://doi.org/10.1116/1.1926308",
           "title": "Molecular beam epitaxy growth of novel double-layer InAs quantum dot structures and their optical properties"
+        },
+        {
+          "source_group": "ouattara2006-1-2245195",
+          "doi": "10.1063/1.2245195",
+          "url": "https://doi.org/10.1063/1.2245195",
+          "title": "A cross-sectional scanning tunneling microscopy study of a quantum dot infrared photodetector structure"
         },
         {
           "source_group": "pal2001-1-1382855",
@@ -94212,10 +96665,22 @@
           "title": "Kinetics of II-VI and III-V Colloidal Semiconductor Nanocrystal Growth: “Focusing” of Size Distributions"
         },
         {
+          "source_group": "petitprez2000-1-591411",
+          "doi": "10.1116/1.591411",
+          "url": "https://doi.org/10.1116/1.591411",
+          "title": "Strain relaxation-induced modifications of the optical properties of self-assembled InAs quantum dot superlattices"
+        },
+        {
           "source_group": "provided2005-pssa-200460325",
           "doi": "10.1002/pssa.200460325",
           "url": "https://doi.org/10.1002/pssa.200460325",
           "title": "Quantum dot VCSELs"
+        },
+        {
+          "source_group": "qiu2001-1-1421428",
+          "doi": "10.1063/1.1421428",
+          "url": "https://doi.org/10.1063/1.1421428",
+          "title": "High-performance InAs quantum-dot lasers near 1.3 μm"
         },
         {
           "source_group": "qiu2003-1-1606501",
@@ -94266,6 +96731,12 @@
           "title": "Improvement on the InAs quantum dot size distribution employing high-temperature GaAs(100) substrate treatment"
         },
         {
+          "source_group": "sears2007-1-2409612",
+          "doi": "10.1063/1.2409612",
+          "url": "https://doi.org/10.1063/1.2409612",
+          "title": "Modeling and characterization of InAs∕GaAs quantum dot lasers grown using metal organic chemical vapor deposition"
+        },
+        {
           "source_group": "selcuk2009-1-3167813",
           "doi": "10.1063/1.3167813",
           "url": "https://doi.org/10.1063/1.3167813",
@@ -94290,6 +96761,12 @@
           "title": "Quantum dot strain engineering for light emission at 1.3, 1.4 and 1.5 µm"
         },
         {
+          "source_group": "shchekin2000-1-127012",
+          "doi": "10.1063/1.127012",
+          "url": "https://doi.org/10.1063/1.127012",
+          "title": "Discrete energy level separation and the threshold temperature dependence of quantum dot lasers"
+        },
+        {
           "source_group": "shen1998-1-590068",
           "doi": "10.1116/1.590068",
           "url": "https://doi.org/10.1116/1.590068",
@@ -94300,6 +96777,12 @@
           "doi": "10.1116/1.1385916",
           "url": "https://doi.org/10.1116/1.1385916",
           "title": "Self-assembled quantum dot transformations via anion exchange"
+        },
+        {
+          "source_group": "songmuang2003-1-1569992",
+          "doi": "10.1063/1.1569992",
+          "url": "https://doi.org/10.1063/1.1569992",
+          "title": "Formation of lateral quantum dot molecules around self-assembled nanoholes"
         },
         {
           "source_group": "sritirawisarn2008-1-2993178",
@@ -94380,6 +96863,12 @@
           "title": "Acoustic phonon effects on telecommunication‐band quantum dot exciton Rabi oscillation"
         },
         {
+          "source_group": "xin2003-1-1582229",
+          "doi": "10.1063/1.1582229",
+          "url": "https://doi.org/10.1063/1.1582229",
+          "title": "InAs quantum-dot GaAs-based lasers grown on AlGaAsSb metamorphic buffers"
+        },
+        {
           "source_group": "xu2005-1-1842861",
           "doi": "10.1063/1.1842861",
           "url": "https://doi.org/10.1063/1.1842861",
@@ -94398,10 +96887,22 @@
           "title": "Effects of lateral quantum dot pitch on the formation of vertically aligned InAs site-controlled quantum dots"
         },
         {
+          "source_group": "ye2002-1-1517750",
+          "doi": "10.1063/1.1517750",
+          "url": "https://doi.org/10.1063/1.1517750",
+          "title": "InAs quantum dot infrared photodetectors with In0.15Ga0.85As strain-relief cap layers"
+        },
+        {
           "source_group": "ye2005-1-1949215",
           "doi": "10.1116/1.1949215",
           "url": "https://doi.org/10.1116/1.1949215",
           "title": "Control of InAs∕GaAs quantum dot density and alignment using modified buffer layers"
+        },
+        {
+          "source_group": "yeh2000-1-126097",
+          "doi": "10.1063/1.126097",
+          "url": "https://doi.org/10.1063/1.126097",
+          "title": "Matrix dependence of strain-induced wavelength shift in self-assembled InAs quantum-dot heterostructures"
         },
         {
           "source_group": "yeh2002-1-1445269",
@@ -94414,6 +96915,12 @@
           "doi": "10.1063/1.1629803",
           "url": "https://doi.org/10.1063/1.1629803",
           "title": "Improvement of InAs quantum-dot optical properties by strain compensation with GaNAs capping layers"
+        },
+        {
+          "source_group": "zhang2005-1-1923176",
+          "doi": "10.1063/1.1923176",
+          "url": "https://doi.org/10.1063/1.1923176",
+          "title": "High-detectivity InAs quantum-dot infrared photodetectors grown on InP by metal–organic chemical–vapor deposition"
         },
         {
           "source_group": "zhu2006-1-2388139",
@@ -94435,18 +96942,24 @@
         "bellato2024-inas-acsenergylett4c00295",
         "borgstrom2001-1-1374235-inas-quantum-dot-stacks-embedded-in-inp-1",
         "borgstrom2003-1-1632542-inas-quantum-dot-stack-1",
+        "cao2000-1-126693-inas-quantum-dot-embedded-gaas-microdisk-1",
         "das2016-acs-chemmater-6b01577-inas-quantum-dots-1",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-15ga0-1",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-15ga0-2",
         "dybiec2004-1-1763979-inas-quantum-dots-embedded-in-in0-20ga0-3",
         "el-emawy2003-1-1543647-inas-qds-grown-on-5-ml-of-in0-15ga0-85as-1",
         "eyink2004-1-1771671-inas-quantum-dots-qds-formed-from-planar-1",
+        "fekete2006-1-2168025-inas-self-assembled-quantum-dots-qds-wit-1",
         "finnie2002-1-1515912-inas-quantum-dots-on-gaas-100-1",
+        "gilfert2010-1-3428956-inas-quantum-dashes-1",
+        "gilfert2010-1-3428956-inas-quantum-dots-2",
         "gong2002-1-1516637-inas-quantum-dots-on-in0-35ga0-65as-temp-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-1",
         "hakkarainen2013-j-jcrysgro-2012-12-099-qdc-011-2",
         "hakkarainen2013-j-jcrysgro-2012-12-099-saqds-3",
+        "ide2004-1-1787157-inas-quantum-dot-microdisk-laser-with-fi-1",
         "ishikawa1998-1-581060-s-k-mode-grown-quantum-dots-1",
+        "ishikawa2000-1-125691-inas-single-quantum-dot-array-1",
         "kioseoglou2008-physrevlett-101-227203-inas-quantum-dots-1",
         "kita2007-1-2436633-inas-quantum-dot-qd-embedded-in-gaas-mat-1",
         "laurent2005-1-2103397-single-quantum-dot-embedded-in-a-two-dim-1",
@@ -94463,6 +96976,9 @@
         "lippen2004-1-1771460-inas-quantum-dot-qd-groups-on-gaas-311-b-1",
         "lippen2005-1-1840098-inas-qd-molecules-on-ten-period-sl-templ-1",
         "lippen2005-1-1942510-inas-qd-molecules-on-in-ga-as-gaas-sl-te-1",
+        "lippen2005-1-1994256-inas-quantum-dot-qd-groups-on-in-ga-as-g-1",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-1",
+        "lippen2007-physrevb-75-115414-inas-quantum-dot-molecules-qdms-with-an-2",
         "liu2006-1-2202195-1-32-m-inas-quantum-dot-laser-with-five-1",
         "mano2002-1-1503872-inas-quantum-dot-arrays-on-in-ga-as-gaas-1",
         "mi2006-1-2358847-metamorphic-inas-tunnel-injection-quantu-1",
@@ -94472,6 +96988,8 @@
         "ohmori2005-1-1926308-sample-b-2",
         "patella2008-1-3040327-inas-quantum-dots-in-100-nm-diameter-nan-1",
         "peng1998-inas-focusing",
+        "petitprez2000-1-591411-inas-quantum-dot-superlattices-1",
+        "qiu2001-1-1421428-inas-quantum-dots-embedded-in-strained-i-1",
         "qiu2003-1-1606501-inas-quantum-dot-qd-laser-on-001-inp-sub-1",
         "sablon2010-1-3486014-conventional-qd-structure-2",
         "saucedo-zeni2004-1-1705577-inas-quantum-dots-qds-on-gaas-100-surfac-1",
@@ -94479,6 +96997,8 @@
         "selcuk2009-1-3167813-single-inas-quantum-dot-arrays-1",
         "semenova2008-1-2927496-inas-quantum-dots-qds-embedded-in-in0-42-1",
         "seravalli2003-1-1566463-inas-quantum-dots-embedded-in-in0-15ga0-1",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-one-stack-1",
+        "shchekin2000-1-127012-inas-quantum-dot-qd-laser-two-stack-2",
         "shen1998-1-590068-inas-quantum-dots-1",
         "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-1",
         "shen2001-1-1385916-inas-quantum-dots-2-ml-multilayer-struct-2",
@@ -94486,6 +97006,7 @@
         "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-4",
         "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-5",
         "shen2001-1-1385916-inas-quantum-dots-3-ml-multilayer-struct-6",
+        "songmuang2003-1-1569992-inas-quantum-dot-bimolecule-1",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-6-ml-gaas-i-1",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-72-ml-gaas-2",
         "sritirawisarn2008-1-2993178-2-6-ml-inas-qd-arrays-with-0-84-ml-gaas-3",
@@ -94500,13 +97021,100 @@
         "ulloa2007-1-2741608-inas-gaas-quantum-dots-qds-capped-with-g-1",
         "ulloa2007-1-2741608-inas-gaas-quantum-dots-qds-capped-with-g-2",
         "x2010-pssc-200983861-inas-qds-capped-with-ingaas-strain-reduc-1",
+        "xin2003-1-1582229-inas-quantum-dot-laser-1",
         "xu2005-1-1842861-inas-quantum-dot-molecules-qdms-1",
         "yang2003-1-1530728-inas-site-controlled-quantum-dots-scqds-1",
         "yang2003-1-1530728-inas-site-controlled-quantum-dots-scqds-2",
         "yang2003-1-1530728-inas-site-controlled-quantum-dots-scqds-3",
+        "ye2002-1-1517750-inas-in0-15ga0-85as-gaas-quantum-dot-inf-1",
+        "yeh2000-1-126097-inas-quantum-dots-with-in0-16al0-84as-sr-2",
         "zhang2003-1-1629803-inas-quantum-dots-capped-with-gaas-layer-1",
         "zhang2003-1-1629803-inas-quantum-dots-capped-with-ganas-stra-2",
+        "zhang2005-1-1923176-inas-quantum-dots-in-inas-gaas-alinas-in-1",
         "zhu2006-1-2388139-inas-gaas-quantum-dot-qd-sample-1"
+      ]
+    },
+    {
+      "material_system": "InAs/AlAs",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "milekhin2004-physrevb-70-085314-sample-a-1",
+        "milekhin2004-physrevb-70-085314-sample-b-2"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "inas-alas-0d83e2",
+      "material_hub_url": "material.html?id=inas-alas-0d83e2",
+      "source_groups": [
+        "milekhin2004-physrevb-70-085314"
+      ],
+      "source_links": [
+        {
+          "source_group": "milekhin2004-physrevb-70-085314",
+          "doi": "10.1103/physrevb.70.085314",
+          "url": "https://doi.org/10.1103/physrevb.70.085314",
+          "title": "Interface phonons in InAs and AlAs quantum dot structures"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "milekhin2004-physrevb-70-085314-sample-a-1",
+        "milekhin2004-physrevb-70-085314-sample-b-2"
+      ]
+    },
+    {
+      "material_system": "InAs/AlGaAs",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1",
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "inas-algaas-f550d5",
+      "material_hub_url": "material.html?id=inas-algaas-f550d5",
+      "source_groups": [
+        "chen2001-1-1356430",
+        "liu2001-1-1337649"
+      ],
+      "source_links": [
+        {
+          "source_group": "chen2001-1-1356430",
+          "doi": "10.1063/1.1356430",
+          "url": "https://doi.org/10.1063/1.1356430",
+          "title": "Normal incidence InAs/AlxGa1−xAs quantum dot infrared photodetectors with undoped active region"
+        },
+        {
+          "source_group": "liu2001-1-1337649",
+          "doi": "10.1063/1.1337649",
+          "url": "https://doi.org/10.1063/1.1337649",
+          "title": "Quantum dot infrared photodetectors"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "chen2001-1-1356430-inas-algaas-qdip-with-undoped-active-reg-1",
+        "liu2001-1-1337649-inas-algaas-qdip-sample-c-3"
       ]
     },
     {
@@ -94548,7 +97156,7 @@
     {
       "material_system": "InAs/GaAs",
       "notes": [],
-      "direct_synthesis_route_variant_count": 50,
+      "direct_synthesis_route_variant_count": 63,
       "direct_route_record_ids": [
         "al2006-pssa-200622106-sample-a-1",
         "al2006-pssa-200622106-sample-b-2",
@@ -94569,21 +97177,32 @@
         "chia2007-1-2724776-1-8-ml-inas-gaas-quantum-dots-1",
         "chia2007-1-2724776-2-5-ml-inas-gaas-quantum-dots-2",
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-qds-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-with-ingaas-alloy-2",
         "fafard1999-1-124253-inas-gaas-quantum-dot-stacks-with-indium-1",
+        "fafard1999-1-124854-inas-gaas-quantum-dots-qds-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1",
         "ilahi2003-pssa-200306681-s1-ds-10-ml-1",
         "ilahi2003-pssa-200306681-s3-ds-30-ml-2",
         "ji2003-1-1530717-inas-gaas-quantum-dots-1",
+        "kiravittaya2006-1-2168494-qdc11-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1",
         "lin2006-1-2234817-inas-gaas-quantum-dot-structure-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2",
         "liu2004-1-1773378-5-layer-inas-gaas-qd-structure-with-50-n-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2",
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "nuntawong2005-1-1926413-inas-gaas-quantum-dot-qd-laser-with-4-ml-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
@@ -94593,6 +97212,8 @@
         "passow2007-1-2779270-inas-gaas-quantum-dots-qds-with-2-4-ml-i-1",
         "ray2006-1-2365387-inas-gaas-1-3-m-quantum-dot-superlumines-1",
         "sabarinathan2002-1-1521249-inas-gaas-quantum-dot-photonic-crystal-m-1",
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1",
         "stewart2003-1-1609634-30-stack-inas-gaas-quantum-dot-infrared-1",
         "stiff2001-1-1385584-inas-gaas-quantum-dot-detector-1",
         "tang2002-1-1467961-two-stacked-inas-gaas-quantum-dot-pin-di-1",
@@ -94609,7 +97230,7 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 50,
+      "public_hub_route_contributions": 63,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 0,
@@ -94623,18 +97244,26 @@
         "chen2014-ph500162a",
         "chia2007-1-2724776",
         "chia2009-1-3245305",
+        "chou2005-1-1900730",
         "clarke2010-1-3429226",
         "dasika2009-1-3243688",
         "fafard1999-1-124253",
+        "fafard1999-1-124854",
         "howe2005-1-2133904",
+        "huang2005-1-2008271",
         "ilahi2003-pssa-200306681",
         "ji2003-1-1530717",
+        "kiravittaya2006-1-2168494",
         "krause2005-physrevb-72-085339",
         "krzyzewski2002-physrevb-66-201302",
         "kulbachinskii2003-pssc-200303073",
+        "lin2003-1-1594285",
         "lin2006-1-2234817",
+        "liu2001-1-1337649",
         "liu2004-1-1773378",
+        "liu2006-1-2336998",
         "mazur2002-1-1510157",
+        "mazur2005-1-2039271",
         "mi2005-1-1985969",
         "nuntawong2005-1-1926413",
         "pal2001-1-1382855",
@@ -94643,6 +97272,7 @@
         "passow2007-1-2779270",
         "ray2006-1-2365387",
         "sabarinathan2002-1-1521249",
+        "sears2007-1-2409612",
         "stewart2003-1-1609634",
         "stiff2001-1-1385584",
         "tang2002-1-1467961",
@@ -94694,6 +97324,12 @@
           "title": "Thermal runaway and optical efficiency in InAs/GaAs quantum dot lasers"
         },
         {
+          "source_group": "chou2005-1-1900730",
+          "doi": "10.1116/1.1900730",
+          "url": "https://doi.org/10.1116/1.1900730",
+          "title": "High-performance 30-period quantum-dot infrared photodetector"
+        },
+        {
           "source_group": "clarke2010-1-3429226",
           "doi": "10.1063/1.3429226",
           "url": "https://doi.org/10.1063/1.3429226",
@@ -94712,10 +97348,22 @@
           "title": "Lasing in quantum-dot ensembles with sharp adjustable electronic shells"
         },
         {
+          "source_group": "fafard1999-1-124854",
+          "doi": "10.1063/1.124854",
+          "url": "https://doi.org/10.1063/1.124854",
+          "title": "Evolution of the energy levels in quantum dot ensembles with different densities"
+        },
+        {
           "source_group": "howe2005-1-2133904",
           "doi": "10.1063/1.2133904",
           "url": "https://doi.org/10.1063/1.2133904",
           "title": "Quantiﬁcation of segregation and strain effects in InAs/GaAs quantum dot growth"
+        },
+        {
+          "source_group": "huang2005-1-2008271",
+          "doi": "10.1116/1.2008271",
+          "url": "https://doi.org/10.1116/1.2008271",
+          "title": "Temperature dependence of carrier dynamics for InAs∕GaAs quantum dot infrared photodetectors"
         },
         {
           "source_group": "ilahi2003-pssa-200306681",
@@ -94728,6 +97376,12 @@
           "doi": "10.1063/1.1530717",
           "url": "https://doi.org/10.1063/1.1530717",
           "title": "InAs/GaAs quantum dot intermixing induced by proton implantation"
+        },
+        {
+          "source_group": "kiravittaya2006-1-2168494",
+          "doi": "10.1063/1.2168494",
+          "url": "https://doi.org/10.1063/1.2168494",
+          "title": "Photoluminescence from seeded three-dimensional InAs∕GaAs quantum-dot crystals"
         },
         {
           "source_group": "krause2005-physrevb-72-085339",
@@ -94748,10 +97402,22 @@
           "title": "Persistent photoconductivity in quantum dot layers in InAs/GaAs structures"
         },
         {
+          "source_group": "lin2003-1-1594285",
+          "doi": "10.1063/1.1594285",
+          "url": "https://doi.org/10.1063/1.1594285",
+          "title": "Transport characteristics of InAs/GaAs quantum-dot infrared photodetectors"
+        },
+        {
           "source_group": "lin2006-1-2234817",
           "doi": "10.1063/1.2234817",
           "url": "https://doi.org/10.1063/1.2234817",
           "title": "Combined optical and electrical studies of the effects of annealing on the intrinsic states and deep levels in a self-assembled InAs quantum-dot structure"
+        },
+        {
+          "source_group": "liu2001-1-1337649",
+          "doi": "10.1063/1.1337649",
+          "url": "https://doi.org/10.1063/1.1337649",
+          "title": "Quantum dot infrared photodetectors"
         },
         {
           "source_group": "liu2004-1-1773378",
@@ -94760,10 +97426,22 @@
           "title": "Influences of the spacer layer growth temperature on multilayer InAs∕GaAs quantum dot structures"
         },
         {
+          "source_group": "liu2006-1-2336998",
+          "doi": "10.1063/1.2336998",
+          "url": "https://doi.org/10.1063/1.2336998",
+          "title": "p -doped 1.3μm InAs∕GaAs quantum-dot laser with a low threshold current density and high differential efficiency"
+        },
+        {
           "source_group": "mazur2002-1-1510157",
           "doi": "10.1063/1.1510157",
           "url": "https://doi.org/10.1063/1.1510157",
           "title": "Photoluminescence study of carrier transfer among vertically aligned double-stacked InAs/GaAs quantum dot layers"
+        },
+        {
+          "source_group": "mazur2005-1-2039271",
+          "doi": "10.1063/1.2039271",
+          "url": "https://doi.org/10.1063/1.2039271",
+          "title": "Tailoring of high-temperature photoluminescence in InAs∕GaAs bilayer quantum dot structures"
         },
         {
           "source_group": "mi2005-1-1985969",
@@ -94812,6 +97490,12 @@
           "doi": "10.1063/1.1521249",
           "url": "https://doi.org/10.1063/1.1521249",
           "title": "An electrically injected InAs/GaAs quantum-dot photonic crystal microcavity light-emitting diode"
+        },
+        {
+          "source_group": "sears2007-1-2409612",
+          "doi": "10.1063/1.2409612",
+          "url": "https://doi.org/10.1063/1.2409612",
+          "title": "Modeling and characterization of InAs∕GaAs quantum dot lasers grown using metal organic chemical vapor deposition"
         },
         {
           "source_group": "stewart2003-1-1609634",
@@ -94870,21 +97554,32 @@
         "chia2007-1-2724776-1-8-ml-inas-gaas-quantum-dots-1",
         "chia2007-1-2724776-2-5-ml-inas-gaas-quantum-dots-2",
         "chia2009-1-3245305-inas-gaas-quantum-dot-laser-1",
+        "chou2005-1-1900730-device-a-10-period-inas-gaas-qdip-1",
+        "chou2005-1-1900730-device-b-30-period-inas-gaas-qdip-2",
         "clarke2010-1-3429226-inas-gaas-qd-bilayer-with-seed-layer-gro-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-qds-1",
         "dasika2009-1-3243688-inas-gaas-quantum-dots-with-ingaas-alloy-2",
         "fafard1999-1-124253-inas-gaas-quantum-dot-stacks-with-indium-1",
+        "fafard1999-1-124854-inas-gaas-quantum-dots-qds-1",
         "howe2005-1-2133904-inas-gaas-001-quantum-dot-qd-bilayer-str-1",
+        "huang2005-1-2008271-30-period-undoped-inas-gaas-quantum-dot-1",
         "ilahi2003-pssa-200306681-s1-ds-10-ml-1",
         "ilahi2003-pssa-200306681-s3-ds-30-ml-2",
         "ji2003-1-1530717-inas-gaas-quantum-dots-1",
+        "kiravittaya2006-1-2168494-qdc11-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-bimolecules-1",
         "krause2005-physrevb-72-085339-inas-gaas-quantum-dot-quadmolecules-2",
         "krzyzewski2002-physrevb-66-201302-inas-gaas-001-quantum-dots-1",
         "kulbachinskii2003-pssc-200303073-inas-gaas-quantum-dot-structures-1",
+        "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1",
         "lin2006-1-2234817-inas-gaas-quantum-dot-structure-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-a-1",
+        "liu2001-1-1337649-inas-gaas-qdip-sample-b-2",
         "liu2004-1-1773378-5-layer-inas-gaas-qd-structure-with-50-n-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-1",
+        "liu2006-1-2336998-seven-layer-p-doped-inas-gaas-quantum-do-2",
         "mazur2002-1-1510157-vertically-aligned-double-layer-inas-gaa-1",
+        "mazur2005-1-2039271-inas-gaas-bilayer-quantum-dot-structure-1",
         "mi2005-1-1985969-inas-gaas-quantum-dot-bilayer-sample-c-1",
         "nuntawong2005-1-1926413-inas-gaas-quantum-dot-qd-laser-with-4-ml-1",
         "pal2001-1-1382855-inas-gaas-quantum-dot-superlattice-1",
@@ -94894,6 +97589,8 @@
         "passow2007-1-2779270-inas-gaas-quantum-dots-qds-with-2-4-ml-i-1",
         "ray2006-1-2365387-inas-gaas-1-3-m-quantum-dot-superlumines-1",
         "sabarinathan2002-1-1521249-inas-gaas-quantum-dot-photonic-crystal-m-1",
+        "sears2007-1-2409612-five-stack-inas-gaas-quantum-dot-laser-2",
+        "sears2007-1-2409612-three-stack-inas-gaas-quantum-dot-laser-1",
         "stewart2003-1-1609634-30-stack-inas-gaas-quantum-dot-infrared-1",
         "stiff2001-1-1385584-inas-gaas-quantum-dot-detector-1",
         "tang2002-1-1467961-two-stacked-inas-gaas-quantum-dot-pin-di-1",
@@ -95018,8 +97715,9 @@
     {
       "material_system": "InAs/InGaAs",
       "notes": [],
-      "direct_synthesis_route_variant_count": 2,
+      "direct_synthesis_route_variant_count": 3,
       "direct_route_record_ids": [
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1",
         "provided2005-pssa-200460325-inas-ingaas-quantum-dot-heterostructures-1",
         "yamamoto2011-pssc-201000476-9-stacked-inas-ingaas-qd-laser-diode-wit-1"
       ],
@@ -95031,17 +97729,24 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 2,
+      "public_hub_route_contributions": 3,
       "component_route_contribution_count": 0,
       "component_route_record_ids": [],
       "primary_reviewed_source_count": 0,
       "material_hub_id": "inas-ingaas-dea026",
       "material_hub_url": "material.html?id=inas-ingaas-dea026",
       "source_groups": [
+        "ouattara2006-1-2245195",
         "provided2005-pssa-200460325",
         "yamamoto2011-pssc-201000476"
       ],
       "source_links": [
+        {
+          "source_group": "ouattara2006-1-2245195",
+          "doi": "10.1063/1.2245195",
+          "url": "https://doi.org/10.1063/1.2245195",
+          "title": "A cross-sectional scanning tunneling microscopy study of a quantum dot infrared photodetector structure"
+        },
         {
           "source_group": "provided2005-pssa-200460325",
           "doi": "10.1002/pssa.200460325",
@@ -95056,6 +97761,7 @@
         }
       ],
       "direct_route_recipe_family_ids": [
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1",
         "provided2005-pssa-200460325-inas-ingaas-quantum-dot-heterostructures-1",
         "yamamoto2011-pssc-201000476-9-stacked-inas-ingaas-qd-laser-diode-wit-1"
       ]
@@ -95421,11 +98127,12 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 9,
-      "component_route_contribution_count": 7,
+      "public_hub_route_contributions": 10,
+      "component_route_contribution_count": 8,
       "component_route_record_ids": [
         "djie2006-1-2337537-ingaas-gaas-qd-c-1",
         "liu2007-1-2434156-p-doped-ten-layer-inas-ingaas-gaas-quant-1",
+        "ouattara2006-1-2245195-inas-ingaas-quantum-dots-in-a-qdip-struc-1",
         "provided2005-pssa-200460325-inas-ingaas-quantum-dot-heterostructures-1",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-five-1",
         "salhi2006-1-2402744-inas-ingaas-gaas-quantum-dot-layers-seve-2",
@@ -95439,6 +98146,7 @@
         "djie2006-1-2337537",
         "ishikawa1998-1-581060",
         "liu2007-1-2434156",
+        "ouattara2006-1-2245195",
         "provided2005-pssa-200460325",
         "salhi2006-1-2402744",
         "seravalli2005-1-2007860",
@@ -95463,6 +98171,12 @@
           "doi": "10.1063/1.2434156",
           "url": "https://doi.org/10.1063/1.2434156",
           "title": "Low transparency current density and high temperature operation from ten-layer p-doped 1.3μm InAs∕InGaAs∕GaAs quantum dot lasers"
+        },
+        {
+          "source_group": "ouattara2006-1-2245195",
+          "doi": "10.1063/1.2245195",
+          "url": "https://doi.org/10.1063/1.2245195",
+          "title": "A cross-sectional scanning tunneling microscopy study of a quantum dot infrared photodetector structure"
         },
         {
           "source_group": "provided2005-pssa-200460325",
@@ -95786,8 +98500,8 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 135,
-      "component_route_contribution_count": 30,
+      "public_hub_route_contributions": 136,
+      "component_route_contribution_count": 31,
       "component_route_record_ids": [
         "al2009-pssc-200881722-inp-gap-qds-2",
         "bharali2005-ja051455x-inp-zns-qds-1",
@@ -95814,6 +98528,7 @@
         "narayanaswamy2009-nn9004507-inp-zns-core-shell-quantum-dots-3-0-nm-2",
         "narayanaswamy2009-nn9004507-inp-zns-core-shell-quantum-dots-3-8-nm-3",
         "narayanaswamy2009-nn9004507-inp-zns-core-shell-quantum-dots-4-5-nm-4",
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1",
         "saint-girons2006-1-2185008-inas-inp-001-quantum-dots-qds-1",
         "saint-girons2006-1-2233554-inas-inp-quantum-dots-with-a-5-nm-inp-ca-1",
         "xie2007-ja076363h-inp-zns-core-shell-nanocrystals-2",
@@ -95848,6 +98563,7 @@
         "narayanaswamy2009-nn9004507",
         "parvizian2023-inp-jchemed2c01167",
         "reddy2002-1-1458689",
+        "ryou2001-1-1382622",
         "saint-girons2006-1-2185008",
         "saint-girons2006-1-2233554",
         "shen1998-1-590068",
@@ -96000,6 +98716,12 @@
           "doi": "10.1063/1.1458689",
           "url": "https://doi.org/10.1063/1.1458689",
           "title": "Current transport in InP/In0.5(Al0.6Ga0.4)0.5P self-assembled quantum dot heterostructures using ballistic electron emission microscopy/spectroscopy"
+        },
+        {
+          "source_group": "ryou2001-1-1382622",
+          "doi": "10.1063/1.1382622",
+          "url": "https://doi.org/10.1063/1.1382622",
+          "title": "Photopumped red-emitting InP/In0.5Al0.3Ga0.2P self-assembled quantum dot heterostructure lasers grown by metalorganic chemical vapor deposition"
         },
         {
           "source_group": "saint-girons2006-1-2185008",
@@ -96203,6 +98925,42 @@
       ],
       "direct_route_recipe_family_ids": [
         "al2009-pssc-200881722-inp-gap-qds-2"
+      ]
+    },
+    {
+      "material_system": "InP/In0.5Al0.3Ga0.2P",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "inp-in0-5al0-3ga0-2p-3be170",
+      "material_hub_url": "material.html?id=inp-in0-5al0-3ga0-2p-3be170",
+      "source_groups": [
+        "ryou2001-1-1382622"
+      ],
+      "source_links": [
+        {
+          "source_group": "ryou2001-1-1382622",
+          "doi": "10.1063/1.1382622",
+          "url": "https://doi.org/10.1063/1.1382622",
+          "title": "Photopumped red-emitting InP/In0.5Al0.3Ga0.2P self-assembled quantum dot heterostructure lasers grown by metalorganic chemical vapor deposition"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "ryou2001-1-1382622-inp-in0-5al0-3ga0-2p-self-assembled-quan-1"
       ]
     },
     {
@@ -96644,17 +99402,29 @@
       "benchmark_row_count": 0,
       "public_hub_exists": true,
       "public_hub_component_only": false,
-      "public_hub_route_contributions": 4,
-      "component_route_contribution_count": 0,
-      "component_route_record_ids": [],
+      "public_hub_route_contributions": 7,
+      "component_route_contribution_count": 3,
+      "component_route_record_ids": [
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2"
+      ],
       "primary_reviewed_source_count": 0,
       "material_hub_id": "insb-91bd6a",
       "material_hub_url": "material.html?id=insb-91bd6a",
       "source_groups": [
+        "carrington2008-1-2976551",
         "chatterjee2023-acsanm-3c02221",
-        "chen2026-jacs-5c23366"
+        "chen2026-jacs-5c23366",
+        "child2003-physrevb-68-165307"
       ],
       "source_links": [
+        {
+          "source_group": "carrington2008-1-2976551",
+          "doi": "10.1063/1.2976551",
+          "url": "https://doi.org/10.1063/1.2976551",
+          "title": "Room temperature midinfrared electroluminescence from InSb/InAs quantum dot light emitting diodes"
+        },
         {
           "source_group": "chatterjee2023-acsanm-3c02221",
           "doi": "10.1021/acsanm.3c02221",
@@ -96666,6 +99436,12 @@
           "doi": "10.1021/jacs.5c23366",
           "url": "https://doi.org/10.1021/jacs.5c23366",
           "title": "Elemental Nanocrystal Redox Pathway Enables Antimonide Colloidal Quantum Dots"
+        },
+        {
+          "source_group": "child2003-physrevb-68-165307",
+          "doi": "10.1103/physrevb.68.165307",
+          "url": "https://doi.org/10.1103/physrevb.68.165307",
+          "title": "Far-infrared modulated photoluminescence spectroscopy of InSb/GaSb quantum dot structures"
         }
       ],
       "direct_route_recipe_family_ids": [
@@ -96673,6 +99449,80 @@
         "chatterjee2023-acsanm-3c02221-insb-qds-sample-b-2",
         "chatterjee2023-acsanm-3c02221-insb-qds-sample-c-3",
         "chen2026-jacs-5c23366-insb-qds-7-1-nm-1"
+      ]
+    },
+    {
+      "material_system": "InSb/GaSb",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 2,
+      "direct_route_record_ids": [
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 2,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "insb-gasb-35891d",
+      "material_hub_url": "material.html?id=insb-gasb-35891d",
+      "source_groups": [
+        "child2003-physrevb-68-165307"
+      ],
+      "source_links": [
+        {
+          "source_group": "child2003-physrevb-68-165307",
+          "doi": "10.1103/physrevb.68.165307",
+          "url": "https://doi.org/10.1103/physrevb.68.165307",
+          "title": "Far-infrared modulated photoluminescence spectroscopy of InSb/GaSb quantum dot structures"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-a-1",
+        "child2003-physrevb-68-165307-insb-gasb-quantum-dots-sample-b-2"
+      ]
+    },
+    {
+      "material_system": "InSb/InAs",
+      "notes": [],
+      "direct_synthesis_route_variant_count": 1,
+      "direct_route_record_ids": [
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1"
+      ],
+      "contextual_control_count": 0,
+      "contextual_control_record_ids": [],
+      "contextual_observation_count": 0,
+      "contextual_observation_record_ids": [],
+      "procedure_count": 0,
+      "benchmark_row_count": 0,
+      "public_hub_exists": true,
+      "public_hub_component_only": false,
+      "public_hub_route_contributions": 1,
+      "component_route_contribution_count": 0,
+      "component_route_record_ids": [],
+      "primary_reviewed_source_count": 0,
+      "material_hub_id": "insb-inas-ee5c14",
+      "material_hub_url": "material.html?id=insb-inas-ee5c14",
+      "source_groups": [
+        "carrington2008-1-2976551"
+      ],
+      "source_links": [
+        {
+          "source_group": "carrington2008-1-2976551",
+          "doi": "10.1063/1.2976551",
+          "url": "https://doi.org/10.1063/1.2976551",
+          "title": "Room temperature midinfrared electroluminescence from InSb/InAs quantum dot light emitting diodes"
+        }
+      ],
+      "direct_route_recipe_family_ids": [
+        "carrington2008-1-2976551-insb-inas-quantum-dot-light-emitting-dio-1"
       ]
     },
     {
@@ -111341,8 +114191,8 @@
   "provenance": {
     "mode": "deterministic_build_output",
     "baseline_inventory_sha256": "50722472316cf532ff12b4fc765bb80a658661d69172adec6e4439936b2221e8",
-    "reviewed_evidence_sha256": "28f1890ca68a8d8454d5cd79567b5e40dfa700913464869faa16a4bbc7d0da19",
-    "record_ids_sha256": "255081fd655eb387868ac97979a0f3d66f31bc32e8efc17df188f8a86b8ca6e4",
+    "reviewed_evidence_sha256": "b797616de35cb4fd0a097ab8baccac86bd18e6c739d7adb986938619122ce319",
+    "record_ids_sha256": "465ddd4c7812adaf42cc422a17ce853b0fb1a62fa8597aea21db6a5b16eec8b5",
     "generated_dataset_version_observed": "0.41.2",
     "publication_verification": "Separate live deployment receipt; generation alone grants no publication credit."
   }
