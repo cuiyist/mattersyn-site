@@ -1,6 +1,6 @@
 {
   "schema_version": "mattersyn.reader-collection/1",
-  "material_families": 466,
+  "material_families": 471,
   "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
   "material_systems": [
     "(4-FPEA)4AgBiI8",
@@ -82,6 +82,7 @@
     "CQDs",
     "CQDs@ZnO:Ga/ZnO",
     "CaCO3",
+    "CaWO4",
     "Cd(Te,Se)/ZnSe",
     "Cd)Se",
     "Cd0.5Zn0.5S",
@@ -262,6 +263,7 @@
     "InAs/GaAs(001)",
     "InAs/GaAs/AlAs",
     "InAs/GaAsSb",
+    "InAs/GaNAs",
     "InAs/GaNxAs1−x",
     "InAs/GaP",
     "InAs/In0.15Ga0.85As",
@@ -308,6 +310,7 @@
     "Li2Bi4Ti3O12",
     "LiFe5O8",
     "LiMn2O4",
+    "LiNbO3",
     "Mg-Al-LDH",
     "Mn-ZnS",
     "Mn:ZnO",
@@ -323,6 +326,7 @@
     "NAT-CQDs",
     "NHC−Ag",
     "NHC−Ag2Se",
+    "NaYF4:20",
     "Nd2O3",
     "Ni-CdSe",
     "Ni3C-CdSe",
@@ -401,6 +405,7 @@
     "TiO2/HgTe",
     "WC",
     "Y3Al5O12:Ce",
+    "Y3Al5O12:Ce3+",
     "ZCIS/ZnS",
     "Zn0.95Co0.05O",
     "Zn0.95Mg0.05O",
@@ -470,12 +475,12 @@
     "γ-Fe2O3/HgS",
     "γ-Fe2O3/ZnS"
   ],
-  "contributing_papers": 1122,
+  "contributing_papers": 1134,
   "source_coverage": {
-    "total_contributing_papers": 1122,
+    "total_contributing_papers": 1134,
     "reviewed_contributing_papers": 244,
     "audited_contributing_papers": 244,
-    "machine_extracted_contributing_papers": 878,
+    "machine_extracted_contributing_papers": 890,
     "audited_primary_dois": [
       "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
       "10.1002/adfm.200500603",
@@ -723,18 +728,23 @@
       "10.1246/cl.2006.1210"
     ],
     "source_extracted_primary_dois": [
+      "10.1002/adfm.200600053",
       "10.1002/adfm.200600955",
       "10.1002/adfm.200900852",
       "10.1002/adfm.201000711",
       "10.1002/adma.200500875",
+      "10.1002/adma.200501088",
       "10.1002/adma.200501523",
       "10.1002/adma.200700111",
       "10.1002/adma.200701582",
       "10.1002/adma.200702544",
       "10.1002/adma.200801313",
+      "10.1002/anie.200460610",
       "10.1002/anie.200600545",
       "10.1002/anie.200703648",
       "10.1002/crat.200410534",
+      "10.1002/crat.200710987",
+      "10.1002/crat.201000105",
       "10.1002/elps.201000260",
       "10.1002/masy.200850807",
       "10.1002/pip.452",
@@ -743,10 +753,12 @@
       "10.1002/pssa.200460323",
       "10.1002/pssa.200460325",
       "10.1002/pssa.200622106",
+      "10.1002/pssa.200669630",
       "10.1002/pssb.200303036",
       "10.1002/pssb.200304237",
       "10.1002/pssb.200460780",
       "10.1002/pssb.200671547",
+      "10.1002/pssb.200776158",
       "10.1002/pssb.200880650",
       "10.1002/pssb.200880660",
       "10.1002/pssb.200880670",
@@ -766,6 +778,7 @@
       "10.1002/pssc.200780110",
       "10.1002/pssc.200881722",
       "10.1002/pssc.200983861",
+      "10.1002/pssc.201000461",
       "10.1002/pssc.201000476",
       "10.1002/smll.200600218",
       "10.1002/smll.200600298",
@@ -773,6 +786,7 @@
       "10.1002/smll.201000897",
       "10.1006/jcis.2000.6894",
       "10.1007/s00339-003-2503-z",
+      "10.1007/s00339-006-3631-z",
       "10.1007/s00339-010-6005-5",
       "10.1007/s00339-010-6152-8",
       "10.1007/s00340-005-1975-2",
@@ -863,6 +877,7 @@
       "10.1021/am404811j",
       "10.1021/am500026a",
       "10.1021/am500110x",
+      "10.1021/am500197n",
       "10.1021/am500429c",
       "10.1021/am501235v",
       "10.1021/am5012782",
@@ -1301,6 +1316,7 @@
       "10.1063/1.114701",
       "10.1063/1.115504",
       "10.1063/1.117419",
+      "10.1063/1.117614",
       "10.1063/1.118816",
       "10.1063/1.119043",
       "10.1063/1.119276",
@@ -1475,6 +1491,7 @@
       "10.1063/1.2872781",
       "10.1063/1.2889446",
       "10.1063/1.2889938",
+      "10.1063/1.2903699",
       "10.1063/1.2905239",
       "10.1063/1.2906121",
       "10.1063/1.2912340",
@@ -1604,14 +1621,14 @@
     ],
     "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
   },
-  "synthesis_structure_pairs": 2171,
+  "synthesis_structure_pairs": 2189,
   "audited_synthesis_structure_pairs": 864,
-  "source_extracted_record_pairs": 1307,
+  "source_extracted_record_pairs": 1325,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 2165,
+  "partial_pairs": 2183,
   "count_definition": "Audited recipe/sample rows retain their existing definition and identifiers. The display also includes one row per additional source-linked record, including supporting and assembly records. Missing product or structural details remain blank. Multiple measurements do not add rows. This display count does not grant training eligibility or establish independent physical batches.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 4292,
+  "all_records": 4310,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -289445,6 +289462,324 @@
       }
     },
     {
+      "pair_row_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct1-1::display",
+      "record_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct1-1",
+      "record_page_path": "records/anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct1-1.html",
+      "source_group": "anandakumar2008-crat-200710987",
+      "title": "V. M. Anandakumar et al. (2008): nanocrystalline CaWO4 (sample code – CT1)",
+      "doi": "10.1002/crat.200710987",
+      "year": 2008,
+      "method": "Precipitation",
+      "recipe_label": "V. M. Anandakumar et al. (2008): nanocrystalline CaWO4 (sample code – CT1)",
+      "sample_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct1-1--product",
+      "source_sample_label": "nanocrystalline CaWO4 (sample code – CT1)",
+      "composition": {
+        "value": "CaWO4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "anandakumar2008-crat-200710987",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "anandakumar2008-crat-200710987",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "scheelite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "anandakumar2008-crat-200710987",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct1-1--size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 13,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "13 nm",
+            "evidence": [
+              {
+                "source_id": "anandakumar2008-crat-200710987",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "anandakumar2008-crat-200710987",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct2-2::display",
+      "record_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct2-2",
+      "record_page_path": "records/anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct2-2.html",
+      "source_group": "anandakumar2008-crat-200710987",
+      "title": "V. M. Anandakumar et al. (2008): nanocrystalline CaWO4 (sample code – CT2)",
+      "doi": "10.1002/crat.200710987",
+      "year": 2008,
+      "method": "Precipitation",
+      "recipe_label": "V. M. Anandakumar et al. (2008): nanocrystalline CaWO4 (sample code – CT2)",
+      "sample_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct2-2--product",
+      "source_sample_label": "nanocrystalline CaWO4 (sample code – CT2)",
+      "composition": {
+        "value": "CaWO4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "anandakumar2008-crat-200710987",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "anandakumar2008-crat-200710987",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "scheelite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "anandakumar2008-crat-200710987",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct2-2--size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "20 nm",
+            "evidence": [
+              {
+                "source_id": "anandakumar2008-crat-200710987",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "anandakumar2008-crat-200710987",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct3-3::display",
+      "record_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct3-3",
+      "record_page_path": "records/anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct3-3.html",
+      "source_group": "anandakumar2008-crat-200710987",
+      "title": "V. M. Anandakumar et al. (2008): nanocrystalline CaWO4 (sample code – CT3)",
+      "doi": "10.1002/crat.200710987",
+      "year": 2008,
+      "method": "Precipitation",
+      "recipe_label": "V. M. Anandakumar et al. (2008): nanocrystalline CaWO4 (sample code – CT3)",
+      "sample_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct3-3--product",
+      "source_sample_label": "nanocrystalline CaWO4 (sample code – CT3)",
+      "composition": {
+        "value": "CaWO4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "anandakumar2008-crat-200710987",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "anandakumar2008-crat-200710987",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "scheelite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "anandakumar2008-crat-200710987",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "anandakumar2008-crat-200710987-nanocrystalline-cawo4-sample-code-ct3-3--size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 26,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "26 nm",
+            "evidence": [
+              {
+                "source_id": "anandakumar2008-crat-200710987",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "anandakumar2008-crat-200710987",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "ankah2016-j-orgel-2016-03-023-pbs-qds-1::display",
       "record_id": "ankah2016-j-orgel-2016-03-023-pbs-qds-1",
       "record_page_path": "records/ankah2016-j-orgel-2016-03-023-pbs-qds-1.html",
@@ -289955,6 +290290,150 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "aravind2004-anie-200460610-in2o3-nanoparticles-2::display",
+      "record_id": "aravind2004-anie-200460610-in2o3-nanoparticles-2",
+      "record_page_path": "records/aravind2004-anie-200460610-in2o3-nanoparticles-2.html",
+      "source_group": "aravind2004-anie-200460610",
+      "title": "Nicola Pinna et al. (2004): In2O3 nanoparticles",
+      "doi": "10.1002/anie.200460610",
+      "year": 2004,
+      "method": "Solvothermal",
+      "recipe_label": "Nicola Pinna et al. (2004): In2O3 nanoparticles",
+      "sample_id": "aravind2004-anie-200460610-in2o3-nanoparticles-2--product",
+      "source_sample_label": "In2O3 nanoparticles",
+      "composition": {
+        "value": "In2O3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "aravind2004-anie-200460610",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "aravind2004-anie-200460610",
+          "locator": "Main PDF p.4"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cubic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "aravind2004-anie-200460610",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "cubelike",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "aravind2004-anie-200460610",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "aravind2004-anie-200460610-in2o3-nanoparticles-2--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 20,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "20 nm",
+            "evidence": [
+              {
+                "source_id": "aravind2004-anie-200460610",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "aravind2004-anie-200460610",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "aravind2004-anie-200460610-in2o3-nanoparticles-2--benzyl-alcohol"
+          ],
+          "fields": [
+            {
+              "material_id": "aravind2004-anie-200460610-in2o3-nanoparticles-2--benzyl-alcohol",
+              "pointer": "/materials/1/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 20,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "20 mL",
+                "evidence": [
+                  {
+                    "source_id": "aravind2004-anie-200460610",
+                    "locator": "Main PDF p.4"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -313503,6 +313982,221 @@
       }
     },
     {
+      "pair_row_id": "fan2005-adma-200501088-gold-ncmicelles-1::display",
+      "record_id": "fan2005-adma-200501088-gold-ncmicelles-1",
+      "record_page_path": "records/fan2005-adma-200501088-gold-ncmicelles-1.html",
+      "source_group": "fan2005-adma-200501088",
+      "title": "H. Fan et al. (2005): gold-NC–micelles",
+      "doi": "10.1002/adma.200501088",
+      "year": 2005,
+      "method": "Solvothermal",
+      "recipe_label": "H. Fan et al. (2005): gold-NC–micelles",
+      "sample_id": "fan2005-adma-200501088-gold-ncmicelles-1--product",
+      "source_sample_label": "gold-NC–micelles",
+      "composition": {
+        "value": "Au",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "fan2005-adma-200501088",
+            "locator": "Main PDF p.4"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "fan2005-adma-200501088",
+          "locator": "Main PDF p.4"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "metallic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fan2005-adma-200501088",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "fan2005-adma-200501088",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "fan2005-adma-200501088-gold-ncmicelles-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 10.6,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "10.6 nm",
+            "evidence": [
+              {
+                "source_id": "fan2005-adma-200501088",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "fan2005-adma-200501088",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "fan2005-adma-200501088-gold-ncmicelles-1--1-dodecanethiol",
+            "fan2005-adma-200501088-gold-ncmicelles-1--haucl4",
+            "fan2005-adma-200501088-gold-ncmicelles-1--sodium-borohydride",
+            "fan2005-adma-200501088-gold-ncmicelles-1--tetraoctylammonium-bromide"
+          ],
+          "fields": [
+            {
+              "material_id": "fan2005-adma-200501088-gold-ncmicelles-1--haucl4",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.7,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.7 g",
+                "evidence": [
+                  {
+                    "source_id": "fan2005-adma-200501088",
+                    "locator": "Main PDF p.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fan2005-adma-200501088-gold-ncmicelles-1--tetraoctylammonium-bromide",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 4,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "4 g",
+                "evidence": [
+                  {
+                    "source_id": "fan2005-adma-200501088",
+                    "locator": "Main PDF p.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fan2005-adma-200501088-gold-ncmicelles-1--1-dodecanethiol",
+              "pointer": "/materials/2/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.34,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.34 g",
+                "evidence": [
+                  {
+                    "source_id": "fan2005-adma-200501088",
+                    "locator": "Main PDF p.4"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "fan2005-adma-200501088-gold-ncmicelles-1--sodium-borohydride",
+              "pointer": "/materials/3/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.78,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.78 g",
+                "evidence": [
+                  {
+                    "source_id": "fan2005-adma-200501088",
+                    "locator": "Main PDF p.4"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "fan2005-nl050017l-cdse-cds-qd-micelles-1::display",
       "record_id": "fan2005-nl050017l-cdse-cds-qd-micelles-1",
       "record_page_path": "records/fan2005-nl050017l-cdse-cds-qd-micelles-1.html",
@@ -314448,6 +315142,362 @@
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
           "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-heterostructure-from-3::display",
+      "record_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-heterostructure-from-3",
+      "record_page_path": "records/frank2007-pssb-200776158-mwcnt-tio2-anatase-heterostructure-from-3.html",
+      "source_group": "frank2007-pssb-200776158",
+      "title": "Otakar Frank et al. (2007): MWCNT-TiO2 (anatase) heterostructure from Pluronic P123 templated thin film",
+      "doi": "10.1002/pssb.200776158",
+      "year": 2007,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "Otakar Frank et al. (2007): MWCNT-TiO2 (anatase) heterostructure from Pluronic P123 templated thin film",
+      "sample_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-heterostructure-from-3--product",
+      "source_sample_label": "MWCNT-TiO2 (anatase) heterostructure from Pluronic P123 templated thin film",
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "frank2007-pssb-200776158",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "frank2007-pssb-200776158",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanoparticle",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-heterostructure-from-3--size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 10,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "10 nm",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "frank2007-pssb-200776158",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-mixture-from-ti-butox-2::display",
+      "record_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-mixture-from-ti-butox-2",
+      "record_page_path": "records/frank2007-pssb-200776158-mwcnt-tio2-anatase-mixture-from-ti-butox-2.html",
+      "source_group": "frank2007-pssb-200776158",
+      "title": "Otakar Frank et al. (2007): MWCNT-TiO2 (anatase) mixture from Ti-butoxide",
+      "doi": "10.1002/pssb.200776158",
+      "year": 2007,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "Otakar Frank et al. (2007): MWCNT-TiO2 (anatase) mixture from Ti-butoxide",
+      "sample_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-mixture-from-ti-butox-2--product",
+      "source_sample_label": "MWCNT-TiO2 (anatase) mixture from Ti-butoxide",
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "frank2007-pssb-200776158",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "frank2007-pssb-200776158",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanoparticle",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "frank2007-pssb-200776158-mwcnt-tio2-anatase-mixture-from-ti-butox-2--size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 30,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "30 nm",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "frank2007-pssb-200776158",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1::display",
+      "record_id": "frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1",
+      "record_page_path": "records/frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1.html",
+      "source_group": "frank2007-pssb-200776158",
+      "title": "Otakar Frank et al. (2007): SWCNT-TiO2 (anatase) heterostructure",
+      "doi": "10.1002/pssb.200776158",
+      "year": 2007,
+      "method": "Electrochemical deposition",
+      "recipe_label": "Otakar Frank et al. (2007): SWCNT-TiO2 (anatase) heterostructure",
+      "sample_id": "frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1--product",
+      "source_sample_label": "SWCNT-TiO2 (anatase) heterostructure",
+      "composition": {
+        "value": "TiO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "frank2007-pssb-200776158",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "frank2007-pssb-200776158",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "anatase",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanoparticle",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "frank2007-pssb-200776158-swcnt-tio2-anatase-heterostructure-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 8,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "8 nm",
+            "evidence": [
+              {
+                "source_id": "frank2007-pssb-200776158",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "frank2007-pssb-200776158",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
@@ -318204,6 +319254,80 @@
               {
                 "source_id": "guimard2010-1-3427392",
                 "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "guo12006-s00339-006-3631-z-monoclinic-zirconia-70-with-some-tetrago-1::display",
+      "record_id": "guo12006-s00339-006-3631-z-monoclinic-zirconia-70-with-some-tetrago-1",
+      "record_page_path": "records/guo12006-s00339-006-3631-z-monoclinic-zirconia-70-with-some-tetrago-1.html",
+      "source_group": "guo12006-s00339-006-3631-z",
+      "title": "G.-Y. Guo et al. (2006): monoclinic zirconia (70%) with some tetragonal zirconia (30%)",
+      "doi": "10.1007/s00339-006-3631-z",
+      "year": 2006,
+      "method": "Precipitation",
+      "recipe_label": "G.-Y. Guo et al. (2006): monoclinic zirconia (70%) with some tetragonal zirconia (30%)",
+      "sample_id": "guo12006-s00339-006-3631-z-monoclinic-zirconia-70-with-some-tetrago-1--product",
+      "source_sample_label": "monoclinic zirconia (70%) with some tetragonal zirconia (30%)",
+      "composition": {
+        "value": "ZrO2",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "guo12006-s00339-006-3631-z",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "guo12006-s00339-006-3631-z",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "monoclinic",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "guo12006-s00339-006-3631-z",
+                "locator": "Main PDF p.1"
               }
             ],
             "note": ""
@@ -325024,6 +326148,216 @@
       }
     },
     {
+      "pair_row_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-1::display",
+      "record_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-1",
+      "record_page_path": "records/hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-1.html",
+      "source_group": "hubbard2008-1-2903699",
+      "title": "S. M. Hubbard (2008): GaAs solar cell with five-layer InAs QD arrays and GaP strain compensation layers",
+      "doi": "10.1063/1.2903699",
+      "year": 2008,
+      "method": "Stranski–Kranstanow",
+      "recipe_label": "S. M. Hubbard (2008): GaAs solar cell with five-layer InAs QD arrays and GaP strain compensation layers",
+      "sample_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-1--product",
+      "source_sample_label": "GaAs solar cell with five-layer InAs QD arrays and GaP strain compensation layers",
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hubbard2008-1-2903699",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hubbard2008-1-2903699",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "dot",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hubbard2008-1-2903699",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "7 nm",
+            "evidence": [
+              {
+                "source_id": "hubbard2008-1-2903699",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "hubbard2008-1-2903699",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-2::display",
+      "record_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-2",
+      "record_page_path": "records/hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-2.html",
+      "source_group": "hubbard2008-1-2903699",
+      "title": "S. M. Hubbard (2008): GaAs solar cell with five-layer InAs QD arrays without GaP strain compensation layers",
+      "doi": "10.1063/1.2903699",
+      "year": 2008,
+      "method": "Stranski–Kranstanow",
+      "recipe_label": "S. M. Hubbard (2008): GaAs solar cell with five-layer InAs QD arrays without GaP strain compensation layers",
+      "sample_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-2--product",
+      "source_sample_label": "GaAs solar cell with five-layer InAs QD arrays without GaP strain compensation layers",
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "hubbard2008-1-2903699",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "hubbard2008-1-2903699",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "dot",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "hubbard2008-1-2903699",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "hubbard2008-1-2903699-gaas-solar-cell-with-five-layer-inas-qd-2--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 7,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "7 nm",
+            "evidence": [
+              {
+                "source_id": "hubbard2008-1-2903699",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "hubbard2008-1-2903699",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "hughes2014-ja413026h-pbse-qd-dimer-1::display",
       "record_id": "hughes2014-ja413026h-pbse-qd-dimer-1",
       "record_page_path": "records/hughes2014-ja413026h-pbse-qd-dimer-1.html",
@@ -327796,6 +329130,198 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1::display",
+      "record_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1",
+      "record_page_path": "records/isobe2006-pssa-200669630-yag-ce3-nanocrystals-1.html",
+      "source_group": "isobe2006-pssa-200669630",
+      "title": "T. Isobe (2006): YAG:Ce3+ nanocrystals",
+      "doi": "10.1002/pssa.200669630",
+      "year": 2006,
+      "method": "Glycothermal",
+      "recipe_label": "T. Isobe (2006): YAG:Ce3+ nanocrystals",
+      "sample_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--product",
+      "source_sample_label": "YAG:Ce3+ nanocrystals",
+      "composition": {
+        "value": "Y3Al5O12:Ce3+",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "isobe2006-pssa-200669630",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "isobe2006-pssa-200669630",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "crystalline",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "isobe2006-pssa-200669630",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        },
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "isobe2006-pssa-200669630",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 10.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "10 nm",
+            "evidence": [
+              {
+                "source_id": "isobe2006-pssa-200669630",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "isobe2006-pssa-200669630",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--aluminium-isopropoxide",
+            "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--cerium-iii-acetate-monohydrate",
+            "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--yttrium-iii-acetate-tetrahydrate"
+          ],
+          "fields": [
+            {
+              "material_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--aluminium-isopropoxide",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 12.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "12.5 mmol",
+                "evidence": [
+                  {
+                    "source_id": "isobe2006-pssa-200669630",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--yttrium-iii-acetate-tetrahydrate",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 7.43,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "7.43 mmol",
+                "evidence": [
+                  {
+                    "source_id": "isobe2006-pssa-200669630",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "isobe2006-pssa-200669630-yag-ce3-nanocrystals-1--cerium-iii-acetate-monohydrate",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.08,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.08 mmol",
+                "evidence": [
+                  {
+                    "source_id": "isobe2006-pssa-200669630",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
@@ -368732,6 +370258,66 @@
       }
     },
     {
+      "pair_row_id": "oshima2011-pssc-201000461-inas-ganas-qdsc-50-layer-stacked-sample-1::display",
+      "record_id": "oshima2011-pssc-201000461-inas-ganas-qdsc-50-layer-stacked-sample-1",
+      "record_page_path": "records/oshima2011-pssc-201000461-inas-ganas-qdsc-50-layer-stacked-sample-1.html",
+      "source_group": "oshima2011-pssc-201000461",
+      "title": "Ryuji Oshima et al. (2011): InAs/GaNAs QDSC (50 layer-stacked sample)",
+      "doi": "10.1002/pssc.201000461",
+      "year": 2011,
+      "method": "Molecular beam epitaxy",
+      "recipe_label": "Ryuji Oshima et al. (2011): InAs/GaNAs QDSC (50 layer-stacked sample)",
+      "sample_id": "oshima2011-pssc-201000461-inas-ganas-qdsc-50-layer-stacked-sample-1--product",
+      "source_sample_label": "InAs/GaNAs QDSC (50 layer-stacked sample)",
+      "composition": {
+        "value": "InAs/GaNAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "oshima2011-pssc-201000461",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "oshima2011-pssc-201000461",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "osovsky2005-jp0526795-cdte-ca-ncs-1::display",
       "record_id": "osovsky2005-jp0526795-cdte-ca-ncs-1",
       "record_page_path": "records/osovsky2005-jp0526795-cdte-ca-ncs-1.html",
@@ -374810,6 +376396,92 @@
                   {
                     "source_id": "pradhan2007-ja068360v",
                     "locator": "Main PDF p.9"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "prins2014-am500197n-acceptor-on-donor-qd-heterostructure-1::display",
+      "record_id": "prins2014-am500197n-acceptor-on-donor-qd-heterostructure-1",
+      "record_page_path": "records/prins2014-am500197n-acceptor-on-donor-qd-heterostructure-1.html",
+      "source_group": "prins2014-am500197n",
+      "title": "Ferry Prins (2014): acceptor-on-donor QD heterostructure",
+      "doi": "10.1021/am500197n",
+      "year": 2014,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "Ferry Prins (2014): acceptor-on-donor QD heterostructure",
+      "sample_id": "prins2014-am500197n-acceptor-on-donor-qd-heterostructure-1--product",
+      "source_sample_label": "acceptor-on-donor QD heterostructure",
+      "composition": {
+        "value": "CdSe/CdZnS",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "prins2014-am500197n",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "prins2014-am500197n",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "prins2014-am500197n-acceptor-on-donor-qd-heterostructure-1--diethylene-glycol"
+          ],
+          "fields": [
+            {
+              "material_id": "prins2014-am500197n-acceptor-on-donor-qd-heterostructure-1--diethylene-glycol",
+              "pointer": "/materials/0/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2.5,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2.5 mL",
+                "evidence": [
+                  {
+                    "source_id": "prins2014-am500197n",
+                    "locator": "Main PDF p.1"
                   }
                 ],
                 "derivation": null
@@ -391228,6 +392900,97 @@
       }
     },
     {
+      "pair_row_id": "solomon1996-1-117614-inas-quantum-dot-columns-with-1-5-and-10-1::display",
+      "record_id": "solomon1996-1-117614-inas-quantum-dot-columns-with-1-5-and-10-1",
+      "record_page_path": "records/solomon1996-1-117614-inas-quantum-dot-columns-with-1-5-and-10-1.html",
+      "source_group": "solomon1996-1-117614",
+      "title": "G. S. Solomon (1996): InAs quantum dot columns with 1, 5, and 10 InAs quantum dots",
+      "doi": "10.1063/1.117614",
+      "year": 1996,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "G. S. Solomon (1996): InAs quantum dot columns with 1, 5, and 10 InAs quantum dots",
+      "sample_id": "solomon1996-1-117614-inas-quantum-dot-columns-with-1-5-and-10-1--product",
+      "source_sample_label": "InAs quantum dot columns with 1, 5, and 10 InAs quantum dots",
+      "composition": {
+        "value": "InAs",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "solomon1996-1-117614",
+            "locator": "Main PDF p.2"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "solomon1996-1-117614",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "solomon1996-1-117614-inas-quantum-dot-columns-with-1-5-and-10-1--size",
+          "property": "particle_size",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4 nm",
+            "evidence": [
+              {
+                "source_id": "solomon1996-1-117614",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "not reported",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "solomon1996-1-117614",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "son2009-1-3111445-colloidal-zno-quantum-dots-qds-blended-w-1::display",
       "record_id": "son2009-1-3111445-colloidal-zno-quantum-dots-qds-blended-w-1",
       "record_page_path": "records/son2009-1-3111445-colloidal-zno-quantum-dots-qds-blended-w-1.html",
@@ -393609,6 +395372,186 @@
                 "evidence": [
                   {
                     "source_id": "strom2007-s11671-007-9040-1",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "su2010-crat-201000105-ln500-1::display",
+      "record_id": "su2010-crat-201000105-ln500-1",
+      "record_page_path": "records/su2010-crat-201000105-ln500-1.html",
+      "source_group": "su2010-crat-201000105",
+      "title": "Ting Ting Su (2010): LN500",
+      "doi": "10.1002/crat.201000105",
+      "year": 2010,
+      "method": "Alternative solid-state",
+      "recipe_label": "Ting Ting Su (2010): LN500",
+      "sample_id": "su2010-crat-201000105-ln500-1--product",
+      "source_sample_label": "LN500",
+      "composition": {
+        "value": "LiNbO3",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "su2010-crat-201000105",
+            "locator": "Main PDF p.5"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "su2010-crat-201000105",
+          "locator": "Main PDF p.1"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "hexagonal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "su2010-crat-201000105",
+                "locator": "Main PDF p.4"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "su2010-crat-201000105-ln500-1--size",
+          "property": "crystallite_size",
+          "descriptor_field": "crystal_structure.coherence_length",
+          "value": {
+            "value": 40,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "40 nm",
+            "evidence": [
+              {
+                "source_id": "su2010-crat-201000105",
+                "locator": "Main PDF p.4"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "XRD",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "su2010-crat-201000105",
+              "locator": "Main PDF p.4"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "su2010-crat-201000105-ln500-1--ano",
+            "su2010-crat-201000105-ln500-1--li2c2o4",
+            "su2010-crat-201000105-ln500-1--water"
+          ],
+          "fields": [
+            {
+              "material_id": "su2010-crat-201000105-ln500-1--li2c2o4",
+              "pointer": "/materials/0/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 1.53,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "1.53 g",
+                "evidence": [
+                  {
+                    "source_id": "su2010-crat-201000105",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "su2010-crat-201000105-ln500-1--ano",
+              "pointer": "/materials/1/quantities/mass",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 12.38,
+                "minimum": null,
+                "maximum": null,
+                "unit": "g",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "12.38 g",
+                "evidence": [
+                  {
+                    "source_id": "su2010-crat-201000105",
+                    "locator": "Main PDF p.2"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "su2010-crat-201000105-ln500-1--water",
+              "pointer": "/materials/2/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mL",
+                "evidence": [
+                  {
+                    "source_id": "su2010-crat-201000105",
                     "locator": "Main PDF p.2"
                   }
                 ],
@@ -412046,6 +413989,427 @@
         "quantified_input_evidence": {
           "material_ids": [],
           "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1::display",
+      "record_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1",
+      "record_page_path": "records/yi2006-adfm-200600053-nayf4-20-yb-2-er-1.html",
+      "source_group": "yi2006-adfm-200600053",
+      "title": "G. S. Yi et al. (2006): NaYF4:20 %Yb,2 %Er",
+      "doi": "10.1002/adfm.200600053",
+      "year": 2006,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "G. S. Yi et al. (2006): NaYF4:20 %Yb,2 %Er",
+      "sample_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--product",
+      "source_sample_label": "NaYF4:20 %Yb,2 %Er",
+      "composition": {
+        "value": "NaYF4:20 %Yb,2 %Er",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yi2006-adfm-200600053",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yi2006-adfm-200600053",
+          "locator": "Main PDF p.5"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "hexagonal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yi2006-adfm-200600053",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 10.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "10.5 nm",
+            "evidence": [
+              {
+                "source_id": "yi2006-adfm-200600053",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "yi2006-adfm-200600053",
+              "locator": "Main PDF p.2"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coo-3er",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coo-3y",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coo-3yb",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coona",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--oleylamine"
+          ],
+          "fields": [
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coona",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coo-3y",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.78,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.78 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coo-3yb",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--cf3coo-3er",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.02,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.02 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-er-1--oleylamine",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mL",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2::display",
+      "record_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2",
+      "record_page_path": "records/yi2006-adfm-200600053-nayf4-20-yb-2-tm-2.html",
+      "source_group": "yi2006-adfm-200600053",
+      "title": "G. S. Yi et al. (2006): NaYF4:20 %Yb,2 %Tm",
+      "doi": "10.1002/adfm.200600053",
+      "year": 2006,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "G. S. Yi et al. (2006): NaYF4:20 %Yb,2 %Tm",
+      "sample_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--product",
+      "source_sample_label": "NaYF4:20 %Yb,2 %Tm",
+      "composition": {
+        "value": "NaYF4:20 %Yb,2 %Tm",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "yi2006-adfm-200600053",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "yi2006-adfm-200600053",
+          "locator": "Main PDF p.5"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "hexagonal",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "yi2006-adfm-200600053",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": true,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "reported_morphology",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coo-3tm",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coo-3y",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coo-3yb",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coona",
+            "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--oleylamine"
+          ],
+          "fields": [
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coona",
+              "pointer": "/materials/0/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coo-3y",
+              "pointer": "/materials/1/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.78,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.78 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coo-3yb",
+              "pointer": "/materials/2/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.2,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.2 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--cf3coo-3tm",
+              "pointer": "/materials/3/quantities/amount",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.02,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mmol",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.02 mmol",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            },
+            {
+              "material_id": "yi2006-adfm-200600053-nayf4-20-yb-2-tm-2--oleylamine",
+              "pointer": "/materials/4/quantities/volume",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 10,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mL",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "10 mL",
+                "evidence": [
+                  {
+                    "source_id": "yi2006-adfm-200600053",
+                    "locator": "Main PDF p.5"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
           "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
         },
         "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."

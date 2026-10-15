@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-20261015`. Records are not independent experiments.
+Dataset **0.41.2** · **1134 primary source groups** · release `simple-batch31-20261015`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1021_jp0039520. [10.1021/jp0039520](https://doi.org/10.1021/jp0039520). Review scope remains stated in the linked website records.
 
@@ -38,6 +38,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 - M. Illing; G. Bacher; T. Kümmell; A. Forchel; T. G. Andersson; D. Hommel; B. Jobst; G. Landwehr (1995). Lateral quantization effects in lithographically defined CdZnSe/ZnSe quantum dots and quantum wires. [10.1063/1.115504](https://doi.org/10.1063/1.115504). Review scope remains stated in the linked website records.
 
 - Effendi Leobandung, Lingjie Guo, Yun Wang, and Stephen Y. Chou (1995). Observation of quantum effects and Coulomb blockade in silicon quantum-dot transistors at temperatures over 100 K. [10.1063/1.114701](https://doi.org/10.1063/1.114701). Review scope remains stated in the linked website records.
+
+- G. S. Solomon, M. C. Larson, and J. S. Harris, Jr. (1996). Electroluminescence in vertically aligned quantum dot multilayer light-emitting diodes fabricating by growth-induced islanding. [10.1063/1.117614](https://doi.org/10.1063/1.117614). Review scope remains stated in the linked website records.
 
 - N. Kirstaedter, O. G. Schmidt, N. N. Ledentsov, and D. Bimberg, V. M. Ustinov, A. Yu. Egorov, A. E. Zhukov, M. V. Maximov, P. S. Kop’ev, and Zh. I. Alferov (1996). Gain and differential gain of single layer InAs/GaAs quantum dot injection lasers. [10.1063/1.117419](https://doi.org/10.1063/1.117419). Review scope remains stated in the linked website records.
 
@@ -487,6 +489,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 
 - M. Sorescu; L. Diamandescu; D. Tarabasanu-Mihaila; V. S. Teodorescu (2004). Nanocrystalline rhombohedral In2O3 synthesized by hydrothermal and postannealing pathways. *Journal of Materials Science*, 39, 675–677. [10.1023/B:JMSC.0000011529.01603.FC](https://doi.org/10.1023/B:JMSC.0000011529.01603.FC). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=sorescu2004-in2o3-jmsc01603fc).
 
+- Nicola Pinna; Giovanni Neri; Markus Antonietti; Markus Niederberger (2004). Nonaqueous Synthesis of Nanocrystalline Semiconducting Metal Oxides for Gas Sensing. [10.1002/anie.200460610](https://doi.org/10.1002/anie.200460610). Review scope remains stated in the linked website records.
+
 - Yukio Nagasaki; Takehiko Ishii; Yuka Sunaga; Yousuke Watanabe; Hidenori Otsuka; Kazunori Kataoka (2004). Novel Molecular Recognition via Fluorescent Resonance Energy Transfer Using a Biotin-PEG/Polyamine Stabilized CdS Quantum Dot. *Langmuir*, 20, 6396-6400. [10.1021/la036034c](https://doi.org/10.1021/la036034c). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=nagasaki2004).
 
 - Y. Charles Cao and Jianhui Wang (2004). One-Pot Synthesis of High-Quality Zinc-Blende CdS Nanocrystals. [10.1021/ja0459678](https://doi.org/10.1021/ja0459678). Review scope remains stated in the linked website records.
@@ -600,6 +604,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 - L. Besombes, Y. Leger, L. Maingault, D. Ferrand, J. Cibert, and H. Mariette (2005). Optical probing of the spin state of a single magnetic ion in an individual quantum dot. [10.1002/pssb.200460780](https://doi.org/10.1002/pssb.200460780). Review scope remains stated in the linked website records.
 
 - Arjan J. Houtepen and Danie1l Vanmaekelbergh (2005). Orbital Occupation in Electron-Charged CdSe Quantum-Dot Solids. [10.1021/jp053103i](https://doi.org/10.1021/jp053103i). Review scope remains stated in the linked website records.
+
+- Hongyou Fan, Erik Leve, John Gabaldon, Adam Wright, Raid E. Haddad, and C. Jeffrey Brinker (2005). Ordered Two‐ and Three‐Dimensional Arrays Self‐Assembled from Water‐Soluble Nanocrystal–Micelles. [10.1002/adma.200501088](https://doi.org/10.1002/adma.200501088). Review scope remains stated in the linked website records.
 
 - T. van Lippen, R. Nötzel, G. J. Hamhuis, and J. H. Wolter (2005). Ordered quantum dot molecules and single quantum dots formed by self-organized anisotropic strain engineering. [10.1063/1.1840098](https://doi.org/10.1063/1.1840098). Review scope remains stated in the linked website records.
 
@@ -737,6 +743,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 
 - A. M. P. G. de la Torre, M. A. Correa-Duarte, M. A. El-Sayed (2006). Linear CdTe–CNT Composites with Tunable Photoluminescence via Electrostatic Self-Assembly and Silica Spacers. [10.1002/adma.200501523](https://doi.org/10.1002/adma.200501523). Review scope remains stated in the linked website records.
 
+- T. Isobe (2006). Low‐temperature wet chemical syntheses of nanocrystal phosphors with surface modification and their characterization. [10.1002/pssa.200669630](https://doi.org/10.1002/pssa.200669630). Review scope remains stated in the linked website records.
+
 - G. Saint-Girons, N. Chauvin, A. Michon, G. Patriarche, G. Beaudoin, G. Brémond, C. Bru-Chevallier, I. Sagnes (2006). Microphotoluminescence of exciton and biexciton around 1.5 µm from a single InAs/InP(001) quantum dot. [10.1063/1.2185008](https://doi.org/10.1063/1.2185008). Review scope remains stated in the linked website records.
 
 - Gopakumar Gopalakrishnan; Christophe Danelon; Paulina Izewska; Michael Prummer; Pierre‐Yves Bolinger; Isabelle Geissbühler; Davide Demurtas; Jacques Dubochet; Horst Vogel (2006). Multifunctional Lipid/Quantum Dot Hybrid Nanocontainers for Controlled Targeting of Live Cells. [10.1002/anie.200600545](https://doi.org/10.1002/anie.200600545). Review scope remains stated in the linked website records.
@@ -779,6 +787,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 
 - Kwan-Wook Kwon, Bo Hyun Lee, and Moonsub Shim* (2006). Structural Evolution in Metal Oxide/Semiconductor Colloidal Nanocrystal Heterostructures. [10.1021/cm0621390](https://doi.org/10.1021/cm0621390). Review scope remains stated in the linked website records.
 
+- Guang Shun Yi, Gan Moog Chow (2006). Synthesis of Hexagonal‐Phase NaYF 4 :Yb,Er and NaYF 4 :Yb,Tm Nanocrystals with Efficient Up‐Conversion Fluorescence. [10.1002/adfm.200600053](https://doi.org/10.1002/adfm.200600053). Review scope remains stated in the linked website records.
+
 - Beena Tyagi; Kalpesh Sidhpuria; Basha Shaik; Raksh Vir Jasra (2006). Synthesis of Nanocrystalline Zirconia Using Sol–Gel and Precipitation Techniques. *Industrial & Engineering Chemistry Research*, 45, 8643–8650. [10.1021/ie060519p](https://doi.org/10.1021/ie060519p). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=tyagi2006-zro2-ie060519p).
 
 - Nancy Joumaa, Muriel Lansalot, Alain Théretz, Abdelhamid Elaissari, Alyona Sukhanova, Mikhail Artemyev, Igor Nabiev, Jacques H. M. Cohen (2006). Synthesis of Quantum Dot-Tagged Submicrometer Polystyrene Particles by Miniemulsion Polymerization. [10.1021/la052197k](https://doi.org/10.1021/la052197k). Review scope remains stated in the linked website records.
@@ -802,6 +812,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 - D. G. Cooke, A. N. MacDonald, A. Hryciw, J. Wang, Q. Li, A. Meldrum, and F. A. Hegmann (2006). Transient terahertz conductivity in photoexcited silicon nanocrystal films. [10.1103/physrevb.73.193311](https://doi.org/10.1103/physrevb.73.193311). Review scope remains stated in the linked website records.
 
 - Alexander W. Schill, Christopher S. Gaddis, Wei Qian, Mostafa A. El-Sayed, Ye Cai, Valeria T. Milam, Kenneth Sandhage (2006). Ultrafast Electronic Relaxation and Charge-Carrier Localization in CdS/CdSe/CdS Quantum-Dot Quantum-Well Heterostructures. [10.1021/nl061054v](https://doi.org/10.1021/nl061054v). Review scope remains stated in the linked website records.
+
+- G.-Y. Guo; Y.-L. Chen (2006). Unusual structural phase transition in nanocrystalline zirconia. [10.1007/s00339-006-3631-z](https://doi.org/10.1007/s00339-006-3631-z). Review scope remains stated in the linked website records.
 
 - Peter Liljeroth, Karin Overgaag, Ana Urbieta, Bruno Grandidier, Stephen G. Hickey, and Danieël Vanmaekelbergh (2006). Variable Orbital Coupling in a Two-Dimensional Quantum-Dot Solid Probed on a Local Scale. [10.1103/physrevlett.97.096803](https://doi.org/10.1103/physrevlett.97.096803). Review scope remains stated in the linked website records.
 
@@ -921,6 +933,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 
 - Ying-Song Fu; Xi-Wen Du; Sergei A. Kulinich; Jian-Sheng Qiu; Wen-Jing Qin; Rui Li; Jing Sun; Jim Liu (2007). Stable Aqueous Dispersion of ZnO Quantum Dots with Strong Blue Emission via Simple Solution Route. [10.1021/ja075604i](https://doi.org/10.1021/ja075604i). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=fu2007).
 
+- Otakar Frank; Martin Kalbac; Ladislav Kavan; Marketa Zukalova; Jan Prochazka; Mariana Klementova; Lothar Dunsch (2007). Structural properties and electrochemical behavior of CNT‐TiO2 nanocrystal heterostructures. [10.1002/pssb.200776158](https://doi.org/10.1002/pssb.200776158). Review scope remains stated in the linked website records.
+
 - Jianping Ge; Yongxing Hu; Maurizio Biasini; Ward P. Beyermann; Yadong Yin (2007). Superparamagnetic Magnetite Colloidal Nanocrystal Clusters. *Angewandte Chemie International Edition*, 46, 4342–4345. [10.1002/anie.200700197](https://doi.org/10.1002/anie.200700197). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=ge2007-magnetite-anie200700197).
 
 - J. M. Ulloa, I. W. Drouzas, P. M. Koenraad, D. J. Mowbray, M. J. Steer, H. Y. Liu, and M. Hopkinson (2007). Suppression of InAs∕GaAs quantum dot decomposition by the incorporation of a GaAsSb capping layer. [10.1063/1.2741608](https://doi.org/10.1063/1.2741608). Review scope remains stated in the linked website records.
@@ -975,6 +989,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 
 - Pinar Dagtepe and Viktor Chikan (2008). Effect of Cd/Te Ratio on the Formation of CdTe Magic-Sized Quantum Dots during Aggregation. [10.1021/jp802254n](https://doi.org/10.1021/jp802254n). Review scope remains stated in the linked website records.
 
+- S. M. Hubbard, C. D. Cress, C. G. Bailey, R. P. Raffaelle, S. G. Bailey, and D. M. Wilt (2008). Effect of strain compensation on quantum dot enhanced GaAs solar cells. [10.1063/1.2903699](https://doi.org/10.1063/1.2903699). Review scope remains stated in the linked website records.
+
 - Tomoya Inoue, Takashi Kita, Mitsuru Konno, Toshie Yaguchi, Takeo Kamino, Osamu Wada (2008). Electron tomography of embedded semiconductor quantum dot. [10.1063/1.2837453](https://doi.org/10.1063/1.2837453). Review scope remains stated in the linked website records.
 
 - Robert Lechner, Andre R. Stegner, Rui N. Pereira, Roland Dietmueller, Martin S. Brandt, André Ebbers, Martin Trocha, Hartmut Wiggers, and Martin Stutzmann (2008). Electronic properties of doped silicon nanocrystal films. [10.1063/1.2973399](https://doi.org/10.1063/1.2973399). Review scope remains stated in the linked website records.
@@ -1014,6 +1030,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 - Yaoxia Li, Yihua Zhu, Xiaoling Yang, and Chunzhong Li (2008). Mesoporous Silica Spheres as Microreactors for Performing CdS Nanocrystal Synthesis. [10.1021/cg800457u](https://doi.org/10.1021/cg800457u). Review scope remains stated in the linked website records.
 
 - E. S. Semenova; R. Hostein; G. Patriarche; O. Mauguin; L. Largeau; I. Robert-Philip; A. Beveratos; A. Lemaître (2008). Metamorphic approach to single quantum dot emission at 1.55 µm on GaAs substrate. [10.1063/1.2927496](https://doi.org/10.1063/1.2927496). Review scope remains stated in the linked website records.
+
+- V. M. Anandakumar and M. Abdul Khadar (2008). Microhardness studies of nanocrystalline calcium tungstate. [10.1002/crat.200710987](https://doi.org/10.1002/crat.200710987). Review scope remains stated in the linked website records.
 
 - T. Zhu, K. Shanmugasundaram, S. C. Price, J. Ruzyllo, F. Zhang, J. Xu, S. E. Mohney, Q. Zhang, and A. Y. Wang (2008). Mist fabrication of light emitting diodes with colloidal nanocrystal quantum dots. [10.1063/1.2834734](https://doi.org/10.1063/1.2834734). Review scope remains stated in the linked website records.
 
@@ -1387,6 +1405,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 
 - XianXiang Wang; ZhongKe Yang; Zhi San; Xi Pen; QianMing Huang (2010). Preparation of giant unilamellar CdTe quantum dot vesicles and their metabolic pathway in vivo. [10.1007/s11426-010-3098-9](https://doi.org/10.1007/s11426-010-3098-9). Review scope remains stated in the linked website records.
 
+- Ting Ting Su, Heng Jiang, Hong Gong, Yu Chun Zhai (2010). Preparation of nanocrystalline lithium niobate powders at low temperature. [10.1002/crat.201000105](https://doi.org/10.1002/crat.201000105). Review scope remains stated in the linked website records.
+
 - Hieu Bui, Craig Onodera, Carson Kidwell, Yer Peng Tan, Elton Graugnard, Wan Kuang, Jeunghoon Lee, William B. Knowlton, Bernard Yurke, and William L. Hughes (2010). Programmable Periodicity of Quantum Dot Arrays with DNA Origami Nanotubes. [10.1021/nl101079u](https://doi.org/10.1021/nl101079u). Review scope remains stated in the linked website records.
 
 - Jiang Tang, Lukasz Brzozowski, D. Aaron R. Barkhouse, Xihua Wang, Ratan Debnath, Remigiusz Wolowiec, Elenita Palmiano, Larissa Levina, Andras G. Pattantyus-Abraham, Damir Jamakosmanovic, and Edward H. Sargent (2010). Quantum Dot Photovoltaics in the Extreme Quantum Confinement Regime: The Surface-Chemical Origins of Exceptional Air- and Light-Stability. [10.1021/nn901564q](https://doi.org/10.1021/nn901564q). Review scope remains stated in the linked website records.
@@ -1482,6 +1502,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 - Wei-Sheng Liu, Hong-Ming Wu, Yu-Ann Liao, Jen-Inn Chyi, Wen-Yen Chen, Tzu-Min Hsu (2011). High optical property vertically aligned InAs quantum dot structures with GaAsSb overgrown layers. [10.1016/j.jcrysgro.2010.10.136](https://doi.org/10.1016/j.jcrysgro.2010.10.136). Review scope remains stated in the linked website records.
 
 - Minsu Seol; Easwaramoorthi Ramasamy; Jinwoo Lee; Kijung Yong (2011). Highly Efficient and Durable Quantum Dot Sensitized ZnO Nanowire Solar Cell Using Noble-Metal-Free Counter Electrode. [10.1021/jp205844r](https://doi.org/10.1021/jp205844r). Review scope remains stated in the linked website records.
+
+- Ryuji Oshima; Yoshitaka Okada; Ayami Takata; Shuhei Yagi; Kouichi Akahane; Ryo Tamaki; Kenjiro Miyano (2011). High‐density quantum dot superlattice for application to high‐efficiency solar cells. [10.1002/pssc.201000461](https://doi.org/10.1002/pssc.201000461). Review scope remains stated in the linked website records.
 
 - Adam J. Shuhendler; Preethy Prasad; Ho-Ka Carol Chan; Claudia R. Gordijo; Behrouz Soroushian; Michael Kolios; Kui Yu; Peter J. O’Brien; Andrew Michael Rauth; Xiao Yu Wu (2011). Hybrid Quantum Dot−Fatty Ester Stealth Nanoparticles: Toward Clinically Relevant in Vivo Optical Imaging of Deep Tissue. [10.1021/nn103024b](https://doi.org/10.1021/nn103024b). Review scope remains stated in the linked website records.
 
@@ -1918,6 +1940,8 @@ Dataset **0.41.2** · **1122 primary source groups** · release `simple-batch30-
 - Danilo H. Jara, Seog Joon Yoon, Kevin G. Stamplecoskie, and Prashant V. Kamat (2014). Size-Dependent Photovoltaic Performance of CuInS2 Quantum Dot-Sensitized Solar Cells. [10.1021/cm5040886](https://doi.org/10.1021/cm5040886). Review scope remains stated in the linked website records.
 
 - Jin, H.; Choi, S.; Lim, S.-H.; Rhee, S.-W.; Lee, H. J.; Kim, S. (2014). SnS44– Metal Chalcogenide Ligand, S2– Metal Free Ligand, and Organic Surface Ligand Toward Efficient CdSe Quantum Dot- Sensitized Solar Cells. [10.1021/jp5005242](https://doi.org/10.1021/jp5005242). Review scope remains stated in the linked website records.
+
+- Ferry Prins, Areza Sumitro, Mark C. Weidman, and William A. Tisdale (2014). Spatially Resolved Energy Transfer in Patterned Colloidal Quantum Dot Heterostructures. [10.1021/am500197n](https://doi.org/10.1021/am500197n). Review scope remains stated in the linked website records.
 
 - Andrew Zane, Christie McCracken, Deborah A. Knight, W. James Waldman, and Prabir K. Dutta (2014). Spectroscopic Evaluation of the Nucleation and Growth for Microwave-Assisted CdSe/CdS/ZnS Quantum Dot Synthesis. [10.1021/jp504755a](https://doi.org/10.1021/jp504755a). Review scope remains stated in the linked website records.
 
