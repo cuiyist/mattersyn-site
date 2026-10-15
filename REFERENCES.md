@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-20261014`. Records are not independent experiments.
+Dataset **0.41.2** · **1100 primary source groups** · release `simple-batch29-20261015`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1021_jp0039520. [10.1021/jp0039520](https://doi.org/10.1021/jp0039520). Review scope remains stated in the linked website records.
 
@@ -33,6 +33,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - M. Illing; G. Bacher; T. Kümmell; A. Forchel; T. G. Andersson; D. Hommel; B. Jobst; G. Landwehr (1995). Lateral quantization effects in lithographically defined CdZnSe/ZnSe quantum dots and quantum wires. [10.1063/1.115504](https://doi.org/10.1063/1.115504). Review scope remains stated in the linked website records.
 
 - Effendi Leobandung, Lingjie Guo, Yun Wang, and Stephen Y. Chou (1995). Observation of quantum effects and Coulomb blockade in silicon quantum-dot transistors at temperatures over 100 K. [10.1063/1.114701](https://doi.org/10.1063/1.114701). Review scope remains stated in the linked website records.
+
+- N. Kirstaedter, O. G. Schmidt, N. N. Ledentsov, and D. Bimberg, V. M. Ustinov, A. Yu. Egorov, A. E. Zhukov, M. V. Maximov, P. S. Kop’ev, and Zh. I. Alferov (1996). Gain and differential gain of single layer InAs/GaAs quantum dot injection lasers. [10.1063/1.117419](https://doi.org/10.1063/1.117419). Review scope remains stated in the linked website records.
 
 - J. R. Heath; R. S. Williams; J. J. Shiang; S. J. Wind; J. Chu; C. D’Emic; W. Chen; C. L. Stanis; J. J. Bucchignano (1996). Spatially Confined Chemistry: Fabrication of Ge Quantum Dot Arrays. *The Journal of Physical Chemistry*, 100, 3144–3149. [10.1021/jp951903v](https://doi.org/10.1021/jp951903v). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=heath1996).
 
@@ -157,6 +159,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - N.-T. Yeh, T.-E. Nee, J.-I. Chyi, T. M. Hsu, C. C. Huang (2000). Matrix dependence of strain-induced wavelength shift in self-assembled InAs quantum-dot heterostructures. [10.1063/1.126097](https://doi.org/10.1063/1.126097). Review scope remains stated in the linked website records.
 
 - T. Passow, H. Heinke, J. Falta, K. Leonardi, and D. Hommel (2000). Nondestructive detection of stacking faults for optimization of CdSe/ZnSe quantum-dot structures. [10.1063/1.1328760](https://doi.org/10.1063/1.1328760). Review scope remains stated in the linked website records.
+
+- J. C. Gonza´lez, F. M. Matinaga, W. N. Rodrigues, M. V. B. Moreira, A. G. de Oliveira, M. I. N. da Silva, J. M. C. Vilela, M. S. Andrade, D. Ugarte, P. C. Silva (2000). On three dimensional self-organization and optical properties of InAs quantum-dot multilayers. [10.1063/1.126659](https://doi.org/10.1063/1.126659). Review scope remains stated in the linked website records.
 
 - H. Cao, J. Y. Xu, W. H. Xiang, Y. Ma, S.-H. Chang, S. T. Ho, G. S. Solomon (2000). Optically pumped InAs quantum dot microdisk lasers. [10.1063/1.126693](https://doi.org/10.1063/1.126693). Review scope remains stated in the linked website records.
 
@@ -372,6 +376,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Dana A. Schwartz; Nick S. Norberg; Quyen P. Nguyen; Jason M. Parker; Daniel R. Gamelin (2003). Magnetic Quantum Dots: Synthesis, Spectroscopy, and Magnetism of Co2+- and Ni2+-Doped ZnO Nanocrystals. *Journal of the American Chemical Society*, 125, 13205–13218. [10.1021/ja036811v](https://doi.org/10.1021/ja036811v). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=schwartz2003).
 
+- R. A. Child, R. J. Nicholas, N. J. Mason (2003). Magneto‐photoluminescence studies of a novel quantum dot–quantum well coupled system. [10.1002/pssb.200303036](https://doi.org/10.1002/pssb.200303036). Review scope remains stated in the linked website records.
+
 - A. V. Makarov; S. G. Zbezhneva; V. V. Kovalenko; M. N. Rumyantseva (2003). Mass Spectrometric Study of Nanocrystalline ZnO Vaporization. *Inorganic Materials*, 39, 594–598. [10.1023/A:1024049203327](https://doi.org/10.1023/A:1024049203327). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=makarov2003-zno-a1024049203327).
 
 - Jennifer N. Cha; Michael H. Bartl; Michael S. Wong; Alois Popitsch; Timothy J. Deming; Galen D. Stucky (2003). Microcavity Lasing from Block Peptide Hierarchically Assembled Quantum Dot Spherical Resonators. [10.1021/nl034206k](https://doi.org/10.1021/nl034206k). Review scope remains stated in the linked website records.
@@ -433,6 +439,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Hongwei Gu; Rongkun Zheng; XiXiang Zhang; Bing Xu (2004). Facile One-Pot Synthesis of Bifunctional Heterodimers of Nanoparticles: A Conjugate of Quantum Dot and Magnetic Nanoparticles. *Journal of the American Chemical Society*, 126, 5664–5665. [10.1021/ja0496423](https://doi.org/10.1021/ja0496423). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=gu2004).
 
 - S. Chakrabarti, A. D. Stiff-Roberts, P. Bhattacharya, S. W. Kennerly (2004). Heterostructures for achieving large responsivity in InAs/GaAs quantum dot infrared photodetectors. [10.1116/1.1755709](https://doi.org/10.1116/1.1755709). Review scope remains stated in the linked website records.
+
+- Eui-Tae Kim and Anupam Madhukara, Zhengmao Ye and Joe C. Campbell (2004). High detectivity InAs quantum dot infrared photodetectors. [10.1063/1.1719259](https://doi.org/10.1063/1.1719259). Review scope remains stated in the linked website records.
 
 - S. Mackowski, G. Prechtl, W. Heiss, F. V. Kyrychenko, G. Karczewski, J. Kossut (2004). Impact of carrier redistribution on the photoluminescence of CdTe self-assembled quantum dot ensembles. [10.1103/physrevb.69.205325](https://doi.org/10.1103/physrevb.69.205325). Review scope remains stated in the linked website records.
 
@@ -516,6 +524,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Karl M. Krueger; Ali M. Al-Somali; Joshua C. Falkner; Vicki L. Colvin (2005). Characterization of Nanocrystalline CdSe by Size Exclusion Chromatography. [10.1021/ac0481912](https://doi.org/10.1021/ac0481912). Review scope remains stated in the linked website records.
 
+- T. Flissikowski, A. Betke, I. A. Akimov, F. Henneberger (2005). Coherent control of the biexciton in a single quantum dot. [10.1002/pssa.200460323](https://doi.org/10.1002/pssa.200460323). Review scope remains stated in the linked website records.
+
 - J.S. Wang; G. Lin; R.S. Hsiao; C.S. Yang; C.M. Lai; C.Y. Liang; H.Y. Liu; T.T. Chen; Y.F. Chen; J.Y. Chi; J.F. Chen (2005). Continuous-wave high-power (320 mW) single mode operation of electronic vertically coupled InAs/GaAs quantum dot narrow-ridge-waveguide lasers. [10.1007/s00340-005-1975-2](https://doi.org/10.1007/s00340-005-1975-2). Review scope remains stated in the linked website records.
 
 - W. Ye, S. Hanson, M. Reason, X. Weng, and R. S. Goldman (2005). Control of InAs∕GaAs quantum dot density and alignment using modified buffer layers. [10.1116/1.1949215](https://doi.org/10.1116/1.1949215). Review scope remains stated in the linked website records.
@@ -550,6 +560,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Shu-Ting Chou, Shih-Yen Lin, Ru-Shang Hsiao, Jim-Yong Chi, Jyh-Shyang Wang, Meng-Chyi Wu, Jenn-Fang Chen (2005). High-performance 30-period quantum-dot infrared photodetector. [10.1116/1.1900730](https://doi.org/10.1116/1.1900730). Review scope remains stated in the linked website records.
 
+- S. M. Landi; M. P. Pires; C. V.‐B. Tribuzy; P. L. Souza; E. Marega; A. G. Silva; P. S. S. Guimarães (2005). InAs/InGaAs/InP structures for quantum dot infrared photodetectors. [10.1002/pssc.200460752](https://doi.org/10.1002/pssc.200460752). Review scope remains stated in the linked website records.
+
 - S. Laurent, S. Varoutsis, L. Le Gratiet, A. Lemaître, I. Sagnes, F. Raineri, A. Levenson, I. Robert-Philip, I. Abram (2005). Indistinguishable single photons from a single-quantum dot in a two-dimensional photonic crystal cavity. [10.1063/1.2103397](https://doi.org/10.1063/1.2103397). Review scope remains stated in the linked website records.
 
 - Nick S. Norberg and Daniel R. Gamelin (2005). Influence of Surface Modification on the Luminescence of Colloidal ZnO Nanocrystals. [10.1021/jp0535285](https://doi.org/10.1021/jp0535285). Review scope remains stated in the linked website records.
@@ -579,6 +591,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Jacek Jasieniak; Craig Bullen; Joel van Embden; Paul Mulvaney (2005). Phosphine-Free Synthesis of CdSe Nanocrystals. *The Journal of Physical Chemistry B*, 20665–20668. [10.1021/jp054289o](https://doi.org/10.1021/jp054289o). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=jasieniak2005-cdse-jp054289o).
 
 - Lin Pang, Kevin Tetz, Yaoming Shen, Chyong-Hua Chen, and Yeshaiahu Fainman (2005). Photosensitive quantum dot composites and their applications in optical structures. [10.1116/1.2122867](https://doi.org/10.1116/1.2122867). Review scope remains stated in the linked website records.
+
+- Jayeeta Bhattacharyya and Sandip Ghosha, Stefan Malzer and G. H. Döhler, B. M. Arora (2005). Polarized photovoltage spectroscopy study of InAs∕GaAs(001) quantum dot ensembles. [10.1063/1.2132533](https://doi.org/10.1063/1.2132533). Review scope remains stated in the linked website records.
 
 - P. Howe, E. C. Le Ru, E. Clarke, R. Murray, and T. S. Jones (2005). Quantiﬁcation of segregation and strain effects in InAs/GaAs quantum dot growth. [10.1063/1.2133904](https://doi.org/10.1063/1.2133904). Review scope remains stated in the linked website records.
 
@@ -636,6 +650,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - K. Veselinov; F. Grillot; P. Miska; E. Homeyer; P. Caroff; C. Platz; J. Even; X. Marie; O. Dehaese; S. Loualiche; A. Ramdane (2006). Carrier Dynamics and Saturation Effect in (113)B InAs/InP Quantum Dot Lasers. [10.1007/s11082-006-0037-2](https://doi.org/10.1007/s11082-006-0037-2). Review scope remains stated in the linked website records.
 
+- Takeru Amano, Takeyoshi Sugaya, and Kazuhiro Komori (2006). Characteristics of 1.3μm quantum-dot lasers with high-density and high-uniformity quantum dots. [10.1063/1.2372593](https://doi.org/10.1063/1.2372593). Review scope remains stated in the linked website records.
+
 - D. Pal; E. Towe (2006). Characteristics of high-operating-temperature InAs/GaAs quantum-dot infrared detectors. [10.1063/1.2193466](https://doi.org/10.1063/1.2193466). Review scope remains stated in the linked website records.
 
 - A. A. Toropov, I. V. Sedova, O. G. Lyublinskaya, S. V. Sorokin, A. A. Sitnikova, and S. V. Ivanov, J. P. Bergman, B. Monemar, F. Donatini, Le Si Dang (2006). Coexistence of type-I and type-II band lineups in Cd(Te,Se)∕ZnSe quantum-dot structures. [10.1063/1.2355439](https://doi.org/10.1063/1.2355439). Review scope remains stated in the linked website records.
@@ -651,6 +667,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - S. K. Ray, K. M. Groom, R. Alexander, K. Kennedy, H. Y. Liu, M. Hopkinson, and R. A. Hogg (2006). Design, growth, fabrication, and characterization of InAs∕GaAs 1.3μm quantum dot broadband superluminescent light emitting diode. [10.1063/1.2365387](https://doi.org/10.1063/1.2365387). Review scope remains stated in the linked website records.
 
 - Chul Huh, Nae-Man Park, Jae-Heon Shin, Kyung-Hyun Kim, Tae-Youb Kim, Kwan Sik Cho, and Gun Yong Sung (2006). Effects of Ag/indium tin oxide contact to a SiC doping layer on performance of Si nanocrystal light-emitting diodes. [10.1063/1.2191409](https://doi.org/10.1063/1.2191409). Review scope remains stated in the linked website records.
+
+- Zongyou Yin, Xiaohong Tanga, Wei Liu, Daohua Zhang, Anyan Du (2006). Effects of InxGa1−xAs matrix layer on InAs quantum dot formation and their emission wavelength. [10.1063/1.2220477](https://doi.org/10.1063/1.2220477). Review scope remains stated in the linked website records.
 
 - Jialong Zhao, Julie A. Bardecker, Andrea M. Munro, Michelle S. Liu, Yuhua Niu, I-Kang Ding, Jingdong Luo, Baoquan Chen, Alex K.-Y. Jen, David S. Ginger (2006). Efficient CdSe/CdS Quantum Dot Light-Emitting Diodes Using a Thermally Polymerized Hole Transport Layer. [10.1021/nl052417e](https://doi.org/10.1021/nl052417e). Review scope remains stated in the linked website records.
 
@@ -681,6 +699,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Dehu Cui, Jian Xu, Ting Zhu, Gary Paradee, and S. Ashok, Michael Gerhold (2006). Harvest of near infrared light in PbSe nanocrystal-polymer hybrid photovoltaic cells. [10.1063/1.2201047](https://doi.org/10.1063/1.2201047). Review scope remains stated in the linked website records.
 
 - A. Salhi; L. Martiradonna; L. Fortunato; V. Tasco; G. Visimberga; R. Cingolani; A. Passaseo; M. De Vittorio (2006). High‐gain low‐threshold InAs/InGaAs/GaAs quantum dot lasers emitting around 1300 nm. [10.1002/pssc.200671569](https://doi.org/10.1002/pssc.200671569). Review scope remains stated in the linked website records.
+
+- D. Pal, J. Walker, and E. Towe (2006). In As ∕ Ga As quantum-dot infrared photodetectors grown by molecular beam epitaxy. [10.1116/1.2190675](https://doi.org/10.1116/1.2190675). Review scope remains stated in the linked website records.
 
 - R. Suzuki; T. Miyamoto; T. Matsuura; F. Koyama (2006). InAs quantum dot formed on GaNAs buffer layer by Metalorganic Chemical Vapor Deposition. [10.1002/pssc.200564111](https://doi.org/10.1002/pssc.200564111). Review scope remains stated in the linked website records.
 
@@ -754,6 +774,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - James E. Murphy, Matthew C. Beard, Arthur J. Nozik (2006). Time-Resolved Photoconductivity of PbSe Nanocrystal Arrays. [10.1021/jp0646123](https://doi.org/10.1021/jp0646123). Review scope remains stated in the linked website records.
 
+- Tetsuya Matsuura; Tomoyuki Miyamoto; Fumio Koyama (2006). Topological characteristics of InAs quantum dot with GaInAs cover using Sb surfactant. [10.1063/1.2200395](https://doi.org/10.1063/1.2200395). Review scope remains stated in the linked website records.
+
 - D. G. Cooke, A. N. MacDonald, A. Hryciw, J. Wang, Q. Li, A. Meldrum, and F. A. Hegmann (2006). Transient terahertz conductivity in photoexcited silicon nanocrystal films. [10.1103/physrevb.73.193311](https://doi.org/10.1103/physrevb.73.193311). Review scope remains stated in the linked website records.
 
 - Alexander W. Schill, Christopher S. Gaddis, Wei Qian, Mostafa A. El-Sayed, Ye Cai, Valeria T. Milam, Kenneth Sandhage (2006). Ultrafast Electronic Relaxation and Charge-Carrier Localization in CdS/CdSe/CdS Quantum-Dot Quantum-Well Heterostructures. [10.1021/nl061054v](https://doi.org/10.1021/nl061054v). Review scope remains stated in the linked website records.
@@ -780,9 +802,13 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Iwan Moreels; Karel Lambert; David De Muynck; Frank Vanhaecke; Dirk Poelman; José C. Martins; Guy Allan; Zeger Hens (2007). Composition and Size-Dependent Extinction Coefficient of Colloidal PbSe Quantum Dots. [10.1021/cm071410q](https://doi.org/10.1021/cm071410q). Review scope remains stated in the linked website records.
 
+- C. Fasth, A. Fuhrer, L. Samuelson, Vitaly N. Golovach, and Daniel Loss (2007). Direct Measurement of the Spin-Orbit Interaction in a Two-Electron InAs Nanowire Quantum Dot. [10.1103/physrevlett.98.266801](https://doi.org/10.1103/physrevlett.98.266801). Review scope remains stated in the linked website records.
+
 - Qun Tang, Hyun Jae Song, Hye Ryung Byon, Hyun Jin Yang, and Hee Cheul Choi (2007). Direct Precursor Conversion Reaction for Densely Packed Ag2S Nanocrystal Thin Films. [10.1021/la062497h](https://doi.org/10.1021/la062497h). Review scope remains stated in the linked website records.
 
 - N. Arpatzanis, A. Tsormpatzoglou, and C. A. Dimitriadis, J. D. Song, W. J. Choi, and J. I. Lee, C. Charitidis (2007). Effect of rapid thermal annealing on the noise properties of InAs/GaAs quantum dot structures. [10.1063/1.2775536](https://doi.org/10.1063/1.2775536). Review scope remains stated in the linked website records.
+
+- J. S. Kim, E. K. Kim, W. G. Jeong, S. S. Kim, H. M. Cheong, I. K. Han (2007). Energy Level Engineering of Coupled InAs Quantum Dot Structures. [10.1063/1.2730145](https://doi.org/10.1063/1.2730145). Review scope remains stated in the linked website records.
 
 - G. Moreau, A. Martinez, D.-Y. Cong, K. Merghem, A. Miard, A. Lemaître, P. Voisin, A. Ramdane, I. Krestnikov, A. R. Kovsh, M. Fischer, J. Koeth (2007). Enhanced In(Ga)As∕GaAs quantum dot based electro-optic modulation at 1.55μm. [10.1063/1.2778759](https://doi.org/10.1063/1.2778759). Review scope remains stated in the linked website records.
 
@@ -809,6 +835,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - L. Ding, T. P. Chen, Y. Liu, M. Yang, J. I. Wong, Y. C. Liu, A. D. Trigg, F. R. Zhu, M. C. Tan, S. Fung (2007). Influence of nanocrystal size on optical properties of Si nanocrystals embedded in SiO2 synthesized by Si ion implantation. [10.1063/1.2730560](https://doi.org/10.1063/1.2730560). Review scope remains stated in the linked website records.
 
 - Michaela Böberl, Maksym V. Kovalenko, Stefan Gamerith, Emil J. W. List, and Wolfgang Heiss (2007). Inkjet‐Printed Nanocrystal Photodetectors Operating up to 3 μm Wavelengths. [10.1002/adma.200700111](https://doi.org/10.1002/adma.200700111). Review scope remains stated in the linked website records.
+
+- K. Nauka, G. A. Gibson, X. Sheng, C. C. Yang (2007). Light Emission from Polymer-Semiconductor Nanocrystal (PFO-CdSe/ZnS) Structures. [10.1063/1.2730039](https://doi.org/10.1063/1.2730039). Review scope remains stated in the linked website records.
 
 - C. Y. Liu, S. F. Yoon, Q. Cao, H. F. Li, and C. Z. Tong (2007). Low transparency current density and high temperature operation from ten-layer p-doped 1.3μm InAs∕InGaAs∕GaAs quantum dot lasers. [10.1063/1.2434156](https://doi.org/10.1063/1.2434156). Review scope remains stated in the linked website records.
 
@@ -847,6 +875,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Pinar Dagtepe,† Viktor Chikan,*,† Jacek Jasinski,‡ and Valerie J. Leppert‡ (2007). Quantized Growth of CdTe Quantum Dots; Observation of Magic-Sized CdTe Quantum Dots. [10.1021/jp072516b](https://doi.org/10.1021/jp072516b). Review scope remains stated in the linked website records.
 
 - Beatriz H. Jua´rez, Christian Klinke, Andreas Kornowski, and Horst Weller (2007). Quantum Dot Attachment and Morphology Control by Carbon Nanotubes. [10.1021/nl071225b](https://doi.org/10.1021/nl071225b). Review scope remains stated in the linked website records.
+
+- H. W. Li, B. E. Kardynał, P. See, A. J. Shields, P. Simmonds, H. E. Beere, D. A. Ritchie (2007). Quantum dot resonant tunneling diode for telecommunication wavelength single photon detection. [10.1063/1.2768884](https://doi.org/10.1063/1.2768884). Review scope remains stated in the linked website records.
 
 - Daisuke Ito, Takashi Tomita, and Tsuyonobu Hatazawa (2007). Room temperature observation of negative differential resistance effect using ZnO nanocrystal structure with double Schottky barriers. [10.1063/1.2721117](https://doi.org/10.1063/1.2721117). Review scope remains stated in the linked website records.
 
@@ -916,6 +946,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Pinar Dagtepe and Viktor Chikan (2008). Effect of Cd/Te Ratio on the Formation of CdTe Magic-Sized Quantum Dots during Aggregation. [10.1021/jp802254n](https://doi.org/10.1021/jp802254n). Review scope remains stated in the linked website records.
 
+- Tomoya Inoue, Takashi Kita, Mitsuru Konno, Toshie Yaguchi, Takeo Kamino, Osamu Wada (2008). Electron tomography of embedded semiconductor quantum dot. [10.1063/1.2837453](https://doi.org/10.1063/1.2837453). Review scope remains stated in the linked website records.
+
 - Robert Lechner, Andre R. Stegner, Rui N. Pereira, Roland Dietmueller, Martin S. Brandt, André Ebbers, Martin Trocha, Hartmut Wiggers, and Martin Stutzmann (2008). Electronic properties of doped silicon nanocrystal films. [10.1063/1.2973399](https://doi.org/10.1063/1.2973399). Review scope remains stated in the linked website records.
 
 - Yu. I. Mazur, S. Noda, G. G. Tarasov, V. G. Dorogan, G. J. Salamo, O. Bierwagen, W. T. Masselink, E. A. Decuir, Jr., and M. O. Manasreh (2008). Excitonic band edges and optical anisotropy of InAs∕InP quantum dot structures. [10.1063/1.2872781](https://doi.org/10.1063/1.2872781). Review scope remains stated in the linked website records.
@@ -941,6 +973,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Shi-Cong Cui, Takashi Tachikawa, Mamoru Fujitsuka, and Tetsuro Majima (2008). Interfacial Electron Transfer Dynamics in a Single CdTe Quantum Dot-Pyromellitimide Conjugate. [10.1021/jp807591d](https://doi.org/10.1021/jp807591d). Review scope remains stated in the linked website records.
 
 - G. Kioseoglou, M. Yasar, C. H. Li, M. Korkusinski, M. Diaz-Avila, A. T. Hanbicki, P. Hawrylak, A. Petrou, and B. T. Jonker (2008). Intershell Exchange and Sequential Electrically Injected Spin Populations of InAs Quantum-Dot Shell States. [10.1103/physrevlett.101.227203](https://doi.org/10.1103/physrevlett.101.227203). Review scope remains stated in the linked website records.
+
+- T. Gebhard, D. Alvarenga, P. L. Souza, P. S. S. Guimarães, K. Unterrainer, M. P. Pires, G. S. Vieira, and J. M. Villas-Boas (2008). Intraband Auger effect in InAs∕InGaAlAs∕InP quantum dot structures. [10.1063/1.2965804](https://doi.org/10.1063/1.2965804). Review scope remains stated in the linked website records.
 
 - JR and FD contributed equally to this work. JR prepared and derivatized the Quantum Dots, FD carried out the biological experiments. KP and TN conceived of the study, and participated in its design and coordination. All authors read and approved the final manuscript. (2008). Journal of Nanobiotechnology 2008, 6:7. [10.1186/1477-3155-6-7](https://doi.org/10.1186/1477-3155-6-7). Review scope remains stated in the linked website records.
 
@@ -970,6 +1004,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - M. Böberl, M. V. Kovalenko, G. Pillwein, G. Brunthaler, and W. Heiss (2008). Quantum dot nanocolumn photodetectors for light detection in the infrared. [10.1063/1.2949084](https://doi.org/10.1063/1.2949084). Review scope remains stated in the linked website records.
 
+- Shuo Pang, Richard E. Beckham, and Kenith E. Meissner (2008). Quantum dot-embedded microspheres for remote refractive index sensing. [10.1063/1.2937209](https://doi.org/10.1063/1.2937209). Review scope remains stated in the linked website records.
+
 - Seung-Hee Kang, Ch. Kiran Kumar, Zonghoon Lee, Kyung-Hyun Kim, Chul Huh, and Eui-Tae Kim (2008). Quantum-dot light-emitting diodes utilizing CdSe/ZnS nanocrystals embedded in TiO2 thin film. [10.1063/1.3028070](https://doi.org/10.1063/1.3028070). Review scope remains stated in the linked website records.
 
 - Jonathan S. Owen; Jungwon Park; Paul-Emile Trudeau; A. Paul Alivisatos (2008). Reaction Chemistry and Ligand Exchange at Cadmium–Selenide Nanocrystal Surfaces. *Journal of the American Chemical Society*, 130, 12279–12281. [10.1021/ja804414f](https://doi.org/10.1021/ja804414f). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=owen2008-cdse-ja804414f).
@@ -989,6 +1025,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Kazunori Hoshino, Travis C. Turner, Sunmin Kim, Ashwini Gopal, and Xiaojing Zhang (2008). Single Molecular Stamping of a Sub-10-nm Colloidal Quantum Dot Array. [10.1021/la802936h](https://doi.org/10.1021/la802936h). Review scope remains stated in the linked website records.
 
 - F. Patella, F. Arciprete, E. Placidi, M. Fanfoni, A. Balzarotti, A. Vinattieri, L. Cavigli, M. Abbarchi, M. Gurioli, L. Lunghi, and A. Gerardino (2008). Single quantum dot emission by nanoscale selective growth of InAs on GaAs: A bottom-up approach. [10.1063/1.3040327](https://doi.org/10.1063/1.3040327). Review scope remains stated in the linked website records.
+
+- A. Ugur, F. Hatami, W. T. Masselink, A. N. Vamivakas, L. Lombez, and M. Atatüre (2008). Single-dot optical emission from ultralow density well-isolated InP quantum dots. [10.1063/1.2996004](https://doi.org/10.1063/1.2996004). Review scope remains stated in the linked website records.
 
 - Matt Law; Joseph M. Luther; Qing Song; Barbara K. Hughes; Craig L. Perkins; Arthur J. Nozik (2008). Structural, Optical, and Electrical Properties of PbSe Nanocrystal Solids Treated Thermally or with Simple Amines. [10.1021/ja800040c](https://doi.org/10.1021/ja800040c). Review scope remains stated in the linked website records.
 
@@ -1024,6 +1062,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Jing Chen, J. L. Song, X. W. Sun, W. Q. Deng, C. Y. Jiang, W. Lei, J. H. Huang, and R. S. Liu (2009). An oleic acid-capped CdSe quantum-dot sensitized solar cell. [10.1063/1.3117221](https://doi.org/10.1063/1.3117221). Review scope remains stated in the linked website records.
 
+- C. K. Chia, J. R. Dong, B. K. Ng (2009). Anisotropic optical response of InAs/InP quantum dot avalanche photodiodes. [10.1063/1.3079674](https://doi.org/10.1063/1.3079674). Review scope remains stated in the linked website records.
+
 - Alexandre Pourret, Philippe Guyot-Sionnest, Jeffrey W. Elam (2009). Atomic Layer Deposition of ZnO in Quantum Dot Thin Films. [10.1002/adma.200801313](https://doi.org/10.1002/adma.200801313). Review scope remains stated in the linked website records.
 
 - A. Fuhrer, M. Fuchsle, T. C. G. Reusch, B. Weber, and M. Y. Simmons (2009). Atomic-Scale, All Epitaxial In-Plane Gated Donor Quantum Dot in Silicon. [10.1021/nl803196f](https://doi.org/10.1021/nl803196f). Review scope remains stated in the linked website records.
@@ -1039,6 +1079,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Ne´stor Guijarro,† Teresa Lana-Villarreal,†,* Iva´n Mora-Sero´,‡ Juan Bisquert,‡ and Roberto Go´mez†,* (2009). CdSe Quantum Dot-Sensitized TiO2 Electrodes: Effect of Quantum Dot Coverage and Mode of Attachment. [10.1021/jp808091d](https://doi.org/10.1021/jp808091d). Review scope remains stated in the linked website records.
 
 - A. Tribu, G. Sallen, T. Aichele, C. Bougerol, R. André, J. P. Poizat, S. Tatarenko, and K. Kheng (2009). CdSe quantum dot in a ZnSe nanowire as an efficient source of single photons. [10.1002/pssb.200880670](https://doi.org/10.1002/pssb.200880670). Review scope remains stated in the linked website records.
+
+- Yoshitaka Okada, Ryuji Oshima, Ayami Takata (2009). Characteristics of InAs/GaNAs strain-compensated quantum dot solar cell. [10.1063/1.3176903](https://doi.org/10.1063/1.3176903). Review scope remains stated in the linked website records.
 
 - Cai-Feng Wang & Yu-Peng Cheng & Ji-Yi Wang & Dong Zhang & Lin-Rui Hou & Li Chen & Su Chen (2009). Controllable fabrication of nanocrystal-polymer hybrids via the catalytic chain transfer polymerization process. [10.1007/s00396-009-2037-9](https://doi.org/10.1007/s00396-009-2037-9). Review scope remains stated in the linked website records.
 
@@ -1170,6 +1212,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Fushan Li, Sung Hwan Cho, Dong Ick Son, Tae Whan Kim, Sun-Kyun Lee, Yong-Hoon Cho, and Sungho Jin (2009). UV photovoltaic cells based on conjugated ZnO quantum dot/multiwalled carbon nanotube heterostructures. [10.1063/1.3098400](https://doi.org/10.1063/1.3098400). Review scope remains stated in the linked website records.
 
+- M. P. Lumb, E. Clarke, E. Harbord, P. Spencer, R. Murray, F. Masia, P. Borri, W. Langbein, C. G. Leburn, C. Jappy, N. K. Metzger, C. T. A. Brown, and W. Sibbett (2009). Ultrafast absorption recovery dynamics of 1300 nm quantum dot saturable absorber mirrors. [10.1063/1.3186081](https://doi.org/10.1063/1.3186081). Review scope remains stated in the linked website records.
+
 - Vaclav Holý, Julian Stangl, Thomas Fromherz, Rainer T. Lechner, Eugene Wintersberger, Günther Bauer, Christian Dais, Elisabeth Müller, Detlev Grützmacher (2009). X-ray diffraction investigation of a three-dimensional Si/SiGe quantum dot crystal. [10.1103/physrevb.79.035324](https://doi.org/10.1103/physrevb.79.035324). Review scope remains stated in the linked website records.
 
 - Sheng-Chin Kung, Wytze E. van der Veer, Fan Yang, Keith C. Donavan, and Reginald M. Penner (2010). 20 µs Photocurrent Response from Lithographically Patterned Nanocrystalline Cadmium Selenide Nanowires. [10.1021/nl100483v](https://doi.org/10.1021/nl100483v). Review scope remains stated in the linked website records.
@@ -1185,6 +1229,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Toshiyuki Miyazawa; Toshihiro Nakaoka; Tetsuo Kodera; Hiroyuki Takagi; Naoto Kumagai; Katsuyuki Watanabe; Yasuhiko Arakawa (2010). Acoustic phonon effects on telecommunication‐band quantum dot exciton Rabi oscillation. [10.1002/pssc.200983861](https://doi.org/10.1002/pssc.200983861). Review scope remains stated in the linked website records.
 
 - Ratan Debnath,† Jiang Tang,†,‡ D. Aaron Barkhouse,† Xihua Wang,† Andras G. Pattantyus-Abraham,† Lukasz Brzozowski,† Larissa Levina,† and Edward H. Sargent*,†,‡ (2010). Ambient-Processed Colloidal Quantum Dot Solar Cells via Individual Pre-Encapsulation of Nanoparticles. [10.1021/ja1013695](https://doi.org/10.1021/ja1013695). Review scope remains stated in the linked website records.
+
+- L. Nevou, V. Liverini, F. Castellano, A. Bismuto, and J. Faist (2010). Asymmetric heterostructure for photovoltaic InAs quantum dot infrared photodetector. [10.1063/1.3462960](https://doi.org/10.1063/1.3462960). Review scope remains stated in the linked website records.
 
 - Sophia Buhbut, Stella Itzhakov, Elad Tauber, Menny Shalom, Idan Hod, Thomas Geiger, Yuval Garini, Dan Oron, and Arie Zaban (2010). Built-in Quantum Dot Antennas in Dye-Sensitized Solar Cells. [10.1021/nn100021b](https://doi.org/10.1021/nn100021b). Review scope remains stated in the linked website records.
 
@@ -1266,6 +1312,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 
 - Not explicitly listed in the provided text (2010). Monolayer Suppression of Transport Imaged in Annealed PbSe Nanocrystal Arrays. [10.1021/nl100854e](https://doi.org/10.1021/nl100854e). Review scope remains stated in the linked website records.
 
+- K. Tanaka, E. Plum, J. Y. Ou, T. Uchino, and N. I. Zheludev (2010). Multifold Enhancement of Quantum Dot Luminescence in Plasmonic Metamaterials. [10.1103/physrevlett.105.227403](https://doi.org/10.1103/physrevlett.105.227403). Review scope remains stated in the linked website records.
+
 - Lai-Jun Zhang, Xing-Can Shen, Hong Liang, Jia-Ting Yao (2010). Multiple Families of Magic-Sized ZnSe Quantum Dots via Noninjection One-Pot and Hot-Injection Synthesis. [10.1021/jp1044282](https://doi.org/10.1021/jp1044282). Review scope remains stated in the linked website records.
 
 - Christopher M. Evans; Meagan E. Evans; Todd D. Krauss (2010). Mysteries of TOPSe Revealed: Insights into Quantum Dot Nucleation. *Journal of the American Chemical Society*, 132, 10973–10975. [10.1021/ja103805s](https://doi.org/10.1021/ja103805s). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=evans2010).
@@ -1323,6 +1371,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Tiantian Liu & Maoquan Chu (2010). Stability of ‘quantum dot human epidermal growth factor’ bioconjugates prepared using quantum dots synthesised in aqueous solution. [10.1080/17458080903314030](https://doi.org/10.1080/17458080903314030). Review scope remains stated in the linked website records.
 
 - Shang-Hsiu Hu and Xiaohu Gao (2010). Stable Encapsulation of Quantum Dot Barcodes with Silica Shells. [10.1002/adfm.201000711](https://doi.org/10.1002/adfm.201000711). Review scope remains stated in the linked website records.
+
+- Young Chul Jun, Ragip Pala, and Mark L. Brongersma (2010). Strong Modification of Quantum Dot Spontaneous Emission via Gap Plasmon Coupling in Metal Nanoslits. [10.1021/jp9083376](https://doi.org/10.1021/jp9083376). Review scope remains stated in the linked website records.
 
 - Jennifer Hensel, Gongming Wang, Yat Li, Jin Z. Zhang (2010). Synergistic Effect of CdSe Quantum Dot Sensitization and Nitrogen Doping of TiO2 Nanostructures for Photoelectrochemical Solar Hydrogen Generation. [10.1021/nl903217w](https://doi.org/10.1021/nl903217w). Review scope remains stated in the linked website records.
 
@@ -1545,6 +1595,8 @@ Dataset **0.41.2** · **1074 primary source groups** · release `simple-batch28-
 - Elisabeth Zillner, Steffen Fengler, Phenwisa Niyamakom, Frank Rauscher, Karen Koehler, and Thomas Dittrich (2012). Role of Ligand Exchange at CdSe Quantum Dot Layers for Charge Separation. [10.1021/jp303766d](https://doi.org/10.1021/jp303766d). Review scope remains stated in the linked website records.
 
 - Zhihua Xu; Corey R. Hine; Mathew M. Maye; Qingping Meng; Mircea Cotlet (2012). Shell Thickness Dependent Photoinduced Hole Transfer in Hybrid Conjugated Polymer/Quantum Dot Nanocomposites: From Ensemble to Single Hybrid Level. [10.1021/nn300525b](https://doi.org/10.1021/nn300525b). Review scope remains stated in the linked website records.
+
+- Maximilian J. Berr; Florian F. Schweinberger; Markus Döblinger; Kai E. Sanwald; Christian Wolff; Johannes Breimeier; Andrew S. Crampton; Claron J. Ridge; Martin Tschurl; Ulrich Heiz; Frank Jäckel; Jochen Feldmann (2012). Size-Selected Subnanometer Cluster Catalysts on Semiconductor Nanocrystal Films for Atomic Scale Insight into Photocatalysis. [10.1021/nl3033069](https://doi.org/10.1021/nl3033069). Review scope remains stated in the linked website records.
 
 - Not explicitly listed in the provided text (2012). Solvothermal Synthesis of CdSe Nanocrystals on TiO2 Nanotubes for Enhanced Photoelectrochemical Performance. [10.1021/jp208879f](https://doi.org/10.1021/jp208879f). Review scope remains stated in the linked website records.
 
