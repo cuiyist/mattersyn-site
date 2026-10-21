@@ -1,12 +1,12 @@
 {
   "status": "passed",
   "dataset_version": "0.41.2",
-  "records": 5947,
-  "recipe_records": 4364,
+  "records": 5952,
+  "recipe_records": 4369,
   "shared_procedures": 1018,
   "independent_experiment_count": null,
-  "source_groups": 2283,
-  "families": 1175,
+  "source_groups": 2287,
+  "families": 1179,
   "eligible_by_task": {
     "precursor_selection": 97,
     "partial_protocol": 139,
@@ -31,7 +31,7 @@
     "PbS benchmark rows are published numeric experiments, not individually reviewed complete protocols. The baseline is evaluated separately within that study.",
     "Five selected PbS failure rows are retained as evidence with null continuous targets."
   ],
-  "curated_recipes": 4264,
+  "curated_recipes": 4269,
   "contextual_observation_records": 565,
   "published_benchmark_rows": 100,
   "structure_recipe_coverage": {
@@ -53,12 +53,12 @@
     },
     "ready_record_ids": [],
     "exclusion_reason_record_counts": {
-      "audited_task_profile_missing": 5947,
+      "audited_task_profile_missing": 5952,
       "explicit_sample_recipe_link_missing": 21,
       "measured_label_not_approved": 38,
-      "no_sample_coordinate_asset": 5887,
-      "source_review_required": 3062,
-      "task_not_requested": 5922
+      "no_sample_coordinate_asset": 5892,
+      "source_review_required": 3067,
+      "task_not_requested": 5927
     }
   },
   "structure_outcome_coverage": {
@@ -74,7 +74,7 @@
   },
   "reader_collection": {
     "schema_version": "mattersyn.reader-collection/1",
-    "material_families": 1019,
+    "material_families": 1023,
     "material_family_definition": "Distinct directly synthesized material systems; component-only cross-links excluded.",
     "material_systems": [
       "(4-FPEA)4AgBiI8",
@@ -332,6 +332,7 @@
       "CdTe/PU",
       "CdTe/PU/POSS",
       "CdTe/SP1 protein assembly",
+      "CdTe/ZnS",
       "CdTe/ZnTe",
       "CdTeS",
       "CdTeSe",
@@ -417,6 +418,7 @@
       "Cu-N-C",
       "Cu-Zn-In-S",
       "Cu0.13In0.74Zn0.59S2",
+      "Cu0.23In0.36Te0.19Se0.22",
       "Cu0.26In0.8Zn0.72S2",
       "Cu0.38InS2",
       "Cu0.45InS2",
@@ -468,10 +470,12 @@
       "CuFeS2",
       "CuIn1.05S1.65",
       "CuIn1.30S1.24",
+      "CuIn1.5Te2.5",
       "CuInS/ZnS",
       "CuInS2",
       "CuInS2/CdS",
       "CuInS2/ZnS",
+      "CuInSe1.4S0.6",
       "CuInSe2",
       "CuInSe2/ZnS",
       "CuInSexS2−x",
@@ -1097,12 +1101,12 @@
       "γ-Fe2O3/HgS",
       "γ-Fe2O3/ZnS"
     ],
-    "contributing_papers": 2284,
+    "contributing_papers": 2288,
     "source_coverage": {
-      "total_contributing_papers": 2284,
+      "total_contributing_papers": 2288,
       "reviewed_contributing_papers": 244,
       "audited_contributing_papers": 244,
-      "machine_extracted_contributing_papers": 2040,
+      "machine_extracted_contributing_papers": 2044,
       "audited_primary_dois": [
         "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
         "10.1002/adfm.200500603",
@@ -2206,6 +2210,7 @@
         "10.1021/jp108165g",
         "10.1021/jp108561u",
         "10.1021/jp109301d",
+        "10.1021/jp109585t",
         "10.1021/jp109716q",
         "10.1021/jp1110828",
         "10.1021/jp112010m",
@@ -2264,6 +2269,7 @@
         "10.1021/jp404952x",
         "10.1021/jp405053k",
         "10.1021/jp4059824",
+        "10.1021/jp406342m",
         "10.1021/jp406369a",
         "10.1021/jp408360j",
         "10.1021/jp409937z",
@@ -2351,6 +2357,7 @@
         "10.1021/jz300181a",
         "10.1021/jz3010078",
         "10.1021/jz301023c",
+        "10.1021/jz302067r",
         "10.1021/jz400181m",
         "10.1021/jz400642e",
         "10.1021/jz4007492",
@@ -2576,6 +2583,7 @@
         "10.1021/nn400395y",
         "10.1021/nn400733t",
         "10.1021/nn400947e",
+        "10.1021/nn401274e",
         "10.1021/nn401657n",
         "10.1021/nn4017845",
         "10.1021/nn401918d",
@@ -3393,14 +3401,14 @@
       ],
       "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
     },
-    "synthesis_structure_pairs": 3826,
+    "synthesis_structure_pairs": 3831,
     "audited_synthesis_structure_pairs": 864,
-    "source_extracted_record_pairs": 2962,
+    "source_extracted_record_pairs": 2967,
     "more_comprehensive_pairs": 6,
-    "partial_pairs": 3820,
+    "partial_pairs": 3825,
     "count_definition": "Audited recipe/sample rows retain their existing definition and identifiers. The display also includes one row per additional source-linked record, including supporting and assembly records. Missing product or structural details remain blank. Multiple measurements do not add rows. This display count does not grant training eligibility or establish independent physical batches.",
     "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-    "all_records": 5947,
+    "all_records": 5952,
     "experimental_series_rows": 100
   },
   "queue_count": 37,
