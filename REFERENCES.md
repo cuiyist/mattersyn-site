@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **2622 primary source groups** · release `simple-Q31-B137-B138-particles-20261024-r1`. Records are not independent experiments.
+Dataset **0.41.2** · **2623 primary source groups** · release `simple-source4-kalita-b120-20261025`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1007_s11051-010-0042-z. [10.1007/s11051-010-0042-z](https://doi.org/10.1007/s11051-010-0042-z). Review scope remains stated in the linked website records.
 
@@ -3211,6 +3211,8 @@ Dataset **0.41.2** · **2622 primary source groups** · release `simple-Q31-B137
 - Jingjing Yao; Xiaogang Han; Shang Zeng; Wenwan Zhong (2012). Detection of Femtomolar Proteins by Nonfluorescent ZnS Nanocrystal Clusters. [10.1021/ac202910y](https://doi.org/10.1021/ac202910y). Review scope remains stated in the linked website records.
 
 - Segets, D.; Gradl, J.; Klupp Taylor, R. N.; Vassilev, V.; Peukert, W. (2012). Determination of the Band Gap versus Size Relationship for PbS and PbSe Quantum Dots Using Optical Absorbance and TEM Image Analysis. [10.1021/nn303130d](https://doi.org/10.1021/nn303130d). Review scope remains stated in the linked website records.
+
+- Mausam Kalita; Sreeram Cingarapu; Santanu Roy; Seok Chan Park; Daniel Higgins; Ryszard Jankowiak; Viktor Chikan; Kenneth J. Klabunde; Stefan H. Bossmann (2012). Direct Synthesis of Aqueous Quantum Dots through 4,4′-Bipyridine-Based Twin Ligand Strategy. [10.1021/ic202252m](https://doi.org/10.1021/ic202252m). Review scope remains stated in the linked website records.
 
 - Jay L. Nadeau; Lina Carlini; Diana Suffern; Olga Ivanova; Stephen E. Bradforth (2012). Effects of β-Mercaptoethanol on Quantum Dot Emission Evaluated from Photoluminescence Decays. [10.1021/jp209832h](https://doi.org/10.1021/jp209832h). Review scope remains stated in the linked website records.
 

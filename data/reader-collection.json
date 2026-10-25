@@ -1126,12 +1126,12 @@
     "γ-Fe2O3/HgS",
     "γ-Fe2O3/ZnS"
   ],
-  "contributing_papers": 2622,
+  "contributing_papers": 2623,
   "source_coverage": {
-    "total_contributing_papers": 2622,
+    "total_contributing_papers": 2623,
     "reviewed_contributing_papers": 244,
     "audited_contributing_papers": 244,
-    "machine_extracted_contributing_papers": 2378,
+    "machine_extracted_contributing_papers": 2379,
     "audited_primary_dois": [
       "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
       "10.1002/adfm.200500603",
@@ -2270,6 +2270,7 @@
       "10.1021/ic101302q",
       "10.1021/ic200485v",
       "10.1021/ic201333y",
+      "10.1021/ic202252m",
       "10.1021/ic302328e",
       "10.1021/ic401587r",
       "10.1021/ic800368u",
@@ -3760,14 +3761,14 @@
     ],
     "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
   },
-  "synthesis_structure_pairs": 4305,
+  "synthesis_structure_pairs": 4307,
   "audited_synthesis_structure_pairs": 864,
-  "source_extracted_record_pairs": 3441,
+  "source_extracted_record_pairs": 3443,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 4299,
+  "partial_pairs": 4301,
   "count_definition": "Audited recipe/sample rows retain their existing definition and identifiers. The display also includes one row per additional source-linked record, including supporting and assembly records. Missing product or structural details remain blank. Multiple measurements do not add rows. This display count does not grant training eligibility or establish independent physical batches.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 6426,
+  "all_records": 6428,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -433352,6 +433353,216 @@
         },
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kalita2012-ic202252m-cdse-qds-1::display",
+      "record_id": "kalita2012-ic202252m-cdse-qds-1",
+      "record_page_path": "records/kalita2012-ic202252m-cdse-qds-1.html",
+      "source_group": "kalita2012-ic202252m",
+      "title": "Mausam Kalita; Sreeram Cingarapu; Santanu Roy; Seok Chan Park; Daniel Higgins; Ryszard Jankowiak; Viktor Chikan; Kenneth J. Klabunde; Stefan H. Bossmann (2012): CdSe QDs",
+      "doi": "10.1021/ic202252m",
+      "year": 2012,
+      "method": "Solvated metal atom dispersion (SMAD)",
+      "recipe_label": "Mausam Kalita; Sreeram Cingarapu; Santanu Roy; Seok Chan Park; Daniel Higgins; Ryszard Jankowiak; Viktor Chikan; Kenneth J. Klabunde; Stefan H. Bossmann (2012): CdSe QDs",
+      "sample_id": "kalita2012-ic202252m-cdse-qds-1--product",
+      "source_sample_label": "CdSe QDs",
+      "composition": {
+        "value": "CdSe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kalita2012-ic202252m",
+            "locator": "Main PDF p.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kalita2012-ic202252m",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kalita2012-ic202252m",
+                "locator": "Main PDF p.5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "kalita2012-ic202252m-cdse-qds-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.0,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4 nm",
+            "evidence": [
+              {
+                "source_id": "kalita2012-ic202252m",
+                "locator": "Main PDF p.5"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kalita2012-ic202252m",
+              "locator": "Main PDF p.5"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "kalita2012-ic202252m-cdte-qds-2::display",
+      "record_id": "kalita2012-ic202252m-cdte-qds-2",
+      "record_page_path": "records/kalita2012-ic202252m-cdte-qds-2.html",
+      "source_group": "kalita2012-ic202252m",
+      "title": "Mausam Kalita; Sreeram Cingarapu; Santanu Roy; Seok Chan Park; Daniel Higgins; Ryszard Jankowiak; Viktor Chikan; Kenneth J. Klabunde; Stefan H. Bossmann (2012): CdTe QDs",
+      "doi": "10.1021/ic202252m",
+      "year": 2012,
+      "method": "Solvated metal atom dispersion (SMAD)",
+      "recipe_label": "Mausam Kalita; Sreeram Cingarapu; Santanu Roy; Seok Chan Park; Daniel Higgins; Ryszard Jankowiak; Viktor Chikan; Kenneth J. Klabunde; Stefan H. Bossmann (2012): CdTe QDs",
+      "sample_id": "kalita2012-ic202252m-cdte-qds-2--product",
+      "source_sample_label": "CdTe QDs",
+      "composition": {
+        "value": "CdTe",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "kalita2012-ic202252m",
+            "locator": "Main PDF p.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "kalita2012-ic202252m",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "kalita2012-ic202252m",
+                "locator": "Main PDF p.5"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "kalita2012-ic202252m-cdte-qds-2--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 4.5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "4.5 nm",
+            "evidence": [
+              {
+                "source_id": "kalita2012-ic202252m",
+                "locator": "Main PDF p.5"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "kalita2012-ic202252m",
+              "locator": "Main PDF p.5"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],
