@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **2623 primary source groups** · release `simple-source4-kalita-b120-20261025`. Records are not independent experiments.
+Dataset **0.41.2** · **2624 primary source groups** · release `source7-generated-raw-lifecycle-20261026`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1007_s11051-010-0042-z. [10.1007/s11051-010-0042-z](https://doi.org/10.1007/s11051-010-0042-z). Review scope remains stated in the linked website records.
 
@@ -4454,6 +4454,8 @@ Dataset **0.41.2** · **2623 primary source groups** · release `simple-source4-
 - Siyong Gu; Chien-Te Hsieh; Yi-Yin Tsai; Yasser Ashraf Gandomi; Sinchul Yeom; Kenneth David Kihm; Chun-Chieh Fu; Ruey-Shin Juang (2019). Sulfur and Nitrogen Co-Doped Graphene Quantum Dots as a Fluorescent Quenching Probe for Highly Sensitive Detection toward Mercury Ions. [10.1021/acsanm.8b02010](https://doi.org/10.1021/acsanm.8b02010). Review scope remains stated in the linked website records.
 
 - Eun-Pyo Jang; Chang-Yeol Han; Seung-Won Lim; Jung-Ho Jo; Dae-Yeon Jo; Sun-Hyoung Lee; Suk-Young Yoon; Heesun Yang (2019). Synthesis of Alloyed ZnSeTe Quantum Dots as Bright, Color-Pure Blue Emitters. [10.1021/acsami.9b14763](https://doi.org/10.1021/acsami.9b14763). Review scope remains stated in the linked website records.
+
+- Fan Huang; Chenghao Bi; Ruiqi Guo; Chao Zheng; Jiajia Ning; Jianjun Tian (2019). Synthesis of Colloidal Blue-Emitting InP/ZnS Core/Shell Quantum Dots with the Assistance of Copper Cations. [10.1021/acs.jpclett.9b02386](https://doi.org/10.1021/acs.jpclett.9b02386). Review scope remains stated in the linked website records.
 
 - X. Zhang, Y. Wang, Z. Li, J. Liu, and M. Sun (2019). Synthesis of Monodisperse CdSe@CdS Dot@Platelet 2D Nanocrystals with Near-Unity PL Quantum Yield. [10.1021/jacs.9b06932](https://doi.org/10.1021/jacs.9b06932). Review scope remains stated in the linked website records.
 

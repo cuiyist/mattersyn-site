@@ -17,12 +17,12 @@
   },
   "ready_record_ids": [],
   "exclusion_reason_record_counts": {
-    "audited_task_profile_missing": 6428,
+    "audited_task_profile_missing": 6429,
     "explicit_sample_recipe_link_missing": 21,
     "measured_label_not_approved": 38,
-    "no_sample_coordinate_asset": 6368,
-    "source_review_required": 3543,
-    "task_not_requested": 6403
+    "no_sample_coordinate_asset": 6369,
+    "source_review_required": 3544,
+    "task_not_requested": 6404
   },
   "records": [
     {
@@ -64593,6 +64593,41 @@
     {
       "record_id": "huang2019-acs-analchem-8b05923-voxqds-1",
       "source_group": "huang2019-acs-analchem-8b05923",
+      "measured_product_assets": [],
+      "exact_structure_recipe": {
+        "eligible": false,
+        "reason": "This record has not completed source review. Exact structure–recipe training has not been requested for this record. No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate. No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established.",
+        "reason_codes": [
+          "source_review_required",
+          "task_not_requested",
+          "no_sample_coordinate_asset",
+          "audited_task_profile_missing"
+        ],
+        "reasons": [
+          {
+            "code": "source_review_required",
+            "message": "This record has not completed source review."
+          },
+          {
+            "code": "task_not_requested",
+            "message": "Exact structure–recipe training has not been requested for this record."
+          },
+          {
+            "code": "no_sample_coordinate_asset",
+            "message": "No canonical measured-sample coordinate asset is recorded; phase/size observations and reference viewers are separate."
+          },
+          {
+            "code": "audited_task_profile_missing",
+            "message": "No independently audited completeness profile defines this task’s required recipe fields. Completeness is unassessed, not established."
+          }
+        ],
+        "profile_id": null,
+        "selected_asset_ids": []
+      }
+    },
+    {
+      "record_id": "huang2019-acs-jpclett-9b02386-cu-assisted-inp-zns-core-shell-qds-1",
+      "source_group": "huang2019-acs-jpclett-9b02386",
       "measured_product_assets": [],
       "exact_structure_recipe": {
         "eligible": false,
