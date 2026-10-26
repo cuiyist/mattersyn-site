@@ -1126,12 +1126,12 @@
     "γ-Fe2O3/HgS",
     "γ-Fe2O3/ZnS"
   ],
-  "contributing_papers": 2624,
+  "contributing_papers": 2627,
   "source_coverage": {
-    "total_contributing_papers": 2624,
+    "total_contributing_papers": 2627,
     "reviewed_contributing_papers": 244,
     "audited_contributing_papers": 244,
-    "machine_extracted_contributing_papers": 2380,
+    "machine_extracted_contributing_papers": 2383,
     "audited_primary_dois": [
       "10.1002/1521-4095(20021002)14:19<1405::aid-adma1405>3.0.co;2-b",
       "10.1002/adfm.200500603",
@@ -2992,6 +2992,8 @@
       "10.1021/nn901564q",
       "10.1021/ph400011z",
       "10.1021/ph500162a",
+      "10.1023/a:1008682014444",
+      "10.1023/b:hype.0000043205.63937.22",
       "10.1023/b:inma.0000020523.89340.46",
       "10.1038/nature03832",
       "10.1038/nature09188",
@@ -3743,6 +3745,7 @@
       "10.1186/s11671-017-2421-1",
       "10.1186/s11671-018-2842-5",
       "10.1246/cl.2005.1002",
+      "10.1360/02wb0203",
       "10.1557/jmr.1999.0072",
       "10.1557/jmr.2004.0334",
       "10.1557/jmr.2004.0420",
@@ -3762,14 +3765,14 @@
     ],
     "count_definition": "Distinct primary sources represented in regular material pages, separated by review status. Each paper counts once regardless of variants; supporting citations do not add papers. Source-extracted contributions are not independently audited or training eligible."
   },
-  "synthesis_structure_pairs": 4308,
+  "synthesis_structure_pairs": 4312,
   "audited_synthesis_structure_pairs": 864,
-  "source_extracted_record_pairs": 3444,
+  "source_extracted_record_pairs": 3448,
   "more_comprehensive_pairs": 6,
-  "partial_pairs": 4302,
+  "partial_pairs": 4306,
   "count_definition": "Audited recipe/sample rows retain their existing definition and identifiers. The display also includes one row per additional source-linked record, including supporting and assembly records. Missing product or structural details remain blank. Multiple measurements do not add rows. This display count does not grant training eligibility or establish independent physical batches.",
   "documentation_rubric": "More comprehensive means at least two source-backed quantified synthesis inputs, two source-located operations, reported temperature and duration, sample-linked phase, morphology and dimensions, and an available reference unit cell. Partial pairs lack one or more of these categories. Neither category implies a complete laboratory SOP or training readiness.",
-  "all_records": 6429,
+  "all_records": 6433,
   "experimental_series_rows": 100,
   "pairs": [
     {
@@ -326228,6 +326231,111 @@
       }
     },
     {
+      "pair_row_id": "burgard1998-a-1008682014444-sno2-sb-4-mol-1::display",
+      "record_id": "burgard1998-a-1008682014444-sno2-sb-4-mol-1",
+      "record_page_path": "records/burgard1998-a-1008682014444-sno2-sb-4-mol-1.html",
+      "source_group": "burgard1998-a-1008682014444",
+      "title": "DETLEF BURGARD (1998): SnO2 : Sb (4 mol%)",
+      "doi": "10.1023/a:1008682014444",
+      "year": 1998,
+      "method": "Precipitation",
+      "recipe_label": "DETLEF BURGARD (1998): SnO2 : Sb (4 mol%)",
+      "sample_id": "burgard1998-a-1008682014444-sno2-sb-4-mol-1--product",
+      "source_sample_label": "SnO2 : Sb (4 mol%)",
+      "composition": {
+        "value": "SnO2:Sb",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "burgard1998-a-1008682014444",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "burgard1998-a-1008682014444",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "phase",
+          "value": {
+            "value": "cassiterite",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "burgard1998-a-1008682014444",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "burgard1998-a-1008682014444-sno2-sb-4-mol-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 5,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "5 nm",
+            "evidence": [
+              {
+                "source_id": "burgard1998-a-1008682014444",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "HRTEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "burgard1998-a-1008682014444",
+              "locator": "Main PDF p.1"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": true,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_morphology",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "busatto2020-acsnano-0c04744-insb-qds-10-3-1-2-nm-3::display",
       "record_id": "busatto2020-acsnano-0c04744-insb-qds-10-3-1-2-nm-3",
       "record_page_path": "records/busatto2020-acsnano-0c04744-insb-qds-10-3-1-2-nm-3.html",
@@ -474295,6 +474403,101 @@
       }
     },
     {
+      "pair_row_id": "lin2003-02wb0203-nanocrystalline-co3o4-1::display",
+      "record_id": "lin2003-02wb0203-nanocrystalline-co3o4-1",
+      "record_page_path": "records/lin2003-02wb0203-nanocrystalline-co3o4-1.html",
+      "source_group": "lin2003-02wb0203",
+      "title": "CAO Lin (2003): nanocrystalline Co3O4",
+      "doi": "10.1360/02wb0203",
+      "year": 2003,
+      "method": "Synthesis as described in the source",
+      "recipe_label": "CAO Lin (2003): nanocrystalline Co3O4",
+      "sample_id": "lin2003-02wb0203-nanocrystalline-co3o4-1--product",
+      "source_sample_label": "nanocrystalline Co3O4",
+      "composition": {
+        "value": null,
+        "status": "not_reported",
+        "evidence": [],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "lin2003-02wb0203",
+          "locator": "Main PDF"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "nanoparticle",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "lin2003-02wb0203",
+                "locator": "Main PDF p.2"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": false,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [
+            "lin2003-02wb0203-nanocrystalline-co3o4-1--naoh"
+          ],
+          "fields": [
+            {
+              "material_id": "lin2003-02wb0203-nanocrystalline-co3o4-1--naoh",
+              "pointer": "/materials/0/quantities/concentration",
+              "binding_basis": "quantity of this named material",
+              "quantity": {
+                "value": 0.1,
+                "minimum": null,
+                "maximum": null,
+                "unit": "mol/L",
+                "status": "reported",
+                "approximate": false,
+                "qualifier": "",
+                "basis": "",
+                "raw_text": "0.1 mol/L",
+                "evidence": [
+                  {
+                    "source_id": "lin2003-02wb0203",
+                    "locator": "Main PDF p.1"
+                  }
+                ],
+                "derivation": null
+              }
+            }
+          ],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
       "pair_row_id": "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1::display",
       "record_id": "lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1",
       "record_page_path": "records/lin2003-1-1594285-ten-stacked-self-assembled-inas-gaas-qua-1.html",
@@ -581599,6 +581802,202 @@
         "missing_categories": [
           "quantified_recipe_and_ordered_conditions",
           "reported_dimensions",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-1::display",
+      "record_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-1",
+      "record_page_path": "records/singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-1.html",
+      "source_group": "singhal2004-b-hype-0000043205-63937-22",
+      "title": "SONAL SINGHAL (2004): Ni0.5Zn0.5Fe2O4",
+      "doi": "10.1023/b:hype.0000043205.63937.22",
+      "year": 2004,
+      "method": "Aerosol",
+      "recipe_label": "SONAL SINGHAL (2004): Ni0.5Zn0.5Fe2O4",
+      "sample_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-1--product",
+      "source_sample_label": "Ni0.5Zn0.5Fe2O4",
+      "composition": {
+        "value": "Ni0.5Zn0.5Fe2O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "singhal2004-b-hype-0000043205-63937-22",
+            "locator": "Main PDF p.1"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "singhal2004-b-hype-0000043205-63937-22",
+          "locator": "Main PDF p.2"
+        }
+      ],
+      "product_structure_fields": [
+        {
+          "kind": "morphology",
+          "value": {
+            "value": "sphere",
+            "status": "reported",
+            "evidence": [
+              {
+                "source_id": "singhal2004-b-hype-0000043205-63937-22",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "note": ""
+          }
+        }
+      ],
+      "structural_measurements": [
+        {
+          "measurement_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-1--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 16,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "16 nm",
+            "evidence": [
+              {
+                "source_id": "singhal2004-b-hype-0000043205-63937-22",
+                "locator": "Main PDF p.1"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "singhal2004-b-hype-0000043205-63937-22",
+              "locator": "Main PDF p.1"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": true,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reference_unit_cell_available"
+        ],
+        "reference_ids": [],
+        "quantified_input_evidence": {
+          "material_ids": [],
+          "fields": [],
+          "scope": "Source-backed quantitative input fields present in the record. This does not establish that all reagent charges are known or that the recipe is complete."
+        },
+        "qualification": "Documentation categories only. A reference cell is not a measured sample structure; missing details, source conflicts and task-specific eligibility remain in the source record."
+      }
+    },
+    {
+      "pair_row_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-annealed-at-1000c-2::display",
+      "record_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-annealed-at-1000c-2",
+      "record_page_path": "records/singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-annealed-at-1000c-2.html",
+      "source_group": "singhal2004-b-hype-0000043205-63937-22",
+      "title": "SONAL SINGHAL (2004): Ni0.5Zn0.5Fe2O4 (annealed at 1000°C)",
+      "doi": "10.1023/b:hype.0000043205.63937.22",
+      "year": 2004,
+      "method": "Annealing",
+      "recipe_label": "SONAL SINGHAL (2004): Ni0.5Zn0.5Fe2O4 (annealed at 1000°C)",
+      "sample_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-annealed-at-1000c-2--product",
+      "source_sample_label": "Ni0.5Zn0.5Fe2O4 (annealed at 1000°C)",
+      "composition": {
+        "value": "Ni0.5Zn0.5Fe2O4",
+        "status": "reported",
+        "evidence": [
+          {
+            "source_id": "singhal2004-b-hype-0000043205-63937-22",
+            "locator": "Main PDF p.3"
+          }
+        ],
+        "note": ""
+      },
+      "recipe_link": "explicit",
+      "recipe_link_evidence": [
+        {
+          "source_id": "singhal2004-b-hype-0000043205-63937-22",
+          "locator": "Main PDF p.3"
+        }
+      ],
+      "product_structure_fields": [],
+      "structural_measurements": [
+        {
+          "measurement_id": "singhal2004-b-hype-0000043205-63937-22-ni0-5zn0-5fe2o4-annealed-at-1000c-2--size",
+          "property": "diameter",
+          "descriptor_field": "morphology.dimensions",
+          "value": {
+            "value": 80,
+            "minimum": null,
+            "maximum": null,
+            "unit": "nm",
+            "status": "reported",
+            "approximate": false,
+            "qualifier": "",
+            "basis": "",
+            "raw_text": "80 nm",
+            "evidence": [
+              {
+                "source_id": "singhal2004-b-hype-0000043205-63937-22",
+                "locator": "Main PDF p.3"
+              }
+            ],
+            "derivation": null
+          },
+          "technique": "TEM",
+          "conditions": "",
+          "evidence": [
+            {
+              "source_id": "singhal2004-b-hype-0000043205-63937-22",
+              "locator": "Main PDF p.3"
+            }
+          ]
+        }
+      ],
+      "review_status": "source_extracted",
+      "display_pair_basis": "one_record",
+      "cross_record_sample_deduplication": "not_assessed",
+      "documentation": {
+        "category": "partial",
+        "checks": {
+          "quantified_recipe_and_ordered_conditions": false,
+          "reported_phase": false,
+          "reported_morphology": false,
+          "reported_dimensions": true,
+          "reference_unit_cell_available": false
+        },
+        "missing_categories": [
+          "quantified_recipe_and_ordered_conditions",
+          "reported_phase",
+          "reported_morphology",
           "reference_unit_cell_available"
         ],
         "reference_ids": [],

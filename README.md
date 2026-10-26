@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **2624 primary source groups** · release `source7-generated-raw-lifecycle-20261026`. Records are not independent experiments.
+Dataset **0.41.2** · **2627 primary source groups** · release `simple-source8-reader-marker-20261026`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1007_s11051-010-0042-z. [10.1007/s11051-010-0042-z](https://doi.org/10.1007/s11051-010-0042-z). Review scope remains stated in the linked website records.
 
@@ -256,6 +256,8 @@ Dataset **0.41.2** · **2624 primary source groups** · release `source7-generat
 - M. Kopcewicz; A. Grabias; I. Škorvánek (1998). Study of the nanocrystalline Fe73.5Nb4.5Cr5Cu1B16 alloy by the radio-frequency-Mössbauer technique. [10.1063/1.366781](https://doi.org/10.1063/1.366781). Review scope remains stated in the linked website records.
 
 - Emmanuel Scolan and Clément Sanchez (1998). Synthesis and Characterization of Surface-Protected Nanocrystalline Titania Particles. [10.1021/cm980322q](https://doi.org/10.1021/cm980322q). Review scope remains stated in the linked website records.
+
+- DETLEF BURGARD, CHRISTIAN GOEBBERT AND RUDIGER NASS (1998). Synthesis of Nanocrystalline, Redispersable Antimony-Doped SnO2 Particles for the Preparation of Conductive, Transparent Coatings. [10.1023/a:1008682014444](https://doi.org/10.1023/a:1008682014444). Review scope remains stated in the linked website records.
 
 - M. Blouin, D. Guay, J. Huot, R. Schulz, I. P. Swainson (1998). X-ray and Neutron Diffraction Study of Nanocrystalline Ti−Ru−Fe−O Compounds. [10.1021/cm980272p](https://doi.org/10.1021/cm980272p). Review scope remains stated in the linked website records.
 
@@ -823,6 +825,8 @@ Dataset **0.41.2** · **2624 primary source groups** · release `source7-generat
 
 - C. Fischer, C. Rodig, W. Haßler, O. Perner, J. Eckert, K. Nenkov, G. Fuchs, H. Wendrock, B. Holzapfel, and L. Schultz (2003). Preparation of MgB2 tapes using a nanocrystalline partially reacted precursor. [10.1063/1.1606498](https://doi.org/10.1063/1.1606498). Review scope remains stated in the linked website records.
 
+- Lin CAO; Yingke ZHOU; Mei LU; Hulin LI (2003). Preparation of nanocrystalline Co3O4 and its properties as supercapacitors. [10.1360/02wb0203](https://doi.org/10.1360/02wb0203). Review scope remains stated in the linked website records.
+
 - W. W. Wu, J. H. He, S. L. Cheng, S. W. Lee, and L. J. Chen (2003). Self-assembled NiSi quantum-dot arrays on epitaxial Si0.7Ge0.3 on (001)Si. [10.1063/1.1605242](https://doi.org/10.1063/1.1605242). Review scope remains stated in the linked website records.
 
 - J. Seufert, M. Rambach, G. Bacher, A. Forchel, T. Passow, D. Hommel (2003). Single-electron charging of a self-assembled II–VI quantum dot. [10.1063/1.1580632](https://doi.org/10.1063/1.1580632). Review scope remains stated in the linked website records.
@@ -1060,6 +1064,8 @@ Dataset **0.41.2** · **2624 primary source groups** · release `source7-generat
 - Nick S. Norberg; Kevin R. Kittilstved; James E. Amonette; Ravi K. Kukkadapu; Dana A. Schwartz; Daniel R. Gamelin (2004). Synthesis of Colloidal Mn2+:ZnO Quantum Dots and High-TC Ferromagnetic Nanocrystalline Thin Films. *Journal of the American Chemical Society*, 126, 9387–9398. [10.1021/ja048427j](https://doi.org/10.1021/ja048427j). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=norberg2004).
 
 - V. F. Petrunin; V. V. Popov; Zhu Hongzhi; A. A. Timofeev (2004). Synthesis of Nanocrystalline High-Temperature Zirconia Phases. [10.1023/b:inma.0000020523.89340.46](https://doi.org/10.1023/b:inma.0000020523.89340.46). Review scope remains stated in the linked website records.
+
+- SONAL SINGHAL, A. N. GARG and KAILASH CHANDRA (2004). Synthesis of Nanocrystalline Ni0.5Zn0.5Fe2O4 by Aerosol Route and Its Characterization. [10.1023/b:hype.0000043205.63937.22](https://doi.org/10.1023/b:hype.0000043205.63937.22). Review scope remains stated in the linked website records.
 
 - Joong-Hee Nam, Won Ki Kim, and Sang Jin Park (2004). Synthesis of nanocrystalline Ni ferrite as a superparamagnetic material. [10.1002/pssa.200304638](https://doi.org/10.1002/pssa.200304638). Review scope remains stated in the linked website records.
 
