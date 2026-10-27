@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **2637 primary source groups** · release `simple-source9-particles37-20261026`. Records are not independent experiments.
+Dataset **0.41.2** · **2638 primary source groups** · release `simple-source10-particles38-20261026`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1007_s11051-010-0042-z. [10.1007/s11051-010-0042-z](https://doi.org/10.1007/s11051-010-0042-z). Review scope remains stated in the linked website records.
 
@@ -4542,6 +4542,8 @@ Dataset **0.41.2** · **2637 primary source groups** · release `simple-source9-
 - Yiling Quan, Guoxiang Wang, Lu Lu, Zhixin Wang, Hongfeng Xu, Sa Liu, Dazhi Wang (2020). High-performance pseudo-capacitor energy storage device based on a hollow-structured copper sulfide nanoflower and carbon quantum dot nanocomposite. [10.1016/j.electacta.2020.136606](https://doi.org/10.1016/j.electacta.2020.136606). Review scope remains stated in the linked website records.
 
 - You-Xiao Chen; Dong Lu; Gui-Gen Wang; Jiashun Huangfu; Qi-Bao Wu; Xiao-Fei Wang; Long-Fei Liu; Da-Ming Ye; Bo Yan; Jiecai Han (2020). Highly Efficient Orange Emissive Graphene Quantum Dots Prepared by Acid-Free Method for White LEDs. [10.1021/acssuschemeng.0c00106](https://doi.org/10.1021/acssuschemeng.0c00106). Review scope remains stated in the linked website records.
+
+- Qiujun Lu; Hu Dong; Jiali Hu; Linna Huang; Youyu Zhang; Mingxia Li; Meiling Liu; Yaqian Li; Cuiyan Wu; Haitao Li (2020). Insight into the Effect of Ligands on the Optical Properties of Germanium Quantum Dots and Their Applications in Persistent Cell Imaging. [10.1021/acs.langmuir.0c02477](https://doi.org/10.1021/acs.langmuir.0c02477). Review scope remains stated in the linked website records.
 
 - Shijie Zhan; Xiang-Bing Fan; Jiangbin Zhang; Jiajie Yang; Sang Yun Bang; Soo Deok Han; Dong-Wook Shin; Sanghyo Lee; Hyung Woo Choi; Xiaozhi Wang; Bo Hou; Luigi G. Occhipinti; Jong Min Kim (2020). Lattice marginal reconstruction-enabled high ambient-tolerance perovskite quantum dot phototransistors. [10.1039/d0tc03838e](https://doi.org/10.1039/d0tc03838e). Review scope remains stated in the linked website records.
 
