@@ -7,7 +7,7 @@ MatterSyn organizes source-attributed synthesis, characterization and property r
 <!-- mattersyn-generated-references:start -->
 ## Papers used in the published website
 
-Dataset **0.41.2** · **2721 primary source groups** · release `particles41-bulk41-20261027`. Records are not independent experiments.
+Dataset **0.41.2** · **2724 primary source groups** · release `particles3-after41-20261028`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1007_s11051-010-0042-z. [10.1007/s11051-010-0042-z](https://doi.org/10.1007/s11051-010-0042-z). Review scope remains stated in the linked website records.
 
@@ -501,6 +501,8 @@ Dataset **0.41.2** · **2721 primary source groups** · release `particles41-bul
 
 - A. E. Belyaev, S. T. Stoddart, P. M. Martin, P. C. Main, L. Eaves, and M. Henini (2000). Positively charged defects associated with self-assembled quantum dot formation. [10.1063/1.126709](https://doi.org/10.1063/1.126709). Review scope remains stated in the linked website records.
 
+- P. Michler, A. Imamoglu, M. D. Mason, P. J. Carson, G. F. Strouse, S. K. Buratto (2000). Quantum correlation among photons from a single quantum dot at room temperature. [10.1038/35023100](https://doi.org/10.1038/35023100). Review scope remains stated in the linked website records.
+
 - L. Artu´s, R. Cusco´, S. Herna´ndez, A. Patane`, A. Polimeni, M. Henini, L. Eaves (2000). Quantum-dot phonons in self-assembled InAs/GaAs quantum dots: Dependence on the coverage thickness. [10.1063/1.1329157](https://doi.org/10.1063/1.1329157). Review scope remains stated in the linked website records.
 
 - Weixin Zhang; Cheng Wang; Lei Zhang; Xiaoming Zhang; Xianming Liu; Kaibin Tang; Yitai Qian (2000). Room Temperature Synthesis of Cubic Nanocrystalline CdSe in Aqueous Solution. *Journal of Solid State Chemistry*, 151, 241–244. [10.1006/jssc.2000.8646](https://doi.org/10.1006/jssc.2000.8646). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhang2000-cdse-jssc20008646).
@@ -882,6 +884,8 @@ Dataset **0.41.2** · **2721 primary source groups** · release `particles41-bul
 - Yueming Qiu, David Uhl, Rebecca Chacon, and Rui Q. Yang (2003). Lasing characteristics of InAs quantum-dot lasers on (001) InP substrate. [10.1063/1.1606501](https://doi.org/10.1063/1.1606501). Review scope remains stated in the linked website records.
 
 - R. Banerjee, E. A. Sperling, G. B. Thompson, H. L. Fraser, S. Bose, P. Ayyub (2003). Lattice expansion in nanocrystalline niobium thin films. [10.1063/1.1582361](https://doi.org/10.1063/1.1582361). Review scope remains stated in the linked website records.
+
+- Yangqiao Liu and Lian Gao (2003). Low-Temperature Synthesis of Nanocrystalline Yttrium Aluminum Garnet Powder Using Triethanolamine. [10.1111/j.1151-2916.2003.tb03535.x](https://doi.org/10.1111/j.1151-2916.2003.tb03535.x). Review scope remains stated in the linked website records.
 
 - E. De la Rosa-Cruz; L. A. Dı́az-Torres; R. A. Rodrı́guez-Rojas; M. A. Meneses-Nava; O. Barbosa-Garcı́a; P. Salas (2003). Luminescence and visible upconversion in nanocrystalline ZrO2:Er3+. [10.1063/1.1632020](https://doi.org/10.1063/1.1632020). Review scope remains stated in the linked website records.
 
@@ -1552,6 +1556,8 @@ Dataset **0.41.2** · **2721 primary source groups** · release `particles41-bul
 - Sang Soo Kim, Won-Ju Cho, Chang-Geun Ahn, Kiju Im, Jong-Heon Yang, In-Bok Baek, Seongjae Lee, Koeng Su Lim (2006). Fabrication of fin field-effect transistor silicon nanocrystal floating gate memory using photochemical vapor deposition. [10.1063/1.2208268](https://doi.org/10.1063/1.2208268). Review scope remains stated in the linked website records.
 
 - Michael J. Murcia; David L. Shaw; Heather Woodruff; Christoph A. Naumann; Bruce A. Young; Eric C. Long (2006). Facile Sonochemical Synthesis of Highly Luminescent ZnS−Shelled CdSe Quantum Dots. [10.1021/cm0505547](https://doi.org/10.1021/cm0505547). Review scope remains stated in the linked website records.
+
+- Yanting Li, Cuihong Song, Yuzhu Hu, Yongju Wei, Yu Wei (2006). Facile Template-free Alcohothermal Route to Synthesize Hollow TiO2 Microspheres with Nanocrystal Grain Structure. [10.1246/cl.2006.1344](https://doi.org/10.1246/cl.2006.1344). Review scope remains stated in the linked website records.
 
 - Songwang Yang; Lian Gao (2006). Facile and Surfactant‐Free Route to Nanocrystalline Mesoporous Tin Oxide. [10.1111/j.1551-2916.2006.00947.x](https://doi.org/10.1111/j.1551-2916.2006.00947.x). Review scope remains stated in the linked website records.
 
