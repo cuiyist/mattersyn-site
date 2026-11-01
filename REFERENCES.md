@@ -2,7 +2,7 @@
 
 ## Papers used in the published website
 
-Dataset **0.41.2** · **2891 primary source groups** · release `source23-hap1-20261031`. Records are not independent experiments.
+Dataset **0.41.2** · **2894 primary source groups** · release `source24-particles3-etch-20261031-r4`. Records are not independent experiments.
 
 - not reported (year unrecorded). 10.1007_s11051-010-0042-z. [10.1007/s11051-010-0042-z](https://doi.org/10.1007/s11051-010-0042-z). Review scope remains stated in the linked website records.
 
@@ -87,6 +87,8 @@ Dataset **0.41.2** · **2891 primary source groups** · release `source23-hap1-2
 - Da-Peng Xu; Xiao Tong; Wen-hui Su; Liang-Zhi Xiao; Shou-Tian Li (1994). Structure and Magnetic Properties of CdS Nanocrystalline Materials Synthesized Under High Static Pressure. [10.1063/1.46441](https://doi.org/10.1063/1.46441). Review scope remains stated in the linked website records.
 
 - V. G. Harris; F. H. Kaatz; V. Browning; D. J. Gillespie; R. K. Everett; A. M. Ervin; W. T. Elam; A. S. Edelstein (1994). Structure and magnetism of heat-treated nanocrystalline Cu80Co20 powders prepared via chemical means. [10.1063/1.356914](https://doi.org/10.1063/1.356914). Review scope remains stated in the linked website records.
+
+- J. E. Bowen Katari; V. L. Colvin; A. P. Alivisatos (1994). X-ray Photoelectron Spectroscopy of CdSe Nanocrystals with Applications to Studies of the Nanocrystal Surface. [10.1021/j100066a034](https://doi.org/10.1021/j100066a034). Review scope remains stated in the linked website records.
 
 - Yanchun Zhou; Richard J. Phillips; Jay A. Switzer (1995). Electrochemical Synthesis and Sintering of Nanocrystalline Cerium(IV) Oxide Powders. *Journal of the American Ceramic Society*, 78, 981–985. [10.1111/j.1151-2916.1995.tb08425.x](https://doi.org/10.1111/j.1151-2916.1995.tb08425.x). [Source review and scope](https://cuiyist.github.io/mattersyn-site/paper-review.html?id=zhou1995-ceo2-tb08425).
 
@@ -5342,6 +5344,8 @@ Dataset **0.41.2** · **2891 primary source groups** · release `source23-hap1-2
 
 - Xiaolan Zhou; Chaodan Pu (2023). Proton Shuttle-Assisted Surface Reconstruction toward Nonpolar Facets-Terminated Zinc-Blende CdSe/CdS Core/Shell Quantum Dots. [10.1021/jacs.3c09413](https://doi.org/10.1021/jacs.3c09413). Review scope remains stated in the linked website records.
 
+- Nakara Bhawawet; Luis Polo-Parada; Piyuni Ishtaweera; Nathaniel E. Larm; Gary A. Baker (2023). Purposefully Designed Surfactants for Facile and Controllable Gold Colloidal Nanocrystal Synthesis. [10.1021/acsomega.3c05795](https://doi.org/10.1021/acsomega.3c05795). Review scope remains stated in the linked website records.
+
 - Qian-Hui Liu; Meng-Tong Zhang; Yi-Yao Han; Mo Zhang; Zhan-Hui Zhang (2023). Recyclable Copper Indium Sulfide Quantum Dots for Photocatalytic Homocoupling of Arenediazonium Tetrafluoroborates. [10.1021/acssuschemeng.3c05163](https://doi.org/10.1021/acssuschemeng.3c05163). Review scope remains stated in the linked website records.
 
 - Nasrin Sultana; Annabelle Degg; Kangkan Jyoti Goswami; Bedanta Gogoi; Tom Nilges; Neelotpal Sen Sarma (2023). Reduced Phosphorene Quantum Dot Incorporated Flexible Bio-Electronic Device for the Detection of Uric Acid in Real Media. [10.1021/acsaelm.2c01528](https://doi.org/10.1021/acsaelm.2c01528). Review scope remains stated in the linked website records.
@@ -5569,6 +5573,8 @@ Dataset **0.41.2** · **2891 primary source groups** · release `source23-hap1-2
 - Takahiro Seto; Taro Takayama; Yasushi Hamanaka; Toshihiro Kuzuya (2025). Development of Luminescence Transformation Ability of Band-Edge Emissive AgInS2 Quantum Dots via Low-Temperature Ligand Treatment. [10.1021/acs.jpcc.5c02041](https://doi.org/10.1021/acs.jpcc.5c02041). Review scope remains stated in the linked website records.
 
 - Jisu Kwon; Wonseok Lee; Yoonbin Shin; Jaelim Kim; Yunmo Sung; Eunsung Lee; Sungjee Kim (2025). Discrete Cation Exchange in Ag–Au–S Quantum Dots Using Reactivity Engineered Cation Precursors. [10.1021/acsnano.5c14864](https://doi.org/10.1021/acsnano.5c14864). Review scope remains stated in the linked website records.
+
+- Ming Lai, Linfeng Wei, Meiqi Lin, Haoyuan Zhang, Yuduo Zhou, Da Wang, Lei Shi, and Zhenyu Yang (2025). Dopant-Assisted Crystallization Enables Germanium Quantum Dots with Enhanced Product Yields and Optoelectronic Properties. [10.1021/jacs.5c00423](https://doi.org/10.1021/jacs.5c00423). Review scope remains stated in the linked website records.
 
 - Lamia Hidayatova; Chenjia Mi; Novruz G. Akhmedov; Yuan Liu; Arjumand K. Shafiq; Hadi Afshari; Nishya Mohamed-Raseek; Dilruba A. Popy; Sisi Xiang; Yi-Chen Chen; Bayram Saparov; John W. Peters; Dmitri V. Talapin; Bin Chen; Madalina Furis; Evan R. Glaser; Yitong Dong (2025). Efficient Mn 2+ Doping in Non-Stoichiometric Cesium Lead Bromide Perovskite Quantum Dots. [10.1021/jacs.5c12086](https://doi.org/10.1021/jacs.5c12086). Review scope remains stated in the linked website records.
 
